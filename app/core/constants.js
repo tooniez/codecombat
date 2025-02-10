@@ -3,6 +3,7 @@
 const utils = require('./utils') // eslint-disable-line
 
 const STARTER_LICENSE_COURSE_IDS = [
+  '65f32b6c87c07dbeb5ba1936', // Junior
   '560f1a9f22961295f9427742', // Introduction to Computer Science
   '5632661322961295f9428638', // Computer Science 2
   '5789587aad86a6efb573701e', // Game Development 1
@@ -50,6 +51,7 @@ const LICENSE_PRESETS = {
 }
 
 const FREE_COURSE_IDS = [
+  '65f32b6c87c07dbeb5ba1936', // Junior
   '560f1a9f22961295f9427742' // Introduction to Computer Science
 ]
 
@@ -80,6 +82,11 @@ const ESPORTS_PRODUCT_STATS = {
   }
 }
 
+const GLOBAL_AI_LEAGUE_CREATORS = [
+  '512ef4805a67a8c507000001', // nick
+  '63e0d3551e18c6002505057c', // valent
+]
+
 const LEADERBOARDNAME = {
   FULLNAME: 'fullName',
   ANONYMOUS: 'anonymous',
@@ -91,6 +98,20 @@ const HTML5_FMT_DATE_LOCAL = 'YYYY-MM-DD'
 const HTML5_FMT_TIME_LOCAL = 'hh:mm A'
 
 const ANNOUNCEMENT_LIMIT = 11 // fetch 11 and display 10 only, so that we can check if all announcements loaded
+
+const CODE_FORMAT_ALL = ['text-code', 'blocks-and-code', 'blocks-text', 'blocks-icons']
+const CODE_FORMAT_BLOCKS = ['blocks-and-code', 'blocks-text', 'blocks-icons']
+const CODE_FORMAT_IPAD = ['blocks-text', 'blocks-icons']
+const CODE_FORMAT_TEXT = ['text-code', 'blocks-and-code']
+const JUNIOR_LANGUAGES = ['python', 'javascript']
+
+const ARENA_CURRICULUM = {
+  equinox: 'https://drive.google.com/drive/folders/16lYF5Bt_WupEUv9rNfTN_byL8DSJK3iX?usp=drive_link',
+  'tundra-tower': 'https://drive.google.com/drive/folders/1xhl8oMNLU5gwuEChg1wCair2VKK-A3ln?usp=drive_link',
+  sandstorm: 'https://drive.google.com/drive/folders/1gXBG1tpuAhYkJKX5GvvHZHX48duPnZ7O?usp=drive_link'
+}
+
+const USER_CREDIT_HACKSTACK_KEY = 'HACKSTACK_QUERY'
 
 module.exports = {
   STARTER_LICENSE_COURSE_IDS,
@@ -105,5 +126,13 @@ module.exports = {
   HTML5_FMT_DATE_LOCAL,
   HTML5_FMT_TIME_LOCAL,
   LEADERBOARDNAME,
-  ANNOUNCEMENT_LIMIT
+  ANNOUNCEMENT_LIMIT,
+  CODE_FORMAT_ALL,
+  CODE_FORMAT_BLOCKS,
+  CODE_FORMAT_IPAD,
+  CODE_FORMAT_TEXT,
+  JUNIOR_LANGUAGES,
+  ARENA_CURRICULUM,
+  USER_CREDIT_HACKSTACK_KEY,
+  GLOBAL_AI_LEAGUE_CREATORS,
 }

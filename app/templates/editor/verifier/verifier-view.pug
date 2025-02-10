@@ -34,13 +34,24 @@ block content
               input(id=campaignID, type="checkbox", checked=campaignInfo.checked, disabled=!!view.testsByLevelAndLanguage)
               label(for=campaignID)= campaign + ': ' + campaignInfo.levels.length
         .row
-          each codeLanguage in view.codeLanguages
+          each codeLanguage in view.codeLanguages || []
             .form-group.code-language-mix
               - var codeLanguageID = "code-language-" + codeLanguage.id + "-checkbox";
               input(id=codeLanguageID, type="checkbox", checked=codeLanguage.checked, disabled=!!view.testsByLevelAndLanguage)
               label(for=codeLanguageID)= codeLanguage.id
           .pull-right
             button.btn.btn-primary#go-button(disabled=!!view.testsByLevelAndLanguage) Start Tests
+        .row
+          .form-group
+            input(id='enable-fuzzy-verifier' type='checkbox')
+            label(for='enable-fuzzy-verifier') Enable Fuzzy Verifier
+          .form-group
+            label(for='fuzzy-batch-skip') Skip
+            input(id='fuzzy-batch-skip' type='number' step="1")
+          .form-group
+            label(for='fuzzy-batch-limit') Limit
+            input(id='fuzzy-batch-limit' type='number' step="1")
+
 
     if view.levelsToLoad && !view.testsByLevelAndLanguage
       .progress
@@ -65,7 +76,7 @@ block content
               if !test.level
                 h2 Loading Level...
                 - continue
-              .test(data-test-slug=test.level.get('slug'), data-test-language=test.language, data-test-status=test.isSuccessful() ? 'success' : test.goals ? 'failure' : 'pending')
+              .test(data-test-slug=test.level.get('slug'), data-test-language=test.language, data-test-status=test.isSuccessful(view.careAboutFrames) ? 'success' : test.goals ? 'failure' : 'pending')
                 .pull-right
                   - var last = test.level.get('slug') + view.linksQueryString
                   a.btn.btn-primary(href="/editor/verifier/" + last) Focus
@@ -76,14 +87,14 @@ block content
                 if !test.goals
                   h2.test-running= test.level.get('name')
                     small= ' in ' + test.language + (test.solution.transpiled ? ' (transpiled)' : '') + ' ' + test.simpleDescription + ' - running'
-                else if test.isSuccessful()
+                else if test.isSuccessful(view.careAboutFrames)
                   h2.test-success= test.level.get('name')
                     small= ' in ' + test.language + (test.solution.transpiled ? ' (transpiled)' : '') + ' ' + test.simpleDescription + ' - success'
                 else
                   h2.test-failed= test.level.get('name')
                     small= ' in ' + test.language + (test.solution.transpiled ? ' (transpiled)' : '') + ' ' + test.simpleDescription + ' - failure'
 
-                div.row(class=(test.isSuccessful() && !test.error ? 'collapse' : 'collapse in'), id='verifier-test-' + test.level.get('slug') + '-' + test.language + '-' + id)
+                div.row(class=(test.isSuccessful(view.careAboutFrames) && !test.error ? 'collapse' : 'collapse in'), id='verifier-test-' + test.level.get('slug') + '-' + test.language + '-' + id)
                   div.col-xs-8
                     if test.solution
                       pre.solution #{test.solution.source}
@@ -125,3 +136,7 @@ block content
                         div.test-running ~ #{test.simulationFrameRate.toFixed(1)} FPS
                       else
                         div.test-failed ✘ #{test.simulationFrameRate.toFixed(1)} FPS
+                if test.fuzzyResults
+                  div.row.fuzzy-results
+                    span Suggest new ClampedProperties: 
+                    span= JSON.stringify(test.fuzzyResults)

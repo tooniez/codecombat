@@ -60,12 +60,13 @@ module.exports = (VerifierView = (function () {
       }
 
       this.cores = window.navigator.hardwareConcurrency || 4
-      this.careAboutFrames = true
+      this.careAboutFrames = utils.getQueryVariable('frames', true)
+
+      this.testLanguages = (utils.getQueryVariable('languages') || 'python,javascript,java,cpp,lua,coffeescript').split(',')
+      this.codeLanguages = this.testLanguages.map((c) => ({ id: c, checked: true }))
 
       if (this.levelID) {
         this.levelIDs = [this.levelID]
-        this.testLanguages = ['python', 'javascript', 'java', 'cpp', 'lua', 'coffeescript']
-        this.codeLanguages = (Array.from(this.testLanguages).map((c) => ({ id: c, checked: true })))
         this.cores = 1
         this.startTestingLevels()
       } else {
@@ -103,7 +104,7 @@ module.exports = (VerifierView = (function () {
               const object = campaign.get('levels')
               for (const levelID in object) { // Would use isType, but it's not a Level model
                 const level = object[levelID]
-                if (!['hero-ladder', 'course-ladder', 'web-dev', 'ladder'].includes(level.type)) {
+                if (!['hero-ladder', 'course-ladder', 'web-dev', 'ladder'].includes(level.type) && !(campaign.get('slug') === 'junior' && /-[a-z]$/.test(level.slug))) {
                   result1.push(campaignInfo.levels.push(level.slug))
                 }
               }
@@ -117,7 +118,7 @@ module.exports = (VerifierView = (function () {
 
     filterCodeLanguages () {
       const defaultLanguages = utils.getQueryVariable('languages', 'python,javascript').split(/, ?/)
-      return this.codeLanguages != null ? this.codeLanguages : (this.codeLanguages = (['python', 'javascript', 'java', 'cpp', 'lua', 'coffeescript'].map((c) => ({ id: c, checked: Array.from(defaultLanguages).includes(c) }))))
+      this.codeLanguage = this.codeLanguages || ['python', 'javascript', 'java', 'cpp', 'lua', 'coffeescript'].map(c => ({ id: c, checked: defaultLanguages.includes(c) }))
     }
 
     onClickGoButton (e) {
@@ -143,6 +144,13 @@ module.exports = (VerifierView = (function () {
         } else {
           codeLanguage.checked = false
         }
+      }
+
+      this.enableFuzzy = this.$('#enable-fuzzy-verifier').is(':checked')
+      if (this.enableFuzzy) {
+        this.skip = this.$('#fuzzy-batch-skip').val() || 0
+        this.limit = this.$('#fuzzy-batch-limit').val() || 1
+        this.levelIDs = this.levelIDs.splice(this.skip, this.limit)
       }
       return this.startTestingLevels()
     }
@@ -181,12 +189,10 @@ module.exports = (VerifierView = (function () {
       for (const levelID of Array.from(this.levelIDs)) {
         level = this.supermodel.getModel(Level, levelID)
         for (const codeLanguage of Array.from(this.testLanguages)) {
-          var left
-          let solutions = _.filter((left = (level != null ? level.getSolutions() : undefined)) != null ? left : [], { language: codeLanguage })
+          let solutions = _.filter((level?.getSolutions() || []), { language: codeLanguage })
           // If there are no target language solutions yet, generate them from JavaScript.
           if (['cpp', 'java', 'python', 'lua', 'coffeescript'].includes(codeLanguage) && (solutions.length === 0)) {
-            var left1
-            const transpiledSolutions = _.filter((left1 = (level != null ? level.getSolutions() : undefined)) != null ? left1 : [], { language: 'javascript' })
+            const transpiledSolutions = _.filter((level?.getSolutions() || []), { language: 'javascript' })
             for (const s of Array.from(transpiledSolutions)) {
               s.language = codeLanguage
               s.source = translateUtils.translateJS(s.source, codeLanguage)
@@ -239,14 +245,14 @@ module.exports = (VerifierView = (function () {
                 return next()
               }
             }
-            , chunkSupermodel, task.language, { solution: task.solution })
+            , chunkSupermodel, task.language, { solution: task.solution, enableFuzzyVerifier: this.enableFuzzy })
             this.tests.push(test)
             if (this.testsByLevelAndLanguage[task.level] == null) { this.testsByLevelAndLanguage[task.level] = {} }
             if (this.testsByLevelAndLanguage[task.level][task.language] == null) { this.testsByLevelAndLanguage[task.level][task.language] = [] }
             this.testsByLevelAndLanguage[task.level][task.language].push(test)
             this.renderSelectors(`.tasks-group[data-task-slug='${task.level}'][data-task-language='${task.language}']`)
             this.renderSelectors('.verifier-row')
-            return this.renderSelectors('.progress')
+            this.renderSelectors('.progress')
           }
           , () => {
             if (!this.testsRemaining()) {

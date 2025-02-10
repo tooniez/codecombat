@@ -32,6 +32,14 @@ export default {
       type: String,
       required: true
     },
+    dateStart: {
+      type: String,
+      default: ''
+    },
+    dateEnd: {
+      type: String,
+      default: ''
+    },
     // TODO: CodeCamel isn't set when spying with administrator teacher.
     codeCamel: {
       type: String,
@@ -48,6 +56,10 @@ export default {
     sharePermission: {
       type: String,
       default: undefined
+    },
+    classType: {
+      type: String,
+      default: ''
     }
   },
   methods: {
@@ -82,8 +94,11 @@ export default {
             :language="language"
             :num-students="numStudents"
             :date-created="dateCreated"
+            :date-start="dateStart"
+            :date-end="dateEnd"
             :share-permission="sharePermission"
             :archived="archived"
+            :class-type="classType"
           />
         </router-link>
         <div
@@ -97,8 +112,11 @@ export default {
             :language="language"
             :num-students="numStudents"
             :date-created="dateCreated"
+            :date-start="dateStart"
+            :date-end="dateEnd"
             :share-permission="sharePermission"
             :archived="archived"
+            :class-type="classType"
           />
         </div>
         <div
@@ -198,6 +216,9 @@ export default {
   h2 {
     @include font-h-4-nav-uppercase-black;
     padding-right: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
   }
 
   #class-summary-row {

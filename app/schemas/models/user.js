@@ -1,18 +1,7 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 const c = require('./../schemas')
 const { FeatureAuthoritySchema, FeatureRecipientSchema } = require('./feature.schema')
 
 const emailSubscriptions = ['announcement', 'tester', 'level_creator', 'developer', 'article_editor', 'translator', 'support', 'notification']
-
-/*
-SCHEMA WARNING
-
-Any changes made to this schema need to be shared on the Ozaria user schema.
-Both products share the same database collection and currently duplicating
-changes is how we can avoid validation errors as the user traverses between
-the two products.
-*/
 
 const UserSchema = c.object({
   title: 'User',
@@ -221,7 +210,8 @@ _.extend(UserSchema.properties, {
     behaviors: { type: 'boolean' },
     liveCompletion: { type: 'boolean' },
     screenReaderMode: { type: 'boolean' },
-    blocks: { type: 'boolean' }
+    codeFormat: { type: 'string', enum: ['blocks-icons', 'blocks-text', 'blocks-and-code', 'text-code'], description: 'Default code format option. Default if unset: text-code.' },
+    preferWideEditor: { type: 'boolean', description: 'Whether the user prefers a wide editor.' }
   }),
 
   simulatedBy: { type: 'integer', minimum: 0 },
@@ -246,7 +236,7 @@ _.extend(UserSchema.properties, {
 
   points: { type: 'number' },
   activity: { type: 'object', description: 'Summary statistics about user activity', additionalProperties: c.activity },
-  stats: c.object({ additionalProperties: false }, {
+  stats: c.object({ additionalProperties: true }, {
     gamesCompleted: c.int(),
     articleEdits: c.int(),
     levelEdits: c.int(),
@@ -413,6 +403,16 @@ _.extend(UserSchema.properties, {
   seenNewDashboardModal: { type: 'boolean', description: 'Whether the user has seen the new dashboard onboarding modal? Set to true after the modal is seen and closed by the user' }, // Ozaria
   closedNewTDGetStartedTooltip: { type: 'boolean', description: 'Whether the user has closed the get started tooltip in the new dashboard? Set to true once the user has dismissed the tooltip' }, // Ozaria
 
+  seenPromotions: {
+    type: 'object',
+    properties: {
+      'hackstack-beta-release-modal': [c.date(), { type: 'boolean' }],
+      'curriculum-sidebar-promotion-modal': [c.date(), { type: 'boolean' }],
+      'hp-junior-modal': [c.date(), { type: 'boolean' }],
+      'ai-league-tour': [c.date(), { type: 'boolean' }],
+    }
+  },
+
   features: {
     type: 'object',
     title: 'Feature Flags',
@@ -428,7 +428,13 @@ _.extend(UserSchema.properties, {
         description: 'Features flags applied to this user',
         // key is the feature id
         additionalProperties: FeatureRecipientSchema
-      }
+      },
+      isNewDashboardActive: {
+        type: 'boolean'
+      },
+      ownerDistrictId: c.objectId({ description: 'District ID where user has admin permission to view data like outcome reports' }),
+      syncedToSF: { type: 'boolean', description: 'Whether the user has been synced to Salesforce' },
+      syncedToCIO: { type: 'boolean', description: 'Whether the user has been synced to CIO' }
     }
   },
 

@@ -10,25 +10,44 @@ export default {
 
   state: {
     loading: {
-      byTeacher: {}
+      byTeacher: {},
     },
 
     prepaids: {
-      byTeacher: {} // grouped by status - expired, pending, empty and available
+      byTeacher: {}, // grouped by status - expired, pending, empty and available
     },
 
     joiners: { // users in the shared pool of a prepaid
-      byPrepaid: {}
-    }
+      byPrepaid: {},
+    },
+
+    fetchedPrepaids: {},
   },
 
   mutations: {
+    setFetchedPrepaidsForTeacher: (state, teacherId) => {
+      Vue.set(state.fetchedPrepaids, teacherId, true)
+    },
+
     toggleLoadingForTeacher: (state, teacherId) => {
       Vue.set(
         state.loading.byTeacher,
         teacherId,
-        !state.loading.byTeacher[teacherId]
+        !state.loading.byTeacher[teacherId],
       )
+    },
+
+    addTestLicenseToTeacher: (state, { teacherId, prepaid }) => {
+      const teacherPrepaids = state.prepaids.byTeacher[teacherId] || {
+        expired: [],
+        pending: [],
+        empty: [],
+        available: [],
+        testOnlyAvaliable: [],
+        testOnlyExpired: [],
+      }
+      teacherPrepaids.testOnlyAvaliable.push(prepaid)
+      Vue.set(state.prepaids.byTeacher, teacherId, teacherPrepaids)
     },
 
     addPrepaidsForTeacher: (state, { teacherId, prepaids }) => {
@@ -36,10 +55,18 @@ export default {
         expired: [],
         pending: [],
         empty: [],
-        available: []
+        available: [],
+        testOnlyAvaliable: [],
+        testOnlyExpired: [],
       }
       prepaids.forEach((prepaid) => {
-        if (prepaid.endDate && new Date(prepaid.endDate) < new Date()) {
+        if (prepaid.properties?.testStudentOnly) {
+          if (prepaid.endDate && new Date(prepaid.endDate) < new Date()) {
+            teacherPrepaids.testOnlyExpired.push(prepaid)
+          } else {
+            teacherPrepaids.testOnlyAvaliable.push(prepaid)
+          }
+        } else if (prepaid.endDate && new Date(prepaid.endDate) < new Date()) {
           teacherPrepaids.expired.push(prepaid)
         } else if (prepaid.startDate && new Date(prepaid.startDate) > new Date()) {
           teacherPrepaids.pending.push(prepaid)
@@ -62,7 +89,7 @@ export default {
         _id: joiner._id,
         firstName: joiner.firstName,
         lastName: joiner.lastName,
-        email: joiner.email
+        email: joiner.email,
       })
       Vue.set(state.joiners.byPrepaid, prepaidId, joiners)
     },
@@ -71,7 +98,7 @@ export default {
       const joiners = state.joiners.byPrepaid[prepaidId] || []
       const joinersWithoutJoiner = joiners.filter(item => item._id !== joiner._id)
       Vue.set(state.joiners.byPrepaid, prepaidId, joinersWithoutJoiner)
-    }
+    },
   },
 
   getters: {
@@ -96,7 +123,7 @@ export default {
         return []
       }
       let active = []
-      active = active.concat(prepaids.available).concat(prepaids.empty).concat(prepaids.pending)
+      active = active.concat(prepaids.available).concat(prepaids.empty).concat(prepaids.pending).concat(prepaids.testOnlyAvaliable)
       return active
     },
 
@@ -105,17 +132,26 @@ export default {
       if (!prepaids) {
         return []
       }
-      return prepaids.expired
+      let expired = []
+      expired = expired.concat(prepaids.expired).concat(prepaids.testOnlyExpired)
+      return expired
     },
 
     getJoinersForPrepaid: (state) => (id) => {
       return state.joiners.byPrepaid[id] || []
-    }
+    },
   },
 
   actions: {
+    ensurePrepaidsLoadedForTeacher: async ({ state, commit, dispatch }, teacherId) => {
+      if (!state.prepaids.byTeacher[teacherId] && !state.fetchedPrepaids[teacherId]) {
+        await dispatch('fetchPrepaidsForTeacher', { teacherId })
+      }
+    },
+
     fetchPrepaidsForTeacher: ({ commit }, { teacherId, sharedClassroomId, includeShared = true } = {}) => {
       commit('toggleLoadingForTeacher', teacherId)
+      commit('setFetchedPrepaidsForTeacher', teacherId)
 
       const data = { sharedClassroomId }
       if (includeShared) {
@@ -127,7 +163,7 @@ export default {
           if (res) {
             commit('addPrepaidsForTeacher', {
               teacherId,
-              prepaids: res
+              prepaids: res,
             })
           } else {
             throw new Error('Unexpected response from fetch classrooms API.')
@@ -143,7 +179,7 @@ export default {
           if (res) {
             commit('addPrepaidsForTeacher', {
               teacherId,
-              prepaids: res
+              prepaids: res,
             })
           } else {
             throw new Error('Unexpected response from fetch classrooms API.')
@@ -162,7 +198,7 @@ export default {
           if (joiners) {
             commit('setJoinersForPrepaid', {
               prepaidId,
-              joiners
+              joiners,
             })
           } else {
             throw new Error('Unexpected response from fetch joiners API.')
@@ -229,7 +265,7 @@ export default {
           layout: 'center',
           type: 'error',
           killer: true,
-          timeout: 5000
+          timeout: 5000,
         })
         return
       }
@@ -248,7 +284,7 @@ export default {
                 confirmed = true
                 $noty.close()
                 resolve()
-              }
+              },
             },
             {
               addClass: 'btn btn-danger',
@@ -256,9 +292,9 @@ export default {
               onClick: function ($noty) {
                 $noty.close()
                 resolve()
-              }
-            }
-          ]
+              },
+            },
+          ],
         }))
 
         if (!confirmed) {
@@ -311,7 +347,7 @@ export default {
                 confirmed = true
                 $noty.close()
                 resolve()
-              }
+              },
             },
             {
               addClass: 'btn btn-danger',
@@ -319,9 +355,9 @@ export default {
               onClick: function ($noty) {
                 $noty.close()
                 resolve()
-              }
-            }
-          ]
+              },
+            },
+          ],
         }))
 
         if (!confirmed) {
@@ -334,14 +370,14 @@ export default {
         await Bluebird.map(courseProducts, async product => {
           const prepaid = new Prepaid({
             _id: product.prepaid,
-            type: 'course'
+            type: 'course',
           })
           await new Promise((resolve, reject) =>
             prepaid.revoke(student, {
               success: resolve,
               error: reject,
-              data: { sharedClassroomId }
-            })
+              data: { sharedClassroomId },
+            }),
           )
 
           if (updateUserProducts) {
@@ -352,11 +388,19 @@ export default {
                   p.endDate = new Date().toISOString()
                 }
                 return p
-              })
+              }),
             )
           }
         })
       }
-    }
-  }
+    },
+    async getTestLicense ({ commit }, { teacherId }) {
+      return prepaidsApi.getOrCreateTestLicense()
+        .then(res => {
+          if (res) {
+            commit('addTestLicenseToTeacher', { teacherId, prepaid: res })
+          }
+        })
+    },
+  },
 }

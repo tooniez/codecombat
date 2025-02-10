@@ -3,7 +3,6 @@ import { mapGetters, mapActions } from 'vuex'
 import SecondaryButton from '../../common/buttons/SecondaryButton'
 import TertiaryButton from '../../common/buttons/TertiaryButton'
 
-import utils from 'app/core/utils'
 import { hasSharedWriteAccessPermission } from '../../../../../../app/lib/classroom-utils'
 
 export default {
@@ -27,10 +26,6 @@ export default {
       selectedStudentIds: 'baseSingleClass/selectedStudentIds',
       courses: 'courses/sorted'
     }),
-
-    filteredCourses () {
-      return this.courses.filter(({ campaignID }) => !utils.freeCampaignIds.includes(campaignID))
-    }
   },
 
   created () {
@@ -106,18 +101,13 @@ export default {
               {{ $t("teacher_dashboard.choose_course") }}
             </option>
             <option
-              v-for="course in filteredCourses"
+              v-for="course in courses"
               :key="course._id"
               :value="course.name"
             >
               {{ course.name }}
             </option>
           </select>
-          <span
-            class="form-error"
-          >
-            {{ $t("form_validation_errors.required") }}
-          </span>
         </div>
       </div>
       <div class="form-group row buttons-container">

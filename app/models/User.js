@@ -25,6 +25,7 @@ const fetchJson = require('core/api/fetch-json')
 const userUtils = require('lib/user-utils')
 const _ = require('lodash')
 const moment = require('moment')
+const NAPERVILLE_UNIQUE_KEY = 'naperville'
 
 // Pure functions for use in Vue
 // First argument is always a raw User.attributes
@@ -41,7 +42,7 @@ const UserLib = {
     }
     if (name) { return name }
     ({
-      name
+      name,
     } = user)
     if (name) { return name }
     const [emailName, emailDomain] = Array.from(user.email?.split('@') || []) // eslint-disable-line no-unused-vars
@@ -52,7 +53,7 @@ const UserLib = {
   isTeacher (user, includePossibleTeachers = false) {
     if (includePossibleTeachers && (user.role === 'possible teacher')) { return true } // They maybe haven't created an account but we think they might be a teacher based on behavior
     return ['teacher', 'technology coordinator', 'advisor', 'principal', 'superintendent', 'parent'].includes(user.role)
-  }
+  },
 }
 
 module.exports = (User = (function () {
@@ -79,7 +80,8 @@ module.exports = (User = (function () {
         API_CLIENT: 'apiclient',
         ONLINE_TEACHER: 'onlineTeacher',
         BETA_TESTER: 'betaTester',
-        PARENT_ADMIN: 'parentAdmin'
+        PARENT_ADMIN: 'parentAdmin',
+        NAPERVILLE_ADMIN: 'napervilleAdmin',
       }
 
       a = 5
@@ -156,14 +158,35 @@ module.exports = (User = (function () {
       return this.get('permissions', true).includes(needle)
     }
 
+    isNapervilleAdmin () {
+      return this.get('permissions', true).includes(this.constructor.PERMISSIONS.NAPERVILLE_ADMIN)
+    }
+
+    isNapervilleUser () {
+      return this.get('library')?.name === NAPERVILLE_UNIQUE_KEY
+    }
+
     isAnonymous () { return this.get('anonymous', true) }
     isSmokeTestUser () { return User.isSmokeTestUser(this.attributes) }
     isIndividualUser () { return !this.isStudent() && !User.isTeacher(this.attributes) }
+
+    isNewDashboardActive () {
+      const features = {
+        isNewDashboardActive: true,
+        ...(this.get('features') || {}),
+      }
+      return features.isNewDashboardActive
+    }
 
     isInternal () {
       const email = this.get('email')
       if (!email) { return false }
       return email.endsWith('@codecombat.com') || email.endsWith('@ozaria.com')
+    }
+
+    isDistrictAdmin (districtId) {
+      if (!districtId) return false
+      return this.get('features')?.ownerDistrictId === districtId
     }
 
     displayName () { return this.get('name', true) }
@@ -198,8 +221,8 @@ module.exports = (User = (function () {
       // deprecate in favor of @checkNameConflicts, which uses Promises and returns the whole response
       return $.ajax(`/auth/name/${encodeURIComponent(name)}`, {
         cache: false,
-        success (data) { return done(data.suggestedName) }
-      }
+        success (data) { return done(data.suggestedName) },
+      },
       )
     }
 
@@ -207,8 +230,8 @@ module.exports = (User = (function () {
       return new Promise((resolve, reject) => $.ajax(`/auth/name/${encodeURIComponent(name)}`, {
         cache: false,
         success: resolve,
-        error (jqxhr) { return reject(jqxhr.responseJSON) }
-      }
+        error (jqxhr) { return reject(jqxhr.responseJSON) },
+      },
       ))
     }
 
@@ -216,9 +239,14 @@ module.exports = (User = (function () {
       return new Promise((resolve, reject) => $.ajax(`/auth/email/${encodeURIComponent(email)}`, {
         cache: false,
         success: resolve,
-        error (jqxhr) { return reject(jqxhr.responseJSON) }
-      }
+        error (jqxhr) { return reject(jqxhr.responseJSON) },
+      },
       ))
+    }
+
+    static getNapervilleDomain () {
+      // it can be stu.naperville203.org or naperville203.org and there are no premium benefits directly so safe to check without @
+      return 'naperville203.org'
     }
 
     getEnabledEmails () {
@@ -253,6 +281,11 @@ module.exports = (User = (function () {
 
     isStudent () { return this.get('role') === 'student' }
 
+    canUseRobloxOauthConnection () {
+      // No Roblox OAuth in classroom mode
+      return !this.isTeacher() && !this.isStudent()
+    }
+
     isTestStudent () { return this.isStudent() && (this.get('related') || []).some(({ relation }) => relation === 'TestStudent') }
 
     isCreatedByClient () { return (this.get('clientCreator') != null) }
@@ -261,6 +294,7 @@ module.exports = (User = (function () {
 
     isPaidTeacher () {
       // TODO: this doesn't actually check to see if they are paid (having prepaids), confusing
+      // use isPaidTeacher from me.js in vuex store for vue
       if (!this.isTeacher()) { return false }
       return this.isCreatedByClient() || (/@codeninjas.com$/i.test(this.get('email')))
     }
@@ -375,8 +409,24 @@ module.exports = (User = (function () {
     }
 
     heroes () {
-      let left
-      const heroes = ((left = this.get('purchased')?.heroes) != null ? left : []).concat([ThangTypeConstants.heroes.captain, ThangTypeConstants.heroes.knight, ThangTypeConstants.heroes.champion, ThangTypeConstants.heroes.duelist])
+      const heroes = (this.get('purchased')?.heroes || []).concat([
+        // Free CodeCombat heroes
+        ThangTypeConstants.heroes.captain,
+        ThangTypeConstants.heroes.knight,
+        ThangTypeConstants.heroes.champion,
+        ThangTypeConstants.heroes.duelist,
+        // Free CodeCombat Junior heroes
+        ThangTypeConstants.heroes['wolf-pup-hero'],
+        ThangTypeConstants.heroes['cougar-hero'],
+        ThangTypeConstants.heroes['polar-bear-cub-hero'],
+        ThangTypeConstants.heroes['frog-hero'],
+        ThangTypeConstants.heroes['turtle-hero'],
+        ThangTypeConstants.heroes['blue-fox-hero'],
+        ThangTypeConstants.heroes['panther-cub-hero'],
+        ThangTypeConstants.heroes['brown-rat-hero'],
+        ThangTypeConstants.heroes['duck-hero'],
+        ThangTypeConstants.heroes['tiger-cub-hero'],
+      ])
       if (window.serverConfig.codeNinjas) { heroes.push(ThangTypeConstants.heroes['code-ninja']) }
       for (const clanHero of utils.clanHeroes) {
         if ((this.get('clans') || []).includes(clanHero.clanId)) {
@@ -392,8 +442,9 @@ module.exports = (User = (function () {
     }
 
     levels () {
-      let left, left1
-      return ((left = this.get('earned')?.levels) != null ? left : []).concat((left1 = this.get('purchased')?.levels) != null ? left1 : []).concat(LevelConstants.levels['dungeons-of-kithgard'])
+      const earned = this.get('earned')?.levels || []
+      const purchased = this.get('purchased')?.levels || []
+      return earned.concat(purchased).concat(LevelConstants.levels['dungeons-of-kithgard']).concat(LevelConstants.levels['the-gem'])
     }
 
     ownsHero (heroOriginal) {
@@ -482,7 +533,7 @@ module.exports = (User = (function () {
       if (products) {
         const homeProducts = this.activeProducts('basic_subscription')
         const {
-          endDate
+          endDate,
         } = _.max(homeProducts, p => new Date(p.endDate))
         const productsEnd = moment(endDate)
         if (stripeEnd && stripeEnd.isAfter(productsEnd)) { return stripeEnd.utc().format('ll') }
@@ -511,7 +562,7 @@ module.exports = (User = (function () {
         },
         error: () => {
           return this.trigger('email-verify-error')
-        }
+        },
       })
     }
 
@@ -525,7 +576,7 @@ module.exports = (User = (function () {
         },
         error: () => {
           return this.trigger('user-keep-me-updated-error')
-        }
+        },
       })
     }
 
@@ -538,7 +589,7 @@ module.exports = (User = (function () {
           this.set(attributes)
           return success()
         },
-        error
+        error,
       })
     }
 
@@ -552,7 +603,7 @@ module.exports = (User = (function () {
         },
         error: () => {
           return this.trigger('user-no-delete-eu-error')
-        }
+        },
       })
     }
 
@@ -565,7 +616,7 @@ module.exports = (User = (function () {
         },
         error () {
           return console.error(`Couldn't save activity ${activityName}`)
-        }
+        },
       })
     }
 
@@ -585,7 +636,7 @@ module.exports = (User = (function () {
         },
         error (jqxhr) {
           return console.error(`Couldn't start experiment ${name}:`, jqxhr.responseJSON)
-        }
+        },
       })
       const experiment = { name, value, startDate: new Date() } // Server date/save will be authoritative
       if (probability != null) { experiment.probability = probability }
@@ -629,6 +680,34 @@ module.exports = (User = (function () {
       return 'expired'
     }
 
+    getSeenPromotion (key) {
+      const seenPromotions = this.get('seenPromotions') || {}
+      return seenPromotions[key]
+    }
+
+    shouldSeePromotion (key) {
+      if (!key) {
+        return true
+      }
+
+      const seenPromotion = this.getSeenPromotion(key)
+      if (seenPromotion) {
+        return false
+      }
+      const latestDate = Object.values(this.get('seenPromotions') || {})
+        .reduce((a, b) => new Date(a) > new Date(b) ? new Date(a) : new Date(b), new Date(0))
+
+      const aWeekAgo = new Date()
+      aWeekAgo.setDate(aWeekAgo.getDate() - 7)
+      return latestDate < aWeekAgo
+    }
+
+    setSeenPromotion (key) {
+      const seenPromotions = this.get('seenPromotions') || {}
+      Object.assign(seenPromotions, { [key]: new Date() })
+      this.set('seenPromotions', seenPromotions)
+    }
+
     activeProducts (type) {
       const now = new Date()
       return _.filter(this.get('products'), p => (p.product === type) && ((new Date(p.endDate) > now) || !p.endDate))
@@ -637,6 +716,10 @@ module.exports = (User = (function () {
     expiredProducts (type) {
       const now = new Date()
       return _.filter(this.get('products'), p => (p.product === type) && (new Date(p.endDate) < now))
+    }
+
+    getExam (id) {
+      return _.find(this.get('exams'), { id })
     }
 
     getProductsByType (type) {
@@ -767,7 +850,7 @@ module.exports = (User = (function () {
       options.url = _.result(this, 'url') + '/signup-with-facebook'
       options.type = 'POST'
       if (options.data == null) { options.data = {} }
-      _.extend(options.data, { name, email, facebookID, facebookAccessToken: application.facebookHandler.token() })
+      _.extend(options.data, { name, email, facebookID, facebookAccessToken: options.facebookAccessToken })
       options.contentType = 'application/json'
       options.xhrFields = { withCredentials: true }
       options.data = JSON.stringify(options.data)
@@ -824,20 +907,20 @@ module.exports = (User = (function () {
       return this.fetch(options)
     }
 
-    fetchFacebookUser (facebookID, options = {}) {
+    fetchFacebookUser (facebookID, fbAccessToken, options = {}) {
       if (options.data == null) { options.data = {} }
       options.data.facebookID = facebookID
-      options.data.facebookAccessToken = application.facebookHandler.token()
+      options.data.facebookAccessToken = fbAccessToken
       return this.fetch(options)
     }
 
-    loginFacebookUser (facebookID, options = {}) {
+    loginFacebookUser (facebookID, fbAccessToken, options = {}) {
       options.url = '/auth/login-facebook'
       options.type = 'POST'
       options.xhrFields = { withCredentials: true }
       if (options.data == null) { options.data = {} }
       options.data.facebookID = facebookID
-      options.data.facebookAccessToken = application.facebookHandler.token()
+      options.data.facebookAccessToken = fbAccessToken
       return this.fetch(options)
     }
 
@@ -885,7 +968,7 @@ module.exports = (User = (function () {
         type: 'course',
         includedCourseIDs: courseProduct?.productOptions?.includedCourseIDs,
         startDate: courseProduct.startDate,
-        endDate: courseProduct.endDate
+        endDate: courseProduct.endDate,
       })
     }
 
@@ -986,6 +1069,91 @@ module.exports = (User = (function () {
       return true
     }
 
+    getFilteredExperimentValue ({
+      experimentName,
+      forcedValue,
+    }) {
+      let value = me.getExperimentValue(experimentName, null)
+
+      if (value === null && !utils.isCodeCombat) {
+        // Don't include non-CodeCombat users
+        return 'control'
+      }
+
+      if ((value == null) && !me.get('anonymous')) {
+        // Don't include registered users
+        value = 'control'
+      }
+      if ((value == null) && !/^en/.test(me.get('preferredLanguage', true))) {
+        // Don't include non-English-speaking users
+        value = 'control'
+      }
+
+      const oneDayAgo = new Date(new Date() - 24 * 60 * 60 * 1000)
+      if ((value == null) && (new Date(me.get('dateCreated')) < oneDayAgo)) {
+        // Don't include users created more than a day ago; they've probably seen the old homepage before without having started the experiment somehow
+        value = 'control'
+      }
+
+      if (value === null) {
+        const probability = window.serverConfig?.experimentProbabilities?.[experimentName]?.beta || 0.5
+        let valueProbability
+
+        if (forcedValue) {
+          value = forcedValue
+          valueProbability = value === 'beta' ? probability : 1 - probability
+        } else {
+          const rand = Math.random()
+          if (rand < probability) {
+            value = 'beta'
+            valueProbability = probability
+          } else {
+            value = 'control'
+            valueProbability = 1 - probability
+          }
+        }
+        me.startExperiment(experimentName, value, valueProbability)
+      }
+
+      return value
+    }
+
+    getEducatorSignupExperimentValue () {
+      const experimentName = 'educator-signup-modal'
+      let value = me.getExperimentValue(experimentName, null)
+
+      if ((value == null) && !/^en/.test(me.get('preferredLanguage', true))) {
+        // Don't include non-English-speaking users
+        value = 'control'
+      }
+
+      const oneDayAgo = new Date(new Date() - 24 * 60 * 60 * 1000)
+      if ((value == null) && (new Date(me.get('dateCreated')) < oneDayAgo)) {
+        // Don't include users created more than a day ago; they've probably seen the old homepage before without having started the experiment somehow
+        value = 'control'
+      }
+
+      if (value === null) {
+        const probability = window.serverConfig?.experimentProbabilities?.[experimentName]?.beta || 0.5
+        let valueProbability
+        const rand = Math.random()
+        if (rand < probability) {
+          value = 'beta'
+          valueProbability = probability
+        } else {
+          value = 'control'
+          valueProbability = 1 - probability
+        }
+        me.startExperiment(experimentName, value, valueProbability)
+      }
+
+      return value
+    }
+
+    getHackStackV2ExperimentValue () {
+      return 'beta'
+    }
+
     getM7ExperimentValue () {
       let left
       let value = { true: 'beta', false: 'control', control: 'control', beta: 'beta' }[utils.getQueryVariable('m7')]
@@ -1023,7 +1191,7 @@ module.exports = (User = (function () {
       }
       if ((value == null)) {
         let valueProbability
-        const probability = window.serverConfig?.experimentProbabilities?.m7?.beta != null ? window.serverConfig?.experimentProbabilities?.m7?.beta : 0
+        const probability = window.serverConfig?.experimentProbabilities?.m7?.beta != null ? window.serverConfig.experimentProbabilities.m7.beta : 0
         if ((me.get('testGroupNumber') / 256) < probability) {
           value = 'beta'
           valueProbability = probability
@@ -1083,9 +1251,12 @@ module.exports = (User = (function () {
         // Don't include users other than home users
         value = 'control'
       }
-      if ((value == null)) {
+      if (me.isAdmin()) {
+        value = 'beta'
+      }
+      if ((!value)) {
         let valueProbability
-        const probability = window.serverConfig?.experimentProbabilities?.hackstack?.beta != null ? window.serverConfig?.experimentProbabilities?.hackstack?.beta : 0.05
+        const probability = window.serverConfig?.experimentProbabilities?.hackstack?.beta != null ? window.serverConfig.experimentProbabilities.hackstack.beta : 0.05
         if (Math.random() < probability) {
           value = 'beta'
           valueProbability = probability
@@ -1095,6 +1266,51 @@ module.exports = (User = (function () {
         }
         console.log('starting hackstack experiment with value', value, 'prob', valueProbability)
         me.startExperiment('hackstack', value, valueProbability)
+      }
+      return value
+    }
+
+    getJuniorExperimentValue () {
+      let value = { true: 'beta', false: 'control', control: 'control', beta: 'beta' }[utils.getQueryVariable('junior')]
+      if (value == null) { value = me.getExperimentValue('junior', null, 'beta') }
+      if ((value == null) && utils.isOzaria) {
+        // Don't include Ozaria for now
+        value = 'control'
+      }
+      if (userUtils.isInLibraryNetwork()) {
+        value = 'control'
+      }
+      if ((value == null) && !/^en/.test(me.get('preferredLanguage', true))) {
+        // Don't include non-English-speaking users before we fine-tune for other languages
+        value = 'control'
+      }
+      if ((value == null) && me.get('hourOfCode')) {
+        // Don't include users coming in through Hour of Code
+        value = 'control'
+      }
+      if ((value == null) && me.get('role')) {
+        // Don't include users other than home users
+        value = 'control'
+      }
+      if ((value == null) && (new Date(me.get('dateCreated')) < new Date('2024-05-23'))) {
+        // Don't include users created before experiment start date
+        value = 'control'
+      }
+      if (me.isAdmin()) {
+        value = 'beta'
+      }
+      if ((!value)) {
+        let valueProbability
+        const probability = window.serverConfig?.experimentProbabilities?.junior?.beta != null ? window.serverConfig.experimentProbabilities.junior.beta : 0.5
+        if (Math.random() < probability) {
+          value = 'beta'
+          valueProbability = probability
+        } else {
+          value = 'control'
+          valueProbability = 1 - probability
+        }
+        console.log('starting junior experiment with value', value, 'prob', valueProbability)
+        me.startExperiment('junior', value, valueProbability)
       }
       return value
     }
@@ -1119,24 +1335,25 @@ module.exports = (User = (function () {
       return this.fetch(options)
     }
 
-    getUserCredits (operation) {
-      const url = `/db/user-credits/${operation}`
-      return this.fetch({ url })
-    }
-
     getTestStudentId () {
       const testStudentRelation = (this.get('related') || []).filter(related => related.relation === 'TestStudent')[0]
       if (testStudentRelation) {
-        return Promise.resolve(testStudentRelation.userId)
+        return Promise.resolve({ id: testStudentRelation.userId, new: false })
       } else {
-        return this.createTestStudentAccount().then(response => {
-          return response.relatedUserId
+        return new Promise((resolve, reject) => {
+          try {
+            this.createTestStudentAccount().then(response => {
+              resolve({ id: response.relatedUserId, new: true })
+            })
+          } catch (e) {
+            reject(e)
+          }
         })
       }
     }
 
     switchToStudentMode () {
-      return this.getTestStudentId().then(testStudentId => this.spy({ id: testStudentId }))
+      return this.getTestStudentId().then(({ id }) => this.spy({ id }))
     }
 
     switchToTeacherMode () {
@@ -1178,13 +1395,12 @@ module.exports = (User = (function () {
     showGemsAndXpInClassroom () { return features?.classroomItems != null ? features?.classroomItems : this.lastClassroomItems() && this.isStudent() }
     showHeroAndInventoryModalsToStudents () { return features?.classroomItems != null ? features?.classroomItems : this.lastClassroomItems() && this.isStudent() }
     skipHeroSelectOnStudentSignUp () { return features?.classroomItems != null ? features?.classroomItems : false }
-    useDexecure () { return !(features?.chinaInfra != null ? features?.chinaInfra : false) }
     useSocialSignOn () { return !((features?.chinaUx != null ? features?.chinaUx : false) || (features?.china != null ? features?.china : false)) }
     isTarena () { return features?.Tarena != null ? features?.Tarena : false }
     useTarenaLogo () { return this.isTarena() }
-    hideTopRightNav () { return this.isTarena() || this.isILK() || this.isICode() }
-    hideFooter () { return this.isTarena() || this.isILK() || this.isICode() }
-    hideOtherProductCTAs () { return this.isTarena() || this.isILK() || this.isICode() }
+    hideTopRightNav () { return this.isTarena() || this.isILK() || this.isICode() || this.isCodeNinja() }
+    hideFooter () { return this.isTarena() || this.isILK() || this.isICode() || this.isCodeNinja() }
+    hideOtherProductCTAs () { return this.isTarena() || this.isILK() || this.isICode() || this.isCodeNinja() }
     useGoogleClassroom () { return !(features?.chinaUx != null ? features?.chinaUx : false) && (this.get('gplusID') != null) } // if signed in using google SSO
     useGoogleCalendar () { return !(features?.chinaUx != null ? features?.chinaUx : false) && (this.get('gplusID') != null) && (this.isAdmin() || this.isOnlineTeacher()) } // if signed in using google SSO
     useGoogleAnalytics () { return !((features?.china != null ? features?.china : false) || (features?.chinaInfra != null ? features?.chinaInfra : false)) }
@@ -1195,18 +1411,49 @@ module.exports = (User = (function () {
     canAccessCampaignFreelyFromChina (campaignID) { return (utils.isCodeCombat && (campaignID === '55b29efd1cd6abe8ce07db0d')) || (utils.isOzaria && (campaignID === '5d1a8368abd38e8b5363bad9')) } // teacher can only access CS1 or CH1 freely in China
     isCreatedByTarena () { return (this.get('clientCreator') === '60fa65059e17ca0019950fdd') || (this.get('clientCreator') === '5c80a2a0d78b69002448f545') } // ClientID of Tarena2/Tarena3 on koudashijie.com
     isILK () {
-      let left
-      return (this.get('clientCreator') === '6082ec9996895d00a9b96e90') || _.find((left = this.get('clientPermissions')) != null ? left : [], { client: '6082ec9996895d00a9b96e90' })
+      return (this.get('clientCreator') === '6082ec9996895d00a9b96e90') || (this.get('clientPermissions') || []).some(p => p.client === '6082ec9996895d00a9b96e90')
     }
 
     isICode () {
-      let left
-      return (this.get('clientCreator') === '61393874c324991d0f68fc70') || _.find((left = this.get('clientPermissions')) != null ? left : [], { client: '61393874c324991d0f68fc70' })
+      return (this.get('clientCreator') === '61393874c324991d0f68fc70') || (this.get('clientPermissions') || []).some(p => p.client === '61393874c324991d0f68fc70')
     }
 
     isTecmilenio () {
-      let left
-      return ['62de625ef3365e002314d554', '62e7a13c85e9850026fa2c7f'].includes(this.get('clientCreator')) || _.find((left = this.get('clientPermissions')) != null ? left : [], p => ['62de625ef3365e002314d554', '62e7a13c85e9850026fa2c7f'].includes(p.client))
+      return ['62de625ef3365e002314d554', '62e7a13c85e9850026fa2c7f'].includes(this.get('clientCreator')) || (this.get('clientPermissions') || []).some(p => ['62de625ef3365e002314d554', '62e7a13c85e9850026fa2c7f'].includes(p.client))
+    }
+
+    isCodeNinja () {
+      const ids = [
+        '57fff652b0783842003fed00', '5b9af3a99c27360047dd2123',
+        '65f9c0e3f9f905bd19a3fc26', '65f9c1786c97604c1ea5ff0e', '65f9d5cef9f905bd19acd446', '65f9d616276bf6e4e513be2f',
+        '66b53237be6b406bc81c42c7', '66b532875b263b1f31a78a45', '66b532d3f68194c66d305301', '66b5333dea513e36a48f646f',
+        '66b53386574bfe6467bab40d', '66b533cdea513e36a48f7855', '66b533f8ea513e36a48f7eae', '66b5342d5b263b1f31a7ae5e',
+      ]
+      return ids.includes(this.get('clientCreator')) || (this.get('clientPermissions') || []).some(p => ids.includes(p.client))
+    }
+
+    isMtoStem () {
+      return [utils.MTOClients.MTO_STEM_DEV, utils.MTOClients.MTO_STEM_PROD].includes(this.get('clientCreator'))
+    }
+
+    isMtoNeo () {
+      return [utils.MTOClients.MTO_NEO_DEV, utils.MTOClients.MTO_NEO_PROD].includes(this.get('clientCreator'))
+    }
+
+    isMto () {
+      return this.isMtoStem() || this.isMtoNeo()
+    }
+
+    isGeccClient () {
+      const GECC_ID = '61e7e20658f1020024bd8cf7'
+      return this.get('_id') === GECC_ID
+    }
+
+    isManualClassroomJoinAllowed () {
+      if (this.isMto()) {
+        return false
+      }
+      return true
     }
 
     showForumLink () { return !(features?.china != null ? features?.china : false) }
@@ -1219,7 +1466,15 @@ module.exports = (User = (function () {
 
     showChinaRegistration () { return features?.china != null ? features?.china : false }
     enableCpp () { return utils.isCodeCombat && (this.hasSubscription() || this.isStudent() || this.isTeacher()) }
-    enableJava () { return utils.isCodeCombat && (this.hasSubscription() || this.isStudent() || (this.isTeacher() && this.isBetaTester())) }
+    enableJava () { return utils.isCodeCombat && (this.hasSubscription() || this.isStudent() || this.isTeacher()) }
+
+    getEnabledLanguages () {
+      const languages = ['javascript', 'python']
+      if (this.enableCpp()) { languages.push('cpp') }
+      if (this.enableJava()) { languages.push('java') }
+      return languages
+    }
+
     useQiyukf () { return false }
     useChinaServices () { return features?.china != null ? features?.china : false }
     useGeneralArticle () { return !(features?.china != null ? features?.china : false) }
@@ -1227,7 +1482,6 @@ module.exports = (User = (function () {
     // Special flag to detect whether we're temporarily showing static html while loading full site
     showingStaticPagesWhileLoading () { return false }
     showIndividualRegister () { return !(features?.china != null ? features?.china : false) }
-    hideDiplomatModal () { return features?.china != null ? features?.china : false }
     showChinaRemindToast () { return features?.china != null ? features?.china : false }
     showOpenResourceLink () { return !(features?.china != null ? features?.china : false) }
     useStripe () { return (!((features?.china != null ? features?.china : false) || (features?.chinaInfra != null ? features?.chinaInfra : false))) && (this.get('preferredLanguage') !== 'nl-BE') }
@@ -1240,8 +1494,8 @@ module.exports = (User = (function () {
     hasInteractiveEditorAccess () { return this.isAdmin() }
 
     // google classroom flags for new teacher dashboard, remove `useGoogleClassroom` when old dashboard disabled
-    showGoogleClassroom () { return !(features?.chinaUx != null ? features?.chinaUx : false) }
-    googleClassroomEnabled () { return (me.get('gplusID') != null) }
+    showGoogleClassroom () { return !(features?.chinaUx != null ? features?.chinaUx : false) && !me.isCodeNinja() }
+    googleClassroomEnabled () { return (me.get('gplusID') != null) && !me.isCodeNinja() }
 
     // Block access to paid campaigns(any campaign other than CH1) for anonymous users + non-admin, non-internal individual users.
     // Scenarios where a user has access to a campaign:
@@ -1265,7 +1519,7 @@ module.exports = (User = (function () {
 })())
 
 const tiersByLevel = [-1, 0, 0.05, 0.14, 0.18, 0.32, 0.41, 0.5, 0.64, 0.82, 0.91, 1.04, 1.22, 1.35, 1.48, 1.65, 1.78, 1.96, 2.1, 2.24, 2.38, 2.55, 2.69, 2.86, 3.03, 3.16, 3.29, 3.42, 3.58, 3.74, 3.89, 4.04, 4.19, 4.32, 4.47, 4.64, 4.79, 4.96,
-  5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15
+  5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15,
 ]
 
 // Make UserLib accessible via eg. User.broadName(userObj)

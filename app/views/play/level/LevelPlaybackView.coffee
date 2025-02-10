@@ -29,8 +29,6 @@ module.exports = class LevelPlaybackView extends CocoView
 
   events:
     'click #music-button': 'onToggleMusic'
-    'click #zoom-in-button': -> Backbone.Mediator.publish 'camera:zoom-in', {} unless @shouldIgnore()
-    'click #zoom-out-button': -> Backbone.Mediator.publish 'camera:zoom-out', {} unless @shouldIgnore()
     'click #volume-button': 'onToggleVolume'
     'click #play-button': 'onTogglePlay'
     'click': -> Backbone.Mediator.publish 'tome:focus-editor', {} unless @realTime
@@ -40,6 +38,9 @@ module.exports = class LevelPlaybackView extends CocoView
     'tapstart #timeProgress': 'onProgressTapStart'
     'tapend #timeProgress': 'onProgressTapEnd'
     'tapmove #timeProgress': 'onProgressTapMove'
+    'touchstart #timeProgress': 'onProgressTapStart'
+    'touchend #timeProgress': 'onProgressTapEnd'
+    'touchmove #timeProgress': 'onProgressTapMove'
 
   shortcuts:
     '⌘+p, p, ctrl+p': 'onTogglePlay'
@@ -59,8 +60,7 @@ module.exports = class LevelPlaybackView extends CocoView
     @hookUpScrubber() unless @options.level.isType('game-dev')
     @updateMusicButton()
     $(window).on('resize', @onWindowResize)
-    ua = navigator.userAgent.toLowerCase()
-    if /safari/.test(ua) and not /chrome/.test(ua)
+    unless @getFullscreenRequestMethod()
       @$el.find('.toggle-fullscreen').hide()
     @timePopup ?= new HoverPopup
     @second = $.i18n.t 'units.second'
@@ -125,7 +125,7 @@ module.exports = class LevelPlaybackView extends CocoView
 
   updateBarWidth: (loadedFrameCount, maxTotalFrames, dt) ->
     @totalTime = (loadedFrameCount - 1) * dt
-    pct = parseInt(100 * loadedFrameCount / (maxTotalFrames - 1)) + '%'
+    pct = Math.min(parseInt(100 * loadedFrameCount / (maxTotalFrames - 1)), 100) + '%'
     @barWidth = $('.progress', @$el).css('width', pct).show().width()
     $('.scrubber .progress', @$el).slider('enable', true)
     @newTime = 0
@@ -222,21 +222,31 @@ module.exports = class LevelPlaybackView extends CocoView
       @timePopup.show()
 
   onProgressTapStart: (e, touchData) ->
-    return unless application.isIPadApp
+    return unless application.isIPadApp or utils.isMobile()
     @onProgressEnter e
-    screenOffsetX = e.clientX ? touchData?.position.x ? 0
+    if e.handleObj?.type == 'tapstart'
+      screenOffsetX = e.clientX ? touchData?.position.x ? 0
+    else if e.handleObj?.type == 'touchstart'
+      screenOffsetX = e.originalEvent?.touches?[0]?.clientX ? 0
+    else  # unknown event type
+      return
     offsetX = screenOffsetX - $(e.target).closest('#timeProgress').offset().left
     offsetX = Math.max offsetX, 0
     @scrubTo offsetX / @$progressScrubber.width()
     @onTogglePlay() if @$el.find('#play-button').hasClass 'playing'
 
   onProgressTapEnd: (e, touchData) ->
-    return unless application.isIPadApp
+    return unless application.isIPadApp or utils.isMobile()
     @onProgressLeave e
 
   onProgressTapMove: (e, touchData) ->
-    return unless application.isIPadApp  # Not sure why the tap events would fire when it's not one.
-    screenOffsetX = e.clientX ? touchData?.position.x ? 0
+    return unless application.isIPadApp or utils.isMobile() # Not sure why the tap events would fire when it's not one.
+    if e.handleObj?.type == 'tapmove'
+      screenOffsetX = e.clientX ? touchData?.position.x ? 0
+    else if e.handleObj?.type == 'touchmove'
+      screenOffsetX = e.originalEvent?.touches?[0]?.clientX ? 0
+    else # unknown event type
+      return
     offsetX = screenOffsetX - $(e.target).closest('#timeProgress').offset().left
     offsetX = Math.max offsetX, 0
     @onProgressHover e, offsetX
@@ -260,6 +270,7 @@ module.exports = class LevelPlaybackView extends CocoView
       Backbone.Mediator.publish 'level:set-letterbox', on: false if @realTime or @cinematic
       Backbone.Mediator.publish 'playback:real-time-playback-ended', {} if @realTime
       Backbone.Mediator.publish 'playback:cinematic-playback-ended', {} if @cinematic
+      Backbone.Mediator.publish 'playback:playback-ended', {}
     if progress < 0.99 and @lastProgress >= 0.99
       playing = store.state.game.playing
       playButton.removeClass('ended')
@@ -341,7 +352,12 @@ module.exports = class LevelPlaybackView extends CocoView
     return if @shouldIgnore()
     button = $('#play-button')
     willPlay = button.hasClass('paused') or button.hasClass('ended')
-    Backbone.Mediator.publish 'level:set-playing', playing: willPlay
+    if @options.level.get('product') is 'codecombat-junior' and (button.hasClass('ended') or button.hasClass('paused') and @getScrubRatio() < 0.05)
+      # Just rewind and rerun the level for Junior so students don't have to understand difference between play button here and in code editor
+      Backbone.Mediator.publish 'level:set-time', ratio: 0, scrubDuration: 0
+      Backbone.Mediator.publish 'tome:manual-cast', realTime: false
+    else
+      Backbone.Mediator.publish 'level:set-playing', playing: willPlay
     $(document.activeElement).blur()
 
   onToggleVolume: (e) ->

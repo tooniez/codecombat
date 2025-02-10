@@ -1,87 +1,143 @@
 <script>
 import moment from 'moment'
+import { mapGetters } from 'vuex'
 
 export default {
   props: {
     status: {
       type: String,
-      default: 'assigned',
+      default: 'unassigned',
       validator: value => {
         const index = ['assigned', 'progress', 'complete', 'unassigned'].indexOf(value)
         if (index === -1) {
           console.error(`Got progressDot status value of '${value}'`)
         }
         return index !== -1
-      }
+      },
     },
 
     isLocked: {
       type: Boolean,
-      default: false
+      default: false,
     },
 
     isSkipped: {
       type: Boolean,
-      default: false
+      default: false,
     },
 
     lockDate: {
       type: Date,
-      default: null
+      default: null,
     },
 
     lastLockDate: {
       type: Date,
-      default: null
+      default: null,
     },
 
     border: {
       type: String,
-      default: ''
+      default: '',
     },
 
     clickState: {
       type: Boolean,
-      default: false
+      default: false,
     },
 
     clickProgressHandler: {
       type: Function,
       required: false,
-      default: undefined
+      default: undefined,
     },
 
     contentType: {
       type: String,
-      default: null
+      default: null,
     },
 
     trackCategory: {
       type: String,
-      default: ''
+      default: '',
     },
 
     selected: {
       type: Boolean,
-      default: false
+      default: false,
     },
 
     hovered: {
       type: Boolean,
-      default: false
+      default: false,
     },
 
     isPlayable: {
       type: Boolean,
-      default: true
+      default: true,
     },
     isOptional: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
+    playTime: {
+      type: Number,
+      default: 0,
+    },
+    playedOn: {
+      type: String,
+      default: '',
+    },
+    completionDate: {
+      type: [Boolean, String],
+      default: null,
+    },
+    tooltipName: {
+      type: String,
+      default: null,
+    },
+    moduleNumber: {
+      required: false,
+      type: [Number, String],
+      default: null,
+    },
+    normalizedOriginal: {
+      required: false,
+      type: String,
+      default: null,
+    },
+    studentId: {
+      type: String,
+      default: null,
+      required: false,
+    },
+    classroomGameContent: {
+      type: Object,
+      default: null,
+    },
+    levelSessionMap: {
+      type: Object,
+      default: null,
+    },
+    extraPracticeLevels: {
+      type: Array,
+      default: () => [],
+    },
   },
 
   computed: {
+    ...mapGetters({
+      classroomId: 'teacherDashboard/classroomId',
+    }),
+
+    activePracticeLevels () {
+      return this.extraPracticeLevels.filter(({ inProgress }) => inProgress)
+    },
+
+    allPracticeLevelsCompleted () {
+      return this.extraPracticeLevels.length > 0 && this.extraPracticeLevels.every(({ isCompleted }) => isCompleted)
+    },
+
     isClicked () {
       return this.clickState || false
     },
@@ -91,7 +147,7 @@ export default {
         'green-dot': this.status === 'complete',
         'teal-dot': this.status === 'progress',
         'assigned-dot': this.levelAccessStatus === 'assigned',
-        [this.levelAccessStatus]: true
+        [this.levelAccessStatus]: this.levelAccessStatus !== 'progress',
       }
     },
 
@@ -101,7 +157,9 @@ export default {
         'border-red': this.border === 'red',
         'border-gray': this.border === 'gray',
         selected: this.selected,
-        hovered: this.hovered
+        hovered: this.hovered,
+        'has-active-practice-levels': this.activePracticeLevels.length > 0,
+        'all-practice-levels-completed': this.allPracticeLevelsCompleted,
       }
     },
 
@@ -109,7 +167,7 @@ export default {
       return {
         clicked: this.isClicked,
         'progress-dot': true,
-        clickable: typeof this.clickProgressHandler === 'function'
+        clickable: typeof this.clickProgressHandler === 'function',
       }
     },
 
@@ -119,10 +177,21 @@ export default {
 
       const label = {
         'locked-by-previous': 'locked_by_previous',
-        'locked-with-timeframe': 'locked_with_timeframe'
+        'locked-with-timeframe': 'locked_with_timeframe',
       }[this.levelAccessStatus] || this.levelAccessStatus
 
-      return $.i18n.t(`teacher_dashboard.${label}`) + (!this.isSkipped && date ? ' ' + $.i18n.t('teacher_dashboard.until_date', { date: dateString }) : '')
+      const status = $.i18n.t(`teacher_dashboard.${label}`) + (!this.isSkipped && date ? ' ' + $.i18n.t('teacher_dashboard.until_date', { date: dateString }) : '')
+
+      return `
+        ${status}
+        ${this.tooltipName ? `<br><strong>${this.tooltipName}</strong>` : ''}
+        ${this.playedOn ? `<br>${$.i18n.t('user.last_played')}: ${moment(this.playedOn).format('lll')}` : ''}
+        ${this.status === 'complete' && this.completionDate ? `<br>${$.i18n.t('teacher.completed')}: ${moment(this.completionDate).format('lll')}` : ''}
+        ${this.playTime ? `<br>${$.i18n.t('teacher.time_played_label')} ${moment.duration({ seconds: this.playTime }).humanize()}` : ''}
+
+        ${this.extraPracticeLevels?.length ? '<br><br>' : ''}
+
+        ${this.filterPracticeLevelsToDisplay(this.extraPracticeLevels).map(({ name, status }) => `${$.i18n.t('teacher_dashboard.practice_level')}: ${name} - ${$.i18n.t(`teacher_dashboard.${status}`)}`).join('<br>')}`
     },
 
     levelAccessStatus () {
@@ -137,7 +206,7 @@ export default {
       } else if (this.isOptional && this.isPlayable) {
         return 'optional'
       }
-      return 'assigned'
+      return this.status
     },
 
     hasClockIcon () {
@@ -148,7 +217,7 @@ export default {
         return true
       }
       return false
-    }
+    },
   },
 
   methods: {
@@ -167,11 +236,52 @@ export default {
         }
         window.tracker?.trackEvent('Track Progress: Progress Dot Clicked', {
           category: this.trackCategory || 'Teachers',
-          label: eventLabel
+          label: eventLabel,
         })
       }
-    }
-  }
+    },
+    filterPracticeLevelsToDisplay (practiceLevels) {
+      const levels = practiceLevels.map(level => ({ name: level.name, status: this.getStatus(level) }))
+
+      const inProgressLevelIndex = levels.findIndex(level => level.status === 'progress')
+
+      const firstAssignedLevelIndex = levels.findIndex(level => level.status === 'assigned')
+
+      let mainIndex = levels.length - 2
+      if (inProgressLevelIndex !== -1) {
+        mainIndex = inProgressLevelIndex
+      } else if (firstAssignedLevelIndex !== -1) {
+        mainIndex = firstAssignedLevelIndex
+      }
+
+      if (mainIndex === 0) {
+        return levels.slice(0, 3)
+      }
+
+      const selectedLevels = [
+        levels[mainIndex - 2],
+        levels[mainIndex - 1],
+        levels[mainIndex],
+        levels[mainIndex + 1],
+      ].filter(Boolean)
+
+      if (mainIndex === firstAssignedLevelIndex) {
+        return selectedLevels.slice(0, 3)
+      }
+
+      return selectedLevels.slice(-3)
+    },
+
+    getStatus (level) {
+      if (level.isCompleted) {
+        return 'complete'
+      } else if (level.inProgress) {
+        return 'progress'
+      } else {
+        return 'assigned'
+      }
+    },
+  },
 }
 </script>
 
@@ -180,7 +290,7 @@ export default {
     v-tooltip="tooltipContent && {
       content: tooltipContent,
       placement: 'right',
-      classes: 'layoutChromeTooltip',
+      classes: 'layoutChromeTooltip progress-dot-tooltip',
     }"
     :class="isClickedClasses"
     @click="clickHandler"
@@ -202,6 +312,15 @@ export default {
     </div>
   </div>
 </template>
+
+<style lang="scss">
+.progress-dot-tooltip {
+  max-width: max-content;
+  .tooltip-inner {
+    max-width: max-content;
+  }
+}
+</style>
 
 <style lang="scss" scoped>
 
@@ -250,6 +369,9 @@ export default {
 
 .green-dot {
   background-color: #2dcd38;
+  &.locked, &.locked-by-previous, &.locked-with-timeframe {
+    background-color: rgba(#2dcd38, 0.35);
+  }
 }
 
 .teal-dot {
@@ -304,6 +426,13 @@ export default {
 
 .border-gray {
   border: 1px solid #828282;
+}
+
+.has-active-practice-levels {
+  border: 1px dotted blue;
+  &.all-practice-levels-completed {
+    border-style: solid;
+  }
 }
 
 .clicked {

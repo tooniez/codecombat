@@ -71,6 +71,7 @@ module.exports = (LadderView = (function () {
       this.leagueType = leagueType
       this.leagueID = leagueID
       this.refreshViews = this.refreshViews.bind(this)
+      this.leaderboardRankings = []
 
       let tournamentEndDate, tournamentStartDate
       this.level = this.supermodel.loadModel(new Level({ _id: this.levelID })).model
@@ -130,16 +131,20 @@ module.exports = (LadderView = (function () {
       this.prototype.showBackground = false
 
       this.prototype.subscriptions =
-        { 'application:idle-changed': 'onIdleChanged' }
+        {
+          'application:idle-changed': 'onIdleChanged',
+          'ladder:refresh': 'updateSpectateList',
+        }
 
       this.prototype.events = {
         'click .play-button': 'onClickPlayButton',
         'click a:not([data-toggle])': 'onClickedLink',
         'click .publish-button': 'onClickPublishButton',
         'click .spectate-button': 'onClickSpectateButton',
+        'click .new-spectate-button': 'onClickNewSpectateButton',
         'click .simulate-all-button': 'onClickSimulateAllButton',
         'click .early-results-button': 'onClickEarlyResultsButton',
-        'click .join-clan-button': 'onClickJoinClanButton'
+        'click .join-clan-button': 'onClickJoinClanButton',
       }
 
       this.prototype.onCourseInstanceLoaded = co.wrap(function * (courseInstance) {
@@ -156,7 +161,7 @@ module.exports = (LadderView = (function () {
 
       this.prototype.teamOffers = [
         { slug: 'hyperx', clanId: '60a4378875b540004c78f121', name: 'Team HyperX', clanSlug: 'hyperx' },
-        { slug: 'derbezt', clanId: '601351bb4b79b4013e198fbe', name: 'Team DerBezt', clanSlug: 'team-derbezt' }
+        { slug: 'derbezt', clanId: '601351bb4b79b4013e198fbe', name: 'Team DerBezt', clanSlug: 'team-derbezt' },
       ]
     }
 
@@ -164,8 +169,8 @@ module.exports = (LadderView = (function () {
       return $.ajax({
         type: 'HEAD',
         success: (result, status, xhr) => {
-          return this.timeOffset = new Date(xhr.getResponseHeader('Date')).getTime() - Date.now()
-        }
+          return (this.timeOffset = new Date(xhr.getResponseHeader('Date')).getTime() - Date.now())
+        },
       })
     }
 
@@ -243,19 +248,19 @@ module.exports = (LadderView = (function () {
           }
           if (this.tournament.get('endDate')) {
             if (this.tournamentTimeRefreshInterval) { clearInterval(this.tournamentTimeRefreshInterval) }
-            this.tournamentTimeRefreshInterval = setInterval(this.refreshTournamentTime.bind(this), 1000)
+            this.tournamentTimeRefreshInterval = setInterval(this.refreshTournamentTime.bind(this), 5000)
             this.refreshTournamentTime()
           }
 
           if (this.tournament.get('state') === 'initializing') {
             this.tournamentEnd = true
-            newInterval = this.tournamentTimeElapsed < (-10 * 1000) ? Math.min(10 * 60 * 1000, -this.tournamentTimeElapsed / 2) : 1000
+            newInterval = this.tournamentTimeElapsed < (-10 * 1000) ? Math.min(10 * 60 * 1000, -this.tournamentTimeElapsed / 2) : 5000
           } else if (this.tournament.get('state') === 'starting') {
             this.tournamentEnd = false
-            newInterval = this.tournamentTimeLeft > (10 * 1000) ? Math.min(10 * 60 * 1000, this.tournamentTimeLeft / 2) : 1000
+            newInterval = this.tournamentTimeLeft > (10 * 1000) ? Math.min(10 * 60 * 1000, this.tournamentTimeLeft / 2) : 5000
           } else if (['ranking', 'waiting'].includes(this.tournament.get('state'))) {
             this.tournamentEnd = true
-            newInterval = this.tournamentResultsTimeLeft > (10 * 1000) ? Math.min(10 * 60 * 1000, this.tournamentResultsTimeLeft / 2) : 1000
+            newInterval = this.tournamentResultsTimeLeft > (10 * 1000) ? Math.min(10 * 60 * 1000, this.tournamentResultsTimeLeft / 2) : 5000
           } else if (this.tournament.get('state') === 'ended') {
             this.tournamentEnd = true
           }
@@ -308,7 +313,7 @@ module.exports = (LadderView = (function () {
         null
       } else { // starting, or unset
         if (this.level.isType('ladder')) {
-          this.insertSubView(this.ladderTab = new TournamentLeaderboard({ league: this.league, leagueType: this.leagueType, course: this.course, myTournamentSubmission: this.myTournamentSubmission }, this.level, this.sessions, this.anonymousPlayerName))
+          this.insertSubView(this.ladderTab = new TournamentLeaderboard({ league: this.league, leagueType: this.leagueType, course: this.course, myTournamentSubmission: this.myTournamentSubmission, updateSpectateList: this.updateSpectateList }, this.level, this.sessions, this.anonymousPlayerName))
         } else {
           this.insertSubView(this.ladderTab = new LadderTabView({ league: this.league, tournament: this.tournamentId }, this.level, this.sessions))
         }
@@ -476,6 +481,27 @@ module.exports = (LadderView = (function () {
     }
 
     isAILeagueArena () { return _.find(utils.arenas, { slug: this.levelID }) }
+
+    updateSpectateList () {
+      if (!this.level?.isType('ladder')) return
+      this.leaderboardRankings = this.ladderTab?.rankings || []
+      this.renderSelectors('.spectate-players')
+    }
+
+    onClickNewSpectateButton () {
+      const player1Index = parseInt(this.$el.find('#spectate-player-1').val().split(':')[0]) - 1
+      const player2Index = parseInt(this.$el.find('#spectate-player-2').val().split(':')[0]) - 1
+      const player1 = this.leaderboardRankings[player1Index]
+      const player2 = this.leaderboardRankings[player2Index]
+      const humanSession = player1 != null ? player1[player1.length - 1] : undefined
+      const ogreSession = player2 != null ? player2[player2.length - 1] : undefined
+      let url = `/play/spectate/${this.level.get('slug')}?`
+      if (humanSession && ogreSession) { url += `session-one=${humanSession}&session-two=${ogreSession}` }
+      if (this.league) { url += '&league=' + this.league.id }
+      if (key.command) { url += '&autoplay=false' }
+      if (this.tournamentState === 'ended') { url += '&tournament=' + this.tournamentId }
+      return window.open(url, key.command ? '_blank' : 'spectate') // New tab for spectating specific matches
+    }
 
     destroy () {
       clearInterval(this.refreshInterval)

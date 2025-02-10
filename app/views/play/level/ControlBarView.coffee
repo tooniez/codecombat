@@ -5,6 +5,7 @@ CocoView = require 'views/core/CocoView'
 template = require 'app/templates/play/level/control-bar-view'
 {me} = require 'core/auth'
 utils = require 'core/utils'
+userUtils = require 'lib/user-utils'
 
 Campaign = require 'models/Campaign'
 Classroom = require 'models/Classroom'
@@ -21,6 +22,7 @@ module.exports = class ControlBarView extends CocoView
   subscriptions:
     'level:disable-controls': 'onDisableControls'
     'level:enable-controls': 'onEnableControls'
+    'level:overallStatus-changed': 'onOverallStatusChanged'
     'ipad:memory-warning': 'onIPadMemoryWarning'
 
   events:
@@ -31,6 +33,7 @@ module.exports = class ControlBarView extends CocoView
     'click .home a': 'onClickHome'
     'click #control-bar-sign-up-button': 'onClickSignupButton'
     'click [data-toggle="coco-modal"][data-target="core/CreateAccountModal"]': 'openCreateAccountModal'
+    'click .hints-button': 'onClickHintsButton'
 
   constructor: (options) ->
     @supermodel = options.supermodel
@@ -44,6 +47,13 @@ module.exports = class ControlBarView extends CocoView
     @levelID = @levelSlug or @level.id
     @spectateGame = options.spectateGame ? false
     @observing = options.session.get('creator') isnt me.id
+    @product = @level.attributes.product
+    @lastOverallStatus = null
+
+    exam = userUtils.getStorageExam()
+    if exam
+      @examLevelNumber = userUtils.levelNumberInExam(@level.get('slug'))
+      @inExam = @examLevelNumber != 0
 
     @levelNumber = ''
     if @level.isType('course', 'game-dev', 'web-dev') and @level.get('campaignIndex')?
@@ -75,8 +85,11 @@ module.exports = class ControlBarView extends CocoView
     @render()
 
   onLoaded: ->
+    if @inExam
+      @setLevelName($.i18n.t('exams.level_num', { num: @examLevelNumber }))
+
     if @classroom
-      @levelNumber = @classroom.getLevelNumber(@level.get('original'), @levelNumber)
+      @levelNumber = @classroom.getLevelNumber(@level.get('original'), @levelNumber, @courseID)
       newClassroomItemsSetting = @classroom.get('classroomItems', true)
       oldClassroomItemsSetting = me.lastClassroomItems()
       me.setLastClassroomItems @classroom.get('classroomItems', true)
@@ -87,7 +100,7 @@ module.exports = class ControlBarView extends CocoView
         _.delay (-> document.location.reload()), 2000
     else if @campaign
       @levelNumber = @campaign.getLevelNumber(@level.get('original'), @levelNumber)
-    if application.getHocCampaign() or @level.get('assessment')
+    if application.getHocCampaign()
       @levelNumber = null
     super()
 
@@ -109,6 +122,8 @@ module.exports = class ControlBarView extends CocoView
       @lastDifficulty = c.levelDifficulty
     c.spectateGame = @spectateGame
     c.observing = @observing
+    c.product = @product
+    c.lastOverallStatus = @lastOverallStatus
     @homeViewArgs = [{supermodel: if @hasReceivedMemoryWarning then null else @supermodel}]
     gameDevCampaign = application.getHocCampaign()
     if gameDevCampaign and not @level.isLadder()
@@ -153,11 +168,12 @@ module.exports = class ControlBarView extends CocoView
     c
 
   showGameMenuModal: (e, tab=null) ->
-    gameMenuModal = new GameMenuModal level: @level, session: @session, supermodel: @supermodel, showTab: tab, classroomAceConfig: @options.classroomAceConfig
+    Backbone.Mediator.publish 'tome:game-menu-opened', {}
+    gameMenuModal = new GameMenuModal {@level, @session, @supermodel, showTab: tab, classroomAceConfig: @options.classroomAceConfig, hintsState: @options.hintsState, teacherID: @options.teacherID, @team, @courseID, @courseInstanceID}
     @openModalView gameMenuModal
     @listenToOnce gameMenuModal, 'change-hero', ->
       @setupManager?.destroy()
-      @setupManager = new LevelSetupManager({supermodel: @supermodel, level: @level, levelID: @levelID, parent: @, session: @session, courseID: @courseID, courseInstanceID: @courseInstanceID})
+      @setupManager = new LevelSetupManager({@supermodel, @level, @levelID, parent: @, @session, @courseID, @courseInstanceID, classroom: @classroom})
       @setupManager.open()
 
   onClickHome: (e) ->
@@ -170,6 +186,17 @@ module.exports = class ControlBarView extends CocoView
 
   onClickSignupButton: (e) ->
     window.tracker?.trackEvent 'Started Signup', category: 'Play Level', label: 'Control Bar', level: @levelID
+
+  onClickHintsButton: ->
+    return unless @options.hintsState?
+    Backbone.Mediator.publish 'level:hints-button', {state: @options.hintsState.get('hidden')}
+    @options.hintsState.set('hidden', not @options.hintsState.get('hidden'))
+    window.tracker?.trackEvent 'Hints Clicked', category: 'Students', levelSlug: @levelSlug, hintCount: @options.hintsState.get('hints')?.length ? 0
+
+  onOverallStatusChanged: (e) ->
+    return if e?.overallStatus == @lastOverallStatus 
+    @lastOverallStatus = e.overallStatus
+    @render()
 
   onDisableControls: (e) -> @toggleControls e, false
   onEnableControls: (e) -> @toggleControls e, true

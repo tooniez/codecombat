@@ -17,6 +17,11 @@ healthColors =
   humans: [255, 0, 0]
   neutral: [64, 212, 128]
 
+juniorHealthColors =
+  ogres: [0, 240, 255]
+  humans: [253, 20, 48]
+  neutral: [64, 212, 128]
+
 # Sprite: EaselJS-based view/controller for Thang model
 module.exports = Lank = class Lank extends CocoClass
   thangType: null # ThangType instance
@@ -281,7 +286,7 @@ module.exports = Lank = class Lank extends CocoClass
       @handledDisplayEvents[event] = true
       options = JSON.parse(event[5...])
       label = new createjs.Text options.text, "bold #{options.size or 16}px Arial", options.color or '#FFF'
-      shadowColor = {humans: '#F00', ogres: '#00F', neutral: '#0F0', common: '#0F0'}[@thang.team] ? '#000'
+      shadowColor = options.shadowColor or {humans: '#F00', ogres: '#00F', neutral: '#0F0', common: '#0F0'}[@thang.team] or '#000'
       label.shadow = new createjs.Shadow shadowColor, 1, 1, 3
       offset = @getOffset 'aboveHead'
       [label.x, label.y] = [@sprite.x + offset.x - label.getMeasuredWidth() / 2, @sprite.y + offset.y]
@@ -289,10 +294,11 @@ module.exports = Lank = class Lank extends CocoClass
       window.labels ?= []
       window.labels.push label
       label.alpha = 0
+      duration = options.duration or 2200
       createjs.Tween.get(label)
-        .to({y: label.y-2, alpha: 1}, 200, createjs.Ease.linear)
-        .to({y: label.y-12}, 1000, createjs.Ease.linear)
-        .to({y: label.y-22, alpha: 0}, 1000, createjs.Ease.linear)
+        .to({y: label.y-2, alpha: 1}, duration * 200 / 2200, createjs.Ease.linear)
+        .to({y: label.y-12}, duration * 1000 / 2200, createjs.Ease.linear)
+        .to({y: label.y-22, alpha: 0}, duration * 1000 / 2200, createjs.Ease.linear)
         .call =>
           return if @destroyed
           @options.textLayer.removeChild label
@@ -366,7 +372,7 @@ module.exports = Lank = class Lank extends CocoClass
     else
       newScaleFactorX = @thang?.scaleFactorX ? @thang?.scaleFactor ? 1
       newScaleFactorY = @thang?.scaleFactorY ? @thang?.scaleFactor ? 1
-      if @layer?.name is 'Land' or @thang?.isLand or @thang?.spriteName is 'Beam' or @isCinematicLank or @thang?.quickScale
+      if @layer?.name is 'Land' or @thang?.isLand or @thang?.spriteName is 'Beam' or @isCinematicLank or @thang?.quickScale or force
         @scaleFactorX = newScaleFactorX
         @scaleFactorY = newScaleFactorY
       else if @thang and (newScaleFactorX isnt @targetScaleFactorX or newScaleFactorY isnt @targetScaleFactorY)
@@ -389,6 +395,10 @@ module.exports = Lank = class Lank extends CocoClass
     rotationType = @thangType.get('rotationType')
     return if rotationType is 'fixed'
     rotation = @getRotation()
+    if @thangType.get('name') is 'Junior Beach Floor'
+      # Randomly rotate so that we get twice the variety
+      @rotationVariation ?= if Math.random() < 0.5 then 180 else 0
+      rotation = @rotationVariation
     if @isMissile and @thang.velocity
       # Rotates the arrow to see it arc based on velocity.z.
       # Notice that rotation here does not affect thang's state - it is just the effect.
@@ -435,6 +445,11 @@ module.exports = Lank = class Lank extends CocoClass
     action = thang.action if thang?.acts
     action ?= @currentRootAction.name if @currentRootAction?
     action ?= 'idle'
+    if action is 'idle' and @thangType.get('name') is 'Junior Beach Floor'
+      # Randomly pick idle or idle-1 through idle-6
+      @idleVariation ?= Math.floor(Math.random() * 7)
+      if @idleVariation > 0
+        action = "idle-#{@idleVariation}"
     unless @actions[action]?
       @warnedFor ?= {}
       console.info 'Cannot show action', action, 'for', @thangType.get('name'), 'because it DNE' unless @warnedFor[action]
@@ -491,6 +506,55 @@ module.exports = Lank = class Lank extends CocoClass
         index = Math.max 0, Math.floor((179 + rotation) / 360 * keys.length)
         #console.log 'Showing', relatedActions[keys[index]]
         return relatedActions[keys[index]]
+    else if relatedActions['111111111']  # has beach-tile-grid-like actions; 0 and 1 are flipped compared to other walls
+      if @wallGrid
+        @hadWallGrid = true
+        action = ''
+        tileSize = 8
+        [gx, gy] = [@thang.pos.x, @thang.pos.y]
+        for y in [gy + tileSize, gy, gy - tileSize]
+          for x in [gx - tileSize, gx, gx + tileSize]
+            if x >= 0 and y >= 0 and x < @wallGrid.width and y < @wallGrid.height
+              wallThangs = @wallGrid.contents x, y
+            else
+              wallThangs = ['outside of the map yo']
+            if wallThangs.length is 0
+              if y is gy and x is gx
+                action += '1'  # the center wall we're placing
+              else
+                action += '0'
+            else if wallThangs.length is 1
+              action += '1'
+            else
+              console.error 'Overlapping walls at', x, y, '...', wallThangs
+              action += '1'
+        # If we have a 0 on an edge, propagate that to the touching corners, because the fringes of land will go around those corners
+        if action[1] is '0'  # N edge -> N corners
+          action = _.string.splice(action, 0, 1, '0')
+          action = _.string.splice(action, 2, 1, '0')
+        if action[3] is '0'  # W edge -> W corners
+          action = _.string.splice(action, 0, 1, '0')
+          action = _.string.splice(action, 6, 1, '0')
+        if action[5] is '0'  # E edge -> E corners
+          action = _.string.splice(action, 2, 1, '0')
+          action = _.string.splice(action, 8, 1, '0')
+        if action[7] is '0'  # S edge -> S corners
+          action = _.string.splice(action, 6, 1, '0')
+          action = _.string.splice(action, 8, 1, '0')
+        matchedAction = '111111111'
+        for relatedAction of relatedActions
+          if action.match(relatedAction.replace(/\?/g, '.'))
+            matchedAction = relatedAction
+            break
+        # console.log 'returning', matchedAction, 'for', @thang.id, 'at', gx, gy, 'while going for', action
+        return relatedActions[matchedAction]
+      else if @hadWallGrid
+        return null
+      else
+        keys = _.keys relatedActions
+        index = Math.max 0, Math.floor((179 + rotation) / 360 * keys.length)
+        # console.log 'Showing', relatedActions[keys[index]]
+        return relatedActions[keys[index]]
     value = Math.abs(rotation)
     direction = null
     direction = 'side' if value <= 45 or value >= 135
@@ -501,9 +565,16 @@ module.exports = Lank = class Lank extends CocoClass
   updateStats: ->
     return unless @thang and @thang.health isnt @lastHealth
     @lastHealth = @thang.health
-    if bar = @healthBar
-      healthPct = Math.max(@thang.health / @thang.maxHealth, 0)
-      bar.scaleX = healthPct / @options.floatingLayer.resolutionFactor
+    if @healthBar
+      if @thang.healthBarStyle is 'pill-with-ticks'
+        # We have to redraw the health bar
+        @addHealthBar()
+      else
+        # We can just scale the health bar
+        healthPct = Math.max(@thang.health / @thang.maxHealth, 0)
+        @healthBar.scaleX = healthPct / @options.floatingLayer.resolutionFactor
+      if @thang.id is 'Hero Placeholder'
+        Backbone.Mediator.publish 'sprite:hero-health-updated', health: @thang.health, maxHealth: @thang.maxHealth
     if @thang.showsName
       @setNameLabel(if @thang.health <= 0 then '' else @thang.id)
     else if @options.playerName
@@ -529,16 +600,22 @@ module.exports = Lank = class Lank extends CocoClass
     @gameUIState.trigger(ourEventName, newEvent)
 
   addHealthBar: ->
-    return unless @thang?.health? and 'health' in (@thang?.hudProperties ? []) and @options.floatingLayer
-    team = @thang?.team or 'neutral'
+    return unless @thang?.health? and 'health' in (@thang.hudProperties || []) and @options.floatingLayer
+    team = @thang.team or 'neutral'
     key = "#{team}-health-bar"
+    if (@thang.healthBarStyle is 'pill-with-ticks') and @thang.maxHealth <= 10
+      health = Math.max(0, Math.ceil(@thang.health))
+      maxHealth = Math.ceil(@thang.maxHealth || @thang.health)
+      key = "#{key}-#{health}-#{maxHealth}"
 
     unless key in @options.floatingLayer.spriteSheet.animations
-      healthColor = healthColors[team]
-      bar = createProgressBar(healthColor)
+      healthColor = (if @thang.healthBarStyle is 'pill-with-ticks' then juniorHealthColors else healthColors)[team]
+      bar = createProgressBar(healthColor, health, maxHealth)
       @options.floatingLayer.addCustomGraphic(key, bar, bar.bounds)
 
     hadHealthBar = @healthBar
+    if hadHealthBar
+      @options.floatingLayer.removeChild @healthBar
     @healthBar = new createjs.Sprite(@options.floatingLayer.spriteSheet)
     @healthBar.gotoAndStop(key)
     offset = @getOffset 'aboveHead'
@@ -723,8 +800,8 @@ module.exports = Lank = class Lank extends CocoClass
   onSetLetterbox: (e) ->
     @letterboxOn = e.on
 
-  setNameLabel: (name) ->
-    label = @addLabel 'name', Label.STYLE_NAME
+  setNameLabel: (name, style) ->
+    label = @addLabel 'name', style || Label.STYLE_NAME
     label.setText name
 
   updateLabels: ->
@@ -796,12 +873,15 @@ module.exports = Lank = class Lank extends CocoClass
         sound = soundTriggers?[sound] or @thangType.get('soundTriggers')?[sound]  # Check localized triggers first, then root sound triggers in case of incomplete localization
       if _.isArray sound
         sound = sound[Math.floor Math.random() * sound.length]
+      if _.isObject(sound) and sound[0]
+        # For some reason, sound arrays are being sent as objects sometimes
+        sound = sound[Math.floor Math.random() * _.values(sound).length]
       return null unless sound
       delay = if withDelay and sound.delay then 1000 * sound.delay / createjs.Ticker.framerate else 0
       name = AudioPlayer.nameForSoundReference sound
       AudioPlayer.preloadSoundReference sound
       instance = AudioPlayer.playSound name, volume, delay, @getWorldPosition()
-      #console.log @thang?.id, 'played sound', name, 'with delay', delay, 'volume', volume, 'and got sound instance', instance
+      #console.log @thang?.id, 'played sound', name, 'with delay', delay, 'volume', volume, 'and got sound instance', instance, 'from sound', sound
       instance
     else # Ozaria
       # Sounds are triggered once and play until they complete.

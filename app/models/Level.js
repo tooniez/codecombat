@@ -19,6 +19,7 @@ const LevelSystem = require('./LevelSystem')
 const LevelConstants = require('lib/LevelConstants')
 const ThangTypeConstants = require('lib/ThangTypeConstants')
 const utils = require('core/utils')
+const translateUtils = require('lib/translate-utils')
 const store = require('core/store')
 
 // Pure functions for use in Vue
@@ -44,7 +45,7 @@ module.exports = (Level = (function () {
 
     serialize (options) {
       let cached, otherSession, session, supermodel;
-      ({ supermodel, session, otherSession, headless: this.headless, sessionless: this.sessionless, cached } = options)
+      ({ supermodel, session, otherSession, headless: this.headless, sessionless: this.sessionless, cached, isEditorPreview: this.isEditorPreview } = options)
       if (cached == null) { cached = false }
       const o = this.denormalize(supermodel, session, otherSession) // hot spot to optimize
 
@@ -68,8 +69,8 @@ module.exports = (Level = (function () {
       o.thangTypes = []
       for (const tt of Array.from(supermodel.getModels('ThangType'))) {
         if (tmap[tt.get('original')] ||
-          ((tt.get('kind') !== 'Hero') && (tt.get('kind') != null) && tt.get('components') && !tt.notInLevel) ||
-          ((tt.get('kind') === 'Hero') && (this.isType('course', 'course-ladder', 'game-dev') || Array.from(sessionHeroes).includes(tt.get('original'))))) {
+          ((tt.get('kind') !== 'Hero' && tt.get('kind') !== 'Junior Hero') && (tt.get('kind') != null) && tt.get('components') && !tt.notInLevel) ||
+          ((tt.get('kind') === 'Hero' || tt.get('kind') === 'Junior Hero') && (this.isType('course', 'course-ladder', 'game-dev') || Array.from(sessionHeroes).includes(tt.get('original'))))) {
           o.thangTypes.push(({ original: tt.get('original'), name: tt.get('name'), components: $.extend(true, [], tt.get('components')), kind: tt.get('kind') }))
         }
       }
@@ -120,18 +121,8 @@ module.exports = (Level = (function () {
       let config, heroThangType, isHero, placeholderComponent, placeholders, placeholdersUsed, thangComponent
       if (levelThang.components == null) { levelThang.components = [] }
       if (utils.isCodeCombat) {
-        if (/Hero Placeholder/.test(levelThang.id) && (this.get('assessment') !== 'open-ended')) {
-          if (this.isType('hero', 'hero-ladder', 'hero-coop') && !me.isStudent()) {
-            isHero = true
-          } else if (this.isType('course') && me.showHeroAndInventoryModalsToStudents() && !this.isAssessment()) {
-            isHero = true
-          } else {
-            isHero = false
-          }
-        }
-
-        if (isHero && this.usesConfiguredMultiplayerHero()) {
-          isHero = false // Don't use the hero from the session, but rather the one configured in this level
+        if (/Hero Placeholder/.test(levelThang.id)) {
+          isHero = this.usesSessionHeroInventory()
         }
 
         if (isHero && otherSession) {
@@ -162,7 +153,20 @@ module.exports = (Level = (function () {
             }
             levelThang.components = [] // We have stored the placeholder values, so we can inherit everything else.
             heroThangType = __guard__(session != null ? session.get('heroConfig') : undefined, x => x.thangType)
-            if (heroThangType) { levelThang.thangType = heroThangType }
+            if (heroThangType) {
+              let juniorHeroReplacement
+              if (this.get('product', true) === 'codecombat-junior') {
+                // If we got into a codecombat-junior level with a codecombat hero, pick an equivalent codecombat-junior hero to use instead
+                juniorHeroReplacement = ThangTypeConstants.juniorHeroReplacements[_.invert(ThangTypeConstants.heroes)[heroThangType]]
+              } else {
+                // If we got into a codecombat level with a codecombat-junior hero, pick an equivalent codecombat hero to use instead
+                juniorHeroReplacement = _.invert(ThangTypeConstants.juniorHeroReplacements)[_.invert(ThangTypeConstants.heroes)[heroThangType]]
+              }
+              if (juniorHeroReplacement) {
+                heroThangType = ThangTypeConstants.heroes[juniorHeroReplacement]
+              }
+              levelThang.thangType = heroThangType
+            }
           }
         }
       }
@@ -174,6 +178,7 @@ module.exports = (Level = (function () {
         configs[thangComponent.original] = thangComponent
       }
 
+      let defaultEquipsConfig
       for (const defaultThangComponent of Array.from((thangType != null ? thangType.get('components') : undefined) || [])) {
         let copy
         let levelThangComponent = configs[defaultThangComponent.original]
@@ -190,11 +195,9 @@ module.exports = (Level = (function () {
         if (utils.isCodeCombat) {
           if (isHero && (placeholderComponent = placeholders[defaultThangComponent.original])) {
             placeholdersUsed[placeholderComponent.original] = true
-            const placeholderConfig = placeholderComponent.config != null ? placeholderComponent.config : {}
+            const placeholderConfig = placeholderComponent.config || {}
             if (levelThangComponent.config == null) { levelThangComponent.config = {} }
-            ({
-              config
-            } = levelThangComponent)
+            config = levelThangComponent.config
             if (placeholderConfig.pos) { // Pull in Physical pos x and y
               if (config.pos == null) { config.pos = {} }
               config.pos.x = placeholderConfig.pos.x
@@ -207,14 +210,16 @@ module.exports = (Level = (function () {
             } else if (placeholderConfig.programmableMethods) {
               // Take the ThangType default Programmable and merge level-specific Component config into it
               copy = $.extend(true, {}, placeholderConfig)
-              const programmableProperties = (config != null ? config.programmableProperties : undefined) != null ? (config != null ? config.programmableProperties : undefined) : []
-              copy.programmableProperties = _.union(programmableProperties, copy.programmableProperties != null ? copy.programmableProperties : [])
+              const programmableProperties = config?.programmableProperties || []
+              copy.programmableProperties = _.union(programmableProperties, copy.programmableProperties || [])
               levelThangComponent.config = (config = _.merge(copy, config))
             } else if (placeholderConfig.extraHUDProperties) {
               config.extraHUDProperties = _.union(config.extraHUDProperties != null ? config.extraHUDProperties : [], placeholderConfig.extraHUDProperties)
             } else if (placeholderConfig.voiceRange) { // Pull in voiceRange
               config.voiceRange = placeholderConfig.voiceRange
               config.cooldown = placeholderConfig.cooldown
+            } else if (placeholderConfig.inventory) {
+              defaultEquipsConfig = placeholderConfig
             }
           }
         }
@@ -223,8 +228,59 @@ module.exports = (Level = (function () {
       if (utils.isCodeCombat && isHero) {
         const equips = _.find(levelThang.components, { original: LevelComponent.EquipsID })
         if (equips) {
-          const inventory = __guard__(session != null ? session.get('heroConfig') : undefined, x1 => x1.inventory)
+          const inventory = session?.get('heroConfig')?.inventory || {}
           if (equips.config == null) { equips.config = {} }
+          // If we somehow don't have all our required properties, then grant the rest of them.
+          if (!this.headless && !this.isEditorPreview) {
+            for (const [slot, defaultItemOriginal] of Object.entries(defaultEquipsConfig?.inventory || {})) {
+              // Look through this ThangType's components for one with config.programmableProperties, see if there's intersection between those and this.get('requiredProperties') and there is NOT such intersection for whatever item we would otherwise have in this slot, and if so, put that item in this slot.
+              if (!defaultItemOriginal) { continue }
+              const defaultItemThangType = thangTypesByOriginal[defaultItemOriginal]
+              if (!defaultItemThangType) { continue }
+
+              // Initialize the default item properties
+              let defaultItemProperties = []
+              for (const component of defaultItemThangType.get('components') || []) {
+                defaultItemProperties = defaultItemProperties.concat(component.config?.programmableProperties || [])
+              }
+
+              // Get the player's item in this slot
+              const playerItemOriginal = inventory[slot]
+
+              // Initialize player's item properties
+              let playerItemProperties = []
+              let playerItemThangType
+              if (playerItemOriginal) {
+                playerItemThangType = thangTypesByOriginal[playerItemOriginal]
+                if (playerItemThangType) {
+                  for (const component of playerItemThangType.get('components') || []) {
+                    playerItemProperties = playerItemProperties.concat(component.config?.programmableProperties || [])
+                  }
+                }
+              }
+
+              // Get required properties from the level
+              const requiredProperties = this.get('requiredProperties') || []
+              const requiredPropertiesForSlot = _.intersection(requiredProperties, defaultItemProperties)
+              const requiredGear = this.get('requiredGear')?.[slot]
+              const restrictedGear = this.get('restrictedGear')?.[slot]
+
+              // Check if the player's item covers all the required properties for this slot
+              const playerItemRequiredPropertiesForSlot = _.intersection(playerItemProperties, requiredPropertiesForSlot)
+              if (playerItemRequiredPropertiesForSlot.length === 0 && playerItemRequiredPropertiesForSlot.length < requiredPropertiesForSlot.length) {
+                // Player's item does not cover required properties, so equip the default item
+                console.log(`Auto-equipping default item ${defaultItemOriginal} ${defaultItemThangType.get('name')} in slot ${slot} to get required properties ${requiredPropertiesForSlot} out of requiredProperties ${requiredProperties}, because player item ${playerItemOriginal} ${playerItemThangType?.get('name')} only has properties ${playerItemProperties}`)
+                inventory[slot] = defaultItemOriginal
+              } else if (requiredGear?.length && !playerItemOriginal) {
+                // Player's item does not exist, so equip the default item. (Note that we do let them play with different items equipped in the slot.)
+                console.log(`Auto-equipping default item ${defaultItemOriginal} in slot ${slot} because player has no item equipped there and a required item is there`)
+                inventory[slot] = defaultItemOriginal
+              } else if (restrictedGear?.length && restrictedGear.includes(playerItemOriginal)) {
+                console.log(`Auto-equipping default item ${defaultItemOriginal} ${defaultItemThangType.get('name')} in slot ${slot} because player item ${playerItemOriginal} ${playerItemThangType?.get('name')} is in restricted list`)
+                inventory[slot] = defaultItemOriginal
+              }
+            }
+          }
           if (inventory) { equips.config.inventory = $.extend(true, {}, inventory) }
         }
         for (const original in placeholders) {
@@ -248,13 +304,29 @@ module.exports = (Level = (function () {
           }
         }
       } else {
-        if (/Hero Placeholder/.test(levelThang.id) && this.isType('course') && !this.headless && !this.sessionless && !window.serverConfig.picoCTF && (this.get('assessment') !== 'open-ended') && (!me.showHeroAndInventoryModalsToStudents() || this.isAssessment())) {
-          heroThangType = __guard__(me.get('heroConfig'), x4 => x4.thangType) || ThangTypeConstants.heroes.captain
-          // use default hero in class if classroomItems is on
-          if (this.isAssessment() && me.showHeroAndInventoryModalsToStudents()) {
+        if (/Hero Placeholder/.test(levelThang.id) && this.usesSessionHeroThangType() && !this.usesSessionHeroInventory() && !this.headless && !this.isEditorPreview) {
+          // Grab the hero from my config, not the session hero config (so that switching heroes globally applies to existing sessions), when we are using configured heroes but not their inventory.
+          heroThangType = session.get('heroConfig')?.thangType || me.get('heroConfig')?.thangType
+          if (!heroThangType && this.isType('course')) {
             heroThangType = ThangTypeConstants.heroes.captain
           }
-          if (heroThangType) { levelThang.thangType = heroThangType }
+          if (!heroThangType) {
+            heroThangType = ThangTypeConstants.heroes.knight
+          }
+          if (heroThangType) {
+            let juniorHeroReplacement
+            if (this.get('product', true) === 'codecombat-junior') {
+              // If we got into a codecombat-junior level with a codecombat hero, pick an equivalent codecombat-junior hero to use instead
+              juniorHeroReplacement = ThangTypeConstants.juniorHeroReplacements[_.invert(ThangTypeConstants.heroes)[heroThangType]]
+            } else {
+              // If we got into a codecombat level with a codecombat-junior hero, pick an equivalent codecombat hero to use instead
+              juniorHeroReplacement = _.invert(ThangTypeConstants.juniorHeroReplacements)[_.invert(ThangTypeConstants.heroes)[heroThangType]]
+            }
+            if (juniorHeroReplacement) {
+              heroThangType = ThangTypeConstants.heroes[juniorHeroReplacement]
+            }
+            levelThang.thangType = heroThangType
+          }
         }
       }
     }
@@ -388,7 +460,7 @@ module.exports = (Level = (function () {
         const result = []
         for (const system of Array.from(levelSystems != null ? levelSystems : [])) {
           if (system.config == null) { system.config = {} }
-          TreemaUtils.populateDefaults(system.config, system.model.configSchema, tv4)
+          TreemaUtils.populateDefaults(system.config, system.model.configSchema || {}, tv4)
           this.lastType = 'system'
           result.push(this.lastOriginal = system.model.name)
         }
@@ -429,47 +501,77 @@ module.exports = (Level = (function () {
     }
 
     getSolutions () {
-      let hero, left, plan
-      if (!(hero = _.find(((left = this.get('thangs')) != null ? left : []), { id: 'Hero Placeholder' }))) { return [] }
-      if (!(plan = __guard__(_.find(hero.components != null ? hero.components : [], x => __guard__(__guard__(x != null ? x.config : undefined, x2 => x2.programmableMethods), x1 => x1.plan)), x => x.config.programmableMethods.plan))) { return [] }
-      const solutions = _.cloneDeep(plan.solutions != null ? plan.solutions : [])
-      for (const solution of Array.from(solutions)) {
-        let context = utils.i18n(plan, 'context')
-        if (utils.isOzaria) {
-          context = _.merge({ external_ch1_avatar: __guard__(store.getters != null ? store.getters['me/getCh1Avatar'] : undefined, x1 => x1.avatarCodeString) || 'crown' }, context)
-        }
+      const plan = this.getProgrammablePlan()
+      const solutions = _.cloneDeep(plan?.solutions || [])
+      const context = this.getCodeContext(plan)
+
+      return _.map(solutions, solution => {
         try {
-          solution.source = _.template(solution != null ? solution.source : undefined)(context)
+          return {
+            ...solution,
+            source: _.template(solution.source)(context)
+          }
         } catch (e) {
-          console.error(`Problem with template and solution comments for '${this.get('slug') || this.get('name')}'\n`, e)
+          console.error(`Problem with template and solution comments for '${this.get('slug') || this.get('name')}'`, e)
+          return solution
         }
-      }
-      return solutions
+      })
     }
 
-    getSampleCode (team) {
-      let hero, left, plan
-      if (team == null) { team = 'humans' }
-      const heroThangID = team === 'ogres' ? 'Hero Placeholder 1' : 'Hero Placeholder'
-      if (!(hero = _.find(((left = this.get('thangs')) != null ? left : []), { id: heroThangID }))) { return {} }
-      if (!(plan = __guard__(_.find(hero.components != null ? hero.components : [], x => __guard__(__guard__(x != null ? x.config : undefined, x2 => x2.programmableMethods), x1 => x1.plan)), x => x.config.programmableMethods.plan))) { return {} }
-      const sampleCode = _.cloneDeep(plan.languages != null ? plan.languages : {})
-      sampleCode.javascript = plan.source
-      for (const language in sampleCode) {
-        const code = sampleCode[language]
-        let {
-          context
-        } = plan
-        if (utils.isOzaria) {
-          context = _.merge({ external_ch1_avatar: __guard__(store.getters != null ? store.getters['me/getCh1Avatar'] : undefined, x1 => x1.avatarCodeString) || 'crown' }, context)
-        }
+    getSampleCode (team = 'humans') {
+      const plan = this.getProgrammablePlan(team)
+      const sampleCode = _.cloneDeep(plan?.languages || {})
+      sampleCode.javascript = plan?.source
+      const context = this.getCodeContext(plan)
+
+      _.forEach(sampleCode, (code, language) => {
         try {
           sampleCode[language] = _.template(code)(context)
         } catch (e) {
-          console.error(`Problem with template and solution comments for '${this.get('slug') || this.get('name')}'\n`, e)
+          console.error(`Problem with template and solution comments for '${this.get('slug') || this.get('name')}'`, e)
         }
-      }
+      })
+
       return sampleCode
+    }
+
+    getSolutionForLanguage (language) {
+      if (!language) { return '' }
+      const solutions = this.getSolutions()
+      let solution = _.find(solutions, { language, succeeds: true })
+      if (solution || language === 'javascript') return solution
+      const jsSolution = _.find(solutions, { language: 'javascript', succeeds: true })
+      if (!jsSolution) return null
+      solution = _.cloneDeep(jsSolution)
+      solution.source = translateUtils.translateJS(jsSolution.source, language)
+      return solution
+    }
+
+    getSampleCodeForLanguage (language) {
+      if (!language) { return '' }
+      const sampleCodeByLanguage = this.getSampleCode()
+      const sampleCode = sampleCodeByLanguage[language]
+      if (sampleCode || language === 'javascript' || !sampleCodeByLanguage.javascript) {
+        return sampleCode || ''
+      }
+      return translateUtils.translateJS(sampleCodeByLanguage.javascript, language) || ''
+    }
+
+    getProgrammablePlan (team = 'humans') {
+      const heroThangID = team === 'ogres' ? 'Hero Placeholder 1' : 'Hero Placeholder'
+      const hero = _.find(this.get('thangs') || [], { id: heroThangID })
+      return _.find(hero?.components || [], comp => comp.config?.programmableMethods?.plan)?.config.programmableMethods.plan
+    }
+
+    getCodeContext (plan) {
+      if (!plan) return {}
+      let context = utils.i18n(plan, 'context')
+      if (utils.isOzaria) {
+        context = _.merge({
+          external_ch1_avatar: store.getters?.['me/getCh1Avatar.avatarCodeString']?.crown
+        }, context)
+      }
+      return context
     }
 
     static thresholdForScore ({ level, type, score }) {
@@ -494,7 +596,7 @@ module.exports = (Level = (function () {
       return ['open-ended', 'cumulative'].includes(this.get('assessment'))
     }
 
-    usesConfiguredMultiplayerHero () {
+    usesLevelHeroLadderEquipment () {
       // For hero-ladder levels where we have configured Hero Placeholder inventory equipment, we must have intended to use it instead of letting the player choose their hero/equipment.
       let levelThang
       if (!this.isType('hero-ladder')) { return false }
@@ -503,7 +605,25 @@ module.exports = (Level = (function () {
       return (__guard__(equips != null ? equips.config : undefined, x => x.inventory) != null)
     }
 
-    isAssessment () { return (this.get('assessment') != null) }
+    usesSessionHeroThangType () {
+      if (this.isType('ladder', 'course-ladder', 'game-dev', 'web-dev')) { return false }
+      if (this.get('assessment') === 'open-ended') { return false }
+      if (this.usesLevelHeroLadderEquipment()) { return false }
+      return true
+    }
+
+    usesSessionHeroInventory () {
+      if (utils.isOzaria) { return false }
+      if (this.get('product', true) === 'codecombat-junior') { return false }
+      if (this.isType('course') && !me.showHeroAndInventoryModalsToStudents()) { return false }
+      if (this.isType('course') && this.isAssessment()) { return false }
+      if (this.get('assessment')) { return false }
+      if (!this.isType('course', 'hero', 'hero-ladder', 'hero-coop')) { return false }
+      if (this.usesLevelHeroLadderEquipment()) { return false }
+      return true
+    }
+
+    isAssessment () { return Boolean(this.get('assessment')) }
 
     isCapstone () { return this.get('ozariaType') === 'capstone' }
 

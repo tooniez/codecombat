@@ -1,43 +1,51 @@
 <script>
 import Panel from '../Panel/index.vue'
-import ModalNewClass from '../modals/ModalNewClass/index'
 import ModalAssignContent from '../modals/ModalAssignContent/index'
 import ModalAddStudents from '../modals/ModalAddStudents'
 import ModalRemoveStudents from '../modals/ModalRemoveStudents'
 import ModalOnboardingVideo from '../modals/ModalOnboardingVideo'
-
-import BaseCurriculumGuide from '../BaseCurriculumGuide'
+import ModalEditClass from '../modals/ModalEditClass'
 
 import SecondaryTeacherNavigation from '../common/SecondaryTeacherNavigation'
 import TitleBar from '../common/TitleBar'
 import LoadingBar from 'ozaria/site/components/common/LoadingBar'
 import { COMPONENT_NAMES } from '../common/constants.js'
+import TopBanner from './TopBanner'
+
+import utils from 'core/utils'
 
 import storage from 'core/storage'
 
-import { mapMutations, mapGetters } from 'vuex'
+import { mapMutations, mapGetters, mapActions } from 'vuex'
 import { FIRST_CLASS_STEPS, CREATE_CLASS_STEPS } from './teacherDashboardTours'
 import ModalTeacherDetails from '../modals/ModalTeacherDetails'
 import { hasSeenTeacherDetailModalRecently, markTeacherDetailsModalAsSeen } from '../../../common/utils'
+import TryOzariaModal from 'app/components/teacher/TryOzariaModal.vue'
+import clubCampMixin from '../mixins/clubCampMixin'
+
 const VueShepherd = require('vue-shepherd')
 
 const SEEN_CREATE_CLASS_TOUR_KEY = 'create-a-class-tour-seen'
-const SEEN_TEACHER_DETAILS_MODAL = 'seen-teacher-details-modal'
+const TRY_OZ_MODAL_VIEWED_KEY = 'try-oz-modal-viewed'
+const SIDEBAR_COLLAPSED_KEY = 'teacher-dashboard-sidebar-collapsed'
 
 export default {
+  name: 'BaseTeacherDashboardIndex',
   components: {
     Panel,
-    ModalNewClass,
+    ModalEditClass,
     ModalAssignContent,
     ModalAddStudents,
     ModalRemoveStudents,
-    BaseCurriculumGuide,
     ModalOnboardingVideo,
     SecondaryTeacherNavigation,
     TitleBar,
     LoadingBar,
-    ModalTeacherDetails
+    ModalTeacherDetails,
+    TryOzariaModal,
+    TopBanner,
   },
+  mixins: [clubCampMixin],
 
   data () {
     // TODO: move the logic to open/close modals to teacherDashboard store instead of driving by events,
@@ -53,7 +61,13 @@ export default {
       // // We may want to pull this out. For locality with dashboard this reduces abstraction.
       runningTour: null,
       createdFirstClass: false,
-      trialRequestLoading: true
+      trialRequestLoading: true,
+      newClassroom: {},
+      sidebarCollapsed: storage.load(SIDEBAR_COLLAPSED_KEY) || false,
+      editCurrent: false,
+      editClassroomObject: {},
+      showTryOzariaModal: false,
+      newClassroomAsClub: false
     }
   },
 
@@ -70,6 +84,18 @@ export default {
       sharedClassrooms: 'teacherDashboard/getSharedClassrooms'
     }),
 
+    me () {
+      return me
+    },
+
+    isCodeCombat () {
+      return utils.isCodeCombat
+    },
+
+    isCodeNinja () {
+      return me.isCodeNinja()
+    },
+
     pageTitle () {
       if (this.showClassInfo) {
         return this.classroom.name || ''
@@ -78,14 +104,19 @@ export default {
       }
     },
 
+    showNonTeacherPreview () {
+      return !me.isTeacher() && this.$route.path.startsWith(('/teachers/resources'))
+    },
+
     getLanguage () {
       if (this.classroom && this.classroom.aceConfig) {
-        return this.classroom.aceConfig.language
+        return this.classroom.aceConfig?.language || 'python'
       }
 
       if (this.activeClassrooms.length > 0) {
         return this.getMostCommonLanguage()
       }
+      return null
     },
 
     isAllClassesPage () {
@@ -93,7 +124,7 @@ export default {
     },
 
     showClassInfo () {
-      return this.componentName === COMPONENT_NAMES.MY_CLASSES_SINGLE || this.componentName === COMPONENT_NAMES.STUDENT_PROJECTS
+      return this.componentName === COMPONENT_NAMES.MY_CLASSES_SINGLE || this.componentName === COMPONENT_NAMES.STUDENT_PROJECTS || this.componentName === COMPONENT_NAMES.STUDENT_ASSESSMENTS || this.componentName === COMPONENT_NAMES.AI_JUNIOR
     },
     allClassrooms () {
       return [...this.activeClassrooms, ...this.sharedClassrooms]
@@ -104,6 +135,12 @@ export default {
     $route (to, from) {
       if (to.params.classroomId !== from.params.classroomId && to.params.classroomId) {
         this.updateStoreOnNavigation()
+      }
+    },
+    showOnboardingModal (newVal) {
+      // skip the ozaria modal for coco users
+      if (this.isCodeCombat && newVal) {
+        this.closeOnboardingModal()
       }
     }
   },
@@ -123,14 +160,11 @@ export default {
 
   metaInfo () {
     return {
-      title: 'Ozaria - Teacher Dashboard'
+      title: $.i18n.t(`nav.${utils.getProduct()}_teacher_dashboard`)
     }
   },
 
   beforeRouteUpdate (to, from, next) {
-    // Ensures we close curriculum guide when navigating between pages in the
-    // teacher dashboard.
-    this.closeCurriculumGuide()
     next()
   },
 
@@ -138,14 +172,17 @@ export default {
     ...mapMutations({
       setClassroomId: 'teacherDashboard/setClassroomId',
       setTeacherId: 'teacherDashboard/setTeacherId',
-      closeCurriculumGuide: 'baseCurriculumGuide/closeCurriculumGuide',
       setSelectedCourseId: 'teacherDashboard/setSelectedCourseIdCurrentClassroom',
-      setTeacherPagesTrackCategory: 'teacherDashboard/setTrackCategory'
+      setTeacherPagesTrackCategory: 'teacherDashboard/setTrackCategory',
+    }),
+
+    ...mapActions({
+      generateLevelNumberMap: 'gameContent/generateLevelNumberMap',
     }),
 
     getMostCommonLanguage () {
       const languagesCount = this.activeClassrooms.reduce((map, classroom) => {
-        const language = classroom.aceConfig.language
+        const language = classroom.aceConfig?.language || 'python'
         map[language] = (map[language] || 0) + 1
         return map
       }, {})
@@ -170,7 +207,9 @@ export default {
       me.set('seenNewDashboardModal', true)
       me.save()
       this.showOnboardingModal = false
-      this.openNewClassModal()
+      if (!me.isNapervilleUser()) {
+        this.openNewClassModal()
+      }
     },
 
     openNewClassModal () {
@@ -184,6 +223,18 @@ export default {
       this.showNewClassModal = true
     },
 
+    openNewClubModal () {
+      if (this.showNewClassModal) {
+        return
+      }
+
+      // Handle tour accidentally obscuring user opening new class modal
+      this.runningTour?.complete?.()
+
+      this.newClassroomAsClub = true
+      this.showNewClassModal = true
+    },
+
     /**
      * When a user closes the show new modal there are 2 possible states.
      * 1. They cancelled out and didn't create a class.
@@ -191,6 +242,15 @@ export default {
      **/
     closeShowNewModal () {
       this.showNewClassModal = false
+      if (this.editCurrent) {
+        this.editCurrent = false
+        return
+      }
+
+      if (this.newClassroomAsClub) {
+        this.newClassroomAsClub = false
+        return
+      }
 
       if (this.createdFirstClass) {
         this.triggerFirstClassTour()
@@ -198,6 +258,12 @@ export default {
       }
 
       this.triggerCreateClassTour()
+    },
+
+    openEditClassModal (claz) {
+      this.editClassroomObject = claz
+      this.editCurrent = true
+      this.showNewClassModal = true
     },
 
     /**
@@ -263,6 +329,12 @@ export default {
 
     onChangeCourse (courseId) {
       this.setSelectedCourseId({ courseId })
+
+      const course = this.classroomCourses.find(({ _id }) => _id === this.selectedCourseId)
+      this.generateLevelNumberMap({
+        campaignId: course.campaignID,
+        language: this.classroom.aceConfig.language,
+      }).catch(console.error)
     },
 
     closeTeacherDetailsModal () {
@@ -270,7 +342,7 @@ export default {
       this.showTeacherDetailsModal = false
     },
     shouldShowTeacherDetailsModal () {
-      return !this.trialRequestLoading && !this.trialRequest?.organization && !hasSeenTeacherDetailModalRecently(me.get('_id'))
+      return !this.trialRequestLoading && !this.trialRequest?.organization && !hasSeenTeacherDetailModalRecently(me.get('_id')) && !me.isNapervilleUser()
     },
     handleTrialRequest () {
       this.$store.dispatch('trialRequest/fetchCurrentTrialRequest')
@@ -283,48 +355,88 @@ export default {
         })
         .finally(() => {
           this.showOnboardingModal = !me.get('seenNewDashboardModal')
+          this.handleTryOzariaModal()
         })
-    }
-  }
+    },
+    toggleSidebar () {
+      this.sidebarCollapsed = !this.sidebarCollapsed
+      storage.save(SIDEBAR_COLLAPSED_KEY, this.sidebarCollapsed)
+    },
+    handleTryOzariaModal () {
+      if (this.isCodeCombat &&
+        !this.showOnboardingModal &&
+        !this.showTeacherDetailsModal &&
+        !me.get('activity')?.['visit-ozaria'] &&
+        !storage.load(TRY_OZ_MODAL_VIEWED_KEY)
+      ) {
+        this.showTryOzariaModal = true
+      }
+    },
+    closeTryOzariaModal () {
+      const oneMonth = 30 * 24 * 7 * 60
+      storage.save(TRY_OZ_MODAL_VIEWED_KEY, true, oneMonth)
+      this.showTryOzariaModal = false
+    },
+    shouldShowCreateStudents (_classroom) {
+      return false
+    },
+  },
 }
 </script>
 
 <template>
   <div
-    v-if="showRestrictedDiv"
+    v-if="showRestrictedDiv && !showNonTeacherPreview"
     class="restricted-div"
   >
     <h5> {{ $t('teacher.access_restricted') }} </h5>
     <p> {{ $t('teacher.teacher_account_required') }} </p>
   </div>
   <div v-else>
-    <base-curriculum-guide
-      :default-language="getLanguage"
-    />
     <panel />
-    <secondary-teacher-navigation
-      :classrooms="allClassrooms"
-    />
-    <title-bar
-      :title="pageTitle"
-      :show-class-info="showClassInfo"
-      :classroom="classroom"
-      :courses="classroomCourses"
-      :selected-course-id="selectedCourseId"
-      :all-classes-page="isAllClassesPage"
-      @change-course="onChangeCourse"
-      @newClass="openNewClassModal"
-      @addStudentsClicked="showAddStudentsModal = true"
-    />
-    <loading-bar
-      :key="loading"
-      :loading="loading"
-    />
-    <router-view
-      @assignContent="showAssignContentModal = true"
-      @addStudents="showAddStudentsModal = true"
-      @removeStudents="showRemoveStudentsModal = true"
-    />
+    <top-banner />
+    <div class="teacher-dashboard">
+      <div
+        v-if="!showNonTeacherPreview"
+        :class="['teacher-dashboard__sidebar', { 'collapsed': sidebarCollapsed }]"
+      >
+        <div class="content">
+          <secondary-teacher-navigation :classrooms="allClassrooms" />
+        </div>
+        <div
+          class="collapse-button"
+          @click="toggleSidebar"
+        >
+          <span class="left">&#x25C0;</span>
+          <span class="right">&#x25B6;</span>
+        </div>
+      </div>
+      <div :class="['teacher-dashboard__body', { 'sidebar-hidden': showNonTeacherPreview }]">
+        <title-bar
+          :title="pageTitle"
+          :show-class-info="showClassInfo"
+          :classroom="classroom"
+          :courses="classroomCourses"
+          :selected-course-id="selectedCourseId"
+          :all-classes-page="isAllClassesPage"
+          :show-preview-mode="showNonTeacherPreview"
+          @change-course="onChangeCourse"
+          @newClass="openNewClassModal"
+          @newClub="openNewClubModal"
+          @addStudentsClicked="showAddStudentsModal = true"
+          @editClass="openEditClassModal"
+        />
+        <loading-bar
+          :key="loading"
+          :loading="loading"
+        />
+        <router-view
+          @assignContent="showAssignContentModal = true"
+          @addStudents="showAddStudentsModal = true"
+          @removeStudents="showRemoveStudentsModal = true"
+        />
+      </div>
+    </div>
     <modal-teacher-details
       v-if="showTeacherDetailsModal"
       :initial-organization="trialRequest.organization"
@@ -338,10 +450,18 @@ export default {
       v-else-if="showOnboardingModal"
       @close="closeOnboardingModal"
     />
-    <modal-new-class
-      v-if="showNewClassModal"
+    <modal-edit-class
+      v-if="showNewClassModal && !editCurrent && !showNonTeacherPreview"
+      :classroom="newClassroom"
+      :as-club="newClassroomAsClub"
       @close="closeShowNewModal"
-      @class-created="handleCreatedClass"
+      @created="handleCreatedClass"
+    />
+    <modal-edit-class
+      v-if="showNewClassModal && editCurrent"
+      :classroom="editClassroomObject"
+      :as-club="isClub(editClassroomObject)"
+      @close="closeShowNewModal"
     />
     <modal-assign-content
       v-if="showAssignContentModal"
@@ -350,11 +470,16 @@ export default {
     <modal-add-students
       v-if="showAddStudentsModal"
       :classroom="classroom"
+      :create-students="shouldShowCreateStudents(classroom)"
       @close="showAddStudentsModal = false"
     />
     <modal-remove-students
       v-if="showRemoveStudentsModal"
       @close="showRemoveStudentsModal = false"
+    />
+    <try-ozaria-modal
+      v-if="showTryOzariaModal"
+      @close="closeTryOzariaModal"
     />
   </div>
 </template>
@@ -370,278 +495,374 @@ export default {
 </style>
 
 <style lang="scss">
-  /* Default tooltip styles so they work. */
-  .tooltip {
-    display: block !important;
-    z-index: 10000;
+/* Default tooltip styles so they work. */
+.tooltip {
+  display: block !important;
+  z-index: 10000;
 
-    .tooltip-inner {
-      background: black;
-      color: white;
-      border-radius: 16px;
-      padding: 5px 10px 4px;
-    }
+  .tooltip-inner {
+    background: black;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 10px 4px;
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: black;
+    z-index: 1;
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: 5px;
 
     .tooltip-arrow {
-      width: 0;
-      height: 0;
-      border-style: solid;
-      position: absolute;
-      margin: 5px;
-      border-color: black;
-      z-index: 1;
+      border-width: 10px 20px 0 20px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
     }
+  }
 
-    &[x-placement^="top"] {
-      margin-bottom: 5px;
+  &[x-placement^="bottom"] {
+    margin-top: 5px;
 
-      .tooltip-arrow {
-        border-width: 10px 20px 0 20px;
-        border-left-color: transparent !important;
-        border-right-color: transparent !important;
-        border-bottom-color: transparent !important;
-        bottom: -5px;
-        left: calc(50% - 5px);
-        margin-top: 0;
-        margin-bottom: 0;
-      }
+    .tooltip-arrow {
+      border-width: 0 5px 5px 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      top: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
     }
+  }
 
-    &[x-placement^="bottom"] {
-      margin-top: 5px;
+  &[x-placement^="right"] {
+    margin-left: 5px;
 
-      .tooltip-arrow {
-        border-width: 0 5px 5px 5px;
-        border-left-color: transparent !important;
-        border-right-color: transparent !important;
-        border-top-color: transparent !important;
-        top: -5px;
-        left: calc(50% - 5px);
-        margin-top: 0;
-        margin-bottom: 0;
-      }
+    .tooltip-arrow {
+      border-width: 5px 5px 5px 0;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-bottom-color: transparent !important;
+      left: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
     }
+  }
 
-    &[x-placement^="right"] {
-      margin-left: 5px;
+  &[x-placement^="left"] {
+    margin-right: 5px;
 
-      .tooltip-arrow {
-        border-width: 5px 5px 5px 0;
-        border-left-color: transparent !important;
-        border-top-color: transparent !important;
-        border-bottom-color: transparent !important;
-        left: -5px;
-        top: calc(50% - 5px);
-        margin-left: 0;
-        margin-right: 0;
-      }
+    .tooltip-arrow {
+      border-width: 5px 0 5px 5px;
+      border-top-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      right: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
     }
+  }
 
-    &[x-placement^="left"] {
-      margin-right: 5px;
-
-      .tooltip-arrow {
-        border-width: 5px 0 5px 5px;
-        border-top-color: transparent !important;
-        border-right-color: transparent !important;
-        border-bottom-color: transparent !important;
-        right: -5px;
-        top: calc(50% - 5px);
-        margin-left: 0;
-        margin-right: 0;
-      }
-    }
-
-    /*
+  /*
       We already have a popover component in the global styles. Thus we need to pair
       it with teacher-dashboard-tooltip to avoid breaking styles elsewhere on the site.
     */
-    &.popover.teacher-dashboard-tooltip {
-      border-image: unset;
-      border-width: unset;
-      border-style: unset;
-      max-width: unset;
+  &.popover.teacher-dashboard-tooltip {
+    border-image: unset;
+    border-width: unset;
+    border-style: unset;
+    max-width: unset;
 
-      box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
-      -webkit-box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
 
-      .popover-inner {
-        box-shadow: unset;
-        padding: 18px;
-      }
-
-      .popover-arrow {
-        border-color: white;
-      }
-
-      &.lock-tooltip .popover-inner  {
-        padding: 0;
-        z-index: 2; /* Prevents tooltip arrow appearing over button */
-      }
+    .popover-inner {
+      box-shadow: unset;
+      padding: 18px;
     }
 
-    &[aria-hidden='true'] {
-      visibility: hidden;
-      opacity: 0;
-      transition: opacity .15s, visibility .15s;
-    }
-
-    &[aria-hidden='false'] {
-      visibility: visible;
-      opacity: 1;
-      transition: opacity .15s;
-    }
-  }
-
-  /* Tooltip style overrides */
-  .tooltip.teacher-dashboard-tooltip {
-
-    &.getting-started-all-classes {
-      z-index: 500;
-
-      .tooltip-arrow {
-        /* Center the arrow between the two buttons */
-        transform: translateX(-15px);
-      }
-    }
-
-    .tooltip-arrow {
+    .popover-arrow {
       border-color: white;
     }
 
-    .tooltip-inner {
-      text-align: left;
-
-      border-radius: 5px;
-      background-color: white;
-      color: #131b25;
-      box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
-      max-width: 378px;
-      padding: 22px;
-
-      font-family: "Work Sans";
-      font-style: normal;
-      font-size: 14px;
-      letter-spacing: 0.26667px;
-
-      p {
-        margin: 0 0 5px 0;
-        line-height: 18px;
-      }
-
-      p:last-child {
-        margin: 0;
-      }
-
-      p.small {
-        line-height: 14px;
-        font-size: 12px;
-      }
-
-      h3 {
-        margin: 0;
-        color: #131b25;
-        font-family: "Work Sans";
-        font-style: normal;
-        font-size: 17px;
-        line-height: 22px;
-        margin-bottom: 5px;
-
-        font-variant: unset;
-      }
+    &.lock-tooltip .popover-inner {
+      padding: 0;
+      z-index: 2;
+      /* Prevents tooltip arrow appearing over button */
     }
   }
 
-  .tooltip.lighter-p {
-    .tooltip-inner p {
-      color: #656565;
-    }
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
   }
 
-  .tooltip.large-width {
-    .tooltip-inner {
-      width: 492px;
-      max-width: unset;
-    }
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
   }
+}
 
-  /* Tooltip style overrides */
-  .tooltip.dark-teacher-dashboard {
-    .tooltip-inner {
-      font-family: "Work Sans";
-      font-style: normal;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.26667px;
+/* Tooltip style overrides */
+.tooltip.teacher-dashboard-tooltip {
 
-      padding: 10px 14px;
-      border-radius: 2px;
-
-      background-color: #131b25;
-      max-width: 216px;
-    }
+  &.getting-started-all-classes {
+    z-index: 500;
 
     .tooltip-arrow {
-      border-color: #131b25;
+      /* Center the arrow between the two buttons */
+      transform: translateX(-15px);
     }
   }
 
-  .shepherd-dashboard-theme.shepherd-has-title .shepherd-content {
+  .tooltip-arrow {
+    border-color: white;
+  }
+
+  .tooltip-inner {
+    text-align: left;
+
+    border-radius: 5px;
+    background-color: white;
+    color: #131b25;
+    box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
+    max-width: 378px;
+    padding: 22px;
+
     font-family: "Work Sans";
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0.26667px;
 
-    color: #131b25;
-    box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
-    padding: 22px 22px 10px 22px;
-
-    header.shepherd-header {
-      background: white;
-      padding: 0;
+    p {
+      margin: 0 0 5px 0;
+      line-height: 18px;
     }
 
-    div.shepherd-text {
-      padding: 0;
-      font-family: "Work Sans";
-      font-style: normal;
-      font-size: 14px;
-      letter-spacing: 0.26667px;
-      margin-bottom: 16px;
-
-      ul {
-        padding-inline-start: 18px;
-      }
+    p:last-child {
+      margin: 0;
     }
 
-    header h3 {
+    p.small {
+      line-height: 14px;
+      font-size: 12px;
+    }
+
+    h3 {
       margin: 0;
       color: #131b25;
       font-family: "Work Sans";
-      font-style: bold;
+      font-style: normal;
       font-size: 17px;
       line-height: 22px;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
 
       font-variant: unset;
     }
+  }
+}
 
-    // Make the shepherd button look like a link
-    button.shepherd-button {
-      background: none!important;
-      border: none;
-      padding: 0!important;
-      /*optional*/
-      font-family: arial, sans-serif;
-      /*input has OS specific font-family*/
-      color: #069;
-      text-decoration: underline;
-      cursor: pointer;
+.tooltip.lighter-p {
+  .tooltip-inner p {
+    color: #656565;
+  }
+}
 
-      font-family: "Work Sans";
-      font-style: normal;
-      font-size: 14px;
-      letter-spacing: 0.26667px;
+.tooltip.large-width {
+  .tooltip-inner {
+    width: 492px;
+    max-width: unset;
+  }
+}
+
+/* Tooltip style overrides */
+.tooltip.dark-teacher-dashboard {
+  .tooltip-inner {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.26667px;
+
+    padding: 10px 14px;
+    border-radius: 2px;
+
+    background-color: #131b25;
+    max-width: 216px;
+  }
+
+  .tooltip-arrow {
+    border-color: #131b25;
+  }
+}
+
+.shepherd-dashboard-theme.shepherd-has-title .shepherd-content {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.26667px;
+
+  color: #131b25;
+  box-shadow: -2px -4px 20px rgba(0, 0, 0, 0.25), 2px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 22px 22px 10px 22px;
+
+  header.shepherd-header {
+    background: white;
+    padding: 0;
+  }
+
+  div.shepherd-text {
+    padding: 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.26667px;
+    margin-bottom: 16px;
+
+    ul {
+      padding-inline-start: 18px;
     }
   }
+
+  header h3 {
+    margin: 0;
+    color: #131b25;
+    font-family: "Work Sans";
+    font-style: bold;
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 10px;
+
+    font-variant: unset;
+  }
+
+  // Make the shepherd button look like a link
+  button.shepherd-button {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer;
+
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.26667px;
+  }
+}
+
+.teacher-dashboard {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  &__sidebar {
+    width: 250px;
+    max-height: 100vh;
+    position: sticky;
+    top: 70px;
+    z-index: 12;
+
+    &.collapsed {
+      overflow: hidden;
+      height: max-content;
+      padding-bottom: 70px;
+      width: 50px;
+
+      &:hover {
+        overflow: visible;
+
+        .content {
+          opacity: 0.95;
+          border-radius: 0 0 30px 0;
+          box-shadow: 0 8px 6px -6px #D2D2D2;
+          overflow: hidden;
+        }
+      }
+
+      .collapse-button {
+        left: 28px;
+        right: unset;
+
+        .left {
+          display: none;
+        }
+
+        .right {
+          display: block;
+        }
+      }
+    }
+
+    .content {
+      background: white;
+      position: relative;
+      width: 250px;
+      height: max-content;
+    }
+  }
+
+  .sidebar-hidden {
+  width: calc(100% - 0px);
+  }
+
+  &__body {
+    width: calc(100% - 250px);
+    border-left: 1px solid rgba(#979797, 0.2);
+
+    .teacher-dashboard__sidebar.collapsed+& {
+      width: calc(100% - 50px);
+    }
+
+    height: 100%;
+    background-color: #f2f2f2;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .collapse-button {
+    cursor: pointer;
+    position: absolute;
+    color: #979797;
+    right: 0;
+    padding: 5px 0 5px 5px;
+    border: 1px solid #979797;
+    border-radius: 5px 0 0 5px;
+    margin-top: 10px;
+    border-right: none;
+
+    &:hover {
+      color: #000000;
+      border-color: #000000;
+    }
+
+    .left {
+      display: block;
+    }
+
+    .right {
+      display: none;
+    }
+  }
+}
 </style>

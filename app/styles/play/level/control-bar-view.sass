@@ -8,9 +8,6 @@
 
   width: 57%
   width: $game-view-width
-  #level-view.no-api &
-    width: 57%
-    width: $game-view-width-no-api
   #level-view.blocks &
     width: 57%
     width: $game-view-width-blocks
@@ -92,6 +89,7 @@
   .wood-background
     background: transparent url(/images/level/control_bar_background.png)
     background-size: contain
+    background-repeat: repeat-x
     width: 100%
     height: 55px
     z-index: -1
@@ -123,6 +121,9 @@
       .level-name
         color: white
         font-size: 18px
+        text-wrap: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
 
       .level-difficulty
         font-size: 28px
@@ -171,18 +172,32 @@
         .hamburger span.icon-bar
           background-color: $control-yellow-highlight
 
-    #level-done-button, #next-game-button, #control-bar-sign-up-button
+    #next-game-button, #control-bar-sign-up-button, #level-done-button
       top: 7px
       font-size: 13px
       height: 24px
-
+    
     #level-done-button
       display: none
 
+    #level-done-button.junior
+      top: 3px
+      font-size: 13px
+      height: 40px  
+      width: 40px  
+      align-items: center
+      justify-content: center
+      display: flex
 
-html.no-borderimage
-  #control-bar-view .level-name-area
-    border: 0
-    background: transparent url(/images/level/control_bar_level_name_background.png)
-    background-size: contain
-    background-repeat: no-repeat
+    img.success-icon
+      width: 24px  
+      height: 24px  
+
+  .hints-button
+    float: right
+    border-style: solid
+    border-image: url(/images/common/button-background-primary-active.png) 14 20 20 20 fill round
+    border-width: 7px 10px 10px 10px
+    color: white
+    &:hover, &:active
+      border-image: url(/images/common/button-background-primary-pressed.png) 14 20 20 20 fill round

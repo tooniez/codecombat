@@ -69,20 +69,13 @@ module.exports = class LevelSetupManager extends CocoClass
       @waitingToLoadModals = true
 
   loadModals: ->
-    # build modals and prevent them from disappearing.
-    if @level.usesConfiguredMultiplayerHero()
-     @onInventoryModalPlayClicked()
-     return
-
-    if @level.isType('course-ladder', 'game-dev', 'web-dev') or (utils.isCodeCombat and @level.isType('ladder')) or (@level.isType('course') and (not me.showHeroAndInventoryModalsToStudents() or @level.isAssessment())) or window.serverConfig.picoCTF
+    if not @level.usesSessionHeroThangType() or utils.isOzaria
+      # Don't need to configure inventory; just skip it
       @onInventoryModalPlayClicked()
       return
 
-    if @level.isSummative()
-      @onInventoryModalPlayClicked()
-      return
-
-    @heroesModal = new PlayHeroesModal({supermodel: @supermodel, session: @session, confirmButtonI18N: 'play.next', level: @level, hadEverChosenHero: @options.hadEverChosenHero})
+    # Build modals and prevent them from disappearing.
+    @heroesModal = new PlayHeroesModal({supermodel: @supermodel, session: @session, confirmButtonI18N: 'play.next', level: @level, campaign: @options.campaign, hadEverChosenHero: @options.hadEverChosenHero, courseInstanceID: @options.courseInstanceID })
     @inventoryModal = new InventoryModal({supermodel: @supermodel, session: @session, level: @level})
     @heroesModalDestroy = @heroesModal.destroy
     @inventoryModalDestroy = @inventoryModal.destroy
@@ -99,7 +92,10 @@ module.exports = class LevelSetupManager extends CocoClass
   open: ->
     return @waitingToOpen = true unless @modalsLoaded
     firstModal = if @options.hadEverChosenHero then @inventoryModal else @heroesModal
-    if ((not _.isEqual(lastHeroesEarned, me.get('earned')?.heroes ? []) or
+    if @options.levelID is 'the-gem'
+      # show hero picker for the first level (the-gem) in junior to default to blocks-text
+      firstModal = @heroesModal
+    else if ((not _.isEqual(lastHeroesEarned, me.get('earned')?.heroes ? []) or
         not _.isEqual(lastHeroesPurchased, me.get('purchased')?.heroes ? [])) and
         (utils.isOzaria or not (me.isAnonymous() and me.isInHourOfCode())))
       console.log 'Showing hero picker because heroes earned/purchased has changed.'
@@ -108,9 +104,13 @@ module.exports = class LevelSetupManager extends CocoClass
       unless (utils.isOzaria and _.contains allowedHeroOriginals, me.get('ozariaUserOptions')?.isometricThangTypeOriginal) or (utils.isCodeCombat and _.contains allowedHeroOriginals, me.get('heroConfig')?.thangType)
         firstModal = @heroesModal
 
-
     lastHeroesEarned = me.get('earned')?.heroes ? []
     lastHeroesPurchased = me.get('purchased')?.heroes ? []
+
+    if firstModal is @inventoryModal and @level.get('product', true) is 'codecombat-junior'
+      # Skip inventory screen
+      return @onInventoryModalPlayClicked()
+
     @options.parent.openModalView(firstModal)
     @trigger 'open'
     #    @inventoryModal.onShown() # replace?
@@ -121,6 +121,14 @@ module.exports = class LevelSetupManager extends CocoClass
      @inventoryModal.setHero(e.hero) if window.currentModal is @inventoryModal
 
   onHeroesModalConfirmClicked: (e) ->
+    skipInventroyModal = false
+    if @level.get('product', true) is 'codecombat-junior'
+      skipInventroyModal = true
+    else if @options.classroom and @options.classroom.get('classroomItems')? and not @options.classroom.get('classroomItems', true)
+      skipInventroyModal = true
+    if skipInventroyModal
+      # Skip inventory screen
+      return @onInventoryModalPlayClicked()
     @options.parent.openModalView(@inventoryModal)
     @inventoryModal.render()
     @inventoryModal.didReappear()
@@ -144,6 +152,8 @@ module.exports = class LevelSetupManager extends CocoClass
     route += "&codeLanguage=" + @level.get('primerLanguage') if @level.get('primerLanguage')
     if @options.courseID? and @options.courseInstanceID?
       route += "&course=#{@options.courseID}&course-instance=#{@options.courseInstanceID}"
+    else if @options.courseID?
+      route += "&course=#{@options.courseID}"
     @supermodel.registerModel(@session)
     Backbone.Mediator.publish 'router:navigate', {
       route, viewClass

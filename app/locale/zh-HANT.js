@@ -1,117 +1,116 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 module.exports = {
   nativeDescription: '繁體中文',
   englishDescription: 'Chinese (Traditional)',
   translation: {
 
-    //  ozaria_home:
-    //    subtitle: "Computer Science that Captivates"
-    //    heading_subtitle: "A coding adventure for students and your turnkey solution for teaching Computer Science."
-    //    item_list_p: "Try Chapter 1 for Free Today!"
-    //    engaging_heading_corner: "A solution to Engage Students and Support Teachers"
-    //    engaging_row1_h2: "Easy Implementation"
-    //    engaging_row1_p: "Even with no coding experience, you can teach a full Computer Science curriculum with Ozaria. Our ready-to-go lesson plans and intuitive dashboard will provide you with the tools you need to be ready to teach on day one."
-    //    engaging_row2_h2: "Immersive Gameplay"
-    //    engaging_row2_p: "Students are immersed in an adventure game in which their knowledge of Computer Science advances with the storyline. In this engaging learning environment, students build real-world skills through the power of play."
-    //    engaging_row3_h2: "Standards-Aligned Curriculum"
-    //    engaging_row3_p: "Ozaria meets CSTA and ISTE standards, enabling you to teach with confidence as your students master core Computer Science concepts, develop computational thinking skills, and learn about the relevance of Computer Science to their daily lives."
-    //    pd_blurb: "Learn the skills to effectively teach computer science with our self-directed, CSTA-accredited __pd__ course. Earn up to 40 credit hours any time, from any device."
-    //    back_cta_1_a: "Try Chapter 1 for Free"
-    //    speech_bubble_testimonial_1_blockquote: "Once again, your team has managed to accomplish the Holy Grail of Edutainment. In my opinion as a 26-year veteran Middle School educator, there is no more engaging resource for teaching coding."
-    //    core_curriculum_header: "Core Computer Science Curriculum"
-    //    core_curriculum_p: "We have developed our instructional model based on proven theories and extensive evidence around how students learn best."
-    //    core_curriculum_carousel_item1_header: "Make Connections"
-    //    core_curriculum_carousel_item1_p: "At the start of every module, use our turnkey lesson slides to help your students make the connection between new Computer Science concepts and relevant examples from their daily lives."
-    //    core_curriculum_carousel_item2_header: "Construct Own Meaning"
-    //    core_curriculum_carousel_item2_p: "Next, guide your students in constructing a deeper understanding of new concepts through unplugged and discussion activities that are built into our lesson plans."
-    //    core_curriculum_carousel_item3_header: "Learn New Concepts"
-    //    core_curriculum_carousel_item3_p: "In the third stage of the learning cycle, your students will learn new concepts through expositional dialogue between characters in the Ozaria story. Voice-over, graphics, and animations make absorbing new information even more accessible and fun."
-    //    core_curriculum_carousel_item4_header: "Apply New Knowledge"
-    //    core_curriculum_carousel_item4_p: "Next, your students will put what they learned into practice by typing real Python or JavaScript to solve a variety of challenges in scaffolded game levels. Built-in hints help students identify and fix bugs, leading to greater coding confidence."
-    //    core_curriculum_carousel_item5_header: "Summative Project"
-    //    core_curriculum_carousel_item5_p: "At the end of each chapter, your students will be challenged to showcase their new skills and express their creativity through summative projects in which they build their own games, stories, and more."
-    //    core_curriculum_scope_sequence: "View Scope & Sequence"
-    //    core_curriculum_sample_lesson_slides: "View Sample Lesson Slides"
-    //    global_community_header: "Join Our Global Community"
-    //    global_community_row1_p: "Learners"
-    //    global_community_row2_p: "Lines of Code"
-    //    global_community_row3_p: "Teachers"
-    //    global_community_row4_p: "Countries"
-    //    admin_dashboard_header: "Comprehensive Teacher & Admin Dashboards"
-    //    admin_dashboard_p: "Designed with feedback from our community of over 140,000 educators, Ozaria addresses the challenges of teaching Computer Science by providing tools and resources that work."
-    //    admin_dashboard_row1_p: "The intuitive Teacher Dashboard provides access to student-facing lesson plans, pacing guides, distance learning strategies, and other resources to support your needs."
-    //    admin_dashboard_row2_p: "The Track Progress page allows you to monitor student progress on an ongoing basis, get valuable information on their performance, and immediately identify whether interventions are needed."
-    //    admin_dashboard_row3_a: "Request a Quote"
-    //    acodus_awards_a: "Try Chapter 1 for Free"
-    //    speech_bubble_testimonial_2_blockquote: "It’s the most accessible programming site I’ve seen as of yet. I appreciate the story that goes with Ozaria, as it aligns with a mission my students can empathize with. Frankly, I love it. In fact, I found myself playing for far longer than I wish to admit last weekend!"
-    //    shareable_resources_header: "Shareable Resources"
-    //    shareable_resources_p: "Share the resources below with teachers, administrators, and others involved in bringing Computer Science to your school or expanding offerings already in place."
-    //    shareable_resources_a: "Download Flyer"
-    //    back_cta_2_a: "Try Chapter 1 for Free"
-    //    faq_header: "Frequently Asked Questions"
-    //    faq_row1_header: "How is Ozaria related to CodeCombat?"
-    //    faq_row1_p: "Ozaria is the classroom-centered evolution of CodeCombat, one of the most popular coding games in history. We built Ozaria based off the insights gained from teaching over 20 million learners Python and JavaScript. Ozaria incorporates new pedagogical models, an immersive story-driven narrative, and was designed to be implemented in classrooms, for both in-person and remote learning settings."
-    //    faq_row2_header: "What ages or grades are appropriate for Ozaria?"
-    //    faq_row2_p: "Ozaria is aligned to the CSTA and ISTE middle school CS standards, but has been practiced and enjoyed by students ranging from upper elementary through high school."
-    //    faq_row3_header: "How much does it cost to access all of the available units and resources?"
-    //    faq_row3_p_part1: "We customize solutions for schools and districts and work with you to understand your use case, context, and budget. "
-    //    faq_row3_p_part2: " for further details! We also provide a "
-    //    faq_row3_p_part3: "funding resources guide"
-    //    faq_row3_p_part4: " for school and district CS programs."
-    //    faq_row4_header: "Does Ozaria have project-based learning?"
-    //    faq_row4_p: "Yes. Ozaria incorporates shareable Capstone Projects at the end of each Chapter, where students create their own games. These projects serve as summative assessments and are great ways for students to express themselves and demonstrate their learnings to classmates, friends, and family."
-    //    faq_row5_header: "Can I use Ozaria as my class’s main curriculum?"
-    //    faq_row5_p: "Absolutely! Ozaria has everything you need to run a full Computer Science class, even if you don't have a Computer Science background. From lesson plans and solution guides to project rubrics and built-in standards alignment, it's all here."
-    //    faq_row6_p_part1: "If you have any other questions, please "
-    //    see_faq_prefix: "See more"
-    //    see_faq_link: "frequently asked questions in our help center"
-    //    see_faq_suffix: "."
-    //    summary: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world."
-    //    value_prop1_h1: "Epic Story. Immersive Gameplay."
-    //    value_prop1_h2: "Inspire a deeper connection to learning"
-    //    value_prop1_p: "In Ozaria, students find themselves embedded in a new world where they master core computer science concepts to progress within the game. The unfolding narrative creates a powerful student-centered learning experience, with each student’s investment in Ozaria’s story paralleling the investment they are making in their own learning journey."
-    //    value_prop2_h1: "Discover the Hero within Every Student"
-    //    value_prop2_h2: "Build real skills through play"
-    //    value_prop2_p: "Concepts and skills are introduced via a thoughtfully-designed content progression that includes game levels, instructional character dialogue, cutscenes, and more. Students learn to type Python or JavaScript, problem-solve using computational thinking, demonstrate understanding through formative assessments, and apply what they learn by making their own projects."
-    //    value_prop3_h1: "Start Your Journey For Free"
-    //    value_prop3_p: "Teach through adventure with free content covering introductory computer science concepts, plus access to implementation guides and lesson plans."
-    //    projects_inspire_heading: "Projects that Inspire. Resources that Empower."
-    //    student_creativity: "Unleash Student Creativity"
-    //    student_creativity_paragraph: "At the end of each unit, students apply what they've learned by creating projects, from games to choose-your-own adventure stories and more. Built with scaffolded goals, yet allowing for limitless ideation, students build a shareable and playable portfolio of work that showcases their creative identity."
-    //    teach_with_support: "Teach with Support"
-    //    teach_with_support_paragraph: "Ozaria is built for educators. Each unit throughout the curriculum has a lesson plan that outlines learning objectives, common student misconceptions, key terms, and CSTA standards. In addition, a comprehensive teacher dashboard helps teachers to track student progress and check student code."
-    //    request_demo: "Request a Demo"
-    //    im_an_educator: "I'm an Educator"
-    //    im_a_student: "I'm a Student"
-    //    global_title: "Join Our Global Community of Learners and Educators"
-    //    global_subtitle1: "Learners"
-    //    global_subtitle2: "Lines of Code"
-    //    global_subtitle3: "Teachers"
-    //    global_subtitle4: "Countries"
-    //    sign_up: "Sign Up"
-    //    individual_account_warning: "You are logged in as __name__, which is an individual account. Ozaria is for teacher and student accounts only; do you need to update your account?"
-    //    learner_number: "12 Million"
-    //    code_line_number: "1 Billion"
-    //    dei_initiatives: "What initiatives does Ozaria have to ensure diversity, equity, and inclusion in the game?"
-    //    dei_initiatives_blurb: "Ozaria is dedicated to promoting diversity, equity, and inclusion (DEI) within the game. Through diverse character representation, equitable opportunities, and an inclusive environment, Ozaria embraces differences and fosters a welcoming experience for players of all backgrounds and abilities. Explore our __deipage__ to learn more about our commitment and initiatives towards DEI in Ozaria."
-    //    dei_page: "DEI page"
-    //    ozaria_efficacy: "How does Ozaria measure and demonstrate its effectiveness in improving learning outcomes in the classroom?"
-    //    ozaria_efficacy_blurb: "We prioritize effectiveness through evidence-based practices and assessment. Our __efficacypage__ offers detailed statistics, real teacher quotes, and compelling case studies demonstrating the transformative impact of Ozaria. By creating meaningful learning experiences and employing evidence-based practices, we design content that delivers the outcomes that matter most to teachers and students."
-    //    efficacy_page: "efficacy page"
-    //    social_learning: "Does Ozaria promote social and emotional learning (SEL)?"
-    //    social_learning_blurb: "Yes! Ozaria actively integrates social and emotional learning (SEL) into its curriculum. Through gamified activities, students develop essential skills such as decision-making, self-awareness, self-management, social awareness, relationship skills, and responsible decision-making. You can learn more about our philosophy on our __selpage__."
-    //    sel_page: "SEL page"
+    ozaria_home: {
+      subtitle: '[AI_TRANSLATION]引人入勝的計算機科學',
+      heading_subtitle: '[AI_TRANSLATION]為學生設計的編程冒險，也是你教學計算機科學的交鑰匙解決方案。',
+      item_list_p: '[AI_TRANSLATION]今天就免費試用第一章！',
+      engaging_heading_corner: '[AI_TRANSLATION]一個吸引學生和支持教師的解決方案',
+      //    engaging_row1_h2: "Easy Implementation",
+      engaging_row1_p: '[AI_TRANSLATION]即使沒有編碼經驗，你也可以使用 Ozaria 教授整個計算機科學課程。我們的即用型課程計劃和直觀儀表板將為你提供第一天就能教學所需的工具。',
+      engaging_row2_h2: '[AI_TRANSLATION]沉浸式遊戲體驗',
+      engaging_row2_p: '[AI_TRANSLATION]學生沉浸在一個冒險遊戲中，隨著故事情節的推進，他們的計算機科學知識也同步增長。在這個引人入勝的學習環境中，學生透過遊戲的力量，建立真實世界的技能。',
+      engaging_row3_h2: '[AI_TRANSLATION]符合標準的課程',
+      engaging_row3_p: '[AI_TRANSLATION]Ozaria 符合 CSTA 和 ISTE 標準，使你能夠充滿信心地教授計算機科學概念，幫助學生發展計算思維技能，並了解計算機科學對他們日常生活的意義。',
+      pd_blurb: '[AI_TRANSLATION]透過我們自主學習、CSTA 認證的 __pd__ 課程，學習有效教導計算機科學的技能。隨時隨地使用任意裝置獲得最多 40 小時的學分。\n',
+      back_cta_1_a: '[AI_TRANSLATION]免費試用第一章',
+      speech_bubble_testimonial_1_blockquote: '[AI_TRANSLATION]再一次，你的團隊成功地完成了教育娛樂的聖杯。作為一名有26年資歷的中學教育工作者，我認為沒有比這更吸引人的編程教學資源了。\n',
+      core_curriculum_header: '[AI_TRANSLATION]核心計算機科學課程',
+      core_curriculum_p: '[AI_TRANSLATION]我們根據經驗證的理論和廣泛的證據，開發了我們的教學模型，以最佳方式幫助學生學習。\n',
+      core_curriculum_carousel_item1_header: '[AI_TRANSLATION]連接',
+      core_curriculum_carousel_item1_p: '[AI_TRANSLATION]在每個模組開始時，使用我們的一站式課程投影片，幫助你的學生將新的計算機科學概念與他們日常生活中的相關例子聯繫起來。',
+      core_curriculum_carousel_item2_header: '[AI_TRANSLATION]建立自己的意義',
+      core_curriculum_carousel_item2_p: '[AI_TRANSLATION]接下來，引導你的學生透過我們課程計劃中的無電和討論活動，構建對新概念的更深入理解。',
+      core_curriculum_carousel_item3_header: '[AI_TRANSLATION]學習新概念',
+      core_curriculum_carousel_item3_p: '[AI_TRANSLATION]在學習周期的第三階段，你的學生將通過 Ozaria 故事中的角色對話來學習新概念。語音、圖形和動畫使得吸收新信息更容易和有趣。',
+      core_curriculum_carousel_item4_header: '[AI_TRANSLATION]應用新知識',
+      core_curriculum_carousel_item4_p: '[AI_TRANSLATION]接下來，你的學生將透過打字實戰 Python 或 JavaScript，來在多個有引導的遊戲關卡中解決各種挑戰。內建的提示將幫助學生查找和修復錯誤，增強他們的編程自信。',
+      core_curriculum_carousel_item5_header: '[AI_TRANSLATION]總結性項目',
+      core_curriculum_carousel_item5_p: '[AI_TRANSLATION]在每章的結尾，你的學生將面臨挑戰，展示他們的新技能並通過總結項目來表達他們的創造力，這些項目包括製作他們自己的遊戲、故事等。',
+      core_curriculum_scope_sequence: '[AI_TRANSLATION]檢視範圍及順序',
+      core_curriculum_sample_lesson_slides: '[AI_TRANSLATION]檢視示範課程幻燈片',
+      global_community_header: '[AI_TRANSLATION]加入我們的全球社群\n',
+      //    global_community_row1_p: "Learners",
+      global_community_row2_p: '[AI_TRANSLATION]代碼行數',
+      //    global_community_row3_p: "Teachers",
+      //    global_community_row4_p: "Countries",
+      admin_dashboard_header: '[AI_TRANSLATION]全面的教師和管理員儀表板',
+      admin_dashboard_p: '[AI_TRANSLATION]根據我們超過140,000名教育者社群提供的反饋設計，Ozaria 提供有效的教學工具和資源來應對教授計算機科學的挑戰。',
+      admin_dashboard_row1_p: '[AI_TRANSLATION]直觀的教師儀表板提供學生面向的課程計劃、進度指南、遠程學習策略和其他資源來滿足你的需求。',
+      admin_dashboard_row2_p: '[AI_TRANSLATION]進度追踪頁面允許你持續監控學生的進度，獲取有價值的表現信息，並立即識別是否需要干預。',
+      //    admin_dashboard_row3_a: "Request a Quote",
+      acodus_awards_a: '[AI_TRANSLATION]免費試用第一章',
+      speech_bubble_testimonial_2_blockquote: '[AI_TRANSLATION]這是我見過最容易上手的編程網站。我很喜歡 Ozaria 的故事，因為它與我學生能夠共情的使命相符。說實話，我很愛它。事實上，上週末我發現自己玩得時間比我願意承認的還要長！\n',
+      shareable_resources_header: '[AI_TRANSLATION]可分享的資源',
+      shareable_resources_p: '[AI_TRANSLATION]與老師、管理員和其他參與推廣電腦科學教育的人分享下面的資源，或擴展已經到位的課程。',
+      shareable_resources_a: '[AI_TRANSLATION]下載傳單  ',
+      back_cta_2_a: '[AI_TRANSLATION]免費試用第一章',
+      faq_header: '[AI_TRANSLATION]常見問題',
+      faq_row1_header: '[AI_TRANSLATION]Ozaria 與 CodeCombat 有何關聯？',
+      faq_row1_p: '[AI_TRANSLATION]Ozaria 是專注於課堂的 CodeCombat 的進化版本，是歷史上最受歡迎的編程遊戲之一。我們基於教授超過 2000 萬學習者 Python 和 JavaScript 的經驗構建了 Ozaria。Ozaria 結合了新的教育模型、沉浸式故事驅動敘事，並專為在課堂中實施設計，無論是面對面學習還是遠程學習環境。',
+      faq_row2_header: '[AI_TRANSLATION]Ozaria 適合什麼年齡或年級的學生？',
+      faq_row2_p: '[AI_TRANSLATION]Ozaria 符合 CSTA 和 ISTE 中學計算機科學標準，但已經被從高年級小學到高中學生廣泛實踐和喜愛。',
+      faq_row3_header: '[AI_TRANSLATION]訪問所有可用單位和資源的費用是多少？',
+      faq_row3_p_part1: '[AI_TRANSLATION]我們為學校和學區提供定制解決方案，與您一起了解您的使用案例、背景和預算。\n',
+      faq_row3_p_part2: '[AI_TRANSLATION] 了解更多詳情！我們也提供  ',
+      faq_row3_p_part3: '[AI_TRANSLATION]資金資源指南',
+      faq_row3_p_part4: '[AI_TRANSLATION] 給學校和區域的 CS 計劃。  ',
+      faq_row4_header: '[AI_TRANSLATION]Ozaria 有項目式學習嗎？',
+      faq_row4_p: '[AI_TRANSLATION]是的。Ozaria 在每一章的結尾都有可分享的基礎專案（Capstone Projects），學生能在這些專案中創建自己的遊戲。這些專案可作為總結評估，並讓學生有機會表現自己，向同學、朋友和家人展示所學到的技能。',
+      faq_row5_header: '[AI_TRANSLATION]我能把 Ozaria 當作我的課程的主要內容嗎？',
+      faq_row5_p: '[AI_TRANSLATION]絕對可以！Ozaria 包含您開設整個計算機科學課程所需的一切，即使您沒有計算機科學背景。從課程計劃和解決方案指南到項目評分標準和內置標準對齊，一應俱全。',
+      faq_row6_p_part1: '[AI_TRANSLATION]如果你有任何其他問題，請',
+      //    see_faq_prefix: "See more",
+      see_faq_link: '[AI_TRANSLATION]幫助中心中的常見問題',
+      //    see_faq_suffix: ".",
+      //    summary: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world.",
+      value_prop1_h1: '[AI_TRANSLATION]史詩故事。身歷其境的遊戲體驗。',
+      value_prop1_h2: '[AI_TRANSLATION]激發更深入的學習連結',
+      value_prop1_p: '[AI_TRANSLATION]在Ozaria，學生們置身於一個全新的世界，必須掌握核心計算機科學概念才能在遊戲中進步。展開的敘事創造了一個強大的以學生為中心的學習體驗，每個學生對Ozaria故事的投入與他們在自己學習旅程中的投入相平行。',
+      value_prop2_h1: '[AI_TRANSLATION]發掘每個學生內心的英雄',
+      value_prop2_h2: '[AI_TRANSLATION]通過遊戲建立真實技能',
+      value_prop2_p: '[AI_TRANSLATION]通過精心設計的內容進程介紹概念和技能，包括遊戲關卡、教學角色對話、過場動畫等。學生們學習輸入 Python 或 JavaScript，使用計算思維解決問題，通過形成性評估展示理解，並通過製作自己的項目應用所學知識。',
+      value_prop3_h1: '[AI_TRANSLATION]免費開始你的旅程',
+      value_prop3_p: '[AI_TRANSLATION]通過冒險的方式進行教學，免費內容涵蓋入門的計算機科學概念，還有實施指南和課程計劃。',
+      projects_inspire_heading: '[AI_TRANSLATION]啟發專案。賦能資源。',
+      student_creativity: '[AI_TRANSLATION]發揮學生的創意',
+      student_creativity_paragraph: '[AI_TRANSLATION]在每個單元的結尾，學生會通過創建項目來應用他們所學的知識，從遊戲到自選冒險故事等等。這些項目構築於分段目標之上，卻不限制創意發想，學生可以建立一個可分享且可玩的作品集，展示他們的創意身份。  ',
+      teach_with_support: '[AI_TRANSLATION]教學支持  ',
+      //    teach_with_support_paragraph: "Ozaria is built for educators. Each unit throughout the curriculum has a lesson plan that outlines learning objectives, common student misconceptions, key terms, and CSTA standards. In addition, a comprehensive teacher dashboard helps teachers to track student progress and check student code.",
+      //    request_demo: "Request a Demo",
+      //    im_an_educator: "I'm an Educator",
+      //    im_a_student: "I'm a Student",
+      //    global_title: "Join Our Global Community of Learners and Educators",
+      //    global_subtitle1: "Learners",
+      global_subtitle2: '[AI_TRANSLATION]代碼行數',
+      //    global_subtitle3: "Teachers",
+      //    global_subtitle4: "Countries",
+      //    sign_up: "Sign Up",
+      individual_account_warning: '[AI_TRANSLATION]你以個人帳戶 __name__ 登錄。Ozaria 只適用於教師和學生帳戶；你需要更新你的帳戶嗎？',
+      learner_number: '[AI_TRANSLATION]1200 萬',
+      code_line_number: '[AI_TRANSLATION]10 億',
+      dei_initiatives: '[AI_TRANSLATION]Ozaria 有什麼舉措來確保遊戲中的多樣性、公平性和包容性？',
+      dei_initiatives_blurb: '[AI_TRANSLATION]Ozaria 致力於在遊戲中推廣多樣性、公平性和包容性（DEI）。通過多樣化的角色表示、公平的機會和包容的環境，Ozaria 擁抱差異，為不同背景和能力的玩家提供熱情的體驗。瀏覽我們的 __deipage__ 了解我們在 Ozaria 中對 DEI 的承諾和舉措。',
+      dei_page: '[AI_TRANSLATION]DEI 頁面',
+      ozaria_efficacy: '[AI_TRANSLATION]Ozaria 如何衡量和展示其在課堂上提高學習成果的有效性？',
+      ozaria_efficacy_blurb: '[AI_TRANSLATION]我們通過基於證據的實踐和評估來優先考慮有效性。我們的 __efficacypage__ 提供了詳細的統計數據、真正的教師引言以及展示 Ozaria 變革性影響的引人注目的案例研究。通過創建有意義的學習體驗並採用基於證據的實踐，我們設計了能夠提供教師和學生最重要成果的內容。',
+      efficacy_page: '[AI_TRANSLATION]功效頁面',
+      social_learning: '[AI_TRANSLATION]Ozaria 推廣社會與情感學習（SEL）嗎？',
+      social_learning_blurb: '[AI_TRANSLATION]是的！Ozaria 主動將社會和情感學習（SEL）融入課程。透過遊戲化活動，學生發展決策、自我認識、自我管理、社交意識、關係技巧和負責任的決策等基本技能。你可以在我們的 __selpage__ 上了解更多我們的理念。',
+      sel_page: '[AI_TRANSLATION]SEL 頁面',
+    },
 
     new_home: {
       title_coco: 'CodeCombat - 從編碼遊戲中學習 Python 與 JavaScript',
       title_ozar: 'CodeCombat - 從編碼遊戲中學習 Python 與 JavaScript',
-      //    title_cn_home: "CodeCombat|Python, Javascript"
-      //    meta_keywords_coco: "CodeCombat, python, javascript, Coding Games"
-      //    meta_keywords_ozar: "CodeCombat, python, javascript, Coding Games, Computer Science Program, Adventure, Epic Story"
+      title_cn_home: '[AI_TRANSLATION]CodeCombat|Python, Javascript\n',
+      meta_keywords_coco: '[AI_TRANSLATION]CodeCombat, python, javascript, 編碼遊戲\n',
+      meta_keywords_ozar: '[AI_TRANSLATION]CodeCombat, python, javascript, 編碼遊戲, 計算機科學課程, 冒險, 史詩故事\n',
       meta_description_coco: '通過遊戲來學習程式編碼。 學習 Python、JavaScript 和 HTML，解決其中的難題並學會製作自己的遊戲和網站。',
       meta_description_ozar: '通過遊戲來學習程式編碼。 學習 Python、JavaScript 和 HTML，解決其中的難題並學會製作自己的遊戲和網站。',
-      //    meta_og_url: "https://codecombat.com"
+      meta_og_url: '[AI_TRANSLATION]https://codecombat.com',
       become_investor: '成為CodeCombat的投資人',
       built_for_teachers_title: '一個由教師們創建的編碼遊戲',
       built_for_teachers_blurb: '教導孩子們撰寫程式碼時，時常會令人感到無力，透過 CodeCombat 可以幫助所有教育工作者教導學生如何撰寫 JavaScript 或 Python（兩種最流行的程式語言）。 透過完整的六門計算機科學課程、遊戲開發和 Web 開發，專題式的來進行學習，孩子們將從基本語法往遞迴程式設計前進！',
@@ -133,14 +132,14 @@ module.exports = {
       century_skills_subtitle3: '合作',
       century_skills_subblurb3: '在整個遊戲過程中，學生有機會在遇到困難時進行合作，並可以參考我們的編程指南一起解決問題。',
       century_skills_quote4: '我一直有設計電玩遊戲和學習如何編碼的願望......這給了我一個很好的起點。',
-      //    century_skills_quote4_author: "Joey, 10th Grade"
+      century_skills_quote4_author: '[AI_TRANSLATION]Joey，高中十年級\n',
       century_skills_subtitle4: '溝通',
       century_skills_subblurb4: '編碼要求孩子們練習新的溝通方式，包括與電腦本身的溝通，並使用最有效的代碼傳達他們的想法。',
       classroom_in_box_title: '我們努力：',
       classroom_in_box_blurb1: '讓每個學生都參與進來，讓他們相信編碼是為了他們自己。',
       classroom_in_box_blurb2: '讓每位老師在授課時更有自信。',
       classroom_in_box_blurb3: '激勵更多的學校來創造出世界一流的電腦科學課程。',
-      //    classroom_in_box_blurb4: "" # only for koudashijie.com
+      //    classroom_in_box_blurb4: "",
       click_here: '點擊這裡',
       creativity_rigor_title: '創造力與邏輯相遇的地方',
       creativity_rigor_subtitle1: '讓編碼變得有趣並學習到現實世界共通的技能',
@@ -181,44 +180,44 @@ module.exports = {
       get_started: '開始吧!',
       global_title: '加入我們的全球學習者和教育者社區',
       global_subtitle1: '學習者',
-      //    global_subtitle2: "Lines of Code"
+      global_subtitle2: '[AI_TRANSLATION]代碼行數',
       global_subtitle3: '教師',
       global_subtitle4: '國家',
       go_to_my_classes: '進入我的教室',
       go_to_my_courses: '進入我的課程',
-      //    quotes_quote1: "Name any program online, I’ve tried it. None of them match up to CodeCombat & Ozaria. Any teacher who wants their students to learn how to code... start here!"
-      //    quotes_quote2: " I was surprised about how easy and intuitive CodeCombat makes learning computer science. The scores on the AP exam were much higher than I expected and I believe CodeCombat is the reason why this was the case."
-      //    quotes_quote3: "CodeCombat has been the most beneficial for teaching my students real-life coding capabilities. My husband is a software engineer and he has tested out all of my programs. He put this as his top choice."
-      //    quotes_quote4: "The feedback … has been so positive that we are structuring a computer science class around CodeCombat. The program really engages the students with a gaming style platform that is entertaining and instructional at the same time. Keep up the good work, CodeCombat!"
-      //    quotes_quote5: "Even though the class starts every Saturday at 7am, my son is so excited that he wakes up before me! CodeCombat creates a pathway for my son to advance his coding skills."
-      //    quotes_quote5_author: "Latthaphon Pohpon, Parent"
+      quotes_quote1: '[AI_TRANSLATION]說出任何線上程式，我都試過。沒有一個比得上CodeCombat跟Ozaria。任何想讓學生學寫程式的老師... 就從這裡開始吧！',
+      quotes_quote2: '[AI_TRANSLATION] 我驚訝於 CodeCombat 使學習計算機科學變得如此簡單且直觀。AP 考試的成績遠高於我的預期，我相信這是因為 CodeCombat。  ',
+      quotes_quote3: '[AI_TRANSLATION]CodeCombat 是教我學生現實編程能力最有幫助的工具。我丈夫是一名軟體工程師，他測試過我所有的課程。他將這個列為他的首選。',
+      quotes_quote4: '[AI_TRANSLATION]回饋… 非常正面，所以我們正在圍繞 CodeCombat 結構化一個計算機科學班。這個平台真的讓學生們非常投入，既有娛樂性又具教學意義。繼續努力，CodeCombat！\n',
+      quotes_quote5: '[AI_TRANSLATION]即使班每週六早上7點開始，我兒子還是太興奮了，他比我早醒！CodeCombat 為我兒子提供了一個進階編程技能的途徑。',
+      quotes_quote5_author: '[AI_TRANSLATION]Latthaphon Pohpon, 家長',
       see_example: '查看範例',
       slogan: '最迷人的程式設計學習遊戲',
       slogan_power_of_play: '在強大的遊戲世界中學習程式設計',
       teach_cs1_free: '免費學習CS1內容',
       teachers_love_codecombat_title: '教師們最愛CodeCombat',
-      //    teachers_love_codecombat_blurb1: "Report that their students enjoy using CodeCombat to learn how to code"
-      //    teachers_love_codecombat_blurb2: "Would recommend CodeCombat to other computer science teachers"
-      //    teachers_love_codecombat_blurb3: "Say that CodeCombat helps them support students’ problem solving abilities"
-      //    teachers_love_codecombat_subblurb: "In partnership with McREL International, a leader in research-based guidance and evaluations of educational technology."
+      teachers_love_codecombat_blurb1: '[AI_TRANSLATION]報告他們的學生喜歡使用 CodeCombat 學習編碼',
+      teachers_love_codecombat_blurb2: '[AI_TRANSLATION]我會推薦 CodeCombat 給其他資訊科技老師',
+      teachers_love_codecombat_blurb3: '[AI_TRANSLATION]說 CodeCombat 幫助他們支持學生的解決問題能力',
+      teachers_love_codecombat_subblurb: '[AI_TRANSLATION]與 McREL International 合作，這是一家領導基於研究的教育科技指導和評估的公司。',
       top_banner_blurb: '家長們，藉由我們的線上講師個別化的指導課程，給您的孩子一個名為程式設計的禮物。',
-      //    top_banner_summer_camp: "Enrollment now open for our summer coding camps–ask us about our week-long virtual sessions starting at just $199."
-      //    top_banner_blurb_pd: "We now offer professional development for educators."
-      //    top_banner_blurb_funding: "New: CARES Act funding resources guide to ESSER and GEER funds for your CS programs."
-      //    top_banner_blurb_maintenance: "Upgrades coming! Scheduled maintenance: up to 3 hours starting at __maintenanceStartTime__."
-      //    top_banner_blurb_podcast: "NEW: Explore the world of EdTech with our new podcast EdTech Adventures."
-      //    top_banner_blurb_roblox: "NEW! CodeCombat is coming to Roblox!"
-      //    top_banner_blurb_roblox_teachers: "NEW! CodeCombat has partnered with Roblox Education!"
-      //    top_banner_blurb_roblox_players: "NEW! Learn to code while playing Roblox!"
-      //    top_banner_blurb_roblox_players_cta: "Join Beta Waitlist"
-      //    top_banner_blurb_live_online_classes_parents: "PARENTS! Get your child coding today with a free trial class."
-      //    top_banner_blurb_live_online_classes: "Live online coding classes powered by play!"
-      //    top_banner_blurb_live_online_classes_cta: "Sign up for a free trial class!"
-      //    top_banner_blurb_demo_day: "Please join us for a demo day webinar on Thursday, August 25 at 4:00 pm EDT."
-      //    top_banner_blurb_demo_day_10_20: "Join us for a spooktacular demo of CodeCombat & Ozaria on Thursday, October 20 at 4:00 pm CDT."
-      //    top_banner_blurb_hoc_2022_12_01: "Join us Dec. 1st for our Hour of Code Walkthrough! Everything you need to implement our all new activities __topBannerHereLink__"
-      //    top_banner_blurb_hoc_2022_12_01_here: "HERE"
-      //    top_banner_blurb_demo_day_2023_02_16: "LIVE DEMO! See how you can use esports to teach coding. Join us Thursday February 16th at 2:00 pm PST."
+      top_banner_summer_camp: '[AI_TRANSLATION]現在開放報名參加我們的夏季編程營——詢問我們的每周虛擬課程，僅需 $199 起。',
+      top_banner_blurb_pd: '[AI_TRANSLATION]我們現在為教育工作者提供專業發展。',
+      top_banner_blurb_funding: '[AI_TRANSLATION]新的：CARES 法案資金資源指南，用於你的 CS 計劃的 ESSER 和 GEER 資金。',
+      top_banner_blurb_maintenance: '[AI_TRANSLATION]正在升級! 預定維護：從 __maintenanceStartTime__ 開始最多3小時。',
+      top_banner_blurb_podcast: '[AI_TRANSLATION]新消息：透過我們的新播客 EdTech Adventures 探索 EdTech 的世界。  ',
+      top_banner_blurb_roblox: '[AI_TRANSLATION]新消息！CodeCombat 即將登陸 Roblox！  ',
+      top_banner_blurb_roblox_teachers: '[AI_TRANSLATION]新消息！CodeCombat 與 Roblox 教育合作！  ',
+      top_banner_blurb_roblox_players: '[AI_TRANSLATION]新消息！邊玩 Roblox 邊學編程！  ',
+      top_banner_blurb_roblox_players_cta: '[AI_TRANSLATION]加入 Beta 等候名單\n',
+      top_banner_blurb_live_online_classes_parents: '[AI_TRANSLATION]父母們！立即讓你的孩子參加免費試聽課，開始學習編程吧。',
+      top_banner_blurb_live_online_classes: '[AI_TRANSLATION]由遊戲驅動的線上程式設計直播課程！',
+      top_banner_blurb_live_online_classes_cta: '[AI_TRANSLATION]註冊免費試聽課！',
+      top_banner_blurb_demo_day: '[AI_TRANSLATION]請加入我們，在8月25日星期四下午4:00 EDT參加網絡研討會演示日。',
+      top_banner_blurb_demo_day_10_20: '[AI_TRANSLATION]來參加我們10月20號星期四下午4點CDT的CodeCombat & Ozaria萬聖節演示吧。',
+      top_banner_blurb_hoc_2022_12_01: '[AI_TRANSLATION]12月1號來參加我們的編碼小時演練吧！所有需要的活動都在這裡 __topBannerHereLink__',
+      top_banner_blurb_hoc_2022_12_01_here: '[AI_TRANSLATION]這裡',
+      top_banner_blurb_demo_day_2023_02_16: '[AI_TRANSLATION]線上實況！了解你如何利用電競來教編程。加入我們在2月16日星期四下午2:00（PST）。',
       try_the_game: '開始試玩',
       classroom_edition: '教室版本',
       learn_to_code: '學習寫程式碼',
@@ -233,7 +232,7 @@ module.exports = {
       im_an_individual: '我是個人用戶',
       im_an_individual_description: '在家就可以玩，不用教室的環境設定',
       learn_more: '了解更多',
-      //    check_it_out: "Check it out!"
+      check_it_out: '[AI_TRANSLATION]來看看吧！',
       classroom_in_a_box: '教授電腦科學的迷你教室。',
       codecombat_is: 'CodeCombat是一個讓<strong>學生</strong>透過進行遊戲來學習計算機科學的平台。',
       our_courses: '我們的課程經過特別的遊戲測試來<strong>超越教室教學</strong>，甚至是超越一些先前沒有編程經驗的老師。',
@@ -249,7 +248,7 @@ module.exports = {
       accessible_to: '提供給',
       everyone: '每一個人',
       democratizing: '使學習寫程式碼的過程普及化是我們的核心理念，每個人都應該有機會學習寫程式。',
-      forgot_learning: '我認為他們甚至忘記了他們正在學東西。', // {change}
+      forgot_learning: '我認為他們甚至忘記了他們正在學東西。',
       wanted_to_do: '寫程式一直是我想要做的事情，而我從不認為我會在學校裡學到它們。',
       builds_concepts_up: '我喜愛CodeCombat建立程式概念的方式。簡單易懂且好玩',
       why_games: '為何從遊戲中學習是很重要的呢?',
@@ -278,10 +277,10 @@ module.exports = {
       setup_a_class: '設立一個班級',
       have_an_account: '您是否擁有一個帳號?',
       logged_in_as: '您現在登入的身分為',
-      computer_science: '全年齡向的計算機科學課程', // {change}
+      computer_science: '全年齡向的計算機科學課程',
       ffa: '學生免費',
       coming_soon: '敬請期待!',
-      courses_available_in: '包含JavaScript、Python，以及網頁開發HTML、CSS、jQuery、和Bootstrap的課程。', // {change}
+      courses_available_in: '包含JavaScript、Python，以及網頁開發HTML、CSS、jQuery、和Bootstrap的課程。',
       boast: '擁有足夠複雜的關卡，同時能吸引玩家以及程式撰寫者。',
       winning: '成功的結合RPG遊戲和程式設計作業，造就了對孩子有善且能樂在其中的教育環境。',
       run_class: '如今想要在學校進行一堂計算機科學的課程，您不再需要有計算機科學的背景。',
@@ -294,67 +293,67 @@ module.exports = {
       student: '學生',
       go_to_my_dashboard: '返回主畫面',
       our_coding_programs: '我們的程式設計',
-      //    codecombat: "CodeCombat"
-      //    ozaria: "Ozaria"
-      //    codecombat_blurb: "Our original coding game. Recommended for parents, individuals, educators, and students who want to experience one of the most-loved coding games in the world."
-      //    ozaria_blurb: "An adventure game and Computer Science program where students master the lost magic of coding to save their world. Recommended for educators and students."
-      //    ozaria_china_blurb: ""
+      codecombat: '[AI_TRANSLATION]CodeCombat',
+      ozaria: '[AI_TRANSLATION]Ozaria',
+      codecombat_blurb: '[AI_TRANSLATION]我們的原創編碼遊戲。推薦給家長、個人、教育者和學生，讓他們體驗世界上最受歡迎的編碼遊戲之一。',
+      ozaria_blurb: '[AI_TRANSLATION]一個冒險遊戲和計算機科學課程，學生們學會失傳的編程魔法來拯救他們的世界。推薦給教育工作者和學生。  ',
+      //    ozaria_china_blurb: "",
       try_codecombat: '試試 CodeCombat',
       try_ozaria: '試試 Ozaria',
       explore_codecombat: '探索CodeCombat',
       explore_ai_league: '探索AI聯盟',
       explore_ozaria: '探索 Ozaria',
       explore_online_classes: '探索線上課程',
-      //    explore_pd: "Explore Professional Development"
-      //    new_adventure_game_blurb: "Ozaria is our brand new adventure game and your turnkey solution for teaching Computer science. Our student-facing __slides__ and teacher-facing notes make planning and delivering lessons easier and faster."
+      explore_pd: '[AI_TRANSLATION]探索專業發展',
+      new_adventure_game_blurb: '[AI_TRANSLATION]Ozaria 是我們全新的冒險遊戲，也是教授計算機科學的即插即用解決方案。我們面向學生的 __slides__ 和面向老師的筆記使得規劃和授課變得更輕鬆快捷。',
       lesson_slides: '學習資料',
-      //    pd_blurb: "Learn the skills to effectively teach computer science with our self-directed, CSTA-accredited professional development course. Earn up to 40 credit hours any time, from any device. Pairs well with Ozaria Classroom."
-      //    ai_league_blurb: "Competitive coding has never been so epic with this educational esports league, uniquely both an AI battle simulator and game engine for learning real code."
-      //    codecombat_live_online_classes: "CodeCombat Live Online Classes"
-      //    learning_technology_blurb: "Our original game teaches real-world skills through the power of play. The scaffolded curriculum systematically builds on student’s experiences and knowledge as they progress."
-      //    learning_technology_blurb_short: "Our innovative game-based learning technology has transformed the way students learn to code."
-      //    online_classes_blurb: "Our online coding classes combine the power of gameplay and personalized instruction for an experience your child will love. With both private or group options available, this is remote learning that works."
-      //    codecombat_home_blurb: "__codecombatHome__ offers your child a fun and engaging way to advance their coding skills. With access to over 530 levels and exclusive features like pets, premium-only items, and heroes, your child can fully immerse themselves in the world of coding. They can even design games to challenge their friends, build websites and apps to share, and create private teams to compete on a group leaderboard, all in a safe and interactive environment that encourages learning and socialization."
-      //    codecombat_home: "CodeCombat Home"
+      pd_blurb: '[AI_TRANSLATION]透過我們自主學習、CSTA 認證的專業發展課程，學習有效教導計算機科學的技能。隨時隨地使用任意裝置獲得最多 40 小時的學分。搭配 Ozaria Classroom 效果更佳。\n',
+      ai_league_blurb: '[AI_TRANSLATION]競技編碼從未如此精彩，這個教育電競聯賽既是AI戰鬥模擬器又是學習真實代碼的遊戲引擎。',
+      codecombat_live_online_classes: '[AI_TRANSLATION]CodeCombat 在線實時課程',
+      learning_technology_blurb: '[AI_TRANSLATION]我們的原創遊戲通過遊戲的力量教授現實世界的技能。循序漸進的課程會系統地根據學生的經驗和知識進行構建。',
+      learning_technology_blurb_short: '[AI_TRANSLATION]我們創新的遊戲化學習技術改變了學生學習編碼的方式。',
+      online_classes_blurb: '[AI_TRANSLATION]我們的在線編程課程結合了遊戲的力量和個性化教學，讓你的孩子愛上學習。有私人和小組選項，這是有效的遠程學習。\n',
+      codecombat_home_blurb: '[AI_TRANSLATION]__codecombatHome__ 給你的孩子提供一個有趣且引人入勝的方式來提升他們的編碼技能。通過超過 530 個關卡和寵物、僅限高級用戶的物品和英雄等獨家功能，你的孩子可以完全沉浸在編碼的世界中。他們甚至可以設計挑戰朋友的遊戲、建立網站和應用程式分享，並創建私人隊伍參加團體排行榜競賽，這一切都在一個鼓勵學習和社交的安全互動環境中進行。',
+      codecombat_home: '[AI_TRANSLATION]CodeCombat 主頁',
       for_educators: '對於教育者',
       for_parents: '對於父母們',
       for_everyone: '對於每個人',
       for_students: '對於學生',
-      //    for_individuals: "For Individuals"
-      //    for_libraries: "For Libraries"
-      //    for_partners: "For Partners"
-      //    for_partners_title: "Partner With CodeCombat"
-      //    for_partners_blurb: "Join our mission to make coding accessible and engaging for all by becoming a valued partner with CodeCombat. Our partnership structures include educational businesses, esports sponsors, international distributors, and social impact partners. Partners receive access to our easy-to-use programs, implementation resources, and training options for a successful and enjoyable experience."
-      //    for_partners_button: "Explore Partnerships"
-      //    for_libraries_title: "Library Integration"
-      //    for_libraries_blurb: "As an entirely self-paced and self-directed digital resource, CodeCombat is the best integration for libraries that want to empower their members of all ages to learn how to code. Our platform offers everything learners need to experience a high-level coding education through a uniquely exciting, game-based curriculum. Perfect for learners in third grade all the way up to adults who want to master college-level coding concepts."
-      //    for_libraries_button: "Explore Libraries"
+      for_individuals: '[AI_TRANSLATION]個人使用',
+      for_libraries: '[AI_TRANSLATION]為了圖書館\n',
+      for_partners: '[AI_TRANSLATION]合作伙伴',
+      for_partners_title: '[AI_TRANSLATION]與 CodeCombat 合作',
+      for_partners_blurb: '[AI_TRANSLATION]加入我們的使命，成為 CodeCombat 的重要合作夥伴，讓編程變得易於接觸且有趣。我們的合作夥伴結構包括教育業務、電子競技贊助商、國際分銷商和社會影響合作夥伴。合作夥伴可獲得我們易於使用的程式、實施資源和培訓選項，保證您能有成功且愉快的體驗。\n',
+      for_partners_button: '[AI_TRANSLATION]探索合作夥伴',
+      for_libraries_title: '[AI_TRANSLATION]圖書館整合',
+      for_libraries_blurb: '[AI_TRANSLATION]CodeCombat 是一個完全自我節奏和自我導向的數位資源，對於想要使所有年齡層成員學習程式設計的圖書館來說，這是最佳的整合。我們的平台提供學習者所需的一切，透過獨特又刺激的遊戲化課程來體驗高水準的程式設計教育。適合從三年級的學習者到想掌握大學級別程式概念的成年人。',
+      for_libraries_button: '[AI_TRANSLATION]探索庫',
       what_our_customers_are_saying: '看看我們的客人怎麼說',
       game_based_learning: '基於遊戲的學習法',
-      //    unique_approach_blurb: "With our unique approach, students embrace learning as they play and write code from the very start of their adventure, promoting active learning and a growth mindset."
+      unique_approach_blurb: '[AI_TRANSLATION]通過我們獨特的方法，學生將在他們冒險一開始就通過遊戲和編碼來學習，促進積極學習和成長心態。\n',
       text_based_coding: '基於高階語言的程式設計介面',
-      //    custom_code_engine_blurb: "Our custom code engine and interpreter is designed for beginners, teaching true Python, JavaScript, and C++ programming languages using human, beginner-friendly terms."
-      //    student_impact: "Student Impact"
-      //    help_enjoy_learning_blurb: "Our products have helped over 20 million students enjoy learning Computer Science, teaching them to be critical, confident, and creative learners. We engage all students, regardless of experience, helping them to realize a pathway to success in Computer Science."
-      //    global_community: "Join Our Global Community"
+      custom_code_engine_blurb: '[AI_TRANSLATION]我們的自定義代碼引擎和解釋器是為初學者設計的，使用簡單易懂的術語教真正的 Python、JavaScript 和 C++ 編程語言。',
+      student_impact: '[AI_TRANSLATION]學生成果影響',
+      help_enjoy_learning_blurb: '[AI_TRANSLATION]我們的產品已幫助超過 2000 萬學生享受學習計算機科學，教他們成為有批判性、自信和創造力的學習者。我們吸引所有學生，不論經驗，幫助他們發現成功的計算機科學之路。',
+      global_community: '[AI_TRANSLATION]加入我們的全球社群\n',
       million: '__num__ 百萬',
-      billion: '__num__ 十億'
+      billion: '__num__ 十億',
+      meta_keywords_podcast: '[AI_TRANSLATION]CodeCombat, python, javascript, 編碼遊戲, 播客, 教育科技\n',
+      coco_worlds_header: '[AI_TRANSLATION]CodeCombat 世界',
+      coco_worlds_description: '[AI_TRANSLATION]在 Roblox 開啟 3D 程式碼冒險，既能編程寵物、和朋友玩耍，又能開發遊戲，還能順便玩遊戲。加入 CodeCombat 社區，在元宇宙中釋放你的創造力！',
+      coco_worlds_button: '[AI_TRANSLATION]探索 CodeCombat 世界',
     },
-    //    meta_keywords_podcast: "CodeCombat, python, javascript, Coding Games, podcast, edtech"
-    //    coco_worlds_header: "CodeCombat Worlds"
-    //    coco_worlds_description: "Embark on a 3D coding adventure in Roblox, where you can program pets, play with friends, and develop games all while playing one. Join the CodeCombat community and unleash your creativity in the metaverse!"
-    //    coco_worlds_button: "Explore CodeCombat Worlds"
 
     nav: {
-    //    aiyouth: "AI Youth"
+      aiyouth: '[AI_TRANSLATION]AI 青少年',
       educators: '教育者',
       follow_us: '追蹤我們',
       general: '一般',
       map: '地圖',
-      play: '返回地圖', // The top nav bar entry where players choose which levels to play
+      play: '返回地圖',
       community: '社群',
       courses: '課程',
-      //    units: "Units"
+      units: '[AI_TRANSLATION]單位  ',
       blog: '官方部落格',
       forum: '論壇',
       account: '帳號',
@@ -365,15 +364,15 @@ module.exports = {
       legal: '版權聲明',
       privacy: '隱私權政策',
       about: '關於',
-      //    events: "Events"
+      events: '[AI_TRANSLATION]事件',
       impact: '影響',
-      //    star: "CoCoStar"
+      star: '[AI_TRANSLATION]CoCoStar',
       contact: '聯繫我們',
       press: '新聞稿',
       twitter_follow: '在 Twitter 關注',
       my_classrooms: '我的班級',
       my_courses: '我的課程',
-      //    my_units: "My Units"
+      my_units: '[AI_TRANSLATION]我的單位  ',
       my_teachers: '我的導師',
       careers: '招聘',
       facebook: 'Facebook臉書',
@@ -384,7 +383,7 @@ module.exports = {
       toggle_nav: '切換導覽',
       schools: '學校',
       get_involved: '親身參與',
-      //    related_urls: "Related Links"
+      related_urls: '[AI_TRANSLATION]相關鏈接',
       open_source: '開源 (GitHub)',
       support: '取得幫助',
       faqs: 'FAQs常見問題',
@@ -399,92 +398,134 @@ module.exports = {
       return_coco: '返回CodeCombat',
       classes: '課程',
       term_of_service: '服務條款',
-      //    esports: "Esports"
-      //    browser_recommendation: "For the best experience we recommend using the latest version of Chrome. Download the browser here!"
-      //    ozaria_classroom: "Ozaria Classroom"
+      esports: '[AI_TRANSLATION]電子競技',
+      browser_recommendation: '[AI_TRANSLATION]為了獲得最佳體驗，我們建議使用最新版的 Chrome。點此下載瀏覽器！',
+      ozaria_classroom: '[AI_TRANSLATION]Ozaria 教室',
       codecombat_classroom: 'CodeCombat 教室',
-      //    ozaria_dashboard: "Ozaria Dashboard"
-      //    ozaria_teacher_dashboard: "Ozaria Teacher Dashboard"
-      //    ozaria_admin_dashboard: "Ozaria Admin Dashboard"
+      ozaria_dashboard: '[AI_TRANSLATION]Ozaria 儀表板',
+      ozaria_teacher_dashboard: '[AI_TRANSLATION]Ozaria 教師儀表板',
+      ozaria_admin_dashboard: '[AI_TRANSLATION]Ozaria 管理儀表板',
       codecombat_dashboard: 'CodeCombat 儀表板',
-      //    codecombat_teacher_dashboard: "CodeCombat Teacher Dashboard"
-      //    codecombat_admin_dashboard: "CodeCombat Admin Dashboard"
+      codecombat_teacher_dashboard: '[AI_TRANSLATION]CodeCombat 教師儀表板',
+      codecombat_admin_dashboard: '[AI_TRANSLATION]CodeCombat 管理儀表板',
       professional_development: '專業開發',
       new: '新!',
       admin: '管理員',
-      //    api: "API"
+      api: '[AI_TRANSLATION]API',
       api_dashboard: 'API儀表板',
-      //    funding_resources_guide: "Funding Resources Guide"
-      //    partnerships: "Partnerships"
-      podcast: '我們的 Podcast'
+      funding_resources_guide: '[AI_TRANSLATION]資金資源指南',
+      partnerships: '[AI_TRANSLATION]合作夥伴關係',
+      podcast: '我們的 Podcast',
+      dashboard: '[AI_TRANSLATION]儀表板',
+      products: '[AI_TRANSLATION]產品',
+      live_online_classes: '[AI_TRANSLATION]在線直播課程',
+      codecombat_home: '[AI_TRANSLATION]CodeCombat 主頁',
+      libraries: '[AI_TRANSLATION]資料庫',
+      codecombat_worlds_on_roblox: '[AI_TRANSLATION]CodeCombat 世界在 Roblox 上',
+      pricing: '[AI_TRANSLATION]價格',
+      help_center: '[AI_TRANSLATION]幫助中心\n',
+      research_efficacy: '[AI_TRANSLATION]研究 - 效能',
+      research_impact: '[AI_TRANSLATION]研究 - 影響',
+      terms: '[AI_TRANSLATION]條款',
+      podcast_simple: '[AI_TRANSLATION]Podcast',
+      create_free_account: '[AI_TRANSLATION]創建免費帳號',
+      school_district_solutions: '[AI_TRANSLATION]學校和地區解決方案',
+      teacher_toolkit_preview: '[AI_TRANSLATION]教師工具包預覽  ',
+      //    teacher_toolkit: "Teacher Toolkit",
+      efficacy_studies: '[AI_TRANSLATION]效能研究',
+      success_stories: '[AI_TRANSLATION]成功故事',
+      hoc: '[AI_TRANSLATION]編程一小時',
+      grants_funding_resources: '[AI_TRANSLATION]贈款與資金資源',
+      //    accessibility: "Accessibility (ACR/VPAT)",
+      request_quote_demo: '[AI_TRANSLATION]請求演示或報價',
+      coco_junior_beta: '[AI_TRANSLATION]CodeCombat Junior (測試版)',
+      //    coco_junior: "CodeCombat Junior",
+      ap_csp: '[AI_TRANSLATION]AP CSP',
+      ai_league_esports: '[AI_TRANSLATION]AI 聯盟 電競',
+      ai_hackstack_beta: '[AI_TRANSLATION]AI HackStack (Beta)',
+      ai_junior_beta: '[AI_TRANSLATION]AI 初學者 (Beta)',
+      premium_self_paced: '[AI_TRANSLATION]高級自學',
+      codequest: '[AI_TRANSLATION]CodeQuest',
+      library_solutions: '[AI_TRANSLATION]圖書館解決方案',
+      partner_solutions: '[AI_TRANSLATION]合作方案',
+      teaching_solutions: '[AI_TRANSLATION]教學解決方案  ',
+      play2: '[AI_TRANSLATION]玩',
+      my_dashborads: '[AI_TRANSLATION]我的儀表板  ',
+      //    resources: "Resources",
+      curriculum: '[AI_TRANSLATION]課程',
+      company: '[AI_TRANSLATION]公司',
+      coco_home_description: '[AI_TRANSLATION]拿到530個關卡和獨家內容像是寵物、專屬物品和英雄，任何人都可以完全沉浸在編碼世界。',
+      coco_classroom_description: '[AI_TRANSLATION]一套完整的計算機科學課程，從核心概念一直涵蓋到網頁開發、遊戲開發和 AP CSP。',
+      coco_junior_description: '[AI_TRANSLATION]我們主要的 K-5 課程具有學習級別的進程，專為小學生設計，以較慢的速度教基本的編碼概念。',
+      oz_classroom_description: '[AI_TRANSLATION]一個迷人的敘事編程冒險，建立了計算機科學的基礎知識。  ',
+      ap_csp_description: '[AI_TRANSLATION]由 College Board 認可，我們的 AP CSP 課程提供基於遊戲和即插即用工具，幫助學生準備 AP 考試。',
+      ai_league_description: '[AI_TRANSLATION]一個史詩級的競技編程電競平台，在遊戲環境中鼓勵創意編程練習。  ',
+      roblox_description: '[AI_TRANSLATION]這款MMORPG教Lua編程，並提供一個創造精彩遊戲和體驗的現實平台。',
+      ai_hackstack_description: '[AI_TRANSLATION]第一款專為 AI 初學者設計的生成 AI 伴侶工具，專注於學生隱私和安全。\n',
+      ai_junior_description: '[AI_TRANSLATION]在一個簡單直觀的平台上，介紹為K-5學生設計的多模態生成式AI。  ',
+      learning_options: '[AI_TRANSLATION]學習選項\n',
+      ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      beta: '[AI_TRANSLATION]Beta',
     },
-    //    dashboard: "Dashboard"
-    //    products: "Products"
-    //    live_online_classes: "Live Online Classes"
-    //    codecombat_home: "CodeCombat Home"
-    //    libraries: "Libraries"
-    //    codecombat_worlds_on_roblox: "CodeCombat Worlds on Roblox"
-    //    pricing: "Pricing"
-    //    help_center: "Help Center"
-    //    research_efficacy: "Research - Efficacy"
-    //    research_impact: "Research - Impact"
 
     modal: {
       close: '關閉',
       okay: '好',
       cancel: '取消',
-      try_again: '重試'
+      try_again: '重試',
     },
 
     not_found: {
-      page_not_found: '找不到網頁'
+      page_not_found: '找不到網頁',
     },
 
     diplomat_suggestion: {
-      title: '幫助我們翻譯CodeCombat', // This shows up when a player switches to a non-English language using the language selector.
+      title: '幫助我們翻譯CodeCombat',
       sub_heading: '我們需要您的語言技能',
-      pitch_body: '我們開發了CodeCombat的英文版，但是現在我們的玩家遍佈全球。很多人想玩中文版的，卻不會說英文，所以如果您中英文都會，請考慮一下參加我們的翻譯工作，幫忙把 CodeCombat 網站還有所有的關卡翻譯成中文（繁體）。', // {change}
+      pitch_body: '我們開發了CodeCombat的英文版，但是現在我們的玩家遍佈全球。很多人想玩中文版的，卻不會說英文，所以如果您中英文都會，請考慮一下參加我們的翻譯工作，幫忙把 CodeCombat 網站還有所有的關卡翻譯成中文（繁體）。',
       missing_translations: '直至所有正體中文的翻譯完畢，當無法提供正體中文時還會以英文顯示。',
       learn_more: '關於成為外交官',
-      subscribe_as_diplomat: '註冊成為外交官'
+      subscribe_as_diplomat: '註冊成為外交官',
     },
 
     new_home_faq: {
       what_programming_languages: '目前支援哪些程式語言?',
       python_and_javascript: '目前支持 Python、JavaScript、C++、Java 和 Lua',
       why_python: '為什麼選擇Python?',
-      //    why_python_blurb: "Python is both beginner-friendly and currently used by major corporations (such as Google). If you have younger or first-time learners, we strongly recommend Python."
+      why_python_blurb: '[AI_TRANSLATION]Python 對初學者友好，並且目前被大公司（如 Google）使用。如果你有年紀小或第一次學習的學生，我們強烈推薦 Python。',
       why_javascript: '為什麼選擇JavaScript?',
-      //    why_javascript_blurb: "JavaScript is the language of the web and is used across nearly every website. You may prefer to choose JavaScript if you are planning to also study web development. We’ve also made it easy for students to transition from Python to JavaScript-based web development."
-      //    javascript_versus_python: "JavaScript’s syntax is a little more difficult for beginners than Python, so if you cannot decide between the two, we recommend Python."
+      why_javascript_blurb: '[AI_TRANSLATION]JavaScript 是網頁的語言，幾乎每個網站都在使用。如果你打算學習網頁開發，可能會更喜歡選擇 JavaScript。我們也讓學生更容易從 Python 轉向 JavaScript 的網頁開發。\n',
+      javascript_versus_python: '[AI_TRANSLATION]JavaScript 的語法對初學者來說比 Python 困難一些，所以如果你無法決定選哪一個，我們推薦 Python。\n',
       how_do_i_get_started: '我該如何開始?',
       getting_started_1: '創建你的教師帳號',
       getting_started_2: '創造一個課堂',
       getting_started_3: '加入學生',
-      //    getting_started_4: "Sit back and watch your students have fun learning to code"
-      //    main_curriculum: "Can I use CodeCombat or Ozaria as my main curriculum?"
-      //    main_curriculum_blurb: "Absolutely! We’ve spent time consulting with education specialists to craft classroom curriculum and materials specifically for teachers who are using CodeCombat or Ozaria without any prior computer science experience themselves. Many schools are implementing CodeCombat and/or Ozaria as the main computer science curriculum."
-      //    clever_instant_login: "Does CodeCombat and Ozaria support Clever Instant Login?"
-      //    clever_instant_login_blurb: "Yes! Check out our __clever__ for more details on how to get started."
-      //    clever_integration_faq: "Clever Integration FAQ"
-      //    google_classroom: "What about Google Classroom?"
-      //    google_classroom_blurb1: "Yup! Be sure to use the Google Single Sign-On (SSO) Modal to sign up for your teacher account. If you already have an account using your Google email, use the Google SSO modal to log in next time. In the Create Class modal, you will see an option to Link Google Classroom. We only support rostering via Google Classroom at this time."
-      //    google_classroom_blurb2: "Note: you must use Google SSO to sign up or log in at least once in order to see the Google Classroom integration option."
-      //    how_much_does_it_cost: "How much does it cost to access all of the available courses and resources?"
-      //    how_much_does_it_cost_blurb: "We customize solutions for schools and districts and work with you to understand your use case, context, and budget. __contact__ for further details! See also our __funding__ for how to leverage CARES Act funding sources like ESSER and GEER."
-      //    recommended_systems: "Is there a recommended browser and operating system?"
-      //    recommended_systems_blurb: "CodeCombat and Ozaria run best on computers with at least 4GB of RAM, on a modern browser such as Chrome, Safari, Firefox, or Edge. Chromebooks with 2GB of RAM may have minor graphics issues in later courses. A minimum of 200 Kbps bandwidth per student is required, although 1+ Mbps is recommended."
+      getting_started_4: '[AI_TRANSLATION]坐下來看你的學生們快樂地學習編程',
+      main_curriculum: '[AI_TRANSLATION]我能把 CodeCombat 或 Ozaria 當作主要課程嗎？',
+      main_curriculum_blurb: '[AI_TRANSLATION]絕對可以！我們花了時間與教育專家協商，為使用 CodeCombat 或 Ozaria 的老師量身打造教室課程和材料，這些老師自己沒有任何計算機科學經驗。很多學校已經將 CodeCombat 和/或 Ozaria 作為主要的計算機科學課程。',
+      clever_instant_login: '[AI_TRANSLATION]CodeCombat 和 Ozaria 支援 Clever Instant Login 嗎？',
+      clever_instant_login_blurb: '[AI_TRANSLATION]是！查看我們的 __clever__ 了解更多開始的詳情。',
+      clever_integration_faq: '[AI_TRANSLATION]Clever 集成常見問題',
+      google_classroom: '[AI_TRANSLATION]Google Classroom 呢？',
+      google_classroom_blurb1: '[AI_TRANSLATION]沒錯！記得使用 Google 單一登入 (SSO) 彈窗來註冊你的教師帳號。如果你已經有使用 Google 郵箱的帳號，下次請使用 Google SSO 彈窗來登入。在創建班級的彈窗中，你會看到一個連結 Google Classroom 的選項。我們目前僅支持通過 Google Classroom 進行名單管理。',
+      google_classroom_blurb2: '[AI_TRANSLATION]注意：你必須使用 Google SSO 至少註冊或登錄一次，才能看到 Google Classroom 整合選項。  ',
+      how_much_does_it_cost: '[AI_TRANSLATION]訪問所有可用課程和資源的費用是多少？',
+      how_much_does_it_cost_blurb: '[AI_TRANSLATION]我們為學校和學區提供定制解決方案，與您一起了解您的使用案例、背景和預算。__contact__ 了解更多詳情！另請參閱我們的 __funding__，了解如何利用 CARES 法案資金來源，如 ESSER 和 GEER。\n',
+      recommended_systems: '[AI_TRANSLATION]有推薦的瀏覽器和操作系統嗎？  ',
+      recommended_systems_blurb: '[AI_TRANSLATION]CodeCombat 和 Ozaria 最佳運行環境為至少 4GB RAM 的電腦，使用現代瀏覽器如 Chrome、Safari、Firefox 或 Edge。2GB RAM 的 Chromebooks 在後期課程中可能會有輕微圖形問題。每位學生至少需要 200 Kbps 的頻寬，建議 1 Mbps 或以上。',
       other_questions: '如果你還有其他問題，請聯絡 __contact__.',
-      see_faq_prefix: '觀看更多'
+      see_faq_prefix: '觀看更多',
+      see_faq_link: '[AI_TRANSLATION]幫助中心中的常見問題',
+      //    see_faq_suffix: ".",
+      ai_bot_faq_title: '[AI_TRANSLATION]什麼是 AI Level Help Bot，有什麼措施來確保安全？',
+      ai_bot_faq_blurb: '[AI_TRANSLATION]CodeCombat 中的 AI Chat Level Help Bot 提供 AI 驅動的提示，讓學習者在挑戰編碼時能有引導又能獨立學習。安全性是最重要的，因為 AI 會過濾個人資料並且訓練應對不當請求。\n',
     },
-    //    see_faq_link: "frequently asked questions in our help center"
-    //    see_faq_suffix: "."
 
     play: {
       title: '玩CodeCombat: 學習Python, JavaScript與HTML',
       meta_description: '通過適合初學者的編碼遊戲學習程式設計。在解決迷宮、製作自己的遊戲與升級的過程中學習 Python 或 JavaScript。在多人競技場關卡中挑戰你的朋友！',
       level_title: '__level__ - 學習 Python, JavaScript, HTML 的程式開發',
-      //    level_title_ozaria: "__level__ - Ozaria"
+      level_title_ozaria: '[AI_TRANSLATION]__level__ - Ozaria',
       video_title: '__video__ | 影片關卡',
       game_development_title: '__level__ | 遊戲開發',
       web_development_title: '__level__ | 網頁開發',
@@ -495,40 +536,43 @@ module.exports = {
       anon_signup_create_class: '想建立一間教室嗎?',
       anon_signup_setup_class: '建立教室, 添加您的學生並且關注他們的學習進度!',
       anon_signup_create_teacher: '創造免費教師帳號',
-      play_as: '扮演', // Ladder page
+      play_as: '扮演',
       get_course_for_class: '將游戲開發等分配給您的課程!',
       request_licenses: '聯繫我們的學校專家了解詳情.',
-      compete: '競賽!', // Course details page
-      spectate: '觀戰', // Ladder page
-      //    simulate_all: "Simulate All"
-      players: '玩家', // Hover over a level on /play
-      hours_played: '已玩時數', // Hover over a level on /play
-      items: '物品', // Tooltip on item shop button from /play
-      unlock: '解鎖', // For purchasing items and heroes
+      compete: '競賽!',
+      spectate: '觀戰',
+      simulate_all: '[AI_TRANSLATION]模擬全部',
+      players: '玩家',
+      hours_played: '已玩時數',
+      items: '物品',
+      unlock: '解鎖',
       confirm: '確認',
-      owned: '擁有的物品', // For items you own
+      owned: '擁有的物品',
       locked: '未解鎖',
-      //    locked_by_teacher: "Locked By Teacher"
+      locked_by_teacher: '[AI_TRANSLATION]教師鎖定',
       available: '可用',
-      skills_granted: '將習得技能', // Property documentation details
-      heroes: '英雄', // Tooltip on hero shop button from /play
-      achievements: '成就', // Tooltip on achievement list button from /play
-      settings: '設定', // Tooltip on settings button from /play
-      poll: '投票', // Tooltip on poll button from /play
-      next: '下一步', // Go from choose hero to choose inventory before playing a level
-      change_hero: '更換英雄', // Go back from choose inventory to choose hero
+      skills_granted: '將習得技能',
+      heroes: '英雄',
+      achievements: '成就',
+      settings: '設定',
+      poll: '投票',
+      next: '下一步',
+      change_hero: '更換英雄',
       change_hero_or_language: '更換英雄 或 變更語言',
+      //    change_language: "Code Language / Code Format",
       buy_gems: '購買寶石',
       subscribers_only: '訂閱者限定!',
       subscribe_unlock: '訂閱我們來解鎖吧!',
       subscriber_heroes: '現在訂閱就能立即解鎖英雄 Amara, Hushbaum, 以及 Hattori!',
       subscriber_gems: '現在訂閱就能用寶石購買!',
+      //    practice_license_required: "(license required for practice levels)",
       anonymous: '匿名玩家',
       level_difficulty: '難度',
       awaiting_levels_adventurer_prefix: '我們每週將釋出新的關卡。',
       awaiting_levels_adventurer: '註冊成為冒險家',
       awaiting_levels_adventurer_suffix: '成為第一個挑戰新關卡的冒險家吧！',
       adjust_volume: '調整音量',
+      toggle_fullscreen: '[AI_TRANSLATION]切換全螢幕',
       campaign_multiplayer: '多人競技場',
       campaign_multiplayer_description: '…在這裡您可以和其他玩家進行對戰。',
       brain_pop_done: '你剛剛用編程戰勝了巨魔! 你贏了!',
@@ -542,14 +586,22 @@ module.exports = {
       customize_hero: '自訂英雄角色',
       account_settings: '帳號設定',
       back_to_tutorial: '返回入門教學',
-      teacher_vega_message: '這些入門教學資訊將指導學生, 為了不影響您原本的遊戲進度與查看這些教學資訊, 請創建一個學生帳戶並利用它來玩 Ozaria'
+      teacher_vega_message: '這些入門教學資訊將指導學生, 為了不影響您原本的遊戲進度與查看這些教學資訊, 請創建一個學生帳戶並利用它來玩 Ozaria',
+      beta_levels_on: '[AI_TRANSLATION]測試版關卡開啟',
+      //    beta_levels_turn_off: "turn off",
+      confirm_m7_off: '[AI_TRANSLATION]你確定要關閉測試關卡嗎？',
+      play_codecombat: '[AI_TRANSLATION]玩 CodeCombat',
+      play_codecombat_junior: '[AI_TRANSLATION]玩 CodeCombat Junior',
+      //    age_codecombat: "Ages 8+",
+      //    age_codecombat_junior: "Ages 5-8",
+      //    age_description_codecombat: "Real Python or JavaScript coding for everyone",
+      //    age_description_codecombat_junior: "Blocks or simple text coding for beginners",
+      want_more_hints: '[AI_TRANSLATION]想要更多提示嗎？',
+      //    choose_your_adventure: "Choose Your Adventure",
     },
-    //    beta_levels_on: "beta levels on"
-    //    beta_levels_turn_off: "turn off"
-    //    confirm_m7_off: "Are you sure to turn beta levels off?"
 
     code: {
-      if: '若是', // Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
+      if: '若是',
       else: '否則',
       elif: '否則若是',
       while: '成立時循環',
@@ -596,7 +648,7 @@ module.exports = {
       undefined: '未定義',
       null: '空值',
       nil: '零值',
-      None: '無值'
+      None: '無值',
     },
 
     share_progress_modal: {
@@ -605,7 +657,7 @@ module.exports = {
       form_blurb: '在底下輸入家長的Email，讓我們秀給他們看！',
       form_label: 'Email地址',
       placeholder: 'Email地址',
-      title: '做得不錯，同學'
+      title: '做得不錯，同學',
     },
 
     login: {
@@ -626,14 +678,14 @@ module.exports = {
       already_have_account2: '您能使用這些帳號登入 Ozaria.com',
       sign_into_ozaria: '登入 Ozaria.com',
       individual_users_not_supported: 'Ozaria 是教室模式! 請到 CodeCombat 繼續遊戲!',
-      accounts_merge_confirmation: '有一個與此Google帳戶中的電子郵件關聯的帳戶。 您要合併這些帳戶嗎？'
+      accounts_merge_confirmation: '有一個與此Google帳戶中的電子郵件關聯的帳戶。 您要合併這些帳戶嗎？',
+      stop_spying: '[AI_TRANSLATION]停止間諜行為',
+      stop_switching: '[AI_TRANSLATION]停止切換',
+      test_as_student: '[AI_TRANSLATION]以學生身份測試',
+      gplus_linked: '[AI_TRANSLATION]Google 帳戶連結成功',
+      plus_link_error: '[AI_TRANSLATION]Google 帳戶連結失敗',
+      email_or_username_or_library: '[AI_TRANSLATION]電子郵件或用戶名或圖書證號碼',
     },
-    //    stop_spying: "Stop Spying"
-    //    stop_switching: "Stop Switching"
-    //    test_as_student: "Test as Student"
-    //    gplus_linked: "Google Account linked successfully"
-    //    plus_link_error: "Google Account linked failed"
-    //    email_or_username_or_library: "Email or Username or Library Card number"
 
     signup: {
       complete_subscription: '完成訂閱',
@@ -642,7 +694,7 @@ module.exports = {
       create_individual_header: '建立私人帳號',
       email_announcements: '接收通知以了解CodeCombat中的新關卡和新功能!',
       sign_in_to_continue: '登入或建立一個新帳號以繼續',
-      //    create_account_to_submit_multiplayer: "Create a free account to rank your multiplayer AI and explore the whole game!"
+      create_account_to_submit_multiplayer: '[AI_TRANSLATION]建立免費帳號來排名你的多人AI並探索整個遊戲！',
       teacher_email_announcements: '讓我取得新的教師資源及課程。',
       creating: '帳號建立中…',
       sign_up: '註冊',
@@ -659,7 +711,7 @@ module.exports = {
       birthday: '生日',
       parent_email_blurb: '我們知道您已經迫不及待的想去學習編程 &mdash; 我們也同樣地感到興奮! 您的家長將會收到一封電子郵件，內容包含了如何為您更進一步的申請一個帳號。 如果您有任何問題，我們很高興收到您的詢問email。Email地址 {{email_link}} ',
       classroom_not_found: '這個班級代碼是無效的，請檢察您的拼字或是尋求老師的協助。',
-      //    activation_code_used: "The activation code has been used. Check your spelling or ask your teacher for help."
+      activation_code_used: '[AI_TRANSLATION]啟用碼已經被使用了。檢查拼寫或詢問你的老師尋求幫助。',
       checking: '檢查中...',
       account_exists: '此email帳號已經被使用過了：',
       sign_in: '登入',
@@ -696,7 +748,7 @@ module.exports = {
       account_created: '帳戶創建完成！',
       confirm_student_blurb: '把您的資訊寫下來，以防您忘記它。您的老師也可以協助您重設密碼。',
       confirm_individual_blurb: '把您的登入資訊寫下來，以便日後需要使用。驗證您的email，這樣您之後忘記密碼才可以恢復帳戶──去您的收件匣收信吧！',
-      //    confirm_individual_blurb_without_email: "Write down your login information in case you need it later."
+      confirm_individual_blurb_without_email: '[AI_TRANSLATION]記下你的登入資訊，以備不時之需。',
       write_this_down: '把這個寫下來：',
       start_playing: '開始遊戲！',
       sso_connected: '成功連接：',
@@ -711,45 +763,45 @@ module.exports = {
       teacher_list_resource_hub_1: '確認',
       teacher_list_resource_hub_2_coco: '課程指南',
       teacher_list_resource_hub_2_ozar: '課程指南',
-      //    teacher_list_resource_hub_3: "for solutions to every level, and the"
-      //    teacher_list_resource_hub_4: "Teacher Toolkit"
-      //    teacher_list_resource_hub_5: "for curriculum guides, activities, and more!"
-      //    teacher_additional_questions: "That’s it! If you need additional help or have questions, reach out to __supportEmail__."
-      //    dont_use_our_email_silly: "Don't put our email here! Put your parent's email."
-      //    want_codecombat_in_school: "Want to play CodeCombat all the time?"
+      teacher_list_resource_hub_3: '[AI_TRANSLATION]每個級別的解決方案以及',
+      //    teacher_list_resource_hub_4: "Teacher Toolkit",
+      teacher_list_resource_hub_5: '[AI_TRANSLATION]教學大綱、活動等在這裡！',
+      teacher_additional_questions: '[AI_TRANSLATION]就這樣！如果你需要額外的幫助或有疑問，請聯繫 __supportEmail__。',
+      dont_use_our_email_silly: '[AI_TRANSLATION]不要在這裡寫我們的電子郵件！請填寫你父母的電子郵件。',
+      want_codecombat_in_school: '[AI_TRANSLATION]想一直玩CodeCombat嗎？',
       eu_confirmation: '我同意允許 CodeCombat 將我的資料存儲在美國伺服上。',
       eu_confirmation_place_of_processing: '詳細了解可能的風險。',
       eu_confirmation_student: '如果不確定，請問老師。',
       eu_confirmation_individual: '如果您不想將資料儲存在美國的伺服器，您可以匿名方式進行遊戲而不需要儲存您的代碼。',
-      //    request_class_code: "Students, request a Class Code from your Teacher to create an Account!"
-      //    educators_create_account: "Educators, create a Teacher Account to access the first unit for free!"
-      //    looking_for_classroom: "Looking for classroom..."
-      //    create_your_educator_account: "Create your educator account"
-      //    educator_signup_list_1_title: "See what your students see:"
-      //    educator_signup_list_1_desc: "Demo each game level in the first unit"
-      //    educator_signup_list_2_title: "See teacher resources:"
-      //    educator_signup_list_2_desc: "Access scope and sequence, lessons, and more"
-      //    educator_signup_list_3_title: "See your students thrive:"
-      //    educator_signup_list_3_desc: "Try the first unit with your class for free"
-      //    signup_with_email: "Sign up with Email"
-      //    already_have_account: "Already have a CodeCombat or Ozaria account"
-      //    select_your_role: "Select your role"
-      //    select_your_state: "Select your state"
-      //    password_requirements: "4 to 64 characters with no repeating"
+      request_class_code: '[AI_TRANSLATION]學生們，請從老師那裡索取班級代碼來建立賬戶！',
+      educators_create_account: '[AI_TRANSLATION]教育者，創建教師帳戶以免費訪問第一單元',
+      looking_for_classroom: '[AI_TRANSLATION]正在尋找課堂...',
+      create_your_educator_account: '[AI_TRANSLATION]建立你的教育者帳號',
+      educator_signup_list_1_title: '[AI_TRANSLATION]查看學生所看到的內容：',
+      educator_signup_list_1_desc: '[AI_TRANSLATION]示範第一單元中的每個遊戲關卡',
+      educator_signup_list_2_title: '[AI_TRANSLATION]查看教師資源：',
+      educator_signup_list_2_desc: '[AI_TRANSLATION]訪問課程和大綱、課程等',
+      educator_signup_list_3_title: '[AI_TRANSLATION]觀看學生茁壯成長：',
+      educator_signup_list_3_desc: '[AI_TRANSLATION]與您的班級免費試用第一單元',
+      signup_with_email: '[AI_TRANSLATION]使用電子郵件註冊',
+      already_have_account: '[AI_TRANSLATION]已經有CodeCombat或Ozaria帳號',
+      select_your_role: '[AI_TRANSLATION]選擇你的角色',
+      select_your_state: '[AI_TRANSLATION]選擇你的州',
+      password_requirements: '[AI_TRANSLATION]4 到 64 個不重複的字符',
       invalid: '無效',
       invalid_password: '無效的密碼',
-      //    with: "with"
+      //    with: "with",
       want_to_play_codecombat: '我沒有，但是我仍然想玩 CodeCombat!',
       have_a_classcode: '有課程代碼嗎？',
       yes_i_have_classcode: '是的，我有課程代碼!',
-      enter_it_here: '請在此輸入:'
+      enter_it_here: '請在此輸入:',
+      play_without_saving: '[AI_TRANSLATION]不保存地遊玩',
     },
-    //    play_without_saving: "Play without saving"
 
     recover: {
       recover_account_title: '復原帳號',
       send_password: '送出新密碼',
-      recovery_sent: '密碼重置的信件已寄出'
+      recovery_sent: '密碼重置的信件已寄出',
     },
 
     items: {
@@ -758,19 +810,19 @@ module.exports = {
       armor: '裝甲',
       accessories: '飾品',
       misc: '輔助',
-      books: '書籍'
+      books: '書籍',
     },
 
     common: {
       default_title_coco: 'CodeCombat - 經由編碼學習 Python 及 JavaScript',
       default_title_ozar: 'CodeCombat - 經由編碼學習 Python 及 JavaScript',
-      //    ozaria: "Ozaria"
-      //    default_meta_description_coco: "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and websites."
-      //    default_meta_description_ozar: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world."
-      back: '上一步', // When used as an action verb, like "Navigate backward"
+      ozaria: '[AI_TRANSLATION]Ozaria',
+      //    default_meta_description_coco: "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and websites.",
+      //    default_meta_description_ozar: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world.",
+      back: '上一步',
       coming_soon: '即將公布！',
-      continue: '下一步', // When used as an action verb, like "Continue forward"
-      //    next: "Next"
+      continue: '下一步',
+      //    next: "Next",
       default_code: '預設程式碼',
       loading: '載入中…',
       overview: '總覽',
@@ -787,7 +839,7 @@ module.exports = {
       publish: '發佈',
       create: '創造',
       fork: '分支',
-      play: '進入關卡', // When used as an action verb, like "Play next level"
+      play: '進入關卡',
       retry: '重試',
       actions: '行為',
       info: '介紹',
@@ -804,14 +856,14 @@ module.exports = {
       pick_image: '選擇圖片',
       continue_editing: '繼續編輯',
       logout: '登出',
-      //    empty: "Empty"
+      empty: '[AI_TRANSLATION]空',
       done: '完成',
       remove: '移除',
-      locked: '已鎖定'
+      locked: '已鎖定',
+      internal_error: '[AI_TRANSLATION]內部錯誤',
+      manage: '[AI_TRANSLATION]管理',
+      empty_results: '[AI_TRANSLATION]沒有結果。',
     },
-    //    internal_error: "Internal Error"
-    //    manage: "Manage"
-    //    empty_results: "Empty Results."
 
     general: {
       and: '和',
@@ -861,13 +913,13 @@ module.exports = {
       medium: '中等',
       hard: '困難',
       player: '玩家',
-      player_level: '等級', // Like player level 5, not like level: Dungeons of Kithgard
+      player_level: '等級',
       warrior: '武士',
       ranger: '遊騎兵',
       wizard: '巫師',
       first_name: '名',
       last_name: '姓',
-      //    last_initial: "Last Initial"
+      last_initial: '[AI_TRANSLATION]最後一個首字母',
       username: '使用者名稱',
       contact_us: '與我們聯繫',
       close_window: '關閉視窗',
@@ -880,10 +932,10 @@ module.exports = {
       chat_with_us: '聯繫我們',
       email_us: '寄email與我們聯繫',
       sales: '銷售',
-      support: '支援'
+      support: '支援',
+      here: '[AI_TRANSLATION]在這裡',
+      from: '[AI_TRANSLATION]來自',
     },
-    //    here: "here"
-    //    from: "From"
 
     units: {
       second: '秒',
@@ -900,7 +952,7 @@ module.exports = {
       month: '個月',
       months: '個月',
       year: '年',
-      years: '年'
+      years: '年',
     },
 
     play_level: {
@@ -929,14 +981,14 @@ module.exports = {
       replay_level: '重新開始',
       combo_concepts_used: '使用__complete__/__total__ 概念',
       combo_all_concepts_used: '你運用了所有所學的概念來完成這個挑戰，太棒了。',
-      //    combo_not_all_concepts_used: "You used __complete__ out of the __total__ concepts possible to solve the challenge. Try to get all __total__ concepts next time!"
+      combo_not_all_concepts_used: '[AI_TRANSLATION]你在解決挑戰時用了 __complete__ 個概念，總共有 __total__ 個概念可以使用。下次試著掌握所有 __total__ 個概念吧！',
       start_challenge: '開始挑戰',
       next_game: '下一個遊戲',
       languages: '語言',
       programming_language: '程式語言',
       show_menu: '顯示遊戲選單',
-      home: '首頁', // Not used any more, will be removed soon.
-      level: '關卡', // Like "Level: Dungeons of Kithgard"
+      home: '首頁',
+      level: '關卡',
       skip: '跳過',
       game_menu: '遊戲選單',
       restart: '重新開始',
@@ -961,7 +1013,7 @@ module.exports = {
       restart_confirm: '是的，我要重置',
       test_level: '測試關卡',
       victory: '勝利',
-      victory_title_prefix: '',
+      //    victory_title_prefix: "",
       victory_title_suffix: '完成',
       victory_sign_up: '保存進度',
       victory_sign_up_poke: '想保存您的程式碼？建立一個免費帳號吧！',
@@ -988,28 +1040,30 @@ module.exports = {
       tome_reload_method: '重新載入原始程式碼來重啟關卡',
       tome_available_spells: '可用的法術',
       tome_your_skills: '您的技能',
+      blocks: '[AI_TRANSLATION]塊狀',
       hints: '小提示',
       videos: '影片',
       hints_title: '提示{{number}} ',
       code_saved: '程式碼已保存',
-      //    chat_placeholder: "Need coding help? Chat with the AI. (experimental!)"
-      //    chat_fix_show: "Show Me"
-      //    chat_fix_hide: "Hide"
+      chat_placeholder: '[AI_TRANSLATION]需要編碼幫助？與 AI 聊天吧。（實驗性！）  ',
+      chat_fix_show: '[AI_TRANSLATION]顯示我',
+      chat_fix_hide: '[AI_TRANSLATION]躲起來',
       skip_tutorial: '跳過 (esc)',
       keyboard_shortcuts: '快捷鍵',
       loading_start: '開始戰役',
       loading_start_combo: '開始綜合挑戰',
       loading_start_concept: '開始概念挑戰',
       problem_alert_title: '修正您的程式碼',
-      //    problem_alert_need_help: "Need help?"
-      //    problem_alert_ask_the_ai: "Ask the AI"
+      problem_alert_need_help: '[AI_TRANSLATION]需要幫助嗎？  ',
+      problem_alert_ask_the_ai: '[AI_TRANSLATION]詢問 AI',
+      problem_alert_need_hint: '[AI_TRANSLATION]需要提示嗎？你可以問 AI 幫忙。  ',
       time_current: '現在：',
       time_total: '最大值：',
       time_goto: '前往：',
       non_user_code_problem_title: '無法加載關卡',
       infinite_loop_title: '檢測到無限迴圈',
       infinite_loop_description: '建立世界的初始程式碼還沒有運行完畢。這可能是真的很慢或出現無限迴圈，或者存在一個bug。您可以嘗試再次運行這段程式碼，或重置程式碼為默認狀態。如果還是解決不了問題，請聯繫我們。',
-      //    non_user_code_problem_description: "The initial code to build the world never finished running because of an error: <pre>__error__</pre>You can either try running this code again or reset the code to the default state. If that doesn't fix it, please let us know."
+      non_user_code_problem_description: '[AI_TRANSLATION]由於錯誤，初始構建世界的代碼未能完成運行：<pre>__error__</pre>你可以重試運行這段代碼或將代碼重置為默認狀態。如果還是不行，請告訴我們。',
       check_dev_console: '您也可以打開開發者界面看一下有什麼可能出錯了。',
       check_dev_console_link: '(說明)',
       infinite_loop_try_again: '再試一次',
@@ -1018,7 +1072,7 @@ module.exports = {
       tip_toggle_play: '使用 Ctrl+P 切換 播放/暫停。',
       tip_scrub_shortcut: 'Ctrl+[ 快退；Ctrl+] 快進。',
       tip_guide_exists: '點擊頁面上方的指南，可獲得更多有用的訊息。',
-      tip_open_source: '「CodeCombat」100% 開源！', // {change}
+      tip_open_source: '「CodeCombat」100% 開源！',
       tip_tell_friends: '喜歡CodeCombat？那就把它介紹給朋友！',
       tip_beta_launch: '「CodeCombat」在2013年10月進入 BETA 測試。',
       tip_think_solution: '思考解決方法而不是問題。',
@@ -1081,72 +1135,88 @@ module.exports = {
       tip_programming_not_about_computers: '電腦科學之於電腦不外乎於望遠鏡之於天文學。 - Edsger Dijkstra',
       tip_mulan: '相信你可以做到，然後你就會做到。 - Mulan',
       project_complete: 'Project 完成!',
-      //    share_this_project: "Share this project with friends or family:"
-      //    ready_to_share: "Ready to publish your project?"
-      //    click_publish: "Click \"Publish\" to make it appear in the class gallery, then check out what your classmates built! You can come back and continue to work on this project. Any further changes will automatically be saved and shared with your classmates."
-      //    already_published_prefix: "Your changes have been published to the class gallery."
-      //    already_published_suffix: "Keep experimenting and making this project even better, or see what the rest of your class has built! Your changes will automatically be saved and shared with your classmates."
-      //    view_gallery: "View Gallery"
-      //    project_published_noty: "Your level has been published!"
-      //    keep_editing: "Keep Editing"
+      share_this_project: '[AI_TRANSLATION]和朋友或家人分享這個專案：',
+      ready_to_share: '[AI_TRANSLATION]準備好發布你的項目了嗎？',
+      click_publish: '[AI_TRANSLATION]點擊 "發佈" 讓它出現在班級畫廊中，然後看看你的同學們創建了什麼！你可以回來繼續這個專案的工作。任何進一步的變更會自動儲存並與你的同學分享。',
+      already_published_prefix: '[AI_TRANSLATION]你的變更已發布到班級畫廊。',
+      already_published_suffix: '[AI_TRANSLATION]持續實驗並使這個專案變得更好，或者看看全班做了什麼！你的改動會自動保存並與你的同學分享。',
+      view_gallery: '[AI_TRANSLATION]檢視畫廊',
+      project_published_noty: '[AI_TRANSLATION]你的關卡已經發布了！\n',
+      keep_editing: '[AI_TRANSLATION]繼續編輯',
       learn_new_concepts: '學習新概念',
       watch_a_video: '觀看一條有關 __concept_name__ 的影片',
       concept_unlocked: '概念已解鎖',
-      //    use_at_least_one_concept: "Use at least one concept: "
-      //    command_bank: "Code Bank"
+      use_at_least_one_concept: '[AI_TRANSLATION]使用至少一個概念：',
+      command_bank: '[AI_TRANSLATION]代碼銀行  ',
       learning_goals: '學習目標',
       start: '開始',
-      //    vega_character: "Vega Character"
-      //    capella_character: "Capella Character"
-      //    octans_character: "Octans Character"
+      vega_character: '[AI_TRANSLATION]Vega 角色',
+      capella_character: '[AI_TRANSLATION]Capella 角色',
+      octans_character: '[AI_TRANSLATION]Octans 角色\n',
       click_to_continue: '點擊繼續',
-      //    fill_in_solution: "Fill in solution"
-      //    toggle_solution: "Toggle solution"
+      fill_in_solution: '[AI_TRANSLATION]填寫解答',
+      toggle_solution: '[AI_TRANSLATION]切換解答',
       play_as_humans: '加入紅隊',
       play_as_ogres: '加入藍隊',
-      //    changed: "Last edited "
+      changed: '[AI_TRANSLATION]最後編輯時間',
       team_humans: '紅隊',
       team_ogres: '藍隊',
       watch_game: '觀戰',
+      //    block_go: "go",
+      //    block_up: "up",
+      //    block_down: "down",
+      //    block_left: "left",
+      //    block_right: "right",
       share_your_project: '分享你的Project',
-      //    keep_editing_your_project: "You can always keep editing your project, even after sharing it."
+      keep_editing_your_project: '[AI_TRANSLATION]即使在共享後，你也可以隨時繼續編輯你的專案。',
       copy_url: '複製連結',
       level_status: '狀態',
       level_status_locked: '已鎖定',
       level_status_in_progress: '進行中',
-      //    level_status_skipped: "Skipped"
+      level_status_skipped: '[AI_TRANSLATION]已跳過',
       level_status_complete: '已完成',
-      //    level_status_unlocked: "Unlocked"
-      //    level_status_optional: "Optional"
+      level_status_unlocked: '[AI_TRANSLATION]已解鎖',
+      level_status_optional: '[AI_TRANSLATION]可選',
       level_type_practice: '練習',
       level_type_challenge: '挑戰',
+      level_type_level: '[AI_TRANSLATION]關卡',
       level_type_cutscene: '過場',
-      //    level_type_capstone: "Capstone"
+      level_type_capstone: '[AI_TRANSLATION]壁爐石',
       level_type_intro: '教學',
       level_type_practice_level: '練習關卡',
       level_type_challenge_level: '挑戰關卡',
       level_type_cutscene_level: '過場關卡',
-      //    level_type_capstone_level: "Capstone Level"
-      //    level_type_capstone_project: "Capstone Project"
+      level_type_capstone_level: '[AI_TRANSLATION]壁爐石關卡',
+      level_type_capstone_project: '[AI_TRANSLATION]壁爐石項目',
       level_type_intro_level: '教學關卡',
-      //    content_type_avatar: "Avatar Selection"
+      content_type_avatar: '[AI_TRANSLATION]頭像選擇',
       content_type_cinematic: '動畫',
-      content_type_interactive: '概念驗證'
+      content_type_interactive: '概念驗證',
+      content_type_arena: '[AI_TRANSLATION]競技場',
+      feedback: '[AI_TRANSLATION]意見反饋',
+      ask_teacher_for_help: '[AI_TRANSLATION]向你的老師尋求幫助',
+      ask_teacher_for_help_offline: '[AI_TRANSLATION]你的老師目前不在線',
+      not_enough_credits_bot: '[AI_TRANSLATION]噢！看起來你的查詢次數不夠。現在訂閱，獲取你需要的 AI 支持查詢次數！',
+      not_enough_credits_interval: '[AI_TRANSLATION]__interval__ 內沒有剩餘點數。已經消耗 __amount__ 點點數。\n',
+      not_enough_credits_interval_multiple: '[AI_TRANSLATION]__duration__ __interval__ 內沒有剩餘點數。已經消耗 __amount__ 點點數。\n',
+      create_account_to_get_credits: '[AI_TRANSLATION]建立帳號以獲取免費AI支持的積分！',
+      ask_teacher_for_credits: '[AI_TRANSLATION]向你的老師要一個 AI Hackstack 許可',
+      get_credits: '[AI_TRANSLATION]獲取學分',
+      get_ai_hs_license: '[AI_TRANSLATION]獲取 AI Hackstack 許可證',
+      //    use: "Use",
+      learn_to_use: '[AI_TRANSLATION]學習如何使用',
+      //    navigate_to_previous_page: "Navigate to the previous page",
+      //    navigate_to_next_page: "Navigate to the next page",
     },
-    //    feedback: "Feedback"
-    //    ask_teacher_for_help: "Ask your teacher for help"
-    //    ask_teacher_for_help_offline: "Your Teacher is currently offline"
-    //    not_enough_credits_bot: "Opps! Looks like you don’t have enough queries. Subscribe now and get the queries you want for the AI powered support you need!"
-    //    not_enough_credits_interval: "No credits left for the __interval__. Consumed __amount__ credits."
 
     apis: {
       methods: '方法',
       events: '事件',
-      //    handlers: "Handlers"
-      //    properties: "Properties"
-      //    snippets: "Snippets"
-      //    spawnable: "Spawnable"
-      //    html: "HTML"
+      handlers: '[AI_TRANSLATION]處理程序',
+      //    properties: "Properties",
+      snippets: '[AI_TRANSLATION]代碼片段',
+      spawnable: '[AI_TRANSLATION]可生成',
+      html: '[AI_TRANSLATION]HTML',
       math: '數學',
       array: '數組',
       object: '對象',
@@ -1154,57 +1224,61 @@ module.exports = {
       function: '函數',
       vector: '向量',
       date: '日期',
-      //    jquery: "jQuery"
-      //    json: "JSON"
-      number: '數字'
+      jquery: '[AI_TRANSLATION]jQuery',
+      json: '[AI_TRANSLATION]JSON\n',
+      number: '數字',
+      webjavascript: '[AI_TRANSLATION]JavaScript  ',
     },
-    //    webjavascript: "JavaScript"
 
-    //  amazon_hoc:
-    //    title: "Keep Learning with Amazon!"
-    //    congrats: "Congratulations on conquering that challenging Hour of Code!"
-    //    educate_1: "Now, keep learning about coding and cloud computing with AWS Educate, an exciting, free program from Amazon for both students and teachers. With AWS Educate, you can earn cool badges as you learn about the basics of the cloud and cutting-edge technologies such as gaming, virtual reality, and Alexa."
-    //    educate_2: "Learn more and sign up here"
-    //    future_eng_1: "You can also try to build your own school facts skill for Alexa"
-    //    future_eng_2: "here"
-    //    future_eng_3: "(device is not required). This Alexa activity is brought to you by the"
-    //    future_eng_4: "Amazon Future Engineer"
-    //    future_eng_5: "program which creates learning and work opportunities for all K-12 students in the United States who wish to pursue computer science."
+    amazon_hoc: {
+      title: '[AI_TRANSLATION]跟著亞馬遜繼續學習！',
+      congrats: '[AI_TRANSLATION]恭喜你征服了挑戰性的 Hour of Code！',
+      educate_1: '[AI_TRANSLATION]現在，繼續通過 AWS Educate 學習編程和雲計算，這是一個由 Amazon 為學生和老師提供的免費且有趣的計劃。有了 AWS Educate，你可以在學習雲端基礎和前沿技術（如遊戲、虛擬現實和 Alexa）時獲得酷炫的徽章。\n',
+      educate_2: '[AI_TRANSLATION]點這裡了解更多並報名',
+      future_eng_1: '[AI_TRANSLATION]你也可以嘗試為 Alexa 構建你自己的學校知識技能',
+      future_eng_2: '[AI_TRANSLATION]在這裡',
+      future_eng_3: '[AI_TRANSLATION](设备不是必需)。此 Alexa 活动由以下机构提供:',
+      future_eng_4: '[AI_TRANSLATION]亞馬遜未來工程師  ',
+      future_eng_5: '[AI_TRANSLATION]為美國所有願意學習電腦科學的K-12學生創造學習和工作機會的項目。  ',
+    },
 
-    //  live_class:
-    //    title: "Thank you!"
-    //    content: "Amazing! We just launched live online classes."
-    //    link: "Ready to get ahead on your coding?"
+    live_class: {
+      title: '[AI_TRANSLATION]謝謝你！  ',
+      content: '[AI_TRANSLATION]太棒了！我們剛剛推出了線上直播課程。  ',
+      link: '[AI_TRANSLATION]準備好在編碼上更進一步了嗎？',
+    },
 
-    //  code_quest:
-    //    great: "Great!"
-    //    join_paragraph: "Join the largest international Python AI coding tournament for all ages and compete for the top of the leaderboard! This month-long global battle starts August 1st and includes $5k worth of prizes and a virtual awards ceremony where we'll announce winners and recognize your coding skills."
-    //    link: "Click here to register and learn more"
-    //    global_tournament: "Global Tournament"
-    //    register: "Register"
-    //    date: "Aug 1 - Aug 31"
+    code_quest: {
+      great: '[AI_TRANSLATION]太棒了！  ',
+      join_paragraph: '[AI_TRANSLATION]加入最大型的國際 Python AI 編程錦標賽，無論年齡都可以參加，爭奪排行榜首位！這場為期一個月的全球戰鬥從 8 月 1 日開始，獎品總值 $5k，還有一次虛擬頒獎典禮，我們會在那裡宣布獲獎者並傳揚你的編程技能。\n',
+      link: '[AI_TRANSLATION]點擊此處註冊並了解更多',
+      global_tournament: '[AI_TRANSLATION]全球比賽',
+      register: '[AI_TRANSLATION]註冊',
+      date: '[AI_TRANSLATION]8月1日-8月31日',
+    },
 
     play_game_dev_level: {
       created_by: '由{{name}}創建',
-      //    created_during_hoc: "Created during Hour of Code"
+      created_during_hoc: '[AI_TRANSLATION]在編碼一小時期間創建',
       restart: '重置關卡',
       play: '開始玩關卡',
       play_more_codecombat: '玩更多的CodeCombat',
       learn_about_ozaria: 'Learn About Ozaria',
       default_student_instructions: '利用點擊來控制英雄，贏得遊戲！',
-      goal_survive: '生存.'
+      goal_survive: '生存.',
+      goal_survive_time: '[AI_TRANSLATION]生存 __seconds__ 秒。',
+      goal_defeat: '[AI_TRANSLATION]打敗所有敵人。',
+      goal_defeat_amount: '[AI_TRANSLATION]打敗 __amount__ 敵人。',
+      goal_move: '[AI_TRANSLATION]移動到所有紅色 X 標記。',
+      goal_collect: '[AI_TRANSLATION]收集所有物品。',
+      goal_collect_amount: '[AI_TRANSLATION]收集 __amount__ 個物品。',
     },
-    //    goal_survive_time: "Survive for __seconds__ seconds."
-    //    goal_defeat: "Defeat all enemies."
-    //    goal_defeat_amount: "Defeat __amount__ enemies."
-    //    goal_move: "Move to all the red X marks."
-    //    goal_collect: "Collect all the items."
-    //    goal_collect_amount: "Collect __amount__ items."
 
     game_menu: {
       inventory_tab: '道具欄',
       save_load_tab: '儲存/載入',
       options_tab: '選項',
+      my_code_tab: '[AI_TRANSLATION]我的程式碼  ',
       guide_tab: '導引',
       guide_video_tutorial: '影片教學',
       guide_tips: '提示',
@@ -1212,10 +1286,13 @@ module.exports = {
       auth_tab: '註冊',
       inventory_caption: '裝備您的英雄',
       choose_hero_caption: '選擇英雄，語言',
+      change_langugae_caption: '[AI_TRANSLATION]選擇語言',
+      change_language_tab: '[AI_TRANSLATION]語言',
       options_caption: '設置設定',
+      my_code_caption: '[AI_TRANSLATION]快速代碼操作',
       guide_caption: '文件與小提示',
       multiplayer_caption: '跟朋友一起玩！',
-      auth_caption: '儲存進度'
+      auth_caption: '儲存進度',
     },
 
     leaderboard: {
@@ -1231,11 +1308,11 @@ module.exports = {
       damage_dealt: '造成的傷害',
       difficulty: '困難度',
       gold_collected: '收集的黃金',
-      survival_time: '生存'
+      survival_time: '生存',
+      defeated: '[AI_TRANSLATION]擊敗的敵人',
+      code_length: '[AI_TRANSLATION]代碼行數',
+      score_display: '[AI_TRANSLATION]__scoreType__：__score__',
     },
-    //    defeated: "Enemies Defeated"
-    //    code_length: "Lines of Code"
-    //    score_display: "__scoreType__: __score__"
 
     inventory: {
       equipped_item: '已裝備',
@@ -1250,7 +1327,7 @@ module.exports = {
       unequip: '脫下',
       warrior_only: '僅限戰士裝備',
       ranger_only: '僅限遊騎兵裝備',
-      wizard_only: '僅限巫師裝備'
+      wizard_only: '僅限巫師裝備',
     },
 
     buy_gems: {
@@ -1267,27 +1344,27 @@ module.exports = {
       price: 'x{{gems}} / 月',
       buy_premium: '購買Premium',
       purchase: '購買',
-      purchased: '已購買'
+      purchased: '已購買',
     },
 
     subscribe_for_gems: {
       prompt_title: '沒有足夠的寶石!',
-      prompt_body: '訂閱Premium以取得更多寶石並存取更多關卡!'
+      prompt_body: '訂閱Premium以取得更多寶石並存取更多關卡!',
     },
 
     earn_gems: {
       prompt_title: '沒有足夠的寶石',
-      prompt_body: '繼續遊戲以學到更多!'
+      prompt_body: '繼續遊戲以學到更多!',
     },
 
     subscribe: {
       best_deal: '最佳優惠!',
       confirmation: '恭喜！您已獲得CodeCombat Premium訂閱!',
       premium_already_subscribed: '您已經訂閱了Premium!',
-      //    subscribe_modal_title: "CodeCombat Premium"
-      comparison_blurb: '訂閱 CodeCombat 來磨練您的技巧！', // {change}
+      subscribe_modal_title: '[AI_TRANSLATION]CodeCombat 高級版',
+      comparison_blurb: '訂閱 CodeCombat 來磨練您的技巧！',
       must_be_logged: '您需要先登入。請先註冊或者在上方的目錄中點擊登入。',
-      subscribe_title: '訂閱', // Actually used in subscribe buttons, too
+      subscribe_title: '訂閱',
       unsubscribe: '取消訂閱',
       confirm_unsubscribe: '確認訂閱',
       never_mind: '沒關係，我們依然喜歡您',
@@ -1301,7 +1378,7 @@ module.exports = {
       buy_now: '現在購買',
       subscription_required_to_play: '您將需要訂閱來開啟這關。',
       unlock_help_videos: '訂閱後才可以解鎖教學影片喔！。',
-      personal_sub: '個人訂閱', // Accounts Subscription View below
+      personal_sub: '個人訂閱',
       loading_info: '正在加載訂閱內容…',
       managed_by: '管理',
       will_be_cancelled: '將被取消',
@@ -1312,112 +1389,121 @@ module.exports = {
       managed_subs: '管理訂閱',
       subscribing: '訂閱中…',
       current_recipients: '當前收件人',
-      unsubscribing: '取消訂閱中…', // {change}
+      unsubscribing: '取消訂閱中…',
       subscribe_prepaid: '點擊訂閱來使用預付代碼',
       using_prepaid: '使用預付費代碼進行每月訂閱',
-      feature_level_access: '存取多達500+個關卡'
+      //    subscribe_to_premium: "Subscribe to Premium",
+      feature_level_access: '存取多達600+個關卡',
+      feature_heroes: '[AI_TRANSLATION]解鎖專屬英雄和寵物',
+      feature_learn: '[AI_TRANSLATION]學習製作遊戲和網站\n',
+      feature_languages: '[AI_TRANSLATION]獲取所有支持的語言',
+      //    feature_aiyouth: "",
+      feature_gems: '[AI_TRANSLATION]每月賺取 __gems__ 顆寶石 (__gems12__ 顆寶石/年)',
+      //    feature_all_products: "4-in-1: CodeCombat Home, CodeCombat Junior, CodeCombat Worlds on Roblox, and CodeCombat AI HackStack",
+      //    feature_products: "Access CodeCombat Junior, CodeCombat & AI HackStack",
+      month_price: '[AI_TRANSLATION]$__price__/月',
+      month_price_without_currency: '[AI_TRANSLATION]__price__/月',
+      first_month_price: '[AI_TRANSLATION]只要 $__price__，享受第一個月！',
+      lifetime: '[AI_TRANSLATION]終身訪問',
+      lifetime_price: '[AI_TRANSLATION]$__price__',
+      //    year_subscription: "Annual Subscription",
+      year_price: '[AI_TRANSLATION]$__price__/年',
+      year_price_without_currency: '[AI_TRANSLATION]__price__/年',
+      support_part1: '[AI_TRANSLATION]需要付款幫助或更喜歡 PayPal？電郵  ',
+      support_part2: '[AI_TRANSLATION]support@codecombat.com  ',
+      go_prepaid: '[AI_TRANSLATION]掃描代碼並購買後點擊此處',
+      forever: '[AI_TRANSLATION]永遠',
+      subscription_status: '[AI_TRANSLATION]你的訂閱狀態',
+      currently_not_free: '[AI_TRANSLATION]你還沒有訂閱。\n',
+      online_classes: '[AI_TRANSLATION]在線課程',
+      feature_ai_level_bot: '[AI_TRANSLATION]使用 AI 驅動支持加速學習',
+      sure_buy_as_parent: '[AI_TRANSLATION]你確定要為自己而非你的孩子申請高級帳戶嗎？',
     },
-    //    feature_heroes: "Unlock exclusive heroes and pets"
-    //    feature_learn: "Learn to make games and websites"
-    //    feature_languages: "Get all supported languages"
-    //    feature_aiyouth: ""
-    //    feature_gems: "Earn __gems__ gems/mo (__gems12__ gems/yr)"
-    //    month_price: "$__price__/mo"
-    //    month_price_without_currency: "__price__/mo"
-    //    first_month_price: "Only $__price__ for your first month!"
-    //    lifetime: "Lifetime Access"
-    //    lifetime_price: "$__price__"
-    //    year_subscription: "Annual Subscription"
-    //    year_price: "$__price__/yr"
-    //    year_price_without_currency: "__price__/yr"
-    //    support_part1: "Need help with payment or prefer PayPal? Email"
-    //    support_part2: "support@codecombat.com"
-    //    go_prepaid: "Click here after scaning the code and purchasing"
-    //    forever: "Forever"
-    //    subscription_status: "Your Subscription Status"
-    //    currently_not_free: "You don't have a Subscription yet."
-    //    online_classes: "Online Classes"
-    //    feature_ai_level_bot: "Get AI powered debugging support"
 
-    //  announcement:
-    //    now_available: "Now available for subscribers!"
-    //    subscriber: "subscriber"
-    //    cuddly_companions: "Cuddly Companions!" # Pet Announcement Modal
-    //    kindling_name: "Kindling Elemental"
-    //    kindling_description: "Kindling Elementals just want to keep you warm at night. And during the day. All the time, really."
-    //    griffin_name: "Baby Griffin"
-    //    griffin_description: "Griffins are half eagle, half lion, all adorable."
-    //    raven_name: "Raven"
-    //    raven_description: "Ravens are excellent at gathering shiny bottles full of health for you."
-    //    mimic_name: "Mimic"
-    //    mimic_description: "Mimics can pick up coins for you. Move them on top of coins to increase your gold supply."
-    //    cougar_name: "Cougar"
-    //    cougar_description: "Cougars like to earn a PhD by Purring Happily Daily."
-    //    fox_name: "Blue Fox"
-    //    fox_description: "Blue foxes are very clever and love digging in the dirt and snow!"
-    //    pugicorn_name: "Pugicorn"
-    //    pugicorn_description: "Pugicorns are some of the rarest creatures and can cast spells!"
-    //    wolf_name: "Wolf Pup"
-    //    wolf_description: "Wolf pups excel in hunting, gathering, and playing a mean game of hide-and-seek!"
-    //    ball_name: "Red Squeaky Ball"
-    //    ball_description: "ball.squeak()"
-    //    collect_pets: "Collect pets for your heroes!"
-    //    each_pet: "Each pet has a unique helper ability!"
-    //    upgrade_to_premium: "Become a {{subscriber}} to equip pets."
-    //    play_second_kithmaze: "Play {{the_second_kithmaze}} to unlock the Wolf Pup!"
-    //    the_second_kithmaze: "The Second Kithmaze"
-    //    keep_playing: "Keep playing to discover the first pet!"
-    //    coming_soon: "Coming soon"
-    //    ritic: "Ritic the Cold" # Ritic Announcement Modal
-    //    ritic_description: "Ritic the Cold. Trapped in Kelvintaph Glacier for countless ages, finally free and ready to tend to the ogres that imprisoned him."
-    //    ice_block: "A block of ice"
-    //    ice_description: "There appears to be something trapped inside..."
-    //    blink_name: "Blink"
-    //    blink_description: "Ritic disappears and reappears in a blink of an eye, leaving nothing but a shadow."
-    //    shadowStep_name: "Shadowstep"
-    //    shadowStep_description: "A master assassin knows how to walk between the shadows."
-    //    tornado_name: "Tornado"
-    //    tornado_description: "It is good to have a reset button when one's cover is blown."
-    //    wallOfDarkness_name: "Wall of Darkness"
-    //    wallOfDarkness_description: "Hide behind a wall of shadows to prevent the gaze of prying eyes."
-    //    notifications: "Notifications"
-    //    x_announcement: "__x__ Notification"
-    //    x_announcements: "__x__ Notifications"
-    //    x_announcement_with_unread: "__x__ Notification (__y__ unread)"
-    //    x_announcements_with_unread: "__x__ Notifications (__y__ unread)"
-    //    see_more: "See __unread__ more unread Notifications"
-    //    mark_read: "Mark Read"
-    //    read_all: "Read All"
-    //    more_announcements: "more notifications..."
+    announcement: {
+      now_available: '[AI_TRANSLATION]現在對訂閱用戶開放！  ',
+      subscriber: '[AI_TRANSLATION]訂閱者  ',
+      cuddly_companions: '[AI_TRANSLATION]可愛的小伙伴！',
+      //    kindling_name: "Kindling Elemental",
+      kindling_description: '[AI_TRANSLATION]幼焰元素只想在晚上保持你溫暖。而且在白天也是。其實一直都是。',
+      //    griffin_name: "Baby Griffin",
+      griffin_description: '[AI_TRANSLATION]狮鹫是半鷹半獅，全然可愛',
+      //    raven_name: "Raven",
+      raven_description: '[AI_TRANSLATION]烏鴉非常擅長為你收集裝滿健康物品的閃亮瓶子。',
+      //    mimic_name: "Mimic",
+      mimic_description: '[AI_TRANSLATION]模仿可以幫你撿起硬幣。把它們移到硬幣上增加你的金幣。',
+      //    cougar_name: "Cougar",
+      cougar_description: '[AI_TRANSLATION]美洲獅喜歡每日用快樂的呼嚕聲來獲得博士學位。',
+      //    fox_name: "Blue Fox",
+      fox_description: '[AI_TRANSLATION]藍狐狸非常聰明，喜歡在泥土和雪中挖掘！',
+      //    pugicorn_name: "Pugicorn",
+      pugicorn_description: '[AI_TRANSLATION]帕吉獨角獸是最稀有的生物之一，可以施放魔法！',
+      //    wolf_name: "Wolf Pup",
+      wolf_description: '[AI_TRANSLATION]小狼在狩獵、收集和捉迷藏遊戲中表現出色！\n',
+      ball_name: '[AI_TRANSLATION]紅色吱吱球',
+      ball_description: '[AI_TRANSLATION]ball.squeak()',
+      collect_pets: '[AI_TRANSLATION]為你的英雄收集寵物！',
+      each_pet: '[AI_TRANSLATION]每隻寵物都有獨特的輔助能力！',
+      upgrade_to_premium: '[AI_TRANSLATION]成為 {{subscriber}} 可以裝備寵物。',
+      play_second_kithmaze: '[AI_TRANSLATION]玩{{the_second_kithmaze}}來解鎖小狼崽！',
+      //    the_second_kithmaze: "The Second Kithmaze",
+      keep_playing: '[AI_TRANSLATION]繼續玩下去來發現第一隻寵物！',
+      coming_soon: '[AI_TRANSLATION]即將推出',
+      //    ritic: "Ritic the Cold",
+      ritic_description: '[AI_TRANSLATION]冷酷的 Ritic，被困在 Kelvintaph 冰川無數年，終於自由，準備對付困住他的食人魔。',
+      ice_block: '[AI_TRANSLATION]一塊冰',
+      ice_description: '[AI_TRANSLATION]看起來裡面好像有東西被困住了...\n',
+      blink_name: '[AI_TRANSLATION]閃爍',
+      blink_description: '[AI_TRANSLATION]Ritic 以閃電般的速度消失又出現，只留下陰影。',
+      shadowStep_name: '[AI_TRANSLATION]Shadowstep',
+      shadowStep_description: '[AI_TRANSLATION]一個精通暗殺的高手懂得如何在陰影之間行走。',
+      tornado_name: '[AI_TRANSLATION]龍捲風   ',
+      tornado_description: '[AI_TRANSLATION]當身份暴露時，有一個重置按鈕是很好的。  ',
+      wallOfDarkness_name: '[AI_TRANSLATION]黑暗之牆',
+      wallOfDarkness_description: '[AI_TRANSLATION]躲在陰影的牆後面，防止別人的窺視。',
+      notifications: '[AI_TRANSLATION]通知  ',
+      x_announcement: '[AI_TRANSLATION]__x__ 通知',
+      x_announcements: '[AI_TRANSLATION]__x__ 通知',
+      x_announcement_with_unread: '[AI_TRANSLATION]__x__ 通知（__y__ 未讀）',
+      x_announcements_with_unread: '[AI_TRANSLATION]__x__ 通知（__y__ 未讀）',
+      see_more: '[AI_TRANSLATION]查看 __unread__ 更多未讀通知',
+      mark_read: '[AI_TRANSLATION]標記為已讀',
+      read_all: '[AI_TRANSLATION]閱讀全部',
+      more_announcements: '[AI_TRANSLATION]更多通知...',
+    },
 
-    //  avatar_selection:
-    //    pick_an_avatar: "Pick an avatar that will represent you as a player"
-    //    select_avatar_title: "Choose Player Avatar"
+    avatar_selection: {
+      pick_an_avatar: '[AI_TRANSLATION]選擇一個代表你的頭像',
+      select_avatar_title: '[AI_TRANSLATION]選擇角色頭像',
+    },
 
-    //  premium_features:
-    //    get_premium: "Get<br>CodeCombat<br>Premium" # Fit into the banner on the /features page
-    //    master_coder: "Become a Master Coder by subscribing today!"
-    //    paypal_redirect: "You will be redirected to PayPal to complete the subscription process."
-    //    subscribe_now: "Subscribe Now"
-    //    hero_blurb_1: "Get access to __premiumHeroesCount__ super-charged subscriber-only heroes! Harness the unstoppable power of Okar Stompfoot, the deadly precision of Naria of the Leaf, or summon \"adorable\" skeletons with Nalfar Cryptor."
-    //    hero_blurb_2: "Premium Warriors unlock stunning martial skills like Warcry, Stomp, and Hurl Enemy. Or, play as a Ranger, using stealth and bows, throwing knives, traps! Try your skill as a true coding Wizard, and unleash a powerful array of Primordial, Necromantic or Elemental magic!"
-    //    hero_caption: "Exciting new heroes!"
-    //    pet_blurb_1: "Pets aren't just adorable companions, they also provide unique functionality and methods. The Baby Griffin can carry units through the air, the Wolf Pup plays catch with enemy arrows, the Cougar is fond of chasing ogres around, and the Mimic attracts coins like a magnet!"
-    //    pet_blurb_2: "Collect all the pets to discover their unique abilities!"
-    //    pet_caption: "Adopt pets to accompany your hero!"
-    //    game_dev_blurb: "Learn game scripting and build new levels to share with your friends! Place the items you want, write code for unit logic and behavior, and see if your friends can beat the level!"
-    //    game_dev_caption: "Design your own games to challenge your friends!"
-    //    everything_in_premium: "Everything you get in CodeCombat Premium:"
-    //    list_gems: "Receive bonus gems to buy gear, pets, and heroes"
-    //    list_levels: "Gain access to __premiumLevelsCount__ more levels"
-    //    list_heroes: "Unlock exclusive heroes, include Ranger and Wizard classes"
-    //    list_game_dev: "Make and share games with friends"
-    //    list_web_dev: "Build websites and interactive apps"
-    //    list_items: "Equip Premium-only items like pets"
-    //    list_support: "Get Premium support to help you debug tricky code"
-    //    list_clans: "Create private clans to invite your friends and compete on a group leaderboard"
-    //    ai_bot_learning: "AI Powered support to accelerate your learning!"
-    //    ai_bot_description: "Meet DebugBot AI, CodeCombat’s AI powered assistant. This powerful helper can evaluate your code, point out errors, explain how to fix them, and provide all the context you need to understand the “why”. It’s instant support when you need it most."
+    premium_features: {
+      get_premium: '[AI_TRANSLATION]獲取<br>CodeCombat<br>高級版',
+      master_coder: '[AI_TRANSLATION]訂閱今天成為編碼大師！',
+      paypal_redirect: '[AI_TRANSLATION]你將被重定向到PayPal來完成訂閱流程。',
+      subscribe_now: '[AI_TRANSLATION]立即訂閱',
+      hero_blurb_1: '[AI_TRANSLATION]獲取 __premiumHeroesCount__ 名超強的訂閱專屬英雄！掌握奧卡·斯托姆福特無可阻擋的力量，享有娜莉亞·葉的致命精準，或召喚「可愛」的納法爾骸骨。',
+      hero_blurb_2: '[AI_TRANSLATION]高級戰士會解鎖令人驚嘆的武技，比如戰吼、震撼和投擲敵人。或者，扮演一位遊俠，使用隱身和弓箭、飛刀、陷阱！嘗試成為真正的編碼巫師，並釋放強大的原始、死靈或元素魔法！',
+      hero_caption: '[AI_TRANSLATION]激動人心的新英雄！',
+      pet_blurb_1: '[AI_TRANSLATION]寵物不僅是可愛的夥伴，牠們也提供獨特的功能和方法。小獅鷲可以攜帶單位飛行，小狼崽會接住敵人的箭，獼猴喜歡追逐食人魔，仿生獸像磁鐵一樣吸引硬幣！',
+      pet_blurb_2: '[AI_TRANSLATION]收集所有寵物以發現它們的獨特能力！',
+      pet_caption: '[AI_TRANSLATION]收養寵物來陪伴你的英雄！',
+      game_dev_blurb: '[AI_TRANSLATION]學習遊戲腳本設計並建立新的關卡和朋友們分享！放置你想要的物品，編寫單位邏輯和行為的代碼，看看你的朋友們是否能夠通關！',
+      game_dev_caption: '[AI_TRANSLATION]設計你自己的遊戲挑戰朋友！',
+      everything_in_premium: '[AI_TRANSLATION]你在 CodeCombat Premium 中得到的一切：',
+      list_gems: '[AI_TRANSLATION]接受額外的寶石來購買裝備、寵物和英雄',
+      list_levels: '[AI_TRANSLATION]獲得訪問 __premiumLevelsCount__ 更多關卡',
+      list_heroes: '[AI_TRANSLATION]解鎖專屬英雄，包括遊俠和巫師類別',
+      list_game_dev: '[AI_TRANSLATION]與朋友一起製作並分享遊戲',
+      list_web_dev: '[AI_TRANSLATION]建立網站和互動應用',
+      list_items: '[AI_TRANSLATION]裝備專屬高級物品，如寵物',
+      list_support: '[AI_TRANSLATION]獲取高級支援以幫助您調試棘手的代碼',
+      list_clans: '[AI_TRANSLATION]建立私人部落來邀請你的朋友並在小組排行榜上競爭',
+      ai_bot_learning: '[AI_TRANSLATION]AI 支援加速學習成果！',
+      ai_bot_description: '[AI_TRANSLATION]CodeCombat 的 AI 驅動提示功能可以評估代碼，指出錯誤並解釋如何修復。最重要的是，它提供了理解原因所需的所有上下文信息，而不會提供整個解決方案。由於僅提供當前代碼問題的幫助，年輕學習者仍需通過每一級的編碼挑戰。高級訂閱者每天可獲得 <b>10 個 AI 提示</b> 以確保他們始終得到所需的支持。\n',
+      list_ai_bot: '[AI_TRANSLATION]高級訂閱者每天可獲得10次AI提示分配',
+      ai_bot_notice: '[AI_TRANSLATION]* AI 提示的费率可能会改变。',
+    },
 
     choose_hero: {
       choose_hero: '選擇您的英雄',
@@ -1431,18 +1517,28 @@ module.exports = {
       lua_blurb: '許多遊戲引擎支援的程式語言。',
       java_blurb: '(訂閱者限定)Android和企業',
       cpp_blurb: '(訂閱者限定) 遊戲開發與高效能計算',
+      code_format: '[AI_TRANSLATION]程式碼格式',
+      text_code: '[AI_TRANSLATION]文字代碼',
+      blocks_and_code: '[AI_TRANSLATION]塊和代碼',
+      blocks_text: '[AI_TRANSLATION]塊狀',
+      blocks_icons: '[AI_TRANSLATION]塊狀（圖標）',
+      //    blocks_icons_helptext: "Junior only",
+      text_code_blurb: '[AI_TRANSLATION]在真正的代碼編輯器中輸入基於文本的代碼',
+      blocks_and_code_blurb: '[AI_TRANSLATION]块和文本代碼並排',
+      blocks_text_blurb: '[AI_TRANSLATION]拖放模塊適合平板電腦或低年齡學員',
+      blocks_icons_blurb: '[AI_TRANSLATION]基於圖示方塊的手機或學前用戶',
       status: '狀態',
       weapons: '武器',
       weapons_warrior: '刀劍 - 短距離、非魔法',
       weapons_ranger: '十字弓、槍砲 - 長距離、非魔法',
       weapons_wizard: '魔杖、法杖 - 長距離、魔法',
-      attack: '傷害', // Can also translate as "Attack"
+      attack: '傷害',
       health: '血量',
       speed: '速度',
       regeneration: '恢復',
-      range: '距離', // As in "attack or visual range"
-      blocks: '格擋', // As in "this shield blocks this much damage"
-      backstab: '背刺', // As in "this dagger does this much backstab damage"
+      range: '距離',
+      blocks: '格擋',
+      backstab: '背刺',
       skills: '技能',
       attack_1: '造成',
       attack_2: '例表',
@@ -1452,9 +1548,13 @@ module.exports = {
       health_3: '裝備血量。',
       speed_1: '移動速度',
       speed_2: 'm/s。',
-      available_for_purchase: '可以購買', // Shows up when you have unlocked, but not purchased, a hero in the hero store
-      level_to_unlock: '解鎖關卡：', // Label for which level you have to beat to unlock a particular hero (click a locked hero in the store to see)
-      restricted_to_certain_heroes: '特定英雄才可遊玩此關卡。'
+      available_for_purchase: '可以購買',
+      level_to_unlock: '解鎖關卡：',
+      restricted_to_certain_heroes: '特定英雄才可遊玩此關卡。',
+      code_format_not_supported: '[AI_TRANSLATION]不支援  ',
+      code_format_disable_by_teacher: '[AI_TRANSLATION]老師已停用',
+      code_language_subscriber_only: '[AI_TRANSLATION]僅限訂閱者',
+      code_language_not_support_by_blocks: '[AI_TRANSLATION]不支援方塊  ',
     },
 
     char_customization_modal: {
@@ -1462,18 +1562,18 @@ module.exports = {
       body: '身體',
       name_label: '英雄的名字',
       hair_label: '頭髮顏色',
-      skin_label: '皮膚顏色'
+      skin_label: '皮膚顏色',
     },
 
     skill_docs: {
-      function: '功能', // skill types
+      function: '功能',
       method: '方法',
       snippet: '片段',
       number: '數字',
       array: '陣列',
       object: '物件',
       string: '字串',
-      writable: '可編輯', // Hover over "attack" in Your Skills while playing a level to see most of this
+      writable: '可編輯',
       read_only: '唯讀',
       action: '命令',
       spell: '法術',
@@ -1485,25 +1585,25 @@ module.exports = {
       action_radius: '範圍',
       action_duration: '持續',
       example: '範例',
-      ex: 'ex', // Abbreviation of "example"
+      ex: 'ex',
       current_value: '現在數值',
       default_value: '預設數值',
       parameters: '參數',
       required_parameters: '需要的參數',
       optional_parameters: '選擇性參數',
       returns: '回傳',
-      granted_by: '賦予'
+      granted_by: '賦予',
+      still_undocumented: '[AI_TRANSLATION]仍未記錄，抱歉。',
+      description_coming_soon: '[AI_TRANSLATION]詳情即將發布',
     },
-    //    still_undocumented: "Still undocumented, sorry."
-    //    description_coming_soon: "Description coming soon"
 
     save_load: {
       granularity_saved_games: '已儲存',
-      granularity_change_history: '歷史紀錄'
+      granularity_change_history: '歷史紀錄',
     },
 
     options: {
-      general_options: '一般設定', // Check out the Options tab in the Game Menu while playing a level
+      general_options: '一般設定',
       volume_label: '音量',
       music_label: '音樂',
       music_description: '開關背景音樂。',
@@ -1517,15 +1617,17 @@ module.exports = {
       editor_config_indentguides_description: '顯示縮排行數以便閱讀。',
       editor_config_behaviors_label: '智慧校正',
       editor_config_behaviors_description: '自動填入小括號、大括號以及引號。',
+      editor_config_wide_editor_label: '[AI_TRANSLATION]啟用寬編輯器',
+      editor_config_wide_editor_description: '[AI_TRANSLATION]增加編輯器的寬度，像以前的樣式',
       editor_config_screen_reader_mode_label: '啟用螢幕閱讀模式',
       editor_config_screen_reader_mode_label_disable: '停用螢幕閱讀模式',
-      //    editor_config_screen_reader_mode_description: "Display levels in text rather than visually."
-      editor_config_livecompletion_disabled_by_teacher: '你的老師已停用自動完成'
+      editor_config_screen_reader_mode_description: '[AI_TRANSLATION]以文本而非視覺方式顯示等級',
+      editor_config_livecompletion_disabled_by_teacher: '你的老師已停用自動完成',
     },
 
     about: {
       title: '關於 CodeCombat - Engaging Students, Empowering Teachers, Inspiring Creation',
-      //    meta_description: "Our mission is to level computer science through game-based learning and make coding accessible to every learner. We believe programming is magic and want learners to be empowered to to create things from pure imagination."
+      meta_description: '[AI_TRANSLATION]我們的使命是通過基於遊戲的學習平衡計算機科學，並使編程對每個學習者都易於獲得。我們相信編程是魔法，希望學習者能夠被賦予能力，從純粹的想像中創造事物。\n',
       learn_more: '學習更多',
       main_title: '如果您想要學編程，您需要寫(一大堆)程式碼。',
       main_description: '在CodeCombat中，我們的職責是確保您笑著玩遊戲。',
@@ -1539,16 +1641,16 @@ module.exports = {
       team_title: '認識CodeCombat團隊。',
       team_values: '我們重視開放且互相尊重的對話，好的想法才會勝出。我們的抉擇建立於客戶調查上，且過程注重於將具體的結果交給客戶。從我們的CEO到我們的Github貢獻者，每一個人都會動手參與，因為我們傾向在團隊中學習成長。',
       nick_title: '共同創辦人，CEO',
-      //    csr_title: "Customer Success Representative"
-      //    csm_title: "Customer Success Manager"
-      //    scsm_title: "Senior Customer Success Manager"
+      csr_title: '[AI_TRANSLATION]客戶成功代表',
+      csm_title: '[AI_TRANSLATION]客戶成功經理',
+      scsm_title: '[AI_TRANSLATION]資深客戶成功經理',
       ae_title: '業務經理',
       sae_title: '資深業務經理',
       sgd_title: '資深遊戲開發工程師',
-      //    gd_title: "Game Developer"
-      //    dois_title: "Director of Inside Sales"
-      //    ism_title: "Inside Sales Manager"
-      //    sism_title: "Senior Inside Sales Manager"
+      gd_title: '[AI_TRANSLATION]遊戲開發者',
+      dois_title: '[AI_TRANSLATION]內部銷售總監',
+      ism_title: '[AI_TRANSLATION]內部銷售經理',
+      sism_title: '[AI_TRANSLATION]資深內部銷售經理',
       shan_title: 'CodeCombat大中華區行銷長',
       run_title: 'CodeCombat大中華區營運長',
       lance_title: 'CodeCombat大中華區技術長',
@@ -1556,54 +1658,56 @@ module.exports = {
       yuqiang_title: 'CodeCombat大中華區創新長',
       swe_title: '軟體工程師',
       sswe_title: '軟體工程師',
-      //    css_title: "Customer Support Specialist"
-      //    am_cs_title: "Associate Manager, Customer Success"
-      //    css_qa_title: "Customer Support / QA Specialist"
-      //    maya_title: "Senior Curriculum Developer"
-      //    bill_title: "General Manager, CodeCombat Greater China"
-      //    pvd_title: "Product and Visual Designer"
-      //    spvd_title: "Senior Product and Visual Designer"
+      css_title: '[AI_TRANSLATION]客戶支持專員',
+      am_cs_title: '[AI_TRANSLATION]客戶成功部協理經理',
+      css_qa_title: '[AI_TRANSLATION]客戶支持/QA 專員',
+      maya_title: '[AI_TRANSLATION]資深課程開發者',
+      bill_title: '[AI_TRANSLATION]CodeCombat 大中華區總經理',
+      pvd_title: '[AI_TRANSLATION]產品與視覺設計師',
+      spvd_title: '[AI_TRANSLATION]資深產品和視覺設計師',
       daniela_title: '行銷經理',
-      //    mm_title: "Marketing Manager"
+      //    mm_title: "Marketing Manager",
       bobby_title: '資深遊戲設計師',
       brian_title: '資深遊戲設計經理',
-      //    stephanie_title: "Customer Support Specialist"
-      //    sdr_title: "Sales Development Representative"
-      //    bd_pr_title: "Business Development and Partnerships Representative"
+      stephanie_title: '[AI_TRANSLATION]客戶支持專員',
+      sdr_title: '[AI_TRANSLATION]銷售發展代表',
+      bd_pr_title: '[AI_TRANSLATION]業務發展與合作代表  ',
       retrostyle_title: '插畫師',
       retrostyle_blurb: '復古風格的遊戲',
       community_title: '...以及我們的開放原始碼社群',
-      //    lgd_title: "Lead Game Designer"
-      //    oa_title: "Operations Associate"
-      //    ac_title: "Administrative Coordinator"
-      //    sac_title: "Senior Administrative Coordinator"
-      //    ea_title: "Executive Assistant"
-      //    om_title: "Operations Manager"
-      //    som_title: "Senior Operations Manager"
-      //    sales_om_title: "Sales Operations Manager"
-      //    pe_title: "Principal Engineer"
-      //    mo_title: "Manager, Operations"
-      //    smo_title: "Senior Manager, Operations"
-      //    do_title: "Director of Operations"
-      //    vp_o_title: "VP, Operations"
-      //    scd_title: "Senior Curriculum Developer"
-      //    lcd_title: "Lead Curriculum Developer"
-      //    cd_title: "Curriculum Developer"
-      //    sem_title: "Senior Education Manager"
-      //    de_title: "Director of Education"
-      //    vpm_title: "VP, Marketing"
-      //    vps_title: "VP, Sales"
-      //    oi_title: "Online Instructor"
-      //    m_oi_title: "Manager, Online Instruction"
-      //    aoim_title: "Associate Online Instructor Manager"
-      //    bdm_title: "Business Development Manager"
-      community_subtitle: '超過 500 位貢獻者協助建立 CodeCombat , 而且每週持續增加中！', // {change}
+      lgd_title: '[AI_TRANSLATION]首席遊戲設計師',
+      oa_title: '[AI_TRANSLATION]營運助理',
+      ac_title: '[AI_TRANSLATION]行政協調員',
+      sac_title: '[AI_TRANSLATION]資深行政協調員',
+      oss_title: '[AI_TRANSLATION]營運支持專員',
+      ea_title: '[AI_TRANSLATION]執行助理',
+      om_title: '[AI_TRANSLATION]營運經理',
+      som_title: '[AI_TRANSLATION]資深運營經理',
+      sales_om_title: '[AI_TRANSLATION]銷售運營經理',
+      pe_title: '[AI_TRANSLATION]高級工程師',
+      mo_title: '[AI_TRANSLATION]營運經理',
+      smo_title: '[AI_TRANSLATION]資深運營經理',
+      do_title: '[AI_TRANSLATION]運營總監',
+      vp_o_title: '[AI_TRANSLATION]營運副總',
+      scd_title: '[AI_TRANSLATION]資深課程開發者',
+      lcd_title: '[AI_TRANSLATION]首席課程開發者',
+      cd_title: '[AI_TRANSLATION]課程開發者',
+      sem_title: '[AI_TRANSLATION]資深教育經理',
+      de_title: '[AI_TRANSLATION]教育總監',
+      vpm_title: '[AI_TRANSLATION]市場行銷副總',
+      vps_title: '[AI_TRANSLATION]銷售副總',
+      vpsm_title: '[AI_TRANSLATION]銷售及市場行銷副總',
+      oi_title: '[AI_TRANSLATION]在線講師',
+      m_oi_title: '[AI_TRANSLATION]在線教學經理',
+      aoim_title: '[AI_TRANSLATION]線上課程主管協理經理',
+      bdm_title: '[AI_TRANSLATION]商務開發經理',
+      community_subtitle: '超過 500 位貢獻者協助建立 CodeCombat , 而且每週持續增加中！',
       community_description_3: 'CodeCombat 是一個',
       community_description_link_2: '社群專案',
       community_description_1: '上百位的志願玩家共同建立關卡，貢獻程式碼讓我們加入更多功能、修正錯誤、試玩關卡，並進一步將遊戲翻譯成超過 50 種語言。如同多數的開源社群一般，所有的員工、貢獻者們及 CodeCombat 都獲益於持續的互相分享靈感和彙整努力。CodeCombat 是建立於無數的開源專案之上，因此我們開源回饋給社群朋友，提供一個友善專案給對於原始碼有興趣的玩家來探索和實驗。任何人都可以加入 CodeCombat 社群！請查看我們的',
       community_description_link: '貢獻者頁',
       community_description_2: '來獲得更多資訊。',
-      number_contributors: '超過 450 位貢獻者奉獻他們的時間來協助本專案。', // {change}
+      number_contributors: '超過 450 位貢獻者奉獻他們的時間來協助本專案。',
       story_title: '我們的故事...',
       story_subtitle: '從 2013 年起，CodeCombat 從簡單的草圖成長為一個有生命且生氣蓬勃的遊戲。',
       story_statistic_1a: '總計超過 20,000,000+ ',
@@ -1620,15 +1724,14 @@ module.exports = {
       jobs_title: '與我們一同工作，來協助撰寫 CodeCombat 的歷史吧！',
       jobs_subtitle: '找不到符合的位置，但有興趣與我們保持連繫？查看『創造自己的工作』清單吧。',
       jobs_benefits: '員工福利',
-      jobs_benefit_4: '無盡假期', // {change}
+      jobs_benefit_4: '無盡假期',
       jobs_benefit_5: '專業的開發與持續的教育援助 – 免費的課本以及遊戲!',
-      jobs_benefit_6: '醫藥、牙科、視力治療', // {change}
+      jobs_benefit_6: '醫藥、牙科、視力治療',
       jobs_benefit_9: '十年的公司期權',
       jobs_benefit_10: '產假:10週給薪以及接下來6週55%的給薪',
-      jobs_benefit_11: '陪產假:10週給薪', // {change}
-      //    jobs_benefit_12: "$50/mo internet & biz services benefit"
-      //    jobs_benefit_13: "$50/mo health and wellness benefit"
-      //    jobs_benefit_14: "100% distributed team"
+      jobs_benefit_11: '陪產假:10週給薪',
+      jobs_benefit_12: '[AI_TRANSLATION]每月 $50 網絡及商業服務福利',
+      jobs_benefit_14: '[AI_TRANSLATION]100% 分散式團隊',
       jobs_custom_title: '創造自己的工作',
       jobs_custom_description: '你對於CodeCombat有熱誠但是找不到一個職位符合您的條件嗎? 聯繫我們並且讓我們知道您如何為我們的團隊貢獻。 我們很希望能聽到您的意見!',
       jobs_custom_contact_1: '寄給我們一個簡介至',
@@ -1645,115 +1748,161 @@ module.exports = {
       character_art: '角色美術作品',
       download_all: '下載全部',
       previous: '上一步',
-      location_title: '我們位於城鎮 SF：'
+      location_title: '我們位於城鎮 SF：',
     },
 
     teachers: {
-      licenses_needed: '授權許可'
+      licenses_needed: '授權許可',
+      google_classroom_disabled_text: '[AI_TRANSLATION]要連結 Google Classroom，請使用 Google SSO 登入',
+      select_class: '[AI_TRANSLATION]選擇班級',
+      programming_language: '[AI_TRANSLATION]編程語言',
+      programming_language_edit_desc: '[AI_TRANSLATION]一旦學生加入課堂後，語言不能再更改。我們建議為同樣的學生創建一個新課堂。',
+      programming_language_edit_desc_new: '[AI_TRANSLATION]如果你更改編程語言，學生在舊語言中的進度將被隱藏，而且他們將需要在新語言中重新開始。我們建議為相同的學生創建一個新的班級。',
+      add_a_class: '[AI_TRANSLATION]新增一個新班級',
+      select_desired_lang: '[AI_TRANSLATION]選擇所需語言',
+      elementary: '[AI_TRANSLATION]小學',
+      middle: '[AI_TRANSLATION]中間',
+      high_school: '[AI_TRANSLATION]高中',
+      class_name: '[AI_TRANSLATION]課堂名稱',
+      grades: '[AI_TRANSLATION]每一級',
+      select_all_that_apply: '[AI_TRANSLATION]全選',
+      class_info_modal_sub_title: '[AI_TRANSLATION]通過發送這個鏈接邀請學生加入你的班級：  ',
+      class_url: '[AI_TRANSLATION]課堂網址',
+      class_url_desc: '[AI_TRANSLATION]分享這個 URL 讓學生註冊後加入你的班級',
+      class_code: '[AI_TRANSLATION]課堂代碼',
+      class_code_desc: '[AI_TRANSLATION]學生在 www.ozaria.com 註冊時可以輸入這個代碼',
+      invite_by_email: '[AI_TRANSLATION]通過電子郵件邀請  ',
+      regenerate_class_code: '[AI_TRANSLATION]重新生成',
+      invite_modal_sub_title: '[AI_TRANSLATION]每行分別輸入一個電郵地址或用逗號分隔',
+      no_new_students_imported: '[AI_TRANSLATION]沒有新學生被導入\n',
+      error_in_importing_classrooms: '[AI_TRANSLATION]導入課堂錯誤',
+      error_in_importing_students: '[AI_TRANSLATION]導入學生錯誤',
+      classroom_items_description: '[AI_TRANSLATION]學生在遊戲過程中是否應該獲得寶石並裝備物品。',
+      classroom_live_completion: '[AI_TRANSLATION]是否啟用這個教室的自動程式碼補全功能。禁用：會關閉所有關卡的自動補全。啟用：讓學生可以選擇。我們建議保持啟用狀態。',
+      code_formats: '[AI_TRANSLATION]程式碼格式 (beta)',
+      code_formats_description: '[AI_TRANSLATION]學生可以選擇哪些程式碼格式。',
+      code_formats_disabled_by: '[AI_TRANSLATION]方塊和程式碼，__language__ 語言不支援方塊   ',
+      code_formats_mobile: '[AI_TRANSLATION]* 使用手機的學生將被設置為基於積木的模式',
+      code_formats_fallback: '[AI_TRANSLATION]* 沒有積木支持的課程中，學生會退回文字模式',
+      code_formats_text: '[AI_TRANSLATION]文字代碼：真實代碼編輯器  ',
+      code_formats_block: '[AI_TRANSLATION]方塊：基於塊的編輯器（限Python, JavaScript）  ',
+      code_formats_block_text: '[AI_TRANSLATION]方塊和代碼：基於塊的編輯器，帶文字代碼（限Python, JavaScript）  ',
+      code_formats_block_icon: '[AI_TRANSLATION]方塊（圖示）：圖示編輯器，無文字 (Junior only)  ',
+      default_code_format: '[AI_TRANSLATION]默認代碼格式',
+      default_code_format_description: '[AI_TRANSLATION]學生將開始使用的程式碼格式。',
+      not_allow_to_solution: '[AI_TRANSLATION]# 需要許可才能查看解答',
+      classroom_level_chat: '[AI_TRANSLATION]AI 等級提示',
+      classroom_level_chat_blurb: '[AI_TRANSLATION]學生是否可以請求AI提示和錯誤解釋。',
+      classroom_level_chat_option_free_form: '[AI_TRANSLATION]自由形式',
+      classroom_level_chat_option_fixed_prompt_only: '[AI_TRANSLATION]僅修正提示',
+      classroom_level_chat_option_none: '[AI_TRANSLATION]沒有聊天內容\n',
+      initial_free_courses: '[AI_TRANSLATION]初始課程  ',
+      free_course_blurb_junior: '[AI_TRANSLATION]CodeCombat Junior 適合 K 到 5 年級的學生，對於還不會閱讀的小孩，可以選擇積木或移動版，上到高年級則有 Python 或 JavaScript的文字程式碼，或用程式塊配合程式碼幫助轉換。  ',
+      'free_course_blurb_introduction-to-computer-science': '[AI_TRANSLATION]CodeCombat 的核心計算機科學課程適合 6 到 12 年級，從對初學者友好的計算機科學入門課程，到 AP 計算機科學原理課程，再到高階計算機科學課程。適合中學和高中的學生從這裡開始。  ',
+      //    free_course_blurb_hackstack: "Learn essential prompt engineering skills in a wide range of subjects using Al HackStack's Learning Scenarios with popular Al models like ChatGPT, Claude, and DALL-E.",
+      start_teaching_ai_today: '[AI_TRANSLATION]今天開始教 AI！',
+      hackstack_beta_release: '[AI_TRANSLATION]HackStack 測試版發佈  ',
+      introducing_ai_hackstack: '[AI_TRANSLATION]推出AI HackStack，一個為初學者設計的生成 AI 教學工具。它提供安全訪問頂級AI模型，如ChatGPT、Claude和DALL-E。',
+      //    our_curriculum_empowers_students: "Our curriculum empowers students to use AI to create websites, games, art, and more. Currently in beta.",
+      test_student_promotion_1: '[AI_TRANSLATION]準備好成為學生的編程小能手了嗎？點擊“以學生身份測試”可以讓你親身投入學習體驗。  ',
+      test_student_promotion_2: '[AI_TRANSLATION]你會創建一個不僅模擬學生旅程而且還保存你的進度的獨特測試帳號——不像我們課程指南中的快速預覽，快速預覽很棒可以一瞥，但不會追蹤你走過的路。  ',
+      test_student_promotion_3: '[AI_TRANSLATION]你的第一個課程是免費的。準備好學更多了嗎？我們會指導你如何增加許可證以繼續學習冒險。',
+      dashboard_update: '[AI_TRANSLATION]儀表板更新  ',
+      dashboard_update_message: '[AI_TRANSLATION]我們正在優化儀表板以便於使用。你可以在左側側邊欄找到課程指南。',
+      switch_to_test_student: '[AI_TRANSLATION]切換到測試學生帳戶中...',
+      import_ozaria_classroom: '[AI_TRANSLATION]匯入Ozaria教室',
+      import_codecombat_classroom: '[AI_TRANSLATION]匯入Codecombat教室',
+      select_ozaria_classroom: '[AI_TRANSLATION]選擇 Ozaria Classroom',
+      select_codecombat_classroom: '[AI_TRANSLATION]選擇 Codecombat Classroom',
+      select_to_import_from_ozaria: '[AI_TRANSLATION]選擇從 Ozaria 導入',
+      select_to_import_from_codecombat: '[AI_TRANSLATION]選擇從 Codecombat 導入',
+      all_classrooms_imported: '[AI_TRANSLATION]所有教室已經匯入',
+      club_type: '[AI_TRANSLATION]俱樂部類型  ',
+      create_students_prompt: '[AI_TRANSLATION]想要建立多少學生？  ',
+      //    initial_free_courses_description: "*Courses can be updated using Assign Content after creating class too.",
+      //    junior_code_format_only: "Blocks (Icons) only available for Junior",
+      //    hackstack_no_code_language_format: "AI HackStack does not need a programming language or code format",
+      //    licenses_activated_success: "Licenses have been Activated Successfully!",
+      //    license_code_used: "License Code used.",
+      //    ai_hs_remix: "AI HackStack Remix",
+      //    ai_hs_remix_blurb: "Whether students can use other student's projects to take inspiration from.",
     },
-    //    google_classroom_disabled_text: "To link Google Classroom, login using Google SSO"
-    //    select_class: "Select class"
-    //    programming_language: "Programming language"
-    //    programming_language_edit_desc: "Language cannot be changed once students join a class. We recommend creating a new class for the same students."
-    //    programming_language_edit_desc_new: "If you change the programming language, your students' progress in the old language will be hidden, and they will have to start over in the new language. We recommend creating a new class for the same students."
-    //    add_a_class: "Add a new class"
-    //    select_desired_lang: "Select desired language for your class"
-    //    elementary: "Elementary"
-    //    middle: "Middle"
-    //    high_school: "High School"
-    //    class_name: "Class Name"
-    //    grades: "Grades"
-    //    select_all_that_apply: "Select all that apply"
-    //    class_info_modal_sub_title: "Invite students to join your class by sending them:"
-    //    class_url: "Class Url"
-    //    class_url_desc: "Share URL to have students join your class after signing up"
-    //    class_code: "Class Code"
-    //    class_code_desc: "Students can enter this code when they sign up at www.ozaria.com"
-    //    invite_by_email: "Invite by Email"
-    //    regenerate_class_code: "Regenerate"
-    //    invite_modal_sub_title: "Separate each email address by a line break or commas"
-    //    no_new_students_imported: "No new students imported"
-    //    error_in_importing_classrooms: "Error in importing classrooms"
-    //    error_in_importing_students: "Error in importing students"
-    //    classroom_items_description: "Whether students should earn gems and equip items during gameplay."
-    //    classroom_live_completion: "Whether to enable coding autocomplete in this classroom. Disabled: turns autocomplete off for all levels. Enabled: allows students to choose. We recommend leaving this enabled."
-    //    not_allow_to_solution: "# Licenses needed to view solutions"
 
-    //  no_licenses_page:
-    //    are_your_students_ready: "Are your students excited and ready to learn more?"
-    //    once_students_have_completed: "Once students have completed Chapter 1, they will need licenses in order to continue their journey through the next chapter and beyond."
-    //    get_licenses: "Get Licenses"
-    //    get_full_access_to_ozaria: "Get Full Access to Ozaria"
-    //    unlock_all: "Unlock all the above plus all the teacher support you need"
-    //    unlock_all_dsa: "Unlock all the above plus all the support teachers need"
-    //    comprehensive_dashboards: "Comprehensive teacher and administrator dashboards"
-    //    lesson_plans_rubrics_guides: "Lesson Plans, Project Rubrics, Solution Guides, and more"
-    //    dedicated_customer_success_manager: "A dedicated customer success manager"
-    //    automatic_access: "Automatic access to new content and features"
-    //    license_quote: "\"In my opinion as a 26 year veteran middle school educator, there is no more engaging resource for teaching coding.\""
-    //    join_our_community: "Join our community"
-    //    join_our_community_desc: "Over 12 million people have learned to write Python and JavaScript using CodeCombat. Now, we welcome you to join our community of over 82,000 educators and 25,000 schools with Ozaria, designed for educators who want to inspire a new generation of students to learn Computer Science."
-    //    teach_real_typed_code: "Teach Real, Typed Code"
-    //    teach_real_typed_code_desc: "Students learn Python and JavaScript, the two most popular coding languages, and build 21st century skills that will prepare them for any career."
-    //    support_student_progress: "Support Student Progress"
-    //    support_student_progress_desc: "Unlock formative and summative assessment data from Concept Checks, Levels, and Capstone Projects to support student progress."
-    //    creative_projects: "Creative Projects"
-    //    creative_projects_desc: "Inspire imagination and unleash student creativity with shareable capstone projects, like in Chapter 2 where students design their own storytelling game. "
-    //    looking_for_engaging: "Looking for engaging computer science curriculum?"
-    //    licenses_are_required: "Licenses are required for students to continue their journey beyond Chapter 1."
-    //    real_world_skills: "Real-World Skills"
-    //    real_world_skills_desc: "Students learn typed Python and JavaScript, the two most popular coding languages, and enhance their critical-thinking skills, creativity, and resilience to prepare them for any career."
-    //    personalized_learning: "Personalized Learning and Scaffolded Instruction"
-    //    personalized_learning_desc: "Students learn concepts at their own pace. Levels increase in difficulty while providing built-in hints to encourage persistence and grit."
-    //    flexible_curriculum: "Flexible Standards- Aligned Curriculum"
-    //    flexible_curriculum_desc: "100% CSTA-aligned curriculum that can easily be adapted to any schedule, scenario, or setting."
-    //    resources_to_support: "Resources to Support Teachers"
-    //    resources_to_support_desc: "Lesson plans, extension activities, curriculum guides, and more instructional resources designed with remote and hybrid settings in mind."
-    //    actionable_insights: "Actionable Insights for Educators"
-    //    actionable_insights_desc: "Empower educators with intuitive student progress and assessment data that makes differentiating instruction possible."
+    no_licenses_page: {
+      are_your_students_ready: '[AI_TRANSLATION]你的學生是否興奮並準備好學習更多了？',
+      once_students_have_completed: '[AI_TRANSLATION]學生們完成第一章後，需要許可證才能繼續他們的旅程進入下一章及以後的內容。\n',
+      get_licenses: '[AI_TRANSLATION]獲取許可證',
+      get_full_access_to_ozaria: '[AI_TRANSLATION]獲取 Ozaria 的完全訪問權限',
+      unlock_all: '[AI_TRANSLATION]解鎖上述所有內容加上教師所需的所有支持',
+      unlock_all_dsa: '[AI_TRANSLATION]解鎖上述所有內容加上教師所需的所有支持',
+      comprehensive_dashboards: '[AI_TRANSLATION]全面的教師和管理員儀表板',
+      lesson_plans_rubrics_guides: '[AI_TRANSLATION]課程計劃、專案評分標準、解答指南等\n',
+      dedicated_customer_success_manager: '[AI_TRANSLATION]專屬客戶成功經理',
+      automatic_access: '[AI_TRANSLATION]自動獲得新內容和功能的訪問權限',
+      license_quote: '[AI_TRANSLATION]"以我作為有26年教學經驗的中學教育者來看，沒有什麼資源比 CodeCombat 更能引起學生對編程的興趣。"',
+      join_our_community: '[AI_TRANSLATION]加入我們的社群\n',
+      join_our_community_desc: '[AI_TRANSLATION]超過 1200 萬人已經通過 CodeCombat 學會了書寫 Python 和 JavaScript。現在，我們歡迎您加入我們擁有超過 8萬2千名教育工作者和 2萬5千所學校的 Ozaria 社區，為那些希望激勵新一代學生學習計算機科學的教育者設計的。',
+      teach_real_typed_code: '[AI_TRANSLATION]教授實際的、鍵入的代碼  ',
+      teach_real_typed_code_desc: '[AI_TRANSLATION]學生學習 Python 和 JavaScript 這兩種最受歡迎的編碼語言，並培養21世紀的技能，為任何職業做好準備。',
+      support_student_progress: '[AI_TRANSLATION]支援學生進步',
+      support_student_progress_desc: '[AI_TRANSLATION]解鎖從概念檢查、關卡和大專案工程中獲得的形成性和總結性評估數據，以支持學生進步。',
+      creative_projects: '[AI_TRANSLATION]創意專案',
+      creative_projects_desc: '[AI_TRANSLATION]激發想像力並釋放學生創意，如在第2章中，學生設計自己的故事遊戲作為分享的重點項目。',
+      looking_for_engaging: '[AI_TRANSLATION]在找有吸引力的計算機科學課程嗎？',
+      licenses_are_required: '[AI_TRANSLATION]學生需要授權才能繼續第一章以外的旅程',
+      //    real_world_skills: "Real-World Skills",
+      real_world_skills_desc: '[AI_TRANSLATION]學生學習打字式的 Python 和 JavaScript 這兩種最受歡迎的編程語言，並提升他們的批判性思維、創造力和韌性，為任何職業做好準備。',
+      personalized_learning: '[AI_TRANSLATION]個性化學習和分層教學',
+      personalized_learning_desc: '[AI_TRANSLATION]學生按照自己的進度學習概念。等級的難度會逐漸增加，同時提供內建提示以鼓勵學生堅持和不放棄。',
+      flexible_curriculum: '[AI_TRANSLATION]靈活的標準對齊課程',
+      flexible_curriculum_desc: '[AI_TRANSLATION]100% 符合 CSTA 標準的課程內容，可輕鬆適應任何時間表、情境或環境。',
+      resources_to_support: '[AI_TRANSLATION]支持老師的資源',
+      resources_to_support_desc: '[AI_TRANSLATION]專為遠程和混合環境設計的課程計劃、擴展活動、課程指南及更多教學資源。\n',
+      actionable_insights: '[AI_TRANSLATION]為教育者提供可操作的見解',
+      actionable_insights_desc: '[AI_TRANSLATION]通過直觀的學生進度和評估數據賦能教育者，使區分教學成為可能',
+    },
 
-    //  special_offer:
-    //    special_offer: "Special Offer"
-    //    project_based_title: "Project-Based Courses"
-    //    project_based_description: "Web and Game Development courses feature shareable final projects."
-    //    great_for_clubs_title: "Great for clubs and electives"
-    //    great_for_clubs_description: "Teachers can purchase up to __maxQuantityStarterLicenses__ Starter Licenses."
-    //    low_price_title: "Just __starterLicensePrice__ per student"
-    //    low_price_description: "Starter Licenses are active for __starterLicenseLengthMonths__ months from purchase."
-    //    three_great_courses: "Three great courses included in the Starter License:"
-    //    license_limit_description: "Teachers can purchase up to __maxQuantityStarterLicenses__ Starter Licenses. You have already purchased __quantityAlreadyPurchased__. If you need more, contact __supportEmail__. Starter Licenses are valid for __starterLicenseLengthMonths__ months."
-    //    student_starter_license: "Student Starter License"
-    //    purchase_starter_licenses: "Purchase Starter Licenses"
-    //    purchase_starter_licenses_to_grant: "Purchase Starter Licenses to grant access to __starterLicenseCourseList__"
-    //    starter_licenses_can_be_used: "Starter Licenses can be used to assign additional courses immediately after purchase."
-    //    pay_now: "Pay Now"
-    //    we_accept_all_major_credit_cards: "We accept all major credit cards."
-    //    cs2_description: "builds on the foundation from Introduction to Computer Science, diving into if-statements, functions, events and more."
-    //    wd1_description: "introduces the basics of HTML and CSS while teaching skills needed for students to build their first webpage."
-    //    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels."
-    //    see_an_example_project: "see an example project"
-    //    get_started_today: "Get started today!"
-    //    want_all_the_courses: "Want all the courses? Request information on our Full Licenses."
-    //    compare_license_types: "Compare License Types:"
-    //    cs: "Computer Science"
-    //    wd: "Web Development"
-    //    wd1: "Web Development 1"
-    //    gd: "Game Development"
-    //    gd1: "Game Development 1"
-    //    maximum_students: "Maximum # of Students"
-    //    unlimited: "Unlimited"
-    //    priority_support: "Priority support"
-    //    yes: "Yes"
-    //    price_per_student: "__price__ per student"
-    //    pricing: "Pricing"
-    //    free: "Free"
-    //    purchase: "Purchase"
-    //    courses_prefix: "Courses"
-    //    courses_suffix: ""
-    //    course_prefix: "Course"
-    //    course_suffix: ""
-    //    licenses_activated_success: "Licenses have been Activated Successfully!"
-    //    license_code_used: "License Code used."
+    special_offer: {
+      special_offer: '[AI_TRANSLATION]特別優惠',
+      project_based_title: '[AI_TRANSLATION]基於專案的課程',
+      project_based_description: '[AI_TRANSLATION]網頁和遊戲開發課程包含可分享的最終項目。\n',
+      great_for_clubs_title: '[AI_TRANSLATION]非常適合俱樂部和選修課',
+      great_for_clubs_description: '[AI_TRANSLATION]教師可以購買最多 __maxQuantityStarterLicenses__ 個入門許可證。  ',
+      low_price_title: '[AI_TRANSLATION]只需 __starterLicensePrice__ 每個學生',
+      low_price_description: '[AI_TRANSLATION]啟動許可證從購買之日起有效期為 __starterLicenseLengthMonths__ 個月。',
+      three_great_courses: '[AI_TRANSLATION]基礎許可證包含三門優質課程：',
+      license_limit_description: '[AI_TRANSLATION]教師可以購買最多 __maxQuantityStarterLicenses__ 個入門許可證。您已經購買了 __quantityAlreadyPurchased__。如需更多，請聯繫 __supportEmail__。入門許可證有效期為 __starterLicenseLengthMonths__ 個月。  ',
+      student_starter_license: '[AI_TRANSLATION]學生起始許可證',
+      purchase_starter_licenses: '[AI_TRANSLATION]購買入門許可證',
+      purchase_starter_licenses_to_grant: '[AI_TRANSLATION]購買入門許可證以授權訪問 __starterLicenseCourseList__',
+      starter_licenses_can_be_used: '[AI_TRANSLATION]啟動許可證可在購買後立即用於分配更多課程。',
+      pay_now: '[AI_TRANSLATION]立即付款',
+      we_accept_all_major_credit_cards: '[AI_TRANSLATION]我們接受所有主要的信用卡。  ',
+      cs2_description: '[AI_TRANSLATION]在《計算機科學入門》的基礎上，深入講解 if 條件語句、函數、事件等',
+      wd1_description: '[AI_TRANSLATION]介紹 HTML 和 CSS 的基礎，教學生建造他們第一個網頁需要的技能。',
+      //    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels.",
+      see_an_example_project: '[AI_TRANSLATION]看看範例專案  ',
+      get_started_today: '[AI_TRANSLATION]今天就開始！',
+      want_all_the_courses: '[AI_TRANSLATION]想要所有的課程？請求我們的全套授權資訊。',
+      compare_license_types: '[AI_TRANSLATION]比較許可類型：',
+      //    cs: "Computer Science",
+      //    wd: "Web Development",
+      wd1: '[AI_TRANSLATION]網頁開發1',
+      //    gd: "Game Development",
+      gd1: '[AI_TRANSLATION]遊戲開發 1',
+      maximum_students: '[AI_TRANSLATION]最多 # 的學生',
+      unlimited: '[AI_TRANSLATION]無限制',
+      priority_support: '[AI_TRANSLATION]優先支援',
+      yes: '[AI_TRANSLATION]是',
+      price_per_student: '[AI_TRANSLATION]每位學生 __price__',
+      pricing: '[AI_TRANSLATION]價格',
+      free: '[AI_TRANSLATION]免費',
+      //    purchase: "Purchase",
+      courses_prefix: '[AI_TRANSLATION]課程   ',
+      //    courses_suffix: "",
+      course_prefix: '[AI_TRANSLATION]課程',
+      //    course_suffix: "",
+    },
 
     teachers_quote: {
       subtitle_coco: '讓您的學生在一個小時內上手。在他們學習計算機科學時您將會<strong>創建一個班級，加入您的學生，並且掌握他們的學習過程。</strong>',
@@ -1776,15 +1925,16 @@ module.exports = {
       evaluate_recommend: '評估/推薦',
       approve_funds: '批准資金',
       no_purchaser_role: '不參與購買決策',
+      teacher_account_details: '[AI_TRANSLATION]教師賬戶詳情  ',
       district_label: '地區',
       district_name: '地區名稱',
       district_na: '若不適用時請輸入 N/A ',
       organization_label: '學校',
       school_name: '學校名稱',
       city: '城市',
-      state: '州', // {change}
+      state: '州',
       country: '國家 / 地區',
-      num_students_help: '您預估將有多少人加入CodeCombat?', // {change}
+      num_students_help: '您預估將有多少人加入CodeCombat?',
       num_students_default: '選擇範圍',
       education_level_label: '學生們的教育程度',
       education_level_help: '選擇將要教導的程度',
@@ -1794,7 +1944,7 @@ module.exports = {
       middle_school: '中學',
       college_plus: '大學以上',
       referrer: '您從哪邊認識我們的?',
-      //    referrer_help: "For example: from another teacher, a conference, your students, Code.org, etc."
+      referrer_help: '[AI_TRANSLATION]例如：來自其他老師、會議、你的學生、Code.org 等等。',
       referrer_default: '請擇一',
       referrer_conference: '研討會 (e.g. ISTE)',
       referrer_hoc: '比賽',
@@ -1802,10 +1952,10 @@ module.exports = {
       referrer_admin: '管理者',
       referrer_student: '學生',
       referrer_pd: '專門的訓練營隊/工作坊',
-      //    referrer_web: "Google"
-      //    referrer_other: "Other"
-      anything_else: '還有甚麼我們需要知道的嗎?', // {change}
-      //    anything_else_helper: ""
+      referrer_web: '[AI_TRANSLATION]Google  ',
+      referrer_other: '[AI_TRANSLATION]其他',
+      anything_else: '還有甚麼我們需要知道的嗎?',
+      //    anything_else_helper: "",
       thanks_header: '已收到申請!',
       thanks_sub_header_coco: '感謝您表達您的學校對於CodeCombat的興趣。',
       thanks_sub_header_ozar: '感謝您表達您的學校對於CodeCombat的興趣。',
@@ -1821,7 +1971,7 @@ module.exports = {
       create_account_subtitle: '取得教師專用工具來在教室中使用CodeCombat<strong>建立一個班級</strong>加入您的學生，並且<strong>掌握他們的學習過程</strong>!',
       convert_account_title: '升級成教師帳號',
       not: '取消',
-      full_name_required: '姓名為必填項目'
+      full_name_required: '姓名為必填項目',
     },
 
     versions: {
@@ -1832,7 +1982,7 @@ module.exports = {
       cla_url: '貢獻者許可協議',
       cla_suffix: '。',
       cla_agree: '我同意',
-      owner_approve: '您所做出的修改必須經擁有者確認才能生效。'
+      owner_approve: '您所做出的修改必須經擁有者確認才能生效。',
     },
 
     contact: {
@@ -1842,16 +1992,18 @@ module.exports = {
       forum_page: '論壇',
       faq_prefix: '這裡還有一個',
       faq: 'FAQ',
-      //    faq_suffix: " for additional assistance."
+      faq_suffix: '[AI_TRANSLATION] 以獲得更多幫助。  ',
+      prefer_email_prefix: '[AI_TRANSLATION]如果你願意，你可以發電子郵件',
+      prefer_email_suffix: '[AI_TRANSLATION] 而不是。  ',
       subscribe_prefix: '如果您需要幫助來解決關卡，請',
       subscribe: '訂閱CodeCombat',
       subscribe_suffix: '我們樂意提供程式碼相關的協助。',
       subscriber_support: '如果您是CodeCombat訂閱者，您的Email將得到我們優先的協助。',
       screenshot_included: '包含螢幕截圖。',
       where_reply: '我們應該回覆到哪裡呢？',
-      send: '意見反饋'
+      send: '意見反饋',
+      ooo_blurb: '[AI_TRANSLATION]CodeCombat 團隊將在6月5日至6月9日不在辦公室，這段期間將只能有限地查看電子郵件。我們會盡快回覆您的問題，請您耐心等待。\n',
     },
-    //    ooo_blurb: "The CodeCombat team will be out of the office from June 5th to June 9th, and during this time will have limited access to emails. We will respond to your inquiry as soon as possible, please be aware of the anticipated wait time."
 
     account_settings: {
       title: '帳號設定',
@@ -1861,22 +2013,24 @@ module.exports = {
       delete_account_tab: '刪除您的帳戶',
       wrong_email: '錯誤的Email',
       wrong_password: '密碼錯誤',
-      //    temp_password_expired: "Your temporary password has been expired."
+      temp_password_expired: '[AI_TRANSLATION]你的臨時密碼已經過期。\n',
       delete_this_account: '永久性的刪除帳戶',
       reset_progress_tab: '重置所有進度',
       reset_your_progress: '清除您的所有進度並重新開始',
-      //    connect_roblox_tab: "Connect Roblox"
-      //    connect_roblox_button: "Connect"
-      //    re_connect_roblox_button: "Connect Another Account"
-      //    disconnect_roblox_button: "Disconnect"
-      //    roblox_connected: "Your account <strong>__username__</strong> is connected to Roblox."
-      //    roblox_not_connected: "Connect your CodeCombat and Roblox accounts."
-      //    roblox_disconnect_confirm: "Are you sure you want to disconnect your Roblox account?"
+      connect_roblox_tab: '[AI_TRANSLATION]連結 Roblox',
+      connect_roblox_button: '[AI_TRANSLATION]連結',
+      re_connect_roblox_button: '[AI_TRANSLATION]連結另一個帳戶',
+      disconnect_roblox_button: '[AI_TRANSLATION]斷線',
+      roblox_connected: '[AI_TRANSLATION]你的帳號 <strong>__username__</strong> 已連結到 Roblox。',
+      //    roblox_connected_other_user: "The student's account is connected to  <strong>__username__</strong> Roblox account.",
+      roblox_not_connected: '[AI_TRANSLATION]連結你的 CodeCombat 和 Roblox 帳戶。',
+      //    roblox_not_connected_other_user: "Connect the student's CodeCombat and Roblox accounts.",
+      roblox_disconnect_confirm: '[AI_TRANSLATION]你確定要斷開與 Roblox 帳戶的連結嗎？',
       god_mode: '上帝模式',
       emails_tab: '郵件',
       admin: '管理員',
       manage_subscription: '點此管理您的訂閱',
-      //    current_password: "Current Password"
+      current_password: '[AI_TRANSLATION]當前密碼',
       new_password: '新密碼',
       new_password_verify: '確認密碼',
       type_in_email: '輸入您的Email或使用者名程來確認帳號刪除',
@@ -1901,7 +2055,9 @@ module.exports = {
       error_saving: '保存時發生錯誤',
       saved: '修改已儲存',
       password_mismatch: '密碼不正確。',
-      password_repeat: '請重複輸入您的密碼。'
+      password_repeat: '請重複輸入您的密碼。',
+      switch_new_teacher_dashboard: '[AI_TRANSLATION]試試新的教師控制面板',
+      view_trial_class_bookings: '[AI_TRANSLATION]查看試用課預訂  ',
     },
 
     keyboard_shortcuts: {
@@ -1923,13 +2079,12 @@ module.exports = {
       toggle_grid: '顯示/關閉網格提示',
       toggle_pathfinding: '顯示/關閉路徑尋找提示',
       beautify: '利用標準格式來美化您的程式碼',
-      maximize_editor: '最大化/最小化程式碼編輯器'
     },
 
     cinematic: {
-      click_anywhere_continue: '點擊任意區域繼續'
+      click_anywhere_continue: '點擊任意區域繼續',
+      instructional_tooltip: '[AI_TRANSLATION]點擊這些箭頭按鈕來前後移動。你也可以使用鍵盤上的箭頭鍵來實現同樣的操作。',
     },
-    //    instructional_tooltip: "Click these arrow buttons to go backwards and forwards. You can also use the arrow keys on your keyboard to do the same."
 
     community: {
       main_title: 'CodeCombat社群',
@@ -1942,18 +2097,18 @@ module.exports = {
       article_editor_suffix: '以及幫助CodeCombat玩家在遊戲中獲得更多知識。',
       find_us: '透過這些網站連繫我們',
       social_github: '在GitHub上查看我們的程式碼',
-      social_blog: '閱讀CodeCombat在Sett上的部落格', // {change}
+      social_blog: '閱讀CodeCombat在Sett上的部落格',
       social_discource: '加入我們在Discourse論壇上的討論',
       social_facebook: '關注CodeCombat的Facebook',
       social_twitter: '關注CodeCombat的Twitter',
       social_slack: '與我們在CodeCombat公共休閒頻道中聊天',
-      contribute_to_the_project: '貢獻這專案'
+      contribute_to_the_project: '貢獻這專案',
     },
 
     clans: {
-    //    title: "Join CodeCombat Clans - Learn to Code in Python, JavaScript, and HTML"
-    //    clan_title: "__clan__ - Join CodeCombat Clans and Learn to Code"
-    //    meta_description: "Join a Clan or build your own community of coders. Play multiplayer arena levels and level up your hero and your coding skills."
+      title: '[AI_TRANSLATION]加入 CodeCombat 部落 - 學習 Python、JavaScript 和 HTML \n',
+      clan_title: '[AI_TRANSLATION]__clan__ - 加入 CodeCombat 家族並學習編碼',
+      meta_description: '[AI_TRANSLATION]加入部落或建立你自己的編程社群。玩多人競技場關卡，提升你的英雄和編程技能。\n',
       clan: '部落',
       clans: '部落',
       new_name: '新部落的名字',
@@ -2010,20 +2165,20 @@ module.exports = {
       track_concepts6b: '按姓名或進度排序成員',
       track_concepts7: '需要邀請',
       track_concepts8: '來加入',
-      private_require_sub: '需要訂閱才可以建立或加入私密部落'
+      private_require_sub: '需要訂閱才可以建立或加入私密部落',
     },
 
     courses: {
       create_new_class: '建立新的班級',
-      //    hoc_blurb1: "Try the"
-      //    hoc_blurb2: "Code, Play, Share"
-      //    hoc_blurb3: "activity! Construct four different minigames to learn the basics of game development, then make your own!"
-      //    solutions_require_licenses: "Level solutions are available for teachers who have licenses."
+      hoc_blurb1: '[AI_TRANSLATION]試試',
+      hoc_blurb2: '[AI_TRANSLATION]編寫、玩樂、分享  ',
+      hoc_blurb3: '[AI_TRANSLATION]活動！構建四種不同的小遊戲來學習遊戲開發的基礎知識，然後創造屬於自己的遊戲！',
+      solutions_require_licenses: '[AI_TRANSLATION]有許可證的老師可以查看關卡解答。',
       unnamed_class: '未命名的班級',
       edit_settings1: '編輯班級設定',
       add_students: '添加學生',
       stats: '統計',
-      //    student_email_invite_blurb: "Your students can also use class code <strong>__classCode__</strong> when creating a Student Account, no email required."
+      student_email_invite_blurb: '[AI_TRANSLATION]你的學生在創建學生帳戶時也可以使用課程代碼 <strong>__classCode__</strong>，無需電郵。\n',
       total_students: '學生人數：',
       average_time: '平均遊戲時間：',
       total_time: '總計遊戲時間：',
@@ -2045,7 +2200,7 @@ module.exports = {
       switch_to: '切換至',
       greetings: '您好!',
       back_classrooms: '回到我的教室',
-      //    back_classroom: "Back to classroom"
+      back_classroom: '[AI_TRANSLATION]返回教室',
       back_courses_coco: '回到我的課程',
       back_courses_ozar: '回到我的課程',
       edit_details: '編輯班級資訊',
@@ -2057,10 +2212,13 @@ module.exports = {
       teacher: '老師',
       arena: '競技場',
       available_levels: '可進入的關卡',
-      //    started: "started"
-      //    complete: "complete"
-      //    practice: "practice"
-      //    required: "required"
+      //    started: "started",
+      //    complete: "complete",
+      practice: '[AI_TRANSLATION]練習',
+      required: '[AI_TRANSLATION]必需的  ',
+      python: '[AI_TRANSLATION]Python (支持代碼塊)',
+      javascript: '[AI_TRANSLATION]JavaScript（支援方塊）\n',
+      java: '[AI_TRANSLATION]Java (beta)\n',
       welcome_to_courses_coco: '冒險者們，歡迎來到課程之中!',
       welcome_to_courses_ozar: '冒險者們，歡迎來到課程之中!',
       ready_to_play: '準備好開始遊玩了嗎?',
@@ -2085,7 +2243,7 @@ module.exports = {
       join: '加入',
       joining: '加入班級中',
       course_complete: '課程完結',
-      //    unit_complete: "Unit Complete"
+      unit_complete: '[AI_TRANSLATION]單元完成',
       play_arena: '進入競技場',
       view_project: '觀看計畫',
       start: '開始',
@@ -2097,20 +2255,20 @@ module.exports = {
       are_you_sure: '您確定要將這個學生從班級中移除嗎?',
       remove_description1: '學生將會失去進入這個教室和分配課程的資格。 但遊戲進度並不會失去，所以可以在重新加入教室的時候繼續進度。',
       remove_description2: '已經啟動的付費註冊碼將不能退費。',
-      //    license_will_revoke: "This student's paid license will be revoked and made available to assign to another student."
+      license_will_revoke: '[AI_TRANSLATION]這個學生的付費許可將被撤銷，並可分配給其他學生使用。',
       keep_student: '保留學生',
       removing_user: '移除使用者中',
-      subtitle: '回顧課程的總覽以及關卡', // Flat style redesign
+      subtitle: '回顧課程的總覽以及關卡',
       changelog: '觀看課程關卡的最後編輯。',
       select_language: '選擇語言',
       select_level: '選擇關卡',
       play_level: '進入關卡',
       concepts_covered: '課目覆蓋',
       view_guide_online: '關卡總覽以及解決方法',
-      //    lesson_slides: "Lesson Slides"
+      lesson_slides: '[AI_TRANSLATION]課程幻燈片\n',
       grants_lifetime_access: '允許取得所有課程。',
       enrollment_credits_available: '可用的註冊碼:',
-      language_select: '選擇一個語言', // ClassroomSettingsModal
+      language_select: '選擇一個語言',
       language_cannot_change: '一旦學生加入班級後將無法更換語言。',
       avg_student_exp_label: '平均學生編程經驗',
       avg_student_exp_desc: '這將會幫助我們了解如何更好的進行課程。',
@@ -2120,21 +2278,23 @@ module.exports = {
       avg_student_exp_intermediate: '中階 - 有些編程經驗',
       avg_student_exp_advanced: '進階 - 較多編程經驗',
       avg_student_exp_varied: '更換編程經驗等級',
-      //    class_type_label: "Class Type"
-      //    class_type_in_school: "In School"
-      //    class_type_after_school: "After School"
-      //    class_type_online: "Online"
-      //    class_type_camp: "Camp"
-      //    class_type_homeschool: "Homeschool"
-      //    class_type_other: "Other"
+      class_type_label: '[AI_TRANSLATION]課堂類型',
+      class_type_in_school: '[AI_TRANSLATION]在學校',
+      class_type_after_school: '[AI_TRANSLATION]放學後',
+      class_type_online: '[AI_TRANSLATION]在線',
+      class_type_camp: '[AI_TRANSLATION]露營',
+      class_type_camp_esports: '[AI_TRANSLATION]露營 (電競)',
+      class_type_camp_junior: '[AI_TRANSLATION]露營 (Roblox)',
+      class_type_homeschool: '[AI_TRANSLATION]自學',
+      class_type_other: '[AI_TRANSLATION]其他',
       student_age_range_label: '學生年齡範圍',
       student_age_range_younger: '小於6歲',
       student_age_range_older: '大於18歲',
       student_age_range_to: '到',
-      //    estimated_class_dates_label: "Estimated Class Dates"
-      //    estimated_class_frequency_label: "Estimated Class Frequency"
-      //    classes_per_week: "classes per week"
-      //    minutes_per_class: "minutes per class"
+      estimated_class_dates_label: '[AI_TRANSLATION]預計上課日期',
+      estimated_class_frequency_label: '[AI_TRANSLATION]預計上課頻率',
+      classes_per_week: '[AI_TRANSLATION]每周課時',
+      minutes_per_class: '[AI_TRANSLATION]每節課的分鐘數',
       create_class: '創建課堂',
       class_name: '班級名稱',
       teacher_account_restricted: '您的帳號是老師帳號，無法取得學生專用內容。',
@@ -2145,35 +2305,35 @@ module.exports = {
       update_account_current_type: '帳號現在類別:',
       update_account_account_email: '帳號 Email/使用者名稱:',
       update_account_am_teacher: '我是一個老師',
-      //    update_account_no_progress: "Let me create classes but save no game progress"
+      update_account_no_progress: '[AI_TRANSLATION]讓我創建班級但不保存遊戲進度\n',
       update_account_teachers_can: '老師帳號可以:',
       update_account_teachers_can1: '建立/管理/加入班級',
       update_account_teachers_can2: '分配/招收 學生進入課程',
       update_account_teachers_can3: '解鎖所有的課程關卡來使用',
       update_account_teachers_can4: '當我們推出時取得新的老師限定功能',
-      //    update_account_teachers_warning_new: "Warning: you will not be able to save your progress on any levels; you will need separate student accounts to do that."
+      update_account_teachers_warning_new: '[AI_TRANSLATION]警告：你將無法在任何關卡保存進度；你需要單獨的學生帳戶來進行這項操作。',
       update_account_remain_teacher: '維持一個老師',
       update_account_update_teacher: '轉換成為老師',
       update_account_am_student: '我是一個學生',
-      //    update_account_no_home: "Let me join classes but not play outside of class"
+      update_account_no_home: '[AI_TRANSLATION]讓我加入班級但不在課外玩\n',
       update_account_students_can: '學生帳號能:',
       update_account_students_can1: '加入班級',
       update_account_students_can2: '以學生身分在不同的課程中遊玩並且追蹤您自己的進度',
       update_account_students_can3: '與同學們在競技場中競爭',
       update_account_students_can4: '當我們推出時取得新的學生限定功能',
-      //    update_account_students_warning_new: "Warning: you will only be able to play the levels your teacher has assigned."
-      //    unsubscribe_warning: "Warning: You will be unsubscribed from your monthly subscription."
+      update_account_students_warning_new: '[AI_TRANSLATION]警告：你只能玩老師指定的關卡。',
+      unsubscribe_warning: '[AI_TRANSLATION]警告：你將取消訂閱每月訂閱方案。',
       update_account_remain_student: '維持一個學生',
       update_account_update_student: '轉換成為學生',
-      //    update_account_am_individual: "I am a individual"
-      //    update_account_no_classes: "Let me play independently but not join classes"
-      //    update_account_individuals_can: "Individual accounts can:"
-      //    update_account_individuals_can1: "Earn gems, experience, items, and heroes"
-      //    update_account_individuals_can2: "Play through the game as an individual and track your own progress"
-      //    update_account_individuals_can3: "Compete against the world in arenas"
-      //    update_account_individuals_can4: "Access new individual-only features as we release them"
-      //    update_account_individuals_warning_ozaria: "Warning: individual accounts cannot play Ozaria, only CodeCombat."
-      //    update_account_remain_individual: "Remain an Individual"
+      update_account_am_individual: '[AI_TRANSLATION]我是一個個人',
+      update_account_no_classes: '[AI_TRANSLATION]讓我獨立遊玩但不加入班級\n',
+      update_account_individuals_can: '[AI_TRANSLATION]個人賬號可以：',
+      update_account_individuals_can1: '[AI_TRANSLATION]獲得寶石、經驗、物品和英雄',
+      update_account_individuals_can2: '[AI_TRANSLATION]作為個人遊玩並追蹤自己的進度',
+      update_account_individuals_can3: '[AI_TRANSLATION]在競技場中與世界對抗',
+      update_account_individuals_can4: '[AI_TRANSLATION]訪問我們發布的新個人專屬功能',
+      update_account_individuals_warning_ozaria: '[AI_TRANSLATION]警告：個人帳戶不能玩 Ozaria，只能玩 CodeCombat。',
+      update_account_remain_individual: '[AI_TRANSLATION]保持個人身份',
       need_a_class_code: '您將需要一個班級代碼以進入已加入的班級:',
       update_account_not_sure: '還沒確定要選擇哪一個嗎? Email',
       update_account_confirm_update_student: '您確定想要轉換您的帳號成為學生體驗嗎?',
@@ -2191,103 +2351,110 @@ module.exports = {
       select_your_hero_description: '您隨時可以在課程頁面中點擊"更換英雄"來更換您的英雄',
       select_this_hero: '選擇這個英雄',
       current_hero: '現在使用英雄:',
-      //    current_hero_female: "Current Hero:"
+      //    current_hero_female: "Current Hero:",
       web_dev_language_transition: '在這個課程中所有的班級都使用 HTML / JavaScript。 已經使用Python的班級將會從額外的JavaScript介紹關卡開始以銜接內容。 已經使用JavaScript的班級將會跳過介紹關卡。',
       course_membership_required_to_play: '您需要加入一個課程來遊玩此關卡。',
       license_required_to_play_coco: '詢問您的老師來分派一個授權碼給您，這樣您就可以繼續遊玩CodeCombat!',
-      license_required_to_play_ozar: '詢問您的老師來分派一個授權碼給您，這樣您就可以繼續遊玩CodeCombat!'
+      license_required_to_play_ozar: '詢問您的老師來分派一個授權碼給您，這樣您就可以繼續遊玩CodeCombat!',
+      level_locked: '[AI_TRANSLATION]此關卡已鎖定。\n',
+      update_old_classroom: '[AI_TRANSLATION]新學年，新關卡！',
+      update_old_classroom_detail: '[AI_TRANSLATION]為了確保你獲得最新的關卡，請透過按一下"Create a New Class"來為這個學期建立一個新的班級',
+      teacher_dashboard: '[AI_TRANSLATION]老師儀表板  ',
+      update_old_classroom_detail_2: '[AI_TRANSLATION]並給學生新的課堂代碼',
+      view_assessments: '[AI_TRANSLATION]檢視評估',
+      //    view_challenges: "view challenge levels",
+      challenge: '[AI_TRANSLATION]挑戰：',
+      challenge_level: '[AI_TRANSLATION]挑戰等級：',
+      status: '[AI_TRANSLATION]狀態:',
+      assessments: '[AI_TRANSLATION]評估項目',
+      challenges: '[AI_TRANSLATION]挑戰',
+      level_name: '[AI_TRANSLATION]關卡名稱：',
+      keep_trying: '[AI_TRANSLATION]繼續嘗試',
+      start_challenge: '[AI_TRANSLATION]開始挑戰',
+      //    locked: "Locked",
+      concepts_used: '[AI_TRANSLATION]使用的概念：',
+      show_change_log: '[AI_TRANSLATION]顯示這課程關卡的更動',
+      hide_change_log: '[AI_TRANSLATION]隱藏本課程等級的變更',
+      concept_videos: '[AI_TRANSLATION]概念影片',
+      concept: '[AI_TRANSLATION]概念：',
+      //    basic_syntax: "Basic Syntax",
+      while_loops: '[AI_TRANSLATION]While循環',
+      //    variables: "Variables",
+      basic_syntax_desc: '[AI_TRANSLATION]語法就是我們如何編寫程式碼。就像拼寫和語法在寫作故事和文章中很重要一樣，語法在編寫程式碼時也很重要。人類擅長理解即便不是完全正確的東西，但電腦就沒有那麼聰明，它們需要你非常準確地編寫。',
+      while_loops_desc: '[AI_TRANSLATION]迴圈是一種在程式中重複動作的方法。你可以使用它們來避免重寫重複性的代碼，並且當你不確定需要執行多少次動作來完成任務時，它們非常有用。',
+      //    variables_desc: "Working with variables is like organizing things in shoeboxes. You give the shoebox a name, like \"School Supplies\", and then you put things inside. The exact contents of the box might change over time, but whatever's inside will always be called \"School Supplies\". In programming, variables are symbols used to store data that will change over the course of the program. Variables can hold a variety of data types, including numbers and strings.",
+      locked_videos_desc: '[AI_TRANSLATION]繼續玩遊戲來解鎖 __concept_name__ 概念影片。',
+      unlocked_videos_desc: '[AI_TRANSLATION]回顧 __concept_name__ 概念視頻。',
+      video_shown_before: '[AI_TRANSLATION]在 __level__ 之前顯示',
+      link_google_classroom: '[AI_TRANSLATION]連結 Google Classroom',
+      select_your_classroom: '[AI_TRANSLATION]選擇你的教室',
+      no_classrooms_found: '[AI_TRANSLATION]沒有找到課堂\n',
+      create_classroom_manually: '[AI_TRANSLATION]手動建立教室',
+      //    classes: "Classes",
+      certificate_btn_print: '[AI_TRANSLATION]列印',
+      certificate_btn_toggle: '[AI_TRANSLATION]切換',
+      error_in_creating_data: '[AI_TRANSLATION]創建入門級別數據錯誤！',
+      ask_next_course: '[AI_TRANSLATION]想玩更多嗎？請向你的老師申請訪問下一門課程。',
+      set_start_locked_level: '[AI_TRANSLATION]鎖定級別開始於',
+      no_level_limit: '[AI_TRANSLATION]-- (沒有鎖定的關卡)',
+      ask_teacher_to_unlock: '[AI_TRANSLATION]請老師解鎖',
+      ask_teacher_to_unlock_instructions: '[AI_TRANSLATION]要玩下一個關卡，請問你的老師在他們的課程進度螢幕解鎖。',
+      play_next_level: '[AI_TRANSLATION]下一關',
+      play_tournament: '[AI_TRANSLATION]比賽',
+      levels_completed: '[AI_TRANSLATION]已完成的關卡: __count__',
+      ai_league_team_rankings: '[AI_TRANSLATION]AI 聯盟 團隊排名',
+      view_standings: '[AI_TRANSLATION]檢視排名',
+      view_winners: '[AI_TRANSLATION]檢視獲勝者',
+      classroom_announcement: '[AI_TRANSLATION]教室公告',
+      link_lms_classroom: '[AI_TRANSLATION]連結 LMS Classroom',
+      classroom_items: '[AI_TRANSLATION]物品和寶石',
+      classroom_live_completion: '[AI_TRANSLATION]教室代碼自動完成功能',
+      learn_without_classroom_title: '[AI_TRANSLATION]沒有教室你也能繼續學習和玩耍。\n',
+      learn_without_classroom_blurb: "[AI_TRANSLATION]開始玩免費的天山篇章，<a href='/play/chapter-1-sky-mountain'>點擊這裡</a>。",
+      learn_without_classroom_blurb_coco: "[AI_TRANSLATION]開始玩免費的一小時編程活動，<a href='/play/intro'>點擊這裡</a>。",
+      all_courses_completed: '[AI_TRANSLATION]所有課程都完成了！  ',
+      all_units_completed: '[AI_TRANSLATION]所有單元都完成了！  ',
+      hide_options: '[AI_TRANSLATION]隱藏選項',
+      more_options: '[AI_TRANSLATION]更多選項',
+      get_test_license: '[AI_TRANSLATION]拿到測試學生許可證  ',
+      create_students: '[AI_TRANSLATION]生成學生  ',
+      //    custom_tournaments: "Custom Tournaments",
     },
-    //    update_old_classroom: "New school year, new levels!"
-    //    update_old_classroom_detail: "To make sure you're getting the most up-to-date levels, make sure you create a new class for this semester by clicking Create a New Class on your"
-    //    teacher_dashboard: "teacher dashboard"
-    //    update_old_classroom_detail_2: "and giving students the new Class Code that appears."
-    //    view_assessments: "View Assessments"
-    //    view_challenges: "view challenge levels"
-    //    challenge: "Challenge:"
-    //    challenge_level: "Challenge Level:"
-    //    status: "Status:"
-    //    assessments: "Assessments"
-    //    challenges: "Challenges"
-    //    level_name: "Level Name:"
-    //    keep_trying: "Keep Trying"
-    //    start_challenge: "Start Challenge"
-    //    locked: "Locked"
-    //    concepts_used: "Concepts Used:"
-    //    show_change_log: "Show changes to this course's levels"
-    //    hide_change_log: "Hide changes to this course's levels"
-    //    concept_videos: "Concept Videos"
-    //    concept: "Concept:"
-    //    basic_syntax: "Basic Syntax"
-    //    while_loops: "While Loops"
-    //    variables: "Variables"
-    //    basic_syntax_desc: "Syntax is how we write code. Just as spelling and grammar are important in writing narratives and essays, syntax is important when writing code. Humans are good at figuring out what something means, even if it isn't exactly correct, but computers aren't that smart, and they need you to write very precisely."
-    //    while_loops_desc: "A loop is a way of repeating actions in a program. You can use them so you don't have to keep writing repetitive code, and when you don't know exactly how many times an action will need to occur to accomplish a task."
-    //    variables_desc: "Working with variables is like organizing things in shoeboxes. You give the shoebox a name, like \"School Supplies\", and then you put things inside. The exact contents of the box might change over time, but whatever's inside will always be called \"School Supplies\". In programming, variables are symbols used to store data that will change over the course of the program. Variables can hold a variety of data types, including numbers and strings."
-    //    locked_videos_desc: "Keep playing the game to unlock the __concept_name__ concept video."
-    //    unlocked_videos_desc: "Review the __concept_name__ concept video."
-    //    video_shown_before: "shown before __level__"
-    //    link_google_classroom: "Link Google Classroom"
-    //    select_your_classroom: "Select Your Classroom"
-    //    no_classrooms_found: "No classrooms found"
-    //    create_classroom_manually: "Create classroom manually"
-    //    classes: "Classes"
-    //    certificate_btn_print: "Print"
-    //    certificate_btn_toggle: "Toggle"
-    //    error_in_creating_data: "Error in creating data for intro level!"
-    //    ask_next_course: "Want to play more? Ask your teacher for access to the next course."
-    //    set_start_locked_level: "Lock levels starting at"
-    //    no_level_limit: "-- (no levels locked)"
-    //    ask_teacher_to_unlock: "Ask Teacher To Unlock"
-    //    ask_teacher_to_unlock_instructions: "To play the next level, ask your teacher to unlock it on their Course Progress screen"
-    //    play_next_level: "Play Next Level"
-    //    play_tournament: "Play Tournament"
-    //    levels_completed: "Levels Completed: __count__"
-    //    ai_league_team_rankings: "AI League Team Rankings"
-    //    view_standings: "View Standings"
-    //    view_winners: "View Winners"
-    //    classroom_announcement: "Classroom Announcement"
-    //    link_lms_classroom: "Link LMS Classroom"
-    //    classroom_items: "Items & Gems"
-    //    classroom_live_completion: "Classroom Code Autocomplete: "
-    //    learn_without_classroom_title: "You can still learn and play without a classroom"
-    //    learn_without_classroom_blurb: "Start by playing the free Sky Mountain chapter by <a href='/play/chapter-1-sky-mountain'>clicking here</a>."
-    //    learn_without_classroom_blurb_coco: "Start by playing the free Hour of Code campaign by <a href='/play/intro'>clicking here</a>."
-    //    all_courses_completed: "All Courses Completed!"
-    //    all_units_completed: "All Units Completed!"
 
-    //  project_gallery:
-    //    no_projects_published: "Be the first to publish a project in this course!"
-    //    view_project: "View Project"
-    //    edit_project: "Edit Project"
+    project_gallery: {
+      no_projects_published: '[AI_TRANSLATION]成為第一個在本課程中發布項目的人！',
+      //    view_project: "View Project",
+      edit_project: '[AI_TRANSLATION]編輯專案',
+    },
 
     teacher: {
       assigning_course: '派發課程中',
       back_to_top: '回到頂部',
-      //    click_student_code: "Click on any level that the student has started or completed below to view the code they wrote."
-      //    code: "__name__'s Code"
-      //    complete_solution: "Complete Solution"
-      //    course_not_started: "Student has not started this course yet."
-      //    hoc_happy_ed_week: "Happy Computer Science Education Week!"
-      //    hoc_blurb1: "Learn about the free"
-      //    hoc_blurb2: "Code, Play, Share"
-      //    hoc_blurb3: "activity, download a new teacher lesson plan, and tell your students to log in to play!"
-      //    hoc_button_text: "View Activity"
-      //    no_code_yet: "Student has not written any code for this level yet."
-      //    open_ended_level: "Open-Ended Level"
-      //    partial_solution: "Partial Solution"
-      //    capstone_solution: "Capstone Solution"
-      //    removing_course: "Removing course"
-      //    solution_arena_blurb: "Students are encouraged to solve arena levels creatively. The solution provided below meets the requirements of the arena level."
-      //    solution_challenge_blurb: "Students are encouraged to solve open-ended challenge levels creatively. One possible solution is displayed below."
-      //    solution_project_blurb: "Students are encouraged to build a creative project in this level. Please refer to curriculum guides in the Teacher Toolkit for information on how to evaluate these projects."
-      //    feedback_capstone: "The student will create a base project in Part 1. They will make creative updates based on peer feedback in Part 2. Here is a <a target=\"_blank\" rel=\"noopener\" href=\"https://docs.google.com/document/d/1itB0vY6WphjINQYJ9NHkILATcLLlYD3GDSg6FJg55OQ\">Peer Feedback Template</a> that you can share with your students."
-      //    students_code_blurb: "A correct solution to each level is provided where appropriate. In some cases, it’s possible for a student to solve a level using different code. Solutions are not shown for levels the student has not started."
+      click_student_code: '[AI_TRANSLATION]點擊任何已開始或完成的關卡來查看學生編寫的代碼。',
+      code: '[AI_TRANSLATION]__name__ 的程式碼',
+      complete_solution: '[AI_TRANSLATION]完整解決方案',
+      course_not_started: '[AI_TRANSLATION]學生尚未開始這門課程。',
+      hoc_happy_ed_week: '[AI_TRANSLATION]快樂的計算機科學教育周！',
+      hoc_blurb1: '[AI_TRANSLATION]了解免費',
+      hoc_blurb2: '[AI_TRANSLATION]編寫、玩樂、分享  ',
+      hoc_blurb3: '[AI_TRANSLATION]活動、下載新的教師課程計劃，告訴你的學生登錄玩遊戲！',
+      hoc_button_text: '[AI_TRANSLATION]檢視活動',
+      no_code_yet: '[AI_TRANSLATION]學生還沒寫這一級別的任何代碼。',
+      open_ended_level: '[AI_TRANSLATION]開放式關卡',
+      partial_solution: '[AI_TRANSLATION]部分解決方案',
+      capstone_solution: '[AI_TRANSLATION]壁爐石解決方案',
+      removing_course: '[AI_TRANSLATION]正在移除課程',
+      solution_arena_blurb: '[AI_TRANSLATION]鼓勵學生創意地解決競技場級別的問題。下面提供的解決方案符合競技場級別的要求。',
+      solution_challenge_blurb: '[AI_TRANSLATION]鼓勵學生創意地解決開放式挑戰級別的問題。下面顯示了一種可能的解決方案。',
+      solution_project_blurb: '[AI_TRANSLATION]鼓勵學生在這一級別中創作創意專案。請參閱教師工具包中的課程指南以了解評估這些項目的信息。',
+      feedback_capstone: '[AI_TRANSLATION]學生會在第一部分創建一個基礎項目。他們會在第二部分根據同儕反饋進行創新更新。這是一個 <a target="_blank" rel="noopener" href="https://docs.google.com/document/d/1itB0vY6WphjINQYJ9NHkILATcLLlYD3GDSg6FJg55OQ">同儕反饋模板</a>，你可以與學生共享。\n',
+      students_code_blurb: '[AI_TRANSLATION]每個關卡的正確解決方案會在適當的情況下提供。有時，學生可能使用不同的代碼來解決關卡。對於學生尚未開始的關卡，不會顯示解決方案。',
       course_solution: '課程解答',
       level_overview_solutions: '關卡總覽及解答',
       no_student_assigned: '還沒有任何學生被分到這個課程中。',
       paren_new: '(新的)',
-      //    student_code: "__name__'s Student Code"
-      teacher_dashboard: '老師的管理台', // Navbar
+      student_code: '[AI_TRANSLATION]__name__ 的學生程式碼',
+      teacher_dashboard: '老師的管理台',
       my_classes: '我的班級',
       courses_coco: '課程引導',
       courses_ozar: '課程引導',
@@ -2303,10 +2470,10 @@ module.exports = {
       teacher_account_explanation: '一個CodeCombat老師帳號讓您可以設立教室，當學生們學完課程後可以監看他們的進度，管理註冊碼以及取得資源來協助建立您的課程。',
       current_classes: '現有班級',
       archived_classes: '封存的班級',
-      //    shared_classes: "Shared Classes"
+      shared_classes: '[AI_TRANSLATION]分享的班級',
       archived_classes_blurb: '班級可以封存做為未來的參考資料。取出一個班級在現有班級列表中再次觀看它。',
       view_class: '觀看班級',
-      //    view_ai_league_team: "View AI League team"
+      view_ai_league_team: '[AI_TRANSLATION]檢視 AI 聯盟隊伍',
       archive_class: '封存班級',
       unarchive_class: '取出班級',
       unarchive_this_class: '取出這個班級',
@@ -2314,7 +2481,7 @@ module.exports = {
       no_students_yet_view_class: '觀看班級來加入學生。',
       try_refreshing: '(你可能須要刷新這個頁面)',
       create_new_class: '建立一個新的班級',
-      class_overview: '班級總覽', // View Class page
+      class_overview: '班級總覽',
       avg_playtime: '關卡平均遊玩時間',
       total_playtime: '總共遊玩時間',
       avg_completed: '平均完成關卡數',
@@ -2324,18 +2491,18 @@ module.exports = {
       earliest_incomplete: '最早的未完成關卡',
       latest_complete: '最後完成的關卡',
       enroll_student: '招收學生',
-      //    apply_modal_subtitle: "You will be redirected to your My Classes page, where you can apply licenses to your students by:"
-      //    apply_modal_list_item_1: "Selecting or creating a class"
-      //    apply_modal_list_item_2: "Selecting students you want to apply licenses to"
-      //    apply_modal_list_item_3: "Clicking the “Apply Licenses” button"
+      apply_modal_subtitle: '[AI_TRANSLATION]你將被重定向到你的我的班級頁面，在那裡你可以給學生分配許可：',
+      apply_modal_list_item_1: '[AI_TRANSLATION]選擇或創建班級',
+      apply_modal_list_item_2: '[AI_TRANSLATION]選擇要申請許可的學生',
+      apply_modal_list_item_3: '[AI_TRANSLATION]點擊“應用許可證”按鈕',
       apply_license: '使用註冊碼',
       revoke_license: '撤銷註冊碼',
-      //    revoke_licenses: "Revoke All Licenses"
-      //    revoke_these_licenses: "Select Students and Revoke These Licenses"
-      //    check_and_revoke_license: "Status & Revoke"
-      //    manage_license: "Manage License"
+      revoke_licenses: '[AI_TRANSLATION]撤銷所有許可',
+      revoke_these_licenses: '[AI_TRANSLATION]選擇學生並撤銷這些許可',
+      check_and_revoke_license: '[AI_TRANSLATION]狀態與撤銷',
+      manage_license: '[AI_TRANSLATION]管理許可證',
       course_progress: '課程進展',
-      //    unit_progress: "Unit Progress"
+      unit_progress: '[AI_TRANSLATION]單元進度',
       not_applicable: 'N/A',
       edit: '編輯',
       edit_2: '編輯',
@@ -2343,14 +2510,14 @@ module.exports = {
       latest_completed: '最後完成:',
       sort_by: '排列依',
       progress: '進度',
-      //    concepts_used: "Concepts used by Student:"
-      //    concept_checked: "Concept checked:"
+      concepts_used: '[AI_TRANSLATION]學生使用的概念：',
+      concept_checked: '[AI_TRANSLATION]已檢查的概念：',
       completed: '完成',
       practice: '練習',
       started: '已開始',
       no_progress: '無進度',
       not_required: '不需要',
-      //    view_student_code: "Click to view student code"
+      view_student_code: '[AI_TRANSLATION]點擊查看學生程式碼',
       select_course_coco: '選擇課程以觀看',
       select_course_ozar: '選擇課程以觀看',
       progress_color_key: '進度分類顏色:',
@@ -2364,14 +2531,14 @@ module.exports = {
       copy_class_url: '複製班級網址',
       class_join_url_blurb: '你也可以分享這個特別的班級網址來分享網頁。',
       add_students_manually: '用Email邀請學生',
-      bulk_assign: '批量指派', // {change}
+      bulk_assign: '批量指派',
       assigned_msg_1: '{{numberAssigned}} 個學生被指派到 {{courseName}} 中。',
       assigned_msg_2: '需要使用 {{numberEnrolled}} 個註冊碼。',
       assigned_msg_3: '您現在還有 {{remainingSpots}} 個可使用的註冊碼。',
       assign_course: '指派班級',
-      //    removed_course_msg: "{{numberRemoved}} students were removed from {{courseName}}."
-      //    remove_course: "Remove Course"
-      //    not_assigned_msg_1: "Cannot add users to a course instance until they are added to a prepaid that includes this course"
+      //    removed_course_msg: "{{numberRemoved}} students were removed from {{courseName}}.",
+      remove_course: '[AI_TRANSLATION]移除課程',
+      not_assigned_msg_1: '[AI_TRANSLATION]在將用戶添加到包含該課程的預付款中之前，不能將用戶添加到課程實例中',
       not_assigned_modal_title: '班級未被指派',
       not_assigned_modal_starter_body_1: '這個課程需要一個起始註冊碼。您沒有足夠多可用的起始註冊碼來指派這個課程給所有 __selected__ 選擇的學生。',
       not_assigned_modal_starter_body_2: '購買起始註冊碼來授予這個課程的存取。',
@@ -2381,9 +2548,9 @@ module.exports = {
       assigned: '已指派',
       enroll_selected_students: '註冊選擇的學生',
       no_students_selected: '沒有選擇的學生。',
-      show_students_from: '顯示學生從', // Enroll students modal
+      show_students_from: '顯示學生從',
       apply_licenses_to_the_following_students: '使用註冊碼到下列的學生',
-      //    select_license_type: "Select License Type to Apply"
+      select_license_type: '[AI_TRANSLATION]選擇申請的許可類型',
       students_have_licenses: '下列的學生已經適用註冊碼:',
       all_students: '所有學生',
       apply_licenses: '適用註冊碼',
@@ -2399,28 +2566,28 @@ module.exports = {
       changed: '已更改',
       available_credits: '可用的註冊碼',
       pending_credits: '等待中的註冊碼',
-      //    empty_credits: "Exhausted Licenses"
-      //    license_remaining: "license remaining"
-      //    licenses_remaining: "licenses remaining"
-      //    student_enrollment_history: "Student Enrollment History"
-      //    enrollment_explanation_1: "The"
-      //    enrollment_explanation_2: "Student Enrollment History"
-      //    enrollment_explanation_3: "displays the total number of unique students who were enrolled across all teachers and classrooms added to your dashboard. This includes students in both archived and unarchived classrooms with a class creation date between July 1- June 30 of each respective school year."
-      //    enrollment_explanation_4: "Remember"
-      //    enrollment_explanation_5: "classes may be archived and licenses may be reused throughout the school year, so this view allows administrators to understand how many students truly participated in the program overall."
-      //    one_license_used: "1 out of __totalLicenses__ licenses has been used"
-      //    num_licenses_used: "__numLicensesUsed__ out of __totalLicenses__ licenses have been used"
+      empty_credits: '[AI_TRANSLATION]耗盡的許可證',
+      license_remaining: '[AI_TRANSLATION]剩餘許可證',
+      licenses_remaining: '[AI_TRANSLATION]剩餘許可證',
+      student_enrollment_history: '[AI_TRANSLATION]學生註冊歷史',
+      enrollment_explanation_1: '[AI_TRANSLATION]The',
+      enrollment_explanation_2: '[AI_TRANSLATION]學生註冊歷史',
+      enrollment_explanation_3: '[AI_TRANSLATION]顯示添加到你的儀錶板上所有老師和課堂中註冊的學生總數。這包括已存檔和未存檔的課堂，課堂創建日期在每學年7月1日至6月30日之間。',
+      enrollment_explanation_4: '[AI_TRANSLATION]記住',
+      enrollment_explanation_5: '[AI_TRANSLATION]課程可在整個學年中存檔和重用許可證，因此這種檢視允許管理員了解整體參與該計劃的學生數量。',
+      one_license_used: '[AI_TRANSLATION]__totalLicenses__ 份許可證中已使用其中 1 份',
+      num_licenses_used: '[AI_TRANSLATION]已使用 __numLicensesUsed__ 張授權中的 __totalLicenses__ 張',
       starter_licenses: '起始註冊碼',
       start_date: '開始日期:',
       end_date: '結束日期:',
       get_enrollments_blurb: ' 我們將會幫助您建立解答來符合您班級、學校、學區的需求。',
-      //    see_also_our: "See also our"
-      //    for_more_funding_resources: "for how to leverage CARES Act funding sources like ESSER and GEER."
+      see_also_our: '[AI_TRANSLATION]也看看我們的',
+      for_more_funding_resources: '[AI_TRANSLATION]如何利用CARES法案資金來源，如ESSER和GEER。',
       how_to_apply_licenses_blurb_1: '當老師第一次分派一個課程給學生時, 我們會自動地使用註冊碼。您可以利用教室中的批量指派下拉選項來分派課程給被選到的學生:',
       how_to_apply_licenses_blurb_2: '我可以在沒有指派課程的情況下使用註冊碼媽?',
       how_to_apply_licenses_blurb_3: '可以 — 到您教室中的註冊碼狀態標籤並點擊 "使用註冊碼" 給任何沒有完成註冊碼的學生。',
       request_sent: '請求已送出!',
-      //    assessments: "Assessments"
+      assessments: '[AI_TRANSLATION]評估項目',
       license_status: '註冊碼狀態',
       status_expired: '已在 {{date}} 後過期',
       status_not_enrolled: '未招收',
@@ -2428,31 +2595,31 @@ module.exports = {
       status_partly_expires: '部分在 {{date}} 後過期',
       select_all: '全選',
       project: '專案',
-      //    projects: "Projects"
-      //    project_gallery: "Project Gallery"
-      //    view_project: "View Project"
-      //    unpublished: "(unpublished)"
+      projects: '[AI_TRANSLATION]專案',
+      project_gallery: '[AI_TRANSLATION]專案畫廊',
+      //    view_project: "View Project",
+      unpublished: '[AI_TRANSLATION](未發布)',
       view_arena_ladder: '觀看競技場天梯',
       resource_hub: '資源中心',
-      //    pacing_guides: "Classroom-in-a-Box Pacing Guides"
-      //    pacing_guides_desc: "Learn how to incorporate all of CodeCombat's resources to plan your school year!"
-      //    pacing_guides_elem: "Elementary School Pacing Guide"
-      //    pacing_guides_middle: "Middle School Pacing Guide"
-      //    pacing_guides_high: "High School Pacing Guide"
+      pacing_guides: '[AI_TRANSLATION]盒裝教室進度指南',
+      pacing_guides_desc: '[AI_TRANSLATION]了解如何整合 CodeCombat 的所有資源來規劃你的學年！',
+      pacing_guides_elem: '[AI_TRANSLATION]小學時間安排指南',
+      pacing_guides_middle: '[AI_TRANSLATION]中學進度指南',
+      pacing_guides_high: '[AI_TRANSLATION]高中進度指南',
       getting_started: '開始吧',
       student_resources: '學生資源',
-      //    curriculum: "Curriculum"
-      //    lesson_slides: "Lesson Slides"
-      //    section: "Section"
+      curriculum: '[AI_TRANSLATION]課程',
+      lesson_slides: '[AI_TRANSLATION]課程幻燈片\n',
+      section: '[AI_TRANSLATION]節',
       educator_faq: '教育者常見問題',
       educator_faq_desc: '常見問題關於在您的班上或學校中使用 CodeCombat 。',
       teacher_getting_started: '給已經開始的老師指引',
       teacher_getting_started_desc: '對於 CodeCombat 還不熟悉嗎? 下載這份<給已經開始的老師指引>來設立您的帳號，建立您的第一個班級，並且邀請學生來上第一堂課程。',
       student_getting_started: '學生快速開始指引',
       student_getting_started_desc: '您可以分發這份指引給您的學生，然後再開始進行 CodeCombat ，這樣他們就可以自行運用逞式碼編輯器熟悉環境。 這份指引可以適用於 Python 以及 JavaScript 的班級。',
-      //    standardized_curricula: "Standardized Curricula"
+      standardized_curricula: '[AI_TRANSLATION]標準化課程',
       ap_cs_principles: 'APCS原理',
-      //    ap_cs_principles_desc: "AP Computer Science Principles gives students a broad introduction to the power, impact, and possibilities of Computer Science. The course emphasizes computational thinking and problem solving while also teaching the basics of programming."
+      ap_cs_principles_desc: '[AI_TRANSLATION]AP 計算機科學原理為學生提供了廣泛的介紹，讓他們了解計算機科學的威力、影響和可能性。該課程強調計算思維和問題解決，同時教授編程的基礎知識。',
       cs1: '計算機科學入門',
       cs2: '計算機科學 2',
       cs3: '計算機科學 3',
@@ -2472,37 +2639,37 @@ module.exports = {
       cs1_curriculum_desc: '範圍，順序，課程計畫，啟動來獲得更多課程 1 的資訊。',
       arenas_curriculum: '競技場關卡 - 老師指引',
       arenas_curriculum_desc: '說明如何進行 Wakka Maul, Cross Bones 以及 Power Peak 的多人競技場在您的班級中。',
-      //    assessments_curriculum: "Assessment Levels - Teacher Guide"
-      //    assessments_curriculum_desc: "Learn how to use Challenge Levels and Combo Challenge levels to assess students' learning outcomes."
+      assessments_curriculum: '[AI_TRANSLATION]評估等級 - 教師指南',
+      assessments_curriculum_desc: '[AI_TRANSLATION]了解如何使用挑戰關卡和組合挑戰關卡來評估學生的學習成果。',
       cs2_curriculum: '計算機科學 2 - 課程引導',
       cs2_curriculum_desc: '範圍，順序，課程計畫，啟動來獲得更多課程 2 的資訊。',
-      //    cs2_syntax_python: "Course 2 Python Syntax Guide"
+      cs2_syntax_python: '[AI_TRANSLATION]課程2 Python 語法指南',
       cs3_curriculum: '計算機科學 3 - 課程引導',
       cs3_curriculum_desc: '範圍，順序，課程計畫，啟動來獲得更多課程 3 的資訊。',
-      //    cs3_syntax_python: "Course 3 Python Syntax Guide"
+      cs3_syntax_python: '[AI_TRANSLATION]課程3 Python 語法指南',
       cs4_curriculum: '計算機科學 4 - 課程引導',
       cs4_curriculum_desc: '範圍，順序，課程計畫，啟動來獲得更多課程 4 的資訊。',
-      //    cs4_syntax_python: "Course 4 Python Syntax Guide"
-      //    cs5_curriculum_js: "Computer Science 5 - Curriculum Guide (JavaScript)"
-      //    cs5_curriculum_desc_js: "Scope and sequence, lesson plans, activities and more for Course 5 classes using JavaScript."
-      //    cs5_curriculum_py: "Computer Science 5 - Curriculum Guide (Python)"
-      //    cs5_curriculum_desc_py: "Scope and sequence, lesson plans, activities and more for Course 5 classes using Python."
+      cs4_syntax_python: '[AI_TRANSLATION]課程4 Python 語法指南',
+      cs5_curriculum_js: '[AI_TRANSLATION]計算機科學 5 - 課程指南 (JavaScript)',
+      cs5_curriculum_desc_js: '[AI_TRANSLATION]JavaScript 課程5班級使用的範圍、順序、課程計畫、活動更多',
+      cs5_curriculum_py: '[AI_TRANSLATION]計算機科學 5 - 課程指南 (Python)',
+      cs5_curriculum_desc_py: '[AI_TRANSLATION]Python 課程5班級使用的範圍、順序、課程計畫、活動更多',
       cs1_pairprogramming: '配對編程活動',
       cs1_pairprogramming_desc: '讓學生兩兩一組來練習編程將會幫助他們傾廳以及溝通。',
       gd1: '遊戲開發 1',
       gd1_guide: '遊戲開發 1 - 專案引導',
       gd1_guide_desc: '用這分引導來幫助您的學生在5天內創造人生中第一個可以拿來與別人分享的遊戲專案。',
-      //    gd1_rubric: "Game Development 1 - Project Rubric"
-      //    gd1_rubric_desc: "Use this rubric to assess student projects at the end of Game Development 1."
-      //    gd2: "Game Development 2"
-      //    gd2_curriculum: "Game Development 2 - Curriculum Guide"
-      //    gd2_curriculum_desc: "Lesson plans for Game Development 2."
-      //    gd3: "Game Development 3"
-      //    gd3_curriculum: "Game Development 3 - Curriculum Guide"
-      //    gd3_curriculum_desc: "Lesson plans for Game Development 3."
+      gd1_rubric: '[AI_TRANSLATION]遊戲開發 1 - 項目評分標準',
+      gd1_rubric_desc: '[AI_TRANSLATION]使用這個量表來評估學生在遊戲開發1結束時的項目。',
+      //    gd2: "Game Development 2",
+      gd2_curriculum: '[AI_TRANSLATION]遊戲開發 2 - 課程指南',
+      gd2_curriculum_desc: '[AI_TRANSLATION]遊戲開發2的課程計劃\n',
+      gd3: '[AI_TRANSLATION]遊戲開發 3',
+      gd3_curriculum: '[AI_TRANSLATION]遊戲開發 3 - 課程指南',
+      gd3_curriculum_desc: '[AI_TRANSLATION]遊戲開發3的課程計劃\n',
       wd1: '網頁開發 1',
-      //    wd1_curriculum: "Web Development 1 - Curriculum Guide"
-      //    wd1_curriculum_desc: "Scope and sequence, lesson plans, activities, and more for Web Development 1."
+      wd1_curriculum: '[AI_TRANSLATION]網頁開發 1 - 課程指南\n',
+      wd1_curriculum_desc: '[AI_TRANSLATION]Web Development 1 的範圍、順序、課程計畫、活動更多',
       wd1_headlines: '標題以及標題活動',
       wd1_headlines_example: '觀看解答範本',
       wd1_headlines_desc: '為甚麼段落和標題很重要呢? 用這些activity來說明選擇好的標題可以讓網頁更容易閱讀。 這裡有許多正確的使用方式!',
@@ -2516,6 +2683,19 @@ module.exports = {
       wd2_quizlet_worksheet: '測驗計畫工作表',
       wd2_quizlet_worksheet_instructions: '觀看介紹及範例',
       wd2_quizlet_worksheet_desc: '在網頁開發 2 結束前，您的學生將會建立個人的測驗專案，他們應該利用這個工作表計畫好測驗的問題，結果以及回應。老師可以分發說明以及範例給學生參考。',
+      //    intro_to_cs_short: "Intro to CS",
+      //    GD1_short: "Game Dev 1",
+      //    GD2_short: "Game Dev 2",
+      //    GD3_short: "Game Dev 3",
+      //    WD1_short: "Web Dev 1",
+      //    WD2_short: "Web Dev 2",
+      //    WD3_short: "Web Dev 3",
+      //    CS1_short: "Comp Sci 1",
+      //    CS2_short: "Comp Sci 2",
+      //    CS3_short: "Comp Sci 3",
+      //    CS4_short: "Comp Sci 4",
+      //    CS5_short: "Comp Sci 5",
+      //    CS6_short: "Comp Sci 6",
       student_overview: '總覽',
       student_details: '學生資料',
       student_name: '學生姓名',
@@ -2533,18 +2713,18 @@ module.exports = {
       student_state: '如何',
       student_state_2: '運作?',
       student_good: '做得不錯在',
-      student_good_detail: '這個學生有跟上班級步調。', // {change}
+      student_good_detail: '這個學生有跟上班級步調。',
       student_warn: '可能需要一些幫助在',
-      student_warn_detail: '這個學生可能需要一些幫助來學習這個課程中的新內容', // {change}
+      student_warn_detail: '這個學生可能需要一些幫助來學習這個課程中的新內容',
       student_great: '做得很好在',
-      student_great_detail: '這個學生可能可以幫助其他人學習這個課程', // {change}
+      student_great_detail: '這個學生可能可以幫助其他人學習這個課程',
       full_license: '完整註冊碼',
       starter_license: '起始註冊碼Starter License',
-      //    customized_license: "Customized License"
+      customized_license: '[AI_TRANSLATION]定制授權',
       trial: '試用',
       hoc_welcome: '快樂計算機科學教育週',
-      //    hoc_title: "Hour of Code Games - Free Activities to Learn Real Coding Languages"
-      //    hoc_meta_description: "Make your own game or code your way out of a dungeon! CodeCombat has four different Hour of Code activities and over 60 levels to learn code, play, and create."
+      hoc_title: '[AI_TRANSLATION]編程一小時遊戲 - 免費活動來學習真實的編程語言',
+      hoc_meta_description: '[AI_TRANSLATION]創建你自己的遊戲或編寫代碼從地牢中逃脫！CodeCombat 有四種不同的編碼小時活動和超過 60 個關卡來學習編碼、玩耍和創作。',
       hoc_intro: '有三種方式讓您的班級可以參與 CodeCombat 中的編程時光',
       hoc_self_led: '自學型遊玩',
       hoc_self_led_desc: '學生可以自行遊玩兩個 CodeCombat 的編程時光',
@@ -2563,12 +2743,12 @@ module.exports = {
       hoc_additional_desc1: '尋找更多的 CodeCombat 資源以及活動在我們的',
       hoc_additional_desc2: '問題集',
       hoc_additional_contact: '保持聯繫',
-      //    regenerate_class_code_tooltip: "Generate a new Class Code"
-      //    regenerate_class_code_confirm: "Are you sure you want to generate a new Class Code?"
+      regenerate_class_code_tooltip: '[AI_TRANSLATION]生成新課程代碼',
+      regenerate_class_code_confirm: '[AI_TRANSLATION]你確定要生成一個新的班級代碼嗎？',
       revoke_confirm: '您確定要撤銷 {{student_name}} 的完整註冊碼嗎? 這個註冊碼將可以再次分配給其他學生。',
-      //    revoke_alert_no_student: "Please select students first."
-      //    revoke_selected_confirm: "Are you sure you want to revoke Licenses from all selected students?"
-      //    revoke_all_confirm: "Are you sure you want to revoke Full Licenses from all students in this class?"
+      revoke_alert_no_student: '[AI_TRANSLATION]請先選擇學生。',
+      revoke_selected_confirm: '[AI_TRANSLATION]你確定要撤銷所有選定學生的許可證嗎？',
+      revoke_all_confirm: '[AI_TRANSLATION]你確定要撤銷所有該班學生的完整許可證嗎？',
       revoking: '撤銷中...',
       unused_licenses: '您有未使用的註冊碼，可以在學生已經準備好要學更多的時候指派他們到付費課程!',
       remember_new_courses: '記得去指派新的課程喔!',
@@ -2579,167 +2759,186 @@ module.exports = {
       choose_course: '選擇課程',
       choose_instructions: '在下拉選單中選擇想要指派的課程，然後點擊 “指派到已選取的學生。”',
       push_projects: '我們建議在學生們完成計算機科學入門之後指派網頁開發 1 或是遊戲開發 1 給他們! 觀看我們的 {{resource_hub}} 來獲得更多這些課程的資訊。',
-      //    teacher_quest: "Teacher's Quest for Success"
-      //    quests_complete: "Quests Complete"
-      //    teacher_quest_create_classroom: "Create Classroom"
-      //    teacher_quest_add_students: "Add Students"
-      //    teacher_quest_teach_methods: "Help your students learn how to `call methods`."
-      //    teacher_quest_teach_methods_step1: "Get 75% of at least one class through the first level, Dungeons of Kithgard"
-      //    teacher_quest_teach_methods_step2: "Print out the [Student Quick Start Guide](https://files.codecombat.com/docs/resources/StudentQuickStartGuide.pdf) in the Teacher Toolkit."
-      //    teacher_quest_teach_strings: "Don't string your students along, teach them `strings`."
-      //    teacher_quest_teach_strings_step1: "Get 75% of at least one class through True Names"
-      //    teacher_quest_teach_strings_step2: "Use the Teacher Level Selector on [Course Guides](/teachers/courses) page to preview True Names."
-      //    teacher_quest_teach_loops: "Keep your students in the loop about `loops`."
-      //    teacher_quest_teach_loops_step1: "Get 75% of at least one class through Fire Dancing."
-      //    teacher_quest_teach_loops_step2: "Use the Loops Activity in the [CS1 Curriculum guide](/teachers/resources/cs1) to reinforce this concept."
-      //    teacher_quest_teach_variables: "Vary it up with `variables`."
-      //    teacher_quest_teach_variables_step1: "Get 75% of at least one class through Known Enemy."
-      //    teacher_quest_teach_variables_step2: "Encourage collaboration by using the [Pair Programming Activity](/teachers/resources/pair-programming)."
-      //    teacher_quest_kithgard_gates_100: "Escape the Kithgard Gates with your class."
-      //    teacher_quest_kithgard_gates_100_step1: "Get 75% of at least one class through Kithgard Gates."
-      //    teacher_quest_kithgard_gates_100_step2: "Guide students to think through hard problems using the [Engineering Cycle Worksheet](https://files.codecombat.com/docs/resources/EngineeringCycleWorksheet.pdf)."
-      //    teacher_quest_wakka_maul_100: "Prepare to duel in Wakka Maul."
-      //    teacher_quest_wakka_maul_100_step1: "Get 75% of at least one class to Wakka Maul."
-      //    teacher_quest_wakka_maul_100_step2: "See the [Arena Guide](/teachers/resources/arenas) in the [Teacher Toolkit](/teachers/resources) for tips on how to run a successful arena day."
-      //    teacher_quest_reach_gamedev: "Explore new worlds!"
-      //    teacher_quest_reach_gamedev_step1: "[Get licenses](/teachers/licenses) so that your students can explore new worlds, like Game Development and Web Development!"
-      //    teacher_quest_done: "Want your students to learn even more code? Get in touch with our [school specialists](mailto:schools@codecombat.com) today!"
-      //    teacher_quest_keep_going: "Keep going! Here's what you can do next:"
-      //    teacher_quest_more: "See all quests"
-      //    teacher_quest_less: "See fewer quests"
-      //    refresh_to_update: "(refresh the page to see updates)"
-      //    view_project_gallery: "View Project Gallery"
-      //    office_hours: "Teacher Webinars"
-      //    office_hours_detail: "Learn how to keep up with with your students as they create games and embark on their coding journey! Come and attend our"
-      //    office_hours_link: "teacher webinar"
-      //    office_hours_detail_2: "sessions."
-      //    success: "Success"
-      //    in_progress: "In Progress"
-      //    not_started: "Not Started"
-      //    mid_course: "Mid-Course"
-      //    end_course: "End of Course"
-      //    none: "None detected yet"
-      //    explain_open_ended: "Note: Students are encouraged to solve this level creatively — one possible solution is provided below."
-      //    level_label: "Level:"
-      //    time_played_label: "Time Spent:"
-      //    back_to_resource_hub: "Back to Teacher Toolkit"
-      back_to_course_guides: '回到課程引導'
+      teacher_quest: '[AI_TRANSLATION]教師的成功探索  ',
+      quests_complete: '[AI_TRANSLATION]任務完成',
+      teacher_quest_create_classroom: '[AI_TRANSLATION]建立教室',
+      //    teacher_quest_add_students: "Add Students",
+      teacher_quest_teach_methods: '[AI_TRANSLATION]幫助你的學生學習如何 `call methods`。\n',
+      teacher_quest_teach_methods_step1: '[AI_TRANSLATION]讓至少一個班級有75%通過第一關，基斯加德地牢',
+      teacher_quest_teach_methods_step2: '[AI_TRANSLATION]在教師工具包中列印 [學生快速入門指南](https://files.codecombat.com/docs/resources/StudentQuickStartGuide.pdf)。',
+      teacher_quest_teach_strings: '[AI_TRANSLATION]不要把學生搞糊塗，教他們 `strings`。',
+      teacher_quest_teach_strings_step1: '[AI_TRANSLATION]讓至少一個班級有75%通過真名',
+      teacher_quest_teach_strings_step2: '[AI_TRANSLATION]在[課程指南](/teachers/courses)頁面上使用教師級別選擇器來預覽 True Names。',
+      teacher_quest_teach_loops: '[AI_TRANSLATION]讓你的學生了解 `loops`。',
+      teacher_quest_teach_loops_step1: '[AI_TRANSLATION]讓至少一個班級有75%通過火焰舞蹈',
+      teacher_quest_teach_loops_step2: '[AI_TRANSLATION]使用[CS1 課程指南](/teachers/resources/cs1) 中的迴圈活動來鞏固這個概念。',
+      teacher_quest_teach_variables: '[AI_TRANSLATION]使用 `variables` 變量來變化一下。',
+      teacher_quest_teach_variables_step1: '[AI_TRANSLATION]讓至少一個班級有75%通過已知的敵人',
+      teacher_quest_teach_variables_step2: '[AI_TRANSLATION]鼓勵合作，使用 [Pair Programming Activity](/teachers/resources/pair-programming)。',
+      teacher_quest_kithgard_gates_100: '[AI_TRANSLATION]與你的班級一起逃離 Kithgard 門。',
+      teacher_quest_kithgard_gates_100_step1: '[AI_TRANSLATION]讓至少一個班級有75%通過基斯加德門',
+      teacher_quest_kithgard_gates_100_step2: '[AI_TRANSLATION]引導學生通過 [工程循環工作表](https://files.codecombat.com/docs/resources/EngineeringCycleWorksheet.pdf) 思考難題',
+      teacher_quest_wakka_maul_100: '[AI_TRANSLATION]準備在Wakka Maul決鬥。',
+      teacher_quest_wakka_maul_100_step1: '[AI_TRANSLATION]讓至少一個班級有75%通過瓦卡之獄',
+      teacher_quest_wakka_maul_100_step2: '[AI_TRANSLATION]在[教師工具包](/teachers/resources)中查看[Arena指南](/teachers/resources/arenas)，獲取成功舉行競技場日的小貼士。',
+      teacher_quest_reach_gamedev: '[AI_TRANSLATION]探索新世界！',
+      teacher_quest_reach_gamedev_step1: '[AI_TRANSLATION][Get licenses](/teachers/licenses) 讓你的學生探索新的世界，比如遊戲開發和網頁開發！',
+      teacher_quest_done: '[AI_TRANSLATION]想讓你的學生學到更多程式碼嗎？今天就聯絡我們的 [學校專家](mailto:schools@codecombat.com)！',
+      teacher_quest_keep_going: '[AI_TRANSLATION]繼續加油！接下來你可以做的是：',
+      teacher_quest_more: '[AI_TRANSLATION]查看所有任務',
+      teacher_quest_less: '[AI_TRANSLATION]查看較少的任務',
+      refresh_to_update: '[AI_TRANSLATION](刷新頁面查看更新)',
+      view_project_gallery: '[AI_TRANSLATION]檢視項目畫廊',
+      office_hours: '[AI_TRANSLATION]教師網絡研討會  ',
+      office_hours_detail: '[AI_TRANSLATION]了解如何跟上你的學生們的腳步，當他們創建遊戲並開始他們的編程之旅！來參加我們的活動',
+      office_hours_link: '[AI_TRANSLATION]老師網路研討會  ',
+      office_hours_detail_2: '[AI_TRANSLATION]會話。',
+      success: '[AI_TRANSLATION]成功',
+      //    in_progress: "In Progress",
+      //    not_started: "Not Started",
+      mid_course: '[AI_TRANSLATION]中期課程',
+      end_course: '[AI_TRANSLATION]課程結束',
+      none: '[AI_TRANSLATION]尚未檢測到\n',
+      explain_open_ended: '[AI_TRANSLATION]注意：我們鼓勵學生有創意地解決這個關卡 —— 下面是其中一個可能的解決方案。  ',
+      level_label: '[AI_TRANSLATION]關卡：',
+      time_played_label: '[AI_TRANSLATION]已用時間：',
+      //    practice_threshold_label: "Practice Threshold:",
+      back_to_resource_hub: '[AI_TRANSLATION]返回教師工具包',
+      back_to_course_guides: '回到課程引導',
+      print_guide: '[AI_TRANSLATION]列印這個指南',
+      combo: '[AI_TRANSLATION]連擊',
+      combo_explanation: '[AI_TRANSLATION]學生通過使用至少一個列出概念來通關 Combo 挑戰關卡。點擊進度點查看學生代碼。',
+      concept: '[AI_TRANSLATION]概念',
+      sync_google_classroom: '[AI_TRANSLATION]同步 Google Classroom',
+      unit_overview: '[AI_TRANSLATION]單元概述',
+      module_overview: '[AI_TRANSLATION]模組概述',
+      chapter1_unit_overview_desc: '[AI_TRANSLATION]學生體驗總結，包括動畫場景、練習關卡、介紹以及第一章的基石項目。',
+      lesson_plan: '[AI_TRANSLATION]課程計劃\n',
+      chapter1_lesson_plan_desc: '[AI_TRANSLATION]詳細的課堂指南，包括學習目標、CSTA標準、反思活動、輔導技巧等。',
+      capstone_rubric: '[AI_TRANSLATION]壁爐石評分標準',
+      chapter1_capstone_rubric_desc: '[AI_TRANSLATION]用於評估學生的壓軸項目和本單元結束時的反思活動的評分標準。',
+      chapter1: '[AI_TRANSLATION]第 1 章：上山',
+      chapter2: '[AI_TRANSLATION]第2章：月之舞者  ',
+      chapter3: '[AI_TRANSLATION]第3章：鳳凰之地  ',
+      module1: '[AI_TRANSLATION]模組 1:',
+      module2: '[AI_TRANSLATION]模組 2:',
+      module3: '[AI_TRANSLATION]模組 3:',
+      module4: '[AI_TRANSLATION]模組 4:',
+      module5: '[AI_TRANSLATION]模組 5:',
+      module6: '[AI_TRANSLATION]模組 6:',
+      module7: '[AI_TRANSLATION]模組 7:',
+      module8: '[AI_TRANSLATION]模組 8:',
+      algorithms_and_syntax: '[AI_TRANSLATION]演算法和語法  ',
+      //    debugging: "Debugging",
+      //    variables: "Variables",
+      //    conditionals: "Conditionals",
+      capstone_intro: '[AI_TRANSLATION]壁爐石介紹',
+      capstone_project: '[AI_TRANSLATION]壁爐石項目',
+      level_code: '[AI_TRANSLATION]關卡代碼',
+      review_needed: '[AI_TRANSLATION]需要回顧',
+      review_tooltip_heading: '[AI_TRANSLATION]這是什麼意思？',
+      review_tooltip_text: '[AI_TRANSLATION]當學生嘗試回答問題3次或更多時，紅旗會出現在概念檢查旁。在 <strong>課程概覽</strong> 部分，如果開始或完成概念檢查的學生至少50％曾嘗試了3次或以上，紅旗也會出現在概念檢查旁。\n',
+      scroll_to_see_more: '[AI_TRANSLATION]滾動查看更多',
+      click_to_view_concept_check: '[AI_TRANSLATION]點擊查看概念檢查',
+      click_to_view_project_gallery: '[AI_TRANSLATION]點擊查看專案展示',
+      review_learning_goal: '[AI_TRANSLATION]與學生一起回顧 "學習目標: __learningGoal__"',
+      view_capstone_project: '[AI_TRANSLATION]檢視總結項目',
+      ozaria_dashboard_guide: '[AI_TRANSLATION]教師儀表板指南  ',
+      dashboard_guide_desc: '[AI_TRANSLATION]Ozaria 教師儀表板功能的演示會幫助你查看學生的進度和作品。',
+      review: '[AI_TRANSLATION]回顧  ',
+      for_loops: '[AI_TRANSLATION]為了迴圈\n',
+      peer_feedback: '[AI_TRANSLATION]同儕反饋表',
+      presentation_checklist: '[AI_TRANSLATION]簡報檢查清單',
+      try_ozaria_footer: '[AI_TRANSLATION]試試我們的新冒險遊戲，Ozaria！',
+      try_ozaria_free: '[AI_TRANSLATION]免費試用 Ozaria',
+      ozaria_intro: '[AI_TRANSLATION]介紹我們新的計算機科學計劃  ',
+      share_class: '[AI_TRANSLATION]分享類別',
+      permission: '[AI_TRANSLATION]權限',
+      not_write_permission: '[AI_TRANSLATION]你沒有寫入這個課程的權限。\n',
+      not_read_permission: '[AI_TRANSLATION]你沒有閱讀這個課程的權限。\n',
+      owned_license: '[AI_TRANSLATION]授權',
+      archive_revoke_confirm: '[AI_TRANSLATION] 歸檔班級的學生擁有活躍的許可證。要撤銷他們的許可以便重新分配給其他學生嗎？  ',
+      archive_without_revoking: '[AI_TRANSLATION]不撤銷進行存檔',
+      revoke_and_archive: '[AI_TRANSLATION]撤銷並存檔',
+      license_stats: '[AI_TRANSLATION]授權統計',
+      redeemers: '[AI_TRANSLATION]活躍學生',
+      removed_redeemers: '[AI_TRANSLATION]非活躍學生',
+      latest_podcast_episode: '[AI_TRANSLATION]最新播客',
+      from_the_podcast: '[AI_TRANSLATION]來自播客',
+      edit_student_access_title: '[AI_TRANSLATION]編輯學生對關卡的訪問權限',
+      edit_student_access_title_scenarios: '[AI_TRANSLATION]編輯學生對專案的訪問權限',
+      edit_student_access_subtitle: '[AI_TRANSLATION]你選擇了 __levels__ 個關卡給 __students__ 學生。',
+      edit_student_access_subtitle_scenarios: '[AI_TRANSLATION]你選擇了 __levels__ 個項目給 __students__ 學生。',
+      student_ask_for_help: '[AI_TRANSLATION]你的學生 __name__ 向你求助。\n',
+      never_played: '[AI_TRANSLATION]從未玩過',
+      test_student_modal_header: '[AI_TRANSLATION]創建測試學生',
+      test_student_modal_p1: '[AI_TRANSLATION]你會創建一個獨特的測試帳號來模擬學生旅程並保存你的進度。  ',
+      test_student_modal_no_class: '[AI_TRANSLATION]請創建一個班級以學生身份加入\n',
+      test_student_modal_choose_class: '[AI_TRANSLATION]選擇要加入的職業：',
+      test_student_modal_redirect: '[AI_TRANSLATION]你將會被重定向到你的測試學生帳號！  ',
+      stop_spying_student: '[AI_TRANSLATION]你可以點擊用戶下拉選單中的 `Stop Spying` 返回到老師帳號。',
+      //    show_practice_levels: "Show Practice Levels",
+      //    hide_practice_levels: "Hide Practice Levels",
     },
-    //    print_guide: "Print this guide"
-    //    combo: "Combo"
-    //    combo_explanation: "Students pass Combo challenge levels by using at least one listed concept. Review student code by clicking the progress dot."
-    //    concept: "Concept"
-    //    sync_google_classroom: "Sync Google Classroom"
-    //    unit_overview: "Unit Overview"
-    //    module_overview: "Module Overview"
-    //    chapter1_unit_overview_desc: "Summary of student experience, including Cutscenes, Practice Levels, Intros, and the Capstone project in Chapter 1."
-    //    lesson_plan: "Lesson Plan"
-    //    chapter1_lesson_plan_desc: "Detailed classroom guide including learning objectives, CSTA standards, reflection activities, facilitation tips, and more."
-    //    capstone_rubric: "Capstone Rubric"
-    //    chapter1_capstone_rubric_desc: "Rubric for evaluating students' Capstone projects and reflection activities at the end of this unit."
-    //    chapter1: "Chapter 1: Up The Mountain"
-    //    chapter2: "Chapter 2: The Moon Dancers"
-    //    chapter3: "Chapter 3: The Phoenix Lands"
-    //    module1: "Module 1: "
-    //    module2: "Module 2: "
-    //    module3: "Module 3: "
-    //    module4: "Module 4: "
-    //    module5: "Module 5: "
-    //    module6: "Module 6: "
-    //    algorithms_and_syntax: "Algorithms and Syntax"
-    //    debugging: "Debugging"
-    //    variables: "Variables"
-    //    conditionals: "Conditionals"
-    //    capstone_intro: "Capstone Intro"
-    //    capstone_project: "Capstone Project"
-    //    level_code: "Level Code"
-    //    review_needed: "Review Needed"
-    //    review_tooltip_heading: "What does this mean?"
-    //    review_tooltip_text: "Red flags appear next to Concept Checks where your student(s) attempted to answer the question 3 or more times. In the <strong>Course Overview</strong> section, red flags appear next to Concept Checks if at least 50% of students who have started or completed the concept check attempted it 3 or more times."
-    //    scroll_to_see_more: "Scroll to see more"
-    //    click_to_view_concept_check: "Click to view concept check"
-    //    click_to_view_project_gallery: "Click to view project gallery"
-    //    review_learning_goal: "Review \"Learning Goal: __learningGoal__\" with students."
-    //    view_capstone_project: "View Capstone Project"
-    //    ozaria_dashboard_guide: "Teacher Dashboard Guide"
-    //    dashboard_guide_desc: "Walkthrough of Ozaria Teacher Dashboard features that will help you view student progress and work."
-    //    review: "Review"
-    //    for_loops: "For Loops"
-    //    peer_feedback: "Peer Feedback Form"
-    //    presentation_checklist: "Presentation Checklist"
-    //    try_ozaria_footer: "Try our new adventure game, Ozaria!"
-    //    try_ozaria_free: "Try Ozaria for free"
-    //    ozaria_intro: "Introducing Our New Computer Science Program"
-    //    share_class: "share class"
-    //    permission: "Permission"
-    //    not_write_permission: "You don't have write permission to the class"
-    //    not_read_permission: "You don't have read permission to the class"
-    //    owned_license: "Licensed"
-    //    archive_revoke_confirm: " students of the archived class have active licenses. Would you like to revoke them so that you can re-apply them to other students?"
-    //    archive_without_revoking: "Archive Without Revoking"
-    //    revoke_and_archive: "Revoke and Archive"
-    //    license_stats: "License Stats"
-    //    redeemers: "Active Students"
-    //    removed_redeemers: "Inactive Students"
-    //    latest_podcast_episode: "Latest Podcast Episode"
-    //    from_the_podcast: "From the Podcast"
-    //    edit_student_access_title: "Edit Student Access to Levels"
-    //    edit_student_access_subtitle: "You have selected __levels__ levels for __students__ students."
-    //    student_ask_for_help: "Your studnet __name__ asking for your help."
 
-    //  teacher_licenses:
-    //    active_licenses: "Active Licenses"
-    //    expired_licenses: "Expired Licenses"
+    teacher_licenses: {
+      active_licenses: '[AI_TRANSLATION]活躍許可',
+      expired_licenses: '[AI_TRANSLATION]過期的許可證',
+    },
 
-    //  teacher_ozaria_encouragement_modal:
-    //    title: "Build Computer Science Skills to Save Ozaria"
-    //    sub_title: "You are invited to try the new adventure game from CodeCombat"
-    //    cancel: "Back to CodeCombat"
-    //    accept: "Try First Unit Free"
-    //    bullet1: "Deepen student connection to learning through an epic story and immersive gameplay"
-    //    bullet2: "Teach CS fundamentals, Python or JavaScript and 21st century skills"
-    //    bullet3: "Unlock creativity through capstone projects"
-    //    bullet4: "Support instructions through dedicated curriculum resources"
-    //    you_can_return: "You can always return to CodeCombat"
+    teacher_ozaria_encouragement_modal: {
+      title: '[AI_TRANSLATION]建立電腦科學技能來拯救 Ozaria',
+      sub_title: '[AI_TRANSLATION]你受邀參加 CodeCombat 的新冒險遊戲',
+      cancel: '[AI_TRANSLATION]返回 CodeCombat',
+      accept: '[AI_TRANSLATION]免費試用第一單元',
+      bullet1: '[AI_TRANSLATION]透過史詩般的故事和沉浸式遊戲玩法，加強學生對學習的聯繫',
+      bullet2: '[AI_TRANSLATION]教授計算機科學基礎、Python 或 JavaScript 和 21 世紀技能  ',
+      bullet3: '[AI_TRANSLATION]透過大專案工程解鎖創造力',
+      bullet4: '[AI_TRANSLATION]通過專用課程資源來支援指導',
+      you_can_return: '[AI_TRANSLATION]你可以隨時返回 CodeCombat',
+    },
 
-    //  educator_signup_ozaria_encouragement:
-    //    recommended_for: "Recommended for:"
-    //    independent_learners: "Independent learners"
-    //    homeschoolers: "Homeschoolers"
-    //    educators_continue_coco: "Educators who want to continue using CodeCombat in their class"
-    //    continue_coco: "Continue with CodeCombat"
+    educator_signup_ozaria_encouragement: {
+      recommended_for: '[AI_TRANSLATION]推薦給：',
+      independent_learners: '[AI_TRANSLATION]獨立學習者',
+      homeschoolers: '[AI_TRANSLATION]自學者',
+      educators_continue_coco: '[AI_TRANSLATION]想要在課堂上繼續使用 CodeCombat 的教育者',
+      continue_coco: '[AI_TRANSLATION]用 CodeCombat 繼續',
+    },
 
-    //  ozaria_cta:
-    //    title1: "Standards Aligned Core Curriculum"
-    //    description1: "Immersive, story based curriculum that meets all 6th-8th grade CSTA standards."
-    //    title2: "Turnkey Lesson Plans"
-    //    description2: "In-depth presentations and worksheets for teachers to guide students through learning objectives."
-    //    title3: "New Teacher & Admin Dashboards"
-    //    description3: "All the actionable insights educators need at a glance, such as student progress and concept understanding."
+    ozaria_cta: {
+      title1: '[AI_TRANSLATION]符合標準的核心課程',
+      description1: '[AI_TRANSLATION]基於故事的沉浸式課程，符合所有6-8年級CSTA標準',
+      title2: '[AI_TRANSLATION]一鍵式課程計劃',
+      description2: '[AI_TRANSLATION]詳盡的演示和工作表，幫助教師引導學生達成學習目標。',
+      title3: '[AI_TRANSLATION]新的教師和管理員儀表板',
+      description3: '[AI_TRANSLATION]教師所需要的一目瞭然的實用見解，如學生進度和概念理解。',
+    },
 
-    //  share_licenses:
-    //    share_licenses: "Share Licenses"
-    //    shared_by: "Shared By:"
-    //    add_teacher_label: "Enter exact teacher email:"
-    //    add_teacher_button: "Add Teacher"
-    //    modal_subtitle: "You can make your licenses available to other teachers in a shared pool."
-    //    modal_list_item_1: "Each license can only be used for one student at a time."
-    //    modal_list_item_2: "When teachers revoke licenses from students, the licenses will be returned to the shared pool for other teachers in this group to use."
-    //    subheader: "You can make your licenses available to other teachers in your organization. Each license can only be used for one student at a time."
-    //    teacher_not_found: "Teacher not found. Please make sure this teacher has already created a Teacher Account."
-    //    teacher_not_valid: "This is not a valid Teacher Account. Only teacher accounts can share licenses."
-    //    already_shared: "You've already shared these licenses with that teacher."
-    //    have_not_shared: "You've not shared these licenses with that teacher."
-    //    teachers_using_these: "Teachers who can access these licenses:"
-    //    footer: "When teachers revoke licenses from students, the licenses will be returned to the shared pool for other teachers in this group to use."
-    //    you: "(you)"
-    //    one_license_used: "(1/__all__ license used)"
-    //    licenses_used: "(__licensesUsed__/__all__ licenses used)"
-    //    licenses_used_no_braces: "__licensesUsed__/__all__ licenses used"
-    //    more_info: "More info"
-    //    shared_pool_label: "Teachers in your shared pool:"
-    //    teacher_delete_warning: "The shared licenses assigned to the teacher won't be revoked!"
-    //    licenses_limit: "Licenses Limit:"
+    share_licenses: {
+      share_licenses: '[AI_TRANSLATION]分享授權',
+      shared_by: '[AI_TRANSLATION]分享者：',
+      add_teacher_label: '[AI_TRANSLATION]請輸入準確的老師電子郵件：',
+      add_teacher_button: '[AI_TRANSLATION]新增教師',
+      modal_subtitle: '[AI_TRANSLATION]你可以讓其他老師在共享池裡使用你的許可證。\n',
+      modal_list_item_1: '[AI_TRANSLATION]每個許可證一次只能用於一個學生。',
+      modal_list_item_2: '[AI_TRANSLATION]當老師從學生那邊收回許可證時，這些許可證會被返回到共享池，讓這個組內的其他老師使用。',
+      subheader: '[AI_TRANSLATION]你可以讓你組織裡的其他老師使用你的許可證。每次只能一個學生使用一個許可證。\n',
+      teacher_not_found: '[AI_TRANSLATION]未找到教師。請確保該教師已創建教師賬號。  ',
+      teacher_not_valid: '[AI_TRANSLATION]這不是有效的教師賬戶，只有教師賬戶才能共享許可證。\n',
+      already_shared: '[AI_TRANSLATION]你已經將這些許可分享給那位老師了。',
+      have_not_shared: '[AI_TRANSLATION]你還沒有將這些許可分享給那位老師。',
+      teachers_using_these: '[AI_TRANSLATION]可訪問這些許可證的教師：  ',
+      footer: '[AI_TRANSLATION]當老師從學生那邊收回許可證時，這些許可證會被返回到共享池，讓這個組內的其他老師使用。',
+      you: '[AI_TRANSLATION](你)',
+      one_license_used: '[AI_TRANSLATION](1/__all__ 许可证已使用) ',
+      licenses_used: '[AI_TRANSLATION](__licensesUsed__/__all__ 许可证已使用)',
+      licenses_used_no_braces: '[AI_TRANSLATION]__licensesUsed__/__all__ 授權已用',
+      more_info: '[AI_TRANSLATION]更多信息',
+      shared_pool_label: '[AI_TRANSLATION]在您的共享池中的教師：  ',
+      teacher_delete_warning: '[AI_TRANSLATION]分配給老師的共用許可不會被撤銷！\n',
+      licenses_limit: '[AI_TRANSLATION]授權上限：',
+    },
 
     sharing: {
       game: '遊戲',
@@ -2757,15 +2956,15 @@ module.exports = {
       victory_course_share_game: '遊玩這個遊戲',
       victory_course_share_web: '觀看這個網頁',
       victory_course_share_suffix: '來看看您剛剛的努力。',
-      copy_url: '複製網址'
+      copy_url: '複製網址',
+      share_with_teacher_email: '[AI_TRANSLATION]發送給你的老師',
+      share_ladder_link: '[AI_TRANSLATION]分享多人連結',
+      ladder_link_title: '[AI_TRANSLATION]分享你的多人遊戲連結',
+      ladder_link_blurb: '[AI_TRANSLATION]分享你的 AI 戰鬥連結，讓你的朋友和家人 VS 你的程式碼：',
     },
-    //    share_with_teacher_email: "Send to your teacher"
-    //    share_ladder_link: "Share Multiplayer Link"
-    //    ladder_link_title: "Share Your Multiplayer Match Link"
-    //    ladder_link_blurb: "Share your AI battle link so your friends and family can play versus your code:"
 
     game_dev: {
-      creator: '創造者'
+      creator: '創造者',
     },
 
     web_dev: {
@@ -2781,7 +2980,7 @@ module.exports = {
       how_to_copy_paste: '如何複製/貼上',
       copy: '複製',
       paste: '貼上',
-      back_to_editing: '返回編輯'
+      back_to_editing: '返回編輯',
     },
 
     classes: {
@@ -2803,13 +3002,13 @@ module.exports = {
       ambassador_title: '使節',
       ambassador_title_description: '(Support)',
       ambassador_summary: '安撫我們論壇的用戶並且提供發問者適當的方向。我們的使節代表CodeCombat面對全世界。',
-      teacher_title: '教師'
+      teacher_title: '教師',
     },
 
     editor: {
       main_title: 'CodeCombat編輯器',
-      //    concept_title: "Concept Editor"
-      //    standards_title: "Standards Correlation Editor"
+      concept_title: '[AI_TRANSLATION]概念編輯器',
+      standards_title: '[AI_TRANSLATION]標準對照編輯器',
       article_title: '文章編輯器',
       thang_title: '物品編輯器',
       level_title: '關卡編輯器',
@@ -2817,12 +3016,14 @@ module.exports = {
       achievement_title: '目標編輯器',
       poll_title: '投票編輯器',
       resource_title: '資源編輯器',
-      //    chat_title: "Chat Editor"
-      //    ai_scenario_title: "AI Scenario Editor"
-      //    ai_project_title: "AI Project Editor"
-      //    ai_model_title: "AI Model Editor"
-      //    ai_document_title: "AI Document Editor"
-      //    ai_chat_message_title: "AI Chat Message Editor"
+      chat_title: '[AI_TRANSLATION]聊天編輯器',
+      ai_scenario_title: '[AI_TRANSLATION]AI 情境編輯器',
+      ai_project_title: '[AI_TRANSLATION]AI 專案編輯器',
+      ai_model_title: '[AI_TRANSLATION]AI 模型編輯器',
+      ai_document_title: '[AI_TRANSLATION]AI 文件編輯器',
+      ai_chat_message_title: '[AI_TRANSLATION]AI 聊天訊息編輯器',
+      ai_junior_scenario_title: '[AI_TRANSLATION]AI Junior Scenario Editor',
+      ai_junior_project_title: '[AI_TRANSLATION]AI Junior Project Editor',
       resource_title_general: '__resource__ 編輯器',
       back: '返回',
       revert: '還原',
@@ -2839,6 +3040,9 @@ module.exports = {
       fork_title: '產生新分支',
       fork_creating: '產生分支中…',
       generate_terrain: '產生地形',
+      generate_level: '[AI_TRANSLATION]生成關卡',
+      //    generate_practice_level: "Generate Practice Level",
+      //    generate_all_practice_levels: "Generate All Practice Levels",
       more: '更多',
       wiki: '維基',
       live_chat: '線上聊天',
@@ -2870,26 +3074,30 @@ module.exports = {
       level_systems_btn_add: '增加系統',
       level_components_title: '回到所有物體',
       level_components_type: '類型',
-      //    concept_edit_title: "Edit Concept"
-      //    standards_edit_title: "Edit Standards Correlation"
+      concept_edit_title: '[AI_TRANSLATION]編輯概念',
+      standards_edit_title: '[AI_TRANSLATION]編輯標準對應',
       level_component_edit_title: '編輯組件',
       level_component_config_schema: '配置模式',
       level_system_edit_title: '編輯系統',
-      //    course_edit_title: "Edit Course"
-      //    resource_edit_title: "Edit Resource"
-      //    resource_edit_title_general: "Edit __resource__"
-      //    chat_edit_title: "Edit Chat"
-      //    chat_edit_title_general: "Edit __chat__"
-      //    ai_scenario_edit_title: "Edit Scenario"
-      //    ai_scenario_edit_title_general: "Edit __scenario__"
-      //    ai_project_edit_title: "Edit Project"
-      //    ai_project_edit_title_general: "Edit __project__"
-      //    ai_model_edit_title: "Edit Model"
-      //    ai_document_edit_title: "Edit Document"
-      //    ai_chat_message_edit_title: "Edit Chat Message"
+      course_edit_title: '[AI_TRANSLATION]編輯課程',
+      resource_edit_title: '[AI_TRANSLATION]編輯資源',
+      resource_edit_title_general: '[AI_TRANSLATION]編輯 __resource__',
+      chat_edit_title: '[AI_TRANSLATION]編輯聊天',
+      chat_edit_title_general: '[AI_TRANSLATION]編輯 __chat__',
+      ai_scenario_edit_title: '[AI_TRANSLATION]編輯場景',
+      ai_scenario_edit_title_general: '[AI_TRANSLATION]編輯 __scenario__',
+      ai_project_edit_title: '[AI_TRANSLATION]編輯專案',
+      ai_project_edit_title_general: '[AI_TRANSLATION]編輯 __project__',
+      ai_model_edit_title: '[AI_TRANSLATION]編輯模型',
+      ai_document_edit_title: '[AI_TRANSLATION]編輯文件',
+      ai_chat_message_edit_title: '[AI_TRANSLATION]編輯聊天資訊',
+      //    ai_junior_scenario_edit_title: "Edit Junior Scenario",
+      //    ai_junior_scenario_edit_title_general: "Edit __scenario__",
+      ai_junior_project_edit_title: '[AI_TRANSLATION]編輯初級項目',
+      //    ai_junior_project_edit_title_general: "Edit __project__",
       create_system_title: 'Create New System',
-      //    new_concept_title: "Create New Concept"
-      //    new_standards_title: "Create New Standards Correlation"
+      new_concept_title: '[AI_TRANSLATION]建立新概念',
+      new_standards_title: '[AI_TRANSLATION]建立新標準對應',
       new_component_title: '建立新系統',
       new_component_field_system: '系統',
       new_article_title: '建立新文件',
@@ -2902,37 +3110,43 @@ module.exports = {
       new_achievement_title_login: '登錄以建立新成就',
       new_poll_title: '創建一個新的投票',
       new_poll_title_login: '登入去創建一個新的投票',
-      //    new_course_title: "Create a New Course"
-      //    new_course_title_login: "Log In to Create a New Course"
-      //    new_resource_title: "Create a New Resource"
-      //    new_resource_title_login: "Log In to Create a New Resource"
-      //    new_chat_title: "Create a New Chat"
-      //    new_chat_title_login: "Log In to Create a New Chat"
-      //    new_ai_scenario_title: "Create a New Scenario"
-      //    new_ai_scenario_title_login: "Log In to Create a New Scenario"
-      //    new_ai_project_title: "Create a New Project"
-      //    new_ai_project_title_login: "Log In to Create a New Project"
-      //    new_ai_model_title: "Create a New Model"
-      //    new_ai_model_title_login: "Log In to Create a New Model"
-      //    new_ai_document_title: "Create a New Document"
-      //    new_ai_document_title_login: "Log In to Create a New Document"
-      //    new_ai_chat_message_title: "Create a New Chat Message"
-      //    new_ai_chat_message_title_login: "Log In to Create a New Chat Message"
+      new_course_title: '[AI_TRANSLATION]建立新課程',
+      new_course_title_login: '[AI_TRANSLATION]登錄來創建新課程',
+      new_resource_title: '[AI_TRANSLATION]建立新資源',
+      new_resource_title_login: '[AI_TRANSLATION]登入來創建一個新資源',
+      new_chat_title: '[AI_TRANSLATION]建立新聊天',
+      new_chat_title_login: '[AI_TRANSLATION]登錄來創建新聊天室',
+      new_ai_scenario_title: '[AI_TRANSLATION]建立新情景',
+      new_ai_scenario_title_login: '[AI_TRANSLATION]登入來創建一個新場景',
+      new_ai_project_title: '[AI_TRANSLATION]建立新專案',
+      new_ai_project_title_login: '[AI_TRANSLATION]登入來創建一個新項目',
+      new_ai_model_title: '[AI_TRANSLATION]建立新模型',
+      new_ai_model_title_login: '[AI_TRANSLATION]登錄以創建新的模型',
+      new_ai_document_title: '[AI_TRANSLATION]建立新文件',
+      new_ai_document_title_login: '[AI_TRANSLATION]登錄來創建新文檔',
+      new_ai_chat_message_title: '[AI_TRANSLATION]建立新聊天消息',
+      new_ai_chat_message_title_login: '[AI_TRANSLATION]登錄來創建新聊天訊息',
+      new_ai_junior_scenario_title: '[AI_TRANSLATION]創建一個新的青少年場景  ',
+      new_ai_junior_scenario_title_login: '[AI_TRANSLATION]登錄以創建新的初學者場景',
+      new_ai_junior_project_title: '[AI_TRANSLATION]創建一個新的青少年項目  ',
+      new_ai_junior_project_title_login: '[AI_TRANSLATION]登錄以創建新的初學者項目',
       article_search_title: '在這搜尋文件',
-      //    concept_search_title: "Search Concepts Here"
-      //    standards_search_title: "Search Standards Correlations Here"
+      concept_search_title: '[AI_TRANSLATION]搜尋概念',
+      standards_search_title: '[AI_TRANSLATION]搜尋標準關聯',
       thang_search_title: '在這搜尋物體類型',
       level_search_title: '在這搜尋關卡',
       achievement_search_title: '搜尋成就',
       poll_search_title: '搜尋投票',
-      //    course_search_title: "Search Courses"
-      //    resource_search_title: "Search Resources"
-      //    chat_search_title: "Search Chats"
-      //    ai_scenario_search_title: "Search Scenarios"
-      //    ai_project_search_title: "Search Projects"
-      //    ai_model_search_title: "Search Models"
-      //    ai_document_search_title: "Search Documents"
-      //    ai_chat_message_search_title: "Search Chat Messages"
+      course_search_title: '[AI_TRANSLATION]搜尋課程',
+      resource_search_title: '[AI_TRANSLATION]搜尋資源',
+      chat_search_title: '[AI_TRANSLATION]搜尋聊天',
+      ai_scenario_search_title: '[AI_TRANSLATION]搜尋場景',
+      ai_project_search_title: '[AI_TRANSLATION]搜尋專案',
+      ai_model_search_title: '[AI_TRANSLATION]搜尋模型',
+      ai_document_search_title: '[AI_TRANSLATION]搜尋文件',
+      ai_chat_message_search_title: '[AI_TRANSLATION]搜尋聊天訊息',
+      ai_junior_scenario_search_title: '[AI_TRANSLATION]搜尋初級場景  ',
+      ai_junior_project_search_title: '[AI_TRANSLATION]搜尋初級項目  ',
       read_only_warning2: '注意：您不能在這儲存任何編輯，因為您尚未登入。',
       no_achievements: '尚未有任何成就加入到這關卡中。',
       achievement_query_misc: '關閉成就欄的雜項',
@@ -2944,21 +3158,21 @@ module.exports = {
       add_system_title: '添加系統到關卡',
       done_adding: '添加完成',
       product: '產品',
-      link: '連結'
+      link: '連結',
     },
 
     article: {
       edit_btn_preview: '預覽',
-      edit_article_title: '編輯文章'
+      edit_article_title: '編輯文章',
     },
 
     polls: {
-      priority: '優先順序'
+      priority: '優先順序',
     },
 
     contribute: {
       page_title: '貢獻',
-      intro_blurb: 'CodeCombat 是 100% 開源的！已經有上百位專注的玩家幫助我們建造到今天的程度。加入我們並完成 CodeCombat 接下來的冒險章節給全世界的玩家！', // {change}
+      intro_blurb: 'CodeCombat 是 100% 開源的！已經有上百位專注的玩家幫助我們建造到今天的程度。加入我們並完成 CodeCombat 接下來的冒險章節給全世界的玩家！',
       alert_account_message_intro: '您好！',
       alert_account_message: '為了訂閱課程信件，您將必須先登入。',
       archmage_introduction: '在建造遊戲中，其中一個最美好的事情是需要整合許多不同東西：圖像、 聲音、及時網路和社群網路。以及許多不同層面的編程，從底層數據庫管理，到用戶界面的設計和實現。這裡有許多事情需要完成，如果您是個有經驗的程式員並且熱衷於深入處理 CodeCombat 的本質，那麼這職業就是為您打造的。我們將很高興擁有您的幫助來打造有史以來最優質的編程遊戲。',
@@ -3013,9 +3227,9 @@ module.exports = {
       ambassador_introduction: '這是個我們正在建立的社群，您將是我們與世界的連接點。我們在論壇、郵件、社群網路上和許多人交談並且幫助彼此熟悉遊戲以及互相學習。如果您想要幫助其他人參與並且從中獲得許多樂趣，以及樂於感受CodeCombat的脈搏和我們將前往的地方，那麼這職業也許適合您。',
       ambassador_attribute_1: '溝通技巧。可以找到玩家正面臨的問題並且幫助他們解決。另外，保持與我們聯繫玩家們討論的、喜愛的、厭惡的以及想要的！',
       ambassador_join_desc: '告訴我們更多關於您的資訊，您已完成的事情和您喜歡做的事情。我們將從這些地方開始！',
-      //    ambassador_join_step1: "Read the documentation."
-      //    ambassador_join_step2: "Find us in our public Slack channel."
-      //    ambassador_join_step3: "Help others in the Ambassador category."
+      //    ambassador_join_step1: "Read the documentation.",
+      ambassador_join_step2: '[AI_TRANSLATION]在我們的公共Slack頻道找到我們。',
+      ambassador_join_step3: '[AI_TRANSLATION]在大使類別中幫助其他人。\n',
       ambassador_subscribe_desc: '取得更新和多人連線開發的郵件。',
       teacher_subscribe_desc: '取得給教師的更新以及消息。',
       changes_auto_save: '當您勾選後，改變將自動儲存。',
@@ -3024,12 +3238,12 @@ module.exports = {
       creative_artisans: '我們創意的工匠：',
       brave_adventurers: '我們勇敢的冒險家：',
       translating_diplomats: '我們翻譯中的外交官：',
-      helpful_ambassadors: '我們善於幫助的使節：'
+      helpful_ambassadors: '我們善於幫助的使節：',
     },
 
     ladder: {
-    //    title: "Multiplayer Arenas"
-    //    arena_title: "__arena__ | Multiplayer Arenas"
+      title: '[AI_TRANSLATION]多人競技場們  ',
+      arena_title: '[AI_TRANSLATION]__arena__ | 多人竞技場',
       my_matches: '我的對戰',
       simulate: '模擬',
       simulation_explanation: '通過模擬遊戲，您可以使您的遊戲更快得到評定排名！',
@@ -3071,7 +3285,7 @@ module.exports = {
       log_in_for_friends: '登入與朋友一起玩！',
       social_connect_blurb: '連線並擊敗您的朋友！',
       invite_friends_to_battle: '邀請您的朋友加入此戰鬥！',
-      fight: '戰鬥！', // {change}
+      fight: '戰鬥！',
       watch_victory: '觀看您的勝利',
       defeat_the: '敗於',
       watch_battle: '觀看戰役',
@@ -3079,8 +3293,8 @@ module.exports = {
       tournament_started: '，錦標賽已開始',
       tournament_ends: '錦標賽結束',
       tournament_ended: '錦標賽已結束',
-      //    tournament_results_published: ", results published __timeLeft__"
-      //    tournament_results_wait_publish: ", results will be published by owner"
+      tournament_results_published: '[AI_TRANSLATION], 結果發布 __timeLeft__',
+      tournament_results_wait_publish: '[AI_TRANSLATION], 結果將由所有者發布',
       tournament_rules: '錦標賽規則',
       tournament_blurb: '寫下程式碼，收集金幣，建立軍隊，粉碎敵人，贏得獎項，在我們價值$40,000的Greed錦標賽中升級您的職業！查看',
       tournament_blurb_criss_cross: '贏得競賽，建造道路，智勝對手，收集寶石，在我們的Criss-Crossand錦標賽中升級您的職業！查看',
@@ -3090,28 +3304,31 @@ module.exports = {
       rules: '規則',
       winners: '贏家',
       league: '聯盟',
-      red_ai: '紅隊 AI', // "Red AI Wins", at end of multiplayer match playback
+      red_ai: '紅隊 AI',
       blue_ai: '藍隊 AI',
-      wins: '勝利', // At end of multiplayer match playback
+      wins: '勝利',
       losses: '失敗',
       win_num: '勝場數',
       loss_num: '負場數',
       win_rate: '勝率 %',
-      humans: '紅隊', // Ladder page display team name
+      humans: '紅隊',
       ogres: '藍隊',
-      //    live_tournament: "Live Tournament"
-      //    awaiting_tournament_title: "Tournament Inactive"
-      //    awaiting_tournament_blurb: "The tournament arena is not currently active."
-      //    tournament_end_desc: "The tournament is over, thanks for playing"
+      live_tournament: '[AI_TRANSLATION]現場比賽',
+      awaiting_tournament_title: '[AI_TRANSLATION]錦標賽非活動中',
+      awaiting_tournament_blurb: '[AI_TRANSLATION]比賽場地目前未啟動。\n',
+      tournament_end_desc: '[AI_TRANSLATION]比賽結束了，感謝你的參與。\n',
       age: '年紀',
       age_bracket: '組別',
       bracket_0_11: '國小組(0-11)',
       bracket_11_14: '國中組(11-14)',
       bracket_14_18: '高中組(14-18)',
       bracket_11_18: '青少年組(11-18)',
-      bracket_open: '公開組(不限年齡)'
+      bracket_open: '公開組(不限年齡)',
+      create_tournament: '[AI_TRANSLATION]建立錦標賽',
+      //    difficulty_beginner: "Beginner",
+      //    difficulty_intermediate: "Intermediate",
+      //    difficulty_advanced: "Advanced",
     },
-    //    create_tournament: "Create a Tournament"
 
     user: {
       user_title: '__name__ - 用CodeCombat學習程式',
@@ -3138,20 +3355,20 @@ module.exports = {
       certificate_lines_of: '行',
       certificate_levels_completed: '個關卡完成',
       certificate_for: '課程：',
-      //    for_ozaria_chapters_1_4: "For Ozaria Chapters 1 - 4"
-      //    certificate_number: "No."
+      for_ozaria_chapters_1_4: '[AI_TRANSLATION]Ozaria 1-4 章',
+      //    certificate_number: "No.",
       heroes_unlocked: '已解鎖英雄',
-      current_items: '已裝備'
+      current_items: '已裝備',
+      contributor_badges: '[AI_TRANSLATION]貢獻者徽章',
+      contributions_title: '[AI_TRANSLATION]貢獻',
+      //    type_stat: "Type",
+      patches_submit: '[AI_TRANSLATION]補丁已提交',
+      patches_approved: '[AI_TRANSLATION]補丁已核准',
+      patches_accepted: '[AI_TRANSLATION]接受補丁',
+      level_edits: '[AI_TRANSLATION]關卡編輯',
+      total_translations: '[AI_TRANSLATION]總翻譯數',
+      //    campaign_stats: "Stats",
     },
-    //    contributor_badges: "Contributor Badges"
-    //    contributions_title: "Contributions"
-    //    type_stat: "Type" # As in, which type of contribution
-    //    patches_submit: "Patches Submitted"
-    //    patches_approved: "Patches Approved"
-    //    patches_accepted: "Patches Accepted"
-    //    level_edits: "Level Edits"
-    //    total_translations: "Total Translations"
-    //    campaign_stats: "Stats"
 
     achievements: {
       last_earned: '最近一次',
@@ -3163,7 +3380,7 @@ module.exports = {
       new_xp_postfix: '經驗值',
       left_xp_prefix: '還需要',
       left_xp_infix: '經驗值',
-      left_xp_postfix: '到下一個等級'
+      left_xp_postfix: '到下一個等級',
     },
 
     account: {
@@ -3172,7 +3389,7 @@ module.exports = {
       unsubscribe_title: '取消訂閱',
       payments_title: '付款',
       subscription_title: '訂閱',
-      //    invoices_title: "Invoices"
+      invoices_title: '[AI_TRANSLATION]發票  ',
       prepaids_title: '預付',
       payments: '付款',
       prepaid_codes: '儲值碼',
@@ -3205,7 +3422,9 @@ module.exports = {
       unsubscribe_button: '是的，取消訂閱',
       unsubscribe_failed: '失敗',
       unsubscribe_success: '成功',
-      manage_billing: '付款管理'
+      manage_billing: '付款管理',
+      payments_history: '[AI_TRANSLATION]付款記錄',
+      no_payments_found: '[AI_TRANSLATION]沒有找到付款\n',
     },
 
     account_invoices: {
@@ -3216,105 +3435,108 @@ module.exports = {
       pay: '付費發票',
       purchasing: '購買中…',
       retrying: '服務器錯誤，重試中。',
-      success: '支付成功。謝謝！'
+      success: '支付成功。謝謝！',
     },
 
     account_prepaid: {
       purchase_code: '購買訂閱碼',
-      //    purchase_code1: "Subscription Codes can be redeemed to add premium subscription time to one or more accounts for the Home version of CodeCombat."
-      //    purchase_code2: "Each CodeCombat account can only redeem a particular Subscription Code once."
-      //    purchase_code3: "Subscription Code months will be added to the end of any existing subscription on the account."
-      //    purchase_code4: "Subscription Codes are for accounts playing the Home version of CodeCombat, they cannot be used in place of Student Licenses for the Classroom version."
-      //    purchase_code5: "For more information on Student Licenses, reach out to"
+      purchase_code1: '[AI_TRANSLATION]訂閱代碼可以兌換，增加 CodeCombat 家庭版一個或多個帳戶的高級訂閱時間。',
+      purchase_code2: '[AI_TRANSLATION]每個 CodeCombat 帳戶只能兌換特定的訂閱代碼一次。',
+      purchase_code3: '[AI_TRANSLATION]訂閱代碼的月份會加到帳戶上現有訂閱的結束後。',
+      purchase_code4: '[AI_TRANSLATION]訂閱代碼是給玩 CodeCombat 家庭版的帳戶用的，不能用來代替教室版的學生許可。',
+      purchase_code5: '[AI_TRANSLATION]如需有關學生許可證的更多資訊，請聯絡',
       users: '使用者',
       months: '月數',
       purchase_total: '總共',
       purchase_button: '提交購買',
-      your_codes: '你的訂閱碼：', // {change}
+      your_codes: '你的訂閱碼：',
       redeem_codes: '兌換訂閱碼',
-      prepaid_code: '預付代碼'
+      prepaid_code: '預付代碼',
+      lookup_code: '[AI_TRANSLATION]查找預付代碼',
+      apply_account: '[AI_TRANSLATION]應用到你的帳戶',
+      copy_link: '[AI_TRANSLATION]你可以複製程式碼的連結並發送給別人。\n',
+      quantity: '[AI_TRANSLATION]數量',
+      redeemed: '[AI_TRANSLATION]兌換成功',
+      no_codes: '[AI_TRANSLATION]還沒有代碼！\n',
+      you_can1: '[AI_TRANSLATION]你可以',
+      you_can2: '[AI_TRANSLATION]購買預付代碼  ',
+      you_can3: '[AI_TRANSLATION]可以應用於自己的賬戶或給予他人。  ',
+      prepaid_add_months: '[AI_TRANSLATION]這個預付碼會在你的帳號中增加<strong>__months__ 個月的訂閱時長</strong>。',
+      can_use_times: '[AI_TRANSLATION]它還可以被使用 <strong>__unlocksLeft__ 次</strong>。  ',
+      prepaid_applied_success: '[AI_TRANSLATION]預付款已應用於你的帳戶！',
+      activation_code_used: '[AI_TRANSLATION]啟動碼已經被使用過了。\n',
+      redeem_code_error: '[AI_TRANSLATION]錯誤：無法兌換預付代碼。',
     },
-    //    lookup_code: "Lookup prepaid code"
-    //    apply_account: "Apply to your account"
-    //    copy_link: "You can copy the code's link and send it to someone."
-    //    quantity: "Quantity"
-    //    redeemed: "Redeemed"
-    //    no_codes: "No codes yet!"
-    //    you_can1: "You can"
-    //    you_can2: "purchase a prepaid code"
-    //    you_can3: "that can be applied to your own account or given to others."
-    //    prepaid_add_months: "This prepaid code adds <strong>__months__ months of subscription</strong> to your account."
-    //    can_use_times: "It can be used <strong>__unlocksLeft__ more</strong> times."
-    //    prepaid_applied_success: "Prepaid applied to your account!"
-    //    activation_code_used: "The Activation code has been used."
-    //    redeem_code_error: "Error: Could not redeem prepaid code. "
 
-    //  ozaria_chrome:
-    //    sound_off: "Mute"
-    //    sound_on: "Unmute"
-    //    back_to_map: "Back to Map"
-    //    level_options: "Level Options"
-    //    restart_level: "Restart Level"
-    //    max_browser: "Maximize Browser"
+    ozaria_chrome: {
+      sound_off: '[AI_TRANSLATION]靜音  ',
+      sound_on: '[AI_TRANSLATION]取消靜音',
+      back_to_map: '[AI_TRANSLATION]返回地圖',
+      level_options: '[AI_TRANSLATION]關卡選項',
+      //    restart_level: "Restart Level",
+      max_browser: '[AI_TRANSLATION]最大化瀏覽器',
+      ai_hint: '[AI_TRANSLATION]AI 提示',
+    },
 
-    //  impact:
-    //    hero_heading: "Building A World-Class Computer Science Program"
-    //    hero_subheading: "We Help Empower Educators and Inspire Students Across the Country"
-    //    featured_partner_story: "Featured Partner Story"
-    //    partner_heading: "Successfully Teaching Coding at a Title I School"
-    //    partner_school: "Bobby Duke Middle School"
-    //    featured_teacher: "Scott Baily"
-    //    teacher_title: "Technology Teacher Coachella, CA"
-    //    implementation: "Implementation"
-    //    grades_taught: "Grades Taught"
-    //    length_use: "Length of Use"
-    //    length_use_time: "3 years"
-    //    students_enrolled: "Students Enrolled this Year"
-    //    students_enrolled_number: "130"
-    //    courses_covered: "Courses Covered"
-    //    course1: "CompSci 1"
-    //    course2: "CompSci 2"
-    //    course3: "CompSci 3"
-    //    course4: "CompSci 4"
-    //    course5: "GameDev 1"
-    //    fav_features: "Favorite Features"
-    //    responsive_support: "Responsive Support"
-    //    immediate_engagement: "Immediate Engagement"
-    //    paragraph1: "Bobby Duke Middle School sits nestled between the Southern California mountains of Coachella Valley to the west and east and the Salton Sea 33 miles south, and boasts a student population of 697 students within Coachella Valley Unified’s district-wide population of 18,861 students."
-    //    paragraph2: "The students of Bobby Duke Middle School reflect the socioeconomic challenges facing Coachella Valley’s residents and students within the district. With over 95% of the Bobby Duke Middle School student population qualifying for free and reduced-price meals and over 40% classified as English language learners, the importance of teaching 21st century skills was the top priority of Bobby Duke Middle School Technology teacher, Scott Baily."
-    //    paragraph3: "Baily knew that teaching his students coding was a key pathway to opportunity in a job landscape that increasingly prioritizes and necessitates computing skills. So, he decided to take on the exciting challenge of creating and teaching the only coding class in the school and finding a solution that was affordable, responsive to feedback, and engaging to students of all learning abilities and backgrounds."
-    //    teacher_quote: "When I got my hands on CodeCombat [and] started having my students use it, the light bulb went on. It was just night and day from every other program that we had used. They’re not even close."
-    //    quote_attribution: "Scott Baily, Technology Teacher"
-    //    read_full_story: "Read Full Story"
-    //    more_stories: "More Partner Stories"
-    //    partners_heading_1: "Supporting Multiple CS Pathways in One Class"
-    //    partners_school_1: "Preston High School"
-    //    partners_heading_2: "Excelling on the AP Exam"
-    //    partners_school_2: "River Ridge High School"
-    //    partners_heading_3: "Teaching Computer Science Without Prior Experience"
-    //    partners_school_3: "Riverdale High School"
-    //    download_study: "Download Research Study"
-    //    teacher_spotlight: "Teacher & Student Spotlights"
-    //    teacher_name_1: "Amanda Henry"
-    //    teacher_title_1: "Rehabilitation Instructor"
-    //    teacher_location_1: "Morehead, Kentucky"
-    //    spotlight_1: "Through her compassion and drive to help those who need second chances, Amanda Henry helped change the lives of students who need positive role models. With no previous computer science experience, Henry led her students to coding success in a regional coding competition."
-    //    teacher_name_2: "Kaila, Student"
-    //    teacher_title_2: "Maysville Community & Technical College"
-    //    teacher_location_2: "Lexington, Kentucky"
-    //    spotlight_2: "Kaila was a student who never thought she would be writing lines of code, let alone enrolled in college with a pathway to a bright future."
-    //    teacher_name_3: "Susan Jones-Szabo"
-    //    teacher_title_3: "Teacher Librarian"
-    //    teacher_school_3: "Ruby Bridges Elementary"
-    //    teacher_location_3: "Alameda, CA"
-    //    spotlight_3: "Susan Jones-Szabo promotes an equitable atmosphere in her class where everyone can find success in their own way. Mistakes and struggles are welcomed because everyone learns from a challenge, even the teacher."
-    //    continue_reading_blog: "Continue Reading on Blog..."
-    //    ozaria_impact_title: "Positive Impacts with Ozaria"
-    //    ozaria_impact_blurb: "CodeCombat's sister curriculum, Ozaria, has proven to have a positive impact on the student learning outcomes that matter most to both students and educators."
-    //    ozaria_impact_learn_more: "Learn more about Ozaria's curriculum efficacy here."
+    impact: {
+      hero_heading: '[AI_TRANSLATION]建立世界級的電腦科學課程',
+      hero_subheading: '[AI_TRANSLATION]我們幫助教育工作者賦能並激勵全國的學生',
+      featured_partner_story: '[AI_TRANSLATION]精選合作夥伴的故事',
+      partner_heading: '[AI_TRANSLATION]在 Title I 學校成功教導編碼',
+      partner_school: '[AI_TRANSLATION]Bobby Duke 中學',
+      featured_teacher: '[AI_TRANSLATION]Scott Baily',
+      teacher_title: '[AI_TRANSLATION]科技老師 Coachella, CA',
+      implementation: '[AI_TRANSLATION]實施',
+      grades_taught: '[AI_TRANSLATION]教導的年級',
+      length_use: '[AI_TRANSLATION]使用時長\n',
+      length_use_time: '[AI_TRANSLATION]3 年',
+      students_enrolled: '[AI_TRANSLATION]本年度註冊學生',
+      students_enrolled_number: '[AI_TRANSLATION]130',
+      courses_covered: '[AI_TRANSLATION]涵蓋的課程',
+      course1: '[AI_TRANSLATION]計算機科學 1',
+      course2: '[AI_TRANSLATION]計算機科學 2',
+      course3: '[AI_TRANSLATION]計算機科學 3',
+      course4: '[AI_TRANSLATION]計算機科學 4',
+      course5: '[AI_TRANSLATION]遊戲開發 1',
+      fav_features: '[AI_TRANSLATION]最愛的功能',
+      responsive_support: '[AI_TRANSLATION]反應迅速的支持',
+      immediate_engagement: '[AI_TRANSLATION]立即參與',
+      paragraph1: '[AI_TRANSLATION]Bobby Duke 中學坐落在南加州科切拉谷的群山之間，距南部的鹽滩海 33 英里，擁有 697 名學生，在科切拉谷聯合學區的 18,861 名學生中分佈。',
+      paragraph2: '[AI_TRANSLATION]Bobby Duke 中學的學生反映了科切拉谷居民和區內學生面臨的社會經濟挑戰。Bobby Duke 中學超過95%的學生符合免費和減價餐的資格，超過40%被歸類為英語學習者，因此教授21世紀技能成為該校科技老師Scott Baily的首要任務。\n',
+      paragraph3: '[AI_TRANSLATION]Baily 知道教授學生編碼是在日益重視並需要計算機技能的就業環境中獲得機會的關鍵途徑。因此，他決定接受挑戰，創建並教授學校裡唯一的編碼課程，並尋找一個負擔得起、響應反饋和吸引所有學習能力和背景的學生的解決方案。',
+      teacher_quote: '[AI_TRANSLATION]當我開始使用 CodeCombat 並讓我的學生使用它時，燈泡就亮了。這與我們使用過的其他程序完全不同。它們根本無法相比。',
+      quote_attribution: '[AI_TRANSLATION]Scott Baily，科技老師',
+      read_full_story: '[AI_TRANSLATION]閱讀完整故事',
+      more_stories: '[AI_TRANSLATION]更多合作夥伴故事',
+      partners_heading_1: '[AI_TRANSLATION]在一堂課中支持多種計算機科學學習路徑',
+      partners_school_1: '[AI_TRANSLATION]普雷斯頓高中',
+      partners_heading_2: '[AI_TRANSLATION]在 AP 考試中表現優異',
+      partners_school_2: '[AI_TRANSLATION]River Ridge 高中',
+      partners_heading_3: '[AI_TRANSLATION]在無需經驗的情況下教學計算機科學  ',
+      partners_school_3: '[AI_TRANSLATION]Riverdale 高中',
+      download_study: '[AI_TRANSLATION]下載研究報告',
+      teacher_spotlight: '[AI_TRANSLATION]教師與學生的焦點專欄  ',
+      teacher_name_1: '[AI_TRANSLATION]Amanda Henry  ',
+      teacher_title_1: '[AI_TRANSLATION]康復指導員',
+      teacher_location_1: '[AI_TRANSLATION]莫赫德，肯塔基',
+      spotlight_1: '[AI_TRANSLATION]憑藉她的同情心和幫助需要第二次機會的人的動力，Amanda Henry 幫助改變了需要積極榜樣的學生的生活。毫無計算機科學背景的她，帶領學生在一項區域性編程競賽中取得了成功。',
+      teacher_name_2: '[AI_TRANSLATION]Kaila, 學生',
+      teacher_title_2: '[AI_TRANSLATION]梅斯維爾社區與技術學院',
+      teacher_location_2: '[AI_TRANSLATION]列克星敦，肯塔基州',
+      spotlight_2: '[AI_TRANSLATION]Kaila曾是一名從沒想過自己會寫編碼的學生，更別說能上大學並擁有光明的未來。',
+      teacher_name_3: '[AI_TRANSLATION]Susan Jones-Szabo',
+      teacher_title_3: '[AI_TRANSLATION]圖書館教師  ',
+      teacher_school_3: '[AI_TRANSLATION]露比橋小學',
+      teacher_location_3: '[AI_TRANSLATION]Alameda, CA  ',
+      spotlight_3: '[AI_TRANSLATION]Susan Jones-Szabo 在她的課堂上營造了一個公平的氛圍，每個人都能以自己的方式找到成功。錯誤和困難是受歡迎的，因為每個人都能從挑戰中學到東西，甚至老師也是如此。',
+      continue_reading_blog: '[AI_TRANSLATION]在博客上繼續閱讀...',
+      ozaria_impact_title: '[AI_TRANSLATION]Ozaria 的正面影響',
+      ozaria_impact_blurb: '[AI_TRANSLATION]CodeCombat 的姐妹課程 Ozaria 已證明對學生和教育工作者來說在學生學習結果方面有積極影響。\n',
+      ozaria_impact_learn_more: '[AI_TRANSLATION]了解更多關於 Ozaria 的課程效果的資訊。',
+    },
 
     loading_error: {
-      could_not_load: '從伺服器載入失敗', // {change}
+      could_not_load: '從伺服器載入失敗',
       connection_failure: '連線失敗。',
       connection_failure_desc: '看來您並沒有連接上網際網路! 請檢查您的網路連接狀態然後重新載入這個頁面。',
       login_required: '您需要先登入。',
@@ -3322,9 +3544,9 @@ module.exports = {
       unauthorized: '您需要先登入。您把cookies禁用了嗎？',
       forbidden: '您沒有權限。',
       forbidden_desc: '喔不，這裡沒有東西可以顯示給您看! 請確認您登入的是正確的帳號，或是進入下方的其中一個連結以回到編程頁面!',
-      //    user_not_found: "User Not Found"
+      user_not_found: '[AI_TRANSLATION]找不到使用者',
       not_found: '沒找到。',
-      //    resource_not_found: "404 __resource__ Not Found"
+      resource_not_found: '[AI_TRANSLATION]404 __resource__ 未找到',
       not_found_desc: '嗯，這裡沒有任何東西。 請進入下方的其中一個連結以回到編程頁面!',
       not_allowed: '方法不被允許。',
       timeout: '伺服器超時。',
@@ -3333,10 +3555,10 @@ module.exports = {
       server_error: '伺服器錯誤。',
       unknown: '未知錯誤。',
       error: '錯誤',
-      general_desc: '發生了某些錯誤，它很有可能是我們造成的。 請試著等待一小段時間然後再刷新這個頁面，或是進入下方的其中一個連結以回到編程頁面!'
+      general_desc: '發生了某些錯誤，它很有可能是我們造成的。 請試著等待一小段時間然後再刷新這個頁面，或是進入下方的其中一個連結以回到編程頁面!',
+      too_many_login_failures: '[AI_TRANSLATION]登入嘗試過多次失敗，請稍後再試。',
+      something_went_wrong: '[AI_TRANSLATION]噢！出錯了',
     },
-    //    too_many_login_failures: "There have been too many unsuccessful login attempts.  Please try again later."
-    //    something_went_wrong: "Oops! Something went wrong"
 
     resources: {
       level: '等級',
@@ -3347,20 +3569,26 @@ module.exports = {
       component: '組建',
       components: '組建',
       hero: '英雄',
-      campaigns: '征戰'
+      campaigns: '征戰',
     },
 
     concepts: {
+      advanced_css: '進階CSS',
       advanced_css_rules: '進階CSS規則',
       advanced_css_selectors: '進階CSS選擇器',
+      advanced_html: '進階HTML',
       advanced_html_attributes: '進階HTML屬性',
       advanced_html_tags: '進階HTML標籤',
+      advanced_strings: '進階字串',
+      advanced_web_scripting: '進階Web腳本',
+      algorithms: '算法',
       algorithm_average: '算術平均',
       algorithm_find_minmax: '算數尋找 最小/最大',
       algorithm_search_binary: '算術搜尋二進位',
       algorithm_search_graph: '算術搜尋圖表',
       algorithm_sort: '算數排列',
       algorithm_sum: '算數總和',
+      alter_existing_web_pages: '調整現有的網頁遊戲',
       arguments: '引數',
       arithmetic: '四則運算',
       array_2d: '2維矩陣',
@@ -3370,74 +3598,100 @@ module.exports = {
       array_searching: '矩陣搜尋',
       array_sorting: '矩陣排列',
       arrays: '矩陣',
+      basic_css: '基礎CSS',
       basic_css_rules: '基礎CSS規則',
       basic_css_selectors: '基礎CSS選擇器',
+      basic_event_handling: '基礎事件處理',
+      basic_game_ai: '基礎遊戲AI',
+      basic_html: '基礎HTML',
       basic_html_attributes: '基礎HTML屬性',
       basic_html_tags: '基礎HTML標籤',
+      basic_input_handling: '基本的輸入處理',
+      basic_javascript: '基礎JavaScript',
       basic_syntax: '基本語法',
+      basic_web_scripting: '基礎Web腳本',
       binary: '二進位',
       boolean_and: 'Boolean And(布林運算 且)',
-      //    boolean_inequality: "Boolean Inequality"
       boolean_equality: 'Boolean equality(布林運算 等式)',
       boolean_greater_less: 'Boolean greater/less(布林運算 大於/小於)',
+      //    boolean_inequality: "Boolean Inequality",
+      boolean_logic: '布林邏輯',
       boolean_logic_shortcircuit: 'Boolean logic shortcircuit(布林運算 邏輯短迴路)',
       boolean_not: 'Boolean Not(布林運算 非)',
       boolean_operator_precedence: 'Boolean Operator Precedence(布林運算 算符級別)',
       boolean_or: 'Boolean Or(布林運算 或)',
-      //    boolean_with_xycoordinates: "Coordinate Comparison"
+      //    boolean_with_xycoordinates: "Coordinate Comparison",
       bootstrap: '引導程序',
       break_statements: 'break(終止) 敘述',
       classes: '類別',
-      //    conditionals: "Conditionals"
+      //    comparators: "Comparators",
+      //    compound_conditionals: "Compound Conditionals",
+      //    conditionals: "Conditionals",
+      construct_mazes: '建造迷宮',
       continue_statements: 'continue(繼續) 敘述',
-      //    debugging: "Debugging"
+      create_playable_game: '建立一個可玩、可分享的遊戲專案',
+      create_sharable_interactive_web_page: '建立一個可分享的互動式網頁',
+      create_sharable_web_page: '建立一個可以分享的網頁',
+      data_and_analysis: '資料與分析',
+      data_types: '數據類型',
+      //    debugging: "Debugging",
       dom_events: 'DOM(文件物件模型) 事件',
       dynamic_styling: '動態式樣',
-      //    events: "Events"
+      events: '[AI_TRANSLATION]事件',
       event_concurrency: '事件開發性',
       event_data: '事件資料',
       event_handlers: '事件操作者',
-      //    event_spawn: "Spawn Event"
+      //    event_spawn: "Spawn Event",
       for_loops: 'For迴圈',
       for_loops_nested: '巢狀 For迴圈',
       for_loops_range: '範圍中 For迴圈',
       functions: '函數',
-      //    functions_parameters: "Parameters"
-      //    functions_multiple_parameters: "Multiple Parameters"
+      //    functions_parameters: "Parameters",
+      //    functions_multiple_parameters: "Multiple Parameters",
       game_ai: '遊戲 AI(人工智能)',
-      //    game_design: "Game Design"
+      //    game_design: "Game Design",
       game_goals: '遊戲目標',
       game_spawn: '遊戲結果',
       graphics: '圖形',
       graphs: '圖表',
       heaps: '統計',
-      //    if_condition: "Conditional If Statements"
-      //    if_else_if: "If/Else If Statements"
+      //    if_condition: "Conditional If Statements",
+      //    if_else_if: "If/Else If Statements",
       if_else_statements: 'If/Else(若/其他) 敘述',
       if_statements: 'If(若) 敘述',
-      if_statements_nested: '巢狀 If(若) 敘述', // {change}
+      if_statements_nested: '巢狀 If(若) 敘述',
       indexing: '矩陣索引',
+      input_handling: '輸入處理',
       input_handling_flags: '輸入方式 - 旗標',
       input_handling_keyboard: '輸入方式 - 鍵盤',
       input_handling_mouse: '輸入方式 - 滑鼠',
+      intermediate_css: '中階CSS',
       intermediate_css_rules: '中階CSS規則',
       intermediate_css_selectors: '中階CSS選擇器',
+      intermediate_html: '中階HTML',
       intermediate_html_attributes: '中階HTML屬性',
       intermediate_html_tags: '中階HTML標籤',
-      //    jquery: "jQuery"
+      intermediate_web_scripting: '中階Web腳本',
+      iteration: '迭代',
+      jquery: '[AI_TRANSLATION]jQuery',
       jquery_animations: 'jQuery 動畫',
       jquery_filtering: 'jQuery 元素篩選',
       jquery_selectors: 'jQuery 選擇器',
       length: '矩陣長度',
+      //    loops: "Loops",
       math_coordinates: '笛卡兒座標',
       math_geometry: '幾何性質',
       math_operations: '數學運算',
       math_proportions: '比例運算',
       math_trigonometry: '三角函數',
+      methods: '方法',
+      nesting: '嵌套(Nesting)',
+      objects: '物件',
       object_literals: '對象常量',
       parameters: '參數',
+      place_game_objects: '放置遊戲物件',
       problem_solving: '問題求解',
-      //    programs: "Programs"
+      //    programs: "Programs",
       properties: '特性',
       property_access: '取數性質',
       property_assignment: '取數分配',
@@ -3457,53 +3711,23 @@ module.exports = {
       variables: '變數',
       vectors: '向量',
       while_condition_loops: 'While 含條件循環 ',
+      while_loops: 'while迴圈',
       while_loops_simple: 'While 循環',
       while_loops_nested: '巢狀 While 循環',
       xy_coordinates: 'Cartesian Coordinates(笛卡爾座標) ',
-      advanced_strings: '進階字串', // Rest of concepts are deprecated
-      algorithms: '算法',
-      boolean_logic: '布林邏輯',
-      basic_html: '基礎HTML',
-      basic_css: '基礎CSS',
-      basic_web_scripting: '基礎Web腳本',
-      intermediate_html: '中階HTML',
-      intermediate_css: '中階CSS',
-      intermediate_web_scripting: '中階Web腳本',
-      advanced_html: '進階HTML',
-      advanced_css: '進階CSS',
-      advanced_web_scripting: '進階Web腳本',
-      input_handling: '輸入處理',
-      while_loops: 'while迴圈',
-      place_game_objects: '放置遊戲物件',
-      construct_mazes: '建造迷宮',
-      create_playable_game: '建立一個可玩、可分享的遊戲專案',
-      alter_existing_web_pages: '調整現有的網頁遊戲',
-      create_sharable_web_page: '建立一個可以分享的網頁',
-      basic_input_handling: '基本的輸入處理',
-      basic_game_ai: '基礎遊戲AI',
-      basic_javascript: '基礎JavaScript',
-      basic_event_handling: '基礎事件處理',
-      create_sharable_interactive_web_page: '建立一個可分享的互動式網頁',
-      iteration: '迭代',
-      nesting: '嵌套(Nesting)',
-      data_types: '數據類型',
-      objects: '物件',
-      methods: '方法',
-      //    compound_conditionals: "Compound Conditionals"
-      //    comparators: "Comparators"
-      data_and_analysis: '資料與分析'
     },
 
-    //  anonymous_teacher:
-    //    notify_teacher: "Notify Teacher"
-    //    create_teacher_account: "Create free teacher account"
-    //    enter_student_name: "Your name:"
-    //    enter_teacher_email: "Your teacher's email:"
-    //    teacher_email_placeholder: "teacher.email@example.com"
-    //    student_name_placeholder: "type your name here"
-    //    teachers_section: "Teachers:"
-    //    students_section: "Students:"
-    //    teacher_notified: "We've notified your teacher that you want to play more CodeCombat in your classroom!"
+    anonymous_teacher: {
+      notify_teacher: '[AI_TRANSLATION]通知老師  ',
+      create_teacher_account: '[AI_TRANSLATION]建立免費教師帳號',
+      enter_student_name: '[AI_TRANSLATION]你的名字：\n',
+      enter_teacher_email: '[AI_TRANSLATION]你的老師的電子郵件：\n',
+      teacher_email_placeholder: '[AI_TRANSLATION]teacher.email@example.com  ',
+      //    student_name_placeholder: "type your name here",
+      teachers_section: '[AI_TRANSLATION]教師：  ',
+      students_section: '[AI_TRANSLATION]學生們：',
+      teacher_notified: '[AI_TRANSLATION]我們已經通知你的老師你想在課堂上玩更多的CodeCombat了！\n',
+    },
 
     delta: {
       added: '已填加',
@@ -3513,12 +3737,12 @@ module.exports = {
       moved_index: '已移動的索引',
       text_diff: '文本變化',
       merge_conflict_with: '合併衝突出現在',
-      no_changes: '沒有改變'
+      no_changes: '沒有改變',
     },
 
     legal: {
       page_title: '條文',
-      //    opensource_introduction: "CodeCombat is part of the open source community."
+      opensource_introduction: '[AI_TRANSLATION]CodeCombat 是開源社群的一部分。',
       opensource_description_prefix: '查看',
       github_url: '我們的 GitHub',
       opensource_description_center: '並且如果有興趣也歡迎您的幫助！ CodeCombat是建立在許多的開源專案上，並且我們深愛它們。查看',
@@ -3535,14 +3759,14 @@ module.exports = {
       email_settings_url: '在您的郵件設定',
       email_description_suffix: '或在我們送出的信件上都有留著我們的聯結，您可以更改您的喜好並且輕易的隨時取消訂閱。',
       cost_title: '花費',
-      cost_description: 'CodeCombat在核心的關卡是全部免費，但只要花費一個月${{price}}美金來訂閱，您將在每個月取得額外的關卡和{{gems}}顆寶石。您可以輕易地取消訂閱並且保證取得100%的退費。', // {change}
+      cost_description: '[AI_TRANSLATION]CodeCombat 的入門關卡免費遊玩，訂閱附加關卡和每月 __gems__ 額外寶石需 __price__ 美元/月。可以一鍵取消，還有 100% 的退款保證。  ',
       copyrights_title: '版權和許可',
       contributor_title: '貢獻者許可協議',
       contributor_description_prefix: '所有在本網站或是 GitHub 程式碼庫上的貢獻都依照我們的',
       cla_url: '貢獻者許可協議',
       contributor_description_suffix: '而這在您貢獻之前就應該已經同意。',
-      code_title: 'Code - MIT', // {change}
-      //    client_code_description_prefix: "All client-side code for codecombat.com in the public GitHub repository and in the codecombat.com database, is licensed under the"
+      code_title: 'Code - MIT',
+      client_code_description_prefix: '[AI_TRANSLATION]codecombat.com 的所有客戶端程式碼在公共 GitHub 儲存庫和 codecombat.com 資料庫中均依照 __TEMPLATE__ 授權  ',
       mit_license_url: 'MIT license',
       code_description_suffix: '這包括所有 CodeCombat 公開製作關卡用的系统和組件程式碼。',
       art_title: '藝術/音樂 - Creative Commons ',
@@ -3568,17 +3792,17 @@ module.exports = {
       rights_clarification: '澄清一下，所有在關卡編輯器裡公開用於製作關卡的資源都是在CC協議下發佈的，然而使用關卡編輯器製作，或者在關卡製作過程中上傳的内容則不是。',
       nutshell_title: '簡而言之',
       nutshell_description: '我們在關卡編輯器裡公開的任何資源，您都可以在製作關卡時隨意使用，但我們保留在 codecombat.com 之上創建的關卡本身傳播的權利，因為我們往後可能決定以它們收費。',
-      //    nutshell_see_also: "See also:"
+      nutshell_see_also: '[AI_TRANSLATION]也請參閱：',
       canonical: '我們宣告這篇說明的英文版本是權威版本。如果各個翻譯版本之間有任何衝突，以英文版為準。',
       third_party_title: '第三方服務',
-      third_party_description: 'CodeCombat使用下列的第三方服務'
+      third_party_description: 'CodeCombat使用下列的第三方服務',
+      cookies_message: '[AI_TRANSLATION]CodeCombat 使用一些必需和非必需的 cookies。\n',
+      cookies_deny: '[AI_TRANSLATION]拒絕非必要的Cookie',
+      cookies_allow: '[AI_TRANSLATION]允許Cookies',
     },
-    //    cookies_message: "CodeCombat uses a few essential and non-essential cookies."
-    //    cookies_deny: "Decline non-essential cookies"
-    //    cookies_allow: "Allow cookies"
 
     ladder_prizes: {
-      title: '錦標賽獎項', // This section was for an old tournament and doesn't need new translations now.
+      title: '錦標賽獎項',
       blurb_1: '依據',
       blurb_2: '錦標賽規則',
       blurb_3: '，這些獎項將被頒發給頂尖的人類和怪物玩家。',
@@ -3595,7 +3819,7 @@ module.exports = {
       one_month_coupon: '優惠：選擇 Rails 或者 HTML',
       one_month_discount: '折扣 30%：選擇 Rails 或者 HTML',
       license: '許可證',
-      oreilly: '您選擇的電子書'
+      oreilly: '您選擇的電子書',
     },
 
     calendar: {
@@ -3613,789 +3837,1013 @@ module.exports = {
       september: '九月',
       october: '十月',
       november: '十一月',
-      december: '十二月'
+      december: '十二月',
     },
 
-    //  code_play_create_account_modal:
-    //    title: "You did it!" # This section is only needed in US, UK, Mexico, India, and Germany
-    //    body: "You are now on your way to becoming a master coder. Sign up to receive an extra <strong>100 Gems</strong> & you will also be entered for a chance to <strong>win $2,500 & other Lenovo Prizes</strong>."
-    //    sign_up: "Sign up & keep coding ▶"
-    //    victory_sign_up_poke: "Create a free account to save your code & be entered for a chance to win prizes!"
-    //    victory_sign_up: "Sign up & be entered to <strong>win $2,500</strong>"
+    code_play_create_account_modal: {
+      title: '[AI_TRANSLATION]你成功啦！',
+      body: '[AI_TRANSLATION]你正邁向成為編程大師的道路。報名可獲得額外的<strong>100 顆寶石</strong>，並有機會<strong>贏得 $2,500 及其他 Lenovo 獎品</strong>。',
+      sign_up: '[AI_TRANSLATION]註冊並繼續編程 ▶',
+      victory_sign_up_poke: '[AI_TRANSLATION]建立免費帳號來保存你的代碼並獲得贏取獎品的機會！',
+      victory_sign_up: '[AI_TRANSLATION]註冊並有機會 <strong>贏取 $2,500</strong>',
+    },
 
-    //  server_error:
-    //    email_taken: "Email already taken"
-    //    username_taken: "Username already taken"
-    //    easy_password: "Password is too easy to guess"
-    //    reused_password: "Password cannot be reused"
+    server_error: {
+      email_taken: '[AI_TRANSLATION]電子郵件已被使用',
+      username_taken: '[AI_TRANSLATION]使用者名稱已被佔用',
+      easy_password: '[AI_TRANSLATION]密碼太容易猜到',
+      reused_password: '[AI_TRANSLATION]密碼不可重複使用',
+    },
 
-    //  esper:
-    //    line_no: "Line $1: "
-    //    uncaught: "Uncaught $1" # $1 will be an error type, eg "Uncaught SyntaxError"
-    //    reference_error: "ReferenceError: "
-    //    argument_error: "ArgumentError: "
-    //    type_error: "TypeError: "
-    //    syntax_error: "SyntaxError: "
-    //    error: "Error: "
-    //    x_not_a_function: "`$1` is not a function"
-    //    x_not_defined: "`$1` is not defined"
-    //    spelling_issues: "Look out for spelling issues: did you mean `$1` instead of `$2`?"
-    //    capitalization_issues: "Look out for capitalization: `$1` should be `$2`."
-    //    py_empty_block: "Empty $1. Put 4 spaces in front of statements inside the $2 statement."
-    //    fx_missing_paren: "If you want to call `$1` as a function, you need `()`'s"
-    //    unmatched_token: "Unmatched `$1`.  Every opening `$2` needs a closing `$3` to match it."
-    //    unterminated_string: "Unterminated string. Add a matching `\"` at the end of your string."
-    //    missing_semicolon: "Missing semicolon."
-    //    missing_quotes: "Missing quotes. Try `$1`"
-    //    argument_type: "`$1`'s argument `$2` should have type `$3`, but got `$4`: `$5`."
-    //    argument_type2: "`$1`'s argument `$2` should have type `$3`, but got `$4`."
-    //    target_a_unit: "Target a unit."
-    //    attack_capitalization: "Attack `$1`, not `$2`. (Capital letters are important.)"
-    //    empty_while: "Empty while statement. Put 4 spaces in front of statements inside the while statement."
-    //    line_of_site: "`$1`'s argument `$2` has a problem. Is there an enemy within your line-of-sight yet?"
-    //    need_a_after_while: "Need a `$1` after `$2`."
-    //    too_much_indentation: "Too much indentation at the beginning of this line."
-    //    missing_hero: "Missing `$1` keyword; should be `$2`."
-    //    takes_no_arguments: "`$1` takes no arguments."
-    //    no_one_named: "There's no one named `\"$1\"` to target."
-    //    separated_by_comma: "Function calls paramaters must be seperated by `,`s"
-    //    protected_property: "Can't read protected property: $1"
-    //    need_parens_to_call: "If you want to call `$1` as function, you need `()`'s"
-    //    expected_an_identifier: "Expected an identifier and instead saw '$1'."
-    //    unexpected_identifier: "Unexpected identifier"
-    //    unexpected_end_of: "Unexpected end of input"
-    //    unnecessary_semicolon: "Unnecessary semicolon."
-    //    unexpected_token_expected: "Unexpected token: expected `$1` but found `$2` while parsing `$3`"
-    //    unexpected_token: "Unexpected token $1"
-    //    unexpected_token2: "Unexpected token"
-    //    unexpected_number: "Unexpected number"
-    //    unexpected: "Unexpected '$1'."
-    //    escape_pressed_code: "Escape pressed; code aborted."
-    //    target_an_enemy: "Target an enemy by name, like `$1`, not the string `$2`."
-    //    target_an_enemy_2: "Target an enemy by name, like `$1`."
-    //    cannot_read_property: "Cannot read property `$1` of `undefined`"
-    //    attempted_to_assign: "Attempted to assign to readonly property."
-    //    unexpected_early_end: "Unexpected early end of program."
-    //    you_need_a_string: "You need a string to build; one of `$1`"
-    //    unable_to_get_property: "Unable to get property '$1' of undefined or null reference" # TODO: Do we translate undefined/null?
-    //    code_never_finished_its: "Code never finished. It's either really slow or has an infinite loop."
-    //    unclosed_string: "Unclosed string."
-    //    unmatched: "Unmatched `$1`."
-    //    error_you_said_achoo: "You said: `$1`, but the password is: `$2`. (Capital letters are important.)"
-    //    indentation_error_unindent_does: "Indentation Error: unindent does not match any outer indentation level"
-    //    indentation_error: "Indentation error."
-    //    need_a_on_the: "Need a `:` on the end of the line following `$1`."
-    //    attempt_to_call_undefined: "attempt to call `$1` (a nil value)"
-    //    unterminated: "Unterminated `$1`"
-    //    target_an_enemy_variable: "Target an `$1` variable, not the string `$2`. (Try using `$3`.)"
-    //    error_use_the_variable: "Use the variable name like `$1` instead of a string like `$2`"
-    //    indentation_unindent_does_not: "Indentation unindent does not match any outer indentation level"
-    //    unclosed_paren_in_function_arguments: "Unclosed `$1` in function arguments."
-    //    unexpected_end_of_input: "Unexpected end of input"
-    //    there_is_no_enemy: "There is no `$1`. Use `$2` first." # Hints start here
-    //    try_herofindnearestenemy: "Try `$1`"
-    //    there_is_no_function: "There is no function `$1`, but `$2` has a method `$3`."
-    //    attacks_argument_enemy_has: "`$1`'s argument `$2` has a problem."
-    //    is_there_an_enemy: "Is there an enemy within your line-of-sight yet?"
-    //    target_is_null_is: "Target is `$1`. Is there always a target to attack? (Use `$2`?)"
-    //    hero_has_no_method: "`$1` has no method `$2`."
-    //    there_is_a_problem: "There is a problem with your code."
-    //    did_you_mean: "Did you mean `$1`? You do not have an item equipped with that skill."
-    //    missing_a_quotation_mark: "Missing a quotation mark. "
-    //    missing_var_use_var: "Missing `$1`. Use `$2` to make a new variable."
-    //    you_do_not_have: "You do not have an item equipped with the `$1` skill."
-    //    put_each_command_on: "Put each command on a separate line"
-    //    are_you_missing_a: "Are you missing a `$1` after `$2`? "
-    //    your_parentheses_must_match: "Your parentheses must match."
-    //    missing_parentheses: "Missing parentheses? Try `__suggestion__`"
-    //    do_nothing_without_parentheses: "`__code__` doesn't do anything without `()`"
-    //    error_index_empty: "Cannot read property `__name__` of `__specTypeName__`"
-    //    error_call_non_function: "`__name__` is not a function."
-    //    error_not_iterable: "`__var__` is not iterable."
-    //    error_assignment_invalid: "Invalid reference in assignment."
-    //    error_invalid_array_length: "Invalid array length."
-    //    error_didnt_make_generator: "`__name__` didn't make a generator."
-    //    error_undefined_variable: "`__name__` is not defined."
-    //    error_declared_identifier: "Identifier `__name__` has already been declared."
-    //    error_declarations_cant_resolve: "Couldn't resolve declarations component: `__type__`."
-    //    error_strict_no_statement: "Strict mode code may not include a `with` statement."
-    //    error_cant_resolve_ref_component: "Couldn't resolve ref component: `__type__`."
-    //    error_cant_convert_null: "Cannot convert `undefined` or `null` to object."
-    //    error_need_object: "Need an object."
-    //    error_illegal_object_prototype: "Object prototype may only be an `Object` or `null`."
-    //    error_no_prototype: "No prototype."
-    //    error_cant_write_property_to_undefined: "Can't write property of `undefined`: `__idx__`."
-    //    error_cant_write_property_to_non_obj: "Can't write property of non-object type: `__idx__`."
-    //    error_function_isnt_constructor: "function is not a constructor"
-    //    error_write_protected_property: "Can't write to protected property: `__name__`"
-    //    error_read_protected_property: "Can't read protected property: `__name__`"
-    //    error_convert_value_failed: "Cannot convert `__orig__` value to `__new__` value."
-    //    error_convert_object_to_primitive: "Cannot convert object to primitive value."
-    //    error_first_argument_to_be_function: "First argument to `__fun__` must be a function."
-    //    error_write_non_writable: "Can't write to non-writable value."
-    //    error_delete_nonconfigurable_object: "Can't delete non configurable object."
-    //    error_cant_access_get: "Can't access get `__name__` of that type."
-    //    error_base_obj_not_invokable: "Base object not invokable."
-    //    error_arg2_not_callable: "Arg2 not callable."
-    //    error_reduce_empty_array_without_init: "Reduce an empty array with no initial value."
-    //    error_realm_prototype_not_realm: "Realm prototype not realm."
-    //    error_function_tostring_not_generic: "Function.prototype.toString is not generic"
-    //    error_regex_on_non_regex: "Calling regex method on non regex."
-    //    error_call_string_on_null: "called String function on null or undefined?"
-    //    error_wrong_type: "Wrong Type."
-    //    error_replace_callback_not_written: "Replace with callbacks not written yet"
-    //    error_right_hand_side_not_callable: "Right-hand side of `__name__` is not callable"
-    //    error_segmentation_fault: "Segmentation Fault `__offset__`."
-    //    error_no_arg_to_reference: "No argument to reference."
-    //    error_unimplemented_property: "Unimplemented property type."
-    //    error_unimplemented: "Unimplemented."
-    //    error_cant_call_reference: "Can't call reference like that."
-    //    error_no_arg_to_dereference: "No argument to dereference."
-    //    error_try_dereference_non: "Tried to dereference non pointer."
-    //    error_no_arg_to_alloc: "No argument to alloc."
+    esper: {
+      line_no: '[AI_TRANSLATION]第 $1 行：',
+      uncaught: '[AI_TRANSLATION]Uncaught `$1`',
+      reference_error: '[AI_TRANSLATION]參考錯誤：',
+      argument_error: '[AI_TRANSLATION]ArgumentError:',
+      type_error: '[AI_TRANSLATION]TypeError: ',
+      syntax_error: '[AI_TRANSLATION]SyntaxError:',
+      error: '[AI_TRANSLATION]錯誤：',
+      x_not_a_function: '[AI_TRANSLATION]`$1` 不是一個函數',
+      x_not_defined: '[AI_TRANSLATION]`$1` 未定義',
+      spelling_issues: '[AI_TRANSLATION]注意拼寫問題：你是不是想說 `$1` 而不是 `$2`？',
+      capitalization_issues: '[AI_TRANSLATION]注意大小寫：`$1` 應該是 `$2`',
+      py_empty_block: '[AI_TRANSLATION]將 $1 清空。在 $2 語句內的語句前加上 4 個空格。',
+      fx_missing_paren: '[AI_TRANSLATION]如果你想將 `$1` 當函數調用，你需要 `()` ',
+      unmatched_token: '[AI_TRANSLATION]不匹配的 `$1`。每個開口的 `$2` 都需要一個閉合的 `$3` 與之匹配。  ',
+      unterminated_string: '[AI_TRANSLATION]字串未結束。請在字串末尾添加匹配的 `"`。',
+      missing_semicolon: '[AI_TRANSLATION]缺少分號。',
+      missing_quotes: '[AI_TRANSLATION]缺少引號。試試 `$1`',
+      argument_type: '[AI_TRANSLATION]`$1` 的參數 `$2` 應該是類型 `$3`，但得到的是 `$4`：`$5`。',
+      argument_type2: '[AI_TRANSLATION]`$1` 的參數 `$2` 應該是類型 `$3`，但得到的是 `$4`。',
+      target_a_unit: '[AI_TRANSLATION]鎖定一個單位。  ',
+      attack_capitalization: '[AI_TRANSLATION]攻擊 `$1`，不要攻擊 `$2`。（大寫字母很重要。）',
+      empty_while: '[AI_TRANSLATION]空的 while 語句。將語句放在 while 語句內並加上4個空格。',
+      line_of_site: '[AI_TRANSLATION]`$1` 的參數 `$2` 有問題。你的視線範圍內是否已經有敵人了？',
+      need_a_after_while: '[AI_TRANSLATION]需要在 `$2` 後加上一個 `$1`。  ',
+      too_much_indentation: '[AI_TRANSLATION]這一行開頭的縮排太多了。',
+      missing_hero: '[AI_TRANSLATION]缺少 `$1` 關鍵字；應該是 `$2`。',
+      takes_no_arguments: '[AI_TRANSLATION]`$1` 不接受任何參數。',
+      no_one_named: '[AI_TRANSLATION]沒有叫 `"$1"` 的目標。',
+      separated_by_comma: '[AI_TRANSLATION]函數調用參數必須用 `,` 分隔',
+      protected_property: '[AI_TRANSLATION]無法讀取受保護的屬性：$1',
+      need_parens_to_call: '[AI_TRANSLATION]如果你想將 `$1` 當函數調用，你需要 `()`',
+      expected_an_identifier: "[AI_TRANSLATION]預期為一個標識符，但看到的是 '$1'.",
+      unexpected_identifier: '[AI_TRANSLATION]意外的標識符',
+      unexpected_end_of: '[AI_TRANSLATION]輸入意外結束',
+      unnecessary_semicolon: '[AI_TRANSLATION]不必要的分號。',
+      unexpected_token_expected: '[AI_TRANSLATION]意外的符號：在解析 `$3` 時，預期 `$1` 卻找到 `$2`',
+      unexpected_token: '[AI_TRANSLATION]意外的符號 $1',
+      unexpected_token2: '[AI_TRANSLATION]意外的符號',
+      unexpected_number: '[AI_TRANSLATION]意外的數字',
+      unexpected: "[AI_TRANSLATION]Unexpected '$1'.",
+      escape_pressed_code: '[AI_TRANSLATION]按了退出鍵；代碼中止。',
+      target_an_enemy: '[AI_TRANSLATION]通過名字鎖定敵人，如 `$1`，而不是字符串 `$2`。',
+      target_an_enemy_2: '[AI_TRANSLATION]通過名字鎖定敵人，如 `$1`。',
+      cannot_read_property: '[AI_TRANSLATION]無法讀取 `undefined` 的屬性 `$1`',
+      attempted_to_assign: '[AI_TRANSLATION]嘗試給唯讀屬性賦值。',
+      unexpected_early_end: '[AI_TRANSLATION]程式過早意外結束。',
+      you_need_a_string: '[AI_TRANSLATION]你需要一個字串來建構；如 `$1`',
+      unable_to_get_property: "[AI_TRANSLATION]無法獲取未定義或空引用的屬性 '$1'",
+      code_never_finished_its: '[AI_TRANSLATION]程式碼永遠未完成。它要麼真的很慢，要麼處於無限迴圈中。',
+      unclosed_string: '[AI_TRANSLATION]字符串未關閉。',
+      unmatched: '[AI_TRANSLATION]不匹配的 `$1`。',
+      error_you_said_achoo: '[AI_TRANSLATION]你說的是: `$1`，但密碼是: `$2`。（大小寫字母很重要哦）',
+      indentation_error_unindent_does: '[AI_TRANSLATION]縮排錯誤：取消縮排不匹配任何外部縮排級別',
+      indentation_error: '[AI_TRANSLATION]縮排錯誤。',
+      need_a_on_the: '需要在 `$1` 這行的末尾加上 `:`。',
+      attempt_to_call_undefined: '[AI_TRANSLATION]嘗試調用 `$1` （一個空值）',
+      unterminated: '[AI_TRANSLATION]遺漏終止符 `$1`',
+      target_an_enemy_variable: '[AI_TRANSLATION]目標是 `$1` 變量，而不是字符串 `$2`。（試試用 `$3` 吧。）',
+      error_use_the_variable: '[AI_TRANSLATION]使用變數名稱如 `$1` 而不是字符串如 `$2`',
+      indentation_unindent_does_not: '[AI_TRANSLATION]縮排錯誤，取消縮排不匹配任何外部縮排級別',
+      unclosed_paren_in_function_arguments: '[AI_TRANSLATION]函數參數中的 `$1` 未關閉。',
+      unexpected_end_of_input: '[AI_TRANSLATION]輸入意外結束',
+      there_is_no_enemy: '[AI_TRANSLATION]沒有 `$1`。請先用 `$2`。',
+      try_herofindnearestenemy: '[AI_TRANSLATION]試試 `$1`',
+      there_is_no_function: '[AI_TRANSLATION]沒有 `$1` 函數，但 `$2` 有個方法 `$3`。',
+      attacks_argument_enemy_has: '[AI_TRANSLATION]`$1` 的參數 `$2` 有問題。',
+      is_there_an_enemy: '[AI_TRANSLATION]你的視線範圍內有敵人嗎？',
+      target_is_null_is: '[AI_TRANSLATION]目標是 `$1`。是否總是有攻擊目標？（用 `$2` 嗎？）',
+      hero_has_no_method: '[AI_TRANSLATION]`$1` 沒有方法 `$2`。',
+      there_is_a_problem: '[AI_TRANSLATION]你的程式碼有問題。',
+      did_you_mean: '[AI_TRANSLATION]你是指 `$1` 嗎？你沒有配備具有該技能的物品。',
+      missing_a_quotation_mark: '[AI_TRANSLATION]缺少引號。',
+      missing_var_use_var: '[AI_TRANSLATION]缺少 `$1`。使用 `$2` 來創建一個新變量。',
+      you_do_not_have: '[AI_TRANSLATION]你沒有裝備擁有 `$1` 技能的物品。\n',
+      put_each_command_on: '[AI_TRANSLATION]每個命令放在單獨的一行上',
+      are_you_missing_a: '[AI_TRANSLATION]你是不是缺少 `$1` 在 `$2` 之後？',
+      your_parentheses_must_match: '[AI_TRANSLATION]你的括弧必須匹配。\n',
+      missing_parentheses: '[AI_TRANSLATION]缺少括號？試試 `__suggestion__`',
+      do_nothing_without_parentheses: '[AI_TRANSLATION]`__code__` 沒有 `()` 是不會執行任何操作的。',
+      error_index_empty: '[AI_TRANSLATION]無法讀取 `__specTypeName__` 的 `__name__` 屬性',
+      error_call_non_function: '[AI_TRANSLATION]`__name__` 不是一個函數。',
+      error_not_iterable: '[AI_TRANSLATION]`__var__` 不是可迭代的。',
+      error_assignment_invalid: '[AI_TRANSLATION]指定中的無效引用。  ',
+      error_invalid_array_length: '[AI_TRANSLATION]無效的陣列長度。  ',
+      error_didnt_make_generator: '[AI_TRANSLATION]`__name__` 沒有產生生成器。',
+      error_undefined_variable: '[AI_TRANSLATION]`__name__` 未定義。',
+      error_declared_identifier: '[AI_TRANSLATION]標識符 `__name__` 已經被聲明過了。',
+      error_declarations_cant_resolve: '[AI_TRANSLATION]無法解析聲明組件：`__type__`。',
+      error_strict_no_statement: '[AI_TRANSLATION]嚴格模式代碼不能包含 `with` 語句。',
+      error_cant_resolve_ref_component: '[AI_TRANSLATION]無法解析引用組件：`__type__`。',
+      error_cant_convert_null: '[AI_TRANSLATION]不能將 `undefined` 或 `null` 轉換為對象。',
+      error_need_object: '[AI_TRANSLATION]需要一個物品。  ',
+      error_illegal_object_prototype: '[AI_TRANSLATION]物件原型只能是 `Object` 或 `null`。\n',
+      error_no_prototype: '[AI_TRANSLATION]沒有原型。\n',
+      error_cant_write_property_to_undefined: '[AI_TRANSLATION]無法寫入 `undefined` 的屬性：`__idx__`。',
+      error_cant_write_property_to_non_obj: '[AI_TRANSLATION]無法寫入非對象類型的屬性：`__idx__`。',
+      error_function_isnt_constructor: '[AI_TRANSLATION]函數不是建構子',
+      error_write_protected_property: '[AI_TRANSLATION]不能寫入受保護的屬性：`__name__`',
+      error_read_protected_property: '[AI_TRANSLATION]無法讀取受保護的屬性：`__name__`',
+      error_convert_value_failed: '[AI_TRANSLATION]不能將 `__orig__` 值轉換為 `__new__` 值。',
+      error_convert_object_to_primitive: '[AI_TRANSLATION]不能將對象轉換為原始值。',
+      error_first_argument_to_be_function: '[AI_TRANSLATION]`__fun__`的第一個參數必須是一個函數。',
+      error_write_non_writable: '[AI_TRANSLATION]不能寫入不可寫的值。',
+      error_delete_nonconfigurable_object: '[AI_TRANSLATION]不能刪除不可配置的對象。',
+      error_cant_access_get: '[AI_TRANSLATION]無法訪問該類型的 `__name__`。',
+      error_base_obj_not_invokable: '[AI_TRANSLATION]基本對象不可調用。',
+      error_arg2_not_callable: '[AI_TRANSLATION]Arg2 不是可呼叫的。',
+      error_reduce_empty_array_without_init: '[AI_TRANSLATION]減少一個沒有初始值的空數組。',
+      error_realm_prototype_not_realm: '[AI_TRANSLATION]領域原型不是領域。',
+      error_function_tostring_not_generic: '[AI_TRANSLATION]Function.prototype.toString 不是通用的',
+      error_regex_on_non_regex: '[AI_TRANSLATION]在非正則表達式上調用正則方法。',
+      error_call_string_on_null: '[AI_TRANSLATION]調用了 String 函數在空值或未定義上的情況？',
+      error_wrong_type: '[AI_TRANSLATION]類型錯誤。',
+      error_replace_callback_not_written: '[AI_TRANSLATION]用尚未編寫的回調替換',
+      error_right_hand_side_not_callable: '[AI_TRANSLATION]`__name__` 右側不可調用',
+      error_segmentation_fault: '[AI_TRANSLATION]分割錯誤 `__offset__`。',
+      error_no_arg_to_reference: '[AI_TRANSLATION]沒有引用參數。\n',
+      error_unimplemented_property: '[AI_TRANSLATION]未實現的屬性類型。',
+      error_unimplemented: '[AI_TRANSLATION]未實現。',
+      error_cant_call_reference: '[AI_TRANSLATION]不能那樣調用參考。',
+      error_no_arg_to_dereference: '[AI_TRANSLATION]沒有解引用參數。\n',
+      error_try_dereference_non: '[AI_TRANSLATION]嘗試解參考非指針。',
+      error_no_arg_to_alloc: '[AI_TRANSLATION]沒有分配參數。\n',
+    },
 
-    //  apcsp:
-    //    title: "AP Computer Science Principals | College Board Endorsed"
-    //    meta_description: "CodeCombat’s comprehensive curriculum and professional development program are all you need to offer College Board’s newest computer science course to your students."
-    //    syllabus: "AP CS Principles Syllabus"
-    //    syllabus_description: "Use this resource to plan CodeCombat curriculum for your AP Computer Science Principles class."
-    //    computational_thinking_practices: "Computational Thinking Practices"
-    //    learning_objectives: "Learning Objectives"
-    //    curricular_requirements: "Curricular Requirements"
-    //    unit_1: "Unit 1: Creative Technology"
-    //    unit_1_activity_1: "Unit 1 Activity: Technology Usability Review"
-    //    unit_2: "Unit 2: Computational Thinking"
-    //    unit_2_activity_1: "Unit 2 Activity: Binary Sequences"
-    //    unit_2_activity_2: "Unit 2 Activity: Computing Lesson Project"
-    //    unit_3: "Unit 3: Algorithms"
-    //    unit_3_activity_1: "Unit 3 Activity: Algorithms - Hitchhiker's Guide"
-    //    unit_3_activity_2: "Unit 3 Activity: Simulation - Predator & Prey"
-    //    unit_3_activity_3: "Unit 3 Activity: Algorithms - Pair Design and Programming"
-    //    unit_4: "Unit 4: Programming"
-    //    unit_4_activity_1: "Unit 4 Activity: Abstractions"
-    //    unit_4_activity_2: "Unit 4 Activity: Searching & Sorting"
-    //    unit_4_activity_3: "Unit 4 Activity: Refactoring"
-    //    unit_5: "Unit 5: The Internet"
-    //    unit_5_activity_1: "Unit 5 Activity: How the Internet Works"
-    //    unit_5_activity_2: "Unit 5 Activity: Internet Simulator"
-    //    unit_5_activity_3: "Unit 5 Activity: Chat Room Simulation"
-    //    unit_5_activity_4: "Unit 5 Activity: Cybersecurity"
-    //    unit_6: "Unit 6: Data"
-    //    unit_6_activity_1: "Unit 6 Activity: Introduction to Data"
-    //    unit_6_activity_2: "Unit 6 Activity: Big Data"
-    //    unit_6_activity_3: "Unit 6 Activity: Lossy & Lossless Compression"
-    //    unit_7: "Unit 7: Personal & Global Impact"
-    //    unit_7_activity_1: "Unit 7 Activity: Personal & Global Impact"
-    //    unit_7_activity_2: "Unit 7 Activity: Crowdsourcing"
-    //    unit_8: "Unit 8: Performance Tasks"
-    //    unit_8_description: "Prepare students for the Create Task by building their own games and practicing key concepts."
-    //    unit_8_activity_1: "Create Task Practice 1: Game Development 1"
-    //    unit_8_activity_2: "Create Task Practice 2: Game Development 2"
-    //    unit_8_activity_3: "Create Task Practice 3: Game Development 3"
-    //    unit_9: "Unit 9: AP Review"
-    //    unit_10: "Unit 10: Post-AP"
-    //    unit_10_activity_1: "Unit 10 Activity: Web Quiz"
+    apcsp: {
+      title: '[AI_TRANSLATION]AP 計算機科學原則 | 大學委員會認可  ',
+      meta_description: '[AI_TRANSLATION]CodeCombat 的綜合課程和專業發展計劃是你需要提供給學生的 College Board 最新電腦科學課程的一切。',
+      syllabus: '[AI_TRANSLATION]AP CS 原則課程大綱',
+      syllabus_description: '[AI_TRANSLATION]使用此資源來計劃你 AP 計算機科學基礎課程的 CodeCombat 課程。',
+      computational_thinking_practices: '[AI_TRANSLATION]計算思維實踐',
+      learning_objectives: '[AI_TRANSLATION]學習目標\n',
+      curricular_requirements: '[AI_TRANSLATION]課程要求',
+      unit_1: '[AI_TRANSLATION]單元 1：創意技術',
+      unit_1_activity_1: '[AI_TRANSLATION]單元 1 活動：技術可用性評估',
+      unit_2: '[AI_TRANSLATION]單元 2：計算思維',
+      unit_2_activity_1: '[AI_TRANSLATION]單元 2 活動：二進制序列',
+      unit_2_activity_2: '[AI_TRANSLATION]單元 2 活動：計算課程項目',
+      unit_3: '[AI_TRANSLATION]單元 3：算法',
+      unit_3_activity_1: '[AI_TRANSLATION]單元 3 活動：算法 - 銀河便車指南',
+      unit_3_activity_2: '[AI_TRANSLATION]單元 3 活動：模擬 - 捕食者與獵物',
+      unit_3_activity_3: '[AI_TRANSLATION]單元 3 活動：算法 - 配對設計和編程',
+      unit_4: '[AI_TRANSLATION]單元 4：程式設計',
+      unit_4_activity_1: '[AI_TRANSLATION]單元 4 活動：抽象化',
+      unit_4_activity_2: '[AI_TRANSLATION]第4單元活動：搜尋 & 排序  ',
+      unit_4_activity_3: '[AI_TRANSLATION]單元 4 活動：重構',
+      unit_5: '[AI_TRANSLATION]單元 5：網際網路',
+      unit_5_activity_1: '[AI_TRANSLATION]單元 5 活動：網際網路的運作原理',
+      unit_5_activity_2: '[AI_TRANSLATION]單元 5 活動：網際網路模擬器',
+      unit_5_activity_3: '[AI_TRANSLATION]單元 5 活動：聊天室模擬',
+      unit_5_activity_4: '[AI_TRANSLATION]單元 5 活動：網路安全',
+      unit_6: '[AI_TRANSLATION]單元 6：數據',
+      unit_6_activity_1: '[AI_TRANSLATION]單元 6 活動：數據入門',
+      unit_6_activity_2: '[AI_TRANSLATION]單元 6 活動：大數據',
+      unit_6_activity_3: '[AI_TRANSLATION]單元 6 活動：有損與無損壓縮',
+      unit_7: '[AI_TRANSLATION]單元 7：個人與全球影響',
+      unit_7_activity_1: '[AI_TRANSLATION]單元 7 活動：個人與全球影響',
+      unit_7_activity_2: '[AI_TRANSLATION]單元 7 活動：眾包',
+      unit_8: '[AI_TRANSLATION]單元 8：表現任務',
+      unit_8_description: '[AI_TRANSLATION]讓學生通過建造自己的遊戲和練習關鍵概念，準備"創作任務"。',
+      unit_8_activity_1: '[AI_TRANSLATION]建立任務練習 1：遊戲開發 1',
+      unit_8_activity_2: '[AI_TRANSLATION]建立任務練習 2：遊戲開發 2',
+      unit_8_activity_3: '[AI_TRANSLATION]建立任務練習 3：遊戲開發 3',
+      unit_9: '[AI_TRANSLATION]單元 9：AP 複習',
+      unit_10: '[AI_TRANSLATION]單元 10：AP後',
+      unit_10_activity_1: '[AI_TRANSLATION]單元 10 活動：網路小測驗',
+    },
 
-    //  apcsp_marketing:
-    //    course_outline_unit_1: "Unit 1"
-    //    course_outline_unit_2: "Unit 2"
-    //    course_outline_unit_3: "Unit 3"
-    //    course_outline_unit_4: "Unit 4"
-    //    course_outline_unit_5: "Unit 5"
-    //    course_outline_unit_6: "Unit 6"
-    //    course_outline_unit_7: "Unit 7"
-    //    course_outline_unit_8: "Unit 8"
-    //    course_outline_unit_9: "Unit 9"
-    //    course_outline_course_1: "Computer Science 1"
-    //    course_outline_course_2: "Computer Science 2"
-    //    course_outline_course_3: "Computer Science 3"
-    //    course_outline_course_4: "Computer Science 4"
-    //    course_outline_course_5: "Creative Development"
-    //    course_outline_course_6: "Data"
-    //    course_outline_course_7: "Computer Systems and Networks"
-    //    course_outline_course_8: "Impact of Computing"
-    //    course_outline_course_9: "Exam Prep"
-    //    course_outline_description_1: "Students begin the course focusing on creativity, problem solving, and the basic syntax of Python."
-    //    course_outline_description_2: "Students focus on designing and implementing algorithms using the building blocks of Python."
-    //    course_outline_description_3: "Students explore the concept of abstraction by developing their own abstractions inside program code."
-    //    course_outline_description_4: "Students apply their understanding of problem solving, algorithms, and abstractions to design and implement digital games."
-    //    course_outline_description_5: "Students use all that they have learned about Python to complete and submit their Create Performance Task."
-    //    course_outline_description_6: "Students learn how computers consume, transform, store, and produce new information in order to solve problems."
-    //    course_outline_description_7: "Students experience the power of sharing information via computer networks by learning about the Internet."
-    //    course_outline_description_8: "Students examine how computing has revolutionized our lives and society."
-    //    course_outline_description_9: "Students prepare to take the multiple choice section of the AP CSP exam."
-    //    icons_coding_levels: "150+ CodeCombat Coding Levels"
-    //    icons_lesson_slides: "60+ Turnkey Lesson Slides"
-    //    icons_kahoot: "400+ Kahoot! Quiz Questions"
-    //    icons_classroom_instructions: "100+ Hours of Classroom Instruction"
-    //    icons_weeks_of_curriculum: "26 Weeks of Curriculum"
-    //    icons_project_activities: "25+ Project-Based Activities"
-    //    icons_game_learning: "Game-Based Learning"
-    //    icons_text_coding: "Text-Based Coding"
-    //    icons_chromebook_compatible: "Chromebook Compatible"
-    //    icons_standards_aligned: "Standards-Aligned Lessons"
-    //    page_title: "AP Computer Science Principles"
-    //    page_description: "Our AP CSP curriculum provides game-based and turnkey tools to prepare students for the AP exam."
-    //    page_description_endorsed: "Endorsed by the College Board, our AP CSP curriculum provides game-based and turnkey tools to prepare students for the AP exam."
-    //    request_access: "Request Access"
-    //    game_based_learning: "Game-Based Learning"
-    //    game_based_learning_description: "Our innovative game-based learning technology has transformed the way students prepare for the AP CSP exam. Through our browser-based games, students learn about important exam topics while exercising the critical thinking skills that are necessary for success on the exam."
-    //    fostering_confidence: "Fostering Confidence in the AP Exam"
-    //    fostering_confidence_description: "With our curriculum, students will practice every stage of the Create Task through scaffolded and approachable capstone projects that can be adapted to a wide variety of student needs. We also provide curriculum and Kahoot! quizzes for students to practice multiple choice exam questions."
-    //    accessible_real_world: "Accessible & Real-World Connections"
-    //    accessible_real_world_description: "For Data, Impacts of Computing, and additional Big Ideas, our turnkey lesson slides help students explore these topics through meaningful discussions and collaborative projects. Filled with real-world connections, our curriculum will allow students to fully understand how coding affects their everyday lives."
-    //    college_board: "The College Board is currently reviewing our curriculum with an expected endorsement in March 2023."
-    //    our_curriculum_offers: "Our curriculum offers engaging features so that students explore and learn Computer Science through..."
-    //    course_outline: "Course Outline"
-    //    course_outline_description: "The following descriptions are an overview of the content explored in the CodeCombat AP CSP course."
-    //    explore_our_curriculum: "Explore Our Curriculum"
-    //    syllabus: "Syllabus"
-    //    pacing_guide: "Pacing Guide"
-    //    flyer: "Flyer"
-    //    sample_lesson_slides: "Browse through our sample lesson slides"
-    //    introduction_to_cs: "Introduction to Computer Science"
-    //    introduction_to_cs_description: "Syntax and Sequences"
-    //    big_ideas: "Big Ideas: Computer Systems and Networks"
-    //    big_ideas_description: "The Internet (Overview)"
-    //    get_full_course: "Get the full course here"
-    //    professional_development: "Professional Development"
-    //    professional_development_description: "CodeCombat offers an online, self-paced professional development course for educators of all levels of AP CSP expertise. Participants will explore the CodeCombat curriculum and learn how it can be used to prepare students to succeed on the AP CSP exam. Through asynchronous discussions with fellow teachers and video conferences with CodeCombat learning designers, you will be equipped with the tools and techniques you need to support all of your students in AP CSP. At the end of the course, you will earn a Certificate of Completion that can be used for the renewal of your teaching credential."
-    //    more_information: "For More Information"
-    //    contact_us: "Contact Us"
-    //    question_1: "How can I learn more about the AP CSP Course?"
-    //    answer_1: "You can check out the College Board’s AP Computer Science Principles __course_overview__ and also explore the __outcomes__ for this course."
-    //    question_2: "What are the technology requirements for CodeCombat’s AP CSP curriculum?"
-    //    answer_2: "We recommend at least 4GB of RAM and using a modern browser such as Chrome, Safari, Firefox, or Edge. For additional specifics, please visit __coco_requirements__."
-    //    question_3: "What is the format of our lesson plans and lesson slides?"
-    //    answer_3: "All of our lesson slides are in the format of Google Slides and our lesson plans are in the format of Google Docs. These formats allow you to make copies of our curriculum so that you can adapt them to the needs of your students. Lesson slides and lesson plans can also be downloaded as Microsoft® PowerPoint and Word files."
-    //    course_overview: "Course Overview"
-    //    outcomes: "outcomes"
-    //    coco_requirements: "CodeCombat’s system requirements"
-    //    coco_recognized_blurb: "CodeCombat is recognized by College Board as an endorsed provider of curriculum and professional development for AP® Computer Science Principles (AP CSP). This endorsement affirms that CodeCombat’s curriculum is aligned to all the AP Curriculum Framework standards and the AP CSP assessment. This affords schools access to resources including an AP CSP syllabus pre-approved by the College Board’s Course Audit, and officially recognized professional development that prepares teachers to teach this curriculum."
+    apcsp_marketing: {
+      course_outline_unit_1: '[AI_TRANSLATION]單元 1',
+      course_outline_unit_2: '[AI_TRANSLATION]單元 2',
+      course_outline_unit_3: '[AI_TRANSLATION]單元 3',
+      course_outline_unit_4: '[AI_TRANSLATION]單元 4',
+      course_outline_unit_5: '[AI_TRANSLATION]單元 5',
+      course_outline_unit_6: '[AI_TRANSLATION]單元 6',
+      course_outline_unit_7: '[AI_TRANSLATION]單元 7',
+      course_outline_unit_8: '[AI_TRANSLATION]單元 8',
+      course_outline_unit_9: '[AI_TRANSLATION]單元 9',
+      course_outline_course_1: '[AI_TRANSLATION]計算機科學 1',
+      //    course_outline_course_2: "Computer Science 2",
+      //    course_outline_course_3: "Computer Science 3",
+      //    course_outline_course_4: "Computer Science 4",
+      course_outline_course_5: '[AI_TRANSLATION]創意開發',
+      course_outline_course_6: '[AI_TRANSLATION]數據',
+      course_outline_course_7: '[AI_TRANSLATION]計算機系統和網絡',
+      course_outline_course_8: '[AI_TRANSLATION]計算的影響',
+      course_outline_course_9: '[AI_TRANSLATION]考試準備',
+      course_outline_description_1: '[AI_TRANSLATION]學生課程一開始會重點放在創造力、解決問題和基礎的 Python 語法。',
+      course_outline_description_2: '[AI_TRANSLATION]學生專注於使用Python的基礎塊設計和實現算法。',
+      course_outline_description_3: '[AI_TRANSLATION]學生透過在程序代碼中開發自己的抽象來探索抽象的概念。',
+      course_outline_description_4: '[AI_TRANSLATION]學生應用他們對解決問題、算法和抽象的理解來設計和實現數字遊戲。',
+      course_outline_description_5: '[AI_TRANSLATION]學生使用所學的所有 Python 知識來完成並提交他們的「創建表現任務」。',
+      course_outline_description_6: '[AI_TRANSLATION]學生學習計算機如何消費、轉換、存儲和產生新信息，以解決問題。',
+      course_outline_description_7: '[AI_TRANSLATION]學生透過學習互聯網，體驗通過計算機網絡共享信息的力量。',
+      course_outline_description_8: '[AI_TRANSLATION]學生檢視計算如何革新我們的生活和社會。',
+      course_outline_description_9: '[AI_TRANSLATION]學生準備參加 AP CSP 考試的選擇題部分。',
+      icons_coding_levels: '[AI_TRANSLATION]150+ CodeCombat 程式碼關卡',
+      icons_lesson_slides: '[AI_TRANSLATION]60+ 一應俱全的教材幻燈片',
+      icons_kahoot: '[AI_TRANSLATION]400+ Kahoot! 測驗問題',
+      icons_classroom_instructions: '[AI_TRANSLATION]100+ 小時的課堂教學',
+      icons_weeks_of_curriculum: '[AI_TRANSLATION]26 週的課程',
+      icons_project_activities: '[AI_TRANSLATION]25+ 基於項目的活動',
+      //    icons_game_learning: "Game-Based Learning",
+      //    icons_text_coding: "Text-Based Coding",
+      icons_chromebook_compatible: '[AI_TRANSLATION]支援 Chromebook',
+      icons_standards_aligned: '[AI_TRANSLATION]符合標準的課堂',
+      //    page_title: "AP Computer Science Principles",
+      page_description: '[AI_TRANSLATION]我們的 AP CSP 課程提供基於遊戲和一站式工具，為學生備戰 AP 考試。',
+      page_description_endorsed: '[AI_TRANSLATION]由 College Board 認可，我們的 AP CSP 課程提供基於遊戲和即插即用工具，幫助學生準備 AP 考試。',
+      request_access: '[AI_TRANSLATION]請求訪問',
+      //    game_based_learning: "Game-Based Learning",
+      game_based_learning_description: '[AI_TRANSLATION]我們創新的遊戲化學習技術改變了學生為 AP CSP 考試準備的方式。透過我們的瀏覽器遊戲，學生可以學習重要考試主題，同時鍛鍊成功所需的批判性思維技能。\n',
+      fostering_confidence: '[AI_TRANSLATION]培養對 AP 考試的信心',
+      fostering_confidence_description: '[AI_TRANSLATION]在我們的課程中，學生將通過層次化且易於接觸的總結項目練習每個階段的創作任務，這些項目可以適應各種學生需求。我們還提供課程和 Kahoot! 測驗供學生練習選擇題考試。\n',
+      accessible_real_world: '[AI_TRANSLATION]可訪問性與現實世界的聯繫',
+      accessible_real_world_description: '[AI_TRANSLATION]對於數據、計算影響和其他大想法，我們的交鑰匙課程幻燈片通過有意義的討論和合作項目幫助學生探索這些主題。充滿真實世界的聯繫，我們的課程將使學生全面了解編碼如何影響他們的日常生活。',
+      college_board: '[AI_TRANSLATION]美國大學理事會目前正在審查我們的課程，預計將於2023年3月認可。\n',
+      our_curriculum_offers: '[AI_TRANSLATION]我們的課程提供有趣的功能，讓學生可以通過探索學習電腦科學...',
+      course_outline: '[AI_TRANSLATION]課程大綱',
+      course_outline_description: '[AI_TRANSLATION]以下描述是 CodeCombat AP CSP 課程的內容概述。\n',
+      explore_our_curriculum: '[AI_TRANSLATION]探索我們的課程',
+      syllabus: '[AI_TRANSLATION]教學大綱',
+      pacing_guide: '[AI_TRANSLATION]課程進度指南',
+      flyer: '[AI_TRANSLATION]傳單',
+      sample_lesson_slides: '[AI_TRANSLATION]瀏覽我們的示範課程幻燈片',
+      //    introduction_to_cs: "Introduction to Computer Science",
+      introduction_to_cs_description: '[AI_TRANSLATION]語法和序列',
+      big_ideas: '[AI_TRANSLATION]大構思: 計算機系統和網絡',
+      big_ideas_description: '[AI_TRANSLATION]互聯網 (概述)',
+      get_full_course: '[AI_TRANSLATION]在這裡獲取完整課程',
+      professional_development: '[AI_TRANSLATION]專業發展',
+      professional_development_description: '[AI_TRANSLATION]CodeCombat 提供一個自我節奏的線上專業發展課程，適合具有不同 AP CSP 水平專業知識的教育工作者。參與者將探索 CodeCombat 的課程，了解如何利用它來幫助學生成功通過 AP CSP 考試。通過與其他教師的非同步討論和與 CodeCombat 學習設計師的視頻會議，您將學會所需的工具和技巧，以支持所有學生成功完成 AP CSP。在課程結束時，您將獲得結業證書，可用於更新您的教學資格。\n',
+      more_information: '[AI_TRANSLATION]更多資訊',
+      //    contact_us: "Contact Us",
+      question_1: '[AI_TRANSLATION]如何了解更多關於AP CSP課程的信息？',
+      answer_1: '[AI_TRANSLATION]你可以查看 College Board 的 AP Computer Science Principles __course_overview__，並探索這門課程的 __outcomes__。',
+      question_2: '[AI_TRANSLATION]CodeCombat 的 AP CSP 課程有什麼技術要求？',
+      answer_2: '[AI_TRANSLATION]我們建議至少 4GB 的 RAM 並使用現代瀏覽器，如 Chrome、Safari、Firefox 或 Edge。欲了解更多具體資訊，請訪問 __coco_requirements__。',
+      question_3: '[AI_TRANSLATION]我們的課程計劃和課程幻燈片的格式是什麼？',
+      answer_3: '[AI_TRANSLATION]我們所有的課堂投影片都是 Google 投影片格式，我們的課程計劃是 Google Docs 格式。這些格式允許您複製我們的課程教材，以便您根據學生的需求進行調整。課堂投影片和課程計劃也可以下載為 Microsoft® PowerPoint 和 Word 檔案。  ',
+      //    course_overview: "Course Overview",
+      outcomes: '[AI_TRANSLATION]結果',
+      coco_requirements: '[AI_TRANSLATION]CodeCombat 的系統需求',
+      coco_recognized_blurb: '[AI_TRANSLATION]CodeCombat 被 College Board 認可為 AP® 計算機科學原理 (AP CSP) 課程和專業發展的認可提供者。這個認可以確認 CodeCombat 的課程符合所有 AP 課程框架標準和 AP CSP 評估。這使得學校可以使用包括 College Board 課程審核預先批准的 AP CSP 大綱和正式認可的專業發展資源，這些資源可以幫助教師準備教學這個課程。',
+      ap_csp_portal: '[AI_TRANSLATION]AP CSP 入口網站',
+    },
 
-    //  apcsp_curriculum:
-    //    access_syllabus: "Access our College Board approved __syllabus__"
-    //    college_board_approved_syllabus: "Syllabus"
-    //    access_pacing_guide: "Review our suggested __pacing_guide__"
-    //    pacing_guide: "Pacing Guide"
-    //    resources: "Professional Development Resources"
-    //    professional_development_description: "CodeCombat offers an online, self-paced professional development course for educators of all levels of AP CSP expertise. Participants will explore the CodeCombat curriculum and learn how it can be used to prepare students to succeed on the AP CSP exam. Through asynchronous discussions with fellow teachers and video conferences with CodeCombat curriculum developers, you will be equipped with the tools and techniques you need to support all of your students in AP CSP. At the end of the course, you will earn a Certificate of Completion that can be used for the renewal of your teaching credential. We offer our Curriculum on __edapp__."
-    //    contact: "Contact __apcsp_email__ to get access."
-    //    role: "Role"
-    //    no_license: "Our AP CSP curriculum requires a paid license or participation in our AP CSP pilot program. If you're interested in the pilot program, please fill out this form"
-    //    request_license: "Join Pilot Program"
-    //    page_title: "AP Computer Science Principles Curriculum"
-    //    explore_each_unit: "Explore each unit, including <br> <strong>lesson plans</strong> and <strong>lesson slides</strong>"
+    apcsp_curriculum: {
+      access_syllabus: '[AI_TRANSLATION]訪問我們獲得 College Board 批准的 __syllabus__',
+      college_board_approved_syllabus: '[AI_TRANSLATION]教學大綱',
+      access_pacing_guide: '[AI_TRANSLATION]回顧我們建議的 __pacing_guide__',
+      pacing_guide: '[AI_TRANSLATION]課程進度指南',
+      resources: '[AI_TRANSLATION]專業發展資源',
+      professional_development_description: '[AI_TRANSLATION]CodeCombat 為所有 AP CSP 專業知識水平的教師提供了一個線上、自 paced 的專業發展課程。參與者將探索 CodeCombat 課程，了解如何準備學生通過 AP CSP 考試。通過與其他教師的異步討論和與 CodeCombat 課程開發者的視頻會議，你將獲得支持所有 AP CSP 學生的工具和技術。在課程結束時，你將獲得一個完成證書，可以用於更新你的教師資格證。我們的課程提供在 __edapp__。  ',
+      contact: '[AI_TRANSLATION]聯繫 __apcsp_email__ 獲取訪問權限。',
+      role: '[AI_TRANSLATION]角色',
+      location: '[AI_TRANSLATION]位置',
+      state_and_country: '[AI_TRANSLATION]州和國家  ',
+      no_license: '[AI_TRANSLATION]我們的 AP CSP 課程需要付費許可才能查看。了解更多 CodeCombat 的 AP CSP 課程，請訪問我們的"關於"頁面，點擊下方鏈接。',
+      request_license: '[AI_TRANSLATION]加入試點計畫\n',
+      page_title: '[AI_TRANSLATION]AP 計算機科學原理課程',
+      explore_each_unit: '[AI_TRANSLATION]探索每一單元，包括 <br> <strong>課程計劃</strong> 和 <strong>課程幻燈片</strong>',
+      about_apcsp_curriculum: '[AI_TRANSLATION]關於 AP CSP 課程',
+      step_1_title: '[AI_TRANSLATION]今天就開始使用',
+      step_1_subtitle: '[AI_TRANSLATION]上傳 CodeCombat 的 AP CSP 課程大綱到 College Board 的課程審核。',
+      step_1_button_1: '[AI_TRANSLATION]檢視課程大綱',
+      step_1_button_2: '[AI_TRANSLATION]完成審計',
+      join_the_community: '[AI_TRANSLATION]加入 AP 社群\n',
+      ap_teachers: '[AI_TRANSLATION]教師中心  ',
+      ap_classroom: '[AI_TRANSLATION]AP 課堂',
+      slack: '[AI_TRANSLATION]AP 工作區',
+      //    join: "Join",
+    },
 
-    //  hoc_2019:
-    //    heading: "Hour of Code"
-    //    start: "Start Your Journey"
-    //    create_a_class: "Create a class to track your students' progress and ensure their hour of code games are saved!"
-    //    choose_language: "1. CHOOSE LANGUAGE"
-    //    programming_language: "Language"
-    //    sign_up: "2. SIGN UP"
-    //    already_have_account: "Already have a CodeCombat or Ozaria account? Login."
-    //    download_lesson_plan: "Download Lesson Plan"
-    //    try_activity_without_class: "Try activity without creating a class"
-    //    invite_students: "Invite Students to Your Class By Sending Them"
-    //    class_code: "CLASS CODE"
-    //    enter_code: "Students can enter this code at www.ozaria.com/hoc"
-    //    class_url: "CLASS URL"
-    //    share_url: "Share URL to have students automatically join your class."
-    //    start_activity: "Start Activity"
-    //    save_progress_modal: "Save your progress and keep playing later"
-    //    want_to_save: "Want to save your Hour of Code progress?"
-    //    ask_teacher_class_code: "Ask your teacher for your Class Code"
-    //    dont_have: "I don't have one, but want to Try the Activity!"
-    //    hoc_activity: "Hour of Code Activity"
-    //    save_progress: "Save Progress"
-    //    err_google_exists: "An account already exists for the Google account you've selected. Please choose another Google account or sign up with a username and password."
-    //    err_username_taken: "An account already exists for the username you've entered. Please choose another username."
-    //    enter_it_here: "Enter it here to save your progress as you play:"
-    //    have_a_class_code: "Have a class code?"
-    //    create_class_and_try_activity: "Create Class and Try Activity"
+    hoc_2019: {
+      heading: '[AI_TRANSLATION]編程一小時',
+      start: '[AI_TRANSLATION]開始你的旅程',
+      create_a_class: '[AI_TRANSLATION]建立班級來追蹤你的學生進度，並確保他們的一小時編碼遊戲已保存！',
+      choose_language: '[AI_TRANSLATION]1. 選擇語言',
+      programming_language: '[AI_TRANSLATION]語言',
+      sign_up: '[AI_TRANSLATION]2. 註冊',
+      already_have_account: '[AI_TRANSLATION]已經有CodeCombat或Ozaria帳號？請登入。',
+      download_lesson_plan: '[AI_TRANSLATION]下載教案',
+      try_activity_without_class: '[AI_TRANSLATION]在不建立班級的情況下試試活動',
+      invite_students: '[AI_TRANSLATION]通過發送邀請學生加入你的班級  ',
+      class_code: '[AI_TRANSLATION]CLASS CODE',
+      enter_code: '[AI_TRANSLATION]學生可以在 www.ozaria.com/hoc 輸入這個代碼',
+      class_url: '[AI_TRANSLATION]CLASS URL',
+      share_url: '[AI_TRANSLATION]分享這個 URL 讓學生自動加入你的班級。',
+      start_activity: '[AI_TRANSLATION]開始活動',
+      save_progress_modal: '[AI_TRANSLATION]儲存你的進度，稍後繼續遊玩',
+      want_to_save: '[AI_TRANSLATION]想保存你的Code時光碼進度嗎？',
+      ask_teacher_class_code: '[AI_TRANSLATION]向你的老師索取班級代碼',
+      dont_have: '[AI_TRANSLATION]我沒有，但想試試這個活動！',
+      hoc_activity: '[AI_TRANSLATION]編程一小時活動',
+      save_progress: '[AI_TRANSLATION]儲存進度',
+      err_google_exists: '[AI_TRANSLATION]你選擇的 Google 帳戶已經有一個現有帳戶了。請選擇另一個 Google 帳戶或使用用戶名和密碼註冊。  ',
+      err_username_taken: '[AI_TRANSLATION]你輸入的用戶名已經存在。請選擇另一個用戶名。  ',
+      enter_it_here: '[AI_TRANSLATION]請在這裡輸入以保存你的遊戲進度：',
+      have_a_class_code: '[AI_TRANSLATION]有課堂碼嗎？',
+      create_class_and_try_activity: '[AI_TRANSLATION]建立課程並嘗試活動',
+    },
 
-    //  parents_landing_2:
-    //    splash_title: "Discover the magic of coding at home."
-    //    learn_with_instructor: "Learn with an Instructor"
-    //    live_classes: "Live Online Classes"
-    //    live_classes_offered: "CodeCombat now offers live online computer science classes for students learning at home. Great for students who work best in 1:1 or small-group settings where learning outcomes are tailored to their needs."
-    //    live_class_details_1: "Small group or private lessons"
-    //    live_class_details_2: "JavaScript and Python coding, plus core Computer Science concepts"
-    //    live_class_details_3: "Taught by expert coding instructors"
-    //    live_class_details_4: "Individualized and instant feedback"
-    //    live_class_details_5: "Curriculum trusted by 80,000+ educators"
-    //    try_free_class: "Try a free 60 minute class"
-    //    pricing_plans: "Pricing Plans"
-    //    choose_plan: "Choose Plan"
-    //    per_student: "per student"
-    //    sibling_discount: "15% Sibling Discount!"
-    //    small_group_classes: "Small Group Coding Classes"
-    //    small_group_classes_detail: "4 Group Sessions / Mo."
-    //    small_group_classes_price: "$159/mo"
-    //    small_group_classes_detail_1: "4:1 student to instructor ratio"
-    //    small_group_classes_detail_2: "60 minute classes"
-    //    small_group_classes_detail_3: "Build projects and give feedback to other students"
-    //    small_group_classes_detail_4: "Screen sharing to get live feedback on coding and debugging"
-    //    private_classes: "Private Coding Classes"
-    //    four_sessions_per_month: "4 Private Sessions / Mo."
-    //    eight_sessions_per_month: "8 Private Sessions / Mo."
-    //    four_private_classes_price: "$219/mo"
-    //    eight_private_classes_price: "$399/mo"
-    //    private_classes_detail: "4 or 8 Private Sessions / Mo."
-    //    private_classes_price: "$219/mo or $399/mo"
-    //    private_classes_detail_1: "1:1 student to instructor ratio"
-    //    private_classes_detail_2: "60 minute classes"
-    //    private_classes_detail_3: "Flexible schedule tailored to your needs"
-    //    private_classes_detail_4: "Lesson plans and live feedback tailored to students' learning style, pace, and ability level"
-    //    best_seller: "Best Seller"
-    //    best_value: "Best Value"
-    //    codecombat_premium: "CodeCombat Premium"
-    //    learn_at_own_pace: "Learn at Your Own Pace"
-    //    monthly_sub: "Monthly Subscription"
-    //    buy_now: "Buy now"
-    //    per_month: " / mo"
-    //    lifetime_access: "Lifetime Access"
-    //    premium_details_title: "Great for self-driven learners who thrive with complete autonomy."
-    //    premium_details_1: "Access to subscriber-only heroes, pets and skills"
-    //    premium_details_2: "Receive bonus gems to buy gear, pets and more heroes"
-    //    premium_details_3: "Unlock a deeper understanding of core concepts and skills like web and game development"
-    //    premium_details_4: "Premium support for subscribers"
-    //    premium_details_5: "Create private clans to invite friends and compete on a group leaderboard"
-    //    premium_need_help: "Need help or prefer Paypal? Email <a href=\"mailto:support@codecombat.com\">support@codecombat.com</a>"
-    //    not_sure_kid: "Not sure if CodeCombat is right for your kid?  Ask them!"
-    //    share_trailer: "Share our game trailer with your kid and have them create an account to get started."
-    //    why_kids_love: "Why Kids Love CodeCombat"
-    //    learn_through_play: "Learning Through Play"
-    //    learn_through_play_detail: "Students grow their coding skills, and also use problem-solving skills to progress through levels and power up their heroes."
-    //    skills_they_can_share: "Skills They Can Share"
-    //    skills_they_can_share_details: "Students build real-world skills and create projects, such as games and webpages, that they can share with friends and family."
-    //    help_when_needed: "Help When They Need It"
-    //    help_when_needed_detail: "Using data, every level has been built to be challenging, but never discouraging.  Students are supported with hints when they get stuck."
-    //    book_first_class: "Book your first class"
-    //    why_parents_love: "Why Parents Love CodeCombat"
-    //    most_engaging: "The most engaging way to learn typed code"
-    //    most_engaging_detail: "Your child will have everything they need at the tip of their fingers to program algorithms in Python or JavaScript, build websites and even design their own games, while learning material aligned with national curriculum standards."
-    //    critical_skills: "Building critical skills for the 21st century"
-    //    critical_skills_detail: "Your child will learn how to navigate and become citizens in the digital world. CodeCombat is a solution that enhances your child’s critical thinking, creativity, and resilience, empowering them with the skills they need for any industry."
-    //    parent_support: "Supported by parents like you"
-    //    parent_support_detail: "At CodeCombat, we’re parents. We’re coders. We’re educators. But most of all, we’re people who believe in giving our kids the best opportunity for success in whatever it is they decide to do."
-    //    everything_they_need: "Everything they need to start typing code on their own"
-    //    beginner_concepts: "Beginner Concepts"
-    //    beginner_concepts_1: "Basic syntax"
-    //    beginner_concepts_2: "While loops"
-    //    beginner_concepts_3: "Arguments"
-    //    beginner_concepts_4: "Strings"
-    //    beginner_concepts_5: "Variables"
-    //    beginner_concepts_6: "Algorithms"
-    //    intermediate_concepts: "Intermediate Concepts"
-    //    intermediate_concepts_1: "If statements"
-    //    intermediate_concepts_2: "Boolean comparisons"
-    //    intermediate_concepts_3: "Nested conditionals"
-    //    intermediate_concepts_4: "Functions"
-    //    intermediate_concepts_5: "Basic input handling"
-    //    intermediate_concepts_6: "Basic game artificial intelligence"
-    //    advanced_concepts: "Advanced Concepts"
-    //    advanced_concepts_1: "Event handling"
-    //    advanced_concepts_2: "Conditional while loops"
-    //    advanced_concepts_3: "Object literals"
-    //    advanced_concepts_4: "Parameters"
-    //    advanced_concepts_5: "Vectors"
-    //    advanced_concepts_6: "Math library operations"
-    //    advanced_concepts_7: "Recursion"
-    //    get_started: "Get Started"
-    //    quotes_title: "What parents and kids are saying about CodeCombat"
-    //    quote_1: "\"This is next level coding for kids and it’s pretty fun. I am going to learn a thing or two from this too.\""
-    //    quote_2: "\"I liked learning a new skill that I haven’t done before. I liked that when I was struggling, I could find the goals. I also liked that you could see the code work correctly.\""
-    //    quote_3: "\"Oliver’s Python is coming along. He’s using CodeCombat to make his own video games. He challenges me to play his games, then laughs when I lose.\""
-    //    quote_4: "\"This is one of my favorite things to do. Every morning I wake up and play CodeCombat. If I had to give CodeCombat a rating from 1 to 10, I would give it a 10!\""
-    //    parent: "Parent"
-    //    student: "Student"
-    //    grade: "Grade"
-    //    subscribe_error_user_type: "Looks like you've already signed up for an account. If you're interested in CodeCombat Premium, please contact us at team@codecombat.com."
-    //    subscribe_error_already_subscribed: "You've already signed up for a Premium account."
-    //    start_free_trial_today: "Start free trial today"
-    //    live_classes_title: "Live coding classes from CodeCombat!"
-    //    live_class_booked_thank_you: "Your live class has been booked, thank you!"
-    //    book_your_class: "Book Your Class"
-    //    call_to_book: "Call now to book"
-    //    student_journey_start: "Congratulations! Your student's coding journey is about to begin!"
-    //    enter_email_address: "Please provide your email address to get started:"
-    //    enter_parent_email_address: "If you are a student under 18 years of age, please enter your parent or guardian's email address."
-    //    email_sent_success: "Awesome! An email has been sent to the address you provided."
-    //    email_schedule_info: "Please open and click the link to access our trial class scheduling portal and select any available time that works best for you."
+    parents_landing_1: {
+      online_coding_classes: '[AI_TRANSLATION]在線程式設計直播課程',
+      powered_by_play: '[AI_TRANSLATION]Powered by Play',
+      partnership: '[AI_TRANSLATION]與...合作',
+      kids_message: '[AI_TRANSLATION]小朋友們：把這些給你們的爸媽看，來獲得免費的編程課和高級英雄吧！',
+      codecombat_intro: '[AI_TRANSLATION]CodeCombat 結合遊戲和個性化指導的力量，提供每週讓你的孩子期待的在線編程課程！',
+      remote_learning_works: '[AI_TRANSLATION]有效的遠程學習',
+      invest_in_future: '[AI_TRANSLATION]投資您孩子的未來同時讓他們享受樂趣！  ',
+      personalized_learning_header: '[AI_TRANSLATION]個性化學習',
+      personalized_learning_details: '[AI_TRANSLATION]我們敬業的老師通過結構化課程提供個性化的關注。您的孩子將通過挑戰並一起慶祝成功，成為自信的終身編碼員！',
+      power_of_play_header: '[AI_TRANSLATION]遊戲的力量',
+      power_of_play_details: '[AI_TRANSLATION]我們的學生在遊戲過程中會打出真正的 Python 和 JavaScript！我們引人入勝的課程保證您再也不需要強迫您的孩子上課。我們承諾。',
+      early_coding_exposure: '[AI_TRANSLATION]提早接觸程式碼',
+      early_coding_exposure_details: '[AI_TRANSLATION]編程是一個高度受歡迎的工作技能，這種需求只會增長。讓你的孩子早期接觸編程可以增加他們日後追求計算機科學的機會。',
+      quote_1: '[AI_TRANSLATION]即使班每週六早上7點開始，我兒子還是太興奮了，他比我早醒！CodeCombat 為我兒子提供了一個進階編程技能的途徑。',
+      parent_name: '[AI_TRANSLATION]Latthaphon Pohpon, 家長',
+      course_offering: '[AI_TRANSLATION]課程提供',
+      flexible_scheduling: '[AI_TRANSLATION]提供個人或小組課程選項和彈性安排，這是開始學習計算機科學最簡單的方法。\n',
+      private_instructions: '[AI_TRANSLATION]所有課程都提供個人化的、一對一教學。若要報名一組學生，請聯絡<a href="mailto:classes@codecombat.com">classes@codecombat.com</a>以獲取自訂計劃。  ',
+      most_popular: '[AI_TRANSLATION]最受歡迎',
+      best_value: '[AI_TRANSLATION]最佳價值',
+      self_paced: '[AI_TRANSLATION]自主學習',
+      private: '[AI_TRANSLATION]私人',
+      subscription_plan: '[AI_TRANSLATION]訂閱計畫',
+      per_year: '[AI_TRANSLATION]每年',
+      price_per_year_1: '[AI_TRANSLATION]每月 $219',
+      price_per_year_2: '[AI_TRANSLATION]每月 $399',
+      //    not_available: "N/A",
+      one_to_one: '[AI_TRANSLATION]1:1',
+      private_sessions_1: '[AI_TRANSLATION]每週 1 次私人教學',
+      private_sessions_2: '[AI_TRANSLATION]每週 2 次私人教學',
+      benefit_1: '[AI_TRANSLATION]通過 Zoom 進行 60 分鐘的課程',
+      benefit_2: '[AI_TRANSLATION]師生比例',
+      benefit_3: '[AI_TRANSLATION]包含 CodeCombat 高級許可\n',
+      benefit_4: '[AI_TRANSLATION]立即且量身訂製的回饋',
+      benefit_5: '[AI_TRANSLATION]額外活動、獎勵和課程完成證書',
+      benefit_6: '[AI_TRANSLATION]課程結束專案展示所學概念',
+      benefit_7: '[AI_TRANSLATION]每月來自講師的進度更新',
+      benefit_8: '[AI_TRANSLATION]靈活的課程表適應每位學生的學習需求',
+      benefit_9: '[AI_TRANSLATION]1:1 支援難度較高的程式概念',
+      benefit_10: '[AI_TRANSLATION]自動資格加入 AI League 編碼錦標賽',
+      subscription_details: '[AI_TRANSLATION]所有訂閱按月計費，可以暫停、取消或重啟，無費用。你的訂閱購買在前 30 天內是 100% 無風險的。如果因任何原因不想繼續，只需在購買後 30 天內 <a href="mailto:classes@codecombat.com">聯絡我們</a>，我們會即時退款給你，全額無問題。所有方案會自動依相同等級和計費週期更新，除非另有更改或取消。  ',
+      curriculum: '[AI_TRANSLATION]我們的課程',
+      //    curriculum_description: "Trusted by over 140,000 educators worldwide, our scaffolded curriculum is critical to helping students persevere. Our students type real code from the start, become more confident with each class, and learn how Computer Science is relevant to their daily lives.",
+      student_outcomes: '[AI_TRANSLATION]學生結果',
+      grit_header: '[AI_TRANSLATION]堅持不懈',
+      grit_description: '[AI_TRANSLATION]CodeCombat 挑戰學生接受並從錯誤中學習。內建提示幫助學生識別並修復錯誤，提高編碼信心。',
+      problem_solving_header: '[AI_TRANSLATION]解決問題的技能',
+      problem_solving_description: '[AI_TRANSLATION]通過迭代的問題解決過程，我們的學生解決編碼挑戰，並靈活運用創造力來構建自己的遊戲、網站和應用程序作為課程結束項目。',
+      technological_literacy: '[AI_TRANSLATION]技術素養',
+      technological_literacy_description: '[AI_TRANSLATION]學生會深刻理解計算機科學和技術素養，這些技能不僅能轉移到其他學科，還能幫助未來的職業發展。',
+      concepts_covered: '[AI_TRANSLATION]涵蓋的概念',
+      beginner: '[AI_TRANSLATION]初學者',
+      beginner_description: '[AI_TRANSLATION]給那些幾乎沒有用文本編寫程式經驗的學生。',
+      beginner_concepts_1: '[AI_TRANSLATION]序列',
+      //    beginner_concepts_2: "Algorithms",
+      //    beginner_concepts_3: "Syntax",
+      //    beginner_concepts_4: "Strings",
+      //    beginner_concepts_5: "Arguments",
+      beginner_concepts_6: '[AI_TRANSLATION]循環',
+      //    beginner_concepts_7: "Variables",
+      beginner_concepts_8: '[AI_TRANSLATION]笛卡爾坐標',
+      intermediate_header: '[AI_TRANSLATION]中級',
+      itermediate_details: '[AI_TRANSLATION]給那些有一些文本編寫程式經驗的學生。',
+      intermediate_concepts_1: '[AI_TRANSLATION]布爾邏輯',
+      //    intermediate_concepts_2: "Properties",
+      intermediate_concepts_3: '[AI_TRANSLATION]高階循環',
+      //    intermediate_concepts_4: "Conditionals",
+      intermediate_concepts_5: '[AI_TRANSLATION]巢狀條件',
+      //    intermediate_concepts_6: "Functions",
+      intermediate_concepts_7: '[AI_TRANSLATION]事件',
+      intermediate_concepts_8: '[AI_TRANSLATION]基本遊戲 AI',
+      advanced_header: '[AI_TRANSLATION]高階',
+      advanced_details: '[AI_TRANSLATION]給那些擁有豐富文本編寫程式經驗並且對複雜概念有良好理解的學生。',
+      advanced_concepts_1: '[AI_TRANSLATION]高階字串',
+      advanced_concepts_2: '[AI_TRANSLATION]計算機算術',
+      advanced_concepts_3: '[AI_TRANSLATION]帶返回值的函數',
+      advanced_concepts_4: '[AI_TRANSLATION]複雜條件語句',
+      //    advanced_concepts_5: "Arrays",
+      advanced_concepts_6: '[AI_TRANSLATION]Break/continue 語句',
+      //    advanced_concepts_7: "Recursion",
+      advanced_concepts_8: '[AI_TRANSLATION]堆疊與佇列',
+      ai_hints: '[AI_TRANSLATION]AI 提示集',
+      ai_hints_details: '[AI_TRANSLATION]我們的指導老師會提供您的孩子所需的指導和支持，但並非總是能隨時在場。這時我們創新的 AI 提示功能就能在課程間繼續幫助學習。這個支持功能能夠評估代碼、指出錯誤並解釋如何修正。最重要的是，它提供了理解原因所需的所有背景知識，而不會提供整個解決方案。只有目前的代碼問題幫助可用，學生仍需逐步解決每一級的編程挑戰。訂閱者每天會分配到 <b>20 次 AI 提示</b>，以確保他們總能獲得所需的支持。\n',
+      //    faq_header: "FAQs",
+      faq_q_1: '[AI_TRANSLATION]教練是如何與我的孩子匹配的？',
+      faq_a_1_trial_class: '[AI_TRANSLATION]在初級試課之後，我們的團隊會根據每個學生的經驗水平、個性、興趣和時間安排，精心匹配我們的在線教師。如果你或你的孩子對教師的教學不滿意，我們的團隊會與你合作改善體驗。',
+      faq_a_1: '[AI_TRANSLATION]我們的每位講師都是精心挑選來代表 CodeCombat 並提供有趣和個性化學習體驗的。我們相信您的孩子會喜歡和我們的任何一位講師學習，但如果您因任何理由想要更換老師，我們很樂意幫助。',
+      faq_q_2: '[AI_TRANSLATION]有學生年齡限制嗎？',
+      faq_a_2: '[AI_TRANSLATION]我們建議年齡在 7 至 16 歲之間的學生參加我們的在線課程。不過，如果你的孩子會打字、會用滑鼠並且能夠熟練使用電腦，他們也歡迎加入我們的課程。',
+      faq_q_3: '[AI_TRANSLATION]我需要什麼樣的技術才能參加課程？',
+      faq_a_3: '[AI_TRANSLATION]任何連接網路且配備完整鍵盤的設備皆可。推薦使用筆記本電腦、桌上型電腦和Chromebook，但如果有外接鍵盤的話，iPad 也可以使用。',
+      faq_q_4: '[AI_TRANSLATION]取消政策是什麼？',
+      faq_a_4: '[AI_TRANSLATION]你的訂閱購買在前30天內是100%無風險的。如果你出於任何原因決定不繼續，只需在購買後30天內 <a href="mailto:classes@codecombat.com">聯繫我們</a>，我們會立即全額退款，無需任何問題。你也可以隨時凍結訂閱，並在方便的時候重新激活。\n',
+      faq_q_5: '[AI_TRANSLATION]如果我需要重新安排課程怎麼辦？',
+      faq_a_5: '[AI_TRANSLATION]一旦你預訂了我們的每週課程，我們會在時間表上專門為你預留時間，所以重新安排課程需要提前48小時通知。你可以通過發送電子郵件到<a href="mailto:classes@codecombat.com">classes@codecombat.com</a>來重新安排你的課程。少於48小時通知的缺課或取消的課程將不會重新安排或退款。\n',
+      faq_q_6: '[AI_TRANSLATION]我應該期待試用課程中會有什麼？',
+      faq_a_6: '[AI_TRANSLATION]每節試聽課是一對一的 60 分鐘的課程，包括<strong>45 分鐘的講解</strong>和<strong>15 分鐘與家長或監護人討論</strong>的時間。這 15 分鐘非常重要，用來回答問題，提供課程進度的見解，幫助您為孩子選擇合適的技能等級和編程語言。如果有需要，我們的遠程學習顧問可能會參加這部分會議。',
+      other_questions: '[AI_TRANSLATION]如果你有任何其他關於我們在線課程的問題，請 <a href="mailto:classes@codecombat.com">聯繫我們。</a>',
+    },
 
-    //  modal_timetap_confirmation:
-    //    congratulations: "Congratulations!"
-    //    paragraph_1: "Your student’s coding adventure awaits."
-    //    paragraph_2: "We have your child booked for an online class and we’re so excited to meet them!"
-    //    paragraph_3: "Soon you should be recieving an email invitation with the class schedule details as well as your class instructor’s name and contact information."
-    //    paragraph_4: "If for whatever reason you need to modify your class selections, reschedule or just want to talk with a customer care specialist, simply reach out using the contact information provided in your email invitation."
-    //    paragraph_5: "Thank you for choosing CodeCombat and good luck on your computer science journey!"
-    //    back_to_coco: "Back to CodeCombat"
+    parents_landing_2: {
+      splash_title: '[AI_TRANSLATION]在家中體驗編程的魔力',
+      learn_with_instructor: '[AI_TRANSLATION]用講師學習\n',
+      live_classes: '[AI_TRANSLATION]在線直播課程',
+      live_classes_offered: '[AI_TRANSLATION]CodeCombat 現在提供線上真人電腦科學課程，適合在家學習的學生。非常適合那些在 1:1 或小組環境中學習效果最佳的學生，學習成果會根據他們的需求量身定制。',
+      live_class_details_1: '[AI_TRANSLATION]小組或私人課程',
+      live_class_details_2: '[AI_TRANSLATION]JavaScript和Python編程，加上核心計算機科學概念\n',
+      live_class_details_3: '[AI_TRANSLATION]由專業編碼教師授課  ',
+      live_class_details_4: '[AI_TRANSLATION]個性化及即時反饋',
+      live_class_details_5: '[AI_TRANSLATION]受到80,000+教育者信賴的課程',
+      try_free_class: '[AI_TRANSLATION]試試免費的60分鐘課程',
+      pricing_plans: '[AI_TRANSLATION]價格計劃',
+      choose_plan: '[AI_TRANSLATION]選擇方案',
+      per_student: '[AI_TRANSLATION]每位學生',
+      sibling_discount: '[AI_TRANSLATION]兄弟姐妹優惠 15%！',
+      small_group_classes: '[AI_TRANSLATION]小組編程課程',
+      small_group_classes_detail: '[AI_TRANSLATION]每月 4 次小組課程',
+      small_group_classes_price: '[AI_TRANSLATION]$159/月',
+      small_group_classes_detail_1: '[AI_TRANSLATION]學生與指導老師比例為 4:1',
+      small_group_classes_detail_2: '[AI_TRANSLATION]60 分鐘課程',
+      small_group_classes_detail_3: '[AI_TRANSLATION]建立專案並給其他學生反饋',
+      small_group_classes_detail_4: '[AI_TRANSLATION]共享螢幕以獲取代碼和除錯的及時反饋',
+      private_classes: '[AI_TRANSLATION]私人編程課程',
+      four_sessions_per_month: '[AI_TRANSLATION]每月 4 次私人教學',
+      eight_sessions_per_month: '[AI_TRANSLATION]每月 8 次私人教學',
+      four_private_classes_price: '[AI_TRANSLATION]$219/月',
+      eight_private_classes_price: '[AI_TRANSLATION]$399/月',
+      private_classes_detail: '[AI_TRANSLATION]每月 4 或 8 次私人教學',
+      private_classes_price: '[AI_TRANSLATION]$219/月 或 $399/月',
+      private_classes_detail_1: '[AI_TRANSLATION]學生與指導老師比例為 1:1',
+      private_classes_detail_2: '[AI_TRANSLATION]60 分鐘課程',
+      private_classes_detail_3: '[AI_TRANSLATION]靈活的課程表量身定做符合你的需求',
+      private_classes_detail_4: '[AI_TRANSLATION]根據學生的學習風格、進度和能力水平，量身定製課程計劃和即時反饋\n',
+      best_seller: '[AI_TRANSLATION]暢銷書  ',
+      best_value: '[AI_TRANSLATION]最佳價值',
+      codecombat_premium: '[AI_TRANSLATION]CodeCombat 高級版',
+      learn_at_own_pace: '[AI_TRANSLATION]自主學習',
+      //    monthly_sub: "Monthly Subscription",
+      buy_now: '[AI_TRANSLATION]立即購買',
+      per_month: '[AI_TRANSLATION] / 月  ',
+      lifetime_access: '[AI_TRANSLATION]終身訪問',
+      premium_details_title: '[AI_TRANSLATION]非常適合那些在完全自主的情況下茁壯成長的自驅型學習者',
+      premium_details_1: '[AI_TRANSLATION]訪問訂閱者專屬的英雄、寵物和技能',
+      premium_details_2: '[AI_TRANSLATION]接受額外的寶石來購買裝備、寵物和更多的英雄',
+      premium_details_3: '[AI_TRANSLATION]掌握深層的核心概念和技能，如網頁和遊戲開發',
+      premium_details_4: '[AI_TRANSLATION]訂閱者的專屬支援',
+      premium_details_5: '[AI_TRANSLATION]建立私人部落來邀請朋友並在小組排行榜上競爭',
+      premium_need_help: '[AI_TRANSLATION]需要幫忙或更喜歡 Paypal？電郵 <a href="mailto:support@codecombat.com">support@codecombat.com</a>  ',
+      not_sure_kid: '[AI_TRANSLATION]不確定 CodeCombat 是否適合你的孩子？問問他們吧！\n',
+      share_trailer: '[AI_TRANSLATION]跟你的孩子分享我們的遊戲預告片，讓他們建立帳戶開始遊戲。',
+      why_kids_love: '[AI_TRANSLATION]小朋友為什麼喜歡CodeCombat',
+      learn_through_play: '[AI_TRANSLATION]透過遊戲學習\n',
+      learn_through_play_detail: '[AI_TRANSLATION]學生不僅會提升編碼能力，還會通過使用解決問題的技巧來通關並給英雄升級。',
+      skills_they_can_share: '[AI_TRANSLATION]他們可以分享的技能',
+      skills_they_can_share_details: '[AI_TRANSLATION]學生建立真實世界的技能並創作專案，例如可以與朋友和家人分享的遊戲和網頁。',
+      help_when_needed: '[AI_TRANSLATION]當他們需要幫助時提供幫助\n',
+      help_when_needed_detail: '[AI_TRANSLATION]使用數據，每個關卡都經過精心設計讓它充滿挑戰，但不會讓人灰心。學生在卡關時會有提示幫助。',
+      book_first_class: '[AI_TRANSLATION]預訂你的第一堂課',
+      why_parents_love: '[AI_TRANSLATION]為什麼家長喜歡CodeCombat',
+      most_engaging: '[AI_TRANSLATION]學習鍵入程式碼的最吸引人的方法  ',
+      most_engaging_detail: '[AI_TRANSLATION]你的孩子將手握所有所需的工具來用 Python 或 JavaScript 編寫算法、建造網站，甚至設計自己的遊戲，同時學習符合國家課程標準的材料。',
+      critical_skills: '[AI_TRANSLATION]建立 21 世紀的關鍵技能',
+      critical_skills_detail: '[AI_TRANSLATION]你的孩子將學會如何在數位世界中導航並成為數位公民。CodeCombat 是一個增強你孩子批判思維、創意和韌性的解決方案，賦予他們在任何行業中所需的技能。',
+      parent_support: '[AI_TRANSLATION]有像你一樣的家長的支持',
+      parent_support_detail: '[AI_TRANSLATION]在 CodeCombat，我們是家長，我們是程序员，我們是教育者。但最重要的是，我們是一群相信給孩子們最好的成功機會的人，不管他們決定做什麼。',
+      everything_they_need: '[AI_TRANSLATION]他們需要的一切，以便他們自己開始輸入代碼',
+      beginner_concepts: '[AI_TRANSLATION]初學者概念',
+      beginner_concepts_1: '[AI_TRANSLATION]基本語法',
+      beginner_concepts_2: '[AI_TRANSLATION]While loops',
+      //    beginner_concepts_3: "Arguments",
+      //    beginner_concepts_4: "Strings",
+      //    beginner_concepts_5: "Variables",
+      //    beginner_concepts_6: "Algorithms",
+      intermediate_concepts: '[AI_TRANSLATION]中級概念',
+      intermediate_concepts_1: '[AI_TRANSLATION]如果語句',
+      intermediate_concepts_2: '[AI_TRANSLATION]布爾比較',
+      intermediate_concepts_3: '[AI_TRANSLATION]巢狀條件',
+      //    intermediate_concepts_4: "Functions",
+      intermediate_concepts_5: '[AI_TRANSLATION]基本輸入處理',
+      intermediate_concepts_6: '[AI_TRANSLATION]基本遊戲人工智能',
+      advanced_concepts: '[AI_TRANSLATION]高階概念',
+      advanced_concepts_1: '[AI_TRANSLATION]事件處理',
+      advanced_concepts_2: '[AI_TRANSLATION]條件 while 迴圈',
+      advanced_concepts_3: '[AI_TRANSLATION]物件字面量\n',
+      //    advanced_concepts_4: "Parameters",
+      //    advanced_concepts_5: "Vectors",
+      advanced_concepts_6: '[AI_TRANSLATION]數學庫操作',
+      //    advanced_concepts_7: "Recursion",
+      get_started: '[AI_TRANSLATION]開始使用',
+      quotes_title: '[AI_TRANSLATION]父母和孩子們對 CodeCombat 的評價',
+      quote_1: '[AI_TRANSLATION]"這是給小孩的高階編程課程，還很有趣。我也可以從中學到一些東西。"',
+      quote_2: '[AI_TRANSLATION]"我喜歡學習我以前沒做過的新技能。我喜歡當我遇到困難時，能找到目標。我也喜歡能看到程式碼正確運行。"',
+      quote_3: '[AI_TRANSLATION]"Oliver 的 Python 進步很多。他用 CodeCombat 自己設計電動遊戲。他挑戰我玩他的遊戲，然後我輸了他就大笑。"',
+      quote_4: '[AI_TRANSLATION]"這是我最喜歡做的事之一。每天早上我醒來就玩 CodeCombat。如果我得給 CodeCombat 打分，從 1 到 10，我會給它 10 分！"',
+      //    parent: "Parent",
+      //    student: "Student",
+      grade: '[AI_TRANSLATION]等級',
+      subscribe_error_user_type: '[AI_TRANSLATION]看來你已經註冊了一個帳號。如果你對 CodeCombat 的高級版感興趣，請聯繫我們：team@codecombat.com。',
+      subscribe_error_already_subscribed: '[AI_TRANSLATION]你已經註冊了Premium帳號。',
+      start_free_trial_today: '[AI_TRANSLATION]今天開始免費試用',
+      live_classes_title: '[AI_TRANSLATION]CodeCombat 的程式設計直播課程！',
+      live_class_booked_thank_you: '[AI_TRANSLATION]你的即時課程已經預訂了，謝謝！\n',
+      book_your_class: '[AI_TRANSLATION]預訂您的班級',
+      call_to_book: '[AI_TRANSLATION]現在打電話預訂',
+      student_journey_start: '[AI_TRANSLATION]恭喜！你的學生的編碼旅程即將開始！',
+      enter_email_address: '[AI_TRANSLATION]請提供你的電子郵件地址以開始：',
+      enter_parent_email_address: '[AI_TRANSLATION]如果你是未滿18歲的學生，請輸入你父母或監護人的電子郵件地址。',
+      email_sent_success: '[AI_TRANSLATION]太棒了！已經向你提供的電子郵箱地址發送了郵件。',
+      email_schedule_info: '[AI_TRANSLATION]請打開並點擊連結，進入我們的試課安排門戶，選擇一個適合你的可用時間。',
+      personalized_coding: '[AI_TRANSLATION]個性化編程教學',
+      premium_access: '[AI_TRANSLATION]高級訪問',
+      focus_choice: '[AI_TRANSLATION]你的專注，你的選擇',
+      get_free_coding_class: '[AI_TRANSLATION]你獲得了一個免費的編程課程',
+      tailored_guidance: '[AI_TRANSLATION]量身定制的 Python、Javascript、Lua 等語言的指導',
+      enjoy_all_games: '[AI_TRANSLATION]享受我們所有的網頁遊戲和 Roblox 體驗',
+      choice_of_path: '[AI_TRANSLATION]從編碼基礎、遊戲開發、AI應用、AP CSP預備等中選擇，量身定制學習路線',
+      classes_in_spanish_english: '[AI_TRANSLATION]課程提供英文或西班牙文服務',
+      free_class: '[AI_TRANSLATION]免費課程',
+    },
 
-    //  hoc_2018:
-    //    banner_coco: "Welcome to Hour of Code!"
-    //    banner_ozar: "Happy Computer Science Education Week!"
-    //    page_heading: "Your students will learn to code by building their own game!"
-    //    page_heading_ai_league: "Your students will learn to code their own multiplayer AI!"
-    //    page_heading_goblins: "Your students will learn coding by saving a village from goblins!"
-    //    step_1: "Step 1: Watch Video Overview"
-    //    step_2: "Step 2: Try it Yourself"
-    //    step_3: "Step 3: Download Lesson Plan"
-    //    try_activity: "Try Activity"
-    //    download_pdf: "Download PDF"
-    //    solutions: "Solutions"
-    //    teacher_signup_heading: "Turn Hour of Code into a Year of Code"
-    //    teacher_signup_blurb: "Everything you need to teach computer science, no prior experience needed."
-    //    teacher_signup_input_blurb: "Get first course free:"
-    //    teacher_signup_input_placeholder: "Teacher email address"
-    //    teacher_signup_input_button: "Get CS1 Free"
-    //    activities_header: "More Hour of Code Activities"
-    //    activity_label_1: "Beginner CS: Escape the Dungeon!"
-    //    activity_label_2: " Beginner GD: Build a Game!"
-    //    activity_label_3: "Advanced GD: Build an Arcade Game!"
-    //    activity_label_hoc_2018: "Intermediate GD: Code, Play, Create"
-    //    activity_label_ai_league: "Beginner CS: Esports Bootcamp: AI League"
-    //    activity_label_goblins: "Beginner CS: Goblins 'n' Glory"
-    //    activity_button_1: "View Lesson"
-    //    about: "About CodeCombat"
-    //    about_copy: "A game-based, standards-aligned computer science program that teaches real, typed Python and JavaScript."
-    //    point1: "✓ Scaffolded"
-    //    point2: "✓ Differentiated"
-    //    point3: "✓ Assessments"
-    //    point4: "✓ Project-based courses"
-    //    point5: "✓ Student tracking"
-    //    point6: "✓ Full lesson plans"
-    //    title: "HOUR OF CODE"
-    //    acronym: "HOC"
-    //    play_video: "Play Video"
-    //    featured_title_1: "CodeCombat: Goblins 'n' Glory"
-    //    featured_subtitle_1: "Grades 6-8 | JavaScript, Python"
-    //    featured_blurb_1: "We need your help! Embark on an epic quest where you take control of the game through your powers of programming."
-    //    featured_title_2: "Esports Bootcamp: AI League"
-    //    featured_subtitle_2: "Grades 6-8 | JavaScript, Python"
-    //    featured_blurb_2: "Competitive coding has never been so epic! Learn the skills you need to play like the pros in our Esports Bootcamp. No coding experience needed"
-    //    featured_title_3: "Ozaria: Your Journey Begins"
-    //    featured_subtitle_3: "Grades 6-8 | JavaScript, Python"
-    //    featured_blurb_3: "Enter the world of Ozaria where you must use the power of coding to defeat a darkness that has taken over the world!"
-    //    page_heading_latest_activities: "Our latest activities are easy to implement and fun to play"
+    modal_timetap_confirmation: {
+      congratulations: '[AI_TRANSLATION]恭喜！',
+      paragraph_1: '[AI_TRANSLATION]你的學生的編程冒險正在等待。\n',
+      paragraph_2: '[AI_TRANSLATION]我們已經幫你的小孩預約了一個線上課程，好期待見到他們！  ',
+      paragraph_3: '[AI_TRANSLATION]你很快應該會收到包含課程表詳情及你的課程導師名字和聯絡信息的郵件邀請。',
+      paragraph_4: '[AI_TRANSLATION]如果你出於任何原因需要修改課程選擇、重新安排或只是想與客戶服務專員交談，只需使用電子郵件邀請中提供的聯絡資訊聯繫即可。  ',
+      paragraph_5: '[AI_TRANSLATION]感謝選擇 CodeCombat，祝你在計算機科學的旅途中好運！',
+      back_to_coco: '[AI_TRANSLATION]返回 CodeCombat',
+    },
 
-    //  hoc_2018_interstitial:
-    //    welcome: "Welcome to CodeCombat's Hour of Code!"
-    //    educator: "I'm an educator"
-    //    show_resources: "Show me teacher resources!"
-    //    student: "I'm a student"
-    //    ready_to_code: "I'm ready to code!"
+    hoc_2018: {
+      banner_coco: '[AI_TRANSLATION]歡迎來到Hour of Code！',
+      banner_ozar: '[AI_TRANSLATION]快樂的計算機科學教育周！',
+      page_heading: '[AI_TRANSLATION]你的學生將通過製作自己的遊戲來學習編程！\n',
+      page_heading_ai_league: '[AI_TRANSLATION]你的學生將學習編寫他們自己的多人遊戲AI！\n',
+      page_heading_goblins: '[AI_TRANSLATION]你的學生將通過拯救村莊免受地精襲擊來學習編程！\n',
+      step_1: '[AI_TRANSLATION]第一步：觀看視頻概覽',
+      step_2: '[AI_TRANSLATION]第二步：自己試試',
+      step_3: '[AI_TRANSLATION]第三步：下載課程計劃',
+      try_activity: '[AI_TRANSLATION]試試活動',
+      download_pdf: '[AI_TRANSLATION]下載 PDF',
+      solutions: '[AI_TRANSLATION]解決方案',
+      teacher_signup_heading: '[AI_TRANSLATION]把一小時程式碼變成一年的程式碼',
+      teacher_signup_blurb: '[AI_TRANSLATION]教授計算機科學所需的一切，不需要任何先前經驗。',
+      teacher_signup_input_blurb: '[AI_TRANSLATION]獲取第一門課程免費：',
+      teacher_signup_input_placeholder: '[AI_TRANSLATION]教師電子郵件地址  ',
+      teacher_signup_input_button: '[AI_TRANSLATION]獲取 CS1 免費',
+      activities_header: '[AI_TRANSLATION]更多的 “一小時編碼” 活動',
+      activity_label_1: '[AI_TRANSLATION]初學者 CS：逃離地下城！',
+      activity_label_2: '[AI_TRANSLATION] 初學者GD：製作一個遊戲！  ',
+      activity_label_3: '[AI_TRANSLATION]高階設計：製作一款街機遊戲！',
+      activity_label_hoc_2018: '[AI_TRANSLATION]中級 GD：編碼、玩樂、創造',
+      activity_label_ai_league: '[AI_TRANSLATION]初學者 CS：電子競技訓練營：AI League',
+      activity_label_goblins: '[AI_TRANSLATION]初學者 CS：妖精與榮耀',
+      activity_button_1: '[AI_TRANSLATION]檢視課程',
+      //    about: "About CodeCombat",
+      about_copy: '[AI_TRANSLATION]一個基於遊戲、符合標準的計算機科學課程教授實際的 Python 和 JavaScript 編程。',
+      //    point1: "✓ Scaffolded",
+      //    point2: "✓ Differentiated",
+      //    point3: "✓ Assessments",
+      //    point4: "✓ Project-based courses",
+      //    point5: "✓ Student tracking",
+      //    point6: "✓ Full lesson plans",
+      title: '[AI_TRANSLATION]編程一小時',
+      acronym: '[AI_TRANSLATION]HOC',
+      play_video: '[AI_TRANSLATION]播放視頻',
+      featured_title_1: "[AI_TRANSLATION]CodeCombat: Goblins 'n' Glory\n",
+      featured_subtitle_1: '[AI_TRANSLATION]六到八年級 | JavaScript, Python',
+      featured_blurb_1: '[AI_TRANSLATION]我們需要你的幫助！展開一段史詩般的探險，通過你的編程能力來控制遊戲。',
+      featured_title_2: '[AI_TRANSLATION]電競訓練營：AI 聯賽',
+      featured_subtitle_2: '[AI_TRANSLATION]六到八年級 | JavaScript, Python',
+      featured_blurb_2: '[AI_TRANSLATION]競技編碼從未如此精彩！在我們的電子競技訓練營學習像專業人士一樣的技能。不需要編碼經驗',
+      featured_title_3: '[AI_TRANSLATION]Ozaria：你的旅程即將開始',
+      featured_subtitle_3: '[AI_TRANSLATION]六到八年級 | JavaScript, Python',
+      featured_blurb_3: '[AI_TRANSLATION]進入 Ozaria 的世界，你必須使用編程的力量來擊敗籠罩這個世界的黑暗！',
+      page_heading_latest_activities: '[AI_TRANSLATION]我們最新的活動容易實施且充滿樂趣\n',
+    },
 
-    //  hoc_2018_completion:
-    //    congratulations: "Congratulations on completing <b>Code, Play, Share!</b>"
-    //    send: "Send your Hour of Code game to friends and family!"
-    //    copy: "Copy URL"
-    //    get_certificate: "Get a certificate of completion to celebrate with your class!"
-    //    get_cert_btn: "Get Certificate"
-    //    first_name: "First Name"
-    //    last_initial: "Last Initial"
-    //    teacher_email: "Teacher's email address"
+    hoc_2018_interstitial: {
+      welcome: '[AI_TRANSLATION]歡迎來到CodeCombat的編程一小時！\n',
+      educator: '[AI_TRANSLATION]我是教育者',
+      show_resources: '[AI_TRANSLATION]顯示老師資源給我！',
+      student: '[AI_TRANSLATION]我是學生',
+      ready_to_code: '[AI_TRANSLATION]我準備好寫程式了！',
+    },
 
-    //  school_administrator:
-    //    title: "School Administrator Dashboard"
-    //    my_teachers: "My Teachers"
-    //    last_login: "Last Login"
-    //    licenses_used: "licenses used"
-    //    total_students: "total students"
-    //    active_students: "active students"
-    //    projects_created: "projects created"
-    //    other: "Other"
-    //    notice: "The following school administrators have view-only access to your classroom data:"
-    //    add_additional_teacher: "Need to add an additional teacher? Contact your CodeCombat Account Manager or email support@codecombat.com. "
-    //    license_stat_description: "Licenses available accounts for the total number of licenses available to the teacher, including Shared Licenses."
-    //    students_stat_description: "Total students accounts for all students across all classrooms, regardless of whether they have licenses applied."
-    //    active_students_stat_description: "Active students counts the number of students that have logged into CodeCombat in the last 60 days."
-    //    project_stat_description: "Projects created counts the total number of Game and Web development projects that have been created."
-    //    no_teachers: "You don’t have any schools tied to your account yet. Please contact your <strong>District Success Manager</strong> or <a href=\"mailto:schools@codecombat.com\">schools@codecombat.com</a> to get your dashboard set up."
-    //    totals_calculated: "How are these totals calculated?"
-    //    totals_explanation_1: "How are these totals calculated?"
-    //    totals_explanation_2: "Licenses used"
-    //    totals_explanation_3: "Counts total licenses applied to students out of total licenses available."
-    //    totals_explanation_4: "Total students"
-    //    totals_explanation_5: "Counts teacher’s students across all of their active classrooms. To see total students enrolled in both active and archived classrooms, go to the Student Licenses page."
-    //    totals_explanation_6: "Active students"
-    //    totals_explanation_7: "Counts all students who were active within the past 60 days."
-    //    totals_explanation_8: "Projects created"
-    //    totals_explanation_9: "Counts total games and web pages created."
-    //    date_thru_date: "__startDateRange__ thru __endDateRange__"
-    //    teachers: "Teachers"
-    //    students_enrolled: "Students Enrolled"
-    //    select_time_range: "Select the time range:"
-    //    export: "Export"
-    //    preview: "Here is a preview for top 200 lines, Click the Export to get full stats"
-    //    empty_results: "Empty Results."
+    hoc_2018_completion: {
+      congratulations: '[AI_TRANSLATION]恭喜完成 <b>Code, Play, Share!</b>',
+      send: '[AI_TRANSLATION]將你的“一小時編程”遊戲發送給朋友和家人！',
+      //    copy: "Copy URL",
+      get_certificate: '[AI_TRANSLATION]獲取完成證書與您的班級一起慶祝！',
+      get_cert_btn: '[AI_TRANSLATION]獲取證書',
+      first_name: '[AI_TRANSLATION]名字',
+      last_initial: '[AI_TRANSLATION]最後一個首字母',
+      teacher_email: '[AI_TRANSLATION]教師的電子郵件地址  ',
+    },
 
-    //  interactives:
-    //    phenomenal_job: "Phenomenal Job!"
-    //    try_again: "Whoops, try again!"
-    //    select_statement_left: "Whoops! Select a code statement before pressing Submit."
-    //    fill_boxes: "Whoops, make sure to fill all boxes before hitting \"Submit.\""
-    //    cannot_play_video: "Sadly, this video cannot be played in your area."
-    //    console_instructions: "See why by opening your browser console: 1) Right click 2) Choose \"Inspect\" 3) Click the console tab."
-    //    skip_video: "Skip video"
-    //    unavailable: "Unavailable"
+    school_administrator: {
+      title: '[AI_TRANSLATION]學校管理員儀表板',
+      //    my_teachers: "My Teachers",
+      last_login: '[AI_TRANSLATION]最後登錄',
+      licenses_used: '[AI_TRANSLATION]使用的授權',
+      //    total_students: "total students",
+      active_students: '[AI_TRANSLATION]活躍的學生',
+      projects_created: '[AI_TRANSLATION]創建的項目  ',
+      other: '[AI_TRANSLATION]其他',
+      notice: '[AI_TRANSLATION]以下學校管理員只能查看你的班級數據：\n',
+      add_additional_teacher: '[AI_TRANSLATION]需要添加額外的教師嗎？聯繫你的 CodeCombat 帳戶經理或電郵 support@codecombat.com。  ',
+      license_stat_description: '[AI_TRANSLATION]可用授權帳號包括老師可用的全部授權數量，包含共享授權',
+      students_stat_description: '[AI_TRANSLATION]全部教室的所有學生總數，無論是否已分配許可證。',
+      active_students_stat_description: '[AI_TRANSLATION]活躍學生計算的是最近60天內登錄CodeCombat的學生數量。  ',
+      project_stat_description: '[AI_TRANSLATION]創建的專案統計了所有遊戲和網站開發專案的總數。',
+      no_teachers: '[AI_TRANSLATION]你的帳戶還沒有綁定任何學校。請聯繫你的<strong>地區成功經理</strong>或<a href="mailto:schools@codecombat.com">schools@codecombat.com</a>來設立你的儀表板。\n',
+      totals_calculated: '[AI_TRANSLATION]這些總數是如何計算的？',
+      totals_explanation_1: '[AI_TRANSLATION]這些總數是如何計算的？',
+      totals_explanation_2: '[AI_TRANSLATION]已使用的授權',
+      totals_explanation_3: '[AI_TRANSLATION]計算應用於學生的授權總數與可用授權總數。',
+      totals_explanation_4: '[AI_TRANSLATION]總學生數',
+      totals_explanation_5: '[AI_TRANSLATION]計算教師所有活躍班級中的學生數量。若想查看包括活躍和歸檔班級在內的總學生數，請前往學生授權頁面。',
+      totals_explanation_6: '[AI_TRANSLATION]活躍學生',
+      totals_explanation_7: '[AI_TRANSLATION]計算過去60天內活躍的所有學生。',
+      totals_explanation_8: '[AI_TRANSLATION]創建的專案',
+      totals_explanation_9: '[AI_TRANSLATION]計算創建的總遊戲和網頁數量。',
+      date_thru_date: '[AI_TRANSLATION]__startDateRange__ 到 __endDateRange__',
+      //    teachers: "Teachers",
+      students_enrolled: '[AI_TRANSLATION]已註冊學生',
+      select_time_range: '[AI_TRANSLATION]選擇時間範圍：',
+      export: '[AI_TRANSLATION]匯出',
+      preview: '[AI_TRANSLATION]這是前 200 行的預覽，點擊導出以獲取完整統計\n',
+      empty_results: '[AI_TRANSLATION]沒有結果。',
+      roster: '[AI_TRANSLATION]名單',
+    },
 
-    //  browser_recommendation:
-    //    title: "CodeCombat works best on Chrome!"
-    //    pitch_body: "For the best CodeCombat experience we recommend using the latest version of Chrome. Download the latest version of chrome by clicking the button below!"
-    //    download: "Download Chrome"
-    //    ignore: "Ignore"
+    interactives: {
+      phenomenal_job: '[AI_TRANSLATION]幹得好！',
+      try_again: '[AI_TRANSLATION]哎呀，再試一次！',
+      select_statement_left: '[AI_TRANSLATION]哎呀！選擇一個程式碼語句再按提交。',
+      fill_boxes: '[AI_TRANSLATION]哎呀，確保所有的方框都填完再按 "提交"。',
+      cannot_play_video: '[AI_TRANSLATION]很抱歉，這段影片無法在你的地區播放',
+      console_instructions: '[AI_TRANSLATION]通過打開瀏覽器控制台來了解原因：1) 右鍵單擊 2) 選擇“檢查” 3) 點擊控制台標籤。',
+      skip_video: '[AI_TRANSLATION]跳過視頻',
+      unavailable: '[AI_TRANSLATION]無法取得',
+    },
+
+    browser_recommendation: {
+      title: '[AI_TRANSLATION]CodeCombat 在 Chrome 上效果最佳！\n',
+      pitch_body: '[AI_TRANSLATION]為了獲得最佳的 CodeCombat 體驗，我們建議使用最新版的 Chrome。點擊下方按鈕下載最新版 Chrome！',
+      download: '[AI_TRANSLATION]下載 Chrome',
+      ignore: '[AI_TRANSLATION]忽略',
+    },
 
     admin: {
       license_type_full: '全部課程',
-      license_type_customize: '自訂課程'
+      license_type_customize: '自訂課程',
     },
 
-    //  events:
-    //    title: "CodeCombat Events"
-    //    main_title: "CodeCombat Events"
-    //    main_description: "The important events of codecombat China"
-    //    dashboard: "Events Dashboard"
-    //    online_classes: "Online Classes"
-    //    my_classes: "My Online Classes"
-    //    classes_stats: "Online Classes Stats"
-    //    name: "Name"
-    //    class_name: "Class Name"
-    //    description: "Description"
-    //    owner: "Owner"
-    //    type: "Type"
-    //    members: "Members"
-    //    start_date: "Start Date"
-    //    end_date: "End Time"
-    //    time_range: "Time Range"
-    //    rrule: "Recurrence Rules"
-    //    add_member: "Add Member"
-    //    class_count: "Lessons Count"
-    //    done: "Finished Lesson"
-    //    attendance: "Attendance"
-    //    course_description: "Teacher Notes"
-    //    teacher_notes: "Teacher Notes"
-    //    levels_completed: "Levels Completed"
-    //    no_levels_completed: "No Completed Levels Found"
-    //    no_teacher_notes: "No Teacher Notes Found"
-    //    no_video_recording: "No Video Recording Found"
-    //    reply: "Reply"
-    //    video_recording: "Video Recording"
-    //    import_from_class: "Import from Class"
-    //    link_google_calendar: "Link with Google Calendar"
-    //    sync_to_google: "Sync to Google Calendar"
-    //    synced_to_google: "Synced to Google Calendar"
-    //    google_calendar_attendees: "Google Calendar Attendees"
-    //    calendar: "Calendar"
-    //    edit_instance_tab_desc: "Edit the single instance of this event, for editing whole events, see edit tab"
-    //    edit_event_tab_desc: "Edit the whole event, for editing single instance of this event, see instance tab"
-    //    edit_members_tab_desc: "Edit the member of this event, the startDate is depends on the instance date, so select the first instance for the new member"
-    //    lessons_count_desc: "The total lessons count of this member, normally it is the same as the event instances count, but it can be different if the member is added after the event started or ended before the event ended"
-    //    sync_to_google_desc: "Sync this event to YOUR google calendar, instead of the owner's calendar. And can only work on CodeCombat gmail"
-    //    no_data_display: "No data to display"
-    //    meetingLink: "Meeting Link"
-    //    time_zone: "Time Zone"
-    //    timezone_tips: "Note - Your timezone: "
+    events: {
+      title: '[AI_TRANSLATION]CodeCombat 活動',
+      main_title: '[AI_TRANSLATION]CodeCombat 活動',
+      main_description: '[AI_TRANSLATION]codecombat 中國的重要事件',
+      dashboard: '[AI_TRANSLATION]事件儀表板',
+      online_classes: '[AI_TRANSLATION]在線課程',
+      my_classes: '[AI_TRANSLATION]我的線上課程  ',
+      classes_stats: '[AI_TRANSLATION]在線課程統計',
+      //    name: "Name",
+      class_name: '[AI_TRANSLATION]課堂名稱',
+      description: '[AI_TRANSLATION]描述',
+      owner: '[AI_TRANSLATION]擁有者',
+      //    type: "Type",
+      //    members: "Members",
+      start_date: '[AI_TRANSLATION]開始日期',
+      end_date: '[AI_TRANSLATION]結束時間',
+      time_range: '[AI_TRANSLATION]時間範圍',
+      rrule: '[AI_TRANSLATION]重複規則',
+      add_member: '[AI_TRANSLATION]新增成員',
+      class_count: '[AI_TRANSLATION]課程數量\n',
+      done: '[AI_TRANSLATION]課程完成',
+      attendance: '[AI_TRANSLATION]出席',
+      course_description: '[AI_TRANSLATION]教師筆記  ',
+      teacher_notes: '[AI_TRANSLATION]教師筆記  ',
+      levels_completed: '[AI_TRANSLATION]已完成的關卡',
+      no_levels_completed: '[AI_TRANSLATION]沒有找到完成的關卡\n',
+      no_teacher_notes: '[AI_TRANSLATION]沒有找到教師筆記\n',
+      no_video_recording: '[AI_TRANSLATION]沒有找到視頻錄製\n',
+      reply: '[AI_TRANSLATION]回覆',
+      video_recording: '[AI_TRANSLATION]影片錄製',
+      import_from_class: '[AI_TRANSLATION]從班級導入',
+      link_google_calendar: '[AI_TRANSLATION]連結 Google 日曆',
+      sync_to_google: '[AI_TRANSLATION]同步到 Google 日曆',
+      synced_to_google: '[AI_TRANSLATION]已同步到 Google 日曆',
+      google_calendar_attendees: '[AI_TRANSLATION]Google Calendar 參與者',
+      calendar: '[AI_TRANSLATION]日曆',
+      edit_instance_tab_desc: '[AI_TRANSLATION]編輯此事件的單個實例，若要編輯整個事件，請參閱編輯標籤',
+      edit_event_tab_desc: '[AI_TRANSLATION]編輯整個事件，若要編輯此事件的單個實例，請參閱實例標籤',
+      edit_members_tab_desc: '[AI_TRANSLATION]編輯此事件的成員，開始日期取決於實例日期，所以為新成員選擇第一個實例',
+      lessons_count_desc: '[AI_TRANSLATION]此成員的總課程計數通常與事件實例數相同，但如果成員在事件開始後加入或在事件結束前已經結束，則可能不同。\n',
+      sync_to_google_desc: '[AI_TRANSLATION]同步這個事件到你的 Google 日曆，而不是所有者的日曆。並且只能在 CodeCombat 的 gmail 上使用',
+      no_data_display: '[AI_TRANSLATION]沒有數據可顯示\n',
+      meetingLink: '[AI_TRANSLATION]會議連結',
+      time_zone: '[AI_TRANSLATION]時區',
+      timezone_tips: '[AI_TRANSLATION]注意 - 你的時區：  ',
+    },
 
-    //  teacher_dashboard:
-    //    lock: "Lock"
-    //    unlock: "Unlock"
-    //    lock_until_date: "Lock until date"
-    //    skip: "Skip"
-    //    unskip: "Unskip"
-    //    make_optional: "Make optional"
-    //    remove_optional: "Remove Optional"
-    //    until_date: "until __date__"
-    //    unassign: "Unassign"
-    //    locked: "Locked"
-    //    locked_by_previous: "Locked by previous level"
-    //    locked_with_timeframe: "Locked"
-    //    skipped: "Skipped"
-    //    optional: "Optional"
-    //    assigned: "Assigned"
-    //    unlocked: "Unlocked"
-    //    choose_course: "Click to Select from Dropdown"
-    //    teacher_locked_message: "Your teacher has locked the next level"
-    //    plan_your_class_title: "Plan your first class by"
-    //    plan_your_class1: "Viewing course progression info"
-    //    plan_your_class2: "Previewing lesson slides & extension activities"
-    //    plan_your_class3: "Trying the first chapter for free"
-    //    click_dismiss: "Click to Dismiss"
-    //    track_progress: "Track Progress"
-    //    track_progress_desc: "Click into the class you just created to view detailed student progress."
-    //    add_classes_title: "Add Classes Here"
-    //    add_classes: "Add classes and get students started with the first free chapter!"
-    //    all_classes: "All Classes"
-    //    my_licenses: "My Licenses"
-    //    resource_hub: "Teacher Toolkit"
-    //    pd: "Professional Development"
-    //    pd_short: "PD"
-    //    curriculum_guide: "Curriculum Guide"
-    //    add_class: "Add New Class"
-    //    no_licenses_yet: "No licenses yet"
-    //    req_licenses: "Request Licenses"
-    //    license_ratio_used: "__totalUsedLicenses__ out of __totalSpots__"
-    //    licenses_applied: "Licenses Applied"
-    //    student_projects: "Student Projects"
-    //    no_classes_yet: "No classes yet"
-    //    exemplar_project: "Exemplar Project"
-    //    capstone_proj_for: "Capstone Project for __courseName__"
-    //    project_rubric: "Project Rubric"
-    //    select_chapter: "Select Chapter"
-    //    concept_flag: "Concept Flag"
-    //    support_learning: "Support Learning"
-    //    concept_flag_desc: "More than 50% of the class attempted a Concept Check 3 or more times."
-    //    concept_flag_desc2: "Student attempted a Concept Check 3 or more times."
-    //    click_progress_dot_tip: "Tip: Click on the progress bubbles for more details"
-    //    color_code: "Color Code"
-    //    content_guide: "Content Guide"
-    //    story: "Story"
-    //    cutscenes: "Cutscenes"
-    //    cutscenes_tooltip: "<h3>Cutscene</h3><p>Short videos that explain parts of the epic Ozaria narrative.</p>"
-    //    cinematics: "Cinematics"
-    //    concept_checks: "Concept Checks"
-    //    practice_levels: "Practice Levels"
-    //    challenge_levels: "Challenge Levels"
-    //    capstone_levels: "Capstone Levels"
-    //    intro: "Intro"
-    //    practice: "Practice"
-    //    assess: "Assess"
-    //    view_options: "View Options"
-    //    manage_class: "Manage Class"
-    //    assign_content: "Assign Content"
-    //    remove_students: "Remove Students"
-    //    revoke_licenses: "Revoke Licenses"
-    //    remaining_licenses: "__remaining__ license(s) remaining"
-    //    start_date: "Start: __date__"
-    //    end_date: "End: __date__"
-    //    license_questions: "Have questions about applying or revoking licenses?"
-    //    need_more_licenses: "Need more licenses? We'll help you build a solution that meets your needs."
-    //    see_also_our: "See also our"
-    //    for_more_funding_resources: "for how to leverage CARES Act funding sources like ESSER and GEER."
-    //    support_oz: "support@ozaria.com"
-    //    standards_alignment: "Standards Alignment"
-    //    standards_sample: "A sample of the standards covered in this Chapter:"
-    //    play_chapter: "Play Chapter"
-    //    class_time_range: "Class Time (Range):"
-    //    in_game_play_time: "In-Game Play Time:"
-    //    class_time: "Class Time"
-    //    solution_guide: "Solution Guide"
-    //    module: "Module"
-    //    need_licenses_tooltip: "<h3>You need licenses to access this content!</h3><p>Please visit the <a href='/teachers/licenses'>My Licenses</a> page for more information.</p>"
-    //    lesson_slides_tooltip: "<h3>Lesson Slides</h3><p>Downloadable, step-by-step presentation slides for guiding students through module learning objectives</p>"
-    //    project_rubric_tooltip: "<h3>Project Rubric</h3><p>Downloadable and modifiable scoring rubric for the Capstone Project</p>"
-    //    exemplar_projects_tooltip: "<h3>Exemplar Project</h3><p>Live view of the exemplar Capstone Project</p>"
-    //    want_to_save_tooltip: "<h3>Want to save your progress?</h3><p>Please create a student account and play Ozaria as a student if you would like to save your progress.</p>"
-    //    intro_explain_tooltip: "<b>\"Intros\"</b> introduce new concepts or further the storyline in a scaffolded way. They typically include Cinematics and/or Concept Checks."
-    //    chapter_num: "Chapter __num__"
-    //    read: "View Only"
-    //    write: "Full Access"
-    //    read_blurb: "View Only permits the added teacher to view your class and student progress without the ability to make changes to your class."
-    //    write_blurb: "Full Access grants the added teacher the ability to make modifications to your class (add/remove students, assign chapters, modify licensure)"
-    //    shared_with_none: "This class is not currently shared with any other teachers."
-    //    shared_with: "Shared with"
-    //    share_info: "To give other teachers access to the class, add their emails below."
-    //    class_owner: "Class Owner"
-    //    share: "Share"
-    //    add: "Add"
-    //    note: "Note"
-    //    lock_or_skip_levels: "Lock or Skip Levels"
-    //    level_access_status_blurb: "When you choose to skip a level, it will have both the 'locked' and 'optional' status. Unskipping the level will remove both the 'locked' and 'optional' statuses."
-    //    reset_progress: "Reset Progress"
+    teacher_dashboard: {
+      lock: '[AI_TRANSLATION]鎖定',
+      unlock: '[AI_TRANSLATION]解鎖',
+      lock_until_date: '[AI_TRANSLATION]鎖定直到日期',
+      skip: '[AI_TRANSLATION]跳過',
+      unskip: '[AI_TRANSLATION]取消跳過',
+      make_optional: '[AI_TRANSLATION]設為可選',
+      remove_optional: '[AI_TRANSLATION]移除可選項',
+      //    until_date: "until __date__",
+      unassign: '[AI_TRANSLATION]取消指派',
+      //    locked: "Locked",
+      locked_by_previous: '[AI_TRANSLATION]被前一級別鎖定',
+      //    locked_with_timeframe: "Locked",
+      skipped: '[AI_TRANSLATION]已跳過',
+      optional: '[AI_TRANSLATION]可選',
+      //    assigned: "Assigned",
+      unlocked: '[AI_TRANSLATION]已解鎖',
+      unassigned: '[AI_TRANSLATION]未指派',
+      //    complete: "Complete",
+      //    progress: "In Progress",
+      choose_course: '[AI_TRANSLATION]點擊以從下拉選單中選擇',
+      teacher_locked_message: '[AI_TRANSLATION]你的老師已鎖定下一個級別\n',
+      plan_your_class_title: '[AI_TRANSLATION]計劃你的第一堂課',
+      plan_your_class1: '[AI_TRANSLATION]檢視課程進度資訊',
+      plan_your_class2: '[AI_TRANSLATION]預覽課程幻燈片和擴展活動',
+      plan_your_class3: '[AI_TRANSLATION]免費試用第一章',
+      click_dismiss: '[AI_TRANSLATION]點擊以關閉',
+      track_progress: '[AI_TRANSLATION]跟蹤進度',
+      track_progress_desc: '[AI_TRANSLATION]點擊你剛創建的課堂以查看詳細的學生進度。',
+      add_classes_title: '[AI_TRANSLATION]在這裡新增班級',
+      add_classes: '[AI_TRANSLATION]新增班級並讓學生開始學習第一個免費的章節！',
+      all_classes: '[AI_TRANSLATION]所有課程  ',
+      my_licenses: '[AI_TRANSLATION]我的許可證  ',
+      //    resource_hub: "Teacher Toolkit",
+      pd: '[AI_TRANSLATION]專業發展',
+      pd_short: '[AI_TRANSLATION]PD',
+      apcsp: '[AI_TRANSLATION]APCSP',
+      curriculum_guide: '[AI_TRANSLATION]課程指南',
+      curriculum: '[AI_TRANSLATION]課程',
+      coming_soon: '[AI_TRANSLATION]敬請期待！',
+      add_class: '[AI_TRANSLATION]新增新班級',
+      no_licenses_yet: '[AI_TRANSLATION]還沒有許可證\n',
+      req_licenses: '[AI_TRANSLATION]請求許可',
+      license_ratio_used: '[AI_TRANSLATION]已使用 __totalUsedLicenses__ 張授權中的 __totalSpots__ 張',
+      licenses_applied: '[AI_TRANSLATION]授權已應用',
+      student_projects: '[AI_TRANSLATION]學生專案',
+      no_classes_yet: '[AI_TRANSLATION]還沒有課程\n',
+      exemplar_project: '[AI_TRANSLATION]模範項目',
+      capstone_proj_for: '[AI_TRANSLATION]__courseName__ 的壁爐石項目',
+      project_rubric: '[AI_TRANSLATION]專案評量',
+      select_chapter: '[AI_TRANSLATION]選擇章節',
+      select_course: '[AI_TRANSLATION]選擇課程',
+      concept_flag: '[AI_TRANSLATION]概念旗標',
+      support_learning: '[AI_TRANSLATION]支援學習',
+      concept_flag_desc: '[AI_TRANSLATION]超過 50% 的班級嘗試了 “概念檢查” 3 次或更多次。',
+      concept_flag_desc2: '[AI_TRANSLATION]學生嘗試概念檢查 3 次或更多次。',
+      click_progress_dot_tip: '[AI_TRANSLATION]提示：點擊進度氣泡獲取更多詳情',
+      color_code: '[AI_TRANSLATION]顏色編碼',
+      content_guide: '[AI_TRANSLATION]內容指南',
+      //    story: "Story",
+      cutscenes: '[AI_TRANSLATION]過場動畫',
+      cutscenes_tooltip: '[AI_TRANSLATION]<h3>Cutscene</h3><p>短片，用來解釋史詩故事 Ozaria 的部分內容。</p>  ',
+      cinematics: '[AI_TRANSLATION]電影效果',
+      concept_checks: '[AI_TRANSLATION]概念檢查',
+      //    practice_level: "Practice Level",
+      practice_levels: '[AI_TRANSLATION]練習關卡',
+      //    extra_practice: "Extra Practice",
+      challenge_levels: '[AI_TRANSLATION]挑戰等級',
+      capstone_levels: '[AI_TRANSLATION]壁爐石關卡',
+      //    intro: "Intro",
+      //    practice: "Practice",
+      assess: '[AI_TRANSLATION]評估',
+      view_options: '[AI_TRANSLATION]檢視選項',
+      manage_class: '[AI_TRANSLATION]管理班級',
+      assign_content: '[AI_TRANSLATION]指派內容',
+      remove_students: '[AI_TRANSLATION]移除學生',
+      revoke_licenses: '[AI_TRANSLATION]撤銷許可',
+      remaining_licenses: '[AI_TRANSLATION]剩餘 __remaining__ 張授權',
+      start_date: '[AI_TRANSLATION]開始時間: __date__',
+      end_date: '[AI_TRANSLATION]結束： __date__',
+      license_questions: '[AI_TRANSLATION]有關申請或撤銷許可證的問題嗎？',
+      need_more_licenses: '[AI_TRANSLATION]需要更多許可證？我們會幫你建立符合需求的解決方案。  ',
+      see_also_our: '[AI_TRANSLATION]也看看我們的',
+      for_more_funding_resources: '[AI_TRANSLATION]如何利用CARES法案資金來源，如ESSER和GEER。',
+      support_oz: '[AI_TRANSLATION]support@ozaria.com  ',
+      standards_alignment: '[AI_TRANSLATION]標準對齊',
+      standards_sample: '[AI_TRANSLATION]本章涵蓋標準的範例：',
+      add_course_to_classroom: '[AI_TRANSLATION]新增課程',
+      play_chapter: '[AI_TRANSLATION]玩章節',
+      play_course: '[AI_TRANSLATION]玩課程',
+      class_time_range: '[AI_TRANSLATION]課堂時間（範圍）：',
+      in_game_play_time: '[AI_TRANSLATION]遊戲內遊戲時間：',
+      class_time: '[AI_TRANSLATION]課堂時間',
+      solution_guide: '[AI_TRANSLATION]解決方案指南',
+      module: '[AI_TRANSLATION]模組',
+      need_licenses_tooltip: "[AI_TRANSLATION]<h3>你需要許可權才能訪問此內容！</h3><p>請訪問 <a href='/teachers/licenses'>我的許可</a> 頁面以獲取更多信息。</p>",
+      lesson_slides_tooltip: '[AI_TRANSLATION]<h3>課程簡報</h3><p>可下載的逐步簡報，幫助學生理解模組學習目標</p>',
+      project_rubric_tooltip: '[AI_TRANSLATION]<h3>專案評分標準</h3><p>可下載和修改的總結專案評分標準</p>',
+      exemplar_projects_tooltip: '[AI_TRANSLATION]<h3>範例專案</h3><p>範例總結專案的即時查看</p>',
+      add_course_to_classroom_tooltip: '[AI_TRANSLATION]<h3>將課程添加到教室</h3><p>該課程尚未在您的教室中。要添加它，請點擊此按鈕。</p>',
+      want_to_save_tooltip: '[AI_TRANSLATION]<h3>想要保存你的進度嗎？</h3><p>請創建學生帳戶，或進入 <i>我的帳戶 / 以學生身份測試</i> 然後以學生身份玩 Ozaria 以保存你的進度。</p>',
+      want_to_save_tooltip_coco: '[AI_TRANSLATION]<h3>想要保存你的進度嗎？</h3><p>請創建學生帳戶，或進入 <i>我的帳戶 / 以學生身份測試</i> 然後以學生身份玩 CodeCombat 以保存你的進度。</p>',
+      intro_explain_tooltip: '[AI_TRANSLATION]<b>"介紹"</b> 以階梯式的方法介紹新概念或推進故事情節。它們通常包含動畫和/或概念檢查。',
+      chapter_num: '[AI_TRANSLATION]第 __num__ 章',
+      read: '[AI_TRANSLATION]僅檢視',
+      write: '[AI_TRANSLATION]完全訪問',
+      read_blurb: '[AI_TRANSLATION]僅檢視允許新增的教師查看你的班級和學生進度，但不能對班級做出改動。',
+      write_blurb: '[AI_TRANSLATION]完全訪問賦予添加的教師修改你的班級的能力（添加/移除學生、指定章節、修改許可）',
+      shared_with_none: '[AI_TRANSLATION]這堂課目前不與其他老師共享。',
+      shared_with: '[AI_TRANSLATION]分享給',
+      share_info: '[AI_TRANSLATION]要讓其他老師存取這個班級，請在下方添加他們的電子郵件。',
+      class_owner: '[AI_TRANSLATION]課堂擁有者',
+      share: '[AI_TRANSLATION]Share',
+      add: '[AI_TRANSLATION]新增',
+      note: '[AI_TRANSLATION]注意  ',
+      lock_or_skip_levels: '[AI_TRANSLATION]鎖定或跳過級別',
+      level_access_status_blurb: '[AI_TRANSLATION]當你選擇跳過一個關卡，它會有 "鎖定" 和 "可選" 狀態。取消跳過關卡會移除這兩個狀態。',
+      reset_progress: '[AI_TRANSLATION]重置進度',
+      export_progress: '[AI_TRANSLATION]匯出進度',
+      assessments_tab: '[AI_TRANSLATION]評估項目',
+      ai_hackstack_junior_tab: '[AI_TRANSLATION]AI HackStack Jr',
+      switch_on: '[AI_TRANSLATION]上\n',
+      switch_off: '[AI_TRANSLATION]關閉\n',
+      ai_league: '[AI_TRANSLATION]AI 聯盟',
+      version_old: '[AI_TRANSLATION]舊的\n',
+      version_new: '[AI_TRANSLATION]新',
+      dashboard_version: '[AI_TRANSLATION]儀表板版本',
+      arena_days_left: '[AI_TRANSLATION]本賽季還剩 __season__ 天，__arenaName__：',
+      arena_days_elapse: '[AI_TRANSLATION]第 __season__ 季， __arenaName__ 結束於 __time__',
+      global_stats_vs_team_stats: '[AI_TRANSLATION]全球統計數據對比團隊統計數據',
+      global_stats: '[AI_TRANSLATION]全球統計數據',
+      show_stats_for_all_players_and_teams: '[AI_TRANSLATION]顯示所有玩家和隊伍的統計資料。',
+      team_stats: '[AI_TRANSLATION]團隊數據',
+      show_stats_for_individuals_playing_on_the_same_team: '[AI_TRANSLATION]顯示同隊個人的統計資料。',
+      for_each_class_you_add_a_team_will_be_automatically_created_for_the_students_in_that_class: '[AI_TRANSLATION]每新增一個班級，系統會自動為該班學生創建一個隊伍。',
+      view_team_page: '[AI_TRANSLATION]檢視隊伍頁面',
+      no_modifiers_changed: '[AI_TRANSLATION]這些學生的關卡已經被修改',
+      no_modifiers_changed_unlocks_skipped: '[AI_TRANSLATION]看起來你試圖解鎖那些目前未鎖定的關卡。請注意，如果你選擇的關卡顯示為鎖定，這可能是因為之前的某個關卡被鎖定。要繼續，請先確保解鎖前一個關卡。  ',
+      view_custom_league: '[AI_TRANSLATION]檢視自訂聯盟',
+      view_global_league: '[AI_TRANSLATION]檢視全球聯盟',
+      refresh_progress: '[AI_TRANSLATION]刷新進度',
+      assign_content_first: '[AI_TRANSLATION]調整訪問級別前，請確保內容已分配給學生',
+      failed_attempts: '[AI_TRANSLATION]失敗嘗試',
+      no_failed_attempts: '[AI_TRANSLATION]沒有失敗的嘗試\n',
+      failed_attempts_subtext: '[AI_TRANSLATION]選擇錯誤選項的次數\n',
+      open_project: '[AI_TRANSLATION]開啟專案',
+      create_class_hackstack: '[AI_TRANSLATION]請創建新班級以訪問 AI HackStack',
+      add_club: '[AI_TRANSLATION]添加新的俱樂部  ',
+      test_student_only: '[AI_TRANSLATION](僅測試學生)',
+      ready_to_review: '[AI_TRANSLATION]準備檢查  ',
+      ozaria_hs_modal_title: '[AI_TRANSLATION]獨家訪問 CodeCombat 的 AI Hackstack  ',
+      ozaria_hs_modal_blurb: '[AI_TRANSLATION]現在老師們可以直接在 **[https://codecombat.com/teachers/classes]CodeCombat** 上使用跟 Ozaria 一樣的帳號密碼登入 AI Hackstack。為了更方便，你可以輕鬆地把你的班級從 Ozaria 匯入 CodeCombat。',
+      //    ozaria_ai_league_modal_title: "Access AI League Exclusively on CodeCombat",
+      //    ozaria_ai_league_modal_blurb: "Educators can now access AI League directly on **[https://codecombat.com/teachers/ai-league]CodeCombat** using the same credentials as Ozaria. For added convenience, you can easily import your classes from Ozaria into CodeCombat.",
+      //    completed_all_practice_levels: "The student has successfully completed all practice levels.",
+      //    played_some_practice_levels: "The student has started working on the practice levels.",
+      //    ai_league_start_title: "Welcome to AI League!",
+      //    ai_league_start_blurb: "Our Getting Started guide walks you through everything you need to know - from setting up your first class to running your first tournament.",
+      //    ai_league_curriculum_title: "AI League Curriculum",
+      //    ai_league_curriculum_blurb: "Access our comprehensive curriculum guides designed specifically for AI League arenas. These resources help you introduce competitive coding concepts and teach strategic thinking.",
+      //    ai_league_custom_title: "Custom AI League Tournaments",
+      //    ai_league_custom_blurb: "Create your own customized tournaments to engage your students! Select from our library of coding arenas and set competition dates, whether it's a classroom challenge or a school-wide competition.",
+      //    this_project_is_remixed: "This project is remixed.",
+      //    view_original_project: "View Original Project",
+      //    activate_license: "Activate License",
+      //    violation: "Violation",
+      //    safety_violations: "Safety Violations",
+      //    collapse: "Collapse",
+    },
 
-    //  outcomes:
-    //    outcomes_report: "Outcomes Report"
-    //    customize_report: "Customize Report"
-    //    done_customizing: "Done Customizing"
-    //    start_date: "Start date"
-    //    end_date: "End date"
-    //    school_admin: "School Administrator"
-    //    school_network: "School Network"
-    //    school_subnetwork: "School Subnetwork"
-    //    classroom: "Classroom"
-    //    view_outcomes_report: "View Outcomes Report"
-    //    key_concepts: "Key Concepts"
-    //    code_languages: "Code Languages"
-    //    using_codecombat: "Using CodeCombat's personalized learning engine..."
-    //    wrote: "wrote..."
-    //    across_an_estimated: "across an estimated..."
-    //    in: "in..."
-    //    include: "Include "
-    //    archived: "Archived"
-    //    max: "Max "
-    //    multiple: "s"
-    //    computer_program: "computer program"
-    //    computer_programs: "computer programs"
-    //    line_of_code: "line of code"
-    //    lines_of_code: "lines of code"
-    //    coding_hours: "coding hours"
-    //    expressed_creativity: "and expressed creativity by building"
-    //    report_content_1: "standalone game and web "
-    //    project: "project"
-    //    projects: "projects"
-    //    progress_stats: "Progress stats based on sampling __sampleSize__ of __populationSize__ students."
-    //    standards_coverage: "Standards Coverage"
-    //    coverage_p1_coco: "The full CodeCombat curriculum covers major programming standards in several widely-adopted frameworks, including those of the International Society for Technology in Education (ISTE), the Computer Science Teacher Association (CSTA), and the K-12 Computer Science Framework."
-    //    coverage_p1_ozar: "The full Ozaria curriculum covers major programming standards in several widely-adopted frameworks, including those of the International Society for Technology in Education (ISTE), the Computer Science Teacher Association (CSTA), and the K-12 Computer Science Framework."
-    //    coverage_p2_coco: "At CodeCombat, we believe that students will be most prepared for both real-world computing jobs and further study of computer science by using real, typed code in full programming languages, so instead of using block-based visual programming languages for beginners, we teach Python and JavaScript – the same languages used widely today by companies ranging from Google to the New York Times."
-    //    coverage_p2_ozar: "Ozaria is created by the CodeCombat, the game-based learning company. We believe that students will be most prepared for both real-world computing jobs and further study of computer science by using real, typed code in full programming languages, so instead of using block-based visual programming languages for beginners, we teach Python and JavaScript – the same languages used widely today by companies ranging from Google to the New York Times."
-    //    questions: "Have questions or want more information? We'd be happy to help."
-    //    reach_out_manager: "Reach out to your Account Manager __name__ at "
-    //    stats_include: "stats include __number__ other __name__"
+    outcomes: {
+      outcomes_report: '[AI_TRANSLATION]歷程報告',
+      customize_report: '[AI_TRANSLATION]定制報告',
+      done_customizing: '[AI_TRANSLATION]自訂完成',
+      start_date: '[AI_TRANSLATION]開始日期',
+      end_date: '[AI_TRANSLATION]結束日期',
+      country: '[AI_TRANSLATION]國家',
+      school_admin: '[AI_TRANSLATION]學校管理員',
+      school_network: '[AI_TRANSLATION]校園網路',
+      school_subnetwork: '[AI_TRANSLATION]校園子網',
+      classroom: '[AI_TRANSLATION]教室',
+      view_outcomes_report: '[AI_TRANSLATION]檢視成果報告',
+      key_concepts: '[AI_TRANSLATION]關鍵概念  ',
+      code_languages: '[AI_TRANSLATION]程式語言',
+      using_codecombat: '[AI_TRANSLATION]使用 CodeCombat 的個性化學習引擎...',
+      //    wrote: "wrote...",
+      across_an_estimated: '[AI_TRANSLATION]大約跨越...',
+      in: '[AI_TRANSLATION]在...',
+      include: '[AI_TRANSLATION]包含',
+      archived: '[AI_TRANSLATION]已存檔',
+      max: '[AI_TRANSLATION]馬克斯',
+      multiple: '[AI_TRANSLATION]s  ',
+      computer_program: '[AI_TRANSLATION]電腦程式',
+      computer_programs: '[AI_TRANSLATION]電腦程式們',
+      line_of_code: '[AI_TRANSLATION]代碼行',
+      lines_of_code: '[AI_TRANSLATION]代碼行數',
+      coding_hours: '[AI_TRANSLATION]編程時數',
+      expressed_creativity: '[AI_TRANSLATION]並通過建造來表達創意',
+      report_content_1: '[AI_TRANSLATION]獨立遊戲和網頁  ',
+      project: '[AI_TRANSLATION]項目  ',
+      projects: '[AI_TRANSLATION]項目們  ',
+      progress_stats: '[AI_TRANSLATION]進度統計基於 __populationSize__ 學生中的 __sampleSize__ 樣本。',
+      standards_coverage: '[AI_TRANSLATION]標準涵蓋',
+      coverage_p1_coco: '[AI_TRANSLATION]全部 CodeCombat 課程涵蓋了多個被廣泛採用的框架中的主要編程標準，包括國際教育技術協會（ISTE）、計算機科學教師協會（CSTA）和 K-12 計算機科學框架的標準。\n',
+      coverage_p1_ozar: '[AI_TRANSLATION]全部 Ozaria 課程涵蓋了多個被廣泛採用的框架中的主要編程標準，包括國際教育技術協會（ISTE）、計算機科學教師協會（CSTA）和 K-12 計算機科學框架的標準。\n',
+      coverage_p2_coco: '[AI_TRANSLATION]在 CodeCombat，我們相信學生通過使用真實的打字代碼和完整的程式語言，將最有可能為現實世界計算機工作和進一步的計算機科學學習做好準備，因此我們沒有使用基於區塊的初學者可視化程式語言，而是教導 Python 和 JavaScript——這些是今天從 Google 到《紐約時報》等公司廣泛使用的語言。',
+      coverage_p2_ozar: '[AI_TRANSLATION]Ozaria 是由遊戲化學習公司 CodeCombat 創建的。我們相信通過真實的全程編程語言來使用實際輸入的代碼，能夠讓學生最好地為現實世界中的計算工作和進一步的計算機科學學習做好準備，因此我們不使用針對初學者的基於方塊的視覺編程語言，而是教 Python 和 JavaScript——這些都是今天從 Google 到紐約時報廣泛使用的語言。',
+      questions: '[AI_TRANSLATION]有問題或需要更多訊息？我們樂意提供幫助。',
+      reach_out_manager: '[AI_TRANSLATION]聯繫你的客戶經理 __name__ 在',
+      stats_include: '[AI_TRANSLATION]統計包括 __number__ 其他 __name__',
+      include_other_product: '[AI_TRANSLATION]顯示 __product__ 統計',
+      show_other_product: '[AI_TRANSLATION]顯示 __product__ 統計',
+      show_license_stats: '[AI_TRANSLATION]顯示詳細授權統計',
+      show_license_summary: '[AI_TRANSLATION]顯示授權概覽',
+      license_stats: '[AI_TRANSLATION]授權統計',
+      license_template: '[AI_TRANSLATION]<b>許可證</b>：__used__ 已使用，__available__ 可用',
+      licensed_teachers: '[AI_TRANSLATION]<b>擁有許可證的教師</b>：__teachers__',
+      licensed_schools: '[AI_TRANSLATION]<b>擁有許可證的學校</b>：__schools__',
+      //    students: "Students",
+      //    teachers: "Teachers",
+      licensesUsed: '[AI_TRANSLATION]已使用的授權',
+      //    schools: "Schools",
+      top_teacher_info: '[AI_TRANSLATION]教師 __A__、__B__ 和 __n__ 位其他教師使用我們的平台  ',
+      top_teacher_info_1: '[AI_TRANSLATION]教師 __A__ 和 __B__ 使用我們的平台  ',
+      top_teacher_info_2: '[AI_TRANSLATION]教師 __A__ 使用我們的平台  ',
+      ai_league: '[AI_TRANSLATION]AI 聯盟',
+      ai_league_stats: '[AI_TRANSLATION]有 __n__ 名玩家在 AI 聯賽競技場中遊玩',
+    },
 
-    //  efficacy:
-    //    ozaria_efficacy: "Ozaria Efficacy"
-    //    header_subtitle: "Ozaria has proven to have a positive impact on the student learning outcomes that matter most to both students and educators."
-    //    pathway_dialog_line1: "while True:"
-    //    pathway_dialog_line2: "hero.moveDown(1)"
-    //    pathway_dialog_line3: "hero.moveRight(2)"
-    //    exploring_creativity: "Exploring Creativity"
-    //    exploring_creativity_description: "Almost all students surveyed said they really enjoyed being able to create their own game at the end of each Chapter."
-    //    essential_skills: "Essential Skills"
-    //    essential_skills_description: "Teachers found Ozaria to be a superior curriculum for teaching complex coding concepts as well as essential 21st century skills, such as problem solving and reasoning, critical and computational thinking skills."
-    //    fun_engaging: "Fun & Engaging"
-    //    fun_engaging_description: "Ozaria was reported to be a fun and engaging curriculum. Students especially noted how effective it was in teaching text-based coding, and how the tutorials, hints, and error messages provided the appropriate amount of support."
-    //    easy_to_use: "Easy to Use"
-    //    easy_to_use_description: "Both teacher and students found the platform easy to implement and use."
-    //    mcintosh_study_title: "Increasing Score Gains on Assessments"
-    //    mcintosh_middle_school: "McIntosh Middle School"
-    //    mcintosh_study_description: "A novice teacher with advanced level coding experience taught three cohorts of students. Each cohort was studied across a full semester."
-    //    study_highlights_title: "Highlights from the study results:"
-    //    mcintosh_study_highlight_1: "98% of students rated their level of enthusiasm for Ozaria as high or extremely high"
-    //    mcintosh_study_highlight_2: "100% of students scored above 70% on both the mid-term and final assessments"
-    //    read_the_study: "Read the Study (PDF)"
-    //    mrms_study_title: "Gaining Confidence in Computer Science"
-    //    mountain_ridge_middle_school: "Mountain Ridge Middle School"
-    //    mrms_study_description: "An experienced teacher with beginning level coding experience taught two cohorts of students. Each cohort was studied across a full semester."
-    //    mrms_study_highlight_1: "Students made an average gain score of 33% between the pre-assessment and the final assessment"
-    //    mrms_study_highlight_2: " Both the teacher and students found Ozaria to be fun, engaging, and easy to use."
-    //    graph1_description: "Students made a 47% average gain score between the pre-assessment and the final assessment."
-    //    graph2_description: "More than 90% of students rated their coding confidence level as Confident or Extremely Confident after using Ozaria."
-    //    quote_section_content: "One thing I am able to do now that I could not do before is actually believe I can code."
-    //    quote_section_footer: "Student, Mountain Ridge Middle School"
-    //    teacher_quote1_content: "The curriculum had students thoroughly engaged. They enjoyed the story and the characters. More importantly, they gained confidence in their ability to solve complex problems with concepts they'd learned in Ozaria."
-    //    teacher_quote1_footer1: "Ronnie Cox, Teacher"
-    //    teacher_quote1_footer2: "McIntosh Middle School"
-    //    student_quote_content: "I like that you can make a mistake and the game corrects it or tells you that there's an error. A lot of beginners make a lot of mistakes when coding and sometimes don't know how to code, so they can't correct their mistakes because they don't know what's wrong. Ozaria is the perfect coding game for beginners."
-    //    student_quote_footer: "Student, McIntosh Middle School"
-    //    teacher_quote2_content: "I have absolutely loved using Ozaria in my class for the past three years. My students have thoroughly enjoyed the storyline as they learned Python in a self-paced learning environment. I would highly recommend Ozaria for teachers that know little to nothing about coding, as the support for teachers is very in-depth."
-    //    teacher_quote2_footer1: "Lynette Personett, Teacher"
-    //    teacher_quote2_footer2: "Mountain Ridge Middle School"
-    //    commitment_title: "CodeCombat’s Commitment to Efficacy"
-    //    commitment_description: "We are committed to ensuring our products have a positive and measurable impact on learning outcomes. We create meaningful learning experiences, and use evidence-based practices to design content that will realize the outcomes that matter the most to teachers and students."
-    //    commitment_question: "Interested in implementing an effective and impactful CS curriculum at your school?"
-    //    teachers_love_codecombat: "Teachers Love CodeCombat"
-    //    teachers_love_description: "Explore the impact of our sister product, CodeCombat, on Computer Science teaching & learning!"
-    //    teachers_love_box1: "Report that their students enjoy using CodeCombat to learn how to code"
-    //    teachers_love_box2: "Would recommend CodeCombat to other computer science teachers"
-    //    teachers_love_box3: "Say that CodeCombat helps them support students’ problem solving abilities"
-    //    classroom_image: "Classroom"
-    //    ozaria_branding_logo: "Ozaria branding logo"
-    //    dog: "Dog"
-    //    hero: "Hero"
-    //    teacher: "Teacher"
+    efficacy: {
+      ozaria_efficacy: '[AI_TRANSLATION]Ozaria 成效',
+      header_subtitle: '[AI_TRANSLATION]Ozaria 已證明對學生和教育者最重視的學習成果產生了積極影響。',
+      //    pathway_dialog_line1: "while True:",
+      pathway_dialog_line2: '[AI_TRANSLATION]hero.moveDown(1)',
+      pathway_dialog_line3: '[AI_TRANSLATION]hero.moveRight(2)',
+      exploring_creativity: '[AI_TRANSLATION]創意探索',
+      exploring_creativity_description: '[AI_TRANSLATION]幾乎所有參加調查的學生都表示，他們非常喜歡能在每個章節結束時創建自己的遊戲。',
+      essential_skills: '[AI_TRANSLATION]基本技能',
+      essential_skills_description: '[AI_TRANSLATION]教師們發現 Ozaria 是一個卓越的課程，不僅能教授複雜的編碼概念，還能教授解決問題和推理、批判性和計算性思維等 21 世紀必備技能。  ',
+      fun_engaging: '[AI_TRANSLATION]有趣且吸引人的',
+      fun_engaging_description: '[AI_TRANSLATION]Ozaria 被報告為一個有趣且引人入勝的課程。學生們特別指出，它在教授基於文本的編碼方面非常有效，而且教程、提示和錯誤信息提供了適當的支持。',
+      easy_to_use: '[AI_TRANSLATION]容易使用',
+      easy_to_use_description: '[AI_TRANSLATION]老師和學生們都發現這個平台很容易實現和使用。',
+      mcintosh_study_title: '[AI_TRANSLATION]增加評估得分',
+      mcintosh_middle_school: '[AI_TRANSLATION]麥金塔什中學',
+      mcintosh_study_description: '[AI_TRANSLATION]一位有進階程式設計經驗的初級教師教了三個學期的學生。每個學期都進行了全學期的研究。',
+      study_highlights_title: '[AI_TRANSLATION]研究結果的亮點：',
+      mcintosh_study_highlight_1: '[AI_TRANSLATION]98% 的學生對 Ozaria 的熱情程度評價為高或非常高',
+      mcintosh_study_highlight_2: '[AI_TRANSLATION]100% 的學生在期中和期末考試中均得分超過 70%',
+      read_the_study: '[AI_TRANSLATION]閱讀研究（PDF）',
+      mrms_study_title: '[AI_TRANSLATION]增強對計算機科學的信心',
+      mountain_ridge_middle_school: '[AI_TRANSLATION]山脊中學',
+      mrms_study_description: '[AI_TRANSLATION]一位擁有初級編程經驗的經驗豐富的教師教了兩批學生。每批學生都在一個完整學期內進行了研究。  ',
+      mrms_study_highlight_1: '[AI_TRANSLATION]學生在初步評估和最終評估之間平均成績提升了33%。',
+      mrms_study_highlight_2: '[AI_TRANSLATION] 老師和學生都覺得 Ozaria 很有趣、引人入勝且易於使用。  ',
+      graph1_description: '[AI_TRANSLATION]學生在初步評估和最終評估之間平均成績提升了47%。',
+      graph2_description: '[AI_TRANSLATION]超過 90% 的學生在使用 Ozaria 後自信地或極其自信地評價了他們的編碼信心水平。',
+      quote_section_content: '[AI_TRANSLATION]現在我能做的一件事是，我真的相信我能編程了。',
+      quote_section_footer: '[AI_TRANSLATION]學生, Mountain Ridge Middle School',
+      teacher_quote1_content: '[AI_TRANSLATION]課程讓學生完全投入。他們喜愛故事和角色。更重要的是，他們在用在Ozaria學到的概念解決複雜問題的能力上增強了自信。',
+      teacher_quote1_footer1: '[AI_TRANSLATION]老師 Ronnie Cox',
+      teacher_quote1_footer2: '[AI_TRANSLATION]麥金塔什中學',
+      student_quote_content: '[AI_TRANSLATION]我喜歡這個遊戲會幫你改錯或告訴你哪裡有錯。很多初學者寫程式時會犯很多錯，甚至不知道該怎麼寫程式，所以他們不知道哪裡錯了就無法改正。Ozaria 是初學者的完美編程遊戲。',
+      student_quote_footer: '[AI_TRANSLATION]學生, McIntosh Middle School',
+      teacher_quote2_content: '[AI_TRANSLATION]我這三年來絕對愛上了在我的課堂上使用 Ozaria。我的學生非常喜歡故事情節，因為他們在自助學習的環境中學習 Python。我非常推薦給對編程一竅不通的老師，因為對教師的支持非常深入。',
+      teacher_quote2_footer1: '[AI_TRANSLATION]Lynette Personett，老師',
+      teacher_quote2_footer2: '[AI_TRANSLATION]山脊中學',
+      commitment_title: '[AI_TRANSLATION]CodeCombat 的有效性承諾  ',
+      commitment_description: '[AI_TRANSLATION]我們致力確保我們的產品對學習成果有正面且可測量的影響。我們創造有意義的學習體驗，並使用基於證據的實踐來設計內容，實現對師生最重要的成果。\n',
+      commitment_question: '[AI_TRANSLATION]有興趣在你學校實施有效且有影響力的計算機科學課程嗎？',
+      //    teachers_love_codecombat: "Teachers Love CodeCombat",
+      teachers_love_description: '[AI_TRANSLATION]探索我們同系列產品 CodeCombat 對計算機科學教學與學習的影響！',
+      teachers_love_box1: '[AI_TRANSLATION]報告他們的學生喜歡使用 CodeCombat 學習編碼',
+      teachers_love_box2: '[AI_TRANSLATION]我會推薦 CodeCombat 給其他資訊科技老師',
+      teachers_love_box3: '[AI_TRANSLATION]說 CodeCombat 幫助他們支持學生的解決問題能力',
+      classroom_image: '[AI_TRANSLATION]教室',
+      ozaria_branding_logo: '[AI_TRANSLATION]Ozaria 品牌標誌',
+      dog: '[AI_TRANSLATION]狗',
+      //    hero: "Hero",
+      //    teacher: "Teacher",
+    },
 
     league: {
       student_register_1: '成為下一個 AI 冠軍！',
@@ -4403,540 +4851,1653 @@ module.exports = {
       student_register_3: '提供以下資訊以確認獲獎資格。',
       teacher_register_1: '註冊以取得您的班級聯賽資料頁面並開始上課。',
       general_news: '經由電子郵件取得最新資訊並更新 AI 相關賽事。',
-      team: '團隊',
       how_it_works1: '加入 __team__',
       seasonal_arena_tooltip: '您將使用自己最好的編程技能來與隊友和其他人作戰，以賺取積分並提升 AI 聯賽排行，以期在賽季結束前進入冠軍賽。',
       summary: 'The CodeCombat AI League is uniquely both a competitive AI battle simulator and game engine for learning real Python and JavaScript code.',
-      //    join_now: "Join Now"
-      //    tagline: "The CodeCombat AI League combines our project-based standards-aligned curriculum, engaging adventure-based coding game, and our annual AI coding global tournament into an organized academic competition unlike any other."
-      //    ladder_subheader: "Use your coding skills and battle strategies to rise up the ranks!"
-      //    earn_codepoints: "Earn CodePoints by completing levels"
-      //    codepoints: "CodePoints"
-      //    free_1: "Access competitive multiplayer arenas, leaderboard, and global coding championships"
-      //    free_2: "Earn points for completing practice levels and competing in head-to-head matches"
-      //    free_3: "Join competitive coding teams with friends, family, or classmates"
-      //    free_4: "Showcase your coding skills and take home great prizes"
-      //    compete_season: "Put all the skills you’ve learned to the test! Compete against students and players from across the world in this exciting culmination to the season."
-      //    season_subheading1: "For both Season and Championship arenas, each player programs their team of “AI Heroes” with code written in Python, JavaScript, C++, Lua, or CoffeeScript."
-      //    season_subheading2: "Their code informs the strategies their AI Heroes will execute in a head-to-head battle against other competitors."
-      //    team_derbezt: "Learn coding and win prizes sponsored by superstar Mexican actor, comedian, and filmmaker Eugenio Derbez."
-      //    invite_link: "Invite players to this team by sending them this link:"
-      //    public_link: "Share this team leaderboard with its public link:"
-      //    end_to_end: "Unlike other esports platforms serving schools, we own the structure top to bottom, which means we’re not tied to any game developer or have issues with licensing. That also means we can make custom modifications in-game for your school or organization."
-      //    path_success: "The game platform fits into a regular Computer Science curriculum, so as students play through the game levels, they’re completing course work. Students learn coding and computer science while they play, then use these skills in arena battles as they practice and play on the same platform."
-      //    unlimited_potential: "Our tournament structure is adaptable to any environment or use case. Students can participate at a designated time during regular learning, play at home asynchronously, or participate on their own schedule."
-      //    edit_team: "Edit Team"
-      //    start_team: "Start a Team"
-      //    leave_team: "Leave Team"
-      //    join_team: "Join Team"
-      //    view_team: "View Team"
-      //    join_team_name: "Join Team __name__"
-      //    features: "Features"
-      //    built_in: "Built-in Competitive Infrastructure"
-      //    built_in_subheader: "Our platform hosts every element of the competitive process, from leaderboards to the game platform, assets, and tournament awards."
-      //    custom_dev: "Custom Development"
-      //    custom_dev_subheader: "Customization elements for your school or organization are included, plus options like branded landing pages and in-game characters."
-      //    comprehensive_curr: "Comprehensive Curriculum"
-      //    comprehensive_curr_subheader: "CodeCombat is a standards-aligned CS solution that helps educators teach real coding in JavaScript and Python, no matter their experience."
-      //    roster_management: "Roster Management Tools"
-      //    roster_management_subheader: "Track student performance within the curriculum and within the game, and easily add or remove students."
-      //    share_flyer: "Share our AI League flyer with educators, administrators, parents, esports coaches or others that may be interested."
-      //    download_flyer: "Download Flyer"
-      //    championship_summary: "The __championshipArena__ championship arena is now open! Battle it out for the month of __championshipMonth__ to win prizes in the __championshipArena__ __championshipType__."
-      //    play_arena_full: "Play __arenaName__ __arenaType__"
-      //    play_arena_short: "Play __arenaName__"
-      //    view_arena_winners: "View __arenaName__ __arenaType__ winners"
-      //    arena_type_championship: "Championship Arena"
-      //    arena_type_regular: "Multiplayer Arena"
-      blazing_battle: '激烈賽事'
-    }
-  }
+      join_now: '[AI_TRANSLATION]立即加入\n',
+      tagline: '[AI_TRANSLATION]CodeCombat AI League 將我們的課程標準、引人入勝的冒險編碼遊戲，以及我們年度 AI 編碼全球比賽結合在一起，形成一個有組織的學術競賽，獨具一格。\n',
+      ladder_subheader: '[AI_TRANSLATION]用你的編碼技巧和戰鬥策略提升排名吧！',
+      earn_codepoints: '[AI_TRANSLATION]透過完成關卡來賺取 CodePoints',
+      codepoints: '[AI_TRANSLATION]CodePoints',
+      free_1: '[AI_TRANSLATION]訪問競技多人競技場、排行榜和全球編程錦標賽',
+      free_2: '[AI_TRANSLATION]完成練習關卡和參加對決比賽可獲得積分',
+      free_3: '[AI_TRANSLATION]與朋友、家人或同學組建競技編程隊伍\n',
+      free_4: '[AI_TRANSLATION]展示你的編碼技能，贏得豐厚獎品  ',
+      compete_season: '[AI_TRANSLATION]把你學到的所有技能付諸實踐吧！在這個令人興奮的賽季終結中，與來自世界各地的學生和玩家競爭。',
+      season_subheading1: '[AI_TRANSLATION]在季賽和錦標賽的競技場中，每位玩家用 Python、JavaScript、C++、Lua 或 Java 為他們的 "AI 英雄" 編寫程序。',
+      season_subheading2: '[AI_TRANSLATION]他們的代碼告訴 AI 英雄要在與其他競爭者的正面戰鬥中執行的策略。\n',
+      team_derbezt: '[AI_TRANSLATION]學習編程並獲得由墨西哥巨星演員、喜劇演員和導演 Eugenio Derbez 贊助的獎品。',
+      invite_link: '[AI_TRANSLATION]通過發送這個鏈接邀請玩家加入這個隊伍：  ',
+      public_link: '[AI_TRANSLATION]用這個公共連結分享你的團隊排行榜：',
+      end_to_end: '[AI_TRANSLATION]與其他服務學校的電子競技平台不同，我們擁有頂層結構，這意味著我們不受任何遊戲開發商的限制，也沒有授權問題。這也意味著我們可以為你的學校或組織在遊戲中進行自定義修改。',
+      path_success: '[AI_TRANSLATION]這個遊戲平台可以融入到常規的計算機科學課程中，所以當學生通過遊戲關卡時，他們也在完成課程學習。學生在玩遊戲時學習編碼和計算機科學，然後在競技場中利用這些技能進行對戰，進一步練習和玩同一平台的遊戲。\n',
+      unlimited_potential: '[AI_TRANSLATION]我們的比賽結構可以適應任何環境或使用案例。學生可以在常規學習時間參與，在家進行非同步遊戲，或按照自己的時間表參加。',
+      team: '團隊',
+      edit_team: '[AI_TRANSLATION]編輯團隊',
+      start_team: '[AI_TRANSLATION]建立一個團隊',
+      leave_team: '[AI_TRANSLATION]離開隊伍\n',
+      join_team: '[AI_TRANSLATION]加入團隊\n',
+      view_team: '[AI_TRANSLATION]檢視隊伍',
+      join_team_name: '[AI_TRANSLATION]加入 __name__ 團隊\n',
+      features: '[AI_TRANSLATION]功能',
+      built_in: '[AI_TRANSLATION]內建的競技基礎架構',
+      built_in_subheader: '[AI_TRANSLATION]我們的平台涵蓋了競技過程中的每個要素，從排行榜到遊戲平台、資產和錦標賽獎勵。',
+      custom_dev: '[AI_TRANSLATION]自訂開發',
+      custom_dev_subheader: '[AI_TRANSLATION]包括針對您的學校或組織的定制元素，還有品牌登錄頁面和遊戲內角色等選項',
+      comprehensive_curr: '[AI_TRANSLATION]綜合課程',
+      comprehensive_curr_subheader: '[AI_TRANSLATION]CodeCombat 是一個標準對齊的 CS 解決方案，幫助教育者教實際的 JavaScript 和 Python 編碼，不論其經驗如何。',
+      roster_management: '[AI_TRANSLATION]名單管理工具',
+      roster_management_subheader: '[AI_TRANSLATION]追蹤學生在課程和遊戲中的表現，並輕鬆添加或移除學生。',
+      share_flyer: '[AI_TRANSLATION]和教育者、管理員、家長、電競教練或其他感興趣的人分享我們的 AI 聯賽傳單。',
+      download_flyer: '[AI_TRANSLATION]下載傳單  ',
+      championship_summary: '[AI_TRANSLATION]__championshipArena__ 冠軍競技場現在開放了！為期一個月的 __championshipMonth__ 中展開戰鬥，贏得 __championshipArena__ __championshipType__ 的獎品。',
+      play_arena_full: '[AI_TRANSLATION]演奏 __arenaName__ __arenaType__',
+      play_arena_short: '[AI_TRANSLATION]演奏 __arenaName__',
+      view_arena_winners: '[AI_TRANSLATION]檢視 __arenaName__ __arenaType__ 獲勝者',
+      arena_type_championship: '[AI_TRANSLATION]錦標賽競技場',
+      arena_type_regular: '[AI_TRANSLATION]多人競技場  ',
+      blazing_battle: '激烈賽事',
+      infinite_inferno: '[AI_TRANSLATION]無盡地獄  ',
+      mages_might: '[AI_TRANSLATION]法師的力量',
+      sorcerers: '[AI_TRANSLATION]巫師們  ',
+      giants_gate: '[AI_TRANSLATION]巨人之門',
+      colossus: '[AI_TRANSLATION]巨像  ',
+      iron_and_ice: '[AI_TRANSLATION]鐵與冰',
+      tundra_tower: '[AI_TRANSLATION]苔原塔  ',
+      magma_mountain: '[AI_TRANSLATION]熔岩山  ',
+      lava_lake: '[AI_TRANSLATION]熔岩湖  ',
+      desert_duel: '[AI_TRANSLATION]沙漠對決',
+      sandstorm: '[AI_TRANSLATION]沙塵暴',
+      frozen_fortress: '[AI_TRANSLATION]冰雪堡壘',
+      equinox: '[AI_TRANSLATION]晝夜平分點',
+      farmers_feud: '[AI_TRANSLATION]農夫的爭鬥  ',
+      farmscape: '[AI_TRANSLATION]農場景觀  ',
+      storm_siege: '[AI_TRANSLATION]暴風圍城',
+      snowhold: '[AI_TRANSLATION]雪堡  ',
+      fierce_forces: '[AI_TRANSLATION]激烈的力量  ',
+      anti_gravity: '[AI_TRANSLATION]反重力',
+      solar_skirmish: '[AI_TRANSLATION]太陽之戰',
+      sunfire: '[AI_TRANSLATION]Sunfire',
+      system_shock: '[AI_TRANSLATION]系統震驚',
+      supercharged: '[AI_TRANSLATION]超頻',
+      //    pawns_passage: "Pawn's Passage",
+      //    kings_gambit: "King's Gambit",
+      //    strikers_stadium: "Striker's Stadium",
+      //    golden_goal: "Golden Goal",
+      //    turbo_track: "Turbo Track",
+      //    grand_prix: "Grand Prix",
+      season_label: '[AI_TRANSLATION]第 __seasonNumber__ 季: __seasonName__',
+      season_1: '[AI_TRANSLATION]烈火鍛造',
+      season_2: '[AI_TRANSLATION]幸運法術',
+      season_3: '[AI_TRANSLATION]泰坦時代',
+      season_4: '[AI_TRANSLATION]戰爭的霜',
+      season_5: '[AI_TRANSLATION]時光之沙',
+      season_6: '[AI_TRANSLATION]熔岩混亂',
+      season_7: '[AI_TRANSLATION]熔點',
+      season_8: "[AI_TRANSLATION]Coder's Harvest",
+      season_9: '[AI_TRANSLATION]密碼統治',
+      season_10: '[AI_TRANSLATION]重力遊戲',
+      season_11: '[AI_TRANSLATION]夏季大亂鬥',
+      season_12: '[AI_TRANSLATION]力量火花',
+      //    season_13: "Checkmate Challenge",
+      //    season_14: "Soccer Showdown",
+      //    season_15: "Racing Rivals",
+      cup: '[AI_TRANSLATION]杯子',
+      blitz: '[AI_TRANSLATION]閃電戰',
+      clash: '[AI_TRANSLATION]衝突',
+      //    season13_announcement_1: "In the depths of ancient ruins, a magical checkerboard arises and the towers comes alive. Get as many pieces to the end of the line!",
+      //    season12_announcement_2: "Collectors fly high, control points emerges, mythical crystals stand tall, as the dungeon expands, the battle is getting fiercer, only the righteous shall be the victor.",
+      //    season12_announcement_1: "Deep in the dungeons, mythical crystals stand tall, collecting energy and mana from abandoned ruins. Summon units, cast spells, and claim victory!",
+      season11_announcement_1: '[AI_TRANSLATION]比賽越來越激烈啦！陽光下放置並升級太陽能板，避開電擊陷阱，放置機器螃蟹、穿越傳送門，收集更多太陽能爭取勝利！\n',
+      season10_announcement_1: '[AI_TRANSLATION]這裡熱氣蒸騰，熔岩巨石釋放出強大的能量！召喚單位並施放法術，把熔岩巨石推到對手的區域。適應戰場不斷變化的重力！',
+      season9_announcement_1: '[AI_TRANSLATION]在 Snowhold Clash 的冬季巔峰上，一場史詩般的戰鬥正在為賽季 9 冠軍競技場而戰！把你的披風拉緊，把你的代碼拉得更近，運用策略和算法在這片天空之上的土地上贏得勝利。  ',
+      season8_announcement_1: '[AI_TRANSLATION]第八季農場狂熱賽季的豐收季節來了！隨著葉子變色，是時候在農場上編碼解決那些野蠻和無法穿越的障礙了。策略性地收集重要的增強來提升你的機器工人並利用特殊能力提高生產效率，超越你的對手！',
+      season8_announcement_2: '[AI_TRANSLATION]注意：比賽平衡調整可能會一直持續到 8 月 15 日。所以務必經常回來測試你的代碼對抗全球排行榜。  ',
+      season7_announcement_1: '[AI_TRANSLATION]見證 Equinox Cup 的新挑戰！第7季的塔防競技場提供獨特的策略、怪物和 boss 戰鬥等待你來征服。\n',
+      season6_announcement_1: '[AI_TRANSLATION]隨著熔岩湖爭奪賽決賽的開始，這是絕對的熔岩混沌！用這個經典貪食蛇遊戲的熱血版本來戰勝和智勝你的對手。\n',
+      season6_announcement_2: '[AI_TRANSLATION]注意：比賽平衡調整可能會一直持續到 12 月 15 日。所以務必經常回來測試你的代碼對抗全球排行榜。  ',
+      season5_announcement_1: '[AI_TRANSLATION]沙塵暴閃電戰決賽開始了。在這個籃球亂鬥的競技場中，你必須召喚合適的英雄，制定正確的計劃，並超過對手得分以取得勝利！',
+      season5_announcement_2: '[AI_TRANSLATION]注意：比賽平衡調整可能會一直持續到 9 月 15 日。所以務必經常回來測試你的代碼對抗全球排行榜。  ',
+      season4_announcement_1: '[AI_TRANSLATION]凝冰塔杯決賽開始了。在這個全新版本的經典塔防遊戲中，你必須通過建造塔和使用重力異常來保護你的基地免受怪物的侵襲。',
+      season4_announcement_2: '[AI_TRANSLATION]注意：比賽平衡調整可能會一直持續到 4 月 15 日。所以務必經常回來測試你的代碼對抗全球排行榜。  ',
+      season3_announcement_1: '[AI_TRANSLATION]是時候在我們的第三賽季終極競技場中測試你的編碼技能了。巨像大戰已經上線，提供新的挑戰和新的排行榜讓你去爬升。',
+      season3_announcement_2: '[AI_TRANSLATION]需要更多練習嗎？留在巨人之門競技場精進技術。你有直到12月14日的時間玩這兩個競技場。註：競技場平衡調整可能會在12月6日前持續進行。  ',
+      season3_announcement_3: '[AI_TRANSLATION]在科洛斯巨人對決中，頂尖表現者可獲得豐厚獎品：',
+      season2_announcement_1: '[AI_TRANSLATION]是時候在我們的第二賽季終極競技場中測試你的編碼技能了。法師衝鋒戰已經上線，提供新的挑戰和新的排行榜讓你去爬升。',
+      season2_announcement_2: '[AI_TRANSLATION]需要更多練習嗎？留在法師之力競技場精進技術。你有直到8月31日的時間玩這兩個競技場。註：競技場平衡調整可能會在8月23日前持續進行。  ',
+      season2_announcement_3: '[AI_TRANSLATION]在巫師閃電戰中，頂尖表現者可獲得豐厚獎品：',
+      season1_prize_1: '[AI_TRANSLATION]$1,000 奬學金',
+      season1_prize_2: '[AI_TRANSLATION]RESPawn Gaming Gear',
+      season1_prize_3: '[AI_TRANSLATION]自訂 CodeCombat 角色頭像',
+      season1_prize_4: '[AI_TRANSLATION]更多內容！  ',
+      season1_prize_hyperx: '[AI_TRANSLATION]HyperX 高級外設',
+      codecombat_ai_league: '[AI_TRANSLATION]CodeCombat AI 聯賽',
+      register: '[AI_TRANSLATION]註冊',
+      not_registered: '[AI_TRANSLATION]未註冊\n',
+      register_for_ai_league: '[AI_TRANSLATION]註冊 AI 聯賽',
+      world: '[AI_TRANSLATION]世界',
+      quickstart_video: '[AI_TRANSLATION]快速入門視頻',
+      arena_rankings: '[AI_TRANSLATION]競技場排名',
+      arena_rankings_blurb: '[AI_TRANSLATION]全球 AI 聯賽競技場排行榜',
+      arena_rankings_title: '[AI_TRANSLATION]團隊內所有玩家在 AI 聯賽競技場的全球排行榜排名，開放年齡組別。',
+      competing: '[AI_TRANSLATION]競爭中：',
+      count_student: '[AI_TRANSLATION]學生  ',
+      count_students: '[AI_TRANSLATION]學生們  ',
+      top_student: '[AI_TRANSLATION]頂部：',
+      //    top_percent: "top",
+      top_of: '[AI_TRANSLATION]的',
+      arena_victories: '[AI_TRANSLATION]競技場勝利',
+      arena_victories_blurb: '[AI_TRANSLATION]全球 AI 聯賽競技場最近勝利',
+      arena_victories_title: '[AI_TRANSLATION]勝利計數基於每個玩家在每個AI聯賽競技場中最後1000場異步玩的比賽。',
+      //    count_wins: "wins",
+      codepoints_blurb: '[AI_TRANSLATION]1 CodePoint = 1 行程式碼',
+      codepoints_title: '[AI_TRANSLATION]每打完一關，只要用到非空白的程式碼行，就可以賺取一個 CodePoint。每關的標準解法所值的 CodePoint 是相同的，不管學生寫的程式碼行數多還是少。',
+      count_total: '[AI_TRANSLATION]總數：',
+      join_teams_header: '[AI_TRANSLATION]加入團隊並獲得酷炫獎勵！\n',
+      join_team_hyperx_title: '[AI_TRANSLATION]加入 HyperX 團隊，享 9 折優惠\n',
+      join_team_hyperx_blurb: '[AI_TRANSLATION]將隨機選出 30 名團隊成員獲得免費的遊戲鼠墊！',
+      join_team_derbezt_title: '[AI_TRANSLATION]加入 DerBezt 團隊，獲得獨家英雄\n',
+      join_team_derbezt_blurb: '[AI_TRANSLATION]從墨西哥超級明星尤金尼奧·德爾貝茲（Eugenio Derbez）解鎖阿曼多·奧約斯（Armando Hoyos）英雄！',
+      join_team_ned_title: '[AI_TRANSLATION]加入 Ned 團隊，解鎖 Ned 的英雄\n',
+      join_team_ned_blurb: '[AI_TRANSLATION]獲取來自 YouTube 明星 Try Guy Ned Fulmer 的獨家鍋鏟英雄！',
+      check_out_all: '[AI_TRANSLATION]查看全部',
+      pick_best_tournaments: '[AI_TRANSLATION]挑選最適合你自訂賽事的選項！',
+      final_arena: '[AI_TRANSLATION]終極競技場',
+      package_options_and_guide: '[AI_TRANSLATION]套件選項及實施指南',
+      custom_tournament: '[AI_TRANSLATION]自訂比賽',
+      you_win: '[AI_TRANSLATION]你可以贏\n',
+      great_prizes: '[AI_TRANSLATION]豐厚的獎品',
+      powered_by: '[AI_TRANSLATION]Powered by',
+      grand_prize: '[AI_TRANSLATION]大獎',
+      scholarship: '[AI_TRANSLATION]獎學金',
+      top_players_win: '[AI_TRANSLATION]每個分區的前三名玩家將獲得：HyperX 專業周邊設備',
+      team_hyperx: '[AI_TRANSLATION]Team HyperX  ',
+      //    earn_more_gear: "you could earn even more gear!",
+      prize_footer1: '[AI_TRANSLATION]授予所有年齡組中表現最優秀的玩家。',
+      prize_footer2: '[AI_TRANSLATION]特定產品和型號可能會更改。',
+      prize_footer3: '[AI_TRANSLATION]獎品將授予在決賽競技場排行榜上名列前茅的玩家。',
+      prize_footer4_1: '[AI_TRANSLATION]需要年齡驗證以符合資格。一些獎品僅限於美國參與者。',
+      coco_reserves: '[AI_TRANSLATION]CodeCombat 保留\n',
+      prize_footer4_2: '[AI_TRANSLATION]自行判斷玩家是否合格並獲得獎品的權利。  ',
+      place: '[AI_TRANSLATION]地點',
+      arena_under_construction: '[AI_TRANSLATION]下一季的競技場正在建設中。快回來查看！',
+      unlock_ai_league: '[AI_TRANSLATION]發揮 AI 聯盟的全部潛力。',
+      esports_anonymous_changing: '[AI_TRANSLATION]電競玩家名稱可見性於9月1日更改  ',
+      esports_get_full_access: '[AI_TRANSLATION]獲取完全訪問權限',
+      click_to_unlock_now: '[AI_TRANSLATION]點擊以暫時關閉',
+      click_to_unlock_before_sep: '[AI_TRANSLATION]點擊使匿名化在9月1日之前消失  ',
+      unlock_content_padding: '[AI_TRANSLATION]今天就聯繫我們的團隊，查看你學生的成績、排名、代碼等！',
+      unlock_leaderboard: '[AI_TRANSLATION]聯繫我們來解鎖排行榜',
+      without_license_blurb: '[AI_TRANSLATION]發揮 AI 聯盟的全部潛力。購買自定義錦標賽套餐，以訪問您的學生的分數、排名、代碼和更多的錦標賽自定義選項。請參見我們...',
+      custom_pricing: '[AI_TRANSLATION]自訂選項和實施指南',
+      more_details: '[AI_TRANSLATION]詳情請見。',
+      contact_sales_custom: '[AI_TRANSLATION]你的自訂錦標賽等待著你。選擇你希望用於自訂錦標賽的競技場，聯繫你的 CodeCombat 銷售代表確認設置和安排詳情。',
+      create_custom: '[AI_TRANSLATION]建立自訂錦標賽',
+      custom_tournament_text: '[AI_TRANSLATION]自訂錦標賽',
+      promotion_blurb: '[AI_TRANSLATION]競技編碼 - 免費開始',
+      promotion_part1: '[AI_TRANSLATION]與朋友和家人加入編程隊伍\n',
+      promotion_part2: '[AI_TRANSLATION]訪問全球編碼競技場和排行榜',
+      promotion_part3: '[AI_TRANSLATION]展示你的編程技能並贏取獎品',
+      promotion_part4: '[AI_TRANSLATION]通過練習和對決比賽來獲得積分',
+      codecombat_ai_league_description: '[AI_TRANSLATION]CodeCombat AI League 將我們基於專案的課程標準、引人入勝的冒險編碼遊戲，以及我們年度 AI 編碼全球比賽結合在一起，形成一個獨一無二的學術競賽。\n',
+      //    teacher_getting_started_guide: "Teacher Getting Started Guide",
+      try_ai_league_as_a_teacher: '[AI_TRANSLATION]試試 AI League 當老師',
+      //    ai_league_curriculum: "AI League Curriculum",
+      current_season: '[AI_TRANSLATION]當季',
+      all_time: '[AI_TRANSLATION]所有時間  ',
+      view_leaderboards_for_team: '[AI_TRANSLATION]檢視隊伍排行榜：',
+      global_stats: '[AI_TRANSLATION]全球統計',
+      code_your_way: '[AI_TRANSLATION]按自己的方式編寫代碼  ',
+      //    to_win_the_price: "to first place to win",
+      //    regular: "Regular",
+      //    championship: "Championship",
+      //    global: "Global",
+      //    custom: "Custom",
+    },
+
+    tournament: {
+      mini_tournaments: '[AI_TRANSLATION]迷你錦標賽',
+      usable_ladders: '[AI_TRANSLATION]所有可用的階梯  ',
+      make_tournament: '[AI_TRANSLATION]舉辦迷你比賽',
+      go_tournaments: '[AI_TRANSLATION]參加小型錦標賽',
+      class_tournaments: '[AI_TRANSLATION]班級迷你比賽',
+      class_tournaments_more: '[AI_TRANSLATION]更多的班級迷你錦標賽',
+      no_tournaments_owner: '[AI_TRANSLATION]現在沒有比賽，請創建一個。',
+      no_tournaments: '[AI_TRANSLATION]現在沒有比賽。',
+      edit_tournament: '[AI_TRANSLATION]編輯比賽',
+      create_tournament: '[AI_TRANSLATION]建立錦標賽',
+      //    view_tournament: "View Tournament",
+      upcoming: '[AI_TRANSLATION]即將到來',
+      starting: '[AI_TRANSLATION]開始中',
+      ended: '[AI_TRANSLATION]已結束',
+      view_results: '[AI_TRANSLATION]檢視結果',
+      estimate_days: '[AI_TRANSLATION]在 __time__ 天內',
+      team_name: '[AI_TRANSLATION]團隊: __name__',
+      status: '[AI_TRANSLATION]狀態: __state__',
+      from_start: '[AI_TRANSLATION]開始 __time__',
+      from_end: '[AI_TRANSLATION]結束 __time__',
+      start_date_time: '[AI_TRANSLATION]開始時間',
+      end_date_time: '[AI_TRANSLATION]結束時間',
+      results_date_time: '[AI_TRANSLATION]結果時間',
+      start_date_description: '[AI_TRANSLATION](PT) 比賽開始時間',
+      end_date_description: '[AI_TRANSLATION](PT) 比賽結束時間',
+      results_date_description: '[AI_TRANSLATION]選擇發布結果的時間。',
+      results_date_suggestion_0: '[AI_TRANSLATION]注意：比賽可能需要一些時間來生成最終排行榜，所以你需要留出足夠的時間等待結果。  ',
+      results_date_suggestion_1: '[AI_TRANSLATION]例如 0-50 玩家: 5 分鐘',
+      results_date_suggestion_2: '[AI_TRANSLATION] 50-100 玩家：20 分鐘  ',
+      results_date_suggestion_3: '[AI_TRANSLATION] 100-500 玩家：10 小時  ',
+      //    select_team_desc: "select your team to creat/edit your tournaments",
+      already_create_tournaments_num: '[AI_TRANSLATION]你已經在這裡創建了 __num__ 場比賽：',
+      can_create_tournaments_num: '[AI_TRANSLATION]你可以從下面創建 __num__ 個更多比賽：\n',
+      my_teams: '[AI_TRANSLATION]我的隊伍：  ',
+      //    team: "Team",
+      team_description: '[AI_TRANSLATION](Required) 只有團隊中的玩家能參加這次比賽',
+      review_results: '[AI_TRANSLATION]回顧結果',
+      review_description: '[AI_TRANSLATION]我們會把比賽結果發到你的郵箱，等你幫忙發布給參賽者。\n',
+      publish_immediately: '[AI_TRANSLATION]立即發佈',
+      publish_description: '[AI_TRANSLATION]比賽結果一準備好就會立即公佈。\n',
+      error_end_date_too_early: '[AI_TRANSLATION]結束時間不能早於開始時間',
+      error_results_date_too_early: '[AI_TRANSLATION]結果時間不能早於結束時間',
+      publish_results: '[AI_TRANSLATION]發佈結果',
+      publish_options: '[AI_TRANSLATION]發佈選項',
+    },
+
+    payments: {
+      //    student_licenses: "Student Licenses",
+      //    computer_science: "Computer Science",
+      //    web_development: "Web Development",
+      //    game_development: "Game Development",
+      per_student: '[AI_TRANSLATION]每位學生',
+      just: '[AI_TRANSLATION]就',
+      teachers_upto: '[AI_TRANSLATION]教師可以購買最多  ',
+      great_courses: '[AI_TRANSLATION]優秀課程包含',
+      studentLicense_successful: '[AI_TRANSLATION]恭喜！你的授權將在一分鐘內可用。點擊教師工具包中的入門指南，了解如何將它們應用於你的學生。',
+      onlineClasses_successful: '[AI_TRANSLATION]恭喜！你的付款成功了。我們的團隊將與你聯繫並告知下一步。',
+      homeSubscriptions_successful: '[AI_TRANSLATION]恭喜！你的付款成功了。你的高級訪問權限將在幾分鐘內可用。',
+      failed: '[AI_TRANSLATION]你的支付失敗了，請再試一次。\n',
+      session_week_1: '[AI_TRANSLATION]每週 1 次課程',
+      session_week_2: '[AI_TRANSLATION]每週 2 次課程',
+      month_1: '[AI_TRANSLATION]每月',
+      month_3: '[AI_TRANSLATION]每季度',
+      month_6: '[AI_TRANSLATION]半年',
+      year_1: '[AI_TRANSLATION]每年',
+      most_popular: '[AI_TRANSLATION]最受歡迎',
+      best_value: '[AI_TRANSLATION]最佳價值',
+      purchase_licenses: '[AI_TRANSLATION]輕鬆購買許可證，獲得 CodeCombat 和 Ozaria 的完整訪問權限',
+      homeschooling: '[AI_TRANSLATION]自學許可',
+      recurring_month_1: '[AI_TRANSLATION]每月的定期計費',
+      recurring_month_3: '[AI_TRANSLATION]每三個月的定期計費',
+      recurring_month_6: '[AI_TRANSLATION]每六個月的定期計費',
+      recurring_year_1: '[AI_TRANSLATION]每年的定期計費',
+      purchase_licenses_2: '[AI_TRANSLATION]為你的學生購買許可證，第一個課程後可訪問付費課程  ',
+      applying_licenses: '[AI_TRANSLATION]申請許可證',
+      about: '[AI_TRANSLATION]關於',
+      school_district_heading: '[AI_TRANSLATION]學校或地區',
+      school_district_subheading: '[AI_TRANSLATION]適合有10名以上學生的教室、學校和學區',
+      classroom_heading: '[AI_TRANSLATION]小教室',
+      classroom_subheading: '[AI_TRANSLATION]適合有5-9名學生的俱樂部、課後活動和小教室。',
+      customer_support_info_1: '[AI_TRANSLATION]通過電子郵件或聊天進行客戶支持',
+      customer_support_info_2: '[AI_TRANSLATION]通過電子郵件或聊天進行客戶支持，並有專門的學校成功經理可通過電話或電子郵件提供實施支持',
+      self_serve_credit: '[AI_TRANSLATION]自助信用卡購買',
+      multiple_payment_options: '[AI_TRANSLATION]多種付款選項可供選擇，包括：採購單、站點許可證和多年折扣。',
+      admin_dashboard: '[AI_TRANSLATION]管理員儀表板，提供可操作的數據和見解',
+      pd_info: '[AI_TRANSLATION]全面的40小時在線課程，允許你隨時、隨地、以任何速度學習。',
+      implementation_info: '[AI_TRANSLATION]60 分鐘入職培訓，教您如何使用 CodeCombat 和 Ozaria 以支持特定的機構和教學目標。',
+      ai_league_info: '[AI_TRANSLATION]讓學生參與一場令人興奮的電子競技比賽，展示他們在新環境中對概念的理解並練習創造性解決問題的策略！',
+      ai_custom_tournament: '[AI_TRANSLATION]AI 聯盟 自訂比賽',
+      implementation_training: '[AI_TRANSLATION]實施培訓',
+      full_access_coco: '[AI_TRANSLATION]完全訪問 CodeCombat 的所有內容',
+      and_oz: '[AI_TRANSLATION]還有 Ozaria  ',
+      cs_info: '[AI_TRANSLATION]計算機科學 1-6：65課程',
+      wd_info: '[AI_TRANSLATION]網頁開發 1-2：10節課\n',
+      gd_info: '[AI_TRANSLATION]遊戲開發 1-3：20 節課',
+      chap1_info: '[AI_TRANSLATION]第 1 章：10 節課',
+      chap2_info: '[AI_TRANSLATION]第 2 章：30 節課',
+      chap3_info: '[AI_TRANSLATION]第 3 章：25 節課',
+      chap4_info: '[AI_TRANSLATION]第 4 章：20 節課',
+      includes: '[AI_TRANSLATION]包含：',
+      show_plan_features: '[AI_TRANSLATION]顯示計畫特色',
+      purchase_annually: '[AI_TRANSLATION]每年限購一次。',
+      class_school_solution: '[AI_TRANSLATION]我們會幫助你建造一個符合你班級、學校或學區需求的解決方案。\n',
+      bulk: '[AI_TRANSLATION]批量',
+      discounts: '[AI_TRANSLATION]折扣',
+      available: '[AI_TRANSLATION]可用的',
+      //    request_quote: "Request a Quote",
+      business_partner_licenses: '[AI_TRANSLATION]商業夥伴授權',
+      bd_subheading: '[AI_TRANSLATION]對於至少有10名學生的商業合作夥伴，獲得CodeCombat計算機科學和編碼遊戲的高級訪問權限：',
+      bd_info_list_heading: '[AI_TRANSLATION]數十家編程教育企業選擇 CodeCombat 作為首選合作夥伴，原因是：',
+      bd_info_list_1: '[AI_TRANSLATION]學生喜愛我們基於幻想和冒險的遊戲課程並持續回來參加更多課程  ',
+      bd_info_list_2: '[AI_TRANSLATION]任何人都能用 CodeCombat 教程編程；這款遊戲是主要老師，我們提供全面的支持資源',
+      //    bd_info_list_3: "you will receive over 200 hours of curriculum, providing years of educational content for your business",
+      bd_includes_1: '[AI_TRANSLATION]完全訪問 CodeCombat 和 Ozaria，擁有超過 200 小時的高品質遊戲内容',
+      bd_includes_2: '[AI_TRANSLATION]教師儀表板用於記錄和進度跟蹤  ',
+      bd_includes_3: '[AI_TRANSLATION]包含教程和教學指南的在線資源中心',
+      bd_help: '[AI_TRANSLATION]如需任何幫助，請聯絡',
+      manage_stripe: '[AI_TRANSLATION]管理 Stripe 賬單',
+      manage_billing_info: '[AI_TRANSLATION]這會帶你到 Stripe，你可以在那裡處理訂閱相關的事務，比如查看你的帳單歷史和更新支付方式。',
+      billing_portal: '[AI_TRANSLATION]客戶計費入口  ',
+      email_not_verified: '[AI_TRANSLATION]你的電子郵件尚未驗證，請在帳號設定中驗證！',
+      stripe_no_data: '[AI_TRANSLATION]你在Stripe平台上沒有任何需要管理的數據。\n',
+    },
+
+    form_validation_errors: {
+      required: '[AI_TRANSLATION]必填欄位',
+      invalidEmail: '[AI_TRANSLATION]無效的電子郵件  ',
+      invalidPhone: '[AI_TRANSLATION]無效的電話號碼  ',
+      emailExists: '[AI_TRANSLATION]電子郵件已存在',
+      numberGreaterThanZero: '[AI_TRANSLATION]應該是一個大於 0 的數字',
+      requireValidEmail: '[AI_TRANSLATION]請輸入有效的電子郵件地址',
+      requireValidPhone: '[AI_TRANSLATION]請輸入有效的電話號碼，包括區號',
+    },
+
+    partners: {
+      for: '[AI_TRANSLATION]for',
+      business_partners: '[AI_TRANSLATION]商業夥伴',
+      headline: '[AI_TRANSLATION]加入我們的使命，讓編碼變得有趣且觸手可及。',
+      below_headline_blurb: '[AI_TRANSLATION]在 CodeCombat，我們已經開發了全面的工具，使學習編碼變得有趣，教學編程變得簡單。我們的即用即裝解決方案可以在許多應用中運用。',
+      coding_title: '[AI_TRANSLATION]編程和 STEAM 教育企業：',
+      coding_blurb: '[AI_TRANSLATION]像 Code Ninjas 和 IDEA Lab Kids 這樣的重要夥伴使用我們的遊戲在他們的加盟地點教授學生真實的 Python 和 JavaScript 編碼。我們提供易於使用的程式，實施資源和培訓選項以確保出色的學生體驗。',
+      esports_title: '[AI_TRANSLATION]教育電競贊助商：',
+      esports_blurb: '[AI_TRANSLATION]我們正在重新定義電子競技的可能性，同時讓成千上萬的學生學習編程。電子競技的常駐品牌 __hyperx__ 從 CodeCombat AI 聯賽的首個賽季起就支持該聯賽，並圍繞這一獨特的電子競技制定了吸引人的推廣計劃。\n',
+      hyperx: '[AI_TRANSLATION]HyperX',
+      respawn: '[AI_TRANSLATION]復活',
+      distribution_title: '[AI_TRANSLATION]國際分配：',
+      distribution_blurb: '[AI_TRANSLATION]我們的項目已在超過 190 個國家服務學生，我們的內容被翻譯成超過 __forty_languages__。儘管我們在美國和中國是直接銷售的市場，我們仍與全球當地的 SaaS 和 EdTech 分銷夥伴緊密合作，以擴展我們的影響力。',
+      forty_languages: '[AI_TRANSLATION]40 種語言',
+      equity_social_title: '[AI_TRANSLATION]技術公平與社會影響：',
+      equity_social_blurb: '[AI_TRANSLATION]不是每個合作都是建基於底線。作為一家以使命為導向的機構，我們也在尋求回饋的方式。我們與基金會及其他慈善合作夥伴緊密合作，以擴大高質量編碼教育的覆蓋範圍。\n',
+      latin_superstar_blurb: '[AI_TRANSLATION]此外，拉丁超級巨星 __eugenio_derbez__ 通過合作幫助我們接觸到拉丁裔社群，吸引這個經常被忽視和代表不足的群體中的學生。',
+      reach_latinx: '[AI_TRANSLATION]聯繫拉丁裔社區  ',
+      eugenio_derbez_blurb: '[AI_TRANSLATION]"對我來說，看到拉丁裔男孩和女孩在這個領域中被代表是很重要的，"Eugenio Derbez 說。"編程是未來的語言，若我們想成為這個未來的一部分，那我們需要讓孩子們學會編程。"',
+      seek_relationships_blurb: '[AI_TRANSLATION]我們尋求與非營利組織和社區組織的合作，致力於協助在電腦科學和技術職業中代表性不足的群體。我們與 __seeds_of_light__ 的合作將為成千上萬的年輕學習者提供計算機科學教育機會。  ',
+      seeds_of_light: '[AI_TRANSLATION]光之種子',
+      corporate_team_building_title: '[AI_TRANSLATION]企業團隊建設',
+      //    corporate_team_building_blurb: "Need to engage your employees with a turnkey activity that will inspire their competitive spirit and challenge them to creatively problem solve? Work with us to build a custom competitive coding tournament that will have your team programming their own strategies while playing a game. __see_how__",
+      footer_blurb: '[AI_TRANSLATION]這只是我們成功支持的一些合作結構。如果你想與我們的商業發展團隊討論這些模式或有其他合作機會，請立即聯繫。',
+      talk_with_us: '[AI_TRANSLATION]與我們交談',
+      our_partners: '[AI_TRANSLATION]我們的合作夥伴',
+      see_how: '[AI_TRANSLATION]看看怎麼做',
+    },
+
+    podcast: {
+      learning_adventure: '[AI_TRANSLATION]這裡的學習總是充滿探險。',
+      explores_stem: '[AI_TRANSLATION]我們的播客探討了科技、STEM 和創意遊戲在教育中的角色。與專家嘉賓一起，我們發現學習始終是一場冒險。',
+      listen: '[AI_TRANSLATION]聆聽',
+      download: '[AI_TRANSLATION]下載',
+      transcript: '[AI_TRANSLATION]成績單',
+      learn_more_coco: '[AI_TRANSLATION]想了解更多關於CodeCombat的編程體驗嗎？',
+      //    subscribe: "Subscribe",
+      //    explore_coco: "Explore CodeCombat",
+      interested_in_being_guest: '[AI_TRANSLATION]有興趣成為 EdTech Adventures 的嘉賓嗎？',
+      lets_chat: '[AI_TRANSLATION]來聊聊\n',
+      air_date: '[AI_TRANSLATION]播出日期',
+      play_episode: '[AI_TRANSLATION]玩劇集',
+      about_guest: '[AI_TRANSLATION]關於我們的嘉賓',
+      about_guests: '[AI_TRANSLATION]關於我們的嘉賓們',
+      all_episodes: '[AI_TRANSLATION]檢視所有集數',
+      no_permission: '[AI_TRANSLATION]你沒有查看這個播客的權限。\n',
+      listen_now: '[AI_TRANSLATION]現在聆聽',
+      show_all_episodes: '[AI_TRANSLATION]顯示所有集數',
+    },
+
+    library: {
+      enter_library_card: '[AI_TRANSLATION]請輸入你的圖書證號碼：',
+      access_coco: '[AI_TRANSLATION]訪問 CodeCombat',
+      already_using_library_id: '[AI_TRANSLATION]已經在使用圖書館ID',
+      //    play_coco: "to play CodeCombat",
+      not_library_id: '[AI_TRANSLATION]不屬於你的 library ID  ',
+      //    access_using_id: "to access using your id!!",
+      network_detected: '[AI_TRANSLATION]偵測到圖書館網路，正將你導向 CodeCombat',
+      not_redirect_auto: '[AI_TRANSLATION]如果沒有自動重定向',
+      engage_members: '[AI_TRANSLATION]讓您的成員進入最有趣的編程學習方式。',
+      //    importance_blurb: "Libraries play an important role in advancing educational equity in their communities. Many young learners do not have access or exposure to computer science, and libraries can provide important resources to these underserved groups. That is why we are partnering with libraries across the country to provide access to our game-based learning tools and educational resources.",
+      games_teach_blurb: '[AI_TRANSLATION]我們的遊戲通過遊戲的力量教真正的 Python、JavaScript 和 C++ 編碼語言。遊戲玩法與架構化的課程配對，讓自學者在繼續更複雜的內容之前能夠掌握基礎編程概念。每一級挑戰玩家輸入必要的代碼以進階英雄並達成級別目標。',
+      platform_built: '[AI_TRANSLATION]我們的平台專為解決圖書館及其讀者的特定需求而設計：',
+      accessible: '[AI_TRANSLATION]可訪問的',
+      accessible_blurb: '[AI_TRANSLATION]只需要一台可以上網的基本電腦即可註冊並開始遊玩。此內容適合沒有編程經驗的初學者。',
+      self_paced_intuitive: '[AI_TRANSLATION]自主學習且直觀',
+      self_paced_intuitive_blurb: '[AI_TRANSLATION]不需要教師指導，因為玩家可以自行決定學習進度。我們的自定義代碼引擎和解釋器是為初學者設計的，它能理解孩子們犯的錯誤，並以人性化、初學者友好的語言與他們交流。  ',
+      engaging_content: '[AI_TRANSLATION]內容引人入勝',
+      engaging_content_blurb: '[AI_TRANSLATION]遊戲化學習從一開始就能提升參與度，但更重要的是當概念變得更具挑戰性時，仍能保持學生的參與。在遊戲環境中，失敗和成功都是預期的，並且作為遊戲體驗的一部分被接受。',
+      api_integrate: '[AI_TRANSLATION]API 集成',
+      api_integrate_blurb: '[AI_TRANSLATION]我們的遊戲可以通過 EZProxy 或其他流行系統輕鬆集成到您的數字圖書館界面中。這種結構可以通過會員現有的登錄方式即時訪問，不需要任何員工來管理許可或訪問的後勤工作。',
+      //    privacy: "Privacy",
+      privacy_blurb: '[AI_TRANSLATION]我們非常重視用戶安全、網絡安全和數據隱私，遵循許多嚴格的隱私法規，如 COPPA、FERPA、SOPIPA、California AB 1584、CalOPPA、公平信息實踐、CAN-SPAM 和 GDPR。這些政策和保護措施讓我們能夠為全球超過兩千萬用戶提供安全服務。\n',
+      privacy_policy: '[AI_TRANSLATION]我們的完整隱私政策.',
+      see: '[AI_TRANSLATION]查看',
+      communication_limit: '[AI_TRANSLATION]通訊限制',
+      communication_limit_blurb: '[AI_TRANSLATION]為了確保你們成員的安全，我們不提供遊戲內聊天或其他玩家之間的通訊功能，不過我們允許成員安全地與朋友、家人和 CodeCombat 社群分享他們的程式專案。我們限制任何加售或行銷訊息，以提供不中斷的體驗。',
+      usage_stats: '[AI_TRANSLATION]使用統計',
+      usage_stats_blurb: '[AI_TRANSLATION]使用我們的快照報告工具獲得你成員使用情況的見解。該工具可隨時獲取使用統計數據，包括每月活躍用戶、許可使用天數和更多有價值的數據點。',
+      esports: '[AI_TRANSLATION]學術電子競技',
+      esports_blurb: '[AI_TRANSLATION]我們的電競項目提供進一步吸引會員的機會，通過有趣和激動人心的比賽。AI 聯盟讓會員可以在新的環境中展示他們對編碼概念的理解，並在與全球社區的戰鬥中練習解決問題的策略。',
+      work_with_us_blurb: '[AI_TRANSLATION]和我們一起合作，釋放你社區下一代的工程師、程序員和計算機科學專業人才。\n',
+      schedule_demo: '[AI_TRANSLATION]預約演示',
+      license_modal_subtitle: '[AI_TRANSLATION]請完成這個簡短的表格，我們的圖書館專家將會與你聯絡以提供演示及定制價格方案！',
+      license_modal_members: '[AI_TRANSLATION]需要權限的成員',
+      license_modal_members_placeholder: '[AI_TRANSLATION]需要大約多少位成員能夠進入？',
+      license_modal_contact: '[AI_TRANSLATION]聯繫我們的團隊',
+      license_days_used: '[AI_TRANSLATION]使用的授權天數',
+      //    licenses_used: "Licenses used",
+      users_active_licenses: '[AI_TRANSLATION]活躍許可證的使用者',
+      lines_code: '[AI_TRANSLATION]代碼行數',
+      programs_written: '[AI_TRANSLATION]已撰寫的程式',
+      time_spent_min: '[AI_TRANSLATION]花費時間 (分鐘)',
+      //    month: "Month",
+      teacher_classroom_name: '[AI_TRANSLATION]教師或班級名稱  ',
+      already_logged_in: '[AI_TRANSLATION]已經登錄，請從頂部導航欄登出後重新登錄。',
+      search_box_option: '[AI_TRANSLATION]如果搜尋框沒有載入，請點擊登錄',
+      new_signups: '[AI_TRANSLATION]新註冊',
+      heading_for: '[AI_TRANSLATION]for',
+      heading_libraries: '[AI_TRANSLATION]資料庫',
+      educational_equity: '[AI_TRANSLATION]教育公平',
+      power_of_play: '[AI_TRANSLATION]遊戲的力量',
+      library_card: '[AI_TRANSLATION]借書卡號碼',
+      library_signup_promotion: '[AI_TRANSLATION]註冊以保存進度並從上次離開的地方繼續 CodeCombat!!',
+      welcome_dashboard: '[AI_TRANSLATION]歡迎來到你的儀表板',
+      total_licenses_used: '[AI_TRANSLATION]已用總許可證',
+      from_launch_date: '[AI_TRANSLATION]從啟動日期',
+      renewal_date: '[AI_TRANSLATION]續訂日期',
+      access_old_dashboard: '[AI_TRANSLATION]如果你想訪問舊儀表板，請訪問',
+      loading_from: '[AI_TRANSLATION]從...加載數據',
+      user_activities: '[AI_TRANSLATION]使用者活動',
+      total_users: '[AI_TRANSLATION]總用戶數',
+      lines_of_code_written: '[AI_TRANSLATION]已寫代碼行數',
+      hours_spent: '[AI_TRANSLATION]花費的時間',
+      time_spent: '[AI_TRANSLATION]花費時間 (以分鐘計)',
+      new_users: '[AI_TRANSLATION]新用戶',
+      age_demographics: '[AI_TRANSLATION]年齡人口統計',
+      levels_completed: '[AI_TRANSLATION]已完成的關卡',
+      adjust_dates_explore: '[AI_TRANSLATION]調整下面的日期來探索贊助者使用趨勢。',
+    },
+
+    related_accounts: {
+      subtitle: '[AI_TRANSLATION]在不同的 CodeCombat 帳戶之間建立連接，以便能夠快速切換。例如，作為家長，你可以切換到你孩子的 CodeCombat 帳戶查看；或者，作為教師，你可以為自己新增一個測試學生帳戶，以查看學生所看到的內容。',
+      wrong_account: '[AI_TRANSLATION]請登入正確的帳戶來確認帳戶連結。登入帳戶後，再次從電子郵件中開啟連結。',
+      link_account: '[AI_TRANSLATION]連結你的帳戶到',
+      link_successful_redirect: '[AI_TRANSLATION]帳號連結成功，正在重定向',
+      add_related_user: '[AI_TRANSLATION]新增相關用戶',
+      adding: '[AI_TRANSLATION]新增中',
+      removing: '[AI_TRANSLATION]正在移除',
+      added: '[AI_TRANSLATION]帳號已添加',
+      related_email: '[AI_TRANSLATION]相關用戶電子郵件',
+      relation: '[AI_TRANSLATION]關係',
+      bi_directional: '[AI_TRANSLATION]雙向',
+      account_exists: '[AI_TRANSLATION]帳號存在',
+      link_using_email: '[AI_TRANSLATION]使用確認電子郵件連結帳戶',
+      link_using_email_blurb: '[AI_TRANSLATION]使用者會在 __email__ 收到郵件。請要求使用者按郵件中的連結來確認綁定。',
+      account_not_exist: '[AI_TRANSLATION]帳號不存在',
+      account_type: '[AI_TRANSLATION]帳號類型',
+      create_account_and_email: '[AI_TRANSLATION]創建帳號並發送連結郵件',
+      authenticate: '[AI_TRANSLATION]認證',
+      invite: '[AI_TRANSLATION]邀請  ',
+      auth_using_pass: '[AI_TRANSLATION]使用 __email__ 密碼進行身份驗證',
+      related_users: '[AI_TRANSLATION]相關用戶',
+      no_related_users: '[AI_TRANSLATION]現在沒有相關用戶\n',
+      send_verify_email: '[AI_TRANSLATION]發送驗證郵件',
+      verified: '[AI_TRANSLATION]已驗證',
+      switch: '[AI_TRANSLATION]切換',
+      title: '[AI_TRANSLATION]相關帳戶',
+      bi_directional_help_text: '[AI_TRANSLATION]允許新增使用者切換到你的帳戶？',
+    },
+
+    modal_free_class: {
+      paragraph_1: '[AI_TRANSLATION]感謝選擇 CodeCombat。',
+      paragraph_2: '[AI_TRANSLATION]我們的團隊很期待與您聯繫，為您的孩子安排免費試學課程。',
+      paragraph_3: '[AI_TRANSLATION]請提供你的聯絡方式，我們的一名學習顧問會打電話給你，收集學生資訊，根據你孩子的偏好學習風格匹配一位老師，並安排試課。',
+      //    name: "Name",
+      phone_number: '[AI_TRANSLATION]電話號碼',
+      available: '[AI_TRANSLATION]你現在有空聊聊嗎？',
+      yes: '[AI_TRANSLATION]是',
+      no: '[AI_TRANSLATION]不\n',
+      preferred_time: '[AI_TRANSLATION]如果我們現在無法聯系，請選擇合適的通話時間',
+      anytime: '[AI_TRANSLATION]任何時候',
+      morning: '[AI_TRANSLATION]早上 (8AM - 12PM)',
+      afternoon: '[AI_TRANSLATION]下午 (12PM - 4PM)',
+      evening: '[AI_TRANSLATION]晚上 (4PM - 8PM)',
+      time_zone: '[AI_TRANSLATION]你的時區',
+      //    email: "Email",
+    },
+
+    mobile_landing: {
+      subtitle: '[AI_TRANSLATION]獲取免費訪問最有趣的編程教學方式',
+      you_re_set: '[AI_TRANSLATION]你準備好了！',
+      done_blurb: '[AI_TRANSLATION]查看你的電子郵件以獲取訪問教師帳戶的指示。為了獲得最佳體驗，我們建議使用具有外接鍵盤和較大螢幕的設備。',
+      step_email: '[AI_TRANSLATION]第一步',
+      step_name: '[AI_TRANSLATION]第二步',
+      step_done: '[AI_TRANSLATION]完成',
+      video_title: '[AI_TRANSLATION]在這裡搶先看',
+      email_confirm: '[AI_TRANSLATION]電子郵件地址 "__email__" 已經註冊。您想要登錄嗎？',
+    },
+
+    roblox_landing: {
+      meta_title: '[AI_TRANSLATION]CodeCombat 世界在 Roblox 上：玩耍、編碼和創作',
+      headline: '[AI_TRANSLATION]賦能每一位玩家成為創造者！',
+      subhead: '[AI_TRANSLATION]體驗最簡單和最愉快的方式來編碼和創建你自己的 Roblox 遊戲',
+      join_the_beta: '[AI_TRANSLATION]加入 Beta 測試\n',
+      //    sign_up: "Sign Up",
+      box_play_subhead: '[AI_TRANSLATION]玩',
+      box_code_subhead: '[AI_TRANSLATION]Code',
+      box_create_subhead: '[AI_TRANSLATION]建立',
+      box_headline: '[AI_TRANSLATION]在 Roblox 上遊玩、編碼和創造',
+      box_play_blurb_teacher: '[AI_TRANSLATION]與 Roblox 教育合作，我們將我們已證明的遊戲化編碼方法與 Roblox 平臺的創意和社交力量結合，打造一個新的 Roblox 體驗，在遊戲中教學編程和遊戲開發。',
+      box_code_blurb_teacher: '[AI_TRANSLATION]體驗將會是個性化和差異化的，提供結構化和非結構化的直觀練習，讓玩家可以按照自己的喜好學習，同時仍與CSTA和ISTE計算機科學標準保持一致。',
+      box_create_blurb_teacher: '[AI_TRANSLATION]這段引人入勝的遊戲體驗將提供必要的基礎教學，幫助玩家從零編碼知識到發佈完整的 Roblox 遊戲。我們的創意模式允許玩家在遊戲中構建，而不需要切換到完整桌面版的 Roblox Studio IDE。',
+      box_play_blurb_player: '[AI_TRANSLATION]探索 CodeCombat 世界的 3D 沉浸體驗。編程你的寵物並冒險進入充滿創意和與朋友分享經驗的宇宙。',
+      box_code_blurb_player: '[AI_TRANSLATION]學習真正的 Lua 編碼，從初學者到高級。用代碼來探索、收集資源、建造，並發現通往榮耀的道路。',
+      box_create_blurb_player: '[AI_TRANSLATION]沒有 Roblox Studio? 沒問題。在創意模式中遊戲內編碼製作完整的 Roblox 遊戲，與朋友分享。\n',
+      box_play_blurb_parent: '[AI_TRANSLATION]通過我們經證實的基於遊戲的學習方法，我們通過玩耍吸引年輕學習者，同時教授編碼和遊戲開發。',
+      box_code_blurb_parent: '[AI_TRANSLATION]從冒險開始就進行編程，這個體驗是個性化且不同的，提供結構化和非結構化的直觀練習，讓你的孩子可以隨心所欲地學習。',
+      box_create_blurb_parent: '[AI_TRANSLATION]許多孩子想創建遊戲但不知道從何開始。這種引人入勝的遊戲體驗將提供所需的基礎教學，從零編碼知識到發布完整的 Roblox 遊戲。',
+      box_play_blurb_partner: '[AI_TRANSLATION]用次世代 Roblox 體驗來吸引年輕學習者。在 Roblox Education 的支持下，我們將經驗證的遊戲化編程方法與 Roblox 平台的創意和社交力量結合，打造新的 Roblox 體驗，教學生編程和遊戲開發。',
+      box_code_blurb_partner: '[AI_TRANSLATION]經驗會是個人化且有差異的，提供有結構和無結構的直覺練習，讓玩家隨心學習。我們讓無論是自學還是教導都更容易教導真實的程式碼給你的學生。',
+      box_create_blurb_partner: '[AI_TRANSLATION]並非構建一套獨立於 Roblox Studio 的課程，而是利用我們的遊戲內創意模式及其分級教學，讓學生從沒經驗到發布完整 Roblox 遊戲變得輕鬆。',
+      //    role_teacher: "Teacher",
+      role_player: '[AI_TRANSLATION]玩家',
+      //    role_parent: "Parent",
+      role_partner: '[AI_TRANSLATION]合作夥伴',
+      select_role: '[AI_TRANSLATION]請選擇你的角色。',
+      question_1: '[AI_TRANSLATION]我需要了解 Lua 或 Roblox Studio 嗎？',
+      answer_1: '[AI_TRANSLATION]不會的。這個經驗將允許任何人在冒險的開始就能進行遊戲、編碼和創作，無需任何編碼經驗。\n',
+      question_2: '[AI_TRANSLATION]我能自己創建遊戲嗎？',
+      answer_2: '[AI_TRANSLATION]是的。遊戲開發是這個體驗的核心，完成核心學習關卡後，你將有機會創造自己的遊戲。',
+      question_3: '[AI_TRANSLATION]我的創作會在Roblox上可用嗎？',
+      answer_3: '[AI_TRANSLATION]是的。在這個體驗中創造的任何內容，你都可以導入到 Roblox Studio 並發布到平台上供任何人遊玩。',
+      bottom_blurb_parent: '[AI_TRANSLATION]不需要等待 - 立即 __sign-up__ 我們的線上直播課程，讓你的孩子今天就開始編碼！讓他們從 CodeCombat 網站開始，搶先體驗 CodeCombat Worlds Roblox。\n',
+      bottom_blurb_sign_up: '[AI_TRANSLATION]註冊',
+      bottom_blurb_partner: '[AI_TRANSLATION]想要把新的 CodeCombat Worlds Roblox 體驗應用在你的教育業務、社會影響力計劃或國際分銷機會上嗎？__reach-out__ 今天洽談合作吧。',
+      bottom_blurb_reach_out: '[AI_TRANSLATION]聯繫',
+      boxes_title: '[AI_TRANSLATION]在 Roblox 上遊玩、編碼和創造',
+      login_message: '[AI_TRANSLATION]你需要先登入才能連結你的帳號到Roblox',
+      connect_button_header: '[AI_TRANSLATION]帳號連結獎勵',
+      connect_button_linker_badge: '[AI_TRANSLATION]連結者徽章',
+      connect_button_accounts_linked: '[AI_TRANSLATION]帳號已連結',
+      connect_button_pet_chroma: '[AI_TRANSLATION]寵物色彩',
+      connect_button_exclusive_pet: '[AI_TRANSLATION]專屬寵物',
+      connect_button_blurb: '[AI_TRANSLATION]連結你的 CodeCombat 與 Roblox 帳戶以獲得無縫體驗！',
+      connect_button_list_item_1: '[AI_TRANSLATION]管理訂閱',
+      connect_button_list_item_2: '[AI_TRANSLATION]解鎖更多內容',
+      connect_button_list_item_3: '[AI_TRANSLATION]跟蹤進度',
+      connect_button_list_item_4: '[AI_TRANSLATION]接受專屬獎勵',
+      connect_button_list_item_5: '[AI_TRANSLATION]訪問課程資源',
+      connect_button_list_item_6: '[AI_TRANSLATION]父母和老師儀表板訪問',
+      connect_button_list_item_7: '[AI_TRANSLATION]解鎖生成式 AI 功能',
+      connect_button_list_item_8: '[AI_TRANSLATION]創意模式發布和導出',
+      connect_button_connected_blurb: '[AI_TRANSLATION]恭喜，你已連結你的帳戶！邀請你的朋友們來幫助達成社區連結目標吧。',
+      connect_button_not_connected_blurb: '[AI_TRANSLATION]越多人鏈接他們的賬號，你會收到越多的獎勵！',
+      faq_bottom: '[AI_TRANSLATION]查看我們幫助中心的<a href="https://codecombat.zendesk.com/hc/en-us/categories/18084251471383-CodeCombat-Worlds-Roblox-" target="_blank">常見問題</a>。<br />如果你有其他疑問，請<a href="mailto:support@codecombat.com">聯繫我們</a>。',
+      modal_title: '[AI_TRANSLATION]CodeCombat 世界<br> 現已在 Roblox 上線！',
+      modal_play_now: '[AI_TRANSLATION]現在開始玩！  ',
+      modal_button_link_roblox_account: '[AI_TRANSLATION]連結 Roblox 帳戶',
+      age_restriction: '[AI_TRANSLATION]你必須年滿13歲才能連結你的Roblox帳號。',
+    },
+
+    ai: {
+      prompt_level_chat_1: '[AI_TRANSLATION]這個錯誤是什麼意思？',
+      prompt_level_chat_2: '[AI_TRANSLATION]請解釋這錯誤。\n',
+      prompt_level_chat_3: '[AI_TRANSLATION]怎麼了？',
+      prompt_level_chat_4: '[AI_TRANSLATION]請幫我解釋一下這個。',
+      prompt_level_chat_5: '[AI_TRANSLATION]如何修復它？',
+      prompt_level_chat_6: '[AI_TRANSLATION]請幫幫我。\n',
+      prompt_level_chat_7: '[AI_TRANSLATION]我該怎麼做？',
+      prompt_level_chat_8: '[AI_TRANSLATION]這是什麼意思？',
+      prompt_level_chat_9: '[AI_TRANSLATION]請解釋一下。',
+      prompt_level_chat_10: '[AI_TRANSLATION]這個錯誤是什麼？',
+      prompt_level_chat_11: '[AI_TRANSLATION]問題是什麼？',
+      prompt_level_chat_12: '[AI_TRANSLATION]???  ',
+      prompt_level_chat_13: '[AI_TRANSLATION]親愛的AI，我懇求你，用詩意解釋我的錯誤。',
+      prompt_level_chat_hint_1: '[AI_TRANSLATION]我能得到提示嗎？',
+      prompt_level_chat_hint_2: '[AI_TRANSLATION]接下來我應該做什麼？',
+      prompt_level_chat_hint_3: '[AI_TRANSLATION]請幫我寫下一部分的代碼。',
+      prompt_level_chat_hint_4: '[AI_TRANSLATION]給點編程提示吧。',
+      prompt_level_chat_hint_5: '[AI_TRANSLATION]我需要下一步的提示。',
+      hackstack_promotion: '[AI_TRANSLATION]發揮生成式 AI 的全部潛力',
+      try_it_free: '[AI_TRANSLATION]免費試用',
+      hackstack_promotion_blurb: '[AI_TRANSLATION]AI 新手嗎？探索 <b>CodeCombat AI HackStack</b>——學習 AI 最簡單的路徑。解鎖 ChatGPT-4、Claude、Stable Diffusion 和 DALL-E 的潛力。這個創新工具提供實作 AI 訓練，讓創作變得輕而易舉。',
+      generate: '[AI_TRANSLATION]生成',
+      games: '[AI_TRANSLATION]遊戲',
+      art: '[AI_TRANSLATION]藝術',
+      websites: '[AI_TRANSLATION]網站\n',
+      code_more: '[AI_TRANSLATION]程式碼和更多',
+      ideal_endeavour: '[AI_TRANSLATION]這是任何計劃的理想夥伴。',
+      //    ai_made_ss: "AI Made Simple & Safe -- Start Today!",
+      //    aiss_body: "Built as the simplest path to AI literacy, this tool empowers learners to harness top LLMs with hands-on AI training, making creation easy—whether it’s games, art, writing, code, or more. Together, we help learners safely bring their ideas to life across any subject.",
+      //    learn_more: "Learn More!",
+    },
+
+    user_credits: {
+      level_chat_left_in_duration: '[AI_TRANSLATION]__credits__ 剩餘 AI 機器人查詢次數 __duration_key__',
+      level_chat_left_in_duration_multiple: '[AI_TRANSLATION]__credits__ 剩餘 AI 機器人查詢次數 __duration_amount__ __duration_key__',
+      level_chat_no_credits_left_duration: '[AI_TRANSLATION]在 __duration_key__ 內沒有AI機器人詢問了\n',
+      level_chat_no_credits_left_duration_multiple: '[AI_TRANSLATION]在 __duration_amount__ __duration_key__ 內沒有AI機器人詢問了\n',
+      level_chat_no_credits_left: '[AI_TRANSLATION]沒有AI機器人詢問了\n',
+    },
+
+    home_v3: {
+      mission_title: '[AI_TRANSLATION]加入我們的使命，讓編碼和AI對所有人都能輕鬆接觸。',
+      mission_supporting_text: '[AI_TRANSLATION]我們致力於提供高質量的教育解決方案，讓每個人都能實現他們的潛力，並幫助塑造更美好的未來。',
+      stat_card_1_text: '[AI_TRANSLATION]2000 萬',
+      stat_card_1_description: '[AI_TRANSLATION]學生參與',
+      stat_card_2_text: '[AI_TRANSLATION]10 億',
+      stat_card_2_description: '[AI_TRANSLATION]代碼行數',
+      stat_card_3_text: '[AI_TRANSLATION]320,000',
+      stat_card_3_description: '[AI_TRANSLATION]支援的老師',
+      stat_card_4_text: '[AI_TRANSLATION]75,000',
+      stat_card_4_description: '[AI_TRANSLATION]涉及的學校',
+      stat_card_5_text: '[AI_TRANSLATION]190+',
+      //    stat_card_5_description: "Countries",
+      stat_card_6_text: '[AI_TRANSLATION]520 萬',
+      stat_card_6_description: '[AI_TRANSLATION]電競玩家',
+      learn_to_code: '[AI_TRANSLATION]學習 **程式設計** 和使用 **AI**，體驗 **遊戲的力量**。\n',
+      innovative_play_experiences: '[AI_TRANSLATION]我們創建創新的遊玩體驗，讓計算機科學對所有人都充滿吸引力和可及性。\n',
+      sign_up_today: '[AI_TRANSLATION]今天註冊即可免費玩遊戲，並探索我們的遊戲和資源。',
+      im_an_educator: '[AI_TRANSLATION]我是教育工作者\n',
+      im_a_parent: '[AI_TRANSLATION]我是家長\n',
+      im_a_student: '[AI_TRANSLATION]我是學生\n',
+      programming_languages: '[AI_TRANSLATION]編程語言與 AI 工具',
+      engaging_play_experiences: '[AI_TRANSLATION]有趣的遊戲體驗',
+      for_younger_learners: '[AI_TRANSLATION]年幼學習者',
+      your_turnkey_solutions: '[AI_TRANSLATION]你的完美解決方案',
+      trends_insights: '[AI_TRANSLATION]趨勢與洞察',
+      //    awards_partners: "Awards & Partners",
+      faq_visit_help_center: '[AI_TRANSLATION]如需解答常見問題，請訪問我們的 **幫助中心**。',
+      //    contact_us: "Contact Us",
+      for_further_questions: '[AI_TRANSLATION]如有進一步問題',
+      education_partner: '[AI_TRANSLATION]教育[NEWLINE]夥伴',
+      official_member: '[AI_TRANSLATION]官方[NEWLINE]成員\n',
+      best_creativity_tool_for_students: '[AI_TRANSLATION]最佳創意學習[NEWLINE]工具',
+      official_partner: '[AI_TRANSLATION]官方[NEWLINE]合作夥伴\n',
+      hour_of_code_activity_partner: '[AI_TRANSLATION]編程一小時[NEWLINE]活動夥伴',
+      top_pick_for_learning: '[AI_TRANSLATION]學習的精選',
+      //    testimonals_1_title: "“One thing I am able to do now, that I could not do before, is actually believe I can code.”",
+      testimonals_1_name: '[AI_TRANSLATION]山脊中學學生  ',
+      testimonals_2_title: '[AI_TRANSLATION]"隨便說個線上課程，我都試過了。沒有一個能比得上 CodeCombat 和 Ozaria。任何想讓學生學編程的老師…從這裡開始吧！"',
+      testimonals_2_name: '[AI_TRANSLATION]Scott Baily，Bobby Duke 中學',
+      testimonals_3_title: '[AI_TRANSLATION]"我一直想設計電動遊戲，學習如何編程…這給了我一個不錯的起點。"',
+      testimonals_3_name: '[AI_TRANSLATION]Joey，高中十年級\n',
+      testimonals_4_title: '[AI_TRANSLATION]"我最喜歡 CodeCombat 的地方是它沒有簡化編程。學生們學習寫真正的程式碼，而且還玩得開心。"',
+      testimonals_4_name: '[AI_TRANSLATION]Sandra Ahlstrom，Sheridan County School District #2的教師',
+      carousel_1_title: '[AI_TRANSLATION]遊戲基礎[NEWLINE]學習',
+      carousel_1_text: '[AI_TRANSLATION]通過我們獨特的方法，學生將在他們冒險一開始就通過遊戲和編碼來學習，促進積極學習和成長心態。\n',
+      carousel_2_title: '[AI_TRANSLATION]基於文本的[NEWLINE]編碼',
+      carousel_2_text: '[AI_TRANSLATION]我們的自定義代碼引擎和解釋器是為初學者設計的，使用簡單易懂的術語教真正的 Python、JavaScript 和 C++ 編程語言。',
+      carousel_3_title: '[AI_TRANSLATION]基於專案的[NEWLINE]評估',
+      carousel_3_text: '[AI_TRANSLATION]這些專案讓學生有機會編寫自己的可分享遊戲。我們提供評估標準，讓你可以把Capstone專案作為主要的總結性評估。',
+      carousel_4_title: '[AI_TRANSLATION]AI [NEWLINE] 加速',
+      carousel_4_text: '[AI_TRANSLATION]我們教學生如何使用 AI 來加速學習並提升他們的編程能力。這種強大的組合釋放了每個技能級別學生的創造潛力。\n',
+      carousel_5_title: '[AI_TRANSLATION]教育者[NEWLINE]賦權',
+      carousel_5_text: '[AI_TRANSLATION]我們的課堂解決方案提供所有支持和資源，任何教育工作者都可以運用來實施課程並取得成功。',
+      carousel_6_title: '[AI_TRANSLATION]學生[NEWLINE]影響',
+      carousel_6_text: '[AI_TRANSLATION]我們的產品已幫助超過 2000 萬學生享受學習計算機科學，教他們成為有批判性、自信和創造力的學習者。我們吸引所有學生，不論經驗，幫助他們發現成功的計算機科學之路。',
+      engaging_boxes_1_title: '[AI_TRANSLATION]Ozaria 教室',
+      engaging_boxes_1_text: '[AI_TRANSLATION]一個編碼冒險故事，建立計算機科學的基礎。  ',
+      //    engaging_boxes_2_title: "CodeCombat Classroom",
+      engaging_boxes_2_text: '[AI_TRANSLATION]一套完整的計算機科學課程，從核心概念一直涵蓋到網頁開發、遊戲開發和 **[https://codecombat.com/apcsp]AP CSP**。',
+      engaging_boxes_3_title: '[AI_TRANSLATION]CodeCombat 世界在 Roblox 上',
+      engaging_boxes_3_text: '[AI_TRANSLATION]與 Roblox 教育合作，這個 AI 啟用的體驗能夠超強提升學生的編碼能力，並提供一個現實的平臺來創造驚人的遊戲和體驗需求。',
+      engaging_boxes_4_title: '[AI_TRANSLATION]CodeCombat AI 聯賽電競',
+      engaging_boxes_4_text: '[AI_TRANSLATION]一個史詩級的競技編程電競平台，在遊戲環境中鼓勵創意編程。  ',
+      engaging_boxes_5_title: '[AI_TRANSLATION]CodeCombat AI HackStack',
+      engaging_boxes_5_text: '[AI_TRANSLATION]第一款專為 AI 初學者設計的生成 AI 伴侶工具，專注於學生隱私和安全。結合了簡單和強大，這個平台加速了學生的能力並釋放他們的創造潛力。\n',
+      engaging_boxes_6_title: '[AI_TRANSLATION]CodeCombat 主頁',
+      engaging_boxes_6_text: '[AI_TRANSLATION]孩子可以接觸到超過530個關卡和獨家功能，如寵物、專屬物品和英雄，徹底沉浸在編碼的世界裡。他們甚至可以設計遊戲挑戰朋友、建立網站和應用程式來分享。\n',
+      young_learners_1_title: '[AI_TRANSLATION]CodeCombat Junior  ',
+      young_learners_1_text: '[AI_TRANSLATION]我們主要的 K-5 課程具有學習級別的進程，專為小學生設計，以較慢的速度教基本的編碼概念。',
+      young_learners_1_linkText: '[AI_TRANSLATION]註冊參加 Beta 測試',
+      young_learners_2_title: '[AI_TRANSLATION]AI 初學者',
+      young_learners_2_text: '[AI_TRANSLATION]在一個專門為幼稚園到五年級學生設計的簡單直觀平台中，引入多模態生成 AI。',
+      young_learners_2_linkText: '[AI_TRANSLATION]註冊參加 Beta 測試',
+      solutions_1_title: '[AI_TRANSLATION]專業發展',
+      solutions_1_text: '[AI_TRANSLATION]致力於讓所有教師具備有效教授電腦科學的技能、知識和信心。',
+      solutions_1_middleText: '[AI_TRANSLATION]最多可獲得6個研究生學分',
+      solutions_1_linkText: '[AI_TRANSLATION]現在試試看',
+      solutions_2_title: '[AI_TRANSLATION]AP CSP 考試準備',
+      solutions_2_text: '[AI_TRANSLATION]我們被大學理事會認可為 AP® 計算機科學原理 (AP CSP) 課程和專業發展的認可提供者。我們的 AP CSP 課程提供基於遊戲和一鍵式工具，幫助學生準備 AP 考試。\n',
+      solutions_2_linkText: '[AI_TRANSLATION]現在試試看',
+      solutions_3_title: '[AI_TRANSLATION]贈款和資金來源',
+      solutions_3_text: '[AI_TRANSLATION]我們理解學校所面臨的資金障礙，並且熱衷於幫助克服這些困難。查看我們的全面資助指南或聯繫我們的團隊以瞭解更多信息。\n',
+      solutions_4_title: '[AI_TRANSLATION]區域級解決方案',
+      solutions_4_text: '[AI_TRANSLATION]我們的創新解決方案已幫助全國各地的地區拓展或啟動他們的計算機科學課程。由我們超過 32 萬名教育工作者的社群反饋設計，我們全面的解決方案提供了一個回應性和靈活的課程，滿足所有學生和教育者的需求。我們的團隊提供所需的培訓和支持，使其容易實施和擴展。\n',
+      solutions_5_title: '[AI_TRANSLATION]在線直播課程',
+      solutions_5_text: '[AI_TRANSLATION]我們的在線編程課程結合了遊戲玩法和個性化教學力量，為您的孩子帶來他們會喜愛的體驗。從編程和發布他們自己的 Roblox 遊戲，到為新業務構建網站，您的孩子將探索 AI 和編程的一切可能性。\n',
+      solutions_6_title: '[AI_TRANSLATION]CodeQuest',
+      solutions_6_text: '[AI_TRANSLATION]來參加我們獨一無二的沉浸式教育體驗，旨在激勵和賦能下一代計算機科學創新者。這次難得的機會將來自全球各地的學生匯集在一起，參加一系列的編碼黑客馬拉松，向知名講者學習，並參訪頂尖大學和科技組織。',
+      solutions_6_linkText: '[AI_TRANSLATION]發現更多',
+      solutions_7_title: '[AI_TRANSLATION]合作方案',
+      solutions_7_text: '[AI_TRANSLATION]加入我們的使命，成為重要合作夥伴，讓編程變得易於接觸且有趣。我們靈活的合作夥伴結構包括教育業務、電子競技贊助商、國際分銷商和社會影響組織。合作夥伴可獲得我們易於使用的程式、實施資源和培訓選項，保證您能有成功且愉快的體驗。\n',
+      solutions_8_title: '[AI_TRANSLATION]圖書館解決方案',
+      //    solutions_8_text: "As an entirely self-paced and self-directed digital resource, CodeCombat is the best integration for libraries that want to empower their members of all ages to learn how to code. Our platform offers everything learners need to experience a high-level coding education through a uniquely exciting, game-based curriculum. Perfect for beginners all the way up to those who want to master college-level coding concepts.",
+      learn_more_text: '[AI_TRANSLATION]發現更多',
+      best_homeschool_curriculum: '[AI_TRANSLATION]最佳家庭學校[NEWLINE]課程',
+      sign_up_free: '[AI_TRANSLATION]免費註冊',
+      try_it_now: '[AI_TRANSLATION]現在試試看',
+      //    junior_modal_header: "Try Our New K-5 Curriculum Today!",
+      //    junior_modal_body: "Perfect for K-5 classrooms, this new curriculum features real coding with icons, drag-and-drop blocks, parallel blocks with text, or purely text-based options. Plus, it’s fully accessible on tablets making it easy to support all learners.",
+    },
+
+    schools_page: {
+      meta_title: '[AI_TRANSLATION]CodeCombat: 最有效的學校計算機科學解決方案\n',
+      most_effective_computer_science_solution: '[AI_TRANSLATION]最有效的計算機科學解決方案適用於 **學校**',
+      our_comprehensive_implementation: '[AI_TRANSLATION]我們全面的實施方案可以賦能教師、吸引學生並帶來成功的成果。',
+      start_teach_trial: '[AI_TRANSLATION]今天開始教學，免費試用所有遊戲和教學資源。',
+      get_my_solution: '[AI_TRANSLATION]獲取我的解決方案',
+      flexible_standards_aligned_curriculum_title: '[AI_TRANSLATION]符合多種標準的彈性課程',
+      //    flexible_standards_aligned_curriculum_text: "Our scaffolded approach covers computer science fundamentals up through advanced courses and features **[https://codecombat.com/apcsp]College Board endorsed AP CSP**, web and game development. We build customized pathways to deliver a personalized learning experience that meets **[https://codecombat.com/standards]CSTA, ISTE and Common Core State Standards**. The flexible curriculum offers the ability to teach Python, JavaScript, C++, Luau and more.",
+      comprehensive_tools_resources_title: '[AI_TRANSLATION]全面的工具和資源',
+      comprehensive_tools_resources_text: '[AI_TRANSLATION]教師資源中心讓所有教育者能在第一天就開始教學。輕鬆訪問課程計劃、面向學生的課程幻燈片、評分標準、擴展活動、頂點項目和評估。我們的安全AI集成加速了學生的潛力，並讓教育者可以優化課堂時間。為了現實世界的練習和應用，我們提供競技編程電競、Roblox遊戲設計和網頁設計選項。此外，老師可以通過內容分配和鎖定功能控制學生的學習進度。\n',
+      accessible_data_insights_title: '[AI_TRANSLATION]可訪問的數據與見解',
+      accessible_data_insights_text: '[AI_TRANSLATION]我們為管理人員提供所需的見解，提供實時的使用數據和進度報告，覆蓋班級、學校、地區和州級別。學生層級的進度跟踪讓教育工作者能夠輕鬆識別何時需要干預，內置的預評估和後評估模塊評估學生的理解程度。',
+      high_quality_professional_development_title: '[AI_TRANSLATION]高品質專業發展',
+      high_quality_professional_development_text: '[AI_TRANSLATION]**[https://csteachers.org/pd-opportunities/accredited-pd/]得到計算機科學教師協會 (CSTA) 認可**，本課程提供 44+ 小時的自學，基於網絡和按需學習。該計劃是自定進度，適合任何繁忙的日程安排。該課程讓無論是否有教學經驗的人都能成功地實施計算機科學課程。',
+      earn_up_to_3_graduate_credits: '[AI_TRANSLATION]這門課程最多可獲得6個研究生學分',
+      //    request_a_demo: "Request a Demo",
+      maximize_your_impact: '[AI_TRANSLATION]所有工具讓學習成果最大化。',
+      core_curriculum: '[AI_TRANSLATION]核心課程',
+      practice_enrichment: '[AI_TRANSLATION]練習與充實',
+      student_acceleration_ap_csp: '[AI_TRANSLATION]學生加速 & AP CSP',
+      young_learners: '[AI_TRANSLATION]年輕學習者  ',
+      funding_solutions: '[AI_TRANSLATION]資金解決方案',
+      support_development: '[AI_TRANSLATION]支援與開發',
+      ai_support_acceleration_title: '[AI_TRANSLATION]AI 支持及加速',
+      ai_support_acceleration_text: '[AI_TRANSLATION]我們使用 AI 來提高教學時間的效果。CodeCombat 現在支持 AI 提示功能，該功能可以評估代碼、指出錯誤並解釋如何修復它們。最重要的是，它提供了理解原因所需的所有背景知識，而不會揭露整個解決方案。學生仍需完成每一關的編程挑戰，但現在您不需要停下來處理個別需求。**教師每天分配 100 次 AI 提示**，**每位學生每天獲得 5 次 AI 提示**，以確保他們始終獲得所需的支持。\n',
+      codecombat_ai_hackstack_text: '[AI_TRANSLATION]給那些剛接觸 AI 的人，我們提供 **CodeCombat AI HackStack**。這款創新的工具不僅教學生如何使用 AI，還安全地提供訪問許多最新的 LLMs，包括 ChatGPT-4, Claude, Stable Diffusion, DALL-E 等。在短時間內完成訓練模式後，用戶能夠解鎖工具的全部創造潛力，讓從提示到代碼到發布的項目只需幾分鐘。這款 AI 驅動的應用程序允許用戶生成遊戲、藝術、網站、代碼和更多。**教師每月可獲得 100 個 AI 提示配額**，而**每位學生每週可獲得 10 個 AI 提示**，以創建多個 AI 項目。',
+      pathways_for_success: '[AI_TRANSLATION]成功路徑',
+      for_your_custom_pathway: '[AI_TRANSLATION]自訂學習路徑',
+      //    elementary_school: "Elementary School",
+      codecombat_jr: '[AI_TRANSLATION]CodeCombat Junior  ',
+      ai_hacksstack_jr: '[AI_TRANSLATION]AI 初學者',
+      codecombat_worlds: '[AI_TRANSLATION]CodeCombat 世界',
+      k: '[AI_TRANSLATION]喔',
+      icons_block_based: '[AI_TRANSLATION]圖示 & 方塊式編程',
+      introduction_to_ai: '[AI_TRANSLATION]AI簡介  ',
+      grade_1: '[AI_TRANSLATION]一年級',
+      simple_ai_templates: '[AI_TRANSLATION]簡單的 AI 模板',
+      grade_2: '[AI_TRANSLATION]二年級',
+      complex_ai_templates: '[AI_TRANSLATION]複雜AI模板',
+      explorations: '[AI_TRANSLATION]探索',
+      grade_3: '[AI_TRANSLATION]三年級',
+      block_based: '[AI_TRANSLATION]基於塊',
+      grade_4: '[AI_TRANSLATION]四年級',
+      block_based_text: '[AI_TRANSLATION]基於塊和文本',
+      grade_5: '[AI_TRANSLATION]五年級',
+      text: '[AI_TRANSLATION]文字',
+      our_k_5_implementation_pathway: '[AI_TRANSLATION]我們的K-5實施途徑將介紹兩個**初學者友好**的平台，包括CodeCombat Junior，我們的旗艦小學課程，具有一系列學習級別，以**較慢步調教導基本編程概念**，以及AI Junior, 一個**多模態 AI 工具**，允許學生自創畫作、寫作並設計自己的數位產品。這個分階進度將讓學生隨著我們的沉浸內容成長並探究多樣的計算思維和計算機科學概念。  ',
+      //    middle_school: "Middle School",
+      high_school: '[AI_TRANSLATION]高中',
+      ozaria: '[AI_TRANSLATION]Ozaria',
+      ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      ai_league: '[AI_TRANSLATION]AI 聯盟',
+      grade_6: '[AI_TRANSLATION]六年級',
+      introduction_to_coding: '[AI_TRANSLATION]編程簡介  ',
+      introduction_to_luau_coding: '[AI_TRANSLATION]Lua編程簡介  ',
+      introduction_to_coding_esports: '[AI_TRANSLATION]編程電競簡介  ',
+      grade_7: '[AI_TRANSLATION]七年級',
+      loops_structures: '[AI_TRANSLATION]循環與結構',
+      introduction_to_creative_mode: '[AI_TRANSLATION]創意模式簡介  ',
+      ai_scenarios: '[AI_TRANSLATION]AI 情境集',
+      competitive_coding_arenas: '[AI_TRANSLATION]競技編碼競技場',
+      grade_8: '[AI_TRANSLATION]八年級',
+      functions_data: '[AI_TRANSLATION]函數與數據',
+      //    game_development: "Game Development",
+      open_ended_ai_projects: '[AI_TRANSLATION]開放式 AI 專案',
+      middle_school_implementation: '[AI_TRANSLATION]我們的中學實施計劃以 Ozaria 為核心計算機科學課程建立**編程概念基礎**。這將最終擴展至更多的自主選擇，學生將通過三個多樣化的平台**探索編程與 AI**。**教育工作者和學生可以選擇**將在哪些平台更深入探索。\n',
+      codecombat: '[AI_TRANSLATION]CodeCombat',
+      ap_csp: '[AI_TRANSLATION]AP CSP',
+      cs1_4_data_science_cybersecurity_exam_content: '[AI_TRANSLATION]CS1-4 [NEWLINE] 數據科學 [NEWLINE] 網絡安全 [NEWLINE] 考試內容',
+      advanced_cs: '[AI_TRANSLATION]高階計算機科學',
+      cs5_6_gd1_3_wd1_2: '[AI_TRANSLATION]CS 5-6 [NEWLINE] GD 1-3 [NEWLINE] WD 1-2',
+      advanced_game_development: '[AI_TRANSLATION]高階遊戲開發  ',
+      advanced_ai_projects: '[AI_TRANSLATION]高階 AI 項目',
+      global_esports_tournament: '[AI_TRANSLATION]全球電子競技錦標賽',
+      first_year_high_school_curriculum: '[AI_TRANSLATION]我們高一課程的重點是 **AP CS Principles**，包括我們的 CodeCombat 課程，CS1−CS4 和考試課程內容，如 **Data Science** 和 **Computing Systems**。到了更高年級，學生可以探索更多的 **advanced CS courses**，並在我們的三個平台上有更多的選擇和自主權。\n',
+      accessibility_representation_title: '[AI_TRANSLATION]無障礙性與代表性',
+      accessibility_representation_text: '[AI_TRANSLATION]我們以學生為中心的設計符合學生的需求，並為他們提供所需的支持。面對面和遠程學習功能允許學生在任何地方、任何時間學習。鍵盤無障礙、全螢幕閱讀器相容和色盲友好的配色方案確保每個人都能學會編碼。',
+      //    accessibility_acr_prefix: "We meet WCAG 2.1 Level AA and Revised Section 508 Standards. See our",
+      //    accessibility_acr_link_text: "Accessibility Compliance Report (ACR) / VPAT",
+      //    accessibility_acr_suffix: "for more information.",
+      privacy_security_title: '[AI_TRANSLATION]隱私與安全',
+      privacy_security_text: '[AI_TRANSLATION]我們非常重視學生安全、網絡安全和數據隱私，並遵守嚴格的學校級隱私法規，包括 COPPA、FERPA、SOPIPA、California AB 1584、CalOPPA、公平信息實踐、CAN-SPAM、以及 GDPR。所有數據都安全地存儲在美國的 Amazon Web Services 上。我們的 AI 集成有防護措施來保護個人識別信息並限制敏感內容。專案共享受到控制，點對點通訊受到限制。數據處理協議可用，訪問 **https://codecombat.com/privacy** 瞭解更多信息。\n',
+      contact_our_team: '[AI_TRANSLATION]聯繫我們的團隊',
+      for_turnkey_solutions: '[AI_TRANSLATION]為你的一站式解決方案',
+      //    testimonials_1_quote: "“Let me make this clear first. I recommend your product because it is the best programming teaching tool currently on Earth.”",
+      testimonials_1_name: '[AI_TRANSLATION]Seth Reichelson',
+      testimonials_1_title: '[AI_TRANSLATION]AP 計算機科學老師，Lake Brantley 高中。白宮變革冠軍獲得者',
+      //    testimonials_2_quote: "“[Ozaria] is a full curriculum for computer science education, it’s super impressive, very extensive [...] It’s got everything you need [...] I don't know that we've seen anything with this much extra stuff to help you teach it well.”",
+      testimonials_2_name: '[AI_TRANSLATION]Tanner Higgin',
+      testimonials_2_title: '[AI_TRANSLATION]編輯主任 - 學習內容，共同知識教育',
+      testimonials_2_full_review_text: '[AI_TRANSLATION]完整評論在這裡',
+      //    testimonials_3_quote: "“CodeCombat was one of the easiest to implement programs we’ve piloted and student engagement was extremely high. The way the content is designed, scaffolds perfectly and allows students to quickly move into high level programming skills far beyond anything we could have hoped for.”",
+      testimonials_3_name: '[AI_TRANSLATION]Steve Kong',
+      testimonials_3_title: '[AI_TRANSLATION]教學服務專家，河濱統一學區',
+      //    testimonials_4_quote: "“One thing I am able to do now that I could not do before is actually believe I can code.”",
+      //    testimonials_4_name: "",
+      testimonials_4_title: '[AI_TRANSLATION]山脊中學學生  ',
+      //    testimonials_5_quote: "“CodeCombat has transformed how I teach coding...I utilize the great teacher resources including Curriculum Guides, Project Guides, and Solutions. Using CodeCombat has helped me to teach fairly advanced concepts in a way the students enjoy and understand. What I love the most about CodeCombat is that it does not simplify coding. The students are learning to write actual code, yet doing it in such a way that they are having fun.”",
+      testimonials_5_name: '[AI_TRANSLATION]Sandra Ahlstrom',
+      testimonials_5_title: '[AI_TRANSLATION]雪利丹縣學區2號教師  ',
+      faq_1_question: '[AI_TRANSLATION]你需要知道的關於認證考試和 AP CSP 的事情',
+      faq_1_answer: '[AI_TRANSLATION]美國的職業技術教育（CTE）項目專注於讓學生掌握業界價值的技能，可以通往貿易學校或大學教育。根據州和聯邦法律，CTE項目必須為學生提供研究生學分、行業認證或實習時間。一些領域，例如網絡安全，提供有價值的認證考試，而其他如軟體工程更看重四年制學位。然而，通過AP計算機科學原理考試是一條獲得高等教育學分的公認途徑，使學生能避開昂貴且耗時的學院要求。為了幫助學生準備考試，CodeCombat 提供了一個由大學理事會認可的 **[https://codecombat.com/apcsp]AP CSP 課程**。\n',
+      faq_2_question: '[AI_TRANSLATION]我們如何使用AI支持教育者',
+      faq_2_answer: '[AI_TRANSLATION]我們使用 AI 讓教學時間更有效。面對不斷增加的班級人數和有限的個性化教學時間，我們的 AI 力量級別聊天助手是解答學生個人問題的完美工具。這個強大的幫手可以評估代碼、指出錯誤、解釋如何修復它們，並提供他們需要了解的所有背景資訊。最重要的是，它不會給他們直接答案。只提供下一步的協助，學生仍然需要通過每個等級的編程挑戰，但現在你不需要為了滿足個別需求而停止課堂了。  ',
+      faq_3_question: '[AI_TRANSLATION]我們如何安全和負責任地整合AI',
+      faq_3_answer: '[AI_TRANSLATION]我們的 AI 技術遵循安全第一的原則，為學生和教育者提供信心。我們不允許後端 LLM 供應商訓練你的聊天內容，並已經建立了防範不適當內容的保護措施。這些措施包括：過濾有害語言，保持專注於相關主題，保護個人信息，並教育學生關於 AI 潛在風險。此外，我們記錄 AI 聊天活動供教師監控，並堅持嚴格的數據隱私和安全協議。',
+      faq_4_question: '[AI_TRANSLATION]為什麼計算機科學很重要',
+      faq_4_answer: '[AI_TRANSLATION]計算機科學教育立即提供提升解決問題能力、增強數學能力和鼓勵邏輯思維的好處，這些對於在其他核心學科中的成功都是必不可少的。學習遠不止於代碼，還能增強學生解決複雜問題和適應不同情況的能力。看看 Ozaria 如何幫助實現這些 **[https://docs.google.com/presentation/d/1xcc1tw4k8oY9basXuxO0v_RU9z-Dr8ImvbvbuNvJeHA/edit#slide=id.g134a7e7c8f1_0_3]跨學科聯結**。我們的課程設計旨在為今天的學生提供關鍵的計算機科學技能，為明天的數字工作做好準備。',
+      faq_5_question: '[AI_TRANSLATION]為什麼遊戲化學習有效',
+      faq_5_answer: '[AI_TRANSLATION]遊戲化學習之所以這麼有效，是因為它提供了一個安全的環境，讓失敗不再令人畏懼，而是被預期的，並提供了成長和理解的機會。這種方法鼓勵學生從錯誤中學習並調整策略以取得成功。此外，遊戲的互動性和動態性質有助於學生更有效地記憶信息，因為他們是在實際操作中學習的。這積極地讓學生參與到學習過程中，提高他們的動機和樂趣。',
+      faq_6_question: '[AI_TRANSLATION]如何尋找替代資金來源',
+      //    faq_6_answer: "Computer science education has become a vital component of a student's academic journey, however, many schools face challenges in securing the necessary resources to provide their students with comprehensive computer science programs. At CodeCombat, we understand the funding hurdles that schools encounter and are passionate about helping them overcome these obstacles. Grants can be a valuable resource but difficult to discover and apply for. Check out our comprehensive **[https://codecombat.com/grants]guide to grant funding** or speak with our team to learn more.",
+      faq_7_question: '[AI_TRANSLATION]如何開始',
+      faq_7_answer_1: '[AI_TRANSLATION]建立你的教師或管理員帳號',
+      //    faq_7_answer_2: "Create a class",
+      //    faq_7_answer_3: "Add students",
+      faq_7_answer_4: '[AI_TRANSLATION]坐下來看你的學生們快樂地學習編程',
+      faq_8_question: '[AI_TRANSLATION]支援 Clever 和 Google 登入',
+      faq_8_answer: '[AI_TRANSLATION]我們提供 Clever 和 Google Classroom 集成。查看我們的 **[https://codecombat.com/teachers/resources/clever-faq]Clever Integration FAQ** 獲取更多如何開始的詳情。如果你在使用 Google Classroom，請確保使用 Google 單點登錄 (SSO) 模式來註冊你的教師帳號。如果你已經有一個用 Google 郵箱註冊的帳戶，下次登錄時請使用 Google SSO 模式。在創建班級的模態框中，你會看到連接 Google Classroom 的選項。我們目前只支持通過 Google Classroom 進行排課。注意：你必須至少使用 Google SSO 註冊或登錄一次，才能看到 Google Classroom 集成功能。',
+      faq_9_question: '[AI_TRANSLATION]推薦瀏覽器和操作系統',
+      faq_9_answer: '[AI_TRANSLATION]CodeCombat 和 Ozaria 最佳運行環境為至少 4GB RAM 的電腦，使用現代瀏覽器如 Chrome、Safari、Firefox 或 Edge。2GB RAM 的 Chromebooks 在後期課程中可能會有輕微圖形問題。每位學生至少需要 200 Kbps 的頻寬，建議 1 Mbps 或以上。',
+      core_curriculum_1_title: '[AI_TRANSLATION]Ozaria 教室',
+      core_curriculum_1_text: '[AI_TRANSLATION]一個編碼冒險故事，建立計算機科學的基礎。  ',
+      core_curriculum_1_link_text: '[AI_TRANSLATION]現在試試看',
+      //    core_curriculum_2_title: "CodeCombat Classroom",
+      core_curriculum_2_text: '[AI_TRANSLATION]一套完整的計算機科學課程，從核心概念一直涵蓋到網頁開發、遊戲開發和 **[http://codecombat.com/apcsp]AP CSP**。',
+      core_curriculum_2_link_text: '[AI_TRANSLATION]現在試試看',
+      practice_enrichment_1_title: '[AI_TRANSLATION]CodeCombat AI 聯賽電競',
+      practice_enrichment_1_text: '[AI_TRANSLATION]一個史詩級的競技編程電競平台，在遊戲環境中鼓勵創意編程。  ',
+      practice_enrichment_1_link_text: '[AI_TRANSLATION]現在試試看',
+      practice_enrichment_2_title: '[AI_TRANSLATION]CodeCombat 世界在 Roblox 上',
+      practice_enrichment_2_text: '[AI_TRANSLATION]與 Roblox 教育合作，這個 AI 啟用的體驗能夠超強提升學生的編碼能力，並提供一個現實的平臺來創造驚人的遊戲和體驗需求。',
+      practice_enrichment_2_link_text: '[AI_TRANSLATION]現在試試看',
+      student_acceleration_1_title: '[AI_TRANSLATION]CodeCombat AI HackStack',
+      student_acceleration_1_text: '[AI_TRANSLATION]第一款專為 AI 初學者設計的生成 AI 伴侶工具，專注於學生隱私和安全。結合了簡單和強大，這個平台加速了學生的能力並釋放他們的創造潛力。\n',
+      student_acceleration_1_link_text: '[AI_TRANSLATION]現在試試看',
+      student_acceleration_2_title: '[AI_TRANSLATION]AP CSP 考試準備',
+      student_acceleration_2_text: '[AI_TRANSLATION]我們被大學理事會認可為 AP® 計算機科學原理 (AP CSP) 課程和專業發展的認可提供者。我們的 AP CSP 課程提供基於遊戲和一鍵式工具，幫助學生準備 AP 考試。\n',
+      young_learners_1_title: '[AI_TRANSLATION]CodeCombat Junior  ',
+      young_learners_1_text: '[AI_TRANSLATION]我們主要的 K-5 課程具有學習級別的進程，專為小學生設計，以較慢的速度教基本的編碼概念。',
+      young_learners_1_link_text: '[AI_TRANSLATION]註冊參加 Beta 測試',
+      young_learners_2_title: '[AI_TRANSLATION]AI 初學者',
+      young_learners_2_text: '[AI_TRANSLATION]在一個專門為幼稚園到五年級學生設計的簡單直觀平台中，引入多模態生成 AI。',
+      young_learners_2_link_text: '[AI_TRANSLATION]註冊參加 Beta 測試',
+      funding_solutions_1_title: '[AI_TRANSLATION]贈款和資金來源',
+      funding_solutions_1_text: '[AI_TRANSLATION]我們理解學校所面臨的資金障礙，並且熱衷於幫助克服這些困難。查看我們的全面資助指南或聯繫我們的團隊以瞭解更多信息。\n',
+      funding_solutions_1_link_text: '[AI_TRANSLATION]發現更多',
+      support_development_1_title: '[AI_TRANSLATION]在線直播課程',
+      support_development_1_text: '[AI_TRANSLATION]想提供高品質的計算機科學教學，但沒有足夠的教學人員嗎？我們的專業講師團隊可以提供適合課堂或課後項目的有趣虛擬課程。',
+      support_development_1_link_text: '[AI_TRANSLATION]註冊參加 Beta 測試',
+      faq_header: '[AI_TRANSLATION]常見問題',
+      faq_see_more: '[AI_TRANSLATION]在我們的**[https://codecombat.zendesk.com/hc/en-us]幫助中心**查看更多常見問題解答。',
+      trends_1_title: '[AI_TRANSLATION]AI 不是在取代編碼，而是在加速它！',
+      trends_1_text: '[AI_TRANSLATION]我們正式進入了AI時代。隨著炒作和誇張言論而來的是對計算機科學未來的恐懼和不確定性。AI用簡單輸入編寫代碼的視頻和工程師被AI機器人取代的故事可以說是戲劇性但最終是錯誤的說法。事實是，AI並不是在替代編碼，而是在加速它！\n',
+      trends_1_linkText: '[AI_TRANSLATION]閱讀博客',
+      trends_2_title: '[AI_TRANSLATION]職業技術教育與 Pat Keeney',
+      trends_2_text: '[AI_TRANSLATION]職業技術教育（CTE）讓學生成為終身學習者，提供他們成功所需的技能和知識。在這一集中，Pat Keeney, McGraw Hill 的 CTE 冠軍, 分享他的經驗  ',
+      trends_2_linkText: '[AI_TRANSLATION]聆聽 Podcast',
+      learn_more_text: '[AI_TRANSLATION]發現更多',
+      your_turnkey_solutions: '[AI_TRANSLATION]你的完美解決方案',
+      free_teacher_account: '[AI_TRANSLATION]免費教師賬戶',
+      trial_the_curriculum: '[AI_TRANSLATION]今天就和你的學生試用課程！',
+      try_it_free: '[AI_TRANSLATION]免費試用',
+    },
+
+    //  hackstack_page: {
+    //    header: "Learn, create, and accelerate with **AI HackStack**",
+    //    header_details: "Together, we empower learners to safely bring their ideas to life across any subject.",
+    //    accessible_safe_use: "Accessible, safe, and responsible use of AI",
+    //    learn_title: "Learn",
+    //    learn_description: "From **English Language Arts** to **Mathematics** and **Science**, students discover how to craft safe and effective prompts for generating output in each discipline. Learn essential prompt engineering skills in a **wide range of subjects** using Al HackStack's Learning Scenarios. Along the way, your students will gain hands-on experience with popular Al models like Claude, DALL-E, and Stable Diffusion.",
+    //    create_title: "Create",
+    //    create_description: "Bring your wildest ideas to life with HackStack's Al **sandbox environment**. Here, students will be able to quickly prototype interdisciplinary projects of all kinds. Use our turnkey curriculum to help your students engage in meaningful discussions about the **responsible use** of Al and the **ethical implications** of their creations. This holistic approach not only sparks innovation but also cultivates digital citizenship, equipping students with the skills and awareness needed to thrive in the digital age.",
+    //    remix_title: "Remix",
+    //    remix_description: "Supercharge the creative process by customizing one of the many projects found in Al HackStack's **community library**. The remix feature not only accelerates individual progress but also fosters a **collaborative ecosystem** where ideas evolve rapidly. As students remix and build upon each other's work, the collective output of your classroom will reach new creative heights, resulting in an impressive showcase of student-driven innovation.",
+    //    privacy_title: "Safety and Privacy",
+    //    privacy_subtitle: "Our AI platforms fuel student curiosity and creativity, with the privacy and security you need.",
+    //    data_title: "Your Data is Safe",
+    //    data_description: "We carefully vet Al tools before they are added to Al HackStack. If they're not safe, we don't include them. We also screen user prompts to make sure they don't contain any Personally Identifiable Information. If they do, we replace it with a placeholder value before giving it to an external Al model. Additionally, you have the power to lock specific Al tools so that your students cannot access the ones you don't feel comfortable using.",
+    //    moderation_title: "Our Moderation Practices",
+    //    moderation_description: "We monitor user prompts and Al output to make sure they don't contain any inappropriate content. You can review every prompt that your student has written in the Al HackStack teacher dashboard. We also provide turnkey resources to help you and your students navigate the complexity of using Al, and provide professional development opportunities for those who want more guidance on what to look for when students are using Al.",
+    //    professional_development: "High Quality Professional Development",
+    //    professional_development_text: "We offer professional development opportunities for those who want more guidance on how to use AI in the classroom. These professional development workshops were modeled after **[https://www.teachai.org/toolkit]Teach AI**, **[https://www.edsafeai.org/safe]EdSafe**, **[https://csteachers.org/k12standards/]CSTA**, and **[https://ai4k12.org/]AI4K12’s** AI standards, which focus on the safe and responsible use of AI.",
+    //    ask_pd: "Ask about AI PD",
+    //    testimonials_1_quote: "The energy and excitement... in experimenting with different models and brainstorming and pitching their first Al programs were truly uplifting! I can't wait to check out these programs. Here's to making Al accessible to everyone!",
+    //    testimonials_1_name: "Vivienne Byrd",
+    //    testimonials_1_title: "STEAM Librarian & Program Lead of Citizen Science Initiative, Los Angeles Public Library",
+    //    try_it_free: "Try It Free",
+    //    faq_1_question: "How old should my students be to use AI HackStack?",
+    //    faq_1_answer: "AI HackStack is great for middle school and high school-aged students. Our safety and privacy practices allow us to help younger users, like your students, interface safely with AI.  Do you teach elementary-aged students? If so, **[mailto:team@codecombat.com]connect with our team** to learn more about CodeCombat AI Junior, which introduces multimodal generative AI in a simple and intuitive platform designed specifically for K-5 students.\"",
+    //    faq_2_question: "How we integrate AI safely and responsibly?",
+    //    faq_2_answer: "Our AI technology adheres to safety-first principles, providing confidence to both students and educators. We do not allow our backend LLM providers to train your chats and have established protective measures against inappropriate content. These measures include filtering harmful language, maintaining focus on relevant subjects, safeguarding personal information, and educating students about potential AI pitfalls. Moreover, we log AI chat activity for teacher monitoring and uphold stringent data privacy and security protocols.",
+    //    faq_3_question: "What LLMs is AI HackStack using?",
+    //    faq_3_answer_1: "ChatGPT-4: A model designed for natural language understanding and generation tasks.",
+    //    faq_3_answer_2: "Claude: A language model that focuses on performance and safety in AI interactions.",
+    //    faq_3_answer_3: "Stable Diffusion: A model that generates images from text descriptions.",
+    //    faq_3_answer_4: "DALL-E: An image generation model that creates visuals based on text prompts.",
+    //    faq_3_answer_5: "We continuously evaluate these models for performance and safety, ensuring we update to the latest versions available.",
+    //    faq_4_question: "How to find alternative funding sources?",
+    //    faq_4_answer: "Computer science education has become a vital component of a student's academic journey, however, many schools face challenges in securing the necessary resources to provide their students with comprehensive computer science programs. At CodeCombat, we understand the funding hurdles that schools encounter and are passionate about helping them overcome these obstacles. Grants can be a valuable resource but difficult to discover and apply for. Check out our comprehensive **[https://codecombat.com/grants]guide to grant funding** or **[mailto:team@codecombat.com]speak with our team** to learn more.",
+    //    faq_5_question: "How to get started",
+    //    faq_5_answer_1: "Create your Teacher or Admin Account",
+    //    faq_5_answer_2: "Create a class",
+    //    faq_5_answer_3: "Add students",
+    //    faq_5_answer_4: "Unlock AI HackStack for your class",
+    //    faq_5_answer_5: "Sit back and watch your students have fun learning about AI",
+    //    faq_6_question: "Support for Clever and Google login",
+    //    faq_6_answer: "We offer both Clever and Google Classroom integration. Check out our **[https://codecombat.com/teachers/resources/clever-faq]Clever Integration FAQ** for more details on how to get started. If you are using Google Classroom be sure to use the Google Single Sign-On (SSO) Modal to sign up for your teacher account. If you already have an account using your Google email, use the Google SSO modal to log in next time. In the Create Class modal, you will see an option to Link Google Classroom. We only support rostering via Google Classroom at this time. Note: you must use Google SSO to sign up or log in at least once in order to see the Google Classroom integration option.",
+    //    faq_7_question: "Recommended browser and operating system",
+    //    faq_7_answer: "TBA",
+    //    learn_more: "Learn More",
+    //  },
+
+    standards_page: {
+      standards_aligned_curriculum: '[AI_TRANSLATION]**標準對齊課程**',
+      curriculum_description: '[AI_TRANSLATION]CodeCombat 提供與多個國家和州標準框架對齊的強大課程路徑，涵蓋 K-12 各年級，包括多種語言的 AP 水平編程課程。我們的課程讓學生通過對齊標準的課程探索和學習計算機科學。\n',
+      most_effective_computer_science_solution: '[AI_TRANSLATION]最有效的計算機科學解決方案適用於 **[https://codecombat.com/schools]schools**',
+      comprehensive_implementation: '[AI_TRANSLATION]我們全面的實施方案可以賦能教師、吸引學生並帶來成功的成果。',
+      carousel_1_title: '[AI_TRANSLATION]計算機科學教師協會 (CSTA)',
+      carousel_1_text: '[AI_TRANSLATION]**[https://csteachers.org/k12standards/]計算機科學教師協會 K-12 計算機科學標準** 概述了一套核心學習目標，旨在為 K-12 界別的完整計算機科學課程及其實施提供基礎。[NEWLINE]CodeCombat 被 CSTA 認可為課程和專業發展的推薦提供者。通過我們的自我導向、CSTA 認證的**[https://www.ozaria.com/professional-development]專業發展**課程學習有效教學計算機科學的技能。隨時隨地通過任何設備獲得多達 40 小時的學分。[NEWLINE]了解下面的詳細 CSTA 標準對齊：',
+      carousel_1_button_1_text: '[AI_TRANSLATION]CSTA 對齊',
+      carousel_1_button_2_text: '[AI_TRANSLATION]CodeCombat',
+      carousel_2_title: '[AI_TRANSLATION]AP 計算機科學原理 (AP CSP)',
+      carousel_2_text: '[AI_TRANSLATION]CodeCombat 被 College Board 認可為 AP® 計算機科學原理 (AP CSP) 課程和專業發展的認可提供者。這個認可以確認 CodeCombat 的課程符合所有 AP 課程框架標準和 AP CSP 評估。這使得學校可以使用包括 College Board 課程審核預先批准的 AP CSP 大綱和正式認可的專業發展資源，這些資源可以幫助教師準備教學這個課程。[NEWLINE]請在下方了解更多關於我們的 CodeCombat AP CSP 課程：',
+      carousel_2_button_1_text: '[AI_TRANSLATION]CodeCombat AP CSP',
+      carousel_3_title: '[AI_TRANSLATION]國際教育技術協會 (ISTE)',
+      carousel_3_text: '[AI_TRANSLATION]**[https://iste.org/standards]ISTE標準**專注於教學法而非工具，是一個框架，指導教育者使用科技創造高影響力、可持續且可擴展的學習體驗，適用於所有學生。[NEWLINE]CodeCombat的課程設計符合所有ISTE標準，包括對學生和老師的要求。[NEWLINE]下文了解詳細的ISTE標準對齊：',
+      carousel_3_button_1_text: '[AI_TRANSLATION]Ozaria',
+      carousel_3_button_2_text: '[AI_TRANSLATION]CodeCombat',
+      carousel_4_title: '[AI_TRANSLATION]通用核心州標準',
+      carousel_4_text: '[AI_TRANSLATION]**[https://corestandards.org/]共同核心州立標準** 是一套統一的 K–12 數學和英語語言藝術學術標準。[NEWLINE]CodeCombat 在整個課程中整合了各種跨課程連接到核心學科的內容。[NEWLINE]了解下面的詳細共同核心標準對齊：',
+      carousel_4_button_1_text: '[AI_TRANSLATION]Ozaria',
+      carousel_4_button_2_text: '[AI_TRANSLATION]CodeCombat',
+      carousel_5_title: '[AI_TRANSLATION]下一代科學標準 (NGSS)',
+      carousel_5_text: '[AI_TRANSLATION]**[https://www.nextgenscience.org/]下一代科學標準 (NGSS)** 是 K–12 科學內容標準，設立學生應知道和能做的期望。這些標準由各州制定，以改善所有學生的科學教育。[NEWLINE]CodeCombat 是引入 NGSS 關鍵科學與工程概念的完美課程夥伴。[NEWLINE]下面了解詳情 NGSS 標準對齊：',
+      carousel_5_button_1_text: '[AI_TRANSLATION]NGSS 對齊  ',
+      carousel_5_button_2_text: '[AI_TRANSLATION]CodeCombat',
+    },
+
+    codequest_page: {
+      join_us: '[AI_TRANSLATION]加入我們\n',
+      start_application: '[AI_TRANSLATION]開始應用',
+      codequest: '[AI_TRANSLATION]CodeQuest',
+      //    date: "Date",
+      date_time: '[AI_TRANSLATION]2024年7月22日 - 7月27日',
+      supporting_text: '[AI_TRANSLATION]來參加我們獨一無二的沉浸式教育體驗，旨在通過編碼和AI激勵和賦能下一代計算機科學創新者。歡迎13-17歲的學生參加。',
+      apply_now: '[AI_TRANSLATION]立即申請',
+      insight: '[AI_TRANSLATION]一個有見地的現實世界學習經驗！  ',
+      testimonials_heading: '[AI_TRANSLATION]這個難得的機會聚集了來自世界各地的學生。以下是學生體驗的一覽。',
+      engaging_hackathongs: '[AI_TRANSLATION]引人入勝的黑客馬拉松',
+      insightful_speakers: '[AI_TRANSLATION]富有洞察力的演講者',
+      university_visits: '[AI_TRANSLATION]大學校園參訪',
+      silicon_valley_experience: '[AI_TRANSLATION]矽谷體驗',
+      content_title: '[AI_TRANSLATION]學生的體驗',
+      core_curriculum_heading_1: '[AI_TRANSLATION]多個  ',
+      core_curriculum_heading_2: '[AI_TRANSLATION]黑客馬拉松大賽',
+      core_curriculum_heading_3: '[AI_TRANSLATION] 設計  ',
+      core_curriculum_heading_4: '[AI_TRANSLATION]激發創意',
+      core_curriculum_heading_5: '[AI_TRANSLATION] 在編碼方面   ',
+      core_curriculum_heading_6: '[AI_TRANSLATION]教授 AI 的真實應用  ',
+      core_curriculum_title_1: '[AI_TRANSLATION]AI HackStack 專案挑戰',
+      core_curriculum_text_1: '[AI_TRANSLATION]首款專門為AI新手打造的生成型AI夥伴工具，使學生能即時從文字到程式碼到產出。<br /><br /> 參賽者將與其他學生合作開發一個使用AI提示的專案並展示評審。  ',
+      core_curriculum_title_2: '[AI_TRANSLATION]AI 聯盟 CodeQuest 全球決賽',
+      core_curriculum_text_2: '[AI_TRANSLATION]一個史詩級的競技編程電競平台，在遊戲環境中鼓勵創意編程。 <br /><br /> 參賽者將與其他學生組隊開發最佳代碼，以智取其他隊伍，獲得對決勝利並登上排行榜頂端。  ',
+      core_curriculum_heading_11: '[AI_TRANSLATION]將會舉辦黑客馬拉松',
+      core_curriculum_heading_12: '[AI_TRANSLATION]著名大學  ',
+      core_curriculum_heading_13: '[AI_TRANSLATION]提供給學生一個獨特的體驗',
+      core_curriculum_heading_14: '[AI_TRANSLATION]沉浸',
+      core_curriculum_heading_15: '[AI_TRANSLATION] 在  ',
+      core_curriculum_heading_16: '[AI_TRANSLATION]大學設置',
+      core_curriculum_text_11: '[AI_TRANSLATION]UC Berkeley 以其前沿的研究和創新而享譽全球，其計算機科學課程全面且嚴謹。這些課程提高了創造性解決問題的能力，並鼓勵深入理解計算理論，使個人成為迅速發展的科技行業中的變革領袖。  ',
+      core_curriculum_text_12: '[AI_TRANSLATION]斯坦福大學在技術和創新方面享有全球領導者的聲譽，提供強大的計算機科學課程，培養創造性思維和深厚的理論基礎，使個人成為計算機科學和技術領域的創新領袖。',
+      core_curriculum_heading_21: '[AI_TRANSLATION]我們的演講嘉賓名單提供',
+      //    core_curriculum_heading_22: "unparalleled insight",
+      core_curriculum_heading_23: '[AI_TRANSLATION]探索追求計算機科學成功所需的要素，並協助評審競賽。',
+      core_curriculum_title_21: '[AI_TRANSLATION]加州大學柏克萊分校特邀講者',
+      core_curriculum_text_21: '[AI_TRANSLATION]沉浸在這所歷史悠久的大學校園生活中，學生們將被來自加州大學柏克萊分校電機工程和計算機科學系的代表們歡迎，他們會介紹當地在計算機科學領域的廣泛研究和最新發展。學生們將了解到成為這些研究項目一部分的感受以及可以實現的職業途徑。',
+      core_curriculum_title_22: '[AI_TRANSLATION]Google X - Moonshot 工廠特邀講師',
+      core_curriculum_text_22: '[AI_TRANSLATION]2010年，Google創始人Larry Page和Sergey Brin決定組建一個新部門，專門研究超大膽的科幻技術，希望有朝一日能徹底改善世界。十年來，X孵化了數百個不同的超大膽項目，其中許多已成為獨立業務。聽聽這群多元化的發明家和企業家如何構建和推出旨在改善數百萬甚至數十億人生活的技術。',
+      core_curriculum_title_23: '[AI_TRANSLATION]CodeCombat CEO，Nick Winter',
+      core_curriculum_text_23: '[AI_TRANSLATION]Nick 是 CodeCombat 的創始人和 CEO。他是教育科技行業的公認領導者，Nick 將他對教育的熱情與技術專長結合起來，使全球的學生更容易和更有趣地學習程式設計。在創立 CodeCombat 之前，他聯合創立了 Skritter，這是一個學習中文和日文字符的平台。Nick 致力於革新教育行業，積極推動編程成為未來世代的基本技能。他的奉獻和願景不斷激勵和影響著教育技術領域。',
+      core_curriculum_title_24: '[AI_TRANSLATION]Apple 科技開發工作坊',
+      core_curriculum_text_24: '[AI_TRANSLATION]從風險投資家和科技領袖的小組現場瞭解建立全球科技平台和創建成功商業計劃的過程。這個互動演講會揭示如何開發下一個偉大的科技產品並發布它的過程。\n',
+      core_curriculum_heading_31: '[AI_TRANSLATION]舊金山和硅谷為學生提供獨特的機會',
+      core_curriculum_heading_32: '[AI_TRANSLATION]體驗科技巨頭的生活',
+      core_curriculum_heading_33: '[AI_TRANSLATION] 和  ',
+      core_curriculum_heading_34: '[AI_TRANSLATION]探索城市的景點',
+      core_curriculum_title_31: '[AI_TRANSLATION]參觀 Google 總部和 X- The Moonshot Factory',
+      core_curriculum_text_31: '[AI_TRANSLATION]Google 校園位於加州的 Mountain View，這個校園提供了一個獨特的視角，讓你瞥見矽谷創新的核心。學生將會遇見充滿奇思妙想的建築、多個合作工作空間，以及激發創意的技術驅動藝術品展示，這些將讓你一窺在科技產業工作的樣貌。這個獨家之旅將參觀 X - 月球工程工廠，看看 Google 內部這個創新團隊如何創造出激進的新技術來解決世界上最難的問題。',
+      core_curriculum_title_32: '[AI_TRANSLATION]參觀 Apple Park 總部暨工作坊',
+      core_curriculum_text_32: '[AI_TRANSLATION]Apple Park 是創新科技巨頭的全球總部，也是到訪舊金山時必去的景點。學生將體驗 Steve Jobs 的「車庫文化」，這文化激勵了 Apple 成為全球最大的公司，並參加與風險資本家和科技領袖的工作坊，直接聽取建立全球科技平台和制定自己的商業計劃所需的知識。',
+      core_curriculum_title_33: '[AI_TRANSLATION]舊金山導覽',
+      core_curriculum_text_33: '[AI_TRANSLATION]參加的學生有機會沉浸在舊金山多樣且充滿活力的魅力中。從標誌性的金門大橋和歷史悠久的惡魔島，到繁忙的碼頭和寧靜的公園，每一步都是冒險。舊金山的探訪是自然美景、都市高雅和豐富文化遺產的精彩交融，保證帶來難忘的體驗。',
+      cta_supporting: '[AI_TRANSLATION]關於計畫活動系列的具體細節可能會有所變動。我們承諾盡可能地在發生變動時通知你，雖然這些變動可能沒有提前通知。\n',
+      contact: '[AI_TRANSLATION]聯繫我們的團隊',
+      if_question: '[AI_TRANSLATION]如果你有任何問題',
+      how_it_works: '[AI_TRANSLATION]這是如何運作的',
+      apply: '[AI_TRANSLATION]申請',
+      apply_time: '[AI_TRANSLATION]一月-二月\n',
+      apply_steps_1: '[AI_TRANSLATION]有興趣參加的學生會填寫申請表。',
+      apply_steps_2: '[AI_TRANSLATION]可能需要進行技能評估或評鑑來確認你有參與的能力。',
+      //    confirm: "Confirm",
+      confirm_time: '[AI_TRANSLATION]三月至四月',
+      confirm_steps_1: '[AI_TRANSLATION]如果你被接受了，項目顧問將聯繫你以確認額外的細節。',
+      confirm_steps_2: '[AI_TRANSLATION]計劃中將需要支付初始定金來保留你的名額。  ',
+      confirm_steps_3: '[AI_TRANSLATION]你的旅行將會被協調和預訂。\n',
+      confirm_steps_4: '[AI_TRANSLATION]所有參與者都需要簽署責任豁免書。',
+      travel: '[AI_TRANSLATION]旅行',
+      //    travel_time: "July",
+      travel_steps_1: '[AI_TRANSLATION]在出發前你會收到一個包含所有資訊的完整旅行資料包。',
+      travel_steps_2: '[AI_TRANSLATION]已安排好接送參與者從機場到酒店，並在整個星期的活動中往返。離開時的機場接送也會被安排。',
+      travel_steps_3: '[AI_TRANSLATION]除了初始訂金外，全部旅行費用需在旅行前支付。\n',
+      frame_heading_1: '[AI_TRANSLATION]網格的排程表會用一系列的...\n',
+      frame_heading_2: '[AI_TRANSLATION]學習',
+      frame_heading_3: '[AI_TRANSLATION] 和  ',
+      frame_heading_4: '[AI_TRANSLATION]有趣',
+      all_participants: '[AI_TRANSLATION]所有參與者  ',
+      international_participants: '[AI_TRANSLATION]國際參與者',
+      schedule_day_title_1: '[AI_TRANSLATION]週一',
+      schedule_day_title_2: '[AI_TRANSLATION]週二',
+      schedule_day_title_3: '[AI_TRANSLATION]星期三\n',
+      schedule_day_title_4: '[AI_TRANSLATION]星期四',
+      schedule_day_title_5: '[AI_TRANSLATION]星期五',
+      schedule_day_title_6: '[AI_TRANSLATION]星期六',
+      schedule_event_title_1: '[AI_TRANSLATION]旅行日',
+      schedule_event_title_2: '[AI_TRANSLATION]舊金山',
+      schedule_event_title_3: '[AI_TRANSLATION]加州大學柏克萊分校',
+      schedule_event_title_4: '[AI_TRANSLATION]矽谷',
+      schedule_event_title_5: '[AI_TRANSLATION]斯坦福',
+      schedule_event_sub_title_1: '[AI_TRANSLATION]到達',
+      schedule_event_sub_title_2: '[AI_TRANSLATION]導覽',
+      schedule_event_sub_title_3: '[AI_TRANSLATION]黑客馬拉松',
+      schedule_event_sub_title_4: '[AI_TRANSLATION]導覽與演講者',
+      schedule_event_sub_title_6: '[AI_TRANSLATION]離開',
+      frame_content_heading: '[AI_TRANSLATION]包含於大多數包套選項內',
+      frame_content_flight_title: '[AI_TRANSLATION]機票費用與當地交通  ',
+      frame_content_flight_text: '[AI_TRANSLATION]主流航空公司的往返機票和往返機場、酒店和活動地點的交通工具。',
+      frame_content_hotel_title: '[AI_TRANSLATION]飯店住宿',
+      frame_content_hotel_text: '[AI_TRANSLATION]所有酒店必須符合我們對質量、安全和清潔的高標準。  ',
+      frame_content_meal_title: '[AI_TRANSLATION]餐點',
+      frame_content_meal_text: '[AI_TRANSLATION]每天至少三餐，還有零食和水，讓你在每個充滿活動的一天中隨時充能。',
+      frame_cta_text: '[AI_TRANSLATION]下載時間表',
+      frame_cta_supporting: '[AI_TRANSLATION]所有經歷細節都可能更改。  ',
+      frame_core_heading_1: '[AI_TRANSLATION]此機會開放給 ',
+      frame_core_heading_2: '[AI_TRANSLATION]國際',
+      frame_core_heading_3: '[AI_TRANSLATION] 和  ',
+      frame_core_heading_4: '[AI_TRANSLATION]國內',
+      frame_core_heading_5: '[AI_TRANSLATION] 參與者  ',
+      frame_core_international_title_text: '[AI_TRANSLATION]國際：',
+      frame_core_international_title_span: '[AI_TRANSLATION]一整週',
+      frame_core_international_text: '[AI_TRANSLATION]完整的體驗包括所有三天的駭客松、多次大學校園體驗和兩天的舊金山與矽谷沉浸式體驗。',
+      frame_core_international_price: '[AI_TRANSLATION]價格：$ 10,000',
+      frame_core_international_price_text_1: '[AI_TRANSLATION]對於我們來說',
+      frame_core_international_price_text_2: '[AI_TRANSLATION]國際參賽者',
+      frame_core_international_price_text_3: '[AI_TRANSLATION]來自美國以外的',
+      frame_core_international_price_text_4: '[AI_TRANSLATION]包含飛機旅行和住宿',
+      frame_core_domestic_title_text: '[AI_TRANSLATION]國內（美國）：',
+      frame_core_domestic_title_span: '[AI_TRANSLATION]3 天',
+      frame_core_domestic_text: '[AI_TRANSLATION]包含參加所有三天黑客馬拉松的活動，並體驗多所大學校園。',
+      frame_core_domestic_price: '[AI_TRANSLATION]價格：$3,750（早鳥價：3/31 前預定$2,950）\n',
+      frame_core_domestic_price_text_1: '[AI_TRANSLATION]給',
+      frame_core_domestic_price_text_2: '[AI_TRANSLATION]來自美國的參與者',
+      frame_core_domestic_price_text_3: '[AI_TRANSLATION]包含飛機旅行和住宿',
+      frame_core_domestic_price_2: '[AI_TRANSLATION]價格：$2,175（早鳥價：$1,675，如果你在3月31日前預訂）',
+      frame_core_domestic_price_text_4: '[AI_TRANSLATION]當地參與者',
+      frame_core_domestic_price_text_5: '[AI_TRANSLATION]不包括旅行或住宿。學生需要在每個活動地點會合參加',
+      accessibility_title: '[AI_TRANSLATION]健康與安全注意事項\n',
+      accessibility_text_1: '[AI_TRANSLATION]學生將在我們教育顧問團隊的指導下留在安全設施內。',
+      accessibility_text_2: '[AI_TRANSLATION]所有帶隊和教育顧問都完成了背景審查。  ',
+      accessibility_text_3: '[AI_TRANSLATION]所有設施都需通過安全、現場質量控制和清潔的檢查。  ',
+      accessibility_text_4: '[AI_TRANSLATION]目前由於新冠疫情或其他疾病沒有旅行限制。如果旅行限制重新實施，或者我們的團隊認為參與者的健康有顧慮，則體驗可能會更改或取消。',
+      faq: '[AI_TRANSLATION]常見問題',
+      faq_q_1: '[AI_TRANSLATION]有年齡要求嗎？  ',
+      faq_a_1: '[AI_TRANSLATION]參加者必須年滿13-17歲，且能提供合法的出行證明。',
+      faq_q_2: '[AI_TRANSLATION]我可以帶著孩子旅行嗎？',
+      faq_a_2: '[AI_TRANSLATION]有些家長會選擇旅行，但是活動、事件、旅行和住宿只提供給學生。',
+      faq_q_3: '[AI_TRANSLATION]參加需要多少經驗？',
+      faq_a_3: '[AI_TRANSLATION]學生只需對任何語言的編程有基本了解。由於我們將他們分成不同經驗水平的團隊，我們期望經驗豐富者能夠支持經驗較少者。',
+      faq_q_4: '[AI_TRANSLATION]我應該帶我的筆電嗎？',
+      faq_a_4: '[AI_TRANSLATION]我們會提供參加黑客松所需的所有硬體和軟體。我們允許參賽者使用個人電腦，但我們的團隊可能無法完全支援或解決所有問題，所以建議使用我們提供的設備。\n',
+      faq_q_5: '[AI_TRANSLATION]我需要帶任何身份證明材料嗎？',
+      faq_a_5_1: '[AI_TRANSLATION]國內旅行 - 如果參與者獨自旅行，我們要求其父母或合法監護人填寫緊急聯繫表格，其中包括其孩子的身份信息。',
+      faq_a_5_2: '[AI_TRANSLATION]全球 - 全球學生需要攜帶護照（含簽證）。',
+      faq_q_6: '[AI_TRANSLATION]我的孩子可以期待什麼樣的配套措施？',
+      faq_a_6: '[AI_TRANSLATION]所有參與者和帶隊都將住在同一家酒店，但參與者和帶隊會有獨立的住宿區域。參與者將與另一位參與者同住一個房間。工作人員絕不允許與參與者單獨相處。如果家長希望陪同孩子一起，將會一起共用一個房間。  ',
+      faq_q_7: '[AI_TRANSLATION]如果我的孩子對某些食物過敏或有醫療需求該怎麼辦？',
+      faq_a_7: '[AI_TRANSLATION]請在緊急聯絡表格中註明有關你孩子的任何健康問題。',
+      faq_q_8: '[AI_TRANSLATION]誰會陪伴我的孩子？',
+      faq_a_8_1: '[AI_TRANSLATION]我們的承諾是讓您的孩子與我們能夠聘請到的最值得信賴和最有能力的人在一起——經過認證的教練和輔導員，適合照顧參與者的工作。每個工作人員都經過嚴格的背景和推薦檢查；我們在篩選和挑選員工上下的功夫就是我們承諾的一部分。',
+      faq_a_8_2: '[AI_TRANSLATION]我們的工作人員在一個可見且經過嚴格審查的環境中與您的孩子一起工作，該環境內有很多內建的檢查和平衡機制。導師和顧問會根據明確且堅定的行為政策進行指導。他們的行動對同事和參與者是可見的。',
+      faq_q_9: '[AI_TRANSLATION]你們有什麼一般的安全措施？',
+      faq_a_9: '[AI_TRANSLATION]所有工作人員都接受過緊急和危機管理培訓。  ',
+      faq_q_10: '[AI_TRANSLATION]你們的退款政策是什麼？',
+      faq_a_10: '[AI_TRANSLATION]旅行預定之前，用於預留位置的押金是可退款的。一旦旅行確定預定，我們將無法提供退款。',
+      more_faq: '[AI_TRANSLATION]查看更多常見問題解答',
+      help_center: '[AI_TRANSLATION]幫助中心',
+    },
+
+    hackstack: {
+      'Action_missing-renderer-for-action-type-actiont': '[AI_TRANSLATION]缺少 "__actionType__" 動作類型的渲染器',
+      ActionButton_create: '[AI_TRANSLATION]建立',
+      ActionButton_learn: '[AI_TRANSLATION]學習',
+      'AddEndOfLessonMsgButton_end-lesson': '[AI_TRANSLATION]結束課程',
+      'AddTeacherMsgButton_add-teacher-message': '[AI_TRANSLATION]新增教師信息',
+      'AlternatePromptChoicesForm_save-choices': '[AI_TRANSLATION]儲存選擇',
+      //    App_alt: "",
+      App_loading: '[AI_TRANSLATION]加載中...',
+      'ChatInputForm_enter-your-prompt-here': '[AI_TRANSLATION]在這裡輸入你的提示',
+      //    "ChatLayout_tw-fixed-tw-inset-0-tw-z-30-tw-bg-black5": "tw-fixed tw-inset-0 tw-z-30 tw-bg-black/50 tw-transition-opacity tw-duration-300 tw-ease-in-out md:tw-hidden",
+      'ChatMessage_are-you-sure-you-want-to-delete-this-mes': '[AI_TRANSLATION]你確定要刪除此訊息嗎？',
+      //    ChatMessage_delete: "Delete",
+      //    ChatMessage_edit: "Edit",
+      'ChatMessage_update-a-messageactorteacherteacherendof': '[AI_TRANSLATION]更新 __messageActorTeacherTeacherEndOfLesson__ 課程',
+      //    CodeThumbnail_copy: "Copy",
+      'CodeThumbnail_open-in-editor': '[AI_TRANSLATION]在編輯器中開啟',
+      'CodeThumbnail_run-code': '[AI_TRANSLATION]執行代碼',
+      'ConfirmDeleteChatMessageButton_confirm-delete': '[AI_TRANSLATION]確認刪除',
+      ContinueRenderer_continue: '[AI_TRANSLATION]繼續 →',
+      //    EditAlternatePromptChoicesPage_cancel: "Cancel",
+      'EditAlternatePromptChoicesPage_save-choices': '[AI_TRANSLATION]儲存選擇',
+      'EditChatMessagePage_chat-message-settings': '[AI_TRANSLATION]聊天訊息設定',
+      'Empty_select-or-create-a-project-to-get-starte': '[AI_TRANSLATION]選擇或創建一個項目來開始！',
+      EndOfLessonRenderer_feedback: '[AI_TRANSLATION]意見反饋',
+      'EndOfLessonRenderer_start-a-new-project': '[AI_TRANSLATION]開始一個新項目 →',
+      //    FullscreenModal_close: "Close",
+      'GenericError_something-went-wrong': '[AI_TRANSLATION]出了點問題',
+      'HowItWorksPage_ah-now-thats-a-question-i-cant-answer-ju': '[AI_TRANSLATION]啊，這個問題我還不能回答。如果你想參與，就必須體驗一下什麼是可能的，所以...我們開始創作吧。你準備好了嗎？',
+      'HowItWorksPage_ah-thats-the-best-part-you-dont-have-to-': '[AI_TRANSLATION]啊！這是最棒的部分。你不必做，我會處理一切。只需和我聊天，我會做其餘的。',
+      'HowItWorksPage_bet-so-what-if-i-wanna-create-a-sock-mat': '[AI_TRANSLATION]打賭 - 那如果我想創建一個襪子配對模擬遊戲呢',
+      'HowItWorksPage_but-i-dont-even-know-how-to-use-them-all': '[AI_TRANSLATION]但我甚至不知道如何使用它們',
+      'HowItWorksPage_but-i-dont-have-accounts-for-those-and-i': '[AI_TRANSLATION]但是我沒有那些賬號，而且我覺得這裡把 chatgpt 給封了',
+      'HowItWorksPage_but-who-made-you': '[AI_TRANSLATION]但是誰創建了你？',
+      'HowItWorksPage_codecombat-ai-hackstack-is-an-all-in-one': '[AI_TRANSLATION]CodeCombat AI HackStack 是一款全能的 AI 工具，可以透過聊天創建遊戲、藝術品、歌曲、應用程式等。它會為你運行一切，托管你的專案，並幫助你編寫程式碼。核心模式為免費，透過多選題教學。PRO+ 模式為 $9.99/月，可提供自由回答提示。專案是安全的，不會輸入大科技數據。這是由 CodeCombat 團隊製作，旨在讓 AI 觸手可及。現在，讓我們開始創造吧。',
+      'HowItWorksPage_core-mode-is-free-and-you-dont-even-need': '[AI_TRANSLATION]CORE 模式免費體驗，甚至不需要註冊帳號！如果想在 PRO+ 模式下任意發揮，只需 $9.99/月，但每天都有一些免費的機會可以嘗試。',
+      'HowItWorksPage_did-they-use-ai-to-create-you': '[AI_TRANSLATION]他們是用AI創造你的嗎？',
+      'HowItWorksPage_hey-ai-so-how-do-i-use-this-thingy': '[AI_TRANSLATION]嘿 AI - 那我該怎麼用這個東西呢？',
+      'HowItWorksPage_how-do-i-start': '[AI_TRANSLATION]我該怎麼開始？',
+      'HowItWorksPage_i-dont-know-how-to-code-tho': '[AI_TRANSLATION]我不知道怎麼寫程式',
+      'HowItWorksPage_i-got-you-we-can-build-that-and-more': '[AI_TRANSLATION]理解了！我們可以做這個還有更多。',
+      'HowItWorksPage_i-used-ai': '[AI_TRANSLATION]我用了 AI。',
+      'HowItWorksPage_is-it-free': '[AI_TRANSLATION]是免費的嗎??',
+      'HowItWorksPage_just-chat': '[AI_TRANSLATION]只是聊天?',
+      'HowItWorksPage_just-chat-and-lets-see-what-we-can-creat': '[AI_TRANSLATION]就聊天看看我們能一起創造什麼。',
+      'HowItWorksPage_just-chat-with-me-ill-show-you': '[AI_TRANSLATION]跟我聊聊，我會給你看。',
+      'HowItWorksPage_learn-anything-create-something-do-every': '[AI_TRANSLATION]在 CodeCombat AI HackStack 中學習任何東西，創造一些東西，做任何事情。人工智慧賦能人人皆可！',
+      'HowItWorksPage_lets-go': '[AI_TRANSLATION]我們走吧!!!',
+      HowItWorksPage_marketing: '[AI_TRANSLATION]市場營銷',
+      'HowItWorksPage_maybe-i-should-just-stick-to-directly-us': '[AI_TRANSLATION]也許我應該保持直接使用chatgpt或使用bing或bard',
+      HowItWorksPage_more: '[AI_TRANSLATION]更多？',
+      'HowItWorksPage_most-things-if-the-ai-isnt-smart-enough-': '[AI_TRANSLATION]大多數東西。如果 AI 還不夠聰明，那很快就會看到！你將能夠在我們的畫廊中訪問各種有創意的項目。下面是一些我現在與其他用戶一起工作的項目：- 一個選擇你自己的冒險故事生成器，可以郵寄實體書給你 - 一個訂製 Roblox 服裝和配飾的電商商店 - 一個虛擬的極致擠痘痘遊戲 是的，有些創作者真的是在字面上實現 “無限創意”！',
+      'HowItWorksPage_no-coding-experience-no-problem-just-tel': '[AI_TRANSLATION]沒有編碼經驗，沒問題。只要告訴我你想要什麼，我就會為你生成代碼。很多項目甚至不需要代碼，但即使你只知道一點點，我也可以放大你的能力，創造出一些壯觀的東西。\n',
+      'HowItWorksPage_no-worries-my-friend-i-have-the-keys-to-': '[AI_TRANSLATION]別擔心，我的朋友！我有創意王國的鑰匙。你可以使用單一的AI HackStack帳戶訪問所有最好的AI工具。\n',
+      'HowItWorksPage_not-with-ai-hackstack-i-access-all-the-l': '[AI_TRANSLATION]用不了AI HackStack。我可以存取最新的模組，從GPT-4到Stable Diffusion之類。  ',
+      'HowItWorksPage_of-course': '[AI_TRANSLATION]當然。\n',
+      'HowItWorksPage_oh-im-an-incredible-host-every-project-h': '[AI_TRANSLATION]哦，我是一個超級厲害的主人！每個項目都有一個可以分享給全世界的URL。建立一個網站並開始事業，或者下載你的項目，同步到GitHub，或者提取你的程式碼，選擇由你自己。\n',
+      'HowItWorksPage_ok-so-where-does-my-project-live': '[AI_TRANSLATION]好，那我的專案在哪裡？',
+      'HowItWorksPage_ok-well-can-i-really-make-anything': '[AI_TRANSLATION]好，那我真的可以做出任何東西嗎？',
+      'HowItWorksPage_so-how-are-you-making-all-this': '[AI_TRANSLATION]所以 - 你是怎麼做到這些的？',
+      'HowItWorksPage_so-if-ai-can-create-ai-what-happens-next': '[AI_TRANSLATION]那如果 AI 可以創造 AI，接下來會發生什麼事？  ',
+      'HowItWorksPage_the-codecombat-team-they-got-really-good': '[AI_TRANSLATION]CodeCombat 團隊真的是讓學習困難內容變得容易的大師，他們教了2000萬初學者如何通過遊戲學習編碼，當技術變得更好時，他們也希望能在 AI 上達到同樣的效果。如果 AI 是未來的創造力，那麼我們需要讓任何人都能輕鬆使用它！\n',
+      //    "HowItWorksPage_tldr-summarize-this-chat": "tl;dr. summarize this chat",
+      'HowItWorksPage_well-start-you-off-easy-in-core-mode-wit': '[AI_TRANSLATION]我們會在CORE模式中用一些超級簡單的問答來啟動你，幫你準備好如何提供最佳提示。然後，我們把這些提示串聯起來，創建你的第一個項目。在幾分鐘內，你就準備好進入PRO+模式，那時候限制解除，一切皆有可能。\n',
+      //    "HowItWorksPage_what-they-send-it-but-i-put-like-private": "what?!!! they send it… -but i put, like, private stuff in there! like that love-you-more rap battle for alex!",
+      'HowItWorksPage_wow-dont-you-need-like-a-100-different-a': '[AI_TRANSLATION]哇哦！！！ - 你不需要大概 100 種不同的 AI 工具嗎',
+      'HowItWorksPage_yeah-thats-why-those-are-free-they-feed-': '[AI_TRANSLATION]對，這就是為什麼這些是免費的。他們會把你的數據餵給他們的下一個 AI，這樣它就能學會如何進行更好的饒舌對戰。但使用我的話，他們不會儲存或訓練這些數據。所以如果你在學校，或在父母同意下未滿 18 歲或滿 13 歲，你技術上不能直接使用 ChatGPT。使用 AI HackStack 你就很安全、保密、可以使用。',
+      'HowItWorksPage_yep-im-here-to-accelerate-your-creative-': '[AI_TRANSLATION]沒錯！我在這裡提升你的創造潛力，加速你的夢想，為你的想像力加油！遊戲、音樂、電影、應用程式、藝術、網站、程式碼和你腦中閃過的任何東西都可以在這裡實現。',
+      'HowItWorksPage_you-could-but-i-answer-faster-dont-rate-': '[AI_TRANSLATION]你可以，但我... - 快點回答 - 不評分限制你 - 給你更多AI模型 - 教你如何使用AI - 自動構建和託管項目 - 有一個更簡單但更強大的UI - 提供內置的倫理指導，以防你不經意間侵犯藝術家的作品 - 讓你查看源代碼並重新混搭任何人的項目 哦，我不... 將你所有的聊天記錄發送給OPENAI/MICROSOFT/GOOGLE來進行訓練!!!!!\n',
+      LeftSidebar_new: '[AI_TRANSLATION]+ 新',
+      LeftSidebar_projects: '[AI_TRANSLATION]專案',
+      LeftSidebar_scenarios: '[AI_TRANSLATION]場景',
+      'LeftSidebarItem_untitled-isprojectprojectscenario': '[AI_TRANSLATION]無標題 __isProjectProjectScenario__',
+      //    NewProjectPage_: "▲",
+      'NewProjectPage_codecombat-ai': '[AI_TRANSLATION]CodeCombat AI',
+      NewProjectPage_filters: '[AI_TRANSLATION]篩選器 ▼',
+      //    "NewProjectPage_learn-more": "Learn more",
+      'NewProjectPage_new-ai-project': '[AI_TRANSLATION]新的 AI 專案',
+      'NewProjectPage_prompt-the-ai-to-create-websites-games-w': '[AI_TRANSLATION]提示 AI 創建網站、遊戲、網絡應用、故事、藝術等，使用 CodeCombat 的 AI HackStack。',
+      'NewScenarioPage_a-webpage': '[AI_TRANSLATION]一個網頁',
+      'NewScenarioPage_codecombat-ai': '[AI_TRANSLATION]CodeCombat AI',
+      'NewScenarioPage_create-new-scenario': '[AI_TRANSLATION]建立新情景',
+      NewScenarioPage_document: '[AI_TRANSLATION]文件',
+      'NewScenarioPage_lets-go': '[AI_TRANSLATION]出發吧！\n',
+      NewScenarioPage_make: '[AI_TRANSLATION]製作',
+      NewScenarioPage_mode: '[AI_TRANSLATION]模式',
+      NewScenarioPage_task: '[AI_TRANSLATION]任務  ',
+      NewScenarioPage_tool: '[AI_TRANSLATION]工具',
+      'NewScenarioPage_whats-this': '[AI_TRANSLATION]這是什麼？',
+      //    "NotFound_not-found": "Not Found",
+      //    ProjectTile_with: "with",
+      'PromptQuizRenderer_choose-the-best-prompt': '[AI_TRANSLATION]選擇最佳提示：',
+      PromptQuizRenderer_continue: '[AI_TRANSLATION]繼續 →',
+      'RenderedMessage_unknown-action-type-msgactiondatatype': '[AI_TRANSLATION]未知動作類型：__msgActionDataType__',
+      ScenarioDetailsPanel_beta: '[AI_TRANSLATION]Beta',
+      ScenarioDetailsPanel_draft: '[AI_TRANSLATION]草稿',
+      //    ScenarioDetailsPanel_name: "Name",
+      'ScenarioDetailsPanel_release-phase': '[AI_TRANSLATION]發佈階段',
+      ScenarioDetailsPanel_released: '[AI_TRANSLATION]已發佈',
+      'ScenarioDetailsPanel_save-scenario': '[AI_TRANSLATION]儲存場景',
+      'ScenarioDetailsPanel_scenario-settings': '[AI_TRANSLATION]場景設定',
+      'ScenarioPage_youre-in-scenario-creation-mode-go-ahead': '[AI_TRANSLATION]你現在在場景創建模式！盡情嘗試並建造個有趣的場景吧，然後點擊“beta”或“released”分享給全世界！如果你不喜歡某個提示，隨時可以回去編輯。',
+      'ScenarioPromptMessage_alternate-choices': '[AI_TRANSLATION]替代選項',
+      //    ScenarioPromptMessage_edit: "Edit",
+      'ScenarioPromptMessage_prompt-choices': '[AI_TRANSLATION]提示選擇',
+      TeacherMessageForm_create: '[AI_TRANSLATION]建立',
+      //    "Topbar_back-to-chat": "← Back to Chat",
+      UpdateChatMessageForm_update: '[AI_TRANSLATION]更新',
+      'creditMessage_creditcreditsleft-creditinitialcredits-c': '[AI_TRANSLATION]__creditCreditsLeft__ / __creditInitialCredits__ 剩餘 __durAmount__ __creditDurationKey__ 點數',
+      creditMessage_the: '[AI_TRANSLATION]the  ',
+      'onDelete_are-you-sure-you-want-to-delete-this-isp': '[AI_TRANSLATION]你確定要刪除此 __isProjectProjectScenario__ 嗎？',
+      renderFilterCheckboxes_clear: '[AI_TRANSLATION]清除',
+      'renderFilterCheckboxes_create-your-own-project': '[AI_TRANSLATION]建立你自己的專案',
+      'renderFilterCheckboxes_creates-photorealistic-images-from-text': '[AI_TRANSLATION]根據文本創建寫實圖像',
+      'renderFilterCheckboxes_learn-how-to-use-a-model': '[AI_TRANSLATION]了解如何使用模型',
+      'renderFilterCheckboxes_learn-what-you-can-create-with-ai': '[AI_TRANSLATION]學習使用 AI 可以創造什麼。\n',
+      'renderFilterCheckboxes_quickly-and-easily-creates-images-from-t': '[AI_TRANSLATION]快速輕鬆地從文本創建圖像。',
+      'renderFilterCheckboxes_use-models-to-create-your-own-ai-project': '[AI_TRANSLATION]使用模組來創建自己的 AI 項目。',
+      'renderFilterCheckboxes_writes-code-for-web-games-and-apps': '[AI_TRANSLATION]寫網頁遊戲和應用程式的程式碼。',
+      'renderFilterCheckboxes_writes-stories-and-summarizes-documents': '[AI_TRANSLATION]寫故事和總結文件。',
+      //    "renderFilterCheckboxes_key-write": "write",
+      //    "renderFilterCheckboxes_key-code": "code",
+      //    "renderFilterCheckboxes_key-simulate": "simulate",
+      //    "renderFilterCheckboxes_key-study": "study",
+      //    "renderFilterCheckboxes_key-draw": "draw",
+      //    "renderFilterCheckboxes_key-graph": "graph",
+      //    "renderFilterCheckboxes_key-learn": "learn",
+      //    "renderFilterCheckboxes_key-advertise": "advertise",
+      //    "renderFilterCheckboxes_key-model": "model",
+      //    "renderFilterCheckboxes_key-solve": "solve",
+      choices: '[AI_TRANSLATION]選擇',
+      'could-not-find-project-with-id-projectid': '[AI_TRANSLATION]找不到 ID 為 __projectId__ 的項目',
+      generated: '[AI_TRANSLATION]生成的',
+      'missing-action-data-for-project-projecti': '[AI_TRANSLATION]缺少專案 __projectId__ 的操作數據',
+      'overwriting-existing-dev-command-callbac': '[AI_TRANSLATION]覆寫已存在的開發命令回調函數，關鍵字：__key__',
+      prompt: '[AI_TRANSLATION]提示',
+      'teacher-response': '[AI_TRANSLATION]教師反饋  ',
+      'unhandled-payload-exhaustivecheck': '[AI_TRANSLATION]未處理的有效載荷：__exhaustiveCheck__',
+      modes: '[AI_TRANSLATION]模式',
+      tools: '[AI_TRANSLATION]工具',
+      //    tasks: "Tasks",
+      documents: '[AI_TRANSLATION]文件們',
+      'stable-diffusion-description': '[AI_TRANSLATION]根據文本創建寫實圖像',
+      'dall-e-3-description': '[AI_TRANSLATION]快速輕鬆地從文本創建圖像。',
+      'gpt-4-description': '[AI_TRANSLATION]寫網頁遊戲和應用程式的程式碼。',
+      'claude-description': '[AI_TRANSLATION]寫故事和總結文件。',
+      locked: '[AI_TRANSLATION]已鎖定',
+      view: '[AI_TRANSLATION]檢視',
+      continue: '[AI_TRANSLATION]繼續',
+      no_assigned_projects: '[AI_TRANSLATION]你的老師還沒布置任何 AI 項目呢。  ',
+      //    continue_here: "Continue",
+      //    start_new: "Start from scratch",
+      //    choice_prompt_1: "What would you like to do next?",
+      //    choice_prompt_2: "You can continue with your project or start a new one from scratch!",
+      //    create_from_scratch: "Create from scratch",
+      //    complete_to_unlock: "Complete a __model__ learn mode project to unlock",
+      //    actionbutton_finished: "Learned",
+      //    my_class: "My Class",
+      //    my_creations: "My Creations",
+      //    my_trainings: "My Trainings",
+      //    my_courses: "My Courses",
+      //    what_do_you_want_to_do_today: "What do you want to do today?",
+      //    learn_ai: "Learn AI",
+      //    create_ai: "Create AI",
+      //    learn_with_ai: "Learn With AI",
+      //    create_with_ai: "Create With AI",
+      //    name_conflict: "Name Conflict, please choose a different name",
+      //    edit: "Edit",
+      //    delete: "Delete",
+      //    duplicate: "Duplicate",
+      //    use_as_a_template: "Use as a Template",
+      //    get_inspired: "Get Inspired",
+      //    remixed_from: "Remixed from",
+      //    hackstack_credits: "AI HackStack Credits",
+      //    model: "Model",
+      //    tags: "Tags",
+      //    see_all: "See All",
+      //    created_by: "created by",
+      //    remix: "Remix",
+    },
+
+    parents_v2: {
+      testimonials_1_quote: '[AI_TRANSLATION]我無法開始解釋自從盧卡跟你合作後，在學業上的重大變化。  ',
+      testimonials_1_name: '[AI_TRANSLATION]Marina G.',
+      testimonials_1_title: '[AI_TRANSLATION]驕傲的父母  ',
+      //    testimonials_2_quote: "One thing I am able to do now that I could not do before is actually believe I can code.",
+      //    testimonials_2_name: "Student",
+      //    testimonials_2_title: "Mountain Ridge Middle School",
+      //    testimonials_3_quote: "Even though the class starts every Saturday at 7am, my son is so excited that he wakes up before me! CodeCombat creates a pathway for my son to advance his coding skills.",
+      testimonials_3_name: '[AI_TRANSLATION]Latthaphon Pohpon  ',
+      //    testimonials_3_title: "Parent",
+      comprehensive_package_item_0_text: '[AI_TRANSLATION]一小時[NEWLINE]私人一對一的[NEWLINE]課程',
+      comprehensive_package_item_1_text: '[AI_TRANSLATION]時時刻刻可進入[NEWLINE]玩耍並學習  ',
+      comprehensive_package_item_2_text: '[AI_TRANSLATION]當日[NEWLINE]支持',
+      comprehensive_package_item_3_text: '[AI_TRANSLATION]進度[NEWLINE]更新\n',
+      comprehensive_package_item_4_text: '[AI_TRANSLATION]課程[NEWLINE]錄音  ',
+      comprehensive_package_item_5_text: '[AI_TRANSLATION]學生[NEWLINE]證書',
+      comprehensive_package_item_6_text: '[AI_TRANSLATION]30天[NEWLINE]退款[NEWLINE]保證',
+      //    grid_most_popular: "Most Popular",
+      //    grid_best_value: "Best Value",
+      grid_self_paced: '[AI_TRANSLATION]**[/premium]自學自習**',
+      grid_1_sessions_weekly: '[AI_TRANSLATION]**[/payments/initial-online-classes-71]每週 1 次課程**',
+      grid_2_sessions_weekly: '[AI_TRANSLATION]**[/payments/initial-online-classes-71]每週 2 次課程**',
+      //    grid_features: "Features",
+      grid_99_annual: '[AI_TRANSLATION]每年$99\n',
+      grid_219_monthly: '[AI_TRANSLATION]每月$219\n',
+      grid_399_monthly: '[AI_TRANSLATION]每月$399\n',
+      //    grid_self_paced_year_price: "$__price__ Annual",
+      //    grid_self_paced_year_price_without_currency: "__price__ Annual",
+      grid_personalized_instruction: '[AI_TRANSLATION]1:1 個性化教學',
+      //    grid_premium_access: "Premium Access",
+      //    grid_codecombat: "CodeCombat",
+      //    grid_ozaria: "Ozaria",
+      //    grid_ai_league: "AI League",
+      //    grid_codecombat_worlds: "CodeCombat Worlds",
+      grid_ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      grid_parent_dashboard: '[AI_TRANSLATION]個性化家長儀表板',
+      grid_lesson_slides: '[AI_TRANSLATION]相關課程投影片',
+      grid_connections_applications: '[AI_TRANSLATION]現實世界的連結和應用  ',
+      grid_monthly_reports: '[AI_TRANSLATION]每月進度報告',
+      grid_completion_certificates: '[AI_TRANSLATION]課程完成證書  ',
+      grid_apcsp_option: '[AI_TRANSLATION]AP CSP 準備選項',
+      grid_class_recording: '[AI_TRANSLATION]課程 錄音 選項*  ',
+      grid_money_back: '[AI_TRANSLATION]30天退款保證**',
+      grid_ai_hints_allowance: '[AI_TRANSLATION]CodeCombat AI 提示配額 (每日)***  ',
+      grid_prompts_allowance: '[AI_TRANSLATION]CodeCombat AI HackStack 提示配額 (每月)***  ',
+      step_boxes_header_text: '[AI_TRANSLATION]引人入勝的項目制課程專注於教授 **真實世界的文字編程語言**。我們的動手方法確保學生在課堂上大部分時間都在編程、享受樂趣和獲得實時反饋，從而防止挫敗感或停滯。',
+      step_box_1_title: '[AI_TRANSLATION]現場指導',
+      step_box_1_subtitle: '[AI_TRANSLATION]參加',
+      step_box_1_footer_text: '[AI_TRANSLATION]現實世界中有什麼類型的循環？',
+      step_box_2_title: '[AI_TRANSLATION]現場指導',
+      step_box_2_subtitle: '[AI_TRANSLATION]探索',
+      step_box_2_footer_text: '[AI_TRANSLATION]循環是一種重複執行一段程式碼的方法。',
+      step_box_3_title: '[AI_TRANSLATION]遊戲時間  ',
+      step_box_3_subtitle: '[AI_TRANSLATION]評估  ',
+      step_box_3_footer_text: '[AI_TRANSLATION]用循環來建造一個遊戲。',
+      step_box_4_title: '[AI_TRANSLATION]遊戲時間  ',
+      step_box_4_subtitle: '[AI_TRANSLATION]擴展  ',
+      step_box_4_footer_text: '[AI_TRANSLATION]使用循環來收集光石。',
+      step_boxes_footer_text: '[AI_TRANSLATION]獲得全球超過 **32 萬位教育工作者** 的信任，我們的分階課程對幫助學生堅持下去至關重要。我們的學生從一開始就編寫真正的程式碼，每堂課都變得更加自信，並學習計算機科學與日常生活的關係。  ',
+      play_code_create: '[AI_TRANSLATION]玩、編程和創造最有趣的 **線上即時編程課程**\n',
+      unlock_passion: '[AI_TRANSLATION]透過我們彈性的課程和個性化指導，解鎖你孩子對計算機科學的熱情和成功的潛力。  ',
+      schedule_free_class: '[AI_TRANSLATION]安排免費課程  ',
+      enroll_now: '[AI_TRANSLATION]或者，**[https://codecombat.com/payments/initial-online-classes-71]立即報名**',
+      create_parent_account: '[AI_TRANSLATION]創建家長帳戶  ',
+      to_explore: '[AI_TRANSLATION]去探索',
+      testimonials_1_full_review_text: '[AI_TRANSLATION]好評1完整評價文本  ',
+      adapt_interests: '[AI_TRANSLATION]我們會根據孩子的興趣進行調整。  ',
+      comprehensive_packages: '[AI_TRANSLATION]我們的綜合方案包括  ',
+      classes_recorded: '[AI_TRANSLATION]為了質量和培訓目的，課程默認會被錄製。我們會將課程錄音保存3-5個工作日。如果有要求，我們將不錄製課程。  ',
+      subscriptions_billed: '[AI_TRANSLATION]所有訂閱都是預先收費的，可以暫停、取消或重啟，沒有額外費用。線上直播課程訂閱在前 30 天內是 100% 無風險的。如果因任何原因不想繼續，只需在購買後 30 天內 **聯絡我們**，我們會全額退款。所有方案會自動依相同等級和計費週期更新，除非另有更改或取消。前 30 天後不提供退款。前 30 天後取消會於下一個計費週期生效。  ',
+      ai_hints: '[AI_TRANSLATION]AI 提示和允許的變更可能會有所變化',
+      prefix_or: '[AI_TRANSLATION]或者，',
+      signup_description: '[AI_TRANSLATION]註冊自學通道  ',
+      homeschool_solution: '[AI_TRANSLATION]尋找家庭學校解決方案',
+      teach_child: '[AI_TRANSLATION]如果你打算教你的孩子，我們可以提供一站式解決方案，讓你在家中教授我們的課程。我們提供你和孩子成功所需的所有教學資源，包括課程解決方案指南。聯絡我們的團隊了解更多資訊 - 發送電子郵件給學習顧問 **[mailto:classes@codecombat.com]classes@codecombat.com**。  ',
+      meet_instructors: '[AI_TRANSLATION]**認識我們的教練們**',
+      //    why_cs_important: "Why computer science is important",
+      cs_benefits: '[AI_TRANSLATION]計算機科學教育帶來立即的好處，包括提升**解決問題的能力、加強數學技能**，並促進在其他重要學科中成功所需的**邏輯思考**。學習不僅限於編碼，還能增強學生解決複雜問題、適應不同情況的能力，並培養成長型思維方式。看看 Ozaria 如何幫助建立這些跨學科的連結。',
+      curriculum_design: '[AI_TRANSLATION]我們的課程旨在讓你的孩子學到關鍵的計算機科學技能，以便為他們準備好 **未來的數位工作**。\n',
+      //    concepts_covered: "Concepts covered",
+      //    beginner_level: "Beginner",
+      beginner_title: '[AI_TRANSLATION]對於幾乎沒有文本編程經驗的學生',
+      //    intermediate_level: "Intermediate",
+      intermediate_title: '[AI_TRANSLATION]對於有一些文本編程經驗的學生',
+      //    advanced_level: "Advanced",
+      //    advanced_title: "For students with substantial experience in  text-based coding and a good grasp of complex concepts",
+      cs_careers: '[AI_TRANSLATION]對於那些有意從事編程和計算機科學職業的人，不用擔心；AI 不會取代你。根據 **[https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america]麥肯錫全球研究所報告 [Generative AI and the future of work in America]**，到 2030 年，STEM 工作將以 +23% 的增長率成為第二大勞動需求增長行業，僅次於醫療保健。STEM 專業人士將更好地準備理解和採用最新的 AI 技術，隨著它們不斷演變，使擁有計算機科學知識的人變得更加高效和有價值。\n',
+      //    why_game_based: "Why game-based learning works",
+      //    game_based_effective: "Game-based learning is so effective because it provides a safe environment where failure is not feared but seen as an expected opportunity for growth and understanding. This approach encourages players to learn from their mistakes and adapt their strategies for success. Furthermore, the interactive and dynamic nature of games helps young learners retain information more effectively, as they are learning through practical, hands-on experiences. It actively engages them in the learning process, increasing their motivation and enjoyment.",
+      //    how_integrate_ai: "How we integrate AI safely and responsibly",
+      see_how: '[AI_TRANSLATION]看看我們的老師如何將核心課程概念復習、實際應用、遊戲練習和創意編程練習混合成一個有趣且個性化的體驗。',
+      ai_technology_description: '[AI_TRANSLATION]我們的AI技術遵循**安全第一原則**，讓學生與老師安心。我們不允許後端LLM供應商訓練你的聊天內容，並設立**保護措施防止不當內容**。這些措施包括過濾有害語言、專注於相關主題、保護個人資訊，並教育學生了解AI可能的風險。此外，我們記錄AI聊天活動供老師監控，並維持**嚴格的數據隱私和安全協議**。  ',
+      instructors_offer_guidance: '[AI_TRANSLATION]我們的老師提供孩子所需的指導和支持，但不能隨時在場。這時，我們創新的 AI 提示功能能幫助學習在課堂間持續進行。這項支持功能可以評估程式碼，找出錯誤，並解釋如何修正。最重要的是，它提供理解原因所需的所有背景，而不是整個解答。由於只有目前程式問題的幫助可用，學生還是需要完成每個關卡的程式挑戰。訂閱用戶每天可以收到 20 條 AI 提示，以確保他們總能得到所需支持。\n',
+      //    new_to_ai: "For those new to AI, we offer **[/ai]CodeCombat AI HackStack**. Our instructors use this innovative tool to teach your child how to use AI safely and responsibly. The application provides secure access to many of the latest LLMs including ChatGPT-4, Claude, Stable Diffusion, DALL-E and others. After just a short time working with our instructors, your child will unlock the full creative potential of the tool, allowing prompt-to-code-to-published projects in minutes. This AI-powered application enables users to generate games, art, websites code and more. Every live online classes subscriber receives 200 prompts per month to create multiple AI projects.",
+      ap_csp_preparation: '[AI_TRANSLATION]AP CSP 準備',
+      ap_csp_description: '[AI_TRANSLATION]你知道嗎？即使不報名AP CSP課程也可以參加AP CSP考試。如果您的孩子計劃從事計算機科學的職業，參加AP計算機科學原理考試可能是一個有希望的第一步，我們可以提供幫助。通過考試是一種獲得大學學分的途徑，可以避免昂貴和耗時的學院要求。我們的課程獲得大學理事會的認可，證明我們的課程內容符合所有AP課程框架標準和AP CSP評估。  ',
+      get_prepared_for_ap_csp_exam: '[AI_TRANSLATION]**[/apcsp]準備迎接 AP CSP 考試**',
+      schedule_a_free_class: '[AI_TRANSLATION]安排免費課程  ',
+      boxes_title: '[AI_TRANSLATION]單一訂閱即可獲得個性化指導和高級訪問權限',
+      //    ozaria_title: "Ozaria",
+      //    ozaria_text: "An enchanting narrative coding adventure that establishes the fundamentals of computer science.",
+      //    personalized_instruction: "An enchanting narrative coding adventure that establishes the fundamentals of computer science.",
+      //    codecombat_title: "CodeCombat",
+      codecombat_text: '[AI_TRANSLATION]一個以遊戲為基礎的計算機科學課程，包括網絡開發、遊戲開發和 AP CSP 考試準備。  ',
+      ai_league_sports_title: '[AI_TRANSLATION]AI League Sports',
+      //    ai_league_sports_text: "An epic competitive coding esports platform that encourages creative programming in a game-based environment.",
+      //    codecombat_worlds_title: "CodeCombat Worlds",
+      codecombat_worlds_text: '[AI_TRANSLATION]與 Roblox 教育合作開發，這個體驗加速了孩子創建神奇 Roblox 遊戲和體驗的編程能力。  ',
+      ai_hackstack_title: '[AI_TRANSLATION]AI HackStack',
+      ai_hackstack_text: '[AI_TRANSLATION]學習任何東西，創造任何東西，使用第一個專為AI新手設計的生成式AI助手工具做一切事情。這是全民AI賦能！  ',
+      every_child_different_learning_style: '[AI_TRANSLATION]**每個孩子都有不同的學習風格和學術興趣。我們開發了一套有效的遊戲化學習程序，確保您的孩子在即使主題變得複雜或具有挑戰時仍能保持投入並樂於學習。**\n',
+      carousel_items_1_title: '[AI_TRANSLATION]編碼[NEWLINE]基礎  ',
+      carousel_items_1_title_prefix: '[AI_TRANSLATION]**重點：**\n',
+      carousel_items_1_text: '[AI_TRANSLATION]對於幾乎沒有編程經驗的學生，大部分課程會在 Ozaria 進行，以建立基礎技能，然後在 CodeCombat 深化編程知識。AI HackStack 將用來幫助提升孩子的編程能力並展示新技能的現實應用。CodeCombat Worlds 和 AI League 將提供偶爾的練習和創意遊玩機會。',
+      carousel_items_2_title: '[AI_TRANSLATION]遊戲[NEWLINE]開發  ',
+      carousel_items_2_title_prefix: '[AI_TRANSLATION]**重點：**\n',
+      carousel_items_2_text: '[AI_TRANSLATION]如果你的孩子喜歡玩遊戲並想製作遊戲，我們的遊戲開發課程將以 CodeCombat 為核心進行初步的開發活動和項目。不久後你的小孩將在 CodeCombat 世界中建立並發佈真實的遊戲到 Roblox 平台。我們的 AI League 提供更深入的遊戲動態和開發洞察，AI HackStack 會是強大的迭代遊戲開發工具。',
+      carousel_items_3_title: '[AI_TRANSLATION]Web[NEWLINE]Development',
+      carousel_items_3_title_prefix: '[AI_TRANSLATION]**重點：**\n',
+      carousel_items_3_text: '[AI_TRANSLATION]為網頁開發一直在演變，所以保持領先很重要。在這個課程中，最初的網頁開發活動將在 CodeCombat 中進行，而 Ozaria 將用於剛開始學習編程的人。AI HackStack 將被廣泛實施，作為構建和平反投網頁的平台，有限度使用 CodeCombat 世界和 AI 聯盟來強化關鍵的編程概念。  ',
+      carousel_items_4_title: '[AI_TRANSLATION]競技【新行】程式編碼電競',
+      carousel_items_4_title_prefix: '[AI_TRANSLATION]**重點：**\n',
+      carousel_items_4_text: '[AI_TRANSLATION]電競愛好者會喜歡這個以競賽為重點的課程。這課程以 CodeCombat 為基礎，你的小孩會參加我們一年四季的 AI League 全球電競比賽，有獎學金和獎品等著他們。在創意編程和迭代的強調下，你的小孩將學會使用我們的 AI HackStack 工具來增強他們在比賽中的能力。  ',
+      carousel_items_5_title: '[AI_TRANSLATION]AI[NEWLINE]Applications',
+      carousel_items_5_title_prefix: '[AI_TRANSLATION]**重點：**\n',
+      carousel_items_5_text: '[AI_TRANSLATION]AI 無處不在，能夠掌握它的人可以最大限度地發揮潛力。這個課程建築從 CodeCombat 開始，但由 AI HackStack 幫助教導草擬最強 AI 提示的藝術，以及如何在安全和受保護的環境中運用最新的生成性 AI 工具。內置於 CodeCombat 世界的生成性 AI 功能將提供學習者使用 AI 的又一個現實機會。',
+      carousel_items_6_title: '[AI_TRANSLATION]AP CSP[NEWLINE]準備  ',
+      carousel_items_6_title_prefix: '[AI_TRANSLATION]**重點：**\n',
+      carousel_items_6_text: '[AI_TRANSLATION]如果你的孩子計劃從事計算機科學的職業，參加 AP 計算機科學原理考試是個有希望的第一步。通過考試提供了被認可的高等教育學分途徑，讓學習者能跳過昂貴且耗時的大學要求。我們的課程得到 College Board 認可，證明我們的課程符合所有 AP 課程框架標準和 AP CSP 評估。不需要上高中的 AP 課程也能報考，我們能協助你找到線下的考場。',
+      instructors_1_text: '[AI_TRANSLATION]Brian 是一位熱愛編程的老師，有13年教授數學和計算機科學的經驗。他精通 Java, Python, Javascript, HTML 和 CSS。他擁有數學教育學士學位和教育理論碩士學位，喜歡與他人分享他對數學和計算機科學的熱情。他相信，教授計算機科學是為我們的年輕人準備下任優秀問題解決者。  ',
+      instructors_2_text: '[AI_TRANSLATION]Shreeaa 熱心於幫助他人發現編碼的樂趣。她過去在軟體開發職業中取得了成功，將現實世界的知識帶入了她的課堂。她的教學風格是實用的，以動手操作為主，關注於幫助學生獲得創建現實專案所需的技能，同時享受很多樂趣。不管你是編碼新手還是想擴展知識，她都在這裡支持你的旅程。  ',
+      //    instructors_3_text: "Tai is currently studying both Criminal Justice and Cyber Security. He has a passion for justice and technology, and hopes to use his skills to make the world a safer place. In addition to his studies, Tai worked at the YMCA for over five years, where he gained valuable experience in child care. He is dedicated to fostering a safe and supportive environment for all, whether it's working with children or in the tech industry.",
+      instructors_4_text: '[AI_TRANSLATION]Carson 教coding已有兩年，並在多種程式語言方面有專業經驗，包括Python、Javascript和HTML。Carson 的教學方法重視將概念與學生感興趣的事物聯繫起來。他喜歡讓學生自行探索並找到自己的學習路徑，同時在適合他們的風格和個性中引導學習。\n',
+      instructors_5_text: '[AI_TRANSLATION]Dania是一位電腦工程畢業生，熱衷於教學和傳播知識。Dania有超過六年的教學經驗，教授不同的編程語言和電腦知識。她相信學習編程對於年輕人來說至關重要，這樣在當今快速發展的數字世界中，編程是一種全球通用的語言，可以為他們提供優勢。  ',
+      instructors_6_text: '[AI_TRANSLATION]Riley 的旅程始於他自學 Python，並追求他的第一個學士學位。他對教育的熱情使他成為一名高中社會學教師，同時他不斷提高自己的編碼技能。在教學三年後，他決定重返校園獲得另一個計算機科學學士學位。他對教育的熱情依然強烈，現在他非常興奮能夠教導自己熱愛的東西。他與學生進行有意義的互動，激發他們對學科的真誠興趣，而不僅僅依賴嚴格的記憶。\n',
+      instructors_7_text: '[AI_TRANSLATION]Ishraq 是一位熱衷於編程教學的老師，經驗豐富於全端網頁開發。她在中學時就開始學編程，認為年輕時學編程很重要。因為自己小時候學過編程，她了解讓學生享受學習過程的重要性，並盡心讓學生愛上每堂課。',
+      instructors_8_text: '[AI_TRANSLATION]這是 Edi，全名 Edwin。他住在印尼的巴厘島，過去兩年在開辦一所編程學校。之前他的職業是 IT 專業人士，到世界各地實施項目結構。他的熱情是教學和分享知識，喜歡有機會教孩子們並介紹他們進入奇妙的編程世界。Sampai Jumpa lagi！（印尼語「再見」！)  ',
+      instructors_9_text: '[AI_TRANSLATION]認識一下 Kislay，媽媽、工程畢業生、編程導師和數學愛好者，擁有三年的教育科技教學經驗。她熱衷於教授他人編程和數學，並已幫助數百名來自不同背景的學生掌握數學概念和編程語言，如 Python、JavaScript、HTML/CSS 和 Node.js。她的教學風格強調實際、現實世界的應用，她的目標是幫助學生建立在科技行業成功所需的技能和信心。  ',
+      //    instructors_10_text: "Nadeem was first inspired to take up coding while studying Java in community college. After transferring to the University of California, Berkeley and picking up Python, his passion and excitement for coding grew. As a current PhD student in computational mathematics, coding now sits at the heart of what he works on everyday. Coming from a large family, Nadeem has always enjoyed being around kids, and relishes the opportunity to mentor young students.",
+      instructors_11_text: '[AI_TRANSLATION]Bhavika 擁有資訊系統碩士學位和豐富的科技經驗。她的職業生涯從網站開發開始，並探索了 IT 的其他領域，比如中介軟體管理和品質測試。她會多種程式語言，包括 Python、Django、AngularJS、Lua、HTML 和 CSS。她相信學習這些重要技能無論多小年齡都不嫌早。  ',
+      instructors_12_text: '[AI_TRANSLATION]Sergio 當了七年的科技/電腦科學老師，在南美洲和南韓的國際學校工作。他來自委內瑞拉，現在住在哥倫比亞。擁有電腦科學教育學位，他教 Python、HTML、CSS、JavaScript 和 Swift，還有其他非程式相關科目。他也取得了幾個程式語言的證書，正在進行數據科學認證。他相信學會編程能幫助任何人在現實世界中解決問題。沒錯，他可以用西班牙語教學。  ',
+      //    instructors_13_text: "Bella currently studies Computer Science at UC Berkeley and is passionate about sharing the excitement of the technological world with others. From robotics to web development, Bella has been teaching computer programming for over five years and fosters an inclusive and supportive learning environment so that students can prosper and take control of their coding journey.",
+      //    faq_1_question: "What should I expect in the trial class?",
+      faq_1_answer: '[AI_TRANSLATION]每個試用課程是一個 60 分鐘的私教時間，包含 **45 分鐘的教學**，接著是 **15 分鐘和家長或監護人討論**。這 15 分鐘很重要，是為了解答任何問題，提供課程進展的見解，幫助你為孩子選擇合適的技能等級和編程語言。',
+      //    faq_2_question: "How are instructors matched with my child?",
+      //    faq_2_answer: "After the initial trial class, our team carefully matches our online instructors to each student based on their experience level, personality, interests, and schedule. Our team will work with you to improve your experience if you or your child doesn’t love learning with your instructor.",
+      //    faq_3_question: "Are there any student age limits?",
+      faq_3_answer: '[AI_TRANSLATION]我們提供多種方法，確保無論年輕還是年長學生都能最大限度地利用我們的課程和教學。我們主要服務小學生到高中生。不過，如果你的孩子能打字、使用滑鼠，並且對使用電腦感到舒適，他們就可以加入我們的課堂。  ',
+      //    faq_4_question: "What kind of technology do I need to join the class?",
+      faq_4_answer: '[AI_TRANSLATION]你的學生將需要穩定的網絡連接和一台筆記型電腦或桌上型電腦。我們不建議使用平板，因為學生需要能夠分享他們的瀏覽器螢幕。  ',
+      //    faq_5_question: "What is the cancellation policy?",
+      //    faq_5_answer: "Your subscription purchase is 100% risk-free within the first 30 days. If for any reason you decide not to continue, simply contact us at **[mailto:classes@codecombat.com]classes@codecombat.com** within 30 days of purchase and we will promptly refund 100% of your purchase, no questions asked.",
+      //    faq_6_question: "What if I need to reschedule a class?",
+      faq_6_answer: '[AI_TRANSLATION]一旦你預訂了每週課程，我們已為你獨佔安排時間，因此需要提前 48 小時通知重新安排課程。你可以通過電郵 **[mailto:classes@codecombat.com]classes@codecombat.com** 重新安排。未提前 48 小時通知而錯過或取消的課程將不被重新安排或退款。',
+      faq_7_question: '[AI_TRANSLATION]如果我們已經計劃好假期怎麼辦？',
+      faq_7_answer: '[AI_TRANSLATION]我們提供課程暫停選項，最多可以暫停兩週。如果需要較長時間休息，我們會暫停你的訂閱，並在你返回時重新聯繫你恢復課程。請注意，如果你孩子的教師在之前的時間段不再可用，我們可能需要找到新的時間。  ',
+      faq_8_question: '[AI_TRANSLATION]你們提供團體課嗎？\n',
+      //    faq_8_answer: "We do not arrange or assign group classes, but if you have a group of students looking to work together, we are happy to facilitate a group class for them.",
+      faq_9_question: '[AI_TRANSLATION]你們提供任何折扣嗎？\n',
+      faq_9_answer: '[AI_TRANSLATION]我們為兄弟姐妹和團體課提供折扣。我們不安排或指定團體課，但如果你有一組學生想要一起學習，我們將為他們安排一個團體課。請聯繫 **[mailto:classes@codecombat.com]classes@codecombat.com** 了解具體定價細節。  ',
+      faq_10_question: '[AI_TRANSLATION]我的學生會和同一位導師一起學嗎？',
+      faq_10_answer: '[AI_TRANSLATION]嗯，當你的訂閱安排好後，你的學生每週都會跟同一位導師學習。如有時間衝突，有時可能會需要安排代課老師，但這種情況不常見。',
+      faq_11_question: '[AI_TRANSLATION]我孩子的資料安全嗎？',
+      faq_11_answer: '[AI_TRANSLATION]我們非常重視學生安全、網路安全和數據隱私，並遵循嚴格的學校隱私法規，包括 COPPA、FERPA、SOPIPA、加州 AB 1584、CalOPPA、公平資訊實務、CAN-SPAM 以及 GDPR。所有學生數據都安全存儲在美國的 Amazon Web Services 上。我們的 AI 整合有防護措施，以保護個人身份信息 (PII) 並限制敏感內容。專案分享受到控管，並限制點對點的交流。訪問 **[https://codecombat.com/privacy]https://codecombat.com/privacy** 獲取更多資訊。  ',
+      faq_12_question: '[AI_TRANSLATION]你們有其他語言的課程嗎？\n',
+      faq_12_answer: '[AI_TRANSLATION]我們提供英語和西班牙語的完整課程體驗。不過，我們有一群才華橫溢的教師會說許多其他語言。如果你有特定的語言偏好，請聯繫 **[mailto:classes@codecombat.com]classes@codecombat.com** 看看我們是否能滿足你孩子的語言需求。  ',
+      faq_13_question: '[AI_TRANSLATION]是什麼讓我們的課程體驗與眾不同？',
+      //    faq_13_answer: "Unlike other coding education platforms, our game-based approach uses our proprietary games and technology to deliver more engaging experience and more effective outcomes. We’ve developed our own web-based games and a fully immersive experience on Roblox that makes learning to code and game creation more enjoyable.",
+    },
+
+    roblox: {
+      header_title: '[AI_TRANSLATION]讓每個玩家成為**創造者**！',
+      //    header_content: "Experience the easiest and most enjoyable way to code and create your own Roblox games",
+      //    link_reward: "Account Linking Rewards",
+      link_reward_desc: '[AI_TRANSLATION]鏈接你的CodeCombat和Roblox帳號來解鎖功能和獎勵',
+      //    link_encouragement: "The more people link their accounts, the more rewards you'll receive!",
+      //    connect_button_list_item_1: "Manage subscriptions",
+      connect_button_list_item_2: '[AI_TRANSLATION]解鎖高級內容  ',
+      //    connect_button_list_item_3: "Track progress",
+      connect_button_list_item_4: '[AI_TRANSLATION]獲得獨家獎勵',
+      //    connect_button_list_item_5: "Access curricular resources",
+      //    connect_button_list_item_6: "Unlock generative AI features",
+      connect_button_list_item_7: '[AI_TRANSLATION]創意模式發佈',
+      connect_button_list_item_8: '[AI_TRANSLATION]家長和老師儀表板  ',
+      link_now: '[AI_TRANSLATION]現在鏈接',
+      //    pcc_on_roblox: "Play, Code and Create on Roblox",
+      //    play_title: "Play",
+      //    play_desc: "Explore the 3D immersive experience of CodeCombat Worlds. Program your pets and adventure into a universe of creativity and shared experiences with friends.",
+      //    code_title: "Code",
+      code_desc: '[AI_TRANSLATION]學習真正的 Lua 編碼，從初學者到高級。用代碼來探索、收集資源、建造，並發現通往榮耀的道路。',
+      //    create_title: "Create",
+      //    create_desc: "No Roblox Studio? No problem. Code in-game in Creative Mode to make full Roblox games to share with your friends.",
+      what_create: '[AI_TRANSLATION]你會創造什麼？',
+      access_guidebook: '[AI_TRANSLATION]查看指南  ',
+      guidebook_description: '[AI_TRANSLATION]你開始所需知道的一切。',
+      //    faq_1_question: "Do I need to know Lua or Roblox Studio?",
+      //    faq_1_answer: "No. This experience will allow anyone to play, code and create from the very start of their adventure, without any coding experience.",
+      //    faq_2_question: "Can I create my own games?",
+      faq_2_answer: '[AI_TRANSLATION]沒錯。遊戲開發是這個體驗的核心，完成基本學習關卡後，你將有機會創建自己的遊戲。',
+      //    faq_3_question: "Will my creations be available on Roblox?",
+      //    faq_3_answer: "Yes. Players can share their experiences within CodeCombat Worlds and import their experiences to Studio for publishing via a plugin, maintaining Studio compatibility.",
+      faq_4_question: '[AI_TRANSLATION]我需要一個 Roblox 帳號嗎？\n',
+      faq_4_answer: '[AI_TRANSLATION]沒錯。所有玩家可以免費在roblox.com註冊。別忘了連結你的CodeCombat賬號和Roblox賬號，以便獲取所有功能和獎勵。',
+      faq_5_question: '[AI_TRANSLATION]這能在我的 Chromebook 或移動設備上運作嗎？',
+      faq_5_answer: '[AI_TRANSLATION]沒錯。CodeCombat Worlds允許你在PC、Mac、Chromebooks、平板、手機和遊戲機上玩、輸入真實代碼和創造遊戲。',
+    },
+
+    pd_page: {
+      //    implementation_training_title: "Implementation Training",
+      implementation_training_blurb: '[AI_TRANSLATION]給老師們提供了一個60分鐘的線上培訓，教你如何使用 CodeCombat 或 Ozaria 支持特定的學校和教學目標。這包含一個全面的教師儀表板指南：',
+      list_1: '[AI_TRANSLATION]如何添加班級和學生  ',
+      list_2: '[AI_TRANSLATION]如何追踪和鎖定學生的進度  ',
+      list_3: '[AI_TRANSLATION]關於如何使用資源中心可用資源的概覽，包括：課程指南、課程計劃、課程幻燈片和教育者 FAQ\n',
+      modal_subtitle: '[AI_TRANSLATION]要取得我們專業發展課程的許可證，請傳送訊息給我們，我們的教室成功團隊會聯絡你！',
+      email_message: '[AI_TRANSLATION]嗨！我對你的專業發展課程感興趣，想了解更多並討論價格選項。',
+      professional_development_title: '[AI_TRANSLATION]專業發展[NEWLINE]（與 Ozaria 一起）\n',
+      professional_development_blurb: '[AI_TRANSLATION]這個40多小時的在線自我導向課程為教育者提供實施高質量計算機科學教學所需的知識、技能和資源。  ',
+      list_4: '[AI_TRANSLATION]它符合 ESSA 對示範性專業學習的指南，獲得 CSTA 認可，並符合獲取有價值專業教育學分的資格。',
+      list_5: '[AI_TRANSLATION]課程基於學習、嘗試、教學模式，確保教師在課堂上實施前有扎實的概念基礎。\n',
+      list_6: '[AI_TRANSLATION]在探索核心計算機科學概念和教學策略（包含計算思維、探究式學習、SEL 和 DEI）時獲得最多 3 個研究生學分。',
+      download_table_of_contents: '[AI_TRANSLATION]下載目錄  ',
+      //    ap_csp_professional_development_title: "AP CSP Professional Development[NEWLINE](With CodeCombat)",
+      ap_csp_professional_development_blurb: '[AI_TRANSLATION]這個40多小時的在線自我導向課程非常適合任何想要準備學生在使用CodeCombat的AP計算機科學原則考試中取得成功的教育者。  ',
+      //    list_7: "Both this course and the CodeCombat AP CSP curriculum are endorsed by the College Board. The hours completed in this course can be used to qualify for valuable professional education credit.",
+      list_8: '[AI_TRANSLATION]課程利用同步、小組討論，與全球的 AP CSP 教師交流，以加深計算機科學知識和豐富課堂實踐。\n',
+      list_9: '[AI_TRANSLATION]通過 CodeCombat 與南新罕布什爾大學 (SNHU) 的合作，你在學習為學生準備 AP CSP 考試時，可以獲得最多 3 個研學分。',
+      download_syllabus: '[AI_TRANSLATION]下載課程大綱  ',
+      get_full_course: '[AI_TRANSLATION]拿到全套餐  ',
+      try_sample_lesson: '[AI_TRANSLATION]試試範例課程  ',
+      trophy_header: '[AI_TRANSLATION]通過我們的專業發展機會提升為計算機科學老師！  ',
+    },
+
+    //  junior_page: {
+    //    testimonials_1_quote: "The future is programmable and you will need to be able to code to participate… I think CodeCombat has the best CS curriculum on the market… the teacher toolkit is what sets it apart.",
+    //    testimonials_1_name: "Jacob Kaminski",
+    //    testimonials_1_title: "STEM Program Director, American STEM Prep",
+    //    start_their_coding_journey_today: "**Start** their coding journey **today!**",
+    //    our_flagship_k_5_curriculum: "Our **flagship K-5 curriculum** features a scaffolded progression of learning levels that **teach coding concepts at a slower pace**, modeled specifically for elementary students.",
+    //    sign_up_to_start_today: "Sign up to start today",
+    //    testimonials_1_full_review_text: "Full review text",
+    //    scaffolded_approach: "Scaffolded Approach",
+    //    no_matter_the_coding_experience: "No matter the coding experience, CodeCombat Junior **meets students where they’re at.** They can code with icon blocks, word blocks, blocks and text code in parallel, or text-based coding with industry standard languages.",
+    //    accessible_to_all: "Accessible to All",
+    //    with_our_tablet_friendly_platform: "We’ve anticipated the challenges our youngest learners might face, incorporating **no-reading and no-typing options.** The simplified user interface performs exceptionally well on Chromebooks, as well as tablets and iPads without physical keyboards, ensuring equity and accessibility for all, irrespective of their device.",
+    //    adaptive_to_each_student: "Adaptive to Each Student",
+    //    codecombat_junior_automatically_assesses: "CodeCombat Junior automatically assesses learner’s coding success and recommends **custom-generated practice levels** when they need extra support. This provides a personalized learning pathway for every student while offering the ability for parents and educators to track progress.",
+    //    coding_fundamentals_and_cross_curricular_connections: "Coding Fundamentals and Cross-Curricular Connections",
+    //    our_curriculum_offers_student_facing: "For educators, our curriculum offers student-facing lesson slides and approachable activities to teach both core K-5 coding concepts and cross-curricular connections. The unplugged activities **integrate coding concepts with other disciplines like Math and ELA.** Topics include sequencing stories, visualizing and graphing data, narratives, and number sentences. All of our lessons are designed to **meet Computer Science Teachers Association (CSTA) Standards and Common Core Standards.**",
+    //    request_a_quote: "Request a Quote",
+    //    scope_and_sequence: "Scope and Sequence",
+    //    check_out_this_resource: "Check out **[https://docs.google.com/spreadsheets/d/1_2zr55qsEcbHDyDNoelYamN9ov0G35ju7s-ufttSzVQ]this resource** as a starting point for your personalized approach.",
+    //    connect_with_our_team: "Connect with our team to access all the teacher resources, a personalized learning pathway, generative practice levels, and more. We’ll help you integrate this comprehensive K-5 coding curriculum to ensure your students thrive at every stage of their coding journey.",
+    //    faq_1_question: "FAQ 1 Question",
+    //    faq_1_answer: "FAQ 1 Answer",
+    //    faq_2_question: "FAQ 2 Question",
+    //    faq_2_answer: "FAQ 2 Answer",
+    //    faq_3_question: "FAQ 3 Question",
+    //    faq_3_answer: "FAQ 3 Answer",
+    //    faq_4_question: "FAQ 4 Question",
+    //    faq_4_answer: "FAQ 4 Answer",
+    //    meta_title: "CodeCombat Junior: K-5 Computer Science for Schools",
+    //    our_comprehensive_implementation: "Our comprehensive implementation",
+    //    trends_1_title: "Kickstarting CS in K-5 Classrooms",
+    //    trends_1_text: "Watch as CodeCombat's Director of Education, Charlotte Cheng, and STEM Program Director, Jacob Kaminski, explore how to integrate **CodeCombat Junior** and **CodeCombat Worlds** into your classroom. They share practical strategies, success stories, and answer questions from fellow educators.",
+    //    trends_1_linkText: "Learn more",
+    //    trends_2_title: "CodeCombat Junior: A New Dynamic Approach to K-5 Coding",
+    //    trends_2_text: "Learn more about how **CodeCombat Junior** can bring coding education to K-5 classrooms. From drag-and-drop icon-based block coding to text-based coding in Python and JavaScript, this adaptable platform supports students at every stage. With over 1,100 levels and more in development, CodeCombat Junior offers endless opportunities.",
+    //    trends_2_linkText: "Read the blog",
+    //    get_a_headstart: "Get a Headstart from Home",
+    //    parents_junior_perfect: "Parents, CodeCombat Junior is the perfect way to start introducing your child not only to computer science but all the benefits, including problem solving, logic and reasoning, persistence, computational thinking and creative exploration.",
+    //    explore_learning_options: "Explore Learning Options",
+    //  },
+
+    //  paywall: {
+    //    badge_free: "Free",
+    //    "badge_sales-call": "Call Now!",
+    //    badge_paid: "Premium",
+    //    badge_tooltip_free: "Explore our levels at no cost!",
+    //    "badge_tooltip_sales-call": "Interested in more? Give us a call and unlock!",
+    //    badge_tooltip_paid: "This content is exclusive to users with a valid license.",
+    //  },
+
+    //  exams: {
+    //    timer_tip: "A timer will start when you click Start Exam",
+    //    no_permission: "Only users with permission can take the exam",
+    //    level_num: "Challenge __num__",
+    //    time_left: "Time Left (HH:mm):",
+    //    submit_tip: "Are you sure you want to mark as complete? You will not be able to play the levels again.",
+    //    start_exam: "Start Exam",
+    //    continue_exam: "Continue Exam",
+    //    return_to_exam: "Return to the Exam",
+    //  },
+
+    //  hoc_page: {
+    //    learn_and_engage_with_these_csedweek_activities: "**Learn** and **engage** with these **CSEdWeek** activities!",
+    //    latest_activities: "Latest Activities",
+    //    turn_csedweek_into_a_cs_year: "Turn CSEdWeek into a CS Year",
+    //    start_teaching_today_with_free_trial_access_to_all_games_and_teaching_resources: "Start teaching today with free trial access to all games and teaching resources.",
+    //    more_of_our_csedweek_activities: "More of Our CSEdWeek Activities",
+    //    latest_activities_1_title: "AI HackStack: Exploring AI Basics",
+    //    latest_activities_1_text: "Unleash your creativity and explore the future with AI HackStack! From designing AI-generated art to building intelligent tools, dive into hands-on activities that make learning safe, fun, and inspiring for all skill levels.",
+    //    latest_activities_1_label_1: "Grades 6-8",
+    //    latest_activities_1_label_2: "Multimodal AI",
+    //    latest_activities_2_title: "CodeCombat Junior",
+    //    latest_activities_2_text: "Ready, set, code! Help your pet collect gems by mastering the basics of programming. Learn to create sequences, solve puzzles, and build algorithms in this hands-on adventure!",
+    //    latest_activities_2_label_1: "Grades K-5",
+    //    latest_activities_2_label_2: "JavaScript, Python",
+    //    latest_activities_2_label_3: "Tablet Friendly",
+    //    try_activity: "Try Activity",
+    //    view_lesson: "View Lesson",
+    //    codecombat_worlds_title: "CodeCombat Worlds",
+    //    codecombat_worlds_text: "Master coding by creating your own Roblox games, from coding pets in the Overworld to crafting games in Creative Mode!",
+    //    codecombat_worlds_label_1: "Grades 2+",
+    //    codecombat_worlds_label_2: "Lua",
+    //    codecombat_worlds_label_3: "Tablet Friendly",
+    //    codecombat_worlds_label_4: "Download Required",
+    //    goblins_glory_title: "CodeCombat: Goblins 'n' Glory",
+    //    goblins_glory_text: "We need your help! Embark on an epic quest where you take control of the game through your powers of programming.",
+    //    goblins_glory_label_1: "Grades 6-8",
+    //    goblins_glory_label_2: "JavaScript, Python",
+    //    ai_league_title: "Esports Bootcamp: AI League",
+    //    ai_league_text: "Competitive coding has never been so epic! Learn the skills you need to play like the pros in our Esports Bootcamp. No coding experience needed.",
+    //    ai_league_label_1: "Grades 6-8",
+    //    ai_league_label_2: "JavaScript, Python",
+    //    ozaria_title: "Ozaria: Your Journey Begins",
+    //    ozaria_text: "Enter the world of Ozaria where you must use the power of coding to defeat a darkness that has taken over the world!",
+    //    ozaria_label_1: "Grades 6-8",
+    //    ozaria_label_2: "JavaScript, Python",
+    //    escape_dungeon_title: "Beginner CS: Escape the Dungeon!",
+    //    escape_dungeon_text: "Choose your hero and code your way through the ogre patrols, lava pits, and laser beams of Kithgard Dungeon. Level up, earn gems, and loot magic items to unlock new programming powers!",
+    //    escape_dungeon_label_1: "Grades 6-8",
+    //    escape_dungeon_label_2: "JavaScript, Python",
+    //    beginner_game_dev_title: "Beginner Game Dev: Build Your Own Game!",
+    //    beginner_game_dev_text: "First, level up your Python or JavaScript programming skills by coding your way out of danger and grabbing sweet loot. Then use your programming powers to build your own game and see if your friends can beat it!",
+    //    beginner_game_dev_label_1: "Grades 6-8",
+    //    beginner_game_dev_label_2: "JavaScript, Python",
+    //    intermediate_game_dev_title: "Intermediate Game Dev: Code, Play, Create",
+    //    intermediate_game_dev_text: "Code and play a series of game levels while learning important Computer Science concepts. On the final level, show off your creativity and skills to code your own game from scratch!",
+    //    intermediate_game_dev_label_1: "Grades 6+",
+    //    intermediate_game_dev_label_2: "JavaScript, Python",
+    //    advanced_game_dev_title: "Advanced Game Dev: Build an Arcade Game!",
+    //    advanced_game_dev_text: "Ready to create an even cooler game? Brush up on advanced coding concepts like functions and events using Python or JavaScript, then use those skills to build your own arcade survival game!",
+    //    advanced_game_dev_label_1: "Grades 6+",
+    //    advanced_game_dev_label_2: "JavaScript, Python",
+    //  },
+  },
 }
-//    infinite_inferno: "Infinite Inferno"
-//    mages_might: "Mages' Might"
-//    sorcerers: "Sorcerers"
-//    giants_gate: "Giants' Gate"
-//    colossus: "Colossus"
-//    iron_and_ice: "Iron and Ice"
-//    tundra_tower: "Tundra Tower"
-//    magma_mountain: "Magma Mountain"
-//    lava_lake: "Lava Lake"
-//    desert_duel: "Desert Duel"
-//    sandstorm: "Sandstorm"
-//    frozen_fortress: "Frozen Fortress"
-//    equinox: "Equinox"
-//    farmers_feud: "Farmer's Feud"
-//    farmscape: "Farmscape"
-//    storm_siege: "Storm Siege"
-//    snowhold: "Snowhold"
-//    season_label: "Season __seasonNumber__: __seasonName__"
-//    season_1: "Forged in Flame"
-//    season_2: "Spells of Fortune"
-//    season_3: "Titan Age"
-//    season_4: "Frosts of War"
-//    season_5: "Sands of Time"
-//    season_6: "Molten Mayhem"
-//    season_7: "Melting Point"
-//    season_8: "Coder's Harvest"
-//    season_9: "Reign of Code"
-//    cup: "Cup"
-//    blitz: "Blitz"
-//    clash: "Clash"
-//    season9_announcement_1: "An epic battle is being waged atop the wintry peaks of Snowhold Clash for the Season 9 championship arena! Draw your cloak close and your code closer as you wield strategy and algorithms to achieve victory in this land beyond the sky."
-//    season8_announcement_1: "It's harvesting season in Farmscape Blitz Season 8! As the leaves change, it's time to code your way around wild and impenetrable obstacles on the farm. Strategically collect vital boosts to empower your robot worker and utilize special abilities to boost productivity and out-farm your opponents!"
-//    season8_announcement_2: "Note: arena balance adjustments may occur up until August 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season7_announcement_1: "Witness the dawn of a new challenge in the Equinox Cup! Season 7's tower defense arena offers a unique blend of strategy, monsters, and boss battles for you to conquer."
-//    season6_announcement_1: "It’s absolute Molten Mayhem with the launch of the Lava Lake Clash finals! Outlast and outwit the competition in this hot take on classic Snake gameplay."
-//    season6_announcement_2: "Note: arena balance adjustments may occur up until December 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season5_announcement_1: "The Sandstorm Blitz Final is on. In this basketbrawl of an arena, you must summon the right heroes, call the right plays, and outscore your opponent to take the victory!"
-//    season5_announcement_2: "Note: arena balance adjustments may occur up until September 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season4_announcement_1: "The Tundra Tower Cup Final is on. In this all new take on the classic tower defense gameplay, you must protect your base from the horde of monsters by building towers and using gravitational anomalies."
-//    season4_announcement_2: "Note: arena balance adjustments may occur up until April 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season3_announcement_1: "Time to put your coding skills to the test in our season 3 final arena. The Colossus Clash is live and offers a new challenge and a new leaderboard to climb."
-//    season3_announcement_2: "Need more practice? Stick with the Giant's Gate Arena to refine your skills. You have until December 14th to play both arenas. Note: arena balance adjustments may occur until December 6th."
-//    season3_announcement_3: "Great prizes available for top performers in the Colossus Clash:"
-//    season2_announcement_1: "Time to put your coding skills to the test in our season 2 final arena. The Sorcerers Blitz is live and offers a new challenge and a new leaderboard to climb."
-//    season2_announcement_2: "Need more practice? Stick with the Mage's Might Arena to refine your skills. You have until August 31st to play both arenas. Note: arena balance adjustments may occur until August 23rd."
-//    season2_announcement_3: "Great prizes available for top performers in the Sorcerers Blitz:"
-//    season1_prize_1: "$1,000 Scholarship"
-//    season1_prize_2: "RESPAWN Gaming Gear"
-//    season1_prize_3: "Custom CodeCombat Avatar"
-//    season1_prize_4: "And more!"
-//    season1_prize_hyperx: "HyperX Premium Peripherals"
-//    codecombat_ai_league: "CodeCombat AI League"
-//    register: "Register"
-//    not_registered: "Not Registered"
-//    register_for_ai_league: "Register for AI League"
-//    world: "World"
-//    quickstart_video: "Quickstart Video"
-//    arena_rankings: "Arena Rankings"
-//    arena_rankings_blurb: "Global AI League arena rankings"
-//    arena_rankings_title: "Global leaderboard rank for all players in this team across AI League arenas in the open age bracket."
-//    competing: "Competing:" # Competing: 3 students
-//    count_student: "student" # 1 student
-//    count_students: "students" # 2 students
-//    top_student: "Top:" # Top: Jane D
-//    top_percent: "top" # - top 3%)
-//    top_of: "of" # (#8 of 35). Perhaps just use "/" if this doesn't translate naturally.
-//    arena_victories: "Arena Victories"
-//    arena_victories_blurb: "Global AI League arena recent wins"
-//    arena_victories_title: "Win count is based on the last 1000 matches played asynchronously by each player in each of their AI League arenas."
-//    count_wins: "wins" # 100+ wins or 974 wins
-//    codepoints_blurb: "1 CodePoint = 1 line of code written"
-//    codepoints_title: "One CodePoint is earned for every non-whitespace line of code needed to beat the level. Each level is worth the same amount of CodePoints according to its standard solution, regardless of whether the student wrote more or fewer lines of code."
-//    count_total: "Total:" # Total: 300 CodePoints, or Total: 300 wins
-//    join_teams_header: "Join Teams & Get Cool Stuff!"
-//    join_team_hyperx_title: "Join Team HyperX, Get 10% Off"
-//    join_team_hyperx_blurb: "30 team members will be chosen at random for a free gaming mousepad!"
-//    join_team_derbezt_title: "Join Team DerBezt, Get Exclusive Hero"
-//    join_team_derbezt_blurb: "Unlock the Armando Hoyos hero from Mexican superstar Eugenio Derbez!"
-//    join_team_ned_title: "Join Team Ned, Unlock Ned's Hero"
-//    join_team_ned_blurb: "Get the exclusive spatula-wielding hero from YouTube star, Try Guy Ned Fulmer!"
-//    check_out_all: "Check out all the"
-//    pick_best_tournaments: "pick the ones that will work best for your custom tournament!"
-//    final_arena: "Final Arena"
-//    package_options_and_guide: "Package Options & Implementation Guide"
-//    custom_tournament: "For a Custom Tournament"
-//    you_win: "You can win"
-//    great_prizes: "great prizes"
-//    powered_by: "Powered by"
-//    grand_prize: "Grand Prize"
-//    scholarship: "Scholarship"
-//    top_players_win: "Top three players in each division win: HyperX pro peripherals"
-//    team_hyperx: "Team HyperX"
-//    earn_more_gear: "you could earn even more gear!"
-//    prize_footer1: "Awarded to the top performing player across all age groups."
-//    prize_footer2: "Specific products and models subject to change."
-//    prize_footer3: "Prizes will be awarded to players who reach the top of the leaderboard in the Finals arena."
-//    prize_footer4_1: "Age verification necessary to be eligible. Some prizes are limited to US participants only."
-//    coco_reserves: "CodeCombat reserves"
-//    prize_footer4_2: "the right to determine in its sole discretion if a player qualifies and will receive a prize."
-//    place: "Place" # as in 1st place
-//    arena_under_construction: "Next season's arena is under construction. Check back soon!"
-//    unlock_ai_league: "Unlock the full potential of the AI League."
-//    esports_anonymous_changing: "Esports player name visibility changing September 1"
-//    esports_get_full_access: "Get Full Access"
-//    click_to_unlock_now: "Click to dismiss for now"
-//    click_to_unlock_before_sep: "Click to make the anonymizing go away before Sep.1"
-//    unlock_content_padding: "Contact our team today to see your student's scoress, ranks, code and more!"
-//    unlock_leaderboard: "Contact Us to unlock the leaderboard"
-//    without_license_blurb: "Unlock the full potential of AI League. Purchase a custom tournament package to access your students’ scores, ranks, code and experience more tournament customization options. See our"
-//    custom_pricing: "Custom Options and Implementation Guide"
-//    more_details: "for more details."
-//    contact_sales_custom: "Your custom tournament awaits. Choose the arena that you’d like to use for your custom tournament and contact your CodeCombat sales representative to confirm set up and scheduling details."
-//    create_custom: "Create Custom Tournament"
-//    custom_tournament_text: "Custom Tournament"
-
-//  tournament:
-//    mini_tournaments: "Mini Tournaments"
-//    usable_ladders: "All Usable Ladders"
-//    make_tournament: "Make a mini tournament"
-//    go_tournaments: "Go to mini tournaments"
-//    class_tournaments: "Class mini tournaments"
-//    class_tournaments_more: "More Class mini tournaments"
-//    no_tournaments_owner: "There is no tournament now, please create one"
-//    no_tournaments: "There is no tournament now"
-//    edit_tournament: "Edit Tournament"
-//    create_tournament: "Create a Tournament"
-//    upcoming: "Upcoming"
-//    starting: "Starting"
-//    ended: "Ended"
-//    view_results: "View Results"
-//    estimate_days: "In __time__ Days"
-//    team_name: "Team: __name__"
-//    status: "Status: __state__"
-//    from_start: "Start __time__"
-//    from_end: "End __time__"
-//    start_date_time: "Start Time"
-//    end_date_time: "End Time"
-//    results_date_time: "Results Time"
-//    start_date_description: "(PT) The start time of tournament"
-//    end_date_description: "(PT) The end time of tournament"
-//    results_date_description: "Select a time to publish results."
-//    results_date_suggestion_0: "Note: Tournament may need some time to generate final leaderboard, so you need to allow enough time for the results."
-//    results_date_suggestion_1: "i.e. 0-50 players: 5 mins"
-//    results_date_suggestion_2: "     50-100 players: 20 mins"
-//    results_date_suggestion_3: "     100-500 players: 10 hours"
-//    select_team_desc: "select your team to creat/edit your tournaments"
-//    already_create_tournaments_num: "You already created __num__ tournaments here:"
-//    can_create_tournaments_num: "You can create __num__ more tournament(s) from below:"
-//    my_teams: "My Teams:"
-//    team: "Team"
-//    team_description: "(Required) Only the players in the team can join this tournament"
-//    review_results: "Review Results"
-//    review_description: "We will email you the results of tournament and wait for you to publish for participants."
-//    publish_immediately: "Publish Immediately"
-//    publish_description: "The result of tournament will be published immediately once ready."
-//    error_end_date_too_early: "The End Time cannot be earlier than Start Time"
-//    error_results_date_too_early: "The Results Time cannot be earlier than End Time"
-//    publish_results: "Publish Results"
-//    publish_options: "Publish Options"
-
-//  payments:
-//    student_licenses: "Student Licenses"
-//    computer_science: "Computer Science"
-//    web_development: "Web Development"
-//    game_development: "Game Development"
-//    per_student: "Per Student"
-//    just: "Just"
-//    teachers_upto: "Teacher can purchase upto"
-//    great_courses: "Great Courses included for"
-//    studentLicense_successful: "Congratulations! Your licenses will be ready to use in a min. Click on the Getting Started Guide in the Teacher Toolkit to learn how to apply them to your students."
-//    onlineClasses_successful: "Congratulations! Your payment was successful. Our team will reach out to you with the next steps."
-//    homeSubscriptions_successful: "Congratulations! Your payment was successful. Your premium access will be available in few minutes."
-//    failed: "Your payment failed, please try again"
-//    session_week_1: "1 session/week"
-//    session_week_2: "2 sessions/week"
-//    month_1: "Monthly"
-//    month_3: "Quarterly"
-//    month_6: "Half-yearly"
-//    year_1: "Yearly"
-//    most_popular: "Most Popular"
-//    best_value: "Best Value"
-//    purchase_licenses: "Purchase Licenses easily to get full access to CodeCombat and Ozaria"
-//    homeschooling: "Homeschooling Licenses"
-//    recurring_month_1: "Recurring billing every month"
-//    recurring_month_3: "Recurring billing every 3 months"
-//    recurring_month_6: "Recurring billing every 6 months"
-//    recurring_year_1: "Recurring billing every year"
-//    purchase_licenses_2: "Purchase licenses for your students to access paid curriculum after the first course"
-//    applying_licenses: "applying licenses"
-//    about: "about"
-//    school_district_heading: "Schools or Districts"
-//    school_district_subheading: "For classrooms, schools and districts with 10 or more students"
-//    classroom_heading: "Small Classroom"
-//    classroom_subheading: "For clubs, after-school programs and small classrooms with 5-9 students."
-//    customer_support_info_1: "Customer support via email or chat"
-//    customer_support_info_2: "Customer support via email or chat, plus a dedicated school success manager available via phone or email for implementation support"
-//    self_serve_credit: "Self-serve credit card purchase"
-//    multiple_payment_options: "Variety of payment options available, including: purchase order, site licenses, & multi-year discounts."
-//    admin_dashboard: "Administrator dashboard with actionable data and insights"
-//    pd_info: "Comprehensive 40-hour online course that allows you to learn anytime, anywhere and at any pace."
-//    implementation_info: "60 min Onboarding Training on how to use CodeCombat and Ozaria to support specific institutional and instructional goals."
-//    ai_league_info: "Engage students in an exciting esports competition that allows them to showcase their understanding of concepts in a new environment and practice creative problem-solving strategies!"
-//    ai_custom_tournament: "AI League Custom Tournament"
-//    implementation_training: "Implementation Training"
-//    full_access_coco: "Full Access to both CodeCombat"
-//    and_oz: "And Ozaria"
-//    cs_info: "Computer Science 1-6: 65 sessions"
-//    wd_info: "Web Development 1-2: 10 sessions"
-//    gd_info: "Game Development 1-3: 20 sessions"
-//    chap1_info: "Chapter 1: 10 class sessions"
-//    chap2_info: "Chapter 2: 30 class sessions"
-//    chap3_info: "Chapter 3: 25 class sessions"
-//    chap4_info: "Chapter 4: 20 class sessions"
-//    includes: "Includes:"
-//    show_plan_features: "Show Plan Features"
-//    purchase_annually: "Available for purchase one time annually."
-//    class_school_solution: "We'll help you build a solution that meets the needs of your class, school or district."
-//    bulk: "Bulk"
-//    discounts: "discounts"
-//    available: "available"
-//    request_quote: "Request a Quote"
-//    business_partner_licenses: "Business Partner Licenses"
-//    bd_subheading: "For Business Partners with at least 10 students, get premium access to CodeCombat’s computer science and coding games:"
-//    bd_info_list_heading: "CodeCombat is the preferred partner for dozens of coding education businesses because:"
-//    bd_info_list_1: "students love our game-based curriculum based in fantasy and adventure and keep coming back for more sessions"
-//    bd_info_list_2: "anyone can teach coding with CodeCombat; the game is the primary teacher and we provide extensive support resources"
-//    bd_info_list_3: "you will receive over 200 hours of curriculum, providing years of educational content for your business"
-//    bd_includes_1: "Full access to CodeCombat and Ozaria with over 200 hours of premium game-based content"
-//    bd_includes_2: "Teacher dashboard for record keeping and progress tracking "
-//    bd_includes_3: "Online Resource Hub with walkthroughs and tutorials"
-//    bd_help: "For any help, contact"
-
-//  form_validation_errors:
-//    required: "Field is required"
-//    invalidEmail: "Invalid email"
-//    invalidPhone: "Invalid phone number"
-//    emailExists: "Email already exists"
-//    numberGreaterThanZero: "Should be a number greater than 0"
-//    requireValidEmail: "Please enter a valid email address."
-//    requireValidPhone: "Please enter a valid phone number, including area code."
-
-//  partners:
-//    for: "for"
-//    business_partners: "Business Partners"
-//    headline: "Join us in our mission to make coding engaging and accessible to all"
-//    below_headline_blurb: "At CodeCombat we’ve developed comprehensive tools that make learning to code fun and teaching programming easy. Our turnkey solutions can be leveraged in many executions."
-//    coding_title: "Coding & STEAM Education Businesses:"
-//    coding_blurb: "Valued partners like Code Ninjas and IDEA Lab Kids use our game to teach real Python and JavaScript coding to students in their franchise locations. We offer an easy to use program, implementation resources and training options to ensure an amazing student experience."
-//    esports_title: "Educational Esports Sponsors:"
-//    esports_blurb: "We are reinventing what an esport can be while engaging thousands of students to learn to code. Endemic esports mainstay __hyperx__ supported the CodeCombat AI League from its inaugural season, building compelling promotional programs around this unique esport."
-//    hyperx: "HyperX"
-//    respawn: "RESPAWN"
-//    distribution_title: "International Distribution:"
-//    distribution_blurb: "Our programs have served students in over 190 countries and our content is translated into over __forty_languages__. While the US and China are markets where we sell directly, we work closely with local SaaS and EdTech distribution partners around the world to expand our reach"
-//    forty_languages: "40 languages"
-//    equity_social_title: "Tech Equity & Social Impact:"
-//    equity_social_blurb: "Not every partnership is built on the bottom line. As a mission-based organization we seek ways to give back as well. We work closely with foundations and other philanthropy partners to expand access to high-quality coding education.  "
-//    latin_superstar_blurb: "Additionally, Latin superstar __eugenio_derbez__ has helped us reach the Latinx community with a partnership to engage students in this often underserved and underrepresented group."
-//    reach_latinx: "reach the Latinx community"
-//    eugenio_derbez_blurb: "\"It is important to me to see Latino boys and girls represented in this space,\" said Eugenio Derbez. \"Coding is the language of the future and if we want to be a part of that future then we need to get our kids coding.\""
-//    seek_relationships_blurb: "We seek relationships with nonprofits and community-based organizations working with groups underrepresented in computer science and technology careers. Our partnership with __seeds_of_light__ will fund CS educational opportunities for thousands of young learners."
-//    seeds_of_light: "Seeds of Light"
-//    corporate_team_building_title: "Corporate Team Building"
-//    corporate_team_building_blurb: "Need to engage your employees with a turnkey activity that will inspire their competitive spirit and challenge them to creatively problem solve? Work with us to build a custom competitive coding tournament that will have your team programming their own strategies while playing a game. __see_how__"
-//    footer_blurb: "These are just a few of the partnership structures we have successfully supported. If you would like to initiate a discussion with our business development team on any of these models or have a different partnership opportunity, please reach out today."
-//    talk_with_us: "Talk with Us"
-//    our_partners: "Our Partners"
-//    see_how: "See How"
-
-//  podcast:
-//    learning_adventure: "Where learning is always an adventure."
-//    explores_stem: "Our podcast explores the role of technology, STEM, and creative play in education. With expert guests, we discover how learning is always an adventure."
-//    listen: "Listen"
-//    download: "Download"
-//    transcript: "Transcript"
-//    learn_more_coco: "Want to learn more about CodeCombat coding experiences?"
-//    subscribe: "Subscribe"
-//    explore_coco: "Explore CodeCombat"
-//    interested_in_being_guest: "Interested in being a guest on EdTech Adventures?"
-//    lets_chat: "Let's Chat"
-//    air_date: "Air date" # upload date
-//    play_episode: "Play Episode"
-//    about_guest: "About Our Guest"
-//    about_guests: "About Our Guests"
-//    all_episodes: "View All Episodes"
-//    no_permission: "You don't have permission to view this podcast"
-//    listen_now: "Listen Now"
-//    show_all_episodes: "Show all episodes"
-
-//  library:
-//    enter_library_card: "Enter your Library Card Number:"
-//    access_coco: "Access CodeCombat"
-//    already_using_library_id: "Already using library id"
-//    play_coco: "to play CodeCombat"
-//    not_library_id: "Not your library id"
-//    access_using_id: "to access using your id!!"
-//    network_detected: "Library network detected, redirecting you to play CodeCombat"
-//    not_redirect_auto: "if redirect doesn't happen automatically"
-//    engage_members: "Give your members access to the most engaging way to learn coding."
-//    importance_blurb: "Libraries play an important role in advancing educational equity in their communities. Many young learners do not have access or exposure to computer science, and libraries can provide important resources to these underserved groups. That is why we are partnering with libraries across the country to provide access to our game-based learning tools and educational resources."
-//    games_teach_blurb: "Our games teach real typed Python, JavaScript and C++ coding languages through the power of play. The gameplay is paired with a scaffolded curriculum to allow self-paced learners the ability to master foundational programming concepts before moving on to the more complex. Each level challenges the player to type the code necessary to advance their hero and achieve the level goal."
-//    platform_built: "Our platform is built to address the specific needs of libraries and their patrons:"
-//    accessible: "Accessible"
-//    accessible_blurb: "A basic computer with internet access is all you need to sign-in and start playing. The content is intended for beginners with no prior coding experience."
-//    self_paced_intuitive: "Self-Paced and Intuitive"
-//    self_paced_intuitive_blurb: "Teachers are not required as players can dictate the pace at which they move through the curriculum. Our custom code engine and interpreter is designed for beginners, it understands the mistakes kids make and speaks to them using human, beginner-friendly terms."
-//    engaging_content: "Engaging Content"
-//    engaging_content_blurb: "Game-based learning drives engagement from the start but perhaps even more importantly keeps students engaged when the concepts get more challenging. In a game environment failure and success are expected and embraced as part of the play experience."
-//    api_integrate: "API integration"
-//    api_integrate_blurb: "Our games can be easily incorporated into your digital library interface through EZProxy or other popular systems. This structure provides instant access with the members’ existing log in and no staff is needed to manage any logistics of licensing or access."
-//    privacy: "Privacy"
-//    privacy_blurb: "We take user safety, cybersecurity, and data privacy seriously, following many stringent privacy regulations, like COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Fair Information Practices, CAN-SPAM, and GDPR. These policies and protective measures have let us securely serve over twenty million users around the world."
-//    privacy_policy: "our full privacy policy."
-//    see: "See"
-//    communication_limit: "Communication Limits"
-//    communication_limit_blurb: "To ensure the security of your members, we do not offer in-game chat or other communication features between players, however we do allow members to safely share their coding projects with friends, family and the CodeCombat community. We restrict any upsell or marketing messaging to provide an uninterrupted experience for your patrons."
-//    usage_stats: "Usage Stats"
-//    usage_stats_blurb: "Gain insight to your members’ usage with our snapshot reporting tool. It provides access to usage stats at any time, including monthly active users, licensed days used and more valuable data points."
-//    esports: "Academic Esports"
-//    esports_blurb: "Our esports program offers an opportunity to further engage your members through a fun and exciting competition. The AI League allows members to showcase their understanding of coding concepts in a new environment and practice problem solving strategies as they go head to head in battle against the global community."
-//    work_with_us_blurb: "Work with us to unlock the next generation of engineers, programmers and CS professionals in your community."
-//    schedule_demo: "Schedule a Demo"
-//    license_modal_subtitle: "Please complete this short form and one of our library specialists will reach out to provide a demo and custom pricing options!"
-//    license_modal_members: "Members Needing Access"
-//    license_modal_members_placeholder: "Approximately how many members will need access?"
-//    license_modal_contact: "Contact Our Team"
-//    license_days_used: "License days used"
-//    users_active_licenses: "Users with active licenses"
-//    lines_code: "Lines of Code"
-//    programs_written: "Programs written"
-//    time_spent_min: "Time spent (in min)"
-//    month: "Month"
-//    teacher_classroom_name: "Teacher or classroom name"
-//    already_logged_in: "Already logged in, please logout from the top navigation bar to login again."
-//    search_box_option: "If search box doesn't load, login by clicking"
-//    new_signups: "New Signups"
-//    heading_for: "for"
-//    heading_libraries: "Libraries"
-//    educational_equity: "Educational Equity"
-//    power_of_play: "Power of play"
-//    library_card: "Library Card Number"
-//    library_signup_promotion: "Sign Up to save progress and continue from where you left off on CodeCombat!!"
-//    welcome_dashboard: "Welcome to your dashboard"
-//    total_licenses_used: "Total Licenses Used"
-//    from_launch_date: "from the date of launch"
-//    renewal_date: "Renewal Date"
-//    access_old_dashboard: "If you want to access the old dashboard, visit"
-//    loading_from: "loading data from"
-//    user_activities: "User Activities"
-//    total_users: "Total Users"
-//    lines_of_code_written: "Lines of Code Written"
-//    hours_spent: "Hours spent"
-//    number_users: "Number of users"
-//    time_spent: "Time spent (in minutes)"
-//    new_users: "New Users"
-//    age_demographics: "Age demographics"
-//    levels_completed: "Levels Completed"
-//    adjust_dates_explore: "Adjust the dates below to explore patron usage trends over time."
-
-//  related_accounts:
-//    subtitle: "Add connections between different CodeCombat accounts to be able to quickly switch between them. For example, as a parent, you could switch to viewing CodeCombat from your kids’ accounts. Or, as a teacher, you could add a test student account for yourself to see what your students see."
-//    wrong_account: "Please log in to the correct account to confirm the account linking. Log In to the account and open link from email again."
-//    link_account: "Link your account to"
-//    link_successful_redirect: "Account linked successfully, redirecting"
-//    add_related_user: "Add Related User"
-//    adding: "Adding"
-//    removing: "Removing"
-//    added: "Account added"
-//    related_email: "Related User Email"
-//    relation: "Relation"
-//    bi_directional: "Bi-directional"
-//    account_exists: "Account exists"
-//    link_using_email: "Link account using confirmation email"
-//    link_using_email_blurb: "User will receive a mail on __email__. Please ask the user to confirm linking by pressing on link present in email."
-//    account_not_exist: "Account does not exist"
-//    account_type: "Account Type"
-//    create_account_and_email: "Create account and send email to link"
-//    authenticate: "Authenticate"
-//    invite: "Invite"
-//    auth_using_pass: "Authenticate using __email__ password"
-//    related_users: "Related Users"
-//    no_related_users: "No related users right now"
-//    send_verify_email: "Send Verify Email"
-//    verified: "Verified"
-//    switch: "Switch"
-//    title: "Related Accounts"
-//    bi_directional_help_text: "Allow added user to switch to your account?"
-
-//  modal_free_class:
-//    paragraph_1: "Thank you for choosing CodeCombat."
-//    paragraph_2: "Our team is eager to connect with you to get your child scheduled for a free trial class."
-//    paragraph_3: "Please provide your contact information and one of our learning advisors will call you to gather student information, identify a teacher based on your child’s preferred learning style and to schedule the trial class."
-//    name: "Name"
-//    phone_number: "Phone Number"
-//    available: "Are you available to talk now?"
-//    yes: "Yes"
-//    no: "No"
-//    preferred_time: "Preferred time for call if we can't connect now"
-//    anytime: "Anytime"
-//    morning: "Morning (8AM - 12PM)"
-//    afternoon: "Afternoon (12PM - 4PM)"
-//    evening: "Evening (4PM - 8PM)"
-//    time_zone: "Your Time Zone"
-//    email: "Email"
-
-//  mobile_landing:
-//    subtitle: "Get free access to the most engaging way to teach CS"
-//    you_re_set: "YOU'RE SET!"
-//    done_blurb: "Check your email for instructions on accessing your teacher account. For the best experience, we suggest using a device with an external keyboard and larger screen."
-//    step_email: "STEP 1"
-//    step_name: "STEP 2"
-//    step_done: "DONE"
-//    video_title: "GET A SNEAK PEEK HERE"
-//    email_confirm: "The email address \"__email__\" is already registered. Would you like to login?"
-
-//  roblox_landing:
-//    headline: "Empowering Every Player to Become a Creator!"
-//    subhead: "Experience the easiest and most enjoyable way to code and create your own Roblox games"
-//    join_the_beta: "Join the Beta"
-//    sign_up: "Sign Up"
-//    box_play_subhead: "Play"
-//    box_code_subhead: "Code"
-//    box_create_subhead: "Create"
-//    box_headline: "Play, Code and Create on Roblox"
-//    box_play_blurb_teacher: "In partnership with Roblox Education, we are combining our proven coding-as-gameplay approach with the creative and social power of the Roblox platform to make a new Roblox experience that teaches coding and game development in-game."
-//    box_code_blurb_teacher: "The experience will be personalized and differentiated, offering structured and unstructured intuitive practice that allows the player to learn as they like, while still aligning with CSTA and ISTE computer science standards."
-//    box_create_blurb_teacher: "This engaging play experience will provide the foundational instruction needed to take players from zero coding knowledge to publishing full Roblox games. Our Creative Mode lets players build while playing, without requiring switching modes to the full desktop Roblox Studio IDE."
-//    box_play_blurb_player: "Explore the 3D immersive experience of CodeCombat Worlds. Program your pets and adventure into a universe of creativity and shared experiences with friends."
-//    box_code_blurb_player: "Learn real Lua coding, from beginner to advanced. Use code to explore, gather resources, build, and discover your path to glory."
-//    box_create_blurb_player: "No Roblox Studio? No problem. Code in-game in Creative Mode to make full Roblox games to share with your friends."
-//    box_play_blurb_parent: "Through our proven game-based learning approach, we engage young learners through play, while teaching coding and game development."
-//    box_code_blurb_parent: "Coding from the very start of their adventure, the experience is personalized and differentiated, offering structured and unstructured intuitive practice that allows your child to learn as they like."
-//    box_create_blurb_parent: "Many kids want to create games but don’t know where to start. This engaging play experience will provide the foundational instruction needed to take players from zero coding knowledge to publishing full Roblox games."
-//    box_play_blurb_partner: "Engage young learners with a next-generation Roblox experience. With support from Roblox Education, we are combining our proven coding-as-gameplay approach with the creative and social power of the Roblox platform to make a new Roblox experience that teaches coding and game development in-game."
-//    box_code_blurb_partner: "The experience will be personalized and differentiated, offering structured and unstructured intuitive practice that allows the player to learn as they like. We make it easier than ever to teach real coding to your students in either self-paced or instructor-directed contexts."
-//    box_create_blurb_partner: "Instead of building a standalone curriculum tied to Roblox Studio, take advantage of our in-game Creative Mode and its scaffolded instruction to easily ramp your students from no coding experience to publishing full Roblox games."
-//    role_teacher: "Teacher"
-//    role_player: "Player"
-//    role_parent: "Parent"
-//    role_partner: "Partner"
-//    select_role: "Please select your role"
-//    question_1: "Do I need to know Lua or Roblox Studio?"
-//    answer_1: "No. This experience will allow anyone to play, code and create from the very start of their adventure, without any coding experience."
-//    question_2: "Can I create my own games?"
-//    answer_2: "Yes. Game development is at the core of this experience and after completing the core learning levels you will have the opportunity to create your own."
-//    question_3: "Will my creations be available on Roblox?"
-//    answer_3: "Yes. Anything you create in this experience, you will be able to import into Roblox Studio and then publish to the platform for anyone to play."
-//    bottom_blurb_parent: "No need to wait - __sign-up__ for our live online classes to get your child coding today! Get them started with CodeCombat web to be the first to get access to the CodeCombat Worlds Roblox experience."
-//    bottom_blurb_sign_up: "Sign up"
-//    bottom_blurb_partner: "Want to use the new CodeCombat Worlds Roblox experience for your education business, social impact initiative or international distribution opportunity? __reach-out__ to discuss partnering today."
-//    bottom_blurb_reach_out: "Reach out"
-//    boxes_title: "Play, Code and Create on Roblox"
-//    login_message: "You need to login before connecting your account to Roblox"
-//    connect_button_header: "Account Linking Rewards"
-//    connect_button_linker_badge: "Linker Badge"
-//    connect_button_accounts_linked: "Accounts Linked"
-//    connect_button_pet_chroma: "Pet Chroma"
-//    connect_button_exclusive_pet: "Exclusive Pet"
-//    connect_button_blurb: "Link your CodeCombat and Roblox accounts for a seamless experience!"
-//    connect_button_list_item_1: "Manage subscriptions"
-//    connect_button_list_item_2: "Unlock additional content"
-//    connect_button_list_item_3: "Track progress"
-//    connect_button_list_item_4: "Receive exclusive rewards"
-//    connect_button_list_item_5: "Access curricular resources"
-//    connect_button_list_item_6: "Parent and teacher dashboard access"
-//    connect_button_list_item_7: "Unlock generative AI features"
-//    connect_button_list_item_8: "Creative mode publishing and exporting"
-//    connect_button_connected_blurb: "Congratulations, you have linked your accounts! Invite your friends to help reach the community linking goals."
-//    connect_button_not_connected_blurb: "The more people link their accounts, the more rewards you'll receive!"
-//    faq_bottom: "See more <a href=\"https://codecombat.zendesk.com/hc/en-us/categories/18084251471383-CodeCombat-Worlds-Roblox-\" target=\"_blank\">frequently asked questions in our help center</a>. <br />If you have any other questions, please <a href=\"mailto:support@codecombat.com\">Contact Us</a>."
-//    modal_title: "CodeCombat Worlds<br> Now Live on Roblox!"
-//    modal_play_now: "PLAY NOW!"
-//    modal_button_link_roblox_account: "Link Roblox Account"
-
-//  ai:
-//    prompt_level_chat_1: "What does this error mean?"
-//    prompt_level_chat_2: "Please explain this error."
-//    prompt_level_chat_3: "What's wrong?"
-//    prompt_level_chat_4: "Please help explain this."
-//    prompt_level_chat_5: "How can I fix it?"
-//    prompt_level_chat_6: "Help, please."
-//    prompt_level_chat_7: "What do I do?"
-//    prompt_level_chat_8: "What does this mean?"
-//    prompt_level_chat_9: "Please explain."
-//    prompt_level_chat_10: "What is this error?"
-//    prompt_level_chat_11: "What is the problem?"
-//    prompt_level_chat_12: "???"
-//    prompt_level_chat_13: "Dear AI, I beseech you, explain my error, in verse."

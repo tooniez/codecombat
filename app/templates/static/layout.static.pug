@@ -6,7 +6,7 @@ html(lang='en')
     - var productShort = product == 'codecombat' ? 'coco' : 'ozar'
     - var productCap = product == 'codecombat' ? 'CodeCombat' : 'Ozaria'
     meta(charset='utf-8')
-    meta(name='viewport', content="width=device-width,initial-scale=1.0", data-vue-meta="true", data-vmid="viewport")
+    meta(name='viewport', content="width=device-width,initial-scale=1.0,viewport-fit=cover", data-vue-meta="true", data-vmid="viewport")
     meta(http-equiv='Accept-CH', content='Viewport-Width')
     title(data-i18n=`new_home.title_${productShort}`)
     meta(name="keywords", data-i18n=`[content]new_home.meta_keywords_${productShort}`)
@@ -57,10 +57,6 @@ html(lang='en')
     link(rel='stylesheet', href='/' + shaTag + '/stylesheets/app.css')
     script.
       var product = "#{me.getProduct()}"
-    if me.useDexecure()
-      script.
-        var DEXECURE_URL = "/dexecure-c167a5675c.js?product=" + product;
-        "serviceWorker"in navigator&&navigator.serviceWorker.register(DEXECURE_URL,{scope:'/'}).then(function(e){"/"!=new URL(e.scope).pathname&&console.log("Service worker scope is not /")})["catch"](function(e){console.log("Unable to register service worker.");console.log(e)});
     script.
       window.javascriptsPath = "/#{shaTag}/javascripts/";
     if chunkPaths[viewName]
@@ -69,45 +65,6 @@ html(lang='en')
     script(src='/user-data?sha=' + shaTag)
     script.
       window.document.cookie = "shaTagVal=#{shaTag};path=/;"
-    // sema text
-    script.
-      (function (e, r, n, t, s) {
-        var a = [];
-        e[s] = function () {
-          a.push(arguments)
-        };
-        e[s].queue = a;
-        var o = [];
-        var i = [];
-        var c = true;
-        var p = void 0;
-        if (window.PerformanceObserver && window.PerformanceObserver.supportedEntryTypes && (PerformanceObserver.supportedEntryTypes.indexOf("longtask") >= 0 || PerformanceObserver.supportedEntryTypes.indexOf("element") >= 0)) {
-          p = new PerformanceObserver(function (e) {
-            e.getEntries().forEach(function (e) {
-              switch (e.entryType) {
-                case"element":
-                  i.push(e);
-                  break;
-                case"longtask":
-                  o.push(e);
-                  break;
-                default:
-                  break
-              }
-            })
-          });
-          p.observe({entryTypes: ["longtask", "element"]})
-        }
-        e[s + "lt"] = {longTasks: o, timingElements: i, inPageLoad: c, observer: p};
-        if (t) {
-          var u = r.createElement(n);
-          u.async = 1;
-          u.src = t;
-          var f = r.getElementsByTagName(n)[0];
-          f.parentNode.insertBefore(u, f)
-        }
-      })
-      (window, document, "script", "//cdn.sematext.com/experience.js", "strum");
     if me.useGoogleAnalytics()
       // Google Analytics
       script.
@@ -189,6 +146,7 @@ html(lang='en')
           clientToken: 'puba9a669c3117915d99f1f47970d1f49ff',
           forwardErrorsToLogs: true
         });
+              
 
     // Webpack-inserted CSS:
     //- (will be inserted at runtime)

@@ -22,14 +22,27 @@ module.exports = {
     return fetchJson(`/db/level/${idOrSlug}`, _.merge({}, options))
   },
 
+  fetchForClassroom (classroomID, options = {}) {
+    return fetchJson(`/db/classroom/${classroomID}/levels`, _.merge({}, options))
+  },
+
   fetchNextForCourse ({ levelOriginalID, courseInstanceID, courseID, sessionID }, options) {
     let url
     if (options == null) { options = {} }
+
     if (courseInstanceID) {
       url = `/db/course_instance/${courseInstanceID}/levels/${levelOriginalID}/sessions/${sessionID}/next`
     } else {
       url = `/db/course/${courseID}/levels/${levelOriginalID}/next`
     }
+    return fetchJson(url, options)
+  },
+
+  fetchNextForCampaign ({ campaignSlug, levelOriginal, includePractice = false }, options) {
+    if (options == null) { options = {} }
+    options.data = options.data || {}
+    options.data.includePractice = includePractice
+    const url = `/db/campaign/${campaignSlug}/levels/${levelOriginal}/next`
     return fetchJson(url, options)
   },
 
@@ -81,5 +94,14 @@ module.exports = {
         })
         return introLevelsContentMap
       })
-  }
+  },
+
+  fetchPracticeLevels (levelId) {
+    return fetchJson(`/db/level/${levelId}/practice-levels`)
+  },
+
+  fetchLevelStats (levelId) {
+    return fetchJson(`/db/level/${levelId}/stats`)
+  },
+
 }

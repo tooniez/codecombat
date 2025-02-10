@@ -20,6 +20,7 @@ module.exports.createAetherOptions = (options) ->
     globals: ['Vector', '_']
     problems:
       jshint_W040: {level: 'ignore'}
+      jshint_W041: {level: 'ignore'}  # "Use '===' to compare with 'null'." is too picky, especially in CCJ and when Blockly auto-gens this
       jshint_W030: {level: 'ignore'}  # aether_NoEffect instead
       jshint_W038: {level: 'ignore'}  # eliminates hoisting problems
       jshint_W091: {level: 'ignore'}  # eliminates more hoisting problems
@@ -28,7 +29,7 @@ module.exports.createAetherOptions = (options) ->
       aether_MissingThis: {level: 'error'}
     problemContext: options.problemContext
     #functionParameters: # TODOOOOO
-    executionLimit: 3 * 1000 * 1000
+    executionLimit: options.executionLimit or 3 * 1000 * 1000
     language: options.codeLanguage
     useInterpreter: true
   parameters = functionParameters[options.functionName]
@@ -60,10 +61,21 @@ functionParameters =
   getNearestEnemy: []
   die: []
 
+module.exports.fetchToken = (source, language) =>
+  if language not in ['java', 'cpp'] or /^\u56E7[a-zA-Z0-9+/=]+\f$/.test source
+    return Promise.resolve(source)
+
+  headers =  { 'Accept': 'application/json', 'Content-Type': 'application/json' }
+  service = window?.localStorage?.kodeKeeperService or "https://asm14w94nk.execute-api.us-east-1.amazonaws.com/service/parse-code-kodekeeper"
+  fetch service, {method: 'POST', mode:'cors', headers:headers, body:JSON.stringify({code: source, language: language})}
+    .then (x) => x.json()
+    .then (x) => x.token
+
 module.exports.generateSpellsObject = (options) ->
   {level, levelSession, token} = options
-  {createAetherOptions} = require 'lib/aether_utils'
-  aetherOptions = createAetherOptions functionName: 'plan', codeLanguage: levelSession.get('codeLanguage'), skipProtectAPI: options.level?.isType('game-dev')
+  aetherOptions = module.exports.createAetherOptions functionName: 'plan', codeLanguage: levelSession.get('codeLanguage'), skipProtectAPI: options.level?.isType('game-dev')
+  if level?.get('product') is 'codecombat-junior'
+    aetherOptions.executionLimit = 100 * 1000  # Junior levels shouldn't use as many statements, can exceed execution limit earlier (100K) than normal levels (default 3M)
   spellThang = thang: {id: 'Hero Placeholder'}, aether: new Aether aetherOptions
   spells = "hero-placeholder/plan": thang: spellThang, name: 'plan'
   source = token or levelSession.get('code')?['hero-placeholder']?.plan ? ''

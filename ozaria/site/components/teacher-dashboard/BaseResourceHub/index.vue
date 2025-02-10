@@ -56,8 +56,11 @@ export default {
   async mounted () {
     this.setTeacherId(me.get('_id'))
     this.setPageTitle(PAGE_TITLES[this.$options.name])
-    await this.fetchTeacherPrepaids({ teacherId: me.get('_id') })
-    this.fetchData({ componentName: this.$options.name, options: { loadedEventName: 'Resource Hub: Loaded' } })
+
+    if (me.isTeacher()) {
+      await this.fetchTeacherPrepaids({ teacherId: me.get('_id') })
+      this.fetchData({ componentName: this.$options.name, options: { loadedEventName: 'Resource Hub: Loaded' } })
+    }
 
     getResourceHubResources().then(allResources => {
       if (!Array.isArray(allResources) || allResources.length === 0) {
@@ -125,29 +128,6 @@ export default {
     />
 
     <div class="flex-container">
-      <div class="aside">
-        <h4>{{ $t('common.table_of_contents') }}</h4>
-        <ul>
-          <li v-for="resourceHubSection in resourceHubSections">
-            <a
-              v-if="resourceHubLinks(resourceHubSection.sectionName).length"
-              :href="'#' + resourceHubSection.slug"
-            >{{ $t(resourceHubSection.i18nKey) }}</a>
-          </li>
-        </ul>
-
-        <h4>{{ $t('nav.contact') }}</h4>
-        <div class="contact-icon">
-          <img src="/images/ozaria/teachers/dashboard/svg_icons/IconMail.svg">
-          <a
-            :href="`mailto:${supportEmail}`"
-            @click="trackEvent('Resource Hub: Support Email Clicked')"
-          >
-            {{ supportEmail }}
-          </a>
-        </div>
-      </div>
-
       <div class="resource-hub">
         <div
           v-for="resourceHubSection in resourceHubSections"
@@ -198,39 +178,6 @@ export default {
 .flex-container {
   display: flex;
   flex-direction: row;
-}
-
-.aside {
-  margin-top: 3px;
-
-  width: 285px;
-  padding: 30px;
-
-  background-color: #f2f2f2;
-  box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.06), 3px 0px 8px rgba(0, 0, 0, 0.15);
-
-  h4 {
-    color: #131b25;
-    font-family: 'Work Sans';
-    font-size: 18px;
-    line-height: 30px;
-    letter-spacing: 0.44px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 15px;
-  }
-
-  ul a {
-    text-decoration: underline;
-    text-transform: capitalize;
-  }
-}
-
-.aside ul {
-  padding: 0;
-  list-style: none;
-
-  margin-bottom: 50px;
 }
 
 .resource-hub {

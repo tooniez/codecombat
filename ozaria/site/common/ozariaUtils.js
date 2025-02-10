@@ -1,5 +1,5 @@
 import { merge } from 'lodash'
-import { i18n } from 'app/core/utils'
+import { i18n, isCodeCombat } from 'app/core/utils'
 
 /**
  Utility functions for ozaria
@@ -33,6 +33,10 @@ export const findNextLevelsBySession = (sessions, levels, levelStatusMap, classr
     levelDataMap = levels || {}
   }
   for (const [levelOriginal, level] of Object.entries(levelDataMap)) {
+    if (classroom && classroom.isStudentOnSkippedLevel(me.get('_id'), courseId, levelOriginal)) {
+      continue
+    }
+
     const levelStatus = levelStatusMap[levelOriginal]
     const isLevelStarted = typeof levelStatus === 'string' && levelStatus === 'started'
     const isLevelCompleted = typeof levelStatus === 'string' && levelStatus === 'complete'
@@ -265,6 +269,7 @@ function internationalizeConfigAux (obj, userLocale) {
     return
   }
 
+  if (!obj) return
   for (const values of Object.values(obj)) {
     if (Array.isArray(values)) {
       for (const arrayVal of values) {
@@ -312,8 +317,14 @@ export function internationalizeContentType (type) {
       return $.i18n.t('play_level.content_type_cinematic')
     case 'interactive':
       return $.i18n.t('play_level.content_type_interactive')
+    case 'course-ladder':
+      return $.i18n.t('play_level.content_type_arena')
+    case 'ai-use':
+      return $.i18n.t('play_level.use')
+    case 'ai-learn':
+      return $.i18n.t('play_level.learn_to_use')
     default:
-      return $.i18n.t('play_level.level_type_challenge') // show everything else as "challenge" for now
+      return $.i18n.t(isCodeCombat ? 'play_level.level_type_level' : 'play_level.level_type_challenge') // show everything else as "challenge" for now
   }
 }
 

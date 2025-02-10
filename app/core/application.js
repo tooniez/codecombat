@@ -48,7 +48,7 @@ if (console.debug == null) { console.debug = console.log } // Needed for IE10 an
 
 const Application = {
   initialize () {
-    let i18nextInstance, userUtils
+    let i18nextInstance
     const { me } = require('core/auth')
     const i18next = require('i18next')
     const jqueryI18next = require('jquery-i18next')
@@ -59,7 +59,7 @@ const Application = {
     const Tracker = require('core/Tracker2').default
     const api = require('core/api')
     const utils = require('core/utils')
-    if (utils.isCodeCombat) { userUtils = require('../lib/user-utils') }
+    const userUtils = require('../lib/user-utils')
     const wsBus = require('lib/wsBus')
 
     const Router = require('core/Router')
@@ -108,7 +108,7 @@ const Application = {
       this.checkForNewAchievement()
     }
     this.remindPlayerToTakeBreaks()
-    if (utils.isCodeCombat) { userUtils.provisionPremium() }
+    userUtils.extraProvisions()
     window.i18n = (i18nextInstance = i18next.default.createInstance({
       lng: me.get('preferredLanguage', true),
       fallbackLng: locale.mapFallbackLanguages(),
@@ -116,7 +116,10 @@ const Application = {
       interpolation: { prefix: '__', suffix: '__' }
       // debug: true
     }))
-    i18nextInstance.init()
+    const AIPostProcessor = require('../lib/i18n/AIPostProcessor')
+    i18nextInstance.use(new AIPostProcessor()).init({
+      postProcess: ['AIPostProcessor']
+    })
     // eslint-disable-next-line no-proto
     i18nextInstance.services.languageUtils.__proto__.formatLanguageCode = code => code // Hack so that it doesn't turn zh-HANS into zh-Hans
     jqueryI18next.init(i18nextInstance, $, {
@@ -150,11 +153,12 @@ const Application = {
     this.idleTracker.start()
     this.trackProductVisit()
     this.setReferrerTracking()
-    this.setupSematextTracking(utils.isCodeCombat)
   },
 
-  checkForNewAchievement () {
-    let startFrom
+  checkForNewAchievement (limit = 2) {
+    if (limit <= 0) return; // Base case to stop recursion after 'limit' calls
+
+    let startFrom;
     const utils = require('core/utils')
     if (utils.isOzaria) { return } // Not needed until/unlesss we start using achievements in Ozaria
     if (me.get('lastAchievementChecked')) {
@@ -165,7 +169,7 @@ const Application = {
 
     const daysSince = moment.duration(new Date() - startFrom).asDays()
     if (daysSince > 1) {
-      return me.checkForNewAchievement().then(() => this.checkForNewAchievement())
+      return me.checkForNewAchievement().then(() => this.checkForNewAchievement(limit - 1))
     }
   },
 
@@ -177,7 +181,7 @@ const Application = {
   },
 
   isProduction () {
-    return document.location.href.search('https?://localhost') === -1
+    return document.location.href.search('https?://localhost') === -1 && document.location.href.search('https?://192.168.') === -1
   },
 
   loadedStaticPage: (window.alreadyLoadedView != null),
@@ -236,19 +240,6 @@ const Application = {
     const value = Object.assign(referrerParams, (me.get('referrerTrack') || {}))
     me.set('referrerTrack', value)
     return me.save()
-  },
-
-  setupSematextTracking (isCodeCombat) {
-    if (!me.isStudent()) {
-      console.log('sematext disabled for non-students')
-      return
-    }
-    if (!this.isProduction()) {
-      console.log('sematext disabled for non-production')
-      return
-    }
-    const semaToken = isCodeCombat ? '1edae6bb-d7eb-46b9-a134-ed831c4e3ae3' : '2c9127fa-87fc-4bd7-b735-8b6aaa211c38'
-    window.strum('config', { token: semaToken , 'receiverUrl': 'https://rum-receiver.sematext.com' });
   }
 }
 

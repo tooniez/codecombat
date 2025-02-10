@@ -34,8 +34,6 @@ export default class FacebookPixelTracker extends BaseTracker {
   async _initializeTracker () {
     this.watchForDisableAllTrackingChanges(this.store)
 
-    // Facebook pixels are currently tracked via Segment, which is enabled for all teachers so do not
-    // double enable it for teachers
     const isStudent = this.store.getters['me/isStudent']
     const isChina = (window.features || {}).china
     const isRegisteredHomeUser = this.store.getters['me/isHomePlayer'] // Includes anonymous: false check
@@ -79,7 +77,7 @@ export default class FacebookPixelTracker extends BaseTracker {
       return
     }
 
-    this.log('tracking event', fbEvent, this.mapToFbProperties(fbEvent, properties))
+    this.log('tracking event', fbEvent, this.mapToFbProperties(fbEvent, properties, false))
     if (fbEvent === true) {
       window.fbq('trackCustom', action, this.mapToFbProperties(fbEvent, properties))
     } else if (typeof fbEvent === 'string') {
@@ -88,7 +86,7 @@ export default class FacebookPixelTracker extends BaseTracker {
     }
   }
 
-  mapToFbProperties (fbEvent, properties) {
+  mapToFbProperties (fbEvent, properties, toFb = true) {
     if (!properties || Object.keys(properties).length === 0) { return {} }
     let result = {}
     if (fbEvent === SUBSCRIBE_EVENT) {
@@ -102,6 +100,12 @@ export default class FacebookPixelTracker extends BaseTracker {
       result.currency = currency
     } else {
       result = { ...properties }
+      if (toFb) {
+        delete result.email
+        delete result.name
+        delete result.emails
+        delete result.emailOrUsername
+      }
       if (properties.category) result.content_category = properties.category
       if (properties.label) result.content_name = properties.label
       if (fbEvent === 'CompleteRegistration') result.status = true

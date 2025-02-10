@@ -1,112 +1,111 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 module.exports = {
   nativeDescription: 'Português (Portugal)',
   englishDescription: 'Portuguese (Portugal)',
   translation: {
 
-    //  ozaria_home:
-    //    subtitle: "Computer Science that Captivates"
-    //    heading_subtitle: "A coding adventure for students and your turnkey solution for teaching Computer Science."
-    //    item_list_p: "Try Chapter 1 for Free Today!"
-    //    engaging_heading_corner: "A solution to Engage Students and Support Teachers"
-    //    engaging_row1_h2: "Easy Implementation"
-    //    engaging_row1_p: "Even with no coding experience, you can teach a full Computer Science curriculum with Ozaria. Our ready-to-go lesson plans and intuitive dashboard will provide you with the tools you need to be ready to teach on day one."
-    //    engaging_row2_h2: "Immersive Gameplay"
-    //    engaging_row2_p: "Students are immersed in an adventure game in which their knowledge of Computer Science advances with the storyline. In this engaging learning environment, students build real-world skills through the power of play."
-    //    engaging_row3_h2: "Standards-Aligned Curriculum"
-    //    engaging_row3_p: "Ozaria meets CSTA and ISTE standards, enabling you to teach with confidence as your students master core Computer Science concepts, develop computational thinking skills, and learn about the relevance of Computer Science to their daily lives."
-    //    pd_blurb: "Learn the skills to effectively teach computer science with our self-directed, CSTA-accredited __pd__ course. Earn up to 40 credit hours any time, from any device."
-    //    back_cta_1_a: "Try Chapter 1 for Free"
-    //    speech_bubble_testimonial_1_blockquote: "Once again, your team has managed to accomplish the Holy Grail of Edutainment. In my opinion as a 26-year veteran Middle School educator, there is no more engaging resource for teaching coding."
-    //    core_curriculum_header: "Core Computer Science Curriculum"
-    //    core_curriculum_p: "We have developed our instructional model based on proven theories and extensive evidence around how students learn best."
-    //    core_curriculum_carousel_item1_header: "Make Connections"
-    //    core_curriculum_carousel_item1_p: "At the start of every module, use our turnkey lesson slides to help your students make the connection between new Computer Science concepts and relevant examples from their daily lives."
-    //    core_curriculum_carousel_item2_header: "Construct Own Meaning"
-    //    core_curriculum_carousel_item2_p: "Next, guide your students in constructing a deeper understanding of new concepts through unplugged and discussion activities that are built into our lesson plans."
-    //    core_curriculum_carousel_item3_header: "Learn New Concepts"
-    //    core_curriculum_carousel_item3_p: "In the third stage of the learning cycle, your students will learn new concepts through expositional dialogue between characters in the Ozaria story. Voice-over, graphics, and animations make absorbing new information even more accessible and fun."
-    //    core_curriculum_carousel_item4_header: "Apply New Knowledge"
-    //    core_curriculum_carousel_item4_p: "Next, your students will put what they learned into practice by typing real Python or JavaScript to solve a variety of challenges in scaffolded game levels. Built-in hints help students identify and fix bugs, leading to greater coding confidence."
-    //    core_curriculum_carousel_item5_header: "Summative Project"
-    //    core_curriculum_carousel_item5_p: "At the end of each chapter, your students will be challenged to showcase their new skills and express their creativity through summative projects in which they build their own games, stories, and more."
-    //    core_curriculum_scope_sequence: "View Scope & Sequence"
-    //    core_curriculum_sample_lesson_slides: "View Sample Lesson Slides"
-    //    global_community_header: "Join Our Global Community"
-    //    global_community_row1_p: "Learners"
-    //    global_community_row2_p: "Lines of Code"
-    //    global_community_row3_p: "Teachers"
-    //    global_community_row4_p: "Countries"
-    //    admin_dashboard_header: "Comprehensive Teacher & Admin Dashboards"
-    //    admin_dashboard_p: "Designed with feedback from our community of over 140,000 educators, Ozaria addresses the challenges of teaching Computer Science by providing tools and resources that work."
-    //    admin_dashboard_row1_p: "The intuitive Teacher Dashboard provides access to student-facing lesson plans, pacing guides, distance learning strategies, and other resources to support your needs."
-    //    admin_dashboard_row2_p: "The Track Progress page allows you to monitor student progress on an ongoing basis, get valuable information on their performance, and immediately identify whether interventions are needed."
-    //    admin_dashboard_row3_a: "Request a Quote"
-    //    acodus_awards_a: "Try Chapter 1 for Free"
-    //    speech_bubble_testimonial_2_blockquote: "It’s the most accessible programming site I’ve seen as of yet. I appreciate the story that goes with Ozaria, as it aligns with a mission my students can empathize with. Frankly, I love it. In fact, I found myself playing for far longer than I wish to admit last weekend!"
-    //    shareable_resources_header: "Shareable Resources"
-    //    shareable_resources_p: "Share the resources below with teachers, administrators, and others involved in bringing Computer Science to your school or expanding offerings already in place."
-    //    shareable_resources_a: "Download Flyer"
-    //    back_cta_2_a: "Try Chapter 1 for Free"
-    //    faq_header: "Frequently Asked Questions"
-    //    faq_row1_header: "How is Ozaria related to CodeCombat?"
-    //    faq_row1_p: "Ozaria is the classroom-centered evolution of CodeCombat, one of the most popular coding games in history. We built Ozaria based off the insights gained from teaching over 20 million learners Python and JavaScript. Ozaria incorporates new pedagogical models, an immersive story-driven narrative, and was designed to be implemented in classrooms, for both in-person and remote learning settings."
-    //    faq_row2_header: "What ages or grades are appropriate for Ozaria?"
-    //    faq_row2_p: "Ozaria is aligned to the CSTA and ISTE middle school CS standards, but has been practiced and enjoyed by students ranging from upper elementary through high school."
-    //    faq_row3_header: "How much does it cost to access all of the available units and resources?"
-    //    faq_row3_p_part1: "We customize solutions for schools and districts and work with you to understand your use case, context, and budget. "
-    //    faq_row3_p_part2: " for further details! We also provide a "
-    //    faq_row3_p_part3: "funding resources guide"
-    //    faq_row3_p_part4: " for school and district CS programs."
-    //    faq_row4_header: "Does Ozaria have project-based learning?"
-    //    faq_row4_p: "Yes. Ozaria incorporates shareable Capstone Projects at the end of each Chapter, where students create their own games. These projects serve as summative assessments and are great ways for students to express themselves and demonstrate their learnings to classmates, friends, and family."
-    //    faq_row5_header: "Can I use Ozaria as my class’s main curriculum?"
-    //    faq_row5_p: "Absolutely! Ozaria has everything you need to run a full Computer Science class, even if you don't have a Computer Science background. From lesson plans and solution guides to project rubrics and built-in standards alignment, it's all here."
-    //    faq_row6_p_part1: "If you have any other questions, please "
-    //    see_faq_prefix: "See more"
-    //    see_faq_link: "frequently asked questions in our help center"
-    //    see_faq_suffix: "."
-    //    summary: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world."
-    //    value_prop1_h1: "Epic Story. Immersive Gameplay."
-    //    value_prop1_h2: "Inspire a deeper connection to learning"
-    //    value_prop1_p: "In Ozaria, students find themselves embedded in a new world where they master core computer science concepts to progress within the game. The unfolding narrative creates a powerful student-centered learning experience, with each student’s investment in Ozaria’s story paralleling the investment they are making in their own learning journey."
-    //    value_prop2_h1: "Discover the Hero within Every Student"
-    //    value_prop2_h2: "Build real skills through play"
-    //    value_prop2_p: "Concepts and skills are introduced via a thoughtfully-designed content progression that includes game levels, instructional character dialogue, cutscenes, and more. Students learn to type Python or JavaScript, problem-solve using computational thinking, demonstrate understanding through formative assessments, and apply what they learn by making their own projects."
-    //    value_prop3_h1: "Start Your Journey For Free"
-    //    value_prop3_p: "Teach through adventure with free content covering introductory computer science concepts, plus access to implementation guides and lesson plans."
-    //    projects_inspire_heading: "Projects that Inspire. Resources that Empower."
-    //    student_creativity: "Unleash Student Creativity"
-    //    student_creativity_paragraph: "At the end of each unit, students apply what they've learned by creating projects, from games to choose-your-own adventure stories and more. Built with scaffolded goals, yet allowing for limitless ideation, students build a shareable and playable portfolio of work that showcases their creative identity."
-    //    teach_with_support: "Teach with Support"
-    //    teach_with_support_paragraph: "Ozaria is built for educators. Each unit throughout the curriculum has a lesson plan that outlines learning objectives, common student misconceptions, key terms, and CSTA standards. In addition, a comprehensive teacher dashboard helps teachers to track student progress and check student code."
-    //    request_demo: "Request a Demo"
-    //    im_an_educator: "I'm an Educator"
-    //    im_a_student: "I'm a Student"
-    //    global_title: "Join Our Global Community of Learners and Educators"
-    //    global_subtitle1: "Learners"
-    //    global_subtitle2: "Lines of Code"
-    //    global_subtitle3: "Teachers"
-    //    global_subtitle4: "Countries"
-    //    sign_up: "Sign Up"
-    //    individual_account_warning: "You are logged in as __name__, which is an individual account. Ozaria is for teacher and student accounts only; do you need to update your account?"
-    //    learner_number: "12 Million"
-    //    code_line_number: "1 Billion"
-    //    dei_initiatives: "What initiatives does Ozaria have to ensure diversity, equity, and inclusion in the game?"
-    //    dei_initiatives_blurb: "Ozaria is dedicated to promoting diversity, equity, and inclusion (DEI) within the game. Through diverse character representation, equitable opportunities, and an inclusive environment, Ozaria embraces differences and fosters a welcoming experience for players of all backgrounds and abilities. Explore our __deipage__ to learn more about our commitment and initiatives towards DEI in Ozaria."
-    //    dei_page: "DEI page"
-    //    ozaria_efficacy: "How does Ozaria measure and demonstrate its effectiveness in improving learning outcomes in the classroom?"
-    //    ozaria_efficacy_blurb: "We prioritize effectiveness through evidence-based practices and assessment. Our __efficacypage__ offers detailed statistics, real teacher quotes, and compelling case studies demonstrating the transformative impact of Ozaria. By creating meaningful learning experiences and employing evidence-based practices, we design content that delivers the outcomes that matter most to teachers and students."
-    //    efficacy_page: "efficacy page"
-    //    social_learning: "Does Ozaria promote social and emotional learning (SEL)?"
-    //    social_learning_blurb: "Yes! Ozaria actively integrates social and emotional learning (SEL) into its curriculum. Through gamified activities, students develop essential skills such as decision-making, self-awareness, self-management, social awareness, relationship skills, and responsible decision-making. You can learn more about our philosophy on our __selpage__."
-    //    sel_page: "SEL page"
+    ozaria_home: {
+      subtitle: '[AI_TRANSLATION]Ciências da Computação que Cativam',
+      heading_subtitle: '[AI_TRANSLATION]Uma aventura de codificação para estudantes e a tua solução turnkey para ensinar Ciências da Computação.',
+      item_list_p: '[AI_TRANSLATION]Experimenta o Capítulo 1 Grátis Hoje!',
+      engaging_heading_corner: '[AI_TRANSLATION]Uma solução para Engajar Estudantes e Apoiar Professores.',
+      //    engaging_row1_h2: "Easy Implementation",
+      engaging_row1_p: '[AI_TRANSLATION]Mesmo sem experiência em programação, podes ensinar um currículo completo de Ciência da Computação com o Ozaria. Os nossos planos de aula prontos a usar e o painel intuitivo fornecer-te-ão as ferramentas que precisas para estar preparado para ensinar no primeiro dia.',
+      engaging_row2_h2: '[AI_TRANSLATION]Jogabilidade Imersiva  ',
+      engaging_row2_p: '[AI_TRANSLATION]Os alunos são imersos num jogo de aventura em que o seu conhecimento de Ciências da Computação avança com a história. Neste ambiente de aprendizagem envolvente, os alunos desenvolvem habilidades reais através do poder do jogo.',
+      engaging_row3_h2: '[AI_TRANSLATION]Currículo Alinhado a Padrões',
+      engaging_row3_p: '[AI_TRANSLATION]Ozaria atende aos padrões CSTA e ISTE, permitindo que ensines com confiança enquanto os teus alunos dominam conceitos básicos de Ciências da Computação, desenvolvem habilidades de pensamento computacional e aprendem sobre a relevância da Ciência da Computação nas suas vidas diárias.',
+      pd_blurb: '[AI_TRANSLATION]Aprende as habilidades para ensinar informática de forma eficaz com o nosso curso autodirigido e acreditado pelo CSTA de __pd__. Ganha até 40 horas de crédito a qualquer momento, de qualquer dispositivo.',
+      back_cta_1_a: '[AI_TRANSLATION]Experimenta o Capítulo 1 Grátis',
+      speech_bubble_testimonial_1_blockquote: '[AI_TRANSLATION]Mais uma vez, a tua equipa conseguiu alcançar o Santo Graal do Edutainment. Na minha opinião, como educador veterano de Escola Secundária com 26 anos de experiência, não há recurso mais envolvente para ensinar programação.',
+      core_curriculum_header: '[AI_TRANSLATION]Currículo Central de Ciência da Computação',
+      core_curriculum_p: '[AI_TRANSLATION]Desenvolvemos o nosso modelo instrucional com base em teorias comprovadas e extensas evidências sobre como os alunos aprendem melhor.',
+      core_curriculum_carousel_item1_header: '[AI_TRANSLATION]Fazer Conexões',
+      core_curriculum_carousel_item1_p: '[AI_TRANSLATION]No início de cada módulo, usa os nossos diapositivos de aula prontos a usar para ajudar os teus alunos a fazer a ligação entre novos conceitos de Ciência da Computação e exemplos relevantes do dia-a-dia.',
+      core_curriculum_carousel_item2_header: '[AI_TRANSLATION]Construir Significado Próprio',
+      core_curriculum_carousel_item2_p: '[AI_TRANSLATION]A seguir, guia os teus alunos na construção de uma compreensão mais profunda de novos conceitos através de atividades desconectadas e discussões que estão integradas nos nossos planos de aula.',
+      core_curriculum_carousel_item3_header: '[AI_TRANSLATION]Aprende Novos Conceitos',
+      core_curriculum_carousel_item3_p: '[AI_TRANSLATION]Na terceira fase do ciclo de aprendizagem, os teus alunos vão aprender novos conceitos através de diálogos expositivos entre personagens na história de Ozaria. Voz-off, gráficos e animações tornam a absorção de nova informação ainda mais acessível e divertida.',
+      core_curriculum_carousel_item4_header: '[AI_TRANSLATION]Aplicar Novos Conhecimentos',
+      core_curriculum_carousel_item4_p: '[AI_TRANSLATION]A seguir, os teus alunos vão pôr o que aprenderam em prática ao escrever Python ou JavaScript real para resolver uma variedade de desafios em níveis de jogo estruturados. Dicas embutidas ajudam os alunos a identificar e corrigir bugs, levando a uma maior confiança na codificação.',
+      core_curriculum_carousel_item5_header: '[AI_TRANSLATION]Projeto de Soma',
+      core_curriculum_carousel_item5_p: '[AI_TRANSLATION]No final de cada capítulo, os teus alunos serão desafiados a mostrar as novas habilidades e a expressar a criatividade através de projetos sumativos, nos quais constroem os próprios jogos, histórias e mais.',
+      core_curriculum_scope_sequence: '[AI_TRANSLATION]Ver Abrangência & Sequência',
+      core_curriculum_sample_lesson_slides: '[AI_TRANSLATION]Ver Exemplos de Slides da Lição',
+      global_community_header: '[AI_TRANSLATION]Junta-te à Nossa Comunidade Global',
+      //    global_community_row1_p: "Learners",
+      //    global_community_row2_p: "Lines of Code",
+      //    global_community_row3_p: "Teachers",
+      //    global_community_row4_p: "Countries",
+      admin_dashboard_header: '[AI_TRANSLATION]Dashboards Abrangentes para Professores & Administradores',
+      admin_dashboard_p: '[AI_TRANSLATION]Criado com o feedback de mais de 140.000 educadores da nossa comunidade, Ozaria aborda os desafios de ensinar Ciência da Computação, fornecendo ferramentas e recursos que funcionam.',
+      admin_dashboard_row1_p: '[AI_TRANSLATION]O Dashboard de Professor intuitivo fornece acesso a planos de aula para os alunos, guias de ritmo, estratégias de aprendizado à distância e outros recursos para apoiar as tuas necessidades.',
+      admin_dashboard_row2_p: '[AI_TRANSLATION]A página de Acompanhamento de Progresso permite monitorizar o progresso dos estudantes de forma contínua, obter informações valiosas sobre o desempenho deles e identificar imediatamente se são necessárias intervenções.',
+      //    admin_dashboard_row3_a: "Request a Quote",
+      acodus_awards_a: '[AI_TRANSLATION]Experimenta o Capítulo 1 Grátis',
+      speech_bubble_testimonial_2_blockquote: '[AI_TRANSLATION]É o site de programação mais acessível que já vi até agora. Gosto da história que vem com o Ozaria, pois alinha-se com uma missão com a qual os meus alunos podem empatizar. Francamente, adoro-o. Na verdade, no último fim de semana, acabei a jogar por muito mais tempo do que gostaria de admitir!',
+      shareable_resources_header: '[AI_TRANSLATION]Recursos Partilháveis',
+      shareable_resources_p: '[AI_TRANSLATION]Partilhar os recursos abaixo com professores, administradores, e outros envolvidos na introdução da Ciência da Computação na tua escola ou expandir as ofertas já existentes.',
+      shareable_resources_a: '[AI_TRANSLATION]Download Flyer',
+      back_cta_2_a: '[AI_TRANSLATION]Experimenta o Capítulo 1 Grátis',
+      faq_header: '[AI_TRANSLATION]Perguntas Frequentes',
+      faq_row1_header: '[AI_TRANSLATION]Como a Ozaria está relacionada com o CodeCombat?',
+      faq_row1_p: '[AI_TRANSLATION]Ozaria é a evolução centrada na sala de aula do CodeCombat, um dos jogos de codificação mais populares da história. Construímos Ozaria com base nos insights obtidos ao ensinar Python e JavaScript a mais de 20 milhões de aprendizes. Ozaria incorpora novos modelos pedagógicos, uma narrativa imersiva e foi desenhado para ser implementado em salas de aula, tanto presenciais quanto em ambientes de aprendizagem remota.',
+      faq_row2_header: '[AI_TRANSLATION]Para que idades ou anos é apropriado o Ozaria?',
+      faq_row2_p: '[AI_TRANSLATION]Ozaria está alinhada com os padrões de Ciências da Computação (CS) da CSTA e da ISTE para o ensino básico, embora tenha sido praticada e apreciada por estudantes desde o ensino básico primário até ao secundário.',
+      faq_row3_header: '[AI_TRANSLATION]Quanto custa aceder a todas as unidades e recursos disponíveis?',
+      faq_row3_p_part1: '[AI_TRANSLATION]Personalizamos soluções para escolas e distritos e trabalhamos contigo para entender o teu caso de uso, contexto, e orçamento.',
+      faq_row3_p_part2: '[AI_TRANSLATION]para mais detalhes! Também fornecemos',
+      faq_row3_p_part3: '[AI_TRANSLATION]guia de recursos de financiamento',
+      faq_row3_p_part4: '[AI_TRANSLATION]para programas escolares e distritais de CS.',
+      faq_row4_header: '[AI_TRANSLATION]O Ozaria tem aprendizagem baseada em projetos?',
+      faq_row4_p: '[AI_TRANSLATION]Sim. Ozaria incorpora Projetos Capstone partilháveis no final de cada capítulo, onde os alunos criam os seus próprios jogos. Estes projetos servem como avaliações sumativas e são uma ótima maneira para os alunos se expressarem e demonstrarem os seus conhecimentos aos colegas, amigos e família.',
+      faq_row5_header: '[AI_TRANSLATION]Posso usar Ozaria como o currículo principal da minha turma?',
+      faq_row5_p: '[AI_TRANSLATION]Claro! O Ozaria tem tudo o que precisas para dar uma aula completa de Ciências da Computação, mesmo que não tenhas formação nessa área. De planos de aulas e guias de soluções a rubricas de projetos e alinhamento com padrões integrados, está tudo aqui.',
+      faq_row6_p_part1: '[AI_TRANSLATION]Se tiveres mais alguma questão, por favor',
+      see_faq_prefix: '[AI_TRANSLATION]Ver mais',
+      see_faq_link: '[AI_TRANSLATION]perguntas frequentes no nosso centro de ajuda',
+      //    see_faq_suffix: ".",
+      //    summary: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world.",
+      value_prop1_h1: '[AI_TRANSLATION]História Épica. Jogabilidade Imersiva.',
+      value_prop1_h2: '[AI_TRANSLATION]Inspira uma ligação mais profunda com o aprendizado',
+      value_prop1_p: '[AI_TRANSLATION]Em Ozaria, os alunos encontram-se inseridos num novo mundo onde dominam os conceitos principais de ciência da computação para progredir no jogo. A narrativa que se desenrola cria uma experiência de aprendizagem centrada no aluno, com o investimento de cada aluno na história de Ozaria a refletir o investimento que estão a fazer na sua própria jornada de aprendizagem.',
+      value_prop2_h1: '[AI_TRANSLATION]Descobre o Herói em Cada Estudante',
+      value_prop2_h2: '[AI_TRANSLATION]Constrói habilidades reais através do jogo.',
+      value_prop2_p: '[AI_TRANSLATION]Conceitos e habilidades são introduzidos através de uma progressão de conteúdo bem desenhada que inclui níveis de jogo, diálogos de personagens instrucionais, cenas cinematográficas, e mais. Os alunos aprendem a digitar Python ou JavaScript, resolver problemas usando pensamento computacional, demonstrar entendimento através de avaliações formativas, e aplicar o que aprendem criando seus próprios projetos.  ',
+      value_prop3_h1: '[AI_TRANSLATION]Começa a Tua Jornada Gratuitamente',
+      value_prop3_p: '[AI_TRANSLATION]Ensina através de aventuras com conteúdo gratuito cobrindo conceitos introdutórios de ciência da computação, além de acesso a guias de implementação e planos de aula.',
+      projects_inspire_heading: '[AI_TRANSLATION]Projetos que Inspiram. Recursos que Empoderam.',
+      student_creativity: '[AI_TRANSLATION]Libertar a Criatividade dos Estudantes',
+      student_creativity_paragraph: '[AI_TRANSLATION]No final de cada unidade, os alunos aplicam o que aprenderam criando projetos, desde jogos até histórias de aventura em que escolhem o próprio caminho e mais. Construídos com objetivos escalonados, mas permitindo ideação ilimitada, os alunos constroem um portfólio partilhável e jogável que mostra a sua identidade criativa.',
+      teach_with_support: '[AI_TRANSLATION]Ensina com Suporte',
+      teach_with_support_paragraph: '[AI_TRANSLATION]Ozaria é feita para educadores. Cada unidade ao longo do currículo tem um plano de aula que detalha objetivos de aprendizagem, equívocos comuns dos alunos, termos-chave e padrões CSTA. Além disso, um painel de controlo abrangente para professores ajuda a acompanhar o progresso dos alunos e verificar o código dos alunos.  ',
+      //    request_demo: "Request a Demo",
+      //    im_an_educator: "I'm an Educator",
+      //    im_a_student: "I'm a Student",
+      //    global_title: "Join Our Global Community of Learners and Educators",
+      //    global_subtitle1: "Learners",
+      //    global_subtitle2: "Lines of Code",
+      //    global_subtitle3: "Teachers",
+      //    global_subtitle4: "Countries",
+      //    sign_up: "Sign Up",
+      individual_account_warning: '[AI_TRANSLATION]Estás ligado como __name__, que é uma conta individual. Ozaria é apenas para contas de professores e alunos; precisas de atualizar a tua conta?',
+      learner_number: '[AI_TRANSLATION]12 Milhões',
+      code_line_number: '[AI_TRANSLATION]1 Bilhão',
+      dei_initiatives: '[AI_TRANSLATION]Que iniciativas tem Ozaria para garantir diversidade, equidade e inclusão no jogo?',
+      dei_initiatives_blurb: '[AI_TRANSLATION]Ozaria é dedicado a promover diversidade, equidade e inclusão (DEI) dentro do jogo. Através de uma representação diversificada de personagens, oportunidades equitativas e um ambiente inclusivo, Ozaria abraça as diferenças e proporciona uma experiência acolhedora para jogadores de todas as origens e capacidades. Explora a nossa __deipage__ para saberes mais sobre o nosso compromisso e iniciativas em relação a DEI em Ozaria.',
+      dei_page: '[AI_TRANSLATION]Página DEI',
+      ozaria_efficacy: '[AI_TRANSLATION]Como a Ozaria mede e demonstra a sua eficácia em melhorar os resultados de aprendizagem na sala de aula?',
+      ozaria_efficacy_blurb: '[AI_TRANSLATION]Priorizamos a eficácia através de práticas baseadas em evidências e avaliações. A nossa __efficacypage__ oferece estatísticas detalhadas, citações reais de professores e estudos de caso convincentes demonstrando o impacto transformador do Ozaria. Ao criar experiências de aprendizagem significativas e empregar práticas baseadas em evidências, desenhamos conteúdos que entregam os resultados que mais importam aos professores e alunos.',
+      efficacy_page: '[AI_TRANSLATION]página de eficiência',
+      social_learning: '[AI_TRANSLATION]O Ozaria promove a aprendizagem social e emocional (SEL)?',
+      social_learning_blurb: '[AI_TRANSLATION]Sim! Ozaria integra ativamente a aprendizagem social e emocional (SEL) no seu currículo. Através de atividades gamificadas, os alunos desenvolvem competências essenciais como a tomada de decisão, autoconsciência, autogestão, consciência social, competências de relacionamento e tomada de decisões responsáveis. Podes saber mais sobre a nossa filosofia na nossa __selpage__.',
+      sel_page: '[AI_TRANSLATION]página SEL',
+    },
 
     new_home: {
       title_coco: 'CodeCombat - Jogos de programação para aprender Python e JavaScript',
       title_ozar: 'CodeCombat - Jogos de programação para aprender Python e JavaScript',
-      //    title_cn_home: "CodeCombat|Python, Javascript"
+      title_cn_home: '[AI_TRANSLATION]CodeCombat|Python, Javascript',
       meta_keywords_coco: 'CodeCombat, python, javascript, Jogos de programação',
       meta_keywords_ozar: 'CodeCombat, python, javascript, Jogos de programação',
       meta_description_coco: 'Aprende a digitar código através de um jogo de programação. Aprende Python, JavaScript, e HTML como se resolvesses puzzles e aprende a fazer os teus próprios jogos de programação e páginas web.',
@@ -133,14 +132,14 @@ module.exports = {
       century_skills_subtitle3: 'Colaboração',
       century_skills_subblurb3: 'Ao longo do jogo, há oportinudades para os alunos colaborarem quando ficam encalhados e trabalharem em conjunto usando o nosso guia de programação em parcería.',
       century_skills_quote4: 'Sempre tive a ambição de criar video jogos e aprender como programar ... isto oferece-me um excelente ponto de partida.',
-      //    century_skills_quote4_author: "Joey, 10th Grade"
+      century_skills_quote4_author: '[AI_TRANSLATION]Joey, 10º Ano',
       century_skills_subtitle4: 'Comunicação',
       century_skills_subblurb4: 'Programar requer que as crianças pratiquem novas formas de comunicação, incluindo comunicar com o computador e transportar as suas ideias utilizando o código mais eficiente.',
       classroom_in_box_title: 'Nós esforçamo-nos para:',
       classroom_in_box_blurb1: 'Cativar todos os alunos de forma a que acreditem que programar também é para eles.',
       classroom_in_box_blurb2: 'Permitir a qualquer professor sentir-se confiante quando ensina a programar.',
       classroom_in_box_blurb3: 'Inspirar todos os líderes escolares a criar um programa de ciências da computação de classe mundial.',
-      //    classroom_in_box_blurb4: "" # only for koudashijie.com
+      //    classroom_in_box_blurb4: "",
       click_here: 'Clique aqui',
       creativity_rigor_title: 'Onde a Criatividade Encontra o Rigor',
       creativity_rigor_subtitle1: 'Tornar a programação divertida e ensinar habilidades do mundo real',
@@ -151,7 +150,7 @@ module.exports = {
       creativity_rigor_blurb3: 'O currículo autogerido e alinhado com as normas do CodeCombat torna o ensino das ciências da computação acessível a todos. CodeCombat fornece aos professores a formação, os recursos didácticos e o apoio dedicado para se sentirem confiantes e bem sucedidos na sala de aula.',
       featured_partners_title1: 'Apresentado em',
       featured_partners_title2: 'Prémios e Parceiros',
-      featured_partners_blurb1: 'Fornecedor endossado pelo CollegeBoard', // {change}
+      featured_partners_blurb1: 'Fornecedor endossado pelo CollegeBoard',
       featured_partners_blurb2: 'Melhor Ferramenta de Criatividade para Estudantes',
       featured_partners_blurb3: 'Escolha superior para aprendizagem',
       featured_partners_blurb4: 'Parceiro Oficial do Code.org',
@@ -164,7 +163,7 @@ module.exports = {
       for_leaders_subtitle2: 'Curriculum de Programação Completo',
       for_leaders_subblurb2: 'Um currículo alinhado com as normas, com recursos instrucionais e desenvolvimento profissional para permitir que qualquer professor possa ensinar informática.',
       for_leaders_subtitle3: 'Casos de Utilização Flexível',
-      for_leaders_subblurb3: 'Quer pretendas aprender a programar de uma forma elegível para o Ensino Secundário, ou curso Técnico-profissional, o CodeCombat é adaptado às tuas necessidades.', // {change}
+      for_leaders_subblurb3: 'Quer pretendas aprender a programar de uma forma elegível para o Ensino Secundário, ou curso Técnico-profissional, o CodeCombat é adaptado às tuas necessidades.',
       for_leaders_subtitle4: 'Competências para o mundo real',
       for_leaders_subblurb4: 'Os estudantes desenvolvem uma mentalidade de crescimento através de desafios de programação que os preparam para os trabalhos de computação existentes no mercado.',
       for_teachers_title: 'Para Professores',
@@ -186,54 +185,54 @@ module.exports = {
       global_subtitle4: 'Países',
       go_to_my_classes: 'Vai às minhas aulas',
       go_to_my_courses: 'Vai aos meus cursos',
-      quotes_quote1: 'Diga o nome de qualquer programa online, já o experimentei. Nenhum deles se compara ao CodeCombat. Qualquer professor que queira que os seus alunos aprendam a programar... deve começar aqui!', // {change}
+      quotes_quote1: 'Diga o nome de qualquer programa online, já o experimentei. Nenhum deles se compara ao CodeCombat. Qualquer professor que queira que os seus alunos aprendam a programar... deve começar aqui!',
       quotes_quote2: 'Fiquei surpreendido com a forma como o CodeCombat se torna tão intuitivo e facilita a aprendizagem da programação. As notas que tirei no exame foram muito mais altas do que estava à espera e acredito que o CodeCombat é responsável por isso.',
       quotes_quote3: 'CodeCombat tem sido o mais benéfico para ensinar aos meus alunos competências de programação práticas. O meu marido é engenheiro de software e já testou todos os meus programas. Ele colocou este jogo como a sua melhor escolha.',
       quotes_quote4: 'O feedback ... tem sido tão positivo que estamos a estruturar uma aula de Ciência da Computação em torno do CodeCombat. O programa envolve efectivamente os alunos, com uma plataforma de estilo de jogo que é divertida e instrutiva ao mesmo tempo. Continuem o bom trabalho, CodeCombat!',
-      //    quotes_quote5: "Even though the class starts every Saturday at 7am, my son is so excited that he wakes up before me! CodeCombat creates a pathway for my son to advance his coding skills."
-      //    quotes_quote5_author: "Latthaphon Pohpon, Parent"
+      quotes_quote5: '[AI_TRANSLATION]Embora a aula comece todos os sábados às 7h, o meu filho está tão entusiasmado que acorda antes de mim! O CodeCombat cria um caminho para o meu filho melhorar as suas habilidades de programação.',
+      quotes_quote5_author: '[AI_TRANSLATION]Latthaphon Pohpon, Pai',
       see_example: 'Ver exemplo',
-      slogan: 'A forma mais cativante de aprender código real.', // {change}
-      //    slogan_power_of_play: "Learn to Code Through the Power of Play"
+      slogan: 'A forma mais cativante de aprender código real.',
+      slogan_power_of_play: '[AI_TRANSLATION]Aprende a Programar Através do Poder do Jogo',
       teach_cs1_free: 'Ensinar CS1 Grátis',
       teachers_love_codecombat_title: 'Os professores adoram o CodeCombat',
       teachers_love_codecombat_blurb1: 'Informar que os seus alunos gostam de utilizar o CodeCombat para aprender a programar',
       teachers_love_codecombat_blurb2: 'Recomendaria o CodeCombat a outros professores de ciências da computação',
       teachers_love_codecombat_blurb3: 'Dizer que o CodeCombat ajuda-os a apoiar as capacidades de resolução de problemas dos seus alunos',
       teachers_love_codecombat_subblurb: 'Em parceria com a McREL International, líder em orientação e avaliações de tecnologia educacional baseadas em investigação.',
-      //    top_banner_blurb: "Parents, give your child the gift of coding and personalized instruction with our live teachers!"
-      //    top_banner_summer_camp: "Enrollment now open for our summer coding camps–ask us about our week-long virtual sessions starting at just $199."
-      //    top_banner_blurb_pd: "We now offer professional development for educators."
-      //    top_banner_blurb_funding: "New: CARES Act funding resources guide to ESSER and GEER funds for your CS programs."
-      //    top_banner_blurb_maintenance: "Upgrades coming! Scheduled maintenance: up to 3 hours starting at __maintenanceStartTime__."
-      //    top_banner_blurb_podcast: "NEW: Explore the world of EdTech with our new podcast EdTech Adventures."
-      //    top_banner_blurb_roblox: "NEW! CodeCombat is coming to Roblox!"
-      //    top_banner_blurb_roblox_teachers: "NEW! CodeCombat has partnered with Roblox Education!"
-      //    top_banner_blurb_roblox_players: "NEW! Learn to code while playing Roblox!"
-      //    top_banner_blurb_roblox_players_cta: "Join Beta Waitlist"
-      //    top_banner_blurb_live_online_classes_parents: "PARENTS! Get your child coding today with a free trial class."
-      //    top_banner_blurb_live_online_classes: "Live online coding classes powered by play!"
-      //    top_banner_blurb_live_online_classes_cta: "Sign up for a free trial class!"
-      //    top_banner_blurb_demo_day: "Please join us for a demo day webinar on Thursday, August 25 at 4:00 pm EDT."
-      //    top_banner_blurb_demo_day_10_20: "Join us for a spooktacular demo of CodeCombat & Ozaria on Thursday, October 20 at 4:00 pm CDT."
-      //    top_banner_blurb_hoc_2022_12_01: "Join us Dec. 1st for our Hour of Code Walkthrough! Everything you need to implement our all new activities __topBannerHereLink__"
-      //    top_banner_blurb_hoc_2022_12_01_here: "HERE"
-      //    top_banner_blurb_demo_day_2023_02_16: "LIVE DEMO! See how you can use esports to teach coding. Join us Thursday February 16th at 2:00 pm PST."
+      top_banner_blurb: '[AI_TRANSLATION]Pais, ofereçam aos vossos filhos o presente da programação e instrução personalizada com os nossos professores ao vivo!',
+      top_banner_summer_camp: '[AI_TRANSLATION]Inscrições abertas para os nossos campos de férias de codificação - pergunta-nos sobre as nossas sessões virtuais de uma semana a partir de apenas $199.',
+      top_banner_blurb_pd: '[AI_TRANSLATION]Agora oferecemos desenvolvimento profissional para educadores.',
+      top_banner_blurb_funding: '[AI_TRANSLATION]Novo: guia de recursos de financiamento da Lei CARES para fundos ESSER e GEER para os teus programas de ciências da computação.',
+      top_banner_blurb_maintenance: '[AI_TRANSLATION]Melhorias a caminho! Manutenção programada: até 3 horas a partir de __maintenanceStartTime__.',
+      top_banner_blurb_podcast: '[AI_TRANSLATION]NOVO: Explora o mundo do EdTech com o nosso novo podcast EdTech Adventures.  ',
+      top_banner_blurb_roblox: '[AI_TRANSLATION]NOVO! CodeCombat está a chegar à Roblox!',
+      top_banner_blurb_roblox_teachers: '[AI_TRANSLATION]NOVO! CodeCombat fez parceria com a Roblox Education!',
+      top_banner_blurb_roblox_players: '[AI_TRANSLATION]NOVO! Aprende a programar enquanto jogas Roblox!',
+      top_banner_blurb_roblox_players_cta: '[AI_TRANSLATION]Junta-te à Lista de Espera Beta',
+      top_banner_blurb_live_online_classes_parents: '[AI_TRANSLATION]PAIS! Ponham o vosso filho a programar hoje com uma aula de teste gratuita.',
+      top_banner_blurb_live_online_classes: '[AI_TRANSLATION]Aulas de programação online ao vivo com diversão!',
+      top_banner_blurb_live_online_classes_cta: '[AI_TRANSLATION]Regista-te para uma aula experimental gratuita!',
+      top_banner_blurb_demo_day: '[AI_TRANSLATION]Junta-te a nós para um webinar de dia de demonstração na quinta-feira, 25 de agosto, às 16h EDT.',
+      top_banner_blurb_demo_day_10_20: '[AI_TRANSLATION]Junta-te a nós para uma demo assombrosa de CodeCombat & Ozaria na quinta-feira, 20 de outubro às 16:00 CDT.',
+      top_banner_blurb_hoc_2022_12_01: '[AI_TRANSLATION]Junta-te a nós a 1 de dezembro para a nossa Hora do Código! Tudo o que precisas para implementar as nossas novas atividades __topBannerHereLink__',
+      top_banner_blurb_hoc_2022_12_01_here: '[AI_TRANSLATION]AQUI',
+      top_banner_blurb_demo_day_2023_02_16: '[AI_TRANSLATION]DEMO AO VIVO! Vê como podes usar os esports para ensinar programação. Junta-te a nós Quinta-feira, 16 de Fevereiro às 14:00 PST.',
       try_the_game: 'Experimenta o jogo',
       classroom_edition: 'Edição de Turma:',
       learn_to_code: 'Aprender a programar:',
       play_now: 'Jogar Agora',
-      //    im_a_parent: "I'm a Parent"
-      //    im_a_parent_description: "Explore our live online coding classes"
+      im_a_parent: '[AI_TRANSLATION]Sou um Pai/Mãe.',
+      im_a_parent_description: '[AI_TRANSLATION]Explora as nossas aulas de programação online ao vivo',
       im_an_educator: 'Sou Educador',
-      //    im_an_educator_description: "Teach Computer Science with CodeCombat"
+      im_an_educator_description: '[AI_TRANSLATION]Ensina Ciência da Computação com CodeCombat',
       im_a_teacher: 'Sou um Professor',
       im_a_student: 'Sou um Estudante',
-      //    im_a_student_description: "Learn Computer Science with your class"
-      //    im_an_individual: "I'm an Individual"
-      //    im_an_individual_description: "Play at home outside of a class setting"
+      im_a_student_description: '[AI_TRANSLATION]Aprende Ciência da Computação com a tua turma',
+      im_an_individual: '[AI_TRANSLATION]Sou um Indivíduo.',
+      im_an_individual_description: '[AI_TRANSLATION]Joga em casa fora de um ambiente de aula',
       learn_more: 'Saber mais',
-      //    check_it_out: "Check it out!"
+      check_it_out: '[AI_TRANSLATION]Dá uma olhada!\n',
       classroom_in_a_box: 'Uma turma num pacote para ensinar ciências da computação.',
       codecombat_is: 'O CodeCombat é uma plataforma <strong>para estudantes</strong> para aprender ciências da computação enquanto se joga um jogo real.',
       our_courses: 'Os nossos cursos foram especificamente testados para <strong>terem sucesso na sala de aula</strong>, até para professores com pouca ou nenhuma experiência anterior de programação.',
@@ -292,69 +291,69 @@ module.exports = {
       want_coco: 'Queres o CodeCombat na tua escola?',
       educator: 'Educador/Formador',
       student: 'Estudante',
-      //    go_to_my_dashboard: "Go to My Dashboard"
+      go_to_my_dashboard: '[AI_TRANSLATION]Vai para o Meu Painel.',
       our_coding_programs: 'Os nossos cursos de programação',
       codecombat: 'CodeCombat',
       ozaria: 'Ozaria',
       codecombat_blurb: 'O nosso jogo tradicional de programação. Recomendado para pais, particulares, formadores, e estudantes que queiram experimentar um dos jogos de programação mais amados do mundo.',
       ozaria_blurb: 'Um jogo de aventura e programa de Ciência da Computação onde os estudantes dominam a magia perdida da programação para salvar o seu mundo. Recomendado para professores e estudantes.',
-      //    ozaria_china_blurb: ""
+      //    ozaria_china_blurb: "",
       try_codecombat: 'Experimenta CodeCombat',
-      try_ozaria: 'Experimenta Ozaria'
+      try_ozaria: 'Experimenta Ozaria',
+      explore_codecombat: '[AI_TRANSLATION]Explora o CodeCombat',
+      explore_ai_league: '[AI_TRANSLATION]Explora a AI League',
+      explore_ozaria: '[AI_TRANSLATION]Explora Ozaria',
+      explore_online_classes: '[AI_TRANSLATION]Explora Aulas Online',
+      explore_pd: '[AI_TRANSLATION]Explora Desenvolvimento Profissional',
+      new_adventure_game_blurb: '[AI_TRANSLATION]Ozaria é o nosso mais novo jogo de aventura e a tua solução completa para ensinar Ciências da Computação. Os nossos __slides__ para os alunos e as notas para os professores tornam a planificação e a entrega das aulas mais fáceis e rápidas.',
+      lesson_slides: '[AI_TRANSLATION]slides da lição',
+      pd_blurb: '[AI_TRANSLATION]Aprende as habilidades para ensinar informática de forma eficaz com o nosso curso de desenvolvimento profissional autodirigido, acreditado pela CSTA. Ganha até 40 horas de crédito a qualquer momento, de qualquer dispositivo. Combina bem com a Sala de Aula Ozaria.  ',
+      ai_league_blurb: '[AI_TRANSLATION]Programação competitiva nunca foi tão épica com esta liga educacional de esports, sendo unicamente um simulador de batalha de IA e um motor de jogo para aprender código real.',
+      codecombat_live_online_classes: '[AI_TRANSLATION]Aulas Online ao Vivo do CodeCombat',
+      learning_technology_blurb: '[AI_TRANSLATION]O nosso jogo original ensina competências do mundo real através do poder do jogo. O currículo estruturado constrói sistematicamente as experiências e conhecimentos dos alunos à medida que eles avançam.',
+      learning_technology_blurb_short: '[AI_TRANSLATION]A nossa tecnologia inovadora de aprendizagem baseada em jogos transformou a forma como os alunos aprendem a programar.  ',
+      online_classes_blurb: '[AI_TRANSLATION]As nossas aulas online de programação combinam o poder do jogo com instrução personalizada para uma experiência que o teu filho vai adorar. Com opções tanto privadas como em grupo, este é um ensino remoto que funciona.',
+      codecombat_home_blurb: '[AI_TRANSLATION]__codecombatHome__ oferece ao teu filho uma maneira divertida e envolvente de avançar nas suas habilidades de programação. Com acesso a mais de 530 níveis e recursos exclusivos como mascotes, itens apenas para premium e heróis, o teu filho pode se imergir totalmente no mundo da programação. Ele pode até mesmo projetar jogos para desafiar os amigos, criar sites e aplicativos para compartilhar e criar equipas privadas para competir em um placar coletivo, tudo em um ambiente seguro e interativo que incentiva a aprendizagem e a socialização.',
+      codecombat_home: '[AI_TRANSLATION]Página Inicial do CodeCombat',
+      for_educators: '[AI_TRANSLATION]Para Educadores',
+      for_parents: '[AI_TRANSLATION]Para Pais',
+      for_everyone: '[AI_TRANSLATION]Para Todos',
+      for_students: '[AI_TRANSLATION]Para Alunos',
+      for_individuals: '[AI_TRANSLATION]Para Indivíduos',
+      for_libraries: '[AI_TRANSLATION]Para Bibliotecas',
+      for_partners: '[AI_TRANSLATION]Para Parceiros',
+      for_partners_title: '[AI_TRANSLATION]Parceria com CodeCombat',
+      for_partners_blurb: '[AI_TRANSLATION]Junta-te à nossa missão de tornar a programação acessível e envolvente para todos, tornando-te um parceiro valorizado com a CodeCombat. As nossas estruturas de parceria incluem negócios educacionais, patrocinadores de esports, distribuidores internacionais e parceiros de impacto social. Os parceiros têm acesso a programas fáceis de usar, recursos de implementação e opções de formação para uma experiência bem-sucedida e agradável.',
+      for_partners_button: '[AI_TRANSLATION]Explora Parcerias',
+      for_libraries_title: '[AI_TRANSLATION]Integração da Biblioteca',
+      for_libraries_blurb: '[AI_TRANSLATION]Como um recurso digital totalmente autodidático e auto-dirigido, o CodeCombat é a melhor integração para bibliotecas que desejam capacitar os seus membros de todas as idades a aprender a programar. A nossa plataforma oferece tudo o que os aprendizes precisam para obter uma educação de programação de alto nível através de um currículo único e emocionante baseado em jogos. Perfeito para aprendizes desde a terceira classe até adultos que querem dominar conceitos de programação a nível universitário.\n',
+      for_libraries_button: '[AI_TRANSLATION]Explora Bibliotecas',
+      what_our_customers_are_saying: '[AI_TRANSLATION]O que os nossos clientes estão a dizer',
+      game_based_learning: '[AI_TRANSLATION]Aprendizagem Baseada em Jogos',
+      unique_approach_blurb: '[AI_TRANSLATION]Com a nossa abordagem única, os alunos abraçam a aprendizagem enquanto jogam e escrevem código desde o início da sua aventura, promovendo a aprendizagem ativa e uma mentalidade de crescimento.',
+      text_based_coding: '[AI_TRANSLATION]Codificação Baseada em Texto',
+      custom_code_engine_blurb: '[AI_TRANSLATION]O nosso motor de código personalizado e interpretador é projetado para iniciantes, ensinando as verdadeiras linguagens de programação Python, JavaScript e C++ usando termos simples e amigáveis para iniciantes.',
+      student_impact: '[AI_TRANSLATION]Impacto do Estudante',
+      help_enjoy_learning_blurb: '[AI_TRANSLATION]Os nossos produtos já ajudaram mais de 20 milhões de estudantes a gostar de aprender Ciências da Computação, ensinando-os a ser aprendizes críticos, confiantes e criativos. Envolvemos todos os alunos, independentemente da experiência, ajudando-os a encontrar um caminho de sucesso nas Ciências da Computação.\n',
+      global_community: '[AI_TRANSLATION]Junta-te à Nossa Comunidade Global',
+      million: '[AI_TRANSLATION]__num__ Milhão',
+      billion: '[AI_TRANSLATION]__num__ Bilião',
+      meta_keywords_podcast: '[AI_TRANSLATION]CodeCombat, python, javascript, Jogos de Programação, podcast, edtech',
+      coco_worlds_header: '[AI_TRANSLATION]Mundos do CodeCombat',
+      coco_worlds_description: '[AI_TRANSLATION]Embarca numa aventura de codificação 3D no Roblox, onde podes programar animais de estimação, jogar com amigos e desenvolver jogos enquanto jogas. Junta-te à comunidade CodeCombat e liberta a tua criatividade no metaverso!',
+      coco_worlds_button: '[AI_TRANSLATION]Explora os Mundos do CodeCombat',
     },
-    //    explore_codecombat: "Explore CodeCombat"
-    //    explore_ai_league: "Explore AI League"
-    //    explore_ozaria: "Explore Ozaria"
-    //    explore_online_classes: "Explore Online Classes"
-    //    explore_pd: "Explore Professional Development"
-    //    new_adventure_game_blurb: "Ozaria is our brand new adventure game and your turnkey solution for teaching Computer science. Our student-facing __slides__ and teacher-facing notes make planning and delivering lessons easier and faster."
-    //    lesson_slides: "lesson slides"
-    //    pd_blurb: "Learn the skills to effectively teach computer science with our self-directed, CSTA-accredited professional development course. Earn up to 40 credit hours any time, from any device. Pairs well with Ozaria Classroom."
-    //    ai_league_blurb: "Competitive coding has never been so epic with this educational esports league, uniquely both an AI battle simulator and game engine for learning real code."
-    //    codecombat_live_online_classes: "CodeCombat Live Online Classes"
-    //    learning_technology_blurb: "Our original game teaches real-world skills through the power of play. The scaffolded curriculum systematically builds on student’s experiences and knowledge as they progress."
-    //    learning_technology_blurb_short: "Our innovative game-based learning technology has transformed the way students learn to code."
-    //    online_classes_blurb: "Our online coding classes combine the power of gameplay and personalized instruction for an experience your child will love. With both private or group options available, this is remote learning that works."
-    //    codecombat_home_blurb: "__codecombatHome__ offers your child a fun and engaging way to advance their coding skills. With access to over 530 levels and exclusive features like pets, premium-only items, and heroes, your child can fully immerse themselves in the world of coding. They can even design games to challenge their friends, build websites and apps to share, and create private teams to compete on a group leaderboard, all in a safe and interactive environment that encourages learning and socialization."
-    //    codecombat_home: "CodeCombat Home"
-    //    for_educators: "For Educators"
-    //    for_parents: "For Parents"
-    //    for_everyone: "For Everyone"
-    //    for_students: "For Students"
-    //    for_individuals: "For Individuals"
-    //    for_libraries: "For Libraries"
-    //    for_partners: "For Partners"
-    //    for_partners_title: "Partner With CodeCombat"
-    //    for_partners_blurb: "Join our mission to make coding accessible and engaging for all by becoming a valued partner with CodeCombat. Our partnership structures include educational businesses, esports sponsors, international distributors, and social impact partners. Partners receive access to our easy-to-use programs, implementation resources, and training options for a successful and enjoyable experience."
-    //    for_partners_button: "Explore Partnerships"
-    //    for_libraries_title: "Library Integration"
-    //    for_libraries_blurb: "As an entirely self-paced and self-directed digital resource, CodeCombat is the best integration for libraries that want to empower their members of all ages to learn how to code. Our platform offers everything learners need to experience a high-level coding education through a uniquely exciting, game-based curriculum. Perfect for learners in third grade all the way up to adults who want to master college-level coding concepts."
-    //    for_libraries_button: "Explore Libraries"
-    //    what_our_customers_are_saying: "What Our Customers Are Saying"
-    //    game_based_learning: "Game-Based Learning"
-    //    unique_approach_blurb: "With our unique approach, students embrace learning as they play and write code from the very start of their adventure, promoting active learning and a growth mindset."
-    //    text_based_coding: "Text-Based Coding"
-    //    custom_code_engine_blurb: "Our custom code engine and interpreter is designed for beginners, teaching true Python, JavaScript, and C++ programming languages using human, beginner-friendly terms."
-    //    student_impact: "Student Impact"
-    //    help_enjoy_learning_blurb: "Our products have helped over 20 million students enjoy learning Computer Science, teaching them to be critical, confident, and creative learners. We engage all students, regardless of experience, helping them to realize a pathway to success in Computer Science."
-    //    global_community: "Join Our Global Community"
-    //    million: "__num__ Million"
-    //    billion: "__num__ Billion"
-    //    meta_keywords_podcast: "CodeCombat, python, javascript, Coding Games, podcast, edtech"
-    //    coco_worlds_header: "CodeCombat Worlds"
-    //    coco_worlds_description: "Embark on a 3D coding adventure in Roblox, where you can program pets, play with friends, and develop games all while playing one. Join the CodeCombat community and unleash your creativity in the metaverse!"
-    //    coco_worlds_button: "Explore CodeCombat Worlds"
 
     nav: {
-    //    aiyouth: "AI Youth"
+      aiyouth: '[AI_TRANSLATION]Juventude de IA',
       educators: 'Educadores/Formadores',
       follow_us: 'Segue-nos',
       general: 'Geral',
       map: 'Mapa',
-      play: 'Níveis', // The top nav bar entry where players choose which levels to play
+      play: 'Níveis',
       community: 'Comunidade',
       courses: 'Cursos',
-      //    units: "Units"
+      units: '[AI_TRANSLATION]Unidades',
       blog: 'Blog',
       forum: 'Fórum',
       account: 'Conta',
@@ -365,15 +364,15 @@ module.exports = {
       legal: 'Legal',
       privacy: 'Aviso de Privacidade',
       about: 'Sobre',
-      //    events: "Events"
-      //    impact: "Impact"
-      //    star: "CoCoStar"
+      events: '[AI_TRANSLATION]Eventos',
+      impact: '[AI_TRANSLATION]Impacto  ',
+      star: '[AI_TRANSLATION]CoCoStar',
       contact: 'Contactar',
-      //    press: "Press"
+      //    press: "Press",
       twitter_follow: 'Seguir',
       my_classrooms: 'As Minhas Turmas',
       my_courses: 'Os Meus Cursos',
-      //    my_units: "My Units"
+      my_units: '[AI_TRANSLATION]As Minhas Unidades',
       my_teachers: 'Os Meus Professores',
       careers: 'Carreiras',
       facebook: 'Facebook',
@@ -384,7 +383,7 @@ module.exports = {
       toggle_nav: 'Alternar navegação',
       schools: 'Escolas',
       get_involved: 'Envolve-te',
-      //    related_urls: "Related Links"
+      related_urls: '[AI_TRANSLATION]Links Relacionados',
       open_source: 'Open source (GitHub)',
       support: 'Suporte',
       faqs: 'FAQs',
@@ -392,98 +391,141 @@ module.exports = {
       copyright_suffix: 'Todos os Direitos Reservados.',
       help_pref: 'Precisas de ajuda? Envia um e-mail para',
       help_suff: 'e nós entraremos em contacto!',
-      resource_hub: 'Centro de Recursos', // {change}
-      //    apcsp: "AP CS Principles"
+      resource_hub: 'Centro de Recursos',
+      apcsp: '[AI_TRANSLATION]Princípios de AP CS',
       parent: 'Educadores',
-      //    faq: "FAQ"
-      //    return_coco: "Return to CodeCombat"
-      //    classes: "Classes"
-      //    term_of_service: "Terms of Service"
-      //    esports: "Esports"
-      browser_recommendation: 'Para a melhor experiência, recomendamos a utilização da última versão do Chrome. Descarregue o navegador aqui!'
+      faq: '[AI_TRANSLATION]FAQ',
+      return_coco: '[AI_TRANSLATION]Voltar para CodeCombat.',
+      classes: '[AI_TRANSLATION]Aulas',
+      term_of_service: '[AI_TRANSLATION]Termos de Serviço',
+      esports: '[AI_TRANSLATION]Esportes Eletrônicos',
+      browser_recommendation: 'Para a melhor experiência, recomendamos a utilização da última versão do Chrome. Descarregue o navegador aqui!',
+      ozaria_classroom: '[AI_TRANSLATION]Sala de Aula Ozaria',
+      codecombat_classroom: '[AI_TRANSLATION]CodeCombat Sala de Aula',
+      ozaria_dashboard: '[AI_TRANSLATION]Painel de Controlo Ozaria',
+      ozaria_teacher_dashboard: '[AI_TRANSLATION]Painel de Professores Ozaria',
+      ozaria_admin_dashboard: '[AI_TRANSLATION]Painel de Administração Ozaria',
+      codecombat_dashboard: '[AI_TRANSLATION]Painel de Controlo do CodeCombat',
+      codecombat_teacher_dashboard: '[AI_TRANSLATION]Painel de Controlo do Professor CodeCombat',
+      codecombat_admin_dashboard: '[AI_TRANSLATION]Painel de Administração do CodeCombat',
+      professional_development: '[AI_TRANSLATION]Desenvolvimento Profissional',
+      new: '[AI_TRANSLATION]Novo!',
+      //    admin: "Admin",
+      api: '[AI_TRANSLATION]API',
+      api_dashboard: '[AI_TRANSLATION]Painel de Controle de API',
+      funding_resources_guide: '[AI_TRANSLATION]Guia de Recursos de Financiamento',
+      partnerships: '[AI_TRANSLATION]Parcerias',
+      podcast: '[AI_TRANSLATION]O nosso Podcast',
+      dashboard: '[AI_TRANSLATION]Painel de Controlo',
+      products: '[AI_TRANSLATION]Produtos',
+      live_online_classes: '[AI_TRANSLATION]Aulas Online ao Vivo',
+      codecombat_home: '[AI_TRANSLATION]Página Inicial do CodeCombat',
+      libraries: '[AI_TRANSLATION]Bibliotecas',
+      codecombat_worlds_on_roblox: '[AI_TRANSLATION]Mundos do CodeCombat no Roblox',
+      pricing: '[AI_TRANSLATION]Preços',
+      help_center: '[AI_TRANSLATION]Centro de Ajuda',
+      research_efficacy: '[AI_TRANSLATION]Pesquisa - Eficácia',
+      research_impact: '[AI_TRANSLATION]Pesquisa - Impacto',
+      terms: '[AI_TRANSLATION]Termos',
+      podcast_simple: '[AI_TRANSLATION]Podcast',
+      create_free_account: '[AI_TRANSLATION]Criar Conta Gratuita',
+      school_district_solutions: '[AI_TRANSLATION]Soluções para Escolas e Distritos',
+      teacher_toolkit_preview: '[AI_TRANSLATION]Pré-visualização do Kit de Ferramentas do Professor',
+      //    teacher_toolkit: "Teacher Toolkit",
+      efficacy_studies: '[AI_TRANSLATION]Estudos de Eficácia',
+      success_stories: '[AI_TRANSLATION]Histórias de Sucesso',
+      hoc: '[AI_TRANSLATION]Hora do Código',
+      grants_funding_resources: '[AI_TRANSLATION]Recursos de Subsídios e Financiamento',
+      //    accessibility: "Accessibility (ACR/VPAT)",
+      request_quote_demo: '[AI_TRANSLATION]Solicitar uma Demonstração ou Cotação',
+      coco_junior_beta: '[AI_TRANSLATION]CodeCombat Júnior (Beta)',
+      //    coco_junior: "CodeCombat Junior",
+      ap_csp: '[AI_TRANSLATION]AP CSP',
+      ai_league_esports: '[AI_TRANSLATION]Esports da Liga de IA',
+      ai_hackstack_beta: '[AI_TRANSLATION]AI HackStack (Beta)',
+      ai_junior_beta: '[AI_TRANSLATION]AI Junior (Beta)',
+      premium_self_paced: '[AI_TRANSLATION]Autoaprendizagem Premium',
+      codequest: '[AI_TRANSLATION]CodeQuest',
+      library_solutions: '[AI_TRANSLATION]Soluções de Biblioteca',
+      partner_solutions: '[AI_TRANSLATION]Soluções de Parceiros',
+      teaching_solutions: '[AI_TRANSLATION]Soluções de Ensino',
+      play2: '[AI_TRANSLATION]Jogar',
+      my_dashborads: '[AI_TRANSLATION]Os Meus Painéis',
+      //    resources: "Resources",
+      curriculum: '[AI_TRANSLATION]Currículo',
+      company: '[AI_TRANSLATION]Empresa',
+      coco_home_description: '[AI_TRANSLATION]Com acesso a todos os 530 níveis e recursos exclusivos como animais de estimação, itens só para membros premium e heróis, qualquer pessoa pode imergir totalmente no mundo da programação.  ',
+      coco_classroom_description: '[AI_TRANSLATION]Um currículo completo de CS que se baseia em conceitos fundamentais até ao desenvolvimento web, desenvolvimento de jogos e AP CSP.',
+      coco_junior_description: '[AI_TRANSLATION]O nosso currículo principal para K-5 apresenta uma progressão de níveis de aprendizagem que ensinam conceitos básicos de codificação a um ritmo mais lento, modelado especificamente para alunos do ensino primário.',
+      oz_classroom_description: '[AI_TRANSLATION]Uma narrativa encantadora de aventura em programação que estabelece os fundamentos da ciência da computação.',
+      ap_csp_description: '[AI_TRANSLATION]Endossado pelo College Board, o nosso currículo AP CSP fornece ferramentas baseadas em jogos e chave na mão para preparar os alunos para o exame AP.',
+      ai_league_description: '[AI_TRANSLATION]Uma plataforma épica de eSports de programação competitiva que incentiva a prática criativa de programação num ambiente baseado em jogos.',
+      roblox_description: '[AI_TRANSLATION]Este MMORPG ensina programação em Lua e oferece uma plataforma no mundo real para criar jogos e experiências incríveis.',
+      ai_hackstack_description: '[AI_TRANSLATION]A primeira ferramenta de IA generativa especificamente criada para iniciantes em IA com foco na privacidade e segurança dos estudantes.',
+      ai_junior_description: '[AI_TRANSLATION]Introduz IA generativa multimodal numa plataforma simples e intuitiva, desenhada especificamente para estudantes de K-5.',
+      learning_options: '[AI_TRANSLATION]Opções de Aprendizagem',
+      ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      beta: '[AI_TRANSLATION]Beta',
     },
-    //    ozaria_classroom: "Ozaria Classroom"
-    //    codecombat_classroom: "CodeCombat Classroom"
-    //    ozaria_dashboard: "Ozaria Dashboard"
-    //    ozaria_teacher_dashboard: "Ozaria Teacher Dashboard"
-    //    ozaria_admin_dashboard: "Ozaria Admin Dashboard"
-    //    codecombat_dashboard: "CodeCombat Dashboard"
-    //    codecombat_teacher_dashboard: "CodeCombat Teacher Dashboard"
-    //    codecombat_admin_dashboard: "CodeCombat Admin Dashboard"
-    //    professional_development: "Professional Development"
-    //    new: "New!"
-    //    admin: "Admin"
-    //    api: "API"
-    //    api_dashboard: "API Dashboard"
-    //    funding_resources_guide: "Funding Resources Guide"
-    //    partnerships: "Partnerships"
-    //    podcast: "Our Podcast"
-    //    dashboard: "Dashboard"
-    //    products: "Products"
-    //    live_online_classes: "Live Online Classes"
-    //    codecombat_home: "CodeCombat Home"
-    //    libraries: "Libraries"
-    //    codecombat_worlds_on_roblox: "CodeCombat Worlds on Roblox"
-    //    pricing: "Pricing"
-    //    help_center: "Help Center"
-    //    research_efficacy: "Research - Efficacy"
-    //    research_impact: "Research - Impact"
 
     modal: {
       close: 'Fechar',
       okay: 'Ok',
-      cancel: 'Cancelar'
+      cancel: 'Cancelar',
+      try_again: '[AI_TRANSLATION]Tenta Novamente',
     },
-    //    try_again: "Try Again"
 
     not_found: {
-      page_not_found: 'Página não encontrada'
+      page_not_found: 'Página não encontrada',
     },
 
     diplomat_suggestion: {
-      title: 'Ajuda a traduzir o CodeCombat!', // This shows up when a player switches to a non-English language using the language selector.
+      title: 'Ajuda a traduzir o CodeCombat!',
       sub_heading: 'Precisamos das tuas habilidades linguísticas.',
-      pitch_body: 'Desenvolvemos o CodeCombat em Inglês, mas já temos jogadores de todo o mundo. Muitos deles querem jogar em Português, mas não falam Inglês, por isso, se sabes falar ambas, por favor considera registar-te como Diplomata para ajudares a traduzir o sítio do CodeCombat e todos os níveis para Português.', // {change}
+      pitch_body: 'Desenvolvemos o CodeCombat em Inglês, mas já temos jogadores de todo o mundo. Muitos deles querem jogar em Português, mas não falam Inglês, por isso, se sabes falar ambas, por favor considera registar-te como Diplomata para ajudares a traduzir o sítio do CodeCombat e todos os níveis para Português.',
       missing_translations: 'Até conseguirmos traduzir tudo para Português, irás ver em Inglês o que não estiver disponível em Português.',
       learn_more: 'Sabe mais sobre seres um Diplomata',
-      subscribe_as_diplomat: 'Subscreve-te como Diplomata'
+      subscribe_as_diplomat: 'Subscreve-te como Diplomata',
     },
 
-    //  new_home_faq:
-    //    what_programming_languages: "What programming languages are available?"
-    //    python_and_javascript: "We currently support Python, JavaScript, C++, Java, and Lua."
-    //    why_python: "Why should you choose Python?"
-    //    why_python_blurb: "Python is both beginner-friendly and currently used by major corporations (such as Google). If you have younger or first-time learners, we strongly recommend Python."
-    //    why_javascript: "Why should you choose JavaScript?"
-    //    why_javascript_blurb: "JavaScript is the language of the web and is used across nearly every website. You may prefer to choose JavaScript if you are planning to also study web development. We’ve also made it easy for students to transition from Python to JavaScript-based web development."
-    //    javascript_versus_python: "JavaScript’s syntax is a little more difficult for beginners than Python, so if you cannot decide between the two, we recommend Python."
-    //    how_do_i_get_started: "How do I get started?"
-    //    getting_started_1: "Create your Teacher Account"
-    //    getting_started_2: "Create a class"
-    //    getting_started_3: "Add students"
-    //    getting_started_4: "Sit back and watch your students have fun learning to code"
-    //    main_curriculum: "Can I use CodeCombat or Ozaria as my main curriculum?"
-    //    main_curriculum_blurb: "Absolutely! We’ve spent time consulting with education specialists to craft classroom curriculum and materials specifically for teachers who are using CodeCombat or Ozaria without any prior computer science experience themselves. Many schools are implementing CodeCombat and/or Ozaria as the main computer science curriculum."
-    //    clever_instant_login: "Does CodeCombat and Ozaria support Clever Instant Login?"
-    //    clever_instant_login_blurb: "Yes! Check out our __clever__ for more details on how to get started."
-    //    clever_integration_faq: "Clever Integration FAQ"
-    //    google_classroom: "What about Google Classroom?"
-    //    google_classroom_blurb1: "Yup! Be sure to use the Google Single Sign-On (SSO) Modal to sign up for your teacher account. If you already have an account using your Google email, use the Google SSO modal to log in next time. In the Create Class modal, you will see an option to Link Google Classroom. We only support rostering via Google Classroom at this time."
-    //    google_classroom_blurb2: "Note: you must use Google SSO to sign up or log in at least once in order to see the Google Classroom integration option."
-    //    how_much_does_it_cost: "How much does it cost to access all of the available courses and resources?"
-    //    how_much_does_it_cost_blurb: "We customize solutions for schools and districts and work with you to understand your use case, context, and budget. __contact__ for further details! See also our __funding__ for how to leverage CARES Act funding sources like ESSER and GEER."
-    //    recommended_systems: "Is there a recommended browser and operating system?"
-    //    recommended_systems_blurb: "CodeCombat and Ozaria run best on computers with at least 4GB of RAM, on a modern browser such as Chrome, Safari, Firefox, or Edge. Chromebooks with 2GB of RAM may have minor graphics issues in later courses. A minimum of 200 Kbps bandwidth per student is required, although 1+ Mbps is recommended."
-    //    other_questions: "If you have any other questions, please __contact__."
-    //    see_faq_prefix: "See more"
-    //    see_faq_link: "frequently asked questions in our help center"
-    //    see_faq_suffix: "."
+    new_home_faq: {
+      what_programming_languages: '[AI_TRANSLATION]Que linguagens de programação estão disponíveis?',
+      python_and_javascript: '[AI_TRANSLATION]Atualmente, suportamos Python, JavaScript, C++, Java, e Lua.',
+      why_python: '[AI_TRANSLATION]Porque deves escolher Python?',
+      why_python_blurb: '[AI_TRANSLATION]Python é tanto amigável para iniciantes quanto atualmente usado por grandes corporações (como Google). Se tiveres alunos mais jovens ou que estão aprendendo pela primeira vez, recomendamos fortemente Python.',
+      why_javascript: '[AI_TRANSLATION]Porque deves escolher JavaScript?',
+      why_javascript_blurb: '[AI_TRANSLATION]JavaScript é a linguagem da web e é utilizada em quase todos os sites. Podes preferir escolher JavaScript se também planeias estudar desenvolvimento web. Também tornámos fácil para os alunos fazerem a transição de Python para desenvolvimento web baseado em JavaScript.',
+      javascript_versus_python: '[AI_TRANSLATION]A sintaxe do JavaScript é um pouco mais difícil para iniciantes do que a do Python, então se não consegues decidir entre os dois, recomendamos Python.',
+      how_do_i_get_started: '[AI_TRANSLATION]Como começo?',
+      getting_started_1: '[AI_TRANSLATION]Cria a tua Conta de Professor  ',
+      getting_started_2: '[AI_TRANSLATION]Criar uma turma',
+      getting_started_3: '[AI_TRANSLATION]Adiciona estudantes.',
+      getting_started_4: '[AI_TRANSLATION]Senta-te e vê os teus alunos divertirem-se a aprender a programar',
+      main_curriculum: '[AI_TRANSLATION]Posso usar o CodeCombat ou Ozaria como o meu currículo principal?',
+      main_curriculum_blurb: '[AI_TRANSLATION]Sem dúvida! Consultámos especialistas em educação para criar um currículo e materiais de sala de aula específicos para professores que estão a usar o CodeCombat ou Ozaria, mesmo sem experiência prévia em ciências da computação. Muitas escolas estão a implementar o CodeCombat e/ou Ozaria como currículo principal de ciências da computação.',
+      clever_instant_login: '[AI_TRANSLATION]O CodeCombat e o Ozaria suportam Clever Instant Login?',
+      clever_instant_login_blurb: '[AI_TRANSLATION]Sim! Dá uma espreitadela ao nosso __clever__ para mais detalhes sobre como começar.  ',
+      clever_integration_faq: '[AI_TRANSLATION]Perguntas Frequentes sobre Integração Inteligente',
+      google_classroom: '[AI_TRANSLATION]E quanto ao Google Classroom?',
+      google_classroom_blurb1: '[AI_TRANSLATION]Isso! Certifica-te de usar o Google Single Sign-On (SSO) Modal para te inscreveres na tua conta de professor. Se já tens uma conta usando o teu email do Google, usa o Google SSO modal para fazer login na próxima vez. No modal Criar Turma, verás uma opção para Ligar ao Google Classroom. Neste momento, só suportamos listas via Google Classroom.',
+      google_classroom_blurb2: '[AI_TRANSLATION]Nota: tens que usar o Google SSO para te inscreveres ou fazeres login pelo menos uma vez para veres a opção de integração no Google Classroom.',
+      how_much_does_it_cost: '[AI_TRANSLATION]Quanto custa aceder a todos os cursos e recursos disponíveis?',
+      how_much_does_it_cost_blurb: '[AI_TRANSLATION]Personalizamos soluções para escolas e distritos e trabalhamos contigo para entender o teu caso de uso, contexto, e orçamento. __Contacta-nos__ para mais detalhes! Vê também o nosso __financiamento__ para saber como aproveitar fontes de financiamento do CARES Act como o ESSER e GEER.',
+      recommended_systems: '[AI_TRANSLATION]Há um navegador e sistema operativo recomendados?',
+      recommended_systems_blurb: '[AI_TRANSLATION]CodeCombat e Ozaria funcionam melhor em computadores com pelo menos 4GB de RAM, num navegador moderno como Chrome, Safari, Firefox ou Edge. Chromebooks com 2GB de RAM podem ter pequenos problemas gráficos em cursos mais avançados. É necessário um mínimo de 200 Kbps de largura de banda por aluno, embora seja recomendado 1+ Mbps.',
+      other_questions: '[AI_TRANSLATION]Se tiveres mais alguma questão, por favor __contacta__.',
+      see_faq_prefix: '[AI_TRANSLATION]Ver mais',
+      see_faq_link: '[AI_TRANSLATION]perguntas frequentes no nosso centro de ajuda',
+      //    see_faq_suffix: ".",
+      ai_bot_faq_title: '[AI_TRANSLATION]O que é o AI Level Help Bot e que medidas estão em vigor para garantir a segurança?',
+      ai_bot_faq_blurb: '[AI_TRANSLATION]O AI Chat Level Help Bot no CodeCombat capacita os aprendizes com dicas impulsionadas por IA para desafios de codificação, garantindo uma experiência de aprendizado guiada mas independente. A segurança é primordial, pois a IA filtra dados pessoais e é treinada para lidar com pedidos inadequados.',
+    },
 
     play: {
       title: 'Joga os níveis de CodeCombat - Aprende Python, JavaScript, e HTML',
       meta_description: 'Aprender programação com um jogo de codificação para principiantes. Aprenda Python ou JavaScript ao resolver labirintos, faça os seus próprios jogos, e suba de nível. Desafie os seus amigos em níveis e arenas multiplayer!',
       level_title: '__level__ - Aprenda a programar em Python, JavaScript, HTML',
-      //    level_title_ozaria: "__level__ - Ozaria"
+      level_title_ozaria: '[AI_TRANSLATION]__level__ - Ozaria',
       video_title: '__video__ | Nível de vídeo',
       game_development_title: '__level__ | Criação de jogos',
       web_development_title: 'Criação/Desenvolvimento de páginas Web',
@@ -494,40 +536,43 @@ module.exports = {
       anon_signup_create_class: 'Queres criar uma turma?',
       anon_signup_setup_class: 'Configura um turma, adiciona estudantes e monitoriza o progresso!',
       anon_signup_create_teacher: 'Criar uma conta de professor gratuita',
-      play_as: 'Jogar Como', // Ladder page
+      play_as: 'Jogar Como',
       get_course_for_class: 'Atribua ás suas aulas a Criação de Jogos e não só!',
       request_licenses: 'Contacte os nossos especialistas escolares para mais detalhes.',
-      compete: 'Competir!', // Course details page
-      spectate: 'Assistir', // Ladder page
-      //    simulate_all: "Simulate All"
-      players: 'jogadores', // Hover over a level on /play
-      hours_played: 'horas jogadas', // Hover over a level on /play
-      items: 'Itens', // Tooltip on item shop button from /play
-      unlock: 'Desbloquear', // For purchasing items and heroes
+      compete: 'Competir!',
+      spectate: 'Assistir',
+      simulate_all: '[AI_TRANSLATION]Simular Tudo',
+      players: 'jogadores',
+      hours_played: 'horas jogadas',
+      items: 'Itens',
+      unlock: 'Desbloquear',
       confirm: 'Confirmar',
-      owned: 'Obtido', // For items you own
+      owned: 'Obtido',
       locked: 'Bloqueado',
-      //    locked_by_teacher: "Locked By Teacher"
+      locked_by_teacher: '[AI_TRANSLATION]Bloqueado pelo Professor  ',
       available: 'Disponível',
-      skills_granted: 'Habilidades Garantidas', // Property documentation details
-      heroes: 'Heróis', // Tooltip on hero shop button from /play
-      achievements: 'Conquistas', // Tooltip on achievement list button from /play
-      settings: 'Definições', // Tooltip on settings button from /play
-      poll: 'Votações', // Tooltip on poll button from /play
-      next: 'Próximo', // Go from choose hero to choose inventory before playing a level
-      change_hero: 'Alterar Herói', // Go back from choose inventory to choose hero
+      skills_granted: 'Habilidades Garantidas',
+      heroes: 'Heróis',
+      achievements: 'Conquistas',
+      settings: 'Definições',
+      poll: 'Votações',
+      next: 'Próximo',
+      change_hero: 'Alterar Herói',
       change_hero_or_language: 'Alterar Herói ou Linguagem',
+      //    change_language: "Code Language / Code Format",
       buy_gems: 'Comprar Gemas',
       subscribers_only: 'Apenas para Subscritores!',
       subscribe_unlock: 'Subscreve-te para Desbloqueares!',
       subscriber_heroes: 'Subscreve-te hoje para desbloqueares de imediato a Amara, a Hushbaum, e o Hattori!',
       subscriber_gems: 'Subscreve-te hoje para adquirires este herói com gemas!',
+      //    practice_license_required: "(license required for practice levels)",
       anonymous: 'Jogador Anónimo',
       level_difficulty: 'Dificuldade: ',
       awaiting_levels_adventurer_prefix: 'Lançamos novos níveis todas as semanas.',
       awaiting_levels_adventurer: 'Regista-te como Aventureiro',
       awaiting_levels_adventurer_suffix: 'para seres o primeiro a jogar níveis novos.',
       adjust_volume: 'Ajustar volume',
+      toggle_fullscreen: '[AI_TRANSLATION]Alternar ecrã inteiro',
       campaign_multiplayer: 'Arenas Multijogador',
       campaign_multiplayer_description: '... nas quais programas contra outros jogadores.',
       brain_pop_done: 'Derrotaste os Ogres com o teu código! Ganhaste!',
@@ -535,20 +580,28 @@ module.exports = {
       replay: 'Repetir',
       back_to_classroom: 'Voltar à Turma',
       teacher_button: 'Para Professores',
-      get_more_codecombat: 'Obter mais do CodeCombat'
+      get_more_codecombat: 'Obter mais do CodeCombat',
+      back_to_dashboard: '[AI_TRANSLATION]De Volta ao Dashboard',
+      back_to_ozaria: '[AI_TRANSLATION]De Volta ao ozaria.com',
+      customize_hero: '[AI_TRANSLATION]Personalizar Herói',
+      //    account_settings: "Account Settings",
+      back_to_tutorial: '[AI_TRANSLATION]De Volta ao Tutorial',
+      teacher_vega_message: '[AI_TRANSLATION]Os alunos são guiados por estas mensagens de tutorial. Para visualizar estas mensagens e guardar o teu progresso ao longo do jogo, cria uma conta de aluno e joga Ozaria como aluno.',
+      beta_levels_on: '[AI_TRANSLATION]níveis beta em',
+      //    beta_levels_turn_off: "turn off",
+      confirm_m7_off: '[AI_TRANSLATION]Tens a certeza que queres desativar os níveis beta?',
+      play_codecombat: '[AI_TRANSLATION]Jogar CodeCombat',
+      play_codecombat_junior: '[AI_TRANSLATION]Jogar CodeCombat Junior',
+      //    age_codecombat: "Ages 8+",
+      //    age_codecombat_junior: "Ages 5-8",
+      //    age_description_codecombat: "Real Python or JavaScript coding for everyone",
+      //    age_description_codecombat_junior: "Blocks or simple text coding for beginners",
+      want_more_hints: '[AI_TRANSLATION]Queres mais dicas?',
+      //    choose_your_adventure: "Choose Your Adventure",
     },
-    //    back_to_dashboard: "Back to Dashboard"
-    //    back_to_ozaria: "Back to ozaria.com"
-    //    customize_hero: "Customize Hero"
-    //    account_settings: "Account Settings"
-    //    back_to_tutorial: "Back to tutorial"
-    //    teacher_vega_message: "Students are guided by these tutorial messages. In order to view these messages and to save your progress as you play through the game, please create a student account and play Ozaria as a student."
-    //    beta_levels_on: "beta levels on"
-    //    beta_levels_turn_off: "turn off"
-    //    confirm_m7_off: "Are you sure to turn beta levels off?"
 
     code: {
-      if: 'se', // Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
+      if: 'se',
       else: 'senão',
       elif: 'senão se',
       while: 'enquanto',
@@ -595,7 +648,7 @@ module.exports = {
       undefined: 'não definido',
       null: 'nulo',
       nil: 'nada',
-      None: 'Nenhum'
+      None: 'Nenhum',
     },
 
     share_progress_modal: {
@@ -604,16 +657,16 @@ module.exports = {
       form_blurb: 'Introduz o e-mail do teu educador abaixo e nós vamos mostrar-lhe!',
       form_label: 'Endereço de E-mail',
       placeholder: 'endereço de e-mail',
-      title: 'Excelente Trabalho, Aprendiz'
+      title: 'Excelente Trabalho, Aprendiz',
     },
 
     login: {
-    //    auth_sign_up: "New to Ozaria? Create an Account"
+      auth_sign_up: '[AI_TRANSLATION]Novo no Ozaria? Cria uma Conta',
       sign_up: 'Criar Conta',
       email_or_username: 'E-mail ou nome de utilizador',
-      //    or: "or"
+      //    or: "or",
       log_in: 'Iniciar Sessão',
-      //    sign_in: "Sign In"
+      sign_in: '[AI_TRANSLATION]Iniciar Sessão',
       logging_in: 'A Iniciar Sessão',
       log_out: 'Sair',
       forgot_password: 'Esqueceste a tua palavra-passe?',
@@ -621,18 +674,18 @@ module.exports = {
       sign_in_with_facebook: 'Iniciar sessão com o FB',
       sign_in_with_gplus: 'Iniciar sessão com o Google',
       signup_switch: 'Queres criar uma conta?',
-      //    already_have_account1: "Already have a CodeCombat Teacher or Student account?"
-      //    already_have_account2: "You can sign into Ozaria.com using that account."
-      //    sign_into_ozaria: "Sign Into Ozaria.com"
-      //    individual_users_not_supported: "Ozaria is for classrooms only!  Please visit CodeCombat to continue playing!"
-      accounts_merge_confirmation: 'Existe uma conta associada ao e-mail desta conta Google. Gostaria de fundir estas contas?'
+      already_have_account1: '[AI_TRANSLATION]Já tens uma conta de Professor ou Aluno no CodeCombat?',
+      already_have_account2: '[AI_TRANSLATION]Podes entrar em Ozaria.com usando essa conta.',
+      sign_into_ozaria: '[AI_TRANSLATION]Iniciar Sessão em Ozaria.com',
+      individual_users_not_supported: '[AI_TRANSLATION]Ozaria é só para salas de aula! Visita o CodeCombat para continuar a jogar!',
+      accounts_merge_confirmation: 'Existe uma conta associada ao e-mail desta conta Google. Gostaria de fundir estas contas?',
+      stop_spying: '[AI_TRANSLATION]Deixa de Espiar',
+      stop_switching: '[AI_TRANSLATION]Deixa de Trocar',
+      test_as_student: '[AI_TRANSLATION]Teste como Estudante',
+      gplus_linked: '[AI_TRANSLATION]Conta Google associada com sucesso',
+      plus_link_error: '[AI_TRANSLATION]Falha ao associar conta Google',
+      email_or_username_or_library: '[AI_TRANSLATION]Email ou Nome de Usuário ou Número de Cartão da Biblioteca',
     },
-    //    stop_spying: "Stop Spying"
-    //    stop_switching: "Stop Switching"
-    //    test_as_student: "Test as Student"
-    //    gplus_linked: "Google Account linked successfully"
-    //    plus_link_error: "Google Account linked failed"
-    //    email_or_username_or_library: "Email or Username or Library Card number"
 
     signup: {
       complete_subscription: 'Subscrição completa',
@@ -641,7 +694,7 @@ module.exports = {
       create_individual_header: 'Criar Conta Individual',
       email_announcements: 'Receber anúncios sobre níveis e funcionalidades novos do CodeCombat!',
       sign_in_to_continue: 'Inicia sessão ou cria uma conta para continuares',
-      //    create_account_to_submit_multiplayer: "Create a free account to rank your multiplayer AI and explore the whole game!"
+      create_account_to_submit_multiplayer: '[AI_TRANSLATION]Cria uma conta gratuita para classificar a tua IA multiplayer e explorar o jogo todo!',
       teacher_email_announcements: 'Mantenha-me actualizado sobre os novos recursos, currículo e cursos para professores!',
       creating: 'A Criar Conta...',
       sign_up: 'Registar',
@@ -658,7 +711,7 @@ module.exports = {
       birthday: 'Aniversário',
       parent_email_blurb: 'Sabemos que mal podes esperar para aprender programação &mdash; também estamos entusiasmados! Os teus pais receberão um e-mail com mais instruções sobre como criar uma conta para ti. Envia um e-mail {{{{email_link}} se tiveres alguma dúvida.',
       classroom_not_found: 'Não existem turmas com este Código de Turma. Verifica a tua ortografia ou pede ajuda ao teu professor.',
-      //    activation_code_used: "The activation code has been used. Check your spelling or ask your teacher for help."
+      activation_code_used: '[AI_TRANSLATION]O código de ativação já foi usado. Verifica a tua ortografia ou pede ajuda ao teu professor.',
       checking: 'A verificar...',
       account_exists: 'Este e-mail já está a ser usado:',
       sign_in: 'Iniciar sessão',
@@ -695,7 +748,7 @@ module.exports = {
       account_created: 'Conta Criada!',
       confirm_student_blurb: 'Aponta a tua informação para que não a esqueças. O teu professor também te pode ajudar a reiniciar a tua palavra-passe a qualquer altura.',
       confirm_individual_blurb: 'Aponta a tua informação de início de sessão caso precises dela mais tarde. Verifica o teu e-mail para que possas recuperar a tua conta se alguma vez esqueceres a tua palavra-passe - verifica a tua caixa de entrada!',
-      //    confirm_individual_blurb_without_email: "Write down your login information in case you need it later."
+      confirm_individual_blurb_without_email: '[AI_TRANSLATION]Escreve as tuas informações de login caso precises delas mais tarde.',
       write_this_down: 'Aponta isto:',
       start_playing: 'Começar a Jogar!',
       sso_connected: 'Conectado com sucesso:',
@@ -707,11 +760,11 @@ module.exports = {
       teacher_students_can_start_now_ozar: 'Os seus alunos poderão começar a jogar o primeiro módulo, Introdução à Ciência da Computação, imediatamente.',
       teacher_list_create_class: 'No ecrã seguinte, poderá criar uma nova turma.',
       teacher_list_add_students: 'Adicione alunos à turma clicando no link Ver Turma, depois envie aos seus alunos o Código da Turma ou URL. Pode também convidá-los por correio electrónico se tiverem endereços de correio electrónico.',
-      //    teacher_list_resource_hub_1: "Check out the"
+      teacher_list_resource_hub_1: '[AI_TRANSLATION]Dá uma olhada nos\n',
       teacher_list_resource_hub_2_coco: 'Guias de Curso',
       teacher_list_resource_hub_2_ozar: 'Guias de Curso',
       teacher_list_resource_hub_3: 'para soluções a todos os níveis, e o',
-      teacher_list_resource_hub_4: 'Centro de Recursos', // {change}
+      teacher_list_resource_hub_4: 'Centro de Recursos',
       teacher_list_resource_hub_5: 'para guias curriculares, actividades, e muito mais!',
       teacher_additional_questions: 'Está feito! Se precisar de ajuda adicional ou tiver dúvidas, contacte __supportEmail__.',
       dont_use_our_email_silly: 'Não coloques o nosso e-mail aqui! Põe o email dos teus pais.',
@@ -720,35 +773,35 @@ module.exports = {
       eu_confirmation_place_of_processing: 'Saiba mais sobre os possíveis riscos',
       eu_confirmation_student: 'Se não tens a certeza, pergunta ao teu professor.',
       eu_confirmation_individual: 'Se não quiser que armazenemos os seus dados em servidores dos EUA, pode sempre continuar a jogar anonimamente sem guardar o seu código.',
-      //    request_class_code: "Students, request a Class Code from your Teacher to create an Account!"
-      //    educators_create_account: "Educators, create a Teacher Account to access the first unit for free!"
-      //    looking_for_classroom: "Looking for classroom..."
-      //    create_your_educator_account: "Create your educator account"
-      //    educator_signup_list_1_title: "See what your students see:"
-      //    educator_signup_list_1_desc: "Demo each game level in the first unit"
-      //    educator_signup_list_2_title: "See teacher resources:"
-      //    educator_signup_list_2_desc: "Access scope and sequence, lessons, and more"
-      //    educator_signup_list_3_title: "See your students thrive:"
-      //    educator_signup_list_3_desc: "Try the first unit with your class for free"
-      //    signup_with_email: "Sign up with Email"
-      //    already_have_account: "Already have a CodeCombat or Ozaria account"
-      //    select_your_role: "Select your role"
-      //    select_your_state: "Select your state"
-      //    password_requirements: "4 to 64 characters with no repeating"
-      invalid: 'Inválido', // {change}
-      invalid_password: 'Password incorreta', // {change}
-      //    with: "with"
-      //    want_to_play_codecombat: "No, I don't have one but want to play CodeCombat!"
-      have_a_classcode: 'Tens um código de turma?', // {change}
-      yes_i_have_classcode: 'Sim. Tenho um código de turma!', // {change}
-      enter_it_here: 'Introduz aqui o código:'
-    }, // {change}
-    //    play_without_saving: "Play without saving"
+      request_class_code: '[AI_TRANSLATION]Alunos, solicitem um Código de Turma ao vosso Professor para criar uma Conta!',
+      educators_create_account: '[AI_TRANSLATION]Educadores, criem uma Conta de Professor para aceder ao primeiro módulo gratuitamente!',
+      looking_for_classroom: '[AI_TRANSLATION]Procurando pela sala de aula...',
+      create_your_educator_account: '[AI_TRANSLATION]Cria a tua conta de educador',
+      educator_signup_list_1_title: '[AI_TRANSLATION]Vê o que os teus alunos vêem:',
+      educator_signup_list_1_desc: '[AI_TRANSLATION]Demonstra cada nível do jogo na primeira unidade',
+      educator_signup_list_2_title: '[AI_TRANSLATION]Ver recursos para professores:',
+      educator_signup_list_2_desc: '[AI_TRANSLATION]Acessa escopo e sequência, aulas e muito mais',
+      educator_signup_list_3_title: '[AI_TRANSLATION]Vê os teus alunos prosperarem:',
+      educator_signup_list_3_desc: '[AI_TRANSLATION]Experimenta a primeira unidade com a tua turma grátis',
+      signup_with_email: '[AI_TRANSLATION]Regista-te com Email',
+      already_have_account: '[AI_TRANSLATION]Já tens uma conta no CodeCombat ou Ozaria?',
+      select_your_role: '[AI_TRANSLATION]Seleciona o teu papel',
+      select_your_state: '[AI_TRANSLATION]Seleciona o teu estado',
+      password_requirements: '[AI_TRANSLATION]4 a 64 caracteres sem repetir',
+      invalid: 'Inválido',
+      invalid_password: 'Password incorreta',
+      //    with: "with",
+      want_to_play_codecombat: '[AI_TRANSLATION]Não, não tenho uma, mas quero jogar CodeCombat!',
+      have_a_classcode: 'Tens um código de turma?',
+      yes_i_have_classcode: 'Sim. Tenho um código de turma!',
+      enter_it_here: 'Introduz aqui o código:',
+      play_without_saving: '[AI_TRANSLATION]Jogar sem guardar',
+    },
 
     recover: {
       recover_account_title: 'Recuperar Conta',
       send_password: 'Enviar Palavra-passe de Recuperação',
-      recovery_sent: 'E-mail de recuperação enviado.'
+      recovery_sent: 'E-mail de recuperação enviado.',
     },
 
     items: {
@@ -757,18 +810,18 @@ module.exports = {
       armor: 'Armadura',
       accessories: 'Acessórios',
       misc: 'Vários',
-      books: 'Livros'
+      books: 'Livros',
     },
 
     common: {
       default_title_coco: 'CodeCombat - Jogos de programação para aprender Python e JavaScript',
       default_title_ozar: 'CodeCombat - Jogos de programação para aprender Python e JavaScript',
-      //    ozaria: "Ozaria"
+      //    ozaria: "Ozaria",
       default_meta_description_coco: 'Aprenda a digitar código através de um jogo de programação. Aprenda Python, JavaScript, e HTML enquanto resolve puzzles e aprende a fazer os seus próprios jogos de programação e websites.',
       default_meta_description_ozar: 'Aprenda a digitar código através de um jogo de programação. Aprenda Python, JavaScript, e HTML enquanto resolve puzzles e aprende a fazer os seus próprios jogos de programação e websites.',
-      back: 'Voltar', // When used as an action verb, like "Navigate backward"
+      back: 'Voltar',
       coming_soon: 'Brevemente!',
-      continue: 'Continuar', // When used as an action verb, like "Continue forward"
+      continue: 'Continuar',
       next: 'Próximo',
       default_code: 'Código Original',
       loading: 'A Carregar...',
@@ -786,7 +839,7 @@ module.exports = {
       publish: 'Publicar',
       create: 'Criar',
       fork: 'Bifurcar',
-      play: 'Jogar', // When used as an action verb, like "Play next level"
+      play: 'Jogar',
       retry: 'Tentar Novamente',
       actions: 'Ações',
       info: 'Informações',
@@ -799,18 +852,18 @@ module.exports = {
       required_field: 'necessário',
       submit: 'Submeter',
       replay: 'Repetir',
-      complete: 'Completo'
+      complete: 'Completo',
+      pick_image: '[AI_TRANSLATION]Escolher Imagem',
+      continue_editing: '[AI_TRANSLATION]Continuar Editando',
+      logout: '[AI_TRANSLATION]Terminar Sessão  ',
+      empty: '[AI_TRANSLATION]Vazio',
+      done: '[AI_TRANSLATION]Feito',
+      remove: '[AI_TRANSLATION]Remover',
+      locked: '[AI_TRANSLATION]Bloqueado  ',
+      internal_error: '[AI_TRANSLATION]Erro Interno',
+      manage: '[AI_TRANSLATION]Gerir',
+      empty_results: '[AI_TRANSLATION]Resultados Vazios.',
     },
-    //    pick_image: "Pick Image"
-    //    continue_editing: "Continue Editing"
-    //    logout: "Logout"
-    //    empty: "Empty"
-    //    done: "Done"
-    //    remove: "Remove"
-    //    locked: "Locked"
-    //    internal_error: "Internal Error"
-    //    manage: "Manage"
-    //    empty_results: "Empty Results."
 
     general: {
       and: 'e',
@@ -850,7 +903,7 @@ module.exports = {
       ladder: 'Classificação',
       when: 'Quando',
       opponent: 'Adversário',
-      //    opponent_and_team: "Opponent"
+      //    opponent_and_team: "Opponent",
       rank: 'Classificação',
       score: 'Pontuação',
       win: 'Vitória',
@@ -860,7 +913,7 @@ module.exports = {
       medium: 'Médio',
       hard: 'Difícil',
       player: 'Jogador',
-      player_level: 'Nível', // Like player level 5, not like level: Dungeons of Kithgard
+      player_level: 'Nível',
       warrior: 'Guerreiro',
       ranger: 'Arqueiro',
       wizard: 'Feiticeiro',
@@ -874,15 +927,15 @@ module.exports = {
       more: 'Mais',
       fewer: 'Menos',
       with: 'com',
-      //    archived: "Archived"
-      //    chat: "Chat"
-      //    chat_with_us: "Chat with us"
-      email_us: 'Envia-nos um email'
-    }, // {change}
-    //    sales: "Sales"
-    //    support: "Support"
-    //    here: "here"
-    //    from: "From"
+      archived: '[AI_TRANSLATION]Arquivado',
+      chat: '[AI_TRANSLATION]Chat',
+      chat_with_us: '[AI_TRANSLATION]Conversa connosco',
+      email_us: 'Envia-nos um email',
+      sales: '[AI_TRANSLATION]Vendas',
+      support: '[AI_TRANSLATION]Apoio',
+      //    here: "here",
+      from: '[AI_TRANSLATION]De',
+    },
 
     units: {
       second: 'segundo',
@@ -899,7 +952,7 @@ module.exports = {
       month: 'mês',
       months: 'meses',
       year: 'ano',
-      years: 'anos'
+      years: 'anos',
     },
 
     play_level: {
@@ -911,14 +964,14 @@ module.exports = {
       finished_hoc: 'Terminei a minha Hora do Código',
       get_certificate: 'Obtém o teu certificado!',
       level_complete: 'Nível Completo',
-      //    level_complete_at: "Level Completed "
+      level_complete_at: '[AI_TRANSLATION]Nível Completado',
       completed_level: 'Nível Completo:',
       course: 'Curso:',
       done: 'Concluir',
       next_level: 'Próximo Nível',
       combo_challenge: 'Desafio Combo',
       concept_challenge: 'Desafio de Conceito',
-      //    challenge: "Challenge"
+      challenge: '[AI_TRANSLATION]Desafio',
       challenge_unlocked: 'Desafio Desbloqueado',
       combo_challenge_unlocked: 'Desafio Combo Desbloqueado',
       concept_challenge_unlocked: 'Desafio do conceito desbloqueado',
@@ -934,8 +987,8 @@ module.exports = {
       languages: 'Linguagens',
       programming_language: 'Linguagem de programação',
       show_menu: 'Mostrar o menu do jogo',
-      home: 'Início', // Not used any more, will be removed soon.
-      level: 'Nível', // Like "Level: Dungeons of Kithgard"
+      home: 'Início',
+      level: 'Nível',
       skip: 'Saltar',
       game_menu: 'Menu do Jogo',
       restart: 'Reiniciar',
@@ -960,7 +1013,7 @@ module.exports = {
       restart_confirm: 'Sim, Reiniciar',
       test_level: 'Testar Nível',
       victory: 'Vitória',
-      victory_title_prefix: '',
+      //    victory_title_prefix: "",
       victory_title_suffix: ' Concluído',
       victory_sign_up: 'Criar Conta para Guardar Progresso',
       victory_sign_up_poke: 'Queres guardar o teu código? Cria uma conta grátis!',
@@ -987,28 +1040,30 @@ module.exports = {
       tome_reload_method: 'Recarregar o código original para recomeçar o nível',
       tome_available_spells: 'Feitiços Disponíveis',
       tome_your_skills: 'As Tuas Habilidades',
+      blocks: '[AI_TRANSLATION]Blocos',
       hints: 'Dicas',
       videos: 'Vídeos',
       hints_title: 'Dica {{number}}',
       code_saved: 'Código Guardado',
-      //    chat_placeholder: "Need coding help? Chat with the AI. (experimental!)"
-      //    chat_fix_show: "Show Me"
-      //    chat_fix_hide: "Hide"
+      chat_placeholder: '[AI_TRANSLATION]Precisas de ajuda com código? Conversa com a IA. (experimental!)',
+      chat_fix_show: '[AI_TRANSLATION]Mostrar-me',
+      chat_fix_hide: '[AI_TRANSLATION]Esconder',
       skip_tutorial: 'Saltar (esc)',
       keyboard_shortcuts: 'Atalhos de Teclado',
       loading_start: 'Iniciar Nível',
       loading_start_combo: 'Iniciar o Desafio Combo',
       loading_start_concept: 'Iniciar Desafio de Conceito',
       problem_alert_title: 'Corrige o Teu Código',
-      //    problem_alert_need_help: "Need help?"
-      //    problem_alert_ask_the_ai: "Ask the AI"
+      problem_alert_need_help: '[AI_TRANSLATION]Precisas de ajuda?  ',
+      problem_alert_ask_the_ai: '[AI_TRANSLATION]Perguntar à IA',
+      problem_alert_need_hint: '[AI_TRANSLATION]Precisas de uma dica? Podes perguntar à IA por ajuda.',
       time_current: 'Agora:',
       time_total: 'Máximo:',
       time_goto: 'Ir para:',
       non_user_code_problem_title: 'Impossível Carregar o Nível',
       infinite_loop_title: "'Loop' Infinito Detetado",
       infinite_loop_description: "O código inicial para construir o mundo nunca parou de ser executado. Provavelmente é muito lento ou contém um 'loop' infinito. Ou talvez haja um erro. Podes tentar executar este código novamente ou reiniciá-lo para o estado predefinido. Se isso não resultar, avisa-nos, por favor.",
-      //    non_user_code_problem_description: "The initial code to build the world never finished running because of an error: <pre>__error__</pre>You can either try running this code again or reset the code to the default state. If that doesn't fix it, please let us know."
+      non_user_code_problem_description: '[AI_TRANSLATION]O código inicial para construir o mundo nunca terminou de ser executado devido a um erro: <pre>__error__</pre>Podes tentar executar este código novamente ou redefinir o código para o estado padrão. Se isso não resolver, por favor, avisa-nos.',
       check_dev_console: 'Também podes abrir a consola para programadores para veres o que possa estar a correr mal.',
       check_dev_console_link: '(instruções)',
       infinite_loop_try_again: 'Tentar Novamente',
@@ -1096,47 +1151,63 @@ module.exports = {
       learning_goals: 'Objectivos de aprendizagem',
       start: 'Começar',
       vega_character: 'Personagem Vega',
-      //    capella_character: "Capella Character"
-      //    octans_character: "Octans Character"
-      click_to_continue: 'Clicar para continuar'
+      capella_character: '[AI_TRANSLATION]Personagem Capella',
+      octans_character: '[AI_TRANSLATION]Personagem Octans',
+      click_to_continue: 'Clicar para continuar',
+      fill_in_solution: '[AI_TRANSLATION]Preenche a solução',
+      toggle_solution: '[AI_TRANSLATION]Alternar solução',
+      play_as_humans: '[AI_TRANSLATION]Jogar Como Vermelho',
+      play_as_ogres: '[AI_TRANSLATION]Jogar Como Azul',
+      changed: '[AI_TRANSLATION]Última edição',
+      team_humans: '[AI_TRANSLATION]Vermelho',
+      team_ogres: '[AI_TRANSLATION]Azul',
+      watch_game: '[AI_TRANSLATION]Observar',
+      //    block_go: "go",
+      //    block_up: "up",
+      //    block_down: "down",
+      //    block_left: "left",
+      //    block_right: "right",
+      share_your_project: '[AI_TRANSLATION]Partilhar o Teu Projeto',
+      keep_editing_your_project: '[AI_TRANSLATION]Podes sempre continuar a editar o teu projeto, mesmo depois de partilhá-lo.',
+      copy_url: '[AI_TRANSLATION]Copiar URL',
+      level_status: '[AI_TRANSLATION]Estado',
+      level_status_locked: '[AI_TRANSLATION]Bloqueado  ',
+      level_status_in_progress: '[AI_TRANSLATION]Em Progresso',
+      level_status_skipped: '[AI_TRANSLATION]Saltado',
+      level_status_complete: '[AI_TRANSLATION]Completo',
+      level_status_unlocked: '[AI_TRANSLATION]Desbloqueado',
+      level_status_optional: '[AI_TRANSLATION]Opcional',
+      level_type_practice: '[AI_TRANSLATION]Prática',
+      level_type_challenge: '[AI_TRANSLATION]Desafio',
+      level_type_level: '[AI_TRANSLATION]Nível',
+      level_type_cutscene: '[AI_TRANSLATION]Cena Cortada',
+      level_type_capstone: '[AI_TRANSLATION]Projeto Final',
+      //    level_type_intro: "Intro",
+      level_type_practice_level: '[AI_TRANSLATION]Nível de Prática',
+      level_type_challenge_level: '[AI_TRANSLATION]Nível de Desafio',
+      level_type_cutscene_level: '[AI_TRANSLATION]Nível de Cena Cortada',
+      level_type_capstone_level: '[AI_TRANSLATION]Nível do Projeto Final',
+      level_type_capstone_project: '[AI_TRANSLATION]Projeto de Conclusão',
+      level_type_intro_level: '[AI_TRANSLATION]Nível Introdutório',
+      content_type_avatar: '[AI_TRANSLATION]Seleção de Avatar',
+      content_type_cinematic: '[AI_TRANSLATION]Cinemático',
+      content_type_interactive: '[AI_TRANSLATION]Verificação de Conceito  ',
+      content_type_arena: '[AI_TRANSLATION]Arena',
+      feedback: '[AI_TRANSLATION]Feedback',
+      ask_teacher_for_help: '[AI_TRANSLATION]Pede ajuda ao teu professor.',
+      ask_teacher_for_help_offline: '[AI_TRANSLATION]O teu Professor está atualmente offline',
+      not_enough_credits_bot: '[AI_TRANSLATION]Ups! Parece que não tens consultas suficientes. Subscreve agora e obtém as consultas que precisas para o suporte alimentado por IA!',
+      not_enough_credits_interval: '[AI_TRANSLATION]Sem créditos restantes para o __interval__. Foram consumidos __amount__ créditos.',
+      not_enough_credits_interval_multiple: '[AI_TRANSLATION]Sem créditos restantes por __duration__ __interval__. Foram consumidos __amount__ créditos.',
+      create_account_to_get_credits: '[AI_TRANSLATION]Cria uma conta para receber créditos grátis por usar o suporte com IA!',
+      ask_teacher_for_credits: '[AI_TRANSLATION]Pede ao teu professor uma licença do AI Hackstack.',
+      get_credits: '[AI_TRANSLATION]Obtém Créditos',
+      get_ai_hs_license: '[AI_TRANSLATION]Obtém Licença Hackstack AI',
+      use: '[AI_TRANSLATION]Usa  ',
+      learn_to_use: '[AI_TRANSLATION]Aprende a Usar  ',
+      //    navigate_to_previous_page: "Navigate to the previous page",
+      //    navigate_to_next_page: "Navigate to the next page",
     },
-    //    fill_in_solution: "Fill in solution"
-    //    toggle_solution: "Toggle solution"
-    //    play_as_humans: "Play As Red"
-    //    play_as_ogres: "Play As Blue"
-    //    changed: "Last edited "
-    //    team_humans: "Red"
-    //    team_ogres: "Blue"
-    //    watch_game: "Spectate"
-    //    share_your_project: "Share Your Project"
-    //    keep_editing_your_project: "You can always keep editing your project, even after sharing it."
-    //    copy_url: "Copy URL"
-    //    level_status: "Status"
-    //    level_status_locked: "Locked"
-    //    level_status_in_progress: "In Progress"
-    //    level_status_skipped: "Skipped"
-    //    level_status_complete: "Complete"
-    //    level_status_unlocked: "Unlocked"
-    //    level_status_optional: "Optional"
-    //    level_type_practice: "Practice"
-    //    level_type_challenge: "Challenge"
-    //    level_type_cutscene: "Cutscene"
-    //    level_type_capstone: "Capstone"
-    //    level_type_intro: "Intro"
-    //    level_type_practice_level: "Practice Level"
-    //    level_type_challenge_level: "Challenge Level"
-    //    level_type_cutscene_level: "Cutscene Level"
-    //    level_type_capstone_level: "Capstone Level"
-    //    level_type_capstone_project: "Capstone Project"
-    //    level_type_intro_level: "Intro Level"
-    //    content_type_avatar: "Avatar Selection"
-    //    content_type_cinematic: "Cinematic"
-    //    content_type_interactive: "Concept Check"
-    //    feedback: "Feedback"
-    //    ask_teacher_for_help: "Ask your teacher for help"
-    //    ask_teacher_for_help_offline: "Your Teacher is currently offline"
-    //    not_enough_credits_bot: "Opps! Looks like you don’t have enough queries. Subscribe now and get the queries you want for the AI powered support you need!"
-    //    not_enough_credits_interval: "No credits left for the __interval__. Consumed __amount__ credits."
 
     apis: {
       methods: 'Métodos',
@@ -1156,7 +1227,7 @@ module.exports = {
       jquery: 'jQuery',
       json: 'JSON',
       number: 'Número',
-      webjavascript: 'JavaScript'
+      webjavascript: 'JavaScript',
     },
 
     amazon_hoc: {
@@ -1168,22 +1239,23 @@ module.exports = {
       future_eng_2: 'aqui',
       future_eng_3: '(não é necessário dispositivo). Esta actividade Alexa é trazida até si pela',
       future_eng_4: 'Futuro Engenheiro da Amazon',
-      future_eng_5: 'progrma que cria oportunidades de aprendizagem e de trabalho para todos os estudantes do K-12 nos Estados Unidos que desejem seguir a ciência da computação.'
+      future_eng_5: 'progrma que cria oportunidades de aprendizagem e de trabalho para todos os estudantes do K-12 nos Estados Unidos que desejem seguir a ciência da computação.',
     },
 
     live_class: {
       title: 'Obrigado!',
       content: 'Incrível! Acabámos de lançar aulas online ao vivo.',
-      link: 'Pronto para avançar com a tua programação?'
+      link: 'Pronto para avançar com a tua programação?',
     },
 
-    //  code_quest:
-    //    great: "Great!"
-    //    join_paragraph: "Join the largest international Python AI coding tournament for all ages and compete for the top of the leaderboard! This month-long global battle starts August 1st and includes $5k worth of prizes and a virtual awards ceremony where we'll announce winners and recognize your coding skills."
-    //    link: "Click here to register and learn more"
-    //    global_tournament: "Global Tournament"
-    //    register: "Register"
-    //    date: "Aug 1 - Aug 31"
+    code_quest: {
+      great: '[AI_TRANSLATION]Ótimo!  ',
+      join_paragraph: '[AI_TRANSLATION]Junta-te ao maior torneio internacional de codificação em Python AI para todas as idades e compete para o topo da tabela classificativa! Esta batalha global de um mês começa a 1 de agosto e inclui 5 mil dólares em prémios e uma cerimónia de prémios virtual onde vamos anunciar os vencedores e reconhecer as tuas habilidades de codificação.',
+      link: '[AI_TRANSLATION]Clica aqui para te registares e aprender mais',
+      global_tournament: '[AI_TRANSLATION]Torneio Global',
+      register: '[AI_TRANSLATION]Registar',
+      date: '[AI_TRANSLATION]1 Ago - 31 Ago',
+    },
 
     play_game_dev_level: {
       created_by: 'Criado por {{name}}',
@@ -1199,13 +1271,14 @@ module.exports = {
       goal_defeat_amount: 'Derrota __amount__ inimigos.',
       goal_move: 'Mover-se para todas as marcas X vermelhas.',
       goal_collect: 'Recolher todos os itens.',
-      goal_collect_amount: 'Recolher __amount__ itens.'
+      goal_collect_amount: 'Recolher __amount__ itens.',
     },
 
     game_menu: {
       inventory_tab: 'Inventário',
       save_load_tab: 'Guardar/Carregar',
       options_tab: 'Opções',
+      my_code_tab: '[AI_TRANSLATION]O Meu Código',
       guide_tab: 'Guia',
       guide_video_tutorial: 'Tutorial em Vídeo',
       guide_tips: 'Dicas',
@@ -1213,10 +1286,13 @@ module.exports = {
       auth_tab: 'Regista-te',
       inventory_caption: 'Equipa o teu herói',
       choose_hero_caption: 'Escolhe o herói, a linguagem',
+      change_langugae_caption: '[AI_TRANSLATION]Escolher idioma',
+      change_language_tab: '[AI_TRANSLATION]Linguagem',
       options_caption: 'Configura as definições',
+      my_code_caption: '[AI_TRANSLATION]Ações Rápidas de Código',
       guide_caption: 'Documentos e dicas',
       multiplayer_caption: 'Joga com amigos!',
-      auth_caption: 'Guarda o teu progresso.'
+      auth_caption: 'Guarda o teu progresso.',
     },
 
     leaderboard: {
@@ -1235,7 +1311,7 @@ module.exports = {
       survival_time: 'Sobreviveu',
       defeated: 'Inimigos Derrotados',
       code_length: 'Linhas de Código',
-      score_display: '__scoreType__: __score__'
+      score_display: '__scoreType__: __score__',
     },
 
     inventory: {
@@ -1251,7 +1327,7 @@ module.exports = {
       unequip: 'Desequipar',
       warrior_only: 'Apenas Guerreiros',
       ranger_only: 'Apenas Arqueiros',
-      wizard_only: 'Apenas Feiticeiros'
+      wizard_only: 'Apenas Feiticeiros',
     },
 
     buy_gems: {
@@ -1268,17 +1344,17 @@ module.exports = {
       price: 'x{{gems}} / mês',
       buy_premium: "Comprar 'Premium'",
       purchase: 'Adquirir',
-      purchased: 'Adquirido'
+      purchased: 'Adquirido',
     },
 
     subscribe_for_gems: {
       prompt_title: 'Gemas Insuficientes!',
-      prompt_body: 'Subscreve-te ao Premium para obter gemas e acesso a ainda mais níveis!'
+      prompt_body: 'Subscreve-te ao Premium para obter gemas e acesso a ainda mais níveis!',
     },
 
     earn_gems: {
       prompt_title: 'Gemas Insuficientes',
-      prompt_body: 'Continua a jogar para receberes mais!'
+      prompt_body: 'Continua a jogar para receberes mais!',
     },
 
     subscribe: {
@@ -1288,7 +1364,7 @@ module.exports = {
       subscribe_modal_title: "CodeCombat 'Premium'",
       comparison_blurb: "Torna-te um Programador Mestre - subscreve-te ao <b>'Premium'</b> hoje!",
       must_be_logged: 'Primeiro tens de ter sessão iniciada. Por favor, cria uma conta ou inicia sessão a partir do menu acima.',
-      subscribe_title: 'Subscrever', // Actually used in subscribe buttons, too
+      subscribe_title: 'Subscrever',
       unsubscribe: 'Cancelar Subscrição',
       confirm_unsubscribe: 'Confirmar Cancelamento da Subscrição',
       never_mind: 'Não Importa, Gostamos de Ti à Mesma',
@@ -1298,11 +1374,11 @@ module.exports = {
       sorry_to_see_you_go: 'Lamentamos ver-te partir! Por favor, diz-nos o que podíamos ter feito melhor.',
       unsubscribe_feedback_placeholder: 'Oh, o que fomos fazer?',
       stripe_description: 'Subscrição Mensal',
-      //    stripe_yearly_description: "Annual Subscription"
+      stripe_yearly_description: '[AI_TRANSLATION]Subscrição Anual',
       buy_now: 'Comprar Agora',
       subscription_required_to_play: 'Precisas de uma subscrição para jogares este nível.',
       unlock_help_videos: 'Subscreve-te para desbloqueares todos os tutoriais em vídeo.',
-      personal_sub: 'Subscrição Pessoal', // Accounts Subscription View below
+      personal_sub: 'Subscrição Pessoal',
       loading_info: 'A carregar as informações da subscrição...',
       managed_by: 'Gerida por',
       will_be_cancelled: 'Será cancelada em',
@@ -1316,34 +1392,38 @@ module.exports = {
       unsubscribing: 'A Cancelar a Subscrição',
       subscribe_prepaid: 'Clica em Subscrever para usares um código pré-pago',
       using_prepaid: 'A usar um código pré-pago para a subscrição mensal',
+      //    subscribe_to_premium: "Subscribe to Premium",
       feature_level_access: 'Acede a 300+ níveis disponíveis',
       feature_heroes: 'Desbloqueia heróis e animais exclusivos',
       feature_learn: 'Aprende a criar jogos e websites',
-      //    feature_languages: "Get all supported languages"
-      //    feature_aiyouth: ""
-      //    feature_gems: "Earn __gems__ gems/mo (__gems12__ gems/yr)"
-      month_price: '$__price__', // {change}
-      //    month_price_without_currency: "__price__/mo"
+      feature_languages: '[AI_TRANSLATION]Pega todas as línguas suportadas',
+      //    feature_aiyouth: "",
+      feature_gems: '[AI_TRANSLATION]Ganha __gems__ gemas/mês (__gems12__ gemas/ano)',
+      //    feature_all_products: "4-in-1: CodeCombat Home, CodeCombat Junior, CodeCombat Worlds on Roblox, and CodeCombat AI HackStack",
+      //    feature_products: "Access CodeCombat Junior, CodeCombat & AI HackStack",
+      month_price: '$__price__',
+      month_price_without_currency: '[AI_TRANSLATION]__price__/mês',
       first_month_price: 'Apenas $__price__ pelo teu primeiro mês!',
       lifetime: 'Acesso Vitalício',
       lifetime_price: '$__price__',
-      year_subscription: 'Subscrição Anual', // {change}
-      year_price: '$__price__/ano', // {change}
-      //    year_price_without_currency: "__price__/yr"
+      year_subscription: 'Subscrição Anual',
+      year_price: '$__price__/ano',
+      year_price_without_currency: '[AI_TRANSLATION]__price__/ano',
       support_part1: 'Precisas de ajuda com o pagamento ou preferes PayPal? Envia um e-mail para',
-      support_part2: 'support@codecombat.com'
+      support_part2: 'support@codecombat.com',
+      go_prepaid: '[AI_TRANSLATION]Clica aqui depois de escanear o código e fazer a compra',
+      forever: '[AI_TRANSLATION]Para Sempre',
+      subscription_status: '[AI_TRANSLATION]O teu Estado de Subscrição',
+      currently_not_free: '[AI_TRANSLATION]Ainda não tens uma subscrição.',
+      online_classes: '[AI_TRANSLATION]Aulas Online',
+      feature_ai_level_bot: '[AI_TRANSLATION]Acelera a aprendizagem com suporte impulsionado por IA',
+      sure_buy_as_parent: '[AI_TRANSLATION]Tens a certeza que queres acesso premium para ti em vez do teu filho?',
     },
-    //    go_prepaid: "Click here after scaning the code and purchasing"
-    //    forever: "Forever"
-    //    subscription_status: "Your Subscription Status"
-    //    currently_not_free: "You don't have a Subscription yet."
-    //    online_classes: "Online Classes"
-    //    feature_ai_level_bot: "Get AI powered debugging support"
 
     announcement: {
       now_available: 'Agora disponível para subscritores!',
       subscriber: 'subscritor',
-      cuddly_companions: 'Companheiros fofos!', // Pet Announcement Modal
+      cuddly_companions: 'Companheiros fofos!',
       kindling_name: 'Elemental Kindling',
       kindling_description: 'Os Elementais Kindling só querem manter-te quente durante a noite. E durante o dia. A toda a hora, na verdade.',
       griffin_name: 'Grifo bebé',
@@ -1369,7 +1449,7 @@ module.exports = {
       the_second_kithmaze: 'O Segundo Kithmaze',
       keep_playing: 'Continua a jogar para descobrires o primeiro animal de estimação!',
       coming_soon: 'Em breve',
-      ritic: 'Ritic, o Frio', // Ritic Announcement Modal
+      ritic: 'Ritic, o Frio',
       ritic_description: 'Ritic, o Frio. Preso no Glaciar Kelvintaph durante inúmeras eras, finalmente livre e pronto a cuidar da saúde dos ogres que o aprisionaram.',
       ice_block: 'Um bloco de gelo',
       ice_description: 'Parece estar alguma coisa presa lá dentro...',
@@ -1380,25 +1460,25 @@ module.exports = {
       tornado_name: 'Tornado',
       tornado_description: 'É bom ter um botão de reiniciar quando a própria protecção é rebentada.',
       wallOfDarkness_name: 'Muro de Trevas',
-      wallOfDarkness_description: 'Escondam-se atrás de um muro de sombras para evitar olhares curiosos.'
+      wallOfDarkness_description: 'Escondam-se atrás de um muro de sombras para evitar olhares curiosos.',
+      notifications: '[AI_TRANSLATION]Notificações',
+      x_announcement: '[AI_TRANSLATION]__x__ Notificação',
+      x_announcements: '[AI_TRANSLATION]__x__ Notificações',
+      x_announcement_with_unread: '[AI_TRANSLATION]__x__ Notificação (__y__ não lidas)',
+      x_announcements_with_unread: '[AI_TRANSLATION]__x__ Notificações (__y__ não lidas)  ',
+      see_more: '[AI_TRANSLATION]Ver __unread__ mais notificações não lidas',
+      mark_read: '[AI_TRANSLATION]Marcar como Lido',
+      read_all: '[AI_TRANSLATION]Ler Tudo',
+      more_announcements: '[AI_TRANSLATION]mais notificações...',
     },
-    //    notifications: "Notifications"
-    //    x_announcement: "__x__ Notification"
-    //    x_announcements: "__x__ Notifications"
-    //    x_announcement_with_unread: "__x__ Notification (__y__ unread)"
-    //    x_announcements_with_unread: "__x__ Notifications (__y__ unread)"
-    //    see_more: "See __unread__ more unread Notifications"
-    //    mark_read: "Mark Read"
-    //    read_all: "Read All"
-    //    more_announcements: "more notifications..."
 
     avatar_selection: {
-      pick_an_avatar: 'Escolhe um avatar que te represente como jogador'
+      pick_an_avatar: 'Escolhe um avatar que te represente como jogador',
+      select_avatar_title: '[AI_TRANSLATION]Escolher Avatar do Jogador',
     },
-    //    select_avatar_title: "Choose Player Avatar"
 
     premium_features: {
-      get_premium: 'Obtém<br>CodeCombat<br>Premium', // Fit into the banner on the /features page
+      get_premium: 'Obtém<br>CodeCombat<br>Premium',
       master_coder: 'Torna-te um Mestre Codificador, subscreve-te hoje!',
       paypal_redirect: 'Será redireccionado para a página do PayPal para completar o processo de subscrição.',
       subscribe_now: 'Subscrever agora',
@@ -1418,10 +1498,12 @@ module.exports = {
       list_web_dev: 'Construir websites e aplicações interactivas',
       list_items: 'Equipar artigos Premium como animais de estimação',
       list_support: 'Obtém apoio Premium para te ajudar a depurar código complicado',
-      list_clans: 'Cria clãs privados para convidar os teus amigos e competir num quadro de líderes de grupo'
+      list_clans: 'Cria clãs privados para convidar os teus amigos e competir num quadro de líderes de grupo',
+      ai_bot_learning: '[AI_TRANSLATION]Suporte potenciado por IA para acelerar os resultados de aprendizagem!',
+      ai_bot_description: '[AI_TRANSLATION]O recurso de dicas do CodeCombat alimentado por IA pode avaliar o código, apontar erros e explicar como corrigi-los. Mais importante ainda, ele fornece todo o contexto necessário para entender o porquê, sem fornecer a solução inteira. Com a assistência apenas ao problema de código atual disponível, jovens aprendizes ainda precisarão trabalhar em cada desafio de codificação do nível. Assinantes premium recebem uma alocação de <b>10 dicas de IA por dia</b> para garantir que sempre tenham o suporte necessário.',
+      list_ai_bot: '[AI_TRANSLATION]Os subscritores Premium recebem 10 dicas de IA por dia',
+      ai_bot_notice: '[AI_TRANSLATION]* As taxas de dicas de IA estão sujeitas a mudanças.',
     },
-    //    ai_bot_learning: "AI Powered support to accelerate your learning!"
-    //    ai_bot_description: "Meet DebugBot AI, CodeCombat’s AI powered assistant. This powerful helper can evaluate your code, point out errors, explain how to fix them, and provide all the context you need to understand the “why”. It’s instant support when you need it most."
 
     choose_hero: {
       choose_hero: 'Escolhe o Teu Herói',
@@ -1435,18 +1517,28 @@ module.exports = {
       lua_blurb: 'Linguagem para scripts de jogos.',
       java_blurb: '(Apenas para Subscritores) Android e empresas.',
       cpp_blurb: '(Apenas para Subscritores) Criação de jogos e alto desempenho em computação.',
+      code_format: '[AI_TRANSLATION]Formato de Código',
+      text_code: '[AI_TRANSLATION]Texto de código',
+      blocks_and_code: '[AI_TRANSLATION]Blocos e código',
+      blocks_text: '[AI_TRANSLATION]Blocos',
+      blocks_icons: '[AI_TRANSLATION]Blocos (ícones)',
+      //    blocks_icons_helptext: "Junior only",
+      text_code_blurb: '[AI_TRANSLATION]Escreve código em texto num editor de código real',
+      blocks_and_code_blurb: '[AI_TRANSLATION]Blocos e código de texto lado a lado',
+      blocks_text_blurb: '[AI_TRANSLATION]Arrasta e larga blocos para tablets ou aprendizes mais jovens',
+      blocks_icons_blurb: '[AI_TRANSLATION]Blocos baseados em ícones para telefones ou pré-leitores',
       status: 'Estado',
       weapons: 'Armas',
       weapons_warrior: 'Espadas - Curto Alcance, Sem Magia',
       weapons_ranger: 'Arcos, Armas - Longo Alcance, Sem Magia',
       weapons_wizard: 'Varinhas, Bastões - Longo Alcance, Magia',
-      attack: 'Ataque', // Can also translate as "Attack"
+      attack: 'Ataque',
       health: 'Vida',
       speed: 'Velocidade',
       regeneration: 'Regeneração',
-      range: 'Alcance', // As in "attack or visual range"
-      blocks: 'Bloqueia', // As in "this shield blocks this much damage"
-      backstab: 'Colateral', // As in "this dagger does this much backstab damage"
+      range: 'Alcance',
+      blocks: 'Bloqueia',
+      backstab: 'Colateral',
       skills: 'Habilidades',
       attack_1: 'Dá',
       attack_2: 'do dano da arma do',
@@ -1456,9 +1548,13 @@ module.exports = {
       health_3: 'apresentado.',
       speed_1: 'Move a',
       speed_2: 'metros por segundo.',
-      available_for_purchase: 'Disponível para Aquisição', // Shows up when you have unlocked, but not purchased, a hero in the hero store
-      level_to_unlock: 'Nível para desbloquear:', // Label for which level you have to beat to unlock a particular hero (click a locked hero in the store to see)
-      restricted_to_certain_heroes: 'Apenas certos heróis podem jogar este nível.'
+      available_for_purchase: 'Disponível para Aquisição',
+      level_to_unlock: 'Nível para desbloquear:',
+      restricted_to_certain_heroes: 'Apenas certos heróis podem jogar este nível.',
+      code_format_not_supported: '[AI_TRANSLATION]Não Suportado  ',
+      code_format_disable_by_teacher: '[AI_TRANSLATION]Desativado pelo Professor',
+      code_language_subscriber_only: '[AI_TRANSLATION]Só para Assinantes',
+      code_language_not_support_by_blocks: '[AI_TRANSLATION]Não Suportado com Blocos  ',
     },
 
     char_customization_modal: {
@@ -1466,18 +1562,18 @@ module.exports = {
       body: 'Corpo',
       name_label: 'Nome do herói',
       hair_label: 'Cor do cabelo',
-      skin_label: 'Cor da pele'
+      skin_label: 'Cor da pele',
     },
 
     skill_docs: {
-      function: 'função', // skill types
+      function: 'função',
       method: 'método',
       snippet: 'fragmento',
       number: 'número',
       array: "'array'",
       object: 'objeto',
       string: "'string'",
-      writable: 'editável', // Hover over "attack" in Your Skills while playing a level to see most of this
+      writable: 'editável',
       read_only: 'apenas leitura',
       action: 'Ação -',
       spell: 'Feitiço -',
@@ -1489,7 +1585,7 @@ module.exports = {
       action_radius: 'Raio',
       action_duration: 'Duração',
       example: 'Exemplo',
-      ex: 'ex', // Abbreviation of "example"
+      ex: 'ex',
       current_value: 'Valor Atual',
       default_value: 'Valor Predefinido',
       parameters: 'Parâmetros',
@@ -1497,17 +1593,17 @@ module.exports = {
       optional_parameters: 'Parâmetros Opcionais',
       returns: 'Devolve',
       granted_by: 'Garantido por',
-      still_undocumented: 'Ainda por documentar, desculpa.'
+      still_undocumented: 'Ainda por documentar, desculpa.',
+      description_coming_soon: '[AI_TRANSLATION]Descrição em breve',
     },
-    //    description_coming_soon: "Description coming soon"
 
     save_load: {
       granularity_saved_games: 'Guardados',
-      granularity_change_history: 'Histórico'
+      granularity_change_history: 'Histórico',
     },
 
     options: {
-      general_options: 'Opções Gerais', // Check out the Options tab in the Game Menu while playing a level
+      general_options: 'Opções Gerais',
       volume_label: 'Volume',
       music_label: 'Música',
       music_description: 'Ativar ou desativar a música de fundo.',
@@ -1520,12 +1616,14 @@ module.exports = {
       editor_config_indentguides_label: 'Mostrar Guias de Indentação',
       editor_config_indentguides_description: 'Mostrar linhas verticais para se ver melhor a indentação.',
       editor_config_behaviors_label: 'Comportamentos Inteligentes',
-      editor_config_behaviors_description: 'Auto-completar parênteses, chavetas e aspas.'
+      editor_config_behaviors_description: 'Auto-completar parênteses, chavetas e aspas.',
+      editor_config_wide_editor_label: '[AI_TRANSLATION]Ativar o Editor Largo',
+      editor_config_wide_editor_description: '[AI_TRANSLATION]Aumenta a largura do editor como no estilo antigo.',
+      editor_config_screen_reader_mode_label: '[AI_TRANSLATION]Ativar o Modo Leitor de Ecrã',
+      editor_config_screen_reader_mode_label_disable: '[AI_TRANSLATION]Desativar Modo de Leitor de Ecrã',
+      editor_config_screen_reader_mode_description: '[AI_TRANSLATION]Exibe níveis em texto em vez de visualmente.',
+      editor_config_livecompletion_disabled_by_teacher: '[AI_TRANSLATION]O teu professor desativou a tua conclusão automática.',
     },
-    //    editor_config_screen_reader_mode_label: "Enable Screen Reader Mode"
-    //    editor_config_screen_reader_mode_label_disable: "Disable Screen Reader Mode"
-    //    editor_config_screen_reader_mode_description: "Display levels in text rather than visually."
-    //    editor_config_livecompletion_disabled_by_teacher: "Your teacher has disabled your autocomplete."
 
     about: {
       title: 'Sobre o CodeCombat - Envolver os estudantes, Capacitar os professores, Inspirar a criação',
@@ -1543,71 +1641,73 @@ module.exports = {
       team_title: 'Conhece a equipa do CodeCombat',
       team_values: 'Valorizamos o diálogo aberto e respeitador, onde ganha a melhor ideia. As nossas decisões são fundamentadas na pesquisa de clientes e o nosso processo está centrado na obtenção de resultados tangíveis para eles. Todos são participativos, desde o nosso CEO até aos nossos colaboradores no GitHub, porque valorizamos o crescimento e a aprendizagem na nossa equipa.',
       nick_title: 'Co-fundador, CEO',
-      //    csr_title: "Customer Success Representative"
+      csr_title: '[AI_TRANSLATION]Representante de Sucesso do Cliente',
       csm_title: 'Gestor de Sucesso do Cliente',
-      //    scsm_title: "Senior Customer Success Manager"
+      scsm_title: '[AI_TRANSLATION]Gestor de Sucesso de Cliente Sénior',
       ae_title: 'Executivo de Contas',
-      //    sae_title: "Senior Account Executive"
-      //    sgd_title: "Senior Game Developer"
-      //    gd_title: "Game Developer"
-      //    dois_title: "Director of Inside Sales"
-      //    ism_title: "Inside Sales Manager"
-      //    sism_title: "Senior Inside Sales Manager"
+      sae_title: '[AI_TRANSLATION]Executivo de Contas Sénior',
+      sgd_title: '[AI_TRANSLATION]Desenvolvedor de Jogos Sénior',
+      gd_title: '[AI_TRANSLATION]Desenvolvedor de Jogos',
+      dois_title: '[AI_TRANSLATION]Diretor de Vendas Internas',
+      ism_title: '[AI_TRANSLATION]Gestor de Vendas Internas  ',
+      sism_title: '[AI_TRANSLATION]Gestor de Vendas Internas Sénior',
       shan_title: 'Chefe de Marketing, CodeCombat, China',
       run_title: 'Chefe de Operações, CodeCombat, China',
       lance_title: 'Chefe de Tecnologia, CodeCombat, China',
       zhiran_title: 'Chefe de Curriculum, CodeCombat, China',
       yuqiang_title: 'Chefe de Inovação, CodeCombat, China',
-      //    swe_title: "Software Engineer"
+      swe_title: '[AI_TRANSLATION]Engenheiro de Software',
       sswe_title: 'Engenheiro Sénior de Software',
       css_title: 'Especialista em Apoio ao Cliente',
-      //    am_cs_title: "Associate Manager, Customer Success"
-      //    css_qa_title: "Customer Support / QA Specialist"
+      am_cs_title: '[AI_TRANSLATION]Manager Associado, Sucesso do Cliente',
+      css_qa_title: '[AI_TRANSLATION]Especialista em Suporte ao Cliente / QA',
       maya_title: 'Elaborador Sénior de Curriculum',
       bill_title: 'Director Geral, CodeCombat, China',
       pvd_title: 'Designer Visual e de Produto',
-      //    spvd_title: "Senior Product and Visual Designer"
+      spvd_title: '[AI_TRANSLATION]Designer de Produto e Visual Sénior',
       daniela_title: 'Gestor de Marketing',
-      //    mm_title: "Marketing Manager"
+      //    mm_title: "Marketing Manager",
       bobby_title: 'Designer de jogos',
       brian_title: 'Gestor Sénior de Design de Jogos',
       stephanie_title: 'Especialista em Apoio ao Cliente',
       sdr_title: 'Representante de Desenvolvimento de Vendas',
-      //    bd_pr_title: "Business Development and Partnerships Representative"
+      bd_pr_title: '[AI_TRANSLATION]Representante de Desenvolvimento de Negócios e Parcerias',
       retrostyle_title: 'Ilustração',
       retrostyle_blurb: "'RetroStyle Games'",
       community_title: '...e a nossa comunidade open source',
-      //    lgd_title: "Lead Game Designer"
-      //    oa_title: "Operations Associate"
-      //    ac_title: "Administrative Coordinator"
-      //    sac_title: "Senior Administrative Coordinator"
-      //    ea_title: "Executive Assistant"
-      //    om_title: "Operations Manager"
-      //    som_title: "Senior Operations Manager"
-      //    sales_om_title: "Sales Operations Manager"
-      //    pe_title: "Principal Engineer"
-      //    mo_title: "Manager, Operations"
-      //    smo_title: "Senior Manager, Operations"
-      //    do_title: "Director of Operations"
-      //    vp_o_title: "VP, Operations"
-      //    scd_title: "Senior Curriculum Developer"
-      //    lcd_title: "Lead Curriculum Developer"
-      //    cd_title: "Curriculum Developer"
-      //    sem_title: "Senior Education Manager"
-      //    de_title: "Director of Education"
-      //    vpm_title: "VP, Marketing"
-      //    vps_title: "VP, Sales"
-      //    oi_title: "Online Instructor"
-      //    m_oi_title: "Manager, Online Instruction"
-      //    aoim_title: "Associate Online Instructor Manager"
-      //    bdm_title: "Business Development Manager"
-      community_subtitle: 'Mais de 500 contribuidores ajudaram a construir o CodeCombat, com mais a se juntarem todas as semanas!', // {change}
+      lgd_title: '[AI_TRANSLATION]Designer Principal de Jogo',
+      oa_title: '[AI_TRANSLATION]Associado de Operações',
+      ac_title: '[AI_TRANSLATION]Coordenador Administrativo',
+      sac_title: '[AI_TRANSLATION]Coordenador Administrativo Sénior',
+      oss_title: '[AI_TRANSLATION]Especialista em Suporte de Operações',
+      ea_title: '[AI_TRANSLATION]Assistente Executivo',
+      om_title: '[AI_TRANSLATION]Gestor de Operações',
+      som_title: '[AI_TRANSLATION]Gestor de Operações Sénior',
+      sales_om_title: '[AI_TRANSLATION]Gestor de Operações de Vendas',
+      pe_title: '[AI_TRANSLATION]Engenheiro Principal',
+      mo_title: '[AI_TRANSLATION]Gestor de Operações',
+      smo_title: '[AI_TRANSLATION]Gestor Sénior de Operações',
+      do_title: '[AI_TRANSLATION]Diretor de Operações',
+      vp_o_title: '[AI_TRANSLATION]VP, Operações',
+      //    scd_title: "Senior Curriculum Developer",
+      lcd_title: '[AI_TRANSLATION]Desenvolvedor Líder de Currículo',
+      cd_title: '[AI_TRANSLATION]Desenvolvedor de Currículo',
+      sem_title: '[AI_TRANSLATION]Gestor de Educação Sénior',
+      de_title: '[AI_TRANSLATION]Diretor de Educação',
+      vpm_title: '[AI_TRANSLATION]VP, Marketing',
+      vps_title: '[AI_TRANSLATION]VP, Vendas',
+      vpsm_title: '[AI_TRANSLATION]VP, Vendas e Marketing',
+      oi_title: '[AI_TRANSLATION]Instrutor Online',
+      m_oi_title: '[AI_TRANSLATION]Gestor de Instrução Online',
+      aoim_title: '[AI_TRANSLATION]Manager Associado de Instrutores Online',
+      bdm_title: '[AI_TRANSLATION]Gestor de Desenvolvimento de Negócios',
+      community_subtitle: 'Mais de 500 contribuidores ajudaram a construir o CodeCombat, com mais a se juntarem todas as semanas!',
       community_description_3: 'O CodeCombat é um',
       community_description_link_2: 'projeto comunitário',
       community_description_1: 'com centenas de jogadores a voluntariarem-se para criar níveis, contribuir para o nosso código para adicionar funcionalidades, corrigir bugs, testar o jogo, e até traduzir o jogo para 50 línguas até agora. Empregados, colaboradores e o site ganham com a partilha de ideias e com o esforço de agregação, tal como a comunidade de código aberto em geral. O site é construído sobre numerosos projectos de código aberto, e nós fornecemos um código aberto para devolver à comunidade e fornecer aos jogadores curiosos pelo código um projecto familiar para explorar e experimentar. Qualquer pessoa pode juntar-se à comunidade CodeCombat! Confira o nosso',
       community_description_link: 'página de contribuição',
       community_description_2: 'para mais informações.',
-      number_contributors: 'Mais de 450 contribuidores deram o seu apoio e tempo a este projeto.', // {change}
+      number_contributors: 'Mais de 450 contribuidores deram o seu apoio e tempo a este projeto.',
       story_title: 'A nossa história até agora',
       story_subtitle: 'Desde 2013, o CodeCombat cresceu de um mero conjunto de esboços para um jogo palpável e próspero.',
       story_statistic_1a: '20,000,000+',
@@ -1624,22 +1724,21 @@ module.exports = {
       jobs_title: 'Vem trabalhar connosco e ajudar a escrever a história do CodeCombat!',
       jobs_subtitle: 'Não vê um bom ajuste mas está interessado em manter-se em contacto? Veja a nossa lista "Crie o Seu Próprio".',
       jobs_benefits: 'Benefícios de Empregado',
-      jobs_benefit_4: 'Férias ilimitadas', // {change}
+      jobs_benefit_4: 'Férias ilimitadas',
       jobs_benefit_5: 'Desenvolvimento profissional e apoio à educação contínua - livros e jogos grátis!',
-      jobs_benefit_6: 'Seguro médico (gold), dentário, visão, viagem para local de trabalho, 401K', // {change}
+      jobs_benefit_6: 'Seguro médico (gold), dentário, visão, viagem para local de trabalho, 401K',
       jobs_benefit_9: 'Período de 10 anos opcionais de exercício',
-      //    jobs_benefit_10: "Maternity leave: 12 weeks paid, next 6 @ 55% salary"
-      jobs_benefit_11: 'Licença de paternidade: 12 semanas pagas', // {change}
-      //    jobs_benefit_12: "$50/mo internet & biz services benefit"
-      //    jobs_benefit_13: "$50/mo health and wellness benefit"
-      //    jobs_benefit_14: "100% distributed team"
+      jobs_benefit_10: '[AI_TRANSLATION]Licença de maternidade: 12 semanas pagas, próximas 6 a 55% do salário.',
+      jobs_benefit_11: 'Licença de paternidade: 12 semanas pagas',
+      jobs_benefit_12: '[AI_TRANSLATION]Benefício de internet e serviços empresariais de $50/mês',
+      jobs_benefit_14: '[AI_TRANSLATION]Equipa 100% distribuída',
       jobs_custom_title: 'Cria o Teu Próprio',
       jobs_custom_description: 'É apaixonado pelo CodeCombat mas não vê um emprego que corresponda às suas qualificações? Escreva-nos e mostre como pensa que pode contribuir para a nossa equipa. Gostaríamos muito de ouvir a sua opinião!',
       jobs_custom_contact_1: 'Envie-nos uma nota para',
       jobs_custom_contact_2: 'apresente-se e poderemos entrar em contacto no futuro!',
       contact_title: 'Imprensa e Contactos',
       contact_subtitle: 'Precisas de mais informação? Entra em contacto connosco através de',
-      //    press_subtitle: "or visit our press site at"
+      press_subtitle: '[AI_TRANSLATION]ou visita o nosso site de imprensa em',
       screenshots_title: 'Imagens do jogo',
       screenshots_hint: '(clique para ver em tamanho real)',
       downloads_title: 'Descarregar bens e informação',
@@ -1649,185 +1748,231 @@ module.exports = {
       character_art: 'Arte e design do personagem',
       download_all: 'Descarregar tudo',
       previous: 'Anterior',
-      location_title: 'Estamos localizados no centro da cidade de SF:'
+      location_title: 'Estamos localizados no centro da cidade de SF:',
     },
 
     teachers: {
-      licenses_needed: 'Licenças necessárias'
+      licenses_needed: 'Licenças necessárias',
+      google_classroom_disabled_text: '[AI_TRANSLATION]Para ligar o Google Classroom, faz login utilizando o SSO do Google.',
+      select_class: '[AI_TRANSLATION]Selecionar turma',
+      programming_language: '[AI_TRANSLATION]Linguagem de programação',
+      programming_language_edit_desc: '[AI_TRANSLATION]Não se pode mudar a língua depois dos alunos entrarem numa turma. Recomendamos criar uma turma nova para os mesmos alunos.',
+      programming_language_edit_desc_new: '[AI_TRANSLATION]Se mudares a linguagem de programação, o progresso dos teus alunos na linguagem antiga ficará oculto, e eles terão de começar do zero na nova linguagem. Recomendamos criar uma nova turma para os mesmos alunos.',
+      add_a_class: '[AI_TRANSLATION]Adiciona uma nova classe',
+      select_desired_lang: '[AI_TRANSLATION]Selecionar a língua desejada para a sua turma',
+      elementary: '[AI_TRANSLATION]Elementar',
+      middle: '[AI_TRANSLATION]Meio',
+      high_school: '[AI_TRANSLATION]Escola Secundária',
+      class_name: '[AI_TRANSLATION]Nome da Classe',
+      grades: '[AI_TRANSLATION]Graus',
+      select_all_that_apply: '[AI_TRANSLATION]Selecionar todas as opções que se aplicam',
+      class_info_modal_sub_title: '[AI_TRANSLATION]Convide alunos a juntar-se à sua turma enviando-lhes:',
+      class_url: '[AI_TRANSLATION]URL da Classe',
+      class_url_desc: '[AI_TRANSLATION]Partilhar URL para que os alunos se juntem à tua turma após inscrição',
+      class_code: '[AI_TRANSLATION]Código da Classe',
+      class_code_desc: '[AI_TRANSLATION]Os alunos podem inserir este código quando se inscrevem em www.ozaria.com',
+      invite_by_email: '[AI_TRANSLATION]Convidar por Email',
+      regenerate_class_code: '[AI_TRANSLATION]Regenerar',
+      invite_modal_sub_title: '[AI_TRANSLATION]Separa cada endereço de email por uma quebra de linha ou vírgulas',
+      no_new_students_imported: '[AI_TRANSLATION]Nenhum novo estudante importado',
+      error_in_importing_classrooms: '[AI_TRANSLATION]Erro ao importar salas de aula.',
+      error_in_importing_students: '[AI_TRANSLATION]Erro ao importar alunos.',
+      classroom_items_description: '[AI_TRANSLATION]Se os alunos devem ganhar gemas e equipar itens durante o jogo.',
+      classroom_live_completion: '[AI_TRANSLATION]Se deve habilitar a autocompletar de código nesta sala de aula. Desativado: desativa a autocompletar para todos os níveis. Ativado: permite que os alunos escolham. Recomendamos deixar ativado.',
+      code_formats: '[AI_TRANSLATION]Formatos de Código (beta)',
+      code_formats_description: '[AI_TRANSLATION]Que formatos de código os alunos podem escolher.',
+      code_formats_disabled_by: '[AI_TRANSLATION]Blocos e código, Blocos não são suportados com a linguagem __language__  ',
+      code_formats_mobile: '[AI_TRANSLATION]* Os alunos no telemóvel serão colocados em modo de blocos',
+      code_formats_fallback: '[AI_TRANSLATION]* Os alunos irão usar o modo de texto para cursos sem suporte a blocos',
+      //    code_formats_text: "text code: real code editor",
+      code_formats_block: '[AI_TRANSLATION]blocos: editor baseado em blocos (apenas python, javascript)  ',
+      code_formats_block_text: '[AI_TRANSLATION]blocos e código: editor baseado em blocos com código de texto (apenas python, javascript)  ',
+      code_formats_block_icon: '[AI_TRANSLATION]blocos (ícones): editor de ícones sem texto (somente Junior)  ',
+      default_code_format: '[AI_TRANSLATION]Formato de Código Padrão',
+      default_code_format_description: '[AI_TRANSLATION]O formato de código que os alunos começarão.',
+      not_allow_to_solution: '[AI_TRANSLATION]# Licenças necessárias para ver soluções\n',
+      classroom_level_chat: '[AI_TRANSLATION]Dicas de Nível AI  ',
+      classroom_level_chat_blurb: '[AI_TRANSLATION]Se os alunos podem pedir dicas de IA e explicações de erros.',
+      classroom_level_chat_option_free_form: '[AI_TRANSLATION]Forma livre',
+      classroom_level_chat_option_fixed_prompt_only: '[AI_TRANSLATION]Fixed prompt only',
+      classroom_level_chat_option_none: '[AI_TRANSLATION]Sem chat',
+      initial_free_courses: '[AI_TRANSLATION]Cursos Iniciais  ',
+      free_course_blurb_junior: '[AI_TRANSLATION]Ótimo para o pré-escolar ao 5º ano, o CodeCombat Junior pode adaptar-se a opções de blocos e móveis para pré-leitores, até código de texto Python ou JavaScript para os anos superiores do ensino básico, ou a blocos-e-código paralelos para ajudar na transição.  ',
+      'free_course_blurb_introduction-to-computer-science': '[AI_TRANSLATION]Ótimo para o 6º ao 12º ano, os cursos principais de CS do CodeCombat progridem desde a Introdução à Ciência da Computação, focada em iniciantes, até aos Princípios de Ciência da Computação AP, e além, com cursos avançados de CS. Começa aqui para alunos do ensino básico e secundário.  ',
+      //    free_course_blurb_hackstack: "Learn essential prompt engineering skills in a wide range of subjects using Al HackStack's Learning Scenarios with popular Al models like ChatGPT, Claude, and DALL-E.",
+      start_teaching_ai_today: '[AI_TRANSLATION]Começa a Ensinar IA Hoje!  ',
+      hackstack_beta_release: '[AI_TRANSLATION]HackStack Beta Release  ',
+      introducing_ai_hackstack: '[AI_TRANSLATION]Apresentamos o AI HackStack, uma ferramenta de ensino de IA generativa para iniciantes. Oferece acesso seguro aos melhores modelos de IA como ChatGPT, Claude, e DALL-E.',
+      our_curriculum_empowers_students: '[AI_TRANSLATION]O nosso currículo capacita os alunos a usar IA para criar websites, jogos, arte, e mais. Atualmente em beta.\n',
+      test_student_promotion_1: '[AI_TRANSLATION]Preparado para calçar os sapatos de programação dos teus alunos? Clicar em "Testar como Aluno" deixa-te mergulhar na experiência de aprendizagem em primeira mão.  ',
+      //    test_student_promotion_2: "You'll be creating a unique test account that not only mimics the student journey but also saves your progress — unlike the quick previews in our curriculum guide, which are great for a sneak-peek but don't keep track of where you've been.",
+      test_student_promotion_3: '[AI_TRANSLATION]O teu primeiro curso é gratuito. Pronto para mais? Vamos guiar-te a adicionar uma licença para continuar as aventuras de aprendizagem.  ',
+      dashboard_update: '[AI_TRANSLATION]Atualização do Painel',
+      dashboard_update_message: '[AI_TRANSLATION]Estamos a otimizar o painel para tua conveniência. Agora podes encontrar o Guia Curricular na barra lateral esquerda.  ',
+      switch_to_test_student: '[AI_TRANSLATION]A mudar para a conta de estudante de teste...  ',
+      import_ozaria_classroom: '[AI_TRANSLATION]Importar Ozaria Classroom  ',
+      import_codecombat_classroom: '[AI_TRANSLATION]Importar Codecombat Classroom  ',
+      select_ozaria_classroom: '[AI_TRANSLATION]Selecionar Sala de Aula do Ozaria',
+      select_codecombat_classroom: '[AI_TRANSLATION]Selecionar Sala de Aula do Codecombat',
+      select_to_import_from_ozaria: '[AI_TRANSLATION]Escolhe para Importar do Ozaria  ',
+      select_to_import_from_codecombat: '[AI_TRANSLATION]Escolhe para Importar do Codecombat  ',
+      all_classrooms_imported: '[AI_TRANSLATION]Todas as salas de aula já importadas  ',
+      club_type: '[AI_TRANSLATION]Tipo de Clube  ',
+      create_students_prompt: '[AI_TRANSLATION]Quantos alunos queres criar?  ',
+      //    initial_free_courses_description: "*Courses can be updated using Assign Content after creating class too.",
+      //    junior_code_format_only: "Blocks (Icons) only available for Junior",
+      //    hackstack_no_code_language_format: "AI HackStack does not need a programming language or code format",
+      //    licenses_activated_success: "Licenses have been Activated Successfully!",
+      //    license_code_used: "License Code used.",
+      //    ai_hs_remix: "AI HackStack Remix",
+      //    ai_hs_remix_blurb: "Whether students can use other student's projects to take inspiration from.",
     },
-    //    google_classroom_disabled_text: "To link Google Classroom, login using Google SSO"
-    //    select_class: "Select class"
-    //    programming_language: "Programming language"
-    //    programming_language_edit_desc: "Language cannot be changed once students join a class. We recommend creating a new class for the same students."
-    //    programming_language_edit_desc_new: "If you change the programming language, your students' progress in the old language will be hidden, and they will have to start over in the new language. We recommend creating a new class for the same students."
-    //    add_a_class: "Add a new class"
-    //    select_desired_lang: "Select desired language for your class"
-    //    elementary: "Elementary"
-    //    middle: "Middle"
-    //    high_school: "High School"
-    //    class_name: "Class Name"
-    //    grades: "Grades"
-    //    select_all_that_apply: "Select all that apply"
-    //    class_info_modal_sub_title: "Invite students to join your class by sending them:"
-    //    class_url: "Class Url"
-    //    class_url_desc: "Share URL to have students join your class after signing up"
-    //    class_code: "Class Code"
-    //    class_code_desc: "Students can enter this code when they sign up at www.ozaria.com"
-    //    invite_by_email: "Invite by Email"
-    //    regenerate_class_code: "Regenerate"
-    //    invite_modal_sub_title: "Separate each email address by a line break or commas"
-    //    no_new_students_imported: "No new students imported"
-    //    error_in_importing_classrooms: "Error in importing classrooms"
-    //    error_in_importing_students: "Error in importing students"
-    //    classroom_items_description: "Whether students should earn gems and equip items during gameplay."
-    //    classroom_live_completion: "Whether to enable coding autocomplete in this classroom. Disabled: turns autocomplete off for all levels. Enabled: allows students to choose. We recommend leaving this enabled."
-    //    not_allow_to_solution: "# Licenses needed to view solutions"
 
-    //  no_licenses_page:
-    //    are_your_students_ready: "Are your students excited and ready to learn more?"
-    //    once_students_have_completed: "Once students have completed Chapter 1, they will need licenses in order to continue their journey through the next chapter and beyond."
-    //    get_licenses: "Get Licenses"
-    //    get_full_access_to_ozaria: "Get Full Access to Ozaria"
-    //    unlock_all: "Unlock all the above plus all the teacher support you need"
-    //    unlock_all_dsa: "Unlock all the above plus all the support teachers need"
-    //    comprehensive_dashboards: "Comprehensive teacher and administrator dashboards"
-    //    lesson_plans_rubrics_guides: "Lesson Plans, Project Rubrics, Solution Guides, and more"
-    //    dedicated_customer_success_manager: "A dedicated customer success manager"
-    //    automatic_access: "Automatic access to new content and features"
-    //    license_quote: "\"In my opinion as a 26 year veteran middle school educator, there is no more engaging resource for teaching coding.\""
-    //    join_our_community: "Join our community"
-    //    join_our_community_desc: "Over 12 million people have learned to write Python and JavaScript using CodeCombat. Now, we welcome you to join our community of over 82,000 educators and 25,000 schools with Ozaria, designed for educators who want to inspire a new generation of students to learn Computer Science."
-    //    teach_real_typed_code: "Teach Real, Typed Code"
-    //    teach_real_typed_code_desc: "Students learn Python and JavaScript, the two most popular coding languages, and build 21st century skills that will prepare them for any career."
-    //    support_student_progress: "Support Student Progress"
-    //    support_student_progress_desc: "Unlock formative and summative assessment data from Concept Checks, Levels, and Capstone Projects to support student progress."
-    //    creative_projects: "Creative Projects"
-    //    creative_projects_desc: "Inspire imagination and unleash student creativity with shareable capstone projects, like in Chapter 2 where students design their own storytelling game. "
-    //    looking_for_engaging: "Looking for engaging computer science curriculum?"
-    //    licenses_are_required: "Licenses are required for students to continue their journey beyond Chapter 1."
-    //    real_world_skills: "Real-World Skills"
-    //    real_world_skills_desc: "Students learn typed Python and JavaScript, the two most popular coding languages, and enhance their critical-thinking skills, creativity, and resilience to prepare them for any career."
-    //    personalized_learning: "Personalized Learning and Scaffolded Instruction"
-    //    personalized_learning_desc: "Students learn concepts at their own pace. Levels increase in difficulty while providing built-in hints to encourage persistence and grit."
-    //    flexible_curriculum: "Flexible Standards- Aligned Curriculum"
-    //    flexible_curriculum_desc: "100% CSTA-aligned curriculum that can easily be adapted to any schedule, scenario, or setting."
-    //    resources_to_support: "Resources to Support Teachers"
-    //    resources_to_support_desc: "Lesson plans, extension activities, curriculum guides, and more instructional resources designed with remote and hybrid settings in mind."
-    //    actionable_insights: "Actionable Insights for Educators"
-    //    actionable_insights_desc: "Empower educators with intuitive student progress and assessment data that makes differentiating instruction possible."
+    no_licenses_page: {
+      are_your_students_ready: '[AI_TRANSLATION]Os teus alunos estão entusiasmados e prontos para aprender mais?',
+      once_students_have_completed: '[AI_TRANSLATION]Assim que os alunos completarem o Capítulo 1, precisarão de licenças para continuar sua jornada no próximo capítulo e além.',
+      get_licenses: '[AI_TRANSLATION]Obtém Licenças',
+      get_full_access_to_ozaria: '[AI_TRANSLATION]Obtém Acesso Completo a Ozaria',
+      unlock_all: '[AI_TRANSLATION]Desbloqueia tudo o que foi mencionado acima mais todo o suporte de que tu, como professor, precisas',
+      unlock_all_dsa: '[AI_TRANSLATION]Desbloqueia tudo o que foi mencionado acima mais todo o suporte de que os professores precisam',
+      comprehensive_dashboards: '[AI_TRANSLATION]Dashboards abrangentes para professores e administradores',
+      lesson_plans_rubrics_guides: '[AI_TRANSLATION]Planos de Aula, Rubricas de Projeto, Guias de Soluções e muito mais',
+      dedicated_customer_success_manager: '[AI_TRANSLATION]Um gestor dedicado ao sucesso dos clientes',
+      automatic_access: '[AI_TRANSLATION]Acesso automático a novos conteúdos e funcionalidades',
+      license_quote: '[AI_TRANSLATION]"Na minha opinião, como educador veterano do ensino básico com 26 anos de experiência, não há recurso mais envolvente para ensinar programação."',
+      join_our_community: '[AI_TRANSLATION]Junta-te à nossa comunidade',
+      join_our_community_desc: '[AI_TRANSLATION]Mais de 12 milhões de pessoas aprenderam a escrever Python e JavaScript usando o CodeCombat. Agora, damos-te as boas-vindas para te juntares à nossa comunidade de mais de 82.000 educadores e 25.000 escolas com a Ozaria, destinada a educadores que querem inspirar uma nova geração de estudantes a aprender Ciências da Computação.',
+      teach_real_typed_code: '[AI_TRANSLATION]Ensina código real, escrito',
+      teach_real_typed_code_desc: '[AI_TRANSLATION]Os alunos aprendem Python e JavaScript, as duas linguagens de código mais populares, e desenvolvem competências do século XXI que os prepararão para qualquer carreira.',
+      support_student_progress: '[AI_TRANSLATION]Suporte para login Clever e Google',
+      support_student_progress_desc: '[AI_TRANSLATION]Desbloqueia dados de avaliação formativa e somativa com verificações de conceitos, níveis e projetos de clímax para apoiar o progresso dos alunos.',
+      creative_projects: '[AI_TRANSLATION]Projetos Criativos',
+      creative_projects_desc: '[AI_TRANSLATION]Inspira a imaginação e liberta a criatividade dos alunos com projetos de encerramento partilháveis, como no Capítulo 2, onde os alunos desenham o seu próprio jogo de contar histórias.',
+      looking_for_engaging: '[AI_TRANSLATION]Procurando por um currículo de ciência da computação envolvente?',
+      licenses_are_required: '[AI_TRANSLATION]São necessárias licenças para que os estudantes continuem a sua jornada além do Capítulo 1.',
+      //    real_world_skills: "Real-World Skills",
+      real_world_skills_desc: '[AI_TRANSLATION]Os alunos aprendem Python e JavaScript digitados, as duas linguagens de código mais populares, e melhoram suas habilidades de pensamento crítico, criatividade e resiliência para prepará-los para qualquer carreira.',
+      personalized_learning: '[AI_TRANSLATION]Aprendizagem Personalizada e Instrução Escalonada',
+      personalized_learning_desc: '[AI_TRANSLATION]Os alunos aprendem os conceitos ao seu próprio ritmo. Os níveis aumentam em dificuldade, enquanto fornecem dicas integradas para encorajar a persistência e a determinação.',
+      flexible_curriculum: '[AI_TRANSLATION]Currículo Alinhado com Normas Flexíveis',
+      flexible_curriculum_desc: '[AI_TRANSLATION]Currículo 100% alinhado com CSTA que pode ser facilmente adaptado a qualquer horário, cenário ou ambiente.',
+      resources_to_support: '[AI_TRANSLATION]Recursos para Apoiar Professores',
+      resources_to_support_desc: '[AI_TRANSLATION]Planos de aula, atividades complementares, guias curriculares e mais recursos educativos pensados para cenários remotos e híbridos.  ',
+      actionable_insights: '[AI_TRANSLATION]Insights Atuáveis para Educadores',
+      actionable_insights_desc: '[AI_TRANSLATION]Capacita educadores com dados intuitivos de progresso e avaliação dos alunos que tornam possível diferenciar a instrução.',
+    },
 
     special_offer: {
-      special_offer: 'Oferta Especial'
+      special_offer: 'Oferta Especial',
+      project_based_title: '[AI_TRANSLATION]Cursos Baseados em Projeto',
+      project_based_description: '[AI_TRANSLATION]Os cursos de Desenvolvimento Web e Jogos têm projetos finais partilháveis.',
+      great_for_clubs_title: '[AI_TRANSLATION]Ótimo para clubes e atividades extracurriculares',
+      great_for_clubs_description: '[AI_TRANSLATION]Professores/as podem comprar até __maxQuantityStarterLicenses__ Licenças de Iniciante.',
+      low_price_title: '[AI_TRANSLATION]Apenas __starterLicensePrice__ por aluno',
+      low_price_description: '[AI_TRANSLATION]As Licenças Iniciais são válidas por __starterLicenseLengthMonths__ meses a partir da compra.',
+      three_great_courses: '[AI_TRANSLATION]Três cursos fantásticos incluídos na Licença Inicial:',
+      license_limit_description: '[AI_TRANSLATION]Professores/as podem comprar até __maxQuantityStarterLicenses__ Licenças de Iniciante. Já compraste __quantityAlreadyPurchased__. Se precisares de mais, contacta __supportEmail__. As Licenças de Iniciante são válidas por __starterLicenseLengthMonths__ meses.',
+      student_starter_license: '[AI_TRANSLATION]Licença Inicial de Estudante',
+      purchase_starter_licenses: '[AI_TRANSLATION]Compra Licenças Iniciais',
+      purchase_starter_licenses_to_grant: '[AI_TRANSLATION]Compra Licenças Iniciais para conceder acesso ao __starterLicenseCourseList__',
+      starter_licenses_can_be_used: '[AI_TRANSLATION]As Licenças Iniciais podem ser usadas para atribuir cursos adicionais imediatamente após a compra.',
+      pay_now: '[AI_TRANSLATION]Pagar Agora',
+      we_accept_all_major_credit_cards: '[AI_TRANSLATION]Aceitamos todos os principais cartões de crédito.',
+      cs2_description: '[AI_TRANSLATION]baseia-se na fundação da Introdução à Ciência da Computação, aprofundando-se em if-statements, functions, events e mais.',
+      wd1_description: '[AI_TRANSLATION]Introduz os conceitos básicos de HTML e CSS enquanto ensina as habilidades necessárias para os alunos criarem a sua primeira página web.',
+      //    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels.",
+      see_an_example_project: '[AI_TRANSLATION]vê um projeto de exemplo',
+      get_started_today: '[AI_TRANSLATION]Começa hoje!',
+      want_all_the_courses: '[AI_TRANSLATION]Queres todos os cursos? Pede informações sobre as nossas Licenças Completas.',
+      compare_license_types: '[AI_TRANSLATION]Comparar Tipos de Licenças:',
+      //    cs: "Computer Science",
+      //    wd: "Web Development",
+      wd1: '[AI_TRANSLATION]Desenvolvimento Web 1',
+      //    gd: "Game Development",
+      gd1: '[AI_TRANSLATION]Desenvolvimento de Jogos 1  ',
+      maximum_students: '[AI_TRANSLATION]Máximo # de Estudantes.',
+      unlimited: '[AI_TRANSLATION]Ilimitado',
+      priority_support: '[AI_TRANSLATION]Suporte prioritário',
+      yes: '[AI_TRANSLATION]Sim',
+      price_per_student: '[AI_TRANSLATION]__price__ por aluno',
+      pricing: '[AI_TRANSLATION]Preços',
+      free: '[AI_TRANSLATION]Grátis',
+      //    purchase: "Purchase",
+      courses_prefix: '[AI_TRANSLATION]Cursos',
+      //    courses_suffix: "",
+      course_prefix: '[AI_TRANSLATION]Curso.',
+      //    course_suffix: "",
     },
-    //    project_based_title: "Project-Based Courses"
-    //    project_based_description: "Web and Game Development courses feature shareable final projects."
-    //    great_for_clubs_title: "Great for clubs and electives"
-    //    great_for_clubs_description: "Teachers can purchase up to __maxQuantityStarterLicenses__ Starter Licenses."
-    //    low_price_title: "Just __starterLicensePrice__ per student"
-    //    low_price_description: "Starter Licenses are active for __starterLicenseLengthMonths__ months from purchase."
-    //    three_great_courses: "Three great courses included in the Starter License:"
-    //    license_limit_description: "Teachers can purchase up to __maxQuantityStarterLicenses__ Starter Licenses. You have already purchased __quantityAlreadyPurchased__. If you need more, contact __supportEmail__. Starter Licenses are valid for __starterLicenseLengthMonths__ months."
-    //    student_starter_license: "Student Starter License"
-    //    purchase_starter_licenses: "Purchase Starter Licenses"
-    //    purchase_starter_licenses_to_grant: "Purchase Starter Licenses to grant access to __starterLicenseCourseList__"
-    //    starter_licenses_can_be_used: "Starter Licenses can be used to assign additional courses immediately after purchase."
-    //    pay_now: "Pay Now"
-    //    we_accept_all_major_credit_cards: "We accept all major credit cards."
-    //    cs2_description: "builds on the foundation from Introduction to Computer Science, diving into if-statements, functions, events and more."
-    //    wd1_description: "introduces the basics of HTML and CSS while teaching skills needed for students to build their first webpage."
-    //    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels."
-    //    see_an_example_project: "see an example project"
-    //    get_started_today: "Get started today!"
-    //    want_all_the_courses: "Want all the courses? Request information on our Full Licenses."
-    //    compare_license_types: "Compare License Types:"
-    //    cs: "Computer Science"
-    //    wd: "Web Development"
-    //    wd1: "Web Development 1"
-    //    gd: "Game Development"
-    //    gd1: "Game Development 1"
-    //    maximum_students: "Maximum # of Students"
-    //    unlimited: "Unlimited"
-    //    priority_support: "Priority support"
-    //    yes: "Yes"
-    //    price_per_student: "__price__ per student"
-    //    pricing: "Pricing"
-    //    free: "Free"
-    //    purchase: "Purchase"
-    //    courses_prefix: "Courses"
-    //    courses_suffix: ""
-    //    course_prefix: "Course"
-    //    course_suffix: ""
-    //    licenses_activated_success: "Licenses have been Activated Successfully!"
-    //    license_code_used: "License Code used."
 
     teachers_quote: {
-    //    subtitle_coco: "Learn more about CodeCombat with an interactive walk through of the product, pricing, and implementation!"
-    //    subtitle_ozar: "Learn more about Ozaria with an interactive walk through of the product, pricing, and implementation!"
-    //    email_exists: "User exists with this email."
+      subtitle_coco: '[AI_TRANSLATION]Aprende mais sobre CodeCombat com uma visita guiada interativa do produto, preços e implementação!',
+      subtitle_ozar: '[AI_TRANSLATION]Aprende mais sobre Ozaria com uma visita guiada interativa do produto, preços e implementação!',
+      email_exists: '[AI_TRANSLATION]Esse email já está registado.',
       phone_number: 'Número de telemóvel',
       phone_number_help: 'Qual é o melhor número para entrarmos em contacto contigo?',
       primary_role_label: 'O Teu Cargo Principal',
       role_default: 'Selecionar Cargo',
-      //    primary_role_default: "Select Primary Role"
-      //    purchaser_role_default: "Select Purchaser Role"
-      //    teacher: "Teacher"
+      primary_role_default: '[AI_TRANSLATION]Selecionar Função Principal',
+      purchaser_role_default: '[AI_TRANSLATION]Selecionar Função do Comprador',
+      teacher: '[AI_TRANSLATION]Professor  ',
       tech_coordinator: 'Coordenador de Tecnologia',
-      //    advisor: "Curriculum Specialist/Advisor"
+      advisor: '[AI_TRANSLATION]Especialista/Consultor de Currículo',
       principal: 'Diretor',
       superintendent: 'Superintendente',
       parent: 'Educador',
-      //    purchaser_role_label: "Your Purchaser Role"
-      //    influence_advocate: "Influence/Advocate"
-      //    evaluate_recommend: "Evaluate/Recommend"
-      //    approve_funds: "Approve Funds"
-      //    no_purchaser_role: "No role in purchase decisions"
+      purchaser_role_label: '[AI_TRANSLATION]O teu Papel de Comprador',
+      influence_advocate: '[AI_TRANSLATION]Influenciar/Defender',
+      evaluate_recommend: '[AI_TRANSLATION]Avalia/Recomenda',
+      approve_funds: '[AI_TRANSLATION]Aprovar Fundos',
+      no_purchaser_role: '[AI_TRANSLATION]Sem papel nas decisões de compra.',
+      teacher_account_details: '[AI_TRANSLATION]Detalhes da Conta do Professor',
       district_label: 'Distrito',
       district_name: 'Nome do Distrito',
       district_na: 'Escreve N/A se não se aplicar',
       organization_label: 'Escola',
       school_name: 'Nome da Escola',
       city: 'Cidade',
-      state: 'Estado', // {change}
+      state: 'Estado',
       country: 'País',
       num_students_help: 'Quantos estudantes vão usar o CodeCombat?',
       num_students_default: 'Selecionar Intervalo',
       education_level_label: 'Nível de Educação dos Estudantes',
       education_level_help: 'Escolhe todos os que se aplicarem.',
-      //    elementary_school: "Elementary School"
-      //    high_school: "High School"
+      elementary_school: '[AI_TRANSLATION]Escola Elementar',
+      high_school: '[AI_TRANSLATION]Escola Secundária',
       please_explain: '(por favor, explica)',
-      //    middle_school: "Middle School"
-      //    college_plus: "College or higher"
+      middle_school: '[AI_TRANSLATION]Escola Secundária',
+      college_plus: '[AI_TRANSLATION]Faculdade ou superior',
       referrer: 'Como ouviste falar de nós?',
       referrer_help: 'Por exemplo: através de outro professor, de uma conferência, dos teus estudantes, do Code.org, etc.',
       referrer_default: 'Seleciona Um',
-      //    referrer_conference: "Conference (e.g. ISTE)"
+      referrer_conference: '[AI_TRANSLATION]Conferência (ex: ISTE)  ',
       referrer_hoc: 'Code.org/Hora do Código',
       referrer_teacher: 'Um professor',
       referrer_admin: 'Um administrador',
       referrer_student: 'Um estudante',
-      //    referrer_pd: "Professional trainings/workshops"
+      referrer_pd: '[AI_TRANSLATION]Treinamentos/Workshops Profissionais',
       referrer_web: 'Google',
       referrer_other: 'Outro',
-      //    anything_else: "What kind of class do you anticipate using __product__ for?"
-      //    anything_else_helper: ""
+      anything_else: '[AI_TRANSLATION]Que tipo de aula achas que vais usar o __product__?',
+      //    anything_else_helper: "",
       thanks_header: 'Pedido Recebido!',
-      //    thanks_sub_header_coco: "Thanks for expressing interest in CodeCombat for your school."
-      //    thanks_sub_header_ozar: "Thanks for expressing interest in Ozaria for your school."
-      //    thanks_p: "We'll be in touch soon! If you need to get in contact, you can reach us at:"
+      thanks_sub_header_coco: '[AI_TRANSLATION]Obrigado por demonstrares interesse no CodeCombat para a tua escola.',
+      thanks_sub_header_ozar: '[AI_TRANSLATION]Obrigado por demonstrares interesse no Ozaria para a tua escola.',
+      thanks_p: '[AI_TRANSLATION]Entramos em contacto em breve! Se precisares de nos contactar, podes alcançar-nos em:',
       back_to_classes: 'Voltar às Turmas',
-      //    finish_signup: "Finish creating your teacher account:"
-      //    finish_signup_p: "Create an account to set up a class, add your students, and monitor their progress as they learn computer science."
-      //    signup_with: "Sign up with:"
+      finish_signup: '[AI_TRANSLATION]Acaba de criar a tua conta de professor:',
+      finish_signup_p: '[AI_TRANSLATION]Cria uma conta para configurar uma turma, adicionar os teus alunos e acompanhar o progresso deles enquanto aprendem ciências da computação.',
+      signup_with: '[AI_TRANSLATION]Regista-te com:',
       connect_with: 'Conectar com:',
-      //    conversion_warning: "WARNING: Your current account is a <em>Student Account</em>. Once you submit this form, your account will be updated to a Teacher Account."
-      //    learn_more_modal: "Teacher accounts on CodeCombat have the ability to monitor student progress, assign licenses and manage classrooms. Teacher accounts cannot be a part of a classroom - if you are currently enrolled in a class using this account, you will no longer be able to access it once you update to a Teacher Account."
+      conversion_warning: '[AI_TRANSLATION]AVISO: A tua conta atual é uma <em>Conta de Estudante</em>. Após submeteres este formulário, a tua conta será atualizada para uma Conta de Professor.',
+      learn_more_modal: '[AI_TRANSLATION]Contas de Professor no CodeCombat têm a capacidade de monitorizar o progresso dos alunos, atribuir licenças e gerir turmas. Contas de Professor não podem fazer parte de uma turma - se estás atualmente inscrito numa turma com esta conta, deixarás de conseguir aceder a esta uma vez que atualizes para uma Conta de Professor.  ',
       create_account: 'Criar uma Conta de Professor',
-      create_account_subtitle: 'Obtém acesso a ferramentas reservadas a professores para usares o CodeCombat na sala de aula. <strong>Cria uma turma</strong>, adiciona os teus estudantes e <strong>monitoriza o progresso deles</strong>!'
+      create_account_subtitle: 'Obtém acesso a ferramentas reservadas a professores para usares o CodeCombat na sala de aula. <strong>Cria uma turma</strong>, adiciona os teus estudantes e <strong>monitoriza o progresso deles</strong>!',
+      convert_account_title: '[AI_TRANSLATION]Atualiza para Conta de Professor',
+      not: '[AI_TRANSLATION]Não',
+      full_name_required: '[AI_TRANSLATION]Primeiro e último nome necessário',
     },
-    //    convert_account_title: "Update to Teacher Account"
-    //    not: "Not"
-    //    full_name_required: "First and last name required"
 
     versions: {
       save_version_title: 'Guardar Nova Versão',
@@ -1837,7 +1982,7 @@ module.exports = {
       cla_url: 'CLA',
       cla_suffix: '.',
       cla_agree: 'EU CONCORDO',
-      owner_approve: 'Um administrador terá de aprová-la antes de as tuas alterações ficarem visíveis.'
+      owner_approve: 'Um administrador terá de aprová-la antes de as tuas alterações ficarem visíveis.',
     },
 
     contact: {
@@ -1847,16 +1992,18 @@ module.exports = {
       forum_page: 'nosso fórum',
       faq_prefix: 'Há também uma',
       faq: 'FAQ',
-      //    faq_suffix: " for additional assistance."
+      faq_suffix: '[AI_TRANSLATION]para assistência adicional.',
+      prefer_email_prefix: '[AI_TRANSLATION]Se preferires, podes enviar um email',
+      prefer_email_suffix: '[AI_TRANSLATION] em vez disso.  ',
       subscribe_prefix: 'Se precisas de ajuda a perceber um nível, por favor',
       subscribe: 'compra uma subscrição do CodeCombat',
       subscribe_suffix: 'e nós ficaremos felizes por ajudar-te com o teu código.',
       subscriber_support: 'Como és um subscritor do CodeCombat, os teus e-mails terão prioridade no nosso suporte.',
       screenshot_included: 'Captura de ecrã incluída.',
       where_reply: 'Para onde devemos enviar a resposta?',
-      send: 'Enviar Feedback'
+      send: 'Enviar Feedback',
+      ooo_blurb: '[AI_TRANSLATION]A equipa do CodeCombat estará fora do escritório de 5 a 9 de junho, e durante este período terá acesso limitado aos emails. Responderemos à tua pergunta assim que possível, por favor esteja ciente do tempo de espera antecipado.',
     },
-    //    ooo_blurb: "The CodeCombat team will be out of the office from June 5th to June 9th, and during this time will have limited access to emails. We will respond to your inquiry as soon as possible, please be aware of the anticipated wait time."
 
     account_settings: {
       title: 'Definições da Conta',
@@ -1866,22 +2013,24 @@ module.exports = {
       delete_account_tab: 'Elimina a Tua Conta',
       wrong_email: 'E-mail ou Nome de Utilizador Errado',
       wrong_password: 'Palavra-passe Errada',
-      //    temp_password_expired: "Your temporary password has been expired."
+      temp_password_expired: '[AI_TRANSLATION]A tua palavra-passe temporária expirou.',
       delete_this_account: 'Elimina esta conta permanentemente',
       reset_progress_tab: 'Reiniciar Todo o Progresso',
       reset_your_progress: 'Limpar todo o teu progresso e começar de novo',
-      //    connect_roblox_tab: "Connect Roblox"
-      //    connect_roblox_button: "Connect"
-      //    re_connect_roblox_button: "Connect Another Account"
-      //    disconnect_roblox_button: "Disconnect"
-      //    roblox_connected: "Your account <strong>__username__</strong> is connected to Roblox."
-      //    roblox_not_connected: "Connect your CodeCombat and Roblox accounts."
-      //    roblox_disconnect_confirm: "Are you sure you want to disconnect your Roblox account?"
+      connect_roblox_tab: '[AI_TRANSLATION]Ligar ao Roblox',
+      connect_roblox_button: '[AI_TRANSLATION]Ligar',
+      re_connect_roblox_button: '[AI_TRANSLATION]Ligar Outra Conta',
+      disconnect_roblox_button: '[AI_TRANSLATION]Desconectar',
+      roblox_connected: '[AI_TRANSLATION]A tua conta <strong>__username__</strong> está conectada ao Roblox.',
+      //    roblox_connected_other_user: "The student's account is connected to  <strong>__username__</strong> Roblox account.",
+      roblox_not_connected: '[AI_TRANSLATION]Liga as tuas contas do CodeCombat e Roblox.',
+      //    roblox_not_connected_other_user: "Connect the student's CodeCombat and Roblox accounts.",
+      roblox_disconnect_confirm: '[AI_TRANSLATION]Tens a certeza que queres desconectar a tua conta Roblox?',
       god_mode: 'Modo Deus',
       emails_tab: 'E-mails',
       admin: 'Administrador',
       manage_subscription: 'Clica aqui para gerires a tua subscrição.',
-      //    current_password: "Current Password"
+      current_password: '[AI_TRANSLATION]Palavra-passe Atual',
       new_password: 'Nova Palavra-passe',
       new_password_verify: 'Verificar',
       type_in_email: 'Escreve o teu e-mail ou nome de utilizador para confirmares a eliminação da conta.',
@@ -1906,7 +2055,9 @@ module.exports = {
       error_saving: 'Erro ao Guardar',
       saved: 'Alterações Guardadas',
       password_mismatch: 'As palavras-passe não coincidem.',
-      password_repeat: 'Por favor repete a tua palavra-passe.'
+      password_repeat: 'Por favor repete a tua palavra-passe.',
+      switch_new_teacher_dashboard: '[AI_TRANSLATION]Experimenta o novo Painel de Professor',
+      view_trial_class_bookings: '[AI_TRANSLATION]Ver Reservas de Aulas Experimentais  ',
     },
 
     keyboard_shortcuts: {
@@ -1928,12 +2079,12 @@ module.exports = {
       toggle_grid: 'Ativar/desativar a sobreposição da grelha.',
       toggle_pathfinding: 'Ativar/desativar a sobreposição do encontrador de caminho.',
       beautify: 'Embelezar o código ao estandardizar a formatação.',
-      maximize_editor: 'Maximizar/minimizar o editor de código.'
     },
 
-    //  cinematic:
-    //    click_anywhere_continue: "Click to Continue"
-    //    instructional_tooltip: "Click these arrow buttons to go backwards and forwards. You can also use the arrow keys on your keyboard to do the same."
+    cinematic: {
+      //    click_anywhere_continue: "Click to Continue",
+      instructional_tooltip: '[AI_TRANSLATION]Clica nestes botões de seta para ires para trás e para a frente. Também podes usar as teclas de seta no teu teclado para fazer o mesmo.',
+    },
 
     community: {
       main_title: 'Comunidade do CodeCombat',
@@ -1946,18 +2097,18 @@ module.exports = {
       article_editor_suffix: 'e ajuda os jogadores do CodeCombat a obter o máximo do tempo de jogo deles.',
       find_us: 'Encontra-nos nestes sítios',
       social_github: 'Confere todo o nosso código no GitHub',
-      social_blog: 'Lê o blog do CodeCombat no Sett', // {change}
+      social_blog: 'Lê o blog do CodeCombat no Sett',
       social_discource: 'Junta-te à discussão no nosso fórum Discourse',
       social_facebook: 'Gosta do CodeCombat no Facebook',
       social_twitter: 'Segue o CodeCombat no Twitter',
       social_slack: 'Fala connosco no canal público do CodeCombat no Slack',
-      contribute_to_the_project: 'Contribui para o projeto'
+      contribute_to_the_project: 'Contribui para o projeto',
     },
 
     clans: {
-    //    title: "Join CodeCombat Clans - Learn to Code in Python, JavaScript, and HTML"
-    //    clan_title: "__clan__ - Join CodeCombat Clans and Learn to Code"
-    //    meta_description: "Join a Clan or build your own community of coders. Play multiplayer arena levels and level up your hero and your coding skills."
+      title: '[AI_TRANSLATION]Junta-te a Clãs no CodeCombat - Aprende a programar em Python, JavaScript e HTML',
+      clan_title: '[AI_TRANSLATION]__clan__ - Junta-te aos Clãs do CodeCombat e Aprende a Programar',
+      //    meta_description: "Join a Clan or build your own community of coders. Play multiplayer arena levels and level up your hero and your coding skills.",
       clan: 'Clã',
       clans: 'Clãs',
       new_name: 'Nome do novo clã',
@@ -2014,20 +2165,20 @@ module.exports = {
       track_concepts6b: 'Ordene os membros por nome ou progresso',
       track_concepts7: 'É necessário um convite',
       track_concepts8: 'para entrar',
-      private_require_sub: 'É necessária uma subscrição para criar ou entrar num clã privado.'
+      private_require_sub: 'É necessária uma subscrição para criar ou entrar num clã privado.',
     },
 
     courses: {
       create_new_class: 'Criar Turma Nova',
-      //    hoc_blurb1: "Try the"
-      //    hoc_blurb2: "Code, Play, Share"
-      //    hoc_blurb3: "activity! Construct four different minigames to learn the basics of game development, then make your own!"
+      hoc_blurb1: '[AI_TRANSLATION]Experimenta o',
+      hoc_blurb2: '[AI_TRANSLATION]Código, Joga, Partilha  ',
+      hoc_blurb3: '[AI_TRANSLATION]atividade! Constrói quatro minijogos diferentes para aprender o básico do desenvolvimento de jogos, depois cria o teu próprio!',
       solutions_require_licenses: 'As soluções dos níveis estão disponíveis para professores que tenham licenças.',
       unnamed_class: 'Turma Sem Nome',
       edit_settings1: 'Editar Definições da Turma',
       add_students: 'Adicionar Estudantes',
       stats: 'Estatísticas',
-      //    student_email_invite_blurb: "Your students can also use class code <strong>__classCode__</strong> when creating a Student Account, no email required."
+      student_email_invite_blurb: '[AI_TRANSLATION]Os teus alunos também podem usar o código de turma <strong>__classCode__</strong> quando criarem uma Conta de Aluno, sem necessidade de email.',
       total_students: 'Estudantes no total:',
       average_time: 'Média do tempo de jogo do nível:',
       total_time: 'Tempo de jogo total:',
@@ -2055,8 +2206,8 @@ module.exports = {
       edit_details: 'Editar detalhes da turma',
       purchase_enrollments: 'Adquirir Licenças de Estudante',
       remove_student: 'remover estudante',
-      //    assign: "Assign"
-      //    to_assign: "to assign paid courses."
+      assign: '[AI_TRANSLATION]Atribuir',
+      //    to_assign: "to assign paid courses.",
       student: 'Estudante',
       teacher: 'Professor',
       arena: 'Arena',
@@ -2065,20 +2216,23 @@ module.exports = {
       complete: 'completado',
       practice: 'prática',
       required: 'obrigatório',
+      python: '[AI_TRANSLATION]Python (suporta blocos)',
+      javascript: '[AI_TRANSLATION]JavaScript (suporta blocos)',
+      java: '[AI_TRANSLATION]Java (beta)',
       welcome_to_courses_coco: 'Aventureiros, sejam bem-vindos aos Cursos!',
       welcome_to_courses_ozar: 'Aventureiros, sejam bem-vindos aos Cursos!',
       ready_to_play: 'Pronto para jogar?',
       start_new_game: 'Começar Novo Jogo',
       play_now_learn_header: 'Joga agora para aprenderes',
-      //    play_now_learn_1: "basic syntax to control your character"
-      //    play_now_learn_2: "while loops to solve pesky puzzles"
-      //    play_now_learn_3: "strings & variables to customize actions"
-      //    play_now_learn_4: "how to defeat an ogre (important life skills!)"
+      play_now_learn_1: '[AI_TRANSLATION]sintaxe básica para controlar a tua personagem',
+      //    play_now_learn_2: "while loops to solve pesky puzzles",
+      play_now_learn_3: '[AI_TRANSLATION]strings e variáveis para personalizar ações',
+      play_now_learn_4: '[AI_TRANSLATION]como derrotar um ogro (habilidades de vida importantes!)',
       welcome_to_page: 'O Meu Painel de Estudante',
       my_classes: 'Turmas Atuais',
       class_added: 'Turma adicionada com sucesso!',
-      //    view_map: "view map"
-      //    view_videos: "view videos"
+      //    view_map: "view map",
+      //    view_videos: "view videos",
       view_project_gallery: 'ver os projetos dos meus colegas',
       join_class: 'Entrar Numa Turma',
       join_class_2: 'Entrar na turma',
@@ -2089,7 +2243,7 @@ module.exports = {
       join: 'Entrar',
       joining: 'A entrar na turma',
       course_complete: 'Curso Completo',
-      //    unit_complete: "Unit Complete"
+      unit_complete: '[AI_TRANSLATION]Unidade Completa',
       play_arena: 'Jogar na Arena',
       view_project: 'Ver Projeto',
       start: 'Começar',
@@ -2099,22 +2253,22 @@ module.exports = {
       option1_header: 'Convidar Estudantes por E-mail',
       remove_student1: 'Remover Estudante',
       are_you_sure: 'Tens a certeza de que queres remover este estudante desta turma?',
-      //    remove_description1: "Student will lose access to this classroom and assigned classes. Progress and gameplay is NOT lost, and the student can be added back to the classroom at any time."
-      //    remove_description2: "The activated paid license will not be returned."
-      //    license_will_revoke: "This student's paid license will be revoked and made available to assign to another student."
+      remove_description1: '[AI_TRANSLATION]O estudante perderá o acesso a esta sala de aula e às aulas designadas. O progresso e o jogo NÃO são perdidos, e o estudante pode ser adicionado de novo à sala de aula a qualquer momento.',
+      remove_description2: '[AI_TRANSLATION]A licença paga ativada não será devolvida.',
+      license_will_revoke: '[AI_TRANSLATION]Esta licença paga do aluno será revogada e disponibilizada para ser atribuída a outro aluno.',
       keep_student: 'Manter Estudante',
       removing_user: 'A remover utilizador',
-      subtitle: 'Revê visões gerais de cursos e níveis', // Flat style redesign
-      //    changelog: "View latest changes to course levels."
+      subtitle: 'Revê visões gerais de cursos e níveis',
+      changelog: '[AI_TRANSLATION]Ver as mudanças mais recentes nos níveis do curso.',
       select_language: 'Selecionar linguagem',
       select_level: 'Selecionar nível',
       play_level: 'Jogar Nível',
       concepts_covered: 'Conceitos Abordados',
       view_guide_online: 'Visões Gerais e Soluções do Nível',
-      //    lesson_slides: "Lesson Slides"
+      lesson_slides: '[AI_TRANSLATION]Slides da Aula',
       grants_lifetime_access: 'Garante acesso a todos os Cursos.',
       enrollment_credits_available: 'Licenças Disponíveis:',
-      language_select: 'Seleciona uma linguagem', // ClassroomSettingsModal
+      language_select: 'Seleciona uma linguagem',
       language_cannot_change: 'A linguagem não pode ser alterada depois de estudantes entrarem numa turma.',
       avg_student_exp_label: 'Experiência Média de Programação dos Estudantes',
       avg_student_exp_desc: 'Isto vai-nos ajudar a perceber qual o melhor andamento para os cursos.',
@@ -2124,175 +2278,183 @@ module.exports = {
       avg_student_exp_intermediate: 'Intermédia - alguma experiência com código escrito',
       avg_student_exp_advanced: 'Avançada - muita experiência com código escrito',
       avg_student_exp_varied: 'Vários Níveis de Experiência',
-      //    class_type_label: "Class Type"
-      //    class_type_in_school: "In School"
-      //    class_type_after_school: "After School"
-      //    class_type_online: "Online"
-      //    class_type_camp: "Camp"
-      //    class_type_homeschool: "Homeschool"
-      //    class_type_other: "Other"
+      class_type_label: '[AI_TRANSLATION]Tipo de Classe',
+      class_type_in_school: '[AI_TRANSLATION]Na Escola',
+      class_type_after_school: '[AI_TRANSLATION]Após a Escola',
+      class_type_online: '[AI_TRANSLATION]Online',
+      class_type_camp: '[AI_TRANSLATION]Acampamento',
+      class_type_camp_esports: '[AI_TRANSLATION]Acampamento (Esports)',
+      class_type_camp_junior: '[AI_TRANSLATION]Acampamento (Roblox)',
+      class_type_homeschool: '[AI_TRANSLATION]Escola em Casa',
+      //    class_type_other: "Other",
       student_age_range_label: 'Intervalo de Idades dos Estudantes',
       student_age_range_younger: 'Menos de 6',
       student_age_range_older: 'Mais de 18',
       student_age_range_to: 'até',
-      //    estimated_class_dates_label: "Estimated Class Dates"
-      //    estimated_class_frequency_label: "Estimated Class Frequency"
-      //    classes_per_week: "classes per week"
-      //    minutes_per_class: "minutes per class"
+      estimated_class_dates_label: '[AI_TRANSLATION]Datas Estimadas das Aulas',
+      estimated_class_frequency_label: '[AI_TRANSLATION]Frequência Estimada das Aulas',
+      classes_per_week: '[AI_TRANSLATION]aulas por semana',
+      minutes_per_class: '[AI_TRANSLATION]minutos por aula',
       create_class: 'Criar Turma',
       class_name: 'Nome da Turma',
-      //    teacher_account_restricted: "Your account is a teacher account and cannot access student content."
+      teacher_account_restricted: '[AI_TRANSLATION]A tua conta é uma conta de professor e não pode acessar conteúdo de estudante.',
       account_restricted: 'É necessária uma conta de estudante para acederes a esta página.',
-      //    update_account_login_title: "Log in to update your account"
+      update_account_login_title: '[AI_TRANSLATION]Iniciar sessão para atualizar a tua conta  ',
       update_account_title: 'A tua conta precisa de atenção!',
-      //    update_account_blurb: "Before you can access your classes, choose how you want to use this account."
-      //    update_account_current_type: "Current Account Type:"
-      //    update_account_account_email: "Account Email/Username:"
+      update_account_blurb: '[AI_TRANSLATION]Antes de poderes aceder às tuas aulas, escolhe como queres usar esta conta.',
+      update_account_current_type: '[AI_TRANSLATION]Tipo de Conta Atual:',
+      update_account_account_email: '[AI_TRANSLATION]Email/Nome de Utilizador da Conta:',
       update_account_am_teacher: 'Sou um professor',
-      //    update_account_no_progress: "Let me create classes but save no game progress"
-      //    update_account_teachers_can: "Teacher accounts can:"
-      //    update_account_teachers_can1: "Create/manage/add classes"
-      //    update_account_teachers_can2: "Assign/enroll students in courses"
-      //    update_account_teachers_can3: "Unlock all course levels to try out"
-      //    update_account_teachers_can4: "Access new teacher-only features as we release them"
-      //    update_account_teachers_warning_new: "Warning: you will not be able to save your progress on any levels; you will need separate student accounts to do that."
-      //    update_account_remain_teacher: "Remain a Teacher"
-      //    update_account_update_teacher: "Update to Teacher"
+      update_account_no_progress: '[AI_TRANSLATION]Deixa-me criar aulas mas sem salvar o progresso do jogo.',
+      update_account_teachers_can: '[AI_TRANSLATION]As contas de professores podem:',
+      update_account_teachers_can1: '[AI_TRANSLATION]Cria/gera/adiciona turmas',
+      update_account_teachers_can2: '[AI_TRANSLATION]Atribui/inscreve alunos em cursos',
+      update_account_teachers_can3: '[AI_TRANSLATION]Desbloqueia todos os níveis do curso para experimentar',
+      update_account_teachers_can4: '[AI_TRANSLATION]Acessa novas funcionalidades apenas para professores à medida que as lançamos',
+      update_account_teachers_warning_new: '[AI_TRANSLATION]Aviso: não vais conseguir salvar o teu progresso em nenhum nível; vais precisar de contas de estudante separadas para isso.',
+      update_account_remain_teacher: '[AI_TRANSLATION]Permanecer um Professor',
+      update_account_update_teacher: '[AI_TRANSLATION]Atualiza para Professor',
       update_account_am_student: 'Sou um estudante',
-      //    update_account_no_home: "Let me join classes but not play outside of class"
-      //    update_account_students_can: "Student accounts can:"
-      //    update_account_students_can1: "Join classes"
-      //    update_account_students_can2: "Play through courses as a student and track your own progress"
-      //    update_account_students_can3: "Compete against classmates in arenas"
-      //    update_account_students_can4: "Access new student-only features as we release them"
-      //    update_account_students_warning_new: "Warning: you will only be able to play the levels your teacher has assigned."
-      //    unsubscribe_warning: "Warning: You will be unsubscribed from your monthly subscription."
-      //    update_account_remain_student: "Remain a Student"
-      //    update_account_update_student: "Update to Student"
-      //    update_account_am_individual: "I am a individual"
-      //    update_account_no_classes: "Let me play independently but not join classes"
-      //    update_account_individuals_can: "Individual accounts can:"
-      //    update_account_individuals_can1: "Earn gems, experience, items, and heroes"
-      //    update_account_individuals_can2: "Play through the game as an individual and track your own progress"
-      //    update_account_individuals_can3: "Compete against the world in arenas"
-      //    update_account_individuals_can4: "Access new individual-only features as we release them"
-      //    update_account_individuals_warning_ozaria: "Warning: individual accounts cannot play Ozaria, only CodeCombat."
-      //    update_account_remain_individual: "Remain an Individual"
-      //    need_a_class_code: "You'll need a Class Code for the class you're joining:"
-      //    update_account_not_sure: "Not sure which one to choose? Email"
-      //    update_account_confirm_update_student: "Are you sure you want to update your account to a Student experience?"
-      //    update_account_confirm_update_student2: "You will not be able to manage any classes that you have previously created or create new classes. Your previously created classes will be removed from CodeCombat and cannot be restored."
-      //    instructor: "Instructor: "
-      //    youve_been_invited_1: "You've been invited to join "
-      //    youve_been_invited_2: ", where you'll learn "
-      //    youve_been_invited_3: " with your classmates in CodeCombat."
-      //    by_joining_1: "By joining "
-      //    by_joining_2: "will be able to help reset your password if you forget or lose it. You can also verify your email address so that you can reset the password yourself!"
-      //    sent_verification: "We've sent a verification email to:"
-      //    you_can_edit: "You can edit your email address in "
-      //    account_settings: "Account Settings"
+      update_account_no_home: '[AI_TRANSLATION]Deixa-me participar nas aulas mas não jogar fora da aula.',
+      update_account_students_can: '[AI_TRANSLATION]Contas de estudantes podem:',
+      update_account_students_can1: '[AI_TRANSLATION]Junta-te às aulas',
+      update_account_students_can2: '[AI_TRANSLATION]Joga através dos cursos como estudante e acompanha o teu próprio progresso',
+      update_account_students_can3: '[AI_TRANSLATION]Compete contra colegas de turma em arenas',
+      update_account_students_can4: '[AI_TRANSLATION]Acessa novas funcionalidades apenas para alunos à medida que as lançamos',
+      update_account_students_warning_new: '[AI_TRANSLATION]Aviso: só poderás jogar os níveis que o teu professor atribuiu.',
+      unsubscribe_warning: '[AI_TRANSLATION]Aviso: Vais ser desinscrito da tua subscrição mensal.',
+      update_account_remain_student: '[AI_TRANSLATION]Permanecer um Estudante',
+      update_account_update_student: '[AI_TRANSLATION]Atualiza para Aluno',
+      update_account_am_individual: '[AI_TRANSLATION]Sou uma pessoa',
+      update_account_no_classes: '[AI_TRANSLATION]Deixa-me jogar independentemente mas não participar nas aulas.',
+      update_account_individuals_can: '[AI_TRANSLATION]Contas individuais podem:',
+      update_account_individuals_can1: '[AI_TRANSLATION]Ganha gemas, experiência, itens e heróis',
+      update_account_individuals_can2: '[AI_TRANSLATION]Joga o jogo individualmente e acompanha o teu próprio progresso',
+      update_account_individuals_can3: '[AI_TRANSLATION]Compete contra o mundo em arenas',
+      update_account_individuals_can4: '[AI_TRANSLATION]Acessa novas funcionalidades individuais à medida que as lançamos',
+      update_account_individuals_warning_ozaria: '[AI_TRANSLATION]Aviso: contas individuais não podem jogar Ozaria, apenas CodeCombat.',
+      update_account_remain_individual: '[AI_TRANSLATION]Permanecer um Indivíduo',
+      need_a_class_code: '[AI_TRANSLATION]Vais precisar de um Código de Classe para a aula em que te vais juntar:\n',
+      update_account_not_sure: '[AI_TRANSLATION]Não sabes qual escolher? Envia um e-mail',
+      update_account_confirm_update_student: '[AI_TRANSLATION]Tens a certeza de que queres atualizar a tua conta para uma experiência de Aluno?',
+      update_account_confirm_update_student2: '[AI_TRANSLATION]Não poderás gerir nenhuma das classes que já criaste nem criar novas classes. As tuas classes existentes serão removidas do CodeCombat e não poderão ser recuperadas.',
+      instructor: '[AI_TRANSLATION]Instrutor:',
+      youve_been_invited_1: '[AI_TRANSLATION]Foste convidado para te juntar',
+      youve_been_invited_2: '[AI_TRANSLATION], onde vais aprender',
+      youve_been_invited_3: '[AI_TRANSLATION]com os teus colegas no CodeCombat.',
+      by_joining_1: '[AI_TRANSLATION]Ao juntar-se  ',
+      //    by_joining_2: "will be able to help reset your password if you forget or lose it. You can also verify your email address so that you can reset the password yourself!",
+      sent_verification: '[AI_TRANSLATION]Enviámos um e-mail de verificação para:',
+      you_can_edit: '[AI_TRANSLATION]Podes editar o teu endereço de email em ',
+      //    account_settings: "Account Settings",
       select_your_hero: 'Seleciona o Teu Herói',
       select_your_hero_description: 'Podes sempre alterar o teu herói ao acederes à tua página de Cursos e clicares em "Alterar Herói"',
       select_this_hero: 'Selecionar este herói',
       current_hero: 'Herói Atual:',
       current_hero_female: 'Heroína Atual:',
-      //    web_dev_language_transition: "All classes program in HTML / JavaScript for this course.  Classes that have been using Python will start with extra JavaScript intro levels to ease the transition.  Classes that are already using JavaScript will skip the intro levels."
+      web_dev_language_transition: '[AI_TRANSLATION]Todas as aulas programam em HTML / JavaScript para este curso. As aulas que estavam a usar Python começarão com níveis introdutórios extra de JavaScript para facilitar a transição. As aulas que já estão a usar JavaScript irão pular os níveis introdutórios.',
       course_membership_required_to_play: 'Precisas de te juntar a um curso para jogares este nível.',
-      //    license_required_to_play_coco: "Ask your teacher to assign a license to you so you can continue to play CodeCombat!"
-      //    license_required_to_play_ozar: "Ask your teacher to assign you a license so you can continue to play Ozaria!"
-      //    update_old_classroom: "New school year, new levels!"
-      //    update_old_classroom_detail: "To make sure you're getting the most up-to-date levels, make sure you create a new class for this semester by clicking Create a New Class on your"
-      //    teacher_dashboard: "teacher dashboard"
-      //    update_old_classroom_detail_2: "and giving students the new Class Code that appears."
-      //    view_assessments: "View Assessments"
-      //    view_challenges: "view challenge levels"
-      //    challenge: "Challenge:"
-      //    challenge_level: "Challenge Level:"
+      license_required_to_play_coco: '[AI_TRANSLATION]Pede ao teu professor para te atribuir uma licença para que possas continuar a jogar CodeCombat!',
+      license_required_to_play_ozar: '[AI_TRANSLATION]Pede ao teu professor para te atribuir uma licença para que possas continuar a jogar Ozaria!',
+      level_locked: '[AI_TRANSLATION]Este nível está bloqueado.',
+      update_old_classroom: '[AI_TRANSLATION]Novo ano letivo, novos níveis!',
+      update_old_classroom_detail: '[AI_TRANSLATION]Para garantir que estás a receber os níveis mais atualizados, certifique-te de que crias uma nova turma para este semestre clicando em Create a New Class na tua',
+      teacher_dashboard: '[AI_TRANSLATION]painel do professor',
+      update_old_classroom_detail_2: '[AI_TRANSLATION]e dê aos alunos o novo Código de Classe que aparece.',
+      view_assessments: '[AI_TRANSLATION]Ver Avaliações',
+      //    view_challenges: "view challenge levels",
+      challenge: '[AI_TRANSLATION]Desafio:',
+      challenge_level: '[AI_TRANSLATION]Nível de Desafio:',
       status: 'Estado:',
-      //    assessments: "Assessments"
+      assessments: '[AI_TRANSLATION]Avaliações',
       challenges: 'Desafios',
       level_name: 'Nome do Nível:',
-      //    keep_trying: "Keep Trying"
+      keep_trying: '[AI_TRANSLATION]Continua a tentar',
       start_challenge: 'Começar Desafio',
-      //    locked: "Locked"
-      concepts_used: 'Conceitos Usados:'
+      locked: '[AI_TRANSLATION]Bloqueado  ',
+      concepts_used: 'Conceitos Usados:',
+      show_change_log: '[AI_TRANSLATION]Mostrar alterações nos níveis deste curso',
+      hide_change_log: '[AI_TRANSLATION]Esconder mudanças nos níveis deste curso',
+      concept_videos: '[AI_TRANSLATION]Vídeos de Conceitos  ',
+      concept: '[AI_TRANSLATION]Conceito:  ',
+      //    basic_syntax: "Basic Syntax",
+      while_loops: '[AI_TRANSLATION]Ciclos While  ',
+      variables: '[AI_TRANSLATION]Variáveis',
+      basic_syntax_desc: '[AI_TRANSLATION]A sintaxe é como escrevemos código. Assim como a ortografia e a gramática são importantes na escrita de narrativas e ensaios, a sintaxe é importante ao escrever código. Os humanos são bons a perceber o que algo significa, mesmo que não esteja exatamente correto, mas os computadores não são assim tão inteligentes, e precisam que escrevas de forma muito precisa.',
+      while_loops_desc: '[AI_TRANSLATION]Um loop é uma maneira de repetir ações num programa. Podes usar loops para não teres que escrever código repetitivo, e quando não sabes exatamente quantas vezes uma ação precisa de ocorrer para completar uma tarefa.',
+      variables_desc: '[AI_TRANSLATION]Trabalhar com variáveis é como organizar coisas em caixas de sapatos. Dás à caixa um nome, como "Materiais Escolares", e depois colocas coisas lá dentro. O conteúdo exato da caixa pode mudar com o tempo, mas o que estiver lá dentro será sempre chamado "Materiais Escolares". Em programação, as variáveis são símbolos usados para armazenar dados que vão mudar ao longo do programa. As variáveis podem conter vários tipos de dados, incluindo números e strings.  ',
+      locked_videos_desc: '[AI_TRANSLATION]Continua a jogar para desbloquear o vídeo do conceito __concept_name__.',
+      unlocked_videos_desc: '[AI_TRANSLATION]Revê o vídeo do conceito __concept_name__.',
+      video_shown_before: '[AI_TRANSLATION]mostrado antes de __level__',
+      link_google_classroom: '[AI_TRANSLATION]Ligar Google Classroom',
+      select_your_classroom: '[AI_TRANSLATION]Selecionar a Sua Sala de Aula',
+      no_classrooms_found: '[AI_TRANSLATION]Nenhuma sala de aula encontrada',
+      create_classroom_manually: '[AI_TRANSLATION]Cria a turma manualmente',
+      classes: '[AI_TRANSLATION]Aulas',
+      certificate_btn_print: '[AI_TRANSLATION]Imprimir',
+      certificate_btn_toggle: '[AI_TRANSLATION]Alternar',
+      error_in_creating_data: '[AI_TRANSLATION]Erro ao criar dados para o nível introdutório!',
+      ask_next_course: '[AI_TRANSLATION]Queres jogar mais? Pede ao teu professor acesso ao próximo curso.',
+      set_start_locked_level: '[AI_TRANSLATION]Níveis bloqueados a partir de  ',
+      no_level_limit: '[AI_TRANSLATION]-- (nenhum nível bloqueado)',
+      ask_teacher_to_unlock: '[AI_TRANSLATION]Pedir ao Professor para Desbloquear',
+      ask_teacher_to_unlock_instructions: '[AI_TRANSLATION]Para jogares o nível seguinte, pede ao teu professor para o desbloquear no ecrã de Progresso do Curso dele.  ',
+      play_next_level: '[AI_TRANSLATION]Jogar Próximo Nível',
+      play_tournament: '[AI_TRANSLATION]Jogar Torneio',
+      levels_completed: '[AI_TRANSLATION]Níveis Completados: __count__',
+      ai_league_team_rankings: '[AI_TRANSLATION]Classificações de Equipes da Liga de IA',
+      view_standings: '[AI_TRANSLATION]Ver Classificações',
+      view_winners: '[AI_TRANSLATION]Ver Vencedores',
+      classroom_announcement: '[AI_TRANSLATION]Anúncio da Sala de Aula',
+      link_lms_classroom: '[AI_TRANSLATION]Ligar Sala de Aula LMS',
+      classroom_items: '[AI_TRANSLATION]Itens & Gemas',
+      classroom_live_completion: '[AI_TRANSLATION]Autocompletar Código na Sala de Aula:',
+      learn_without_classroom_title: '[AI_TRANSLATION]Ainda podes aprender e jogar sem uma sala de aula.',
+      learn_without_classroom_blurb: "[AI_TRANSLATION]Começa por jogar o capítulo gratuito da Montanha do Céu clicando <a href='/play/chapter-1-sky-mountain'>aqui</a>.",
+      learn_without_classroom_blurb_coco: "[AI_TRANSLATION]Começa por jogar a campanha gratuita Hora de Código clicando <a href='/play/intro'>aqui</a>.",
+      all_courses_completed: '[AI_TRANSLATION]Todos os Cursos Completos!',
+      all_units_completed: '[AI_TRANSLATION]Todas as Unidades Completas!',
+      hide_options: '[AI_TRANSLATION]Ocultar Opções',
+      more_options: '[AI_TRANSLATION]Mais Opções',
+      get_test_license: '[AI_TRANSLATION]Obter Licença de Estudante de Teste  ',
+      create_students: '[AI_TRANSLATION]Gerar Estudantes  ',
+      //    custom_tournaments: "Custom Tournaments",
     },
-    //    show_change_log: "Show changes to this course's levels"
-    //    hide_change_log: "Hide changes to this course's levels"
-    //    concept_videos: "Concept Videos"
-    //    concept: "Concept:"
-    //    basic_syntax: "Basic Syntax"
-    //    while_loops: "While Loops"
-    //    variables: "Variables"
-    //    basic_syntax_desc: "Syntax is how we write code. Just as spelling and grammar are important in writing narratives and essays, syntax is important when writing code. Humans are good at figuring out what something means, even if it isn't exactly correct, but computers aren't that smart, and they need you to write very precisely."
-    //    while_loops_desc: "A loop is a way of repeating actions in a program. You can use them so you don't have to keep writing repetitive code, and when you don't know exactly how many times an action will need to occur to accomplish a task."
-    //    variables_desc: "Working with variables is like organizing things in shoeboxes. You give the shoebox a name, like \"School Supplies\", and then you put things inside. The exact contents of the box might change over time, but whatever's inside will always be called \"School Supplies\". In programming, variables are symbols used to store data that will change over the course of the program. Variables can hold a variety of data types, including numbers and strings."
-    //    locked_videos_desc: "Keep playing the game to unlock the __concept_name__ concept video."
-    //    unlocked_videos_desc: "Review the __concept_name__ concept video."
-    //    video_shown_before: "shown before __level__"
-    //    link_google_classroom: "Link Google Classroom"
-    //    select_your_classroom: "Select Your Classroom"
-    //    no_classrooms_found: "No classrooms found"
-    //    create_classroom_manually: "Create classroom manually"
-    //    classes: "Classes"
-    //    certificate_btn_print: "Print"
-    //    certificate_btn_toggle: "Toggle"
-    //    error_in_creating_data: "Error in creating data for intro level!"
-    //    ask_next_course: "Want to play more? Ask your teacher for access to the next course."
-    //    set_start_locked_level: "Lock levels starting at"
-    //    no_level_limit: "-- (no levels locked)"
-    //    ask_teacher_to_unlock: "Ask Teacher To Unlock"
-    //    ask_teacher_to_unlock_instructions: "To play the next level, ask your teacher to unlock it on their Course Progress screen"
-    //    play_next_level: "Play Next Level"
-    //    play_tournament: "Play Tournament"
-    //    levels_completed: "Levels Completed: __count__"
-    //    ai_league_team_rankings: "AI League Team Rankings"
-    //    view_standings: "View Standings"
-    //    view_winners: "View Winners"
-    //    classroom_announcement: "Classroom Announcement"
-    //    link_lms_classroom: "Link LMS Classroom"
-    //    classroom_items: "Items & Gems"
-    //    classroom_live_completion: "Classroom Code Autocomplete: "
-    //    learn_without_classroom_title: "You can still learn and play without a classroom"
-    //    learn_without_classroom_blurb: "Start by playing the free Sky Mountain chapter by <a href='/play/chapter-1-sky-mountain'>clicking here</a>."
-    //    learn_without_classroom_blurb_coco: "Start by playing the free Hour of Code campaign by <a href='/play/intro'>clicking here</a>."
-    //    all_courses_completed: "All Courses Completed!"
-    //    all_units_completed: "All Units Completed!"
 
     project_gallery: {
       no_projects_published: 'Sê o primeiro a publicar um projeto neste curso!',
       view_project: 'Ver Projeto',
-      edit_project: 'Editar Projeto'
+      edit_project: 'Editar Projeto',
     },
 
     teacher: {
-    //    assigning_course: "Assigning course"
+      assigning_course: '[AI_TRANSLATION]Atribuição de curso',
       back_to_top: 'Voltar ao Topo',
-      //    click_student_code: "Click on any level that the student has started or completed below to view the code they wrote."
+      click_student_code: '[AI_TRANSLATION]Clica em qualquer nível que o aluno tenha começado ou completado abaixo para ver o código que escreveram.',
       code: 'Código de __name__',
       complete_solution: 'Solução Completa',
-      //    course_not_started: "Student has not started this course yet."
-      //    hoc_happy_ed_week: "Happy Computer Science Education Week!"
-      //    hoc_blurb1: "Learn about the free"
-      //    hoc_blurb2: "Code, Play, Share"
-      //    hoc_blurb3: "activity, download a new teacher lesson plan, and tell your students to log in to play!"
-      //    hoc_button_text: "View Activity"
-      //    no_code_yet: "Student has not written any code for this level yet."
-      //    open_ended_level: "Open-Ended Level"
+      course_not_started: '[AI_TRANSLATION]O estudante ainda não começou este curso.',
+      hoc_happy_ed_week: '[AI_TRANSLATION]Feliz Semana da Educação em Ciência da Computação!',
+      hoc_blurb1: '[AI_TRANSLATION]Aprende sobre o gratuito.',
+      hoc_blurb2: '[AI_TRANSLATION]Código, Joga, Partilha  ',
+      hoc_blurb3: '[AI_TRANSLATION]atividade, faz o download de um novo plano de aula para professores e diz aos teus alunos para fazerem login e jogar!',
+      hoc_button_text: '[AI_TRANSLATION]Ver Atividade',
+      no_code_yet: '[AI_TRANSLATION]O estudante ainda não escreveu nenhum código para este nível.',
+      open_ended_level: '[AI_TRANSLATION]Nível de Aberto',
       partial_solution: 'Solução Parcial',
-      //    capstone_solution: "Capstone Solution"
+      capstone_solution: '[AI_TRANSLATION]Solução do Projeto Final',
       removing_course: 'A remover o curso',
-      //    solution_arena_blurb: "Students are encouraged to solve arena levels creatively. The solution provided below meets the requirements of the arena level."
-      //    solution_challenge_blurb: "Students are encouraged to solve open-ended challenge levels creatively. One possible solution is displayed below."
-      //    solution_project_blurb: "Students are encouraged to build a creative project in this level. Please refer to curriculum guides in the Teacher Toolkit for information on how to evaluate these projects."
-      //    feedback_capstone: "The student will create a base project in Part 1. They will make creative updates based on peer feedback in Part 2. Here is a <a target=\"_blank\" rel=\"noopener\" href=\"https://docs.google.com/document/d/1itB0vY6WphjINQYJ9NHkILATcLLlYD3GDSg6FJg55OQ\">Peer Feedback Template</a> that you can share with your students."
-      //    students_code_blurb: "A correct solution to each level is provided where appropriate. In some cases, it’s possible for a student to solve a level using different code. Solutions are not shown for levels the student has not started."
-      //    course_solution: "Course Solution"
-      //    level_overview_solutions: "Level Overview and Solutions"
-      //    no_student_assigned: "No students have been assigned this course."
-      //    paren_new: "(new)"
+      solution_arena_blurb: '[AI_TRANSLATION]Incentivamos os alunos a resolver os níveis de arena de forma criativa. A solução abaixo cumpre os requisitos do nível de arena.',
+      solution_challenge_blurb: '[AI_TRANSLATION]Incentivamos os alunos a resolver os níveis de desafio abertos de forma criativa. Uma solução possível está exibida abaixo.',
+      solution_project_blurb: '[AI_TRANSLATION]Incentivamos os alunos a criar um projeto criativo neste nível. Consulta os guias do currículo na Caixa de Ferramentas do Professor para informação sobre como avaliar esses projetos.',
+      feedback_capstone: '[AI_TRANSLATION]O aluno vai criar um projeto base na Parte 1. Eles vão fazer atualizações criativas com base no feedback dos colegas na Parte 2. Aqui está um <a target="_blank" rel="noopener" href="https://docs.google.com/document/d/1itB0vY6WphjINQYJ9NHkILATcLLlYD3GDSg6FJg55OQ">Template de Feedback dos Colegas</a> que podes partilhar com os teus alunos.',
+      students_code_blurb: '[AI_TRANSLATION]Uma solução correta para cada nível é fornecida quando apropriado. Em alguns casos, é possível para um aluno resolver um nível usando um código diferente. As soluções não são mostradas para os níveis que o aluno não iniciou.',
+      course_solution: '[AI_TRANSLATION]Solução do Curso.',
+      level_overview_solutions: '[AI_TRANSLATION]Visão Geral do Nível e Soluções',
+      no_student_assigned: '[AI_TRANSLATION]Nenhum aluno foi designado para este curso.',
+      paren_new: '[AI_TRANSLATION](novo)',
       student_code: 'Código de Estudante de __name__',
-      teacher_dashboard: 'Painel do Professor', // Navbar
+      teacher_dashboard: 'Painel do Professor',
       my_classes: 'As Minhas Turmas',
       courses_coco: 'Guias dos Cursos',
       courses_ozar: 'Guias dos Cursos',
@@ -2305,13 +2467,13 @@ module.exports = {
       teacher_account_required: 'É necessária uma conta de professor para acederes a este conteúdo.',
       create_teacher_account: 'Criar Conta de Professor',
       what_is_a_teacher_account: 'O que é uma Conta de Professor?',
-      //    teacher_account_explanation: "A CodeCombat Teacher account allows you to set up classrooms, monitor students’ progress as they work through courses, manage licenses and access resources to aid in your curriculum-building."
+      teacher_account_explanation: '[AI_TRANSLATION]Uma conta de Professor do CodeCombat permite-te configurar salas de aula, monitorizar o progresso dos alunos enquanto trabalham nos cursos, gerir licenças e aceder a recursos para ajudar na construção do teu currículo.',
       current_classes: 'Turmas Atuais',
       archived_classes: 'Turmas Arquivadas',
-      //    shared_classes: "Shared Classes"
+      shared_classes: '[AI_TRANSLATION]Turmas Partilhadas',
       archived_classes_blurb: 'As turmas podem ser arquivadas para referência futura. Desarquiva uma turma para a veres novamente na lista das Turmas Atuais.',
       view_class: 'ver turma',
-      //    view_ai_league_team: "View AI League team"
+      view_ai_league_team: '[AI_TRANSLATION]Ver equipa da Liga de IA',
       archive_class: 'arquivar turma',
       unarchive_class: 'desarquivar turma',
       unarchive_this_class: 'Desarquivar esta turma',
@@ -2319,7 +2481,7 @@ module.exports = {
       no_students_yet_view_class: 'Ver turma para adicionar estudantes.',
       try_refreshing: '(Podes precisar de atualizar a página)',
       create_new_class: 'Criar uma Turma Nova',
-      class_overview: 'Visão Geral da Turma', // View Class page
+      class_overview: 'Visão Geral da Turma',
       avg_playtime: 'Tempo de jogo médio por nível',
       total_playtime: 'Tempo de jogo total',
       avg_completed: 'Média de níveis completos',
@@ -2329,18 +2491,18 @@ module.exports = {
       earliest_incomplete: 'Nível mais básico incompleto',
       latest_complete: 'Último nível completo',
       enroll_student: 'Inscrever estudante',
-      //    apply_modal_subtitle: "You will be redirected to your My Classes page, where you can apply licenses to your students by:"
-      //    apply_modal_list_item_1: "Selecting or creating a class"
-      //    apply_modal_list_item_2: "Selecting students you want to apply licenses to"
-      //    apply_modal_list_item_3: "Clicking the “Apply Licenses” button"
+      apply_modal_subtitle: '[AI_TRANSLATION]Serás redirecionado para a tua página Minhas Turmas, onde podes aplicar licenças aos teus alunos por:',
+      apply_modal_list_item_1: '[AI_TRANSLATION]Selecionar ou criar uma turma',
+      apply_modal_list_item_2: '[AI_TRANSLATION]Selecionar estudantes aos quais queres aplicar licenças',
+      apply_modal_list_item_3: '[AI_TRANSLATION]Clicando no botão “Aplicar Licenças”.',
       apply_license: 'Aplicar Licença',
       revoke_license: 'Revogar Licença',
       revoke_licenses: 'Revogar Todas as Licenças',
-      //    revoke_these_licenses: "Select Students and Revoke These Licenses"
-      //    check_and_revoke_license: "Status & Revoke"
-      //    manage_license: "Manage License"
+      revoke_these_licenses: '[AI_TRANSLATION]Selecionar Alunos e Revogar Estas Licenças',
+      check_and_revoke_license: '[AI_TRANSLATION]Estado & Revogar',
+      manage_license: '[AI_TRANSLATION]Gerir Licença',
       course_progress: 'Progresso dos Cursos',
-      //    unit_progress: "Unit Progress"
+      unit_progress: '[AI_TRANSLATION]Progresso da Unidade',
       not_applicable: 'N/A',
       edit: 'editar',
       edit_2: 'Editar',
@@ -2349,54 +2511,54 @@ module.exports = {
       sort_by: 'Ordenar por',
       progress: 'Progresso',
       concepts_used: 'Conceitos usados pelo Estudante:',
-      //    concept_checked: "Concept checked:"
+      concept_checked: '[AI_TRANSLATION]Conceito verificado:  ',
       completed: 'Completaram',
       practice: 'Prática',
       started: 'Começaram',
       no_progress: 'Nenhum progresso',
-      //    not_required: "Not required"
-      //    view_student_code: "Click to view student code"
+      not_required: '[AI_TRANSLATION]Não requerido',
+      view_student_code: '[AI_TRANSLATION]Clica para ver o código do aluno.',
       select_course_coco: 'Seleciona o curso para ser visto',
       select_course_ozar: 'Seleciona o curso para ser visto',
       progress_color_key: 'Esquema de cores do progresso:',
       level_in_progress: 'Nível em Progresso',
       level_not_started: 'Nível Não Começado',
       project_or_arena: 'Projeto ou Arena',
-      //    students_not_assigned: "Students who have not been assigned {{courseName}}"
-      //    course_overview: "Course Overview"
+      students_not_assigned: '[AI_TRANSLATION]Alunos que não foram atribuídos a {{courseName}}',
+      course_overview: '[AI_TRANSLATION]Visão Geral do Curso.',
       copy_class_code: 'Copiar Código de Turma',
       class_code_blurb: 'Os estudantes podem entrar na tua turma ao usarem este Código de Turma. Não é necessário nenhum endereço de e-mail aquando da criação de uma conta de Estudante com este Código de Turma.',
       copy_class_url: 'Copiar URL da Turma',
       class_join_url_blurb: 'Também podes publicar este URL único da turma numa página web partilhada.',
       add_students_manually: 'Convidar Estudantes por E-mail',
       bulk_assign: 'Selecionar curso',
-      //    assigned_msg_1: "{{numberAssigned}} students were assigned {{courseName}}."
+      //    assigned_msg_1: "{{numberAssigned}} students were assigned {{courseName}}.",
       assigned_msg_2: '{{numberEnrolled}} licenças foram aplicadas.',
-      //    assigned_msg_3: "You now have {{remainingSpots}} available licenses remaining."
+      assigned_msg_3: '[AI_TRANSLATION]Agora tens {{remainingSpots}} licenças disponíveis.',
       assign_course: 'Atribuir Curso',
       removed_course_msg: '{{numberRemoved}} estudantes foram removidos de {{courseName}}.',
       remove_course: 'Remover Curso',
-      //    not_assigned_msg_1: "Cannot add users to a course instance until they are added to a prepaid that includes this course"
+      not_assigned_msg_1: '[AI_TRANSLATION]Não é possível adicionar utilizadores a uma instância de curso até serem adicionados a um pré-pago que inclua este curso',
       not_assigned_modal_title: 'Os cursos não foram atribuídos',
-      //    not_assigned_modal_starter_body_1: "This course requires a Starter License. You do not have enough Starter Licenses available to assign this course to all __selected__ selected students."
-      //    not_assigned_modal_starter_body_2: "Purchase Starter Licenses to grant access to this course."
-      //    not_assigned_modal_full_body_1: "This course requires a Full License. You do not have enough Full Licenses available to assign this course to all __selected__ selected students."
-      //    not_assigned_modal_full_body_2: "You only have __numFullLicensesAvailable__ Full Licenses available (__numStudentsWithoutFullLicenses__ students do not currently have a Full License active)."
-      //    not_assigned_modal_full_body_3: "Please select fewer students, or reach out to __supportEmail__ for assistance."
-      //    assigned: "Assigned"
+      not_assigned_modal_starter_body_1: '[AI_TRANSLATION]Este curso requer uma Licença Inicial. Não tens Licenças Iniciais suficientes disponíveis para atribuir este curso a todos os __selected__ alunos selecionados.',
+      not_assigned_modal_starter_body_2: '[AI_TRANSLATION]Adquire Licenças Iniciais para obter acesso a este curso.  ',
+      not_assigned_modal_full_body_1: '[AI_TRANSLATION]Este curso requer uma Licença Completa. Não tens Licenças Completas suficientes disponíveis para atribuir este curso a todos os __selected__ alunos selecionados.',
+      not_assigned_modal_full_body_2: '[AI_TRANSLATION]Só tens __numFullLicensesAvailable__ Licenças Completas disponíveis (__numStudentsWithoutFullLicenses__ estudantes não têm atualmente uma Licença Completa ativa).',
+      not_assigned_modal_full_body_3: '[AI_TRANSLATION]Por favor, seleciona menos alunos ou entra em contacto com __supportEmail__ para assistência.',
+      assigned: '[AI_TRANSLATION]Atribuído',
       enroll_selected_students: 'Inscrever os Estudantes Selecionados',
       no_students_selected: 'Nenhum estudante foi selecionado.',
-      //    show_students_from: "Show students from" # Enroll students modal
+      show_students_from: '[AI_TRANSLATION]Mostrar alunos de',
       apply_licenses_to_the_following_students: 'Aplicar Licenças aos Seguintes Estudantes',
-      //    select_license_type: "Select License Type to Apply"
-      //    students_have_licenses: "The following students already have licenses applied:"
+      select_license_type: '[AI_TRANSLATION]Selecionar Tipo de Licença a Aplicar',
+      students_have_licenses: '[AI_TRANSLATION]Os alunos a seguir já têm licenças aplicadas:',
       all_students: 'Todos os Estudantes',
       apply_licenses: 'Aplicar Licenças',
       not_enough_enrollments: 'Não há licenças suficientes disponíveis.',
       enrollments_blurb: 'É necessário que os estudantes tenham uma licença para acederem a qualquer conteúdo depois do primeiro curso.',
       how_to_apply_licenses: 'Como Aplicar Licenças',
       export_student_progress: 'Exportar Progresso dos Estudantes (CSV)',
-      //    send_email_to: "Send Recover Password Email to:"
+      send_email_to: '[AI_TRANSLATION]Enviar Email de Recuperação de Senha para:',
       email_sent: 'E-mail enviado',
       send_recovery_email: 'Enviar e-mail de recuperação',
       enter_new_password_below: 'Introduz a nova palavra-passe abaixo:',
@@ -2404,123 +2566,136 @@ module.exports = {
       changed: 'Alterada',
       available_credits: 'Licenças Disponíveis',
       pending_credits: 'Licenças Pendentes',
-      //    empty_credits: "Exhausted Licenses"
+      empty_credits: '[AI_TRANSLATION]Licenças Esgotadas',
       license_remaining: 'licença restante',
       licenses_remaining: 'licenças restantes',
-      //    student_enrollment_history: "Student Enrollment History"
-      //    enrollment_explanation_1: "The"
-      //    enrollment_explanation_2: "Student Enrollment History"
-      //    enrollment_explanation_3: "displays the total number of unique students who were enrolled across all teachers and classrooms added to your dashboard. This includes students in both archived and unarchived classrooms with a class creation date between July 1- June 30 of each respective school year."
-      //    enrollment_explanation_4: "Remember"
-      //    enrollment_explanation_5: "classes may be archived and licenses may be reused throughout the school year, so this view allows administrators to understand how many students truly participated in the program overall."
+      student_enrollment_history: '[AI_TRANSLATION]Histórico de Matrículas do Estudante',
+      enrollment_explanation_1: '[AI_TRANSLATION]O/A',
+      enrollment_explanation_2: '[AI_TRANSLATION]Histórico de Matrículas do Estudante',
+      enrollment_explanation_3: '[AI_TRANSLATION]mostra o número total de alunos únicos que se inscreveram em todos os professores e salas de aula adicionados ao seu painel. Isso inclui alunos em salas de aula arquivadas e não arquivadas com data de criação de turma entre 1 de julho e 30 de junho de cada ano letivo respectivo.',
+      enrollment_explanation_4: '[AI_TRANSLATION]Lembrar',
+      enrollment_explanation_5: '[AI_TRANSLATION]As aulas podem ser arquivadas e as licenças podem ser reutilizadas ao longo do ano letivo, então esta visão permite que os administradores entendam quantos alunos realmente participaram do programa geral.',
       one_license_used: '1 de __totalLicenses__ licenças foi usada',
       num_licenses_used: '__numLicensesUsed__ de __totalLicenses__ licenças foram usadas',
-      //    starter_licenses: "starter licenses"
-      //    start_date: "start date:"
-      //    end_date: "end date:"
+      starter_licenses: '[AI_TRANSLATION]licenças iniciais',
+      start_date: '[AI_TRANSLATION]data de início:',
+      end_date: '[AI_TRANSLATION]data de fim:',
       get_enrollments_blurb: ' Vamos ajudar-te a construir uma solução que satisfaça as necessidades da tua turma, escola ou distrito.',
-      //    see_also_our: "See also our"
-      //    for_more_funding_resources: "for how to leverage CARES Act funding sources like ESSER and GEER."
-      //    how_to_apply_licenses_blurb_1: "When a teacher assigns a course to a student for the first time, we’ll automatically apply a license. Use the bulk-assign dropdown in your classroom to assign a course to selected students:"
-      //    how_to_apply_licenses_blurb_2: "Can I still apply a license without assigning a course?"
-      //    how_to_apply_licenses_blurb_3: "Yes — go to the License Status tab in your classroom and click \"Apply License\" to any student who does not have an active license."
+      see_also_our: '[AI_TRANSLATION]Veja também o nosso',
+      for_more_funding_resources: '[AI_TRANSLATION]para saber como aproveitar fontes de financiamento do CARES Act, como o ESSER e o GEER.',
+      how_to_apply_licenses_blurb_1: '[AI_TRANSLATION]Quando um professor atribui um curso a um aluno pela primeira vez, aplicaremos automaticamente uma licença. Usa o menu suspenso de atribuição em massa na tua sala de aula para atribuir um curso aos alunos selecionados:',
+      how_to_apply_licenses_blurb_2: '[AI_TRANSLATION]Ainda posso aplicar uma licença sem atribuir um curso?',
+      how_to_apply_licenses_blurb_3: '[AI_TRANSLATION]Sim — vai ao separador Estado da Licença na tua sala de aula e clica em "Aplicar Licença" para qualquer aluno que não tenha uma licença ativa.',
       request_sent: 'Pedido Enviado!',
-      //    assessments: "Assessments"
+      assessments: '[AI_TRANSLATION]Avaliações',
       license_status: 'Estado das Licenças',
-      //    status_expired: "Expired on {{date}}"
+      status_expired: '[AI_TRANSLATION]Expirado em {{date}}',
       status_not_enrolled: 'Não Inscrito',
-      //    status_enrolled: "Expires on {{date}}"
-      //    status_partly_expires: "Partly expires on {{date}}"
+      status_enrolled: '[AI_TRANSLATION]Expira em {{date}}',
+      status_partly_expires: '[AI_TRANSLATION]Parte expira em {{date}}',
       select_all: 'Selecionar Todos',
       project: 'Projeto',
-      //    projects: "Projects"
-      //    project_gallery: "Project Gallery"
+      projects: '[AI_TRANSLATION]Projetos',
+      project_gallery: '[AI_TRANSLATION]Galeria de Projetos',
       view_project: 'Ver Projeto',
       unpublished: '(não publicado)',
-      //    view_arena_ladder: "View Arena Ladder"
-      resource_hub: 'Centro de Recursos', // {change}
-      //    pacing_guides: "Classroom-in-a-Box Pacing Guides"
-      //    pacing_guides_desc: "Learn how to incorporate all of CodeCombat's resources to plan your school year!"
-      //    pacing_guides_elem: "Elementary School Pacing Guide"
-      //    pacing_guides_middle: "Middle School Pacing Guide"
-      //    pacing_guides_high: "High School Pacing Guide"
-      //    getting_started: "Getting Started"
-      //    student_resources: "Student Resources"
-      //    curriculum: "Curriculum"
-      //    lesson_slides: "Lesson Slides"
-      //    section: "Section"
-      //    educator_faq: "Educator FAQ"
-      //    educator_faq_desc: "Frequently asked questions about using Ozaria in your classroom or school."
-      //    teacher_getting_started: "Teacher Getting Started Guide"
-      //    teacher_getting_started_desc: "New to Ozaria? Download this Teacher Getting Started Guide to set up your account, create your first class, and invite students to the first unit."
-      //    student_getting_started: "Student Quick Start Guide"
-      //    student_getting_started_desc: "You can distribute this guide to your students before starting CodeCombat so that they can familiarize themselves with the code editor. This guide can be used for both Python and JavaScript classrooms."
-      //    standardized_curricula: "Standardized Curricula"
-      //    ap_cs_principles: "AP Computer Science Principles"
-      //    ap_cs_principles_desc: "AP Computer Science Principles gives students a broad introduction to the power, impact, and possibilities of Computer Science. The course emphasizes computational thinking and problem solving while also teaching the basics of programming."
-      //    cs1: "Introduction to Computer Science"
-      //    cs2: "Computer Science 2"
-      //    cs3: "Computer Science 3"
-      //    cs4: "Computer Science 4"
-      //    cs5: "Computer Science 5"
-      //    cs1_syntax_python: "Course 1 Python Syntax Guide"
-      //    cs1_syntax_python_desc: "Cheatsheet with references to common Python syntax that students will learn in Introduction to Computer Science."
-      //    cs1_syntax_javascript: "Course 1 JavaScript Syntax Guide"
-      //    cs1_syntax_javascript_desc: "Cheatsheet with references to common JavaScript syntax that students will learn in Introduction to Computer Science."
+      view_arena_ladder: '[AI_TRANSLATION]Ver Tabela da Arena',
+      resource_hub: 'Centro de Recursos',
+      pacing_guides: '[AI_TRANSLATION]Guias de Ritmo para Sala de Aula-in-a-Box',
+      pacing_guides_desc: '[AI_TRANSLATION]Aprende a incorporar todos os recursos de CodeCombat no planeamento do teu ano letivo!',
+      pacing_guides_elem: '[AI_TRANSLATION]Guia de Ritmo para Escola Básica',
+      pacing_guides_middle: '[AI_TRANSLATION]Guia de Ritmo da Escola Secundária',
+      pacing_guides_high: '[AI_TRANSLATION]Guia de Ritmo da Escola Secundária',
+      getting_started: '[AI_TRANSLATION]Começar',
+      student_resources: '[AI_TRANSLATION]Recursos para Estudantes',
+      curriculum: '[AI_TRANSLATION]Currículo',
+      lesson_slides: '[AI_TRANSLATION]Slides da Aula',
+      section: '[AI_TRANSLATION]Secção',
+      educator_faq: '[AI_TRANSLATION]Perguntas Frequentes para Educadores',
+      educator_faq_desc: '[AI_TRANSLATION]Perguntas frequentes sobre a utilização de Ozaria na tua sala de aula ou escola.',
+      teacher_getting_started: '[AI_TRANSLATION]Guia de Primeiros Passos para o Professor',
+      teacher_getting_started_desc: '[AI_TRANSLATION]Novo no Ozaria? Descarrega este Guia Inicial para Professores para configurar a tua conta, criar a tua primeira turma e convidar estudantes para a primeira unidade.',
+      student_getting_started: '[AI_TRANSLATION]Guia Rápido de Início para Estudantes',
+      student_getting_started_desc: '[AI_TRANSLATION]Podes distribuir este guia aos teus alunos antes de começarem o CodeCombat para que se possam familiarizar com o editor de código. Este guia pode ser usado tanto para aulas de Python como de JavaScript.',
+      standardized_curricula: '[AI_TRANSLATION]Currículo Padronizado',
+      ap_cs_principles: '[AI_TRANSLATION]Princípios de Ciência da Computação AP',
+      ap_cs_principles_desc: '[AI_TRANSLATION]Princípios de Ciência da Computação AP dá aos alunos uma ampla introdução ao poder, impacto e possibilidades da Ciência da Computação. O curso enfatiza o pensamento computacional e a resolução de problemas, enquanto ensina o básico da programação.',
+      //    cs1: "Introduction to Computer Science",
+      cs2: '[AI_TRANSLATION]Ciências da Computação 2\n',
+      cs3: '[AI_TRANSLATION]Ciência da Computação 3',
+      cs4: '[AI_TRANSLATION]Ciência da Computação 4',
+      cs5: '[AI_TRANSLATION]Ciência da Computação 5',
+      cs1_syntax_python: '[AI_TRANSLATION]Guia de Sintaxe do Curso 1 de Python.',
+      cs1_syntax_python_desc: '[AI_TRANSLATION]Folha de Referência com referências à sintaxe comum de Python que os alunos vão aprender na Introdução à Ciência da Computação.',
+      cs1_syntax_javascript: '[AI_TRANSLATION]Guia de Sintaxe do Curso 1 de JavaScript.',
+      cs1_syntax_javascript_desc: '[AI_TRANSLATION]Folha de Referência com referências à sintaxe comum de JavaScript que os alunos vão aprender na Introdução à Ciência da Computação.',
       coming_soon: 'Guias adicionais em breve!',
-      //    engineering_cycle_worksheet: "Engineering Cycle Worksheet"
-      //    engineering_cycle_worksheet_desc: "Use this worksheet to teach students the basics of the engineering cycle: Assess, Design, Implement and Debug. Refer to the completed example worksheet as a guide."
-      //    engineering_cycle_worksheet_link: "View example"
-      //    progress_journal: "Progress Journal"
-      //    progress_journal_desc: "Encourage students to keep track of their progress via a progress journal."
-      //    cs1_curriculum: "Introduction to Computer Science - Curriculum Guide"
-      //    cs1_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 1."
-      //    arenas_curriculum: "Arena Levels - Teacher Guide"
-      //    arenas_curriculum_desc: "Instructions on how to run Wakka Maul, Cross Bones and Power Peak multiplayer arenas with your class."
-      //    assessments_curriculum: "Assessment Levels - Teacher Guide"
-      //    assessments_curriculum_desc: "Learn how to use Challenge Levels and Combo Challenge levels to assess students' learning outcomes."
-      //    cs2_curriculum: "Computer Science 2 - Curriculum Guide"
-      //    cs2_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 2."
-      //    cs2_syntax_python: "Course 2 Python Syntax Guide"
-      //    cs3_curriculum: "Computer Science 3 - Curriculum Guide"
-      //    cs3_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 3."
-      //    cs3_syntax_python: "Course 3 Python Syntax Guide"
-      //    cs4_curriculum: "Computer Science 4 - Curriculum Guide"
-      //    cs4_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 4."
-      //    cs4_syntax_python: "Course 4 Python Syntax Guide"
-      //    cs5_curriculum_js: "Computer Science 5 - Curriculum Guide (JavaScript)"
-      //    cs5_curriculum_desc_js: "Scope and sequence, lesson plans, activities and more for Course 5 classes using JavaScript."
-      //    cs5_curriculum_py: "Computer Science 5 - Curriculum Guide (Python)"
-      //    cs5_curriculum_desc_py: "Scope and sequence, lesson plans, activities and more for Course 5 classes using Python."
-      //    cs1_pairprogramming: "Pair Programming Activity"
-      //    cs1_pairprogramming_desc: "Introduce students to a pair programming exercise that will help them become better listeners and communicators."
-      //    gd1: "Game Development 1"
-      //    gd1_guide: "Game Development 1 - Project Guide"
-      //    gd1_guide_desc: "Use this to guide your students as they create their first shareable game project in 5 days."
-      //    gd1_rubric: "Game Development 1 - Project Rubric"
-      //    gd1_rubric_desc: "Use this rubric to assess student projects at the end of Game Development 1."
-      //    gd2: "Game Development 2"
-      //    gd2_curriculum: "Game Development 2 - Curriculum Guide"
-      //    gd2_curriculum_desc: "Lesson plans for Game Development 2."
-      //    gd3: "Game Development 3"
-      //    gd3_curriculum: "Game Development 3 - Curriculum Guide"
-      //    gd3_curriculum_desc: "Lesson plans for Game Development 3."
-      //    wd1: "Web Development 1"
-      //    wd1_curriculum: "Web Development 1 - Curriculum Guide"
-      //    wd1_curriculum_desc: "Scope and sequence, lesson plans, activities, and more for Web Development 1."
-      //    wd1_headlines: "Headlines & Headers Activity"
-      //    wd1_headlines_example: "View sample solution"
-      //    wd1_headlines_desc: "Why are paragraph and header tags important? Use this activity to show how well-chosen headers make web pages easier to read. There are many correct solutions to this!"
-      //    wd1_html_syntax: "HTML Syntax Guide"
-      //    wd1_html_syntax_desc: "One-page reference for the HTML style students will learn in Web Development 1."
-      //    wd1_css_syntax: "CSS Syntax Guide"
-      //    wd1_css_syntax_desc: "One-page reference for the CSS and Style syntax students will learn in Web Development 1."
-      //    wd2: "Web Development 2"
-      //    wd2_jquery_syntax: "jQuery Functions Syntax Guide"
-      //    wd2_jquery_syntax_desc: "One-page reference for the jQuery functions students will learn in Web Development 2."
-      //    wd2_quizlet_worksheet: "Quizlet Planning Worksheet"
-      //    wd2_quizlet_worksheet_instructions: "View instructions & examples"
-      //    wd2_quizlet_worksheet_desc: "Before your students build their personality quiz project at the end of Web Development 2, they should plan out their quiz questions, outcomes and responses using this worksheet. Teachers can distribute the instructions and examples for students to refer to."
+      engineering_cycle_worksheet: '[AI_TRANSLATION]Folha de Trabalho do Ciclo de Engenharia',
+      engineering_cycle_worksheet_desc: '[AI_TRANSLATION]Usa esta folha de exercícios para ensinar os alunos os fundamentos do ciclo de engenharia: Avaliar, Projetar, Implementar e Depurar. Consulta a folha de exercícios de exemplo completa como guia.',
+      engineering_cycle_worksheet_link: '[AI_TRANSLATION]Ver exemplo',
+      progress_journal: '[AI_TRANSLATION]Diário de Progresso',
+      progress_journal_desc: '[AI_TRANSLATION]Incentiva os alunos a acompanhar o seu progresso através de um diário de progresso.',
+      cs1_curriculum: '[AI_TRANSLATION]Guia Curricular - Introdução à Ciência da Computação',
+      cs1_curriculum_desc: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Curso 1.',
+      arenas_curriculum: '[AI_TRANSLATION]Níveis da Arena - Guia do Professor',
+      arenas_curriculum_desc: '[AI_TRANSLATION]Instruções sobre como executar as arenas multiplayer Wakka Maul, Cross Bones e Power Peak com a tua turma.',
+      assessments_curriculum: '[AI_TRANSLATION]Níveis de Avaliação - Guia do Professor',
+      assessments_curriculum_desc: '[AI_TRANSLATION]Aprende a usar os Níveis de Desafio e Combo de Desafio para avaliar os resultados de aprendizagem dos alunos.',
+      cs2_curriculum: '[AI_TRANSLATION]Ciência da Computação 2 - Guia Curricular',
+      cs2_curriculum_desc: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Curso 2.',
+      cs2_syntax_python: '[AI_TRANSLATION]Guia de Sintaxe do Curso 2 de Python.',
+      cs3_curriculum: '[AI_TRANSLATION]Ciência da Computação 3 - Guia Curricular',
+      cs3_curriculum_desc: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Curso 3.',
+      cs3_syntax_python: '[AI_TRANSLATION]Guia de Sintaxe do Curso 3 de Python.',
+      cs4_curriculum: '[AI_TRANSLATION]Ciência da Computação 4 - Guia Curricular',
+      cs4_curriculum_desc: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Curso 4.',
+      cs4_syntax_python: '[AI_TRANSLATION]Guia de Sintaxe do Curso 4 de Python.',
+      cs5_curriculum_js: '[AI_TRANSLATION]Ciência da Computação 5 - Guia Curricular (JavaScript)',
+      cs5_curriculum_desc_js: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Curso 5 usando JavaScript.',
+      cs5_curriculum_py: '[AI_TRANSLATION]Ciência da Computação 5 - Guia Curricular (Python)',
+      cs5_curriculum_desc_py: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Curso 5 usando Python.',
+      cs1_pairprogramming: '[AI_TRANSLATION]Atividade de Programação em Pares',
+      cs1_pairprogramming_desc: '[AI_TRANSLATION]Apresenta aos alunos um exercício de programação em pares que os ajudará a tornarem-se melhores ouvintes e comunicadores.',
+      gd1: '[AI_TRANSLATION]Desenvolvimento de Jogos 1  ',
+      gd1_guide: '[AI_TRANSLATION]Desenvolvimento de Jogos 1 - Guia de Projetos',
+      gd1_guide_desc: '[AI_TRANSLATION]Usa isto para guiar os teus alunos enquanto criam o seu primeiro projeto de jogo partilhável em 5 dias.',
+      gd1_rubric: '[AI_TRANSLATION]Desenvolvimento de Jogos 1 - Rubrica de Projetos',
+      gd1_rubric_desc: '[AI_TRANSLATION]Usa esta rubrica para avaliar projetos de alunos no final de Desenvolvimento de Jogos 1.',
+      //    gd2: "Game Development 2",
+      gd2_curriculum: '[AI_TRANSLATION]Desenvolvimento de Jogos 2 - Guia Curricular',
+      gd2_curriculum_desc: '[AI_TRANSLATION]Planos de aula para o Desenvolvimento de Jogos 2.',
+      gd3: '[AI_TRANSLATION]Desenvolvimento de Jogos 3  ',
+      gd3_curriculum: '[AI_TRANSLATION]Desenvolvimento de Jogos 3 - Guia Curricular',
+      gd3_curriculum_desc: '[AI_TRANSLATION]Planos de aula para o Desenvolvimento de Jogos 3.',
+      wd1: '[AI_TRANSLATION]Desenvolvimento Web 1',
+      wd1_curriculum: '[AI_TRANSLATION]Desenvolvimento Web 1 - Guia Curricular',
+      wd1_curriculum_desc: '[AI_TRANSLATION]Escopo e sequência, planos de aula, atividades e mais para o Desenvolvimento Web 1.',
+      wd1_headlines: '[AI_TRANSLATION]Atividade de Cabeçalhos & Títulos',
+      wd1_headlines_example: '[AI_TRANSLATION]Ver solução de exemplo',
+      wd1_headlines_desc: '[AI_TRANSLATION]Porque são importantes as tags de parágrafo e cabeçalho? Usa esta atividade para mostrar como cabeçalhos bem escolhidos tornam as páginas web mais fáceis de ler. Existem muitas soluções corretas para isto!',
+      wd1_html_syntax: '[AI_TRANSLATION]Guia de Sintaxe HTML',
+      wd1_html_syntax_desc: '[AI_TRANSLATION]Uma referência de uma página para o estilo HTML que os alunos vão aprender em Desenvolvimento Web 1.  ',
+      wd1_css_syntax: '[AI_TRANSLATION]Guia de Sintaxe de CSS',
+      wd1_css_syntax_desc: '[AI_TRANSLATION]Referência de uma página para a sintaxe de CSS e Style que os alunos aprenderão em Desenvolvimento Web 1.',
+      //    wd2: "Web Development 2",
+      wd2_jquery_syntax: '[AI_TRANSLATION]Guia de Sintaxe de Funções jQuery',
+      wd2_jquery_syntax_desc: '[AI_TRANSLATION]Referência de uma página para as funções jQuery que os alunos aprenderão em Desenvolvimento Web 2.',
+      wd2_quizlet_worksheet: '[AI_TRANSLATION]Ficha de Planeamento do Quizlet',
+      wd2_quizlet_worksheet_instructions: '[AI_TRANSLATION]Ver instruções & exemplos',
+      wd2_quizlet_worksheet_desc: '[AI_TRANSLATION]Antes de os alunos construírem o projeto do questionário de personalidade no final de Desenvolvimento Web 2, eles devem planejar suas perguntas, resultados e respostas usando esta ficha de trabalho. Os professores podem distribuir as instruções e exemplos para os alunos consultarem.',
+      //    intro_to_cs_short: "Intro to CS",
+      //    GD1_short: "Game Dev 1",
+      //    GD2_short: "Game Dev 2",
+      //    GD3_short: "Game Dev 3",
+      //    WD1_short: "Web Dev 1",
+      //    WD2_short: "Web Dev 2",
+      //    WD3_short: "Web Dev 3",
+      //    CS1_short: "Comp Sci 1",
+      //    CS2_short: "Comp Sci 2",
+      //    CS3_short: "Comp Sci 3",
+      //    CS4_short: "Comp Sci 4",
+      //    CS5_short: "Comp Sci 5",
+      //    CS6_short: "Comp Sci 6",
       student_overview: 'Visão Geral',
       student_details: 'Detalhes do Estudante',
       student_name: 'Nome do Estudante',
@@ -2532,226 +2707,244 @@ module.exports = {
       student_completed: 'Completo pelo Estudante',
       student_in_progress: 'Em progresso pelo Estudante',
       class_average: 'Média da Turma',
-      //    not_assigned: "has not been assigned the following courses"
+      not_assigned: '[AI_TRANSLATION]não foi atribuído aos seguintes cursos',
       playtime_axis: 'Tempo de Jogo em Segundos',
       levels_axis: 'Níveis em',
       student_state: 'Como se está',
       student_state_2: 'a sair?',
-      //    student_good: "is doing well in"
-      //    student_good_detail: "This student is keeping pace with the class's average level completion times."
-      //    student_warn: "might need some help in"
-      //    student_warn_detail: "This student's average level completion times suggest they might need some help with new concepts that have been introduced in this course."
-      //    student_great: "is doing great in"
-      //    student_great_detail: "This student might be a good candidate to help other students working through this course, based on average level completion times."
-      //    full_license: "Full License"
-      //    starter_license: "Starter License"
-      //    customized_license: "Customized License"
-      //    trial: "Trial"
-      //    hoc_welcome: "Happy Computer Science Education Week"
-      //    hoc_title: "Hour of Code Games - Free Activities to Learn Real Coding Languages"
-      //    hoc_meta_description: "Make your own game or code your way out of a dungeon! CodeCombat has four different Hour of Code activities and over 60 levels to learn code, play, and create."
-      //    hoc_intro: "There are three ways for your class to participate in Hour of Code with CodeCombat"
-      //    hoc_self_led: "Self-Led Gameplay"
-      //    hoc_self_led_desc: "Students can play through our Hour of Code CodeCombat tutorials on their own"
-      //    hoc_game_dev: "Game Development"
-      //    hoc_and: "and"
-      //    hoc_programming: "JavaScript/Python Programming"
-      //    hoc_teacher_led: "Teacher-Led Lessons"
-      //    hoc_teacher_led_desc1: "Download our"
-      //    hoc_teacher_led_link_coco: "Hour of Code lesson plans"
-      //    hoc_teacher_led_link_ozar: "Introduction to Computer Science lesson plans"
-      //    hoc_teacher_led_desc2: "to introduce your students to programming concepts using offline activities"
-      //    hoc_group: "Group Gameplay"
-      //    hoc_group_desc_1: "Teachers can use the lessons in conjunction with our Introduction to Computer Science course to track student progress. See our"
-      //    hoc_group_link: "Getting Started Guide"
-      //    hoc_group_desc_2: "for more details"
-      //    hoc_additional_desc1: "For additional CodeCombat resources and activities, see our"
-      //    hoc_additional_desc2: "Questions"
-      //    hoc_additional_contact: "Get in touch"
-      //    regenerate_class_code_tooltip: "Generate a new Class Code"
-      //    regenerate_class_code_confirm: "Are you sure you want to generate a new Class Code?"
-      //    revoke_confirm: "Are you sure you want to revoke a Full License from {{student_name}}? The license will become available to assign to another student."
-      //    revoke_alert_no_student: "Please select students first."
-      //    revoke_selected_confirm: "Are you sure you want to revoke Licenses from all selected students?"
-      //    revoke_all_confirm: "Are you sure you want to revoke Full Licenses from all students in this class?"
+      student_good: '[AI_TRANSLATION]Está a sair-se bem em',
+      student_good_detail: '[AI_TRANSLATION]Este aluno está acompanhando o tempo médio de conclusão de níveis da turma.',
+      student_warn: '[AI_TRANSLATION]pode precisar de ajuda em',
+      student_warn_detail: '[AI_TRANSLATION]Os tempos médios de conclusão de níveis deste aluno sugerem que ele pode precisar de ajuda com novos conceitos que foram introduzidos neste curso.',
+      student_great: '[AI_TRANSLATION]Está a sair-se bem em',
+      student_great_detail: '[AI_TRANSLATION]Este aluno pode ser um bom candidato para ajudar outros alunos que estão fazendo este curso, com base nos tempos médios de conclusão de níveis.',
+      full_license: '[AI_TRANSLATION]Licença Completa',
+      starter_license: '[AI_TRANSLATION]Licença Inicial',
+      customized_license: '[AI_TRANSLATION]Licença Personalizada',
+      trial: '[AI_TRANSLATION]Júri',
+      hoc_welcome: '[AI_TRANSLATION]Feliz Semana da Educação em Ciência da Computação',
+      hoc_title: '[AI_TRANSLATION]Jogos de Hora do Código - Atividades Gratuitas para Aprender Linguagens de Código Reais',
+      hoc_meta_description: '[AI_TRANSLATION]Faz o teu próprio jogo ou codifica a tua saída de uma masmorra! O CodeCombat tem quatro atividades diferentes de Hora de Código e mais de 60 níveis para aprender a programar, jogar e criar.',
+      hoc_intro: '[AI_TRANSLATION]Existem três maneiras para a tua turma participar na Hora do Código com CodeCombat',
+      hoc_self_led: '[AI_TRANSLATION]Jogo Autodirigido',
+      hoc_self_led_desc: '[AI_TRANSLATION]Os alunos podem percorrer nossos tutoriais de Hour of Code CodeCombat sozinhos',
+      //    hoc_game_dev: "Game Development",
+      hoc_and: '[AI_TRANSLATION]e  ',
+      hoc_programming: '[AI_TRANSLATION]Programação em JavaScript/Python',
+      hoc_teacher_led: '[AI_TRANSLATION]Aulas Lideradas pelo/a Professor/a',
+      hoc_teacher_led_desc1: '[AI_TRANSLATION]Transferir nosso',
+      hoc_teacher_led_link_coco: '[AI_TRANSLATION]Planos de aula da Hora do Código',
+      hoc_teacher_led_link_ozar: '[AI_TRANSLATION]Planos de aula - Introdução à Ciência da Computação',
+      //    hoc_teacher_led_desc2: "to introduce your students to programming concepts using offline activities",
+      hoc_group: '[AI_TRANSLATION]Jogo em Grupo',
+      hoc_group_desc_1: '[AI_TRANSLATION]Professores/as podem usar as aulas em conjunto com o nosso curso de Introdução à Ciência da Computação para acompanhar o progresso dos/as alunos/as. Veja o nosso',
+      hoc_group_link: '[AI_TRANSLATION]Guia de Início',
+      hoc_group_desc_2: '[AI_TRANSLATION]para mais detalhes',
+      hoc_additional_desc1: '[AI_TRANSLATION]Para recursos e atividades adicionais do CodeCombat, vê o nosso',
+      hoc_additional_desc2: '[AI_TRANSLATION]Questões',
+      hoc_additional_contact: '[AI_TRANSLATION]Entra em contato',
+      regenerate_class_code_tooltip: '[AI_TRANSLATION]Gerar um novo Código de Turma',
+      regenerate_class_code_confirm: '[AI_TRANSLATION]Tens a certeza de que queres gerar um novo Código de Turma?  ',
+      revoke_confirm: '[AI_TRANSLATION]Tens a certeza de que queres revogar a Licença Completa do {{student_name}}? A licença ficará disponível para atribuir a outro aluno.',
+      revoke_alert_no_student: '[AI_TRANSLATION]Por favor, seleciona os alunos primeiro.',
+      revoke_selected_confirm: '[AI_TRANSLATION]Tens a certeza de que queres revogar as Licenças a todos os alunos selecionados?',
+      revoke_all_confirm: '[AI_TRANSLATION]Tens a certeza de que queres revogar as Licenças Completas a todos os alunos desta turma?',
       revoking: 'A revogar...',
-      //    unused_licenses: "You have unused Licenses that allow you to assign students paid courses when they're ready to learn more!"
-      //    remember_new_courses: "Remember to assign new courses!"
+      unused_licenses: '[AI_TRANSLATION]Tens Licenças não utilizadas que te permitem atribuir cursos pagos aos alunos quando estiverem prontos para aprender mais!',
+      remember_new_courses: '[AI_TRANSLATION]Lembra-te de atribuir novos cursos!',
       more_info: 'Mais Informação',
-      //    how_to_assign_courses: "How to Assign Courses"
-      //    select_students: "Select Students"
-      //    select_instructions: "Click the checkbox next to each student you want to assign courses to."
-      //    choose_course: "Choose Course"
-      //    choose_instructions: "Select the course from the dropdown menu you’d like to assign, then click “Assign to Selected Students.”"
-      //    push_projects: "We recommend assigning Web Development 1 or Game Development 1 after students have finished Introduction to Computer Science! See our {{resource_hub}} for more details on those courses."
-      //    teacher_quest: "Teacher's Quest for Success"
-      //    quests_complete: "Quests Complete"
-      //    teacher_quest_create_classroom: "Create Classroom"
+      how_to_assign_courses: '[AI_TRANSLATION]Como Atribuir Cursos',
+      select_students: '[AI_TRANSLATION]Selecionar Alunos',
+      select_instructions: '[AI_TRANSLATION]Clica na checkbox ao lado de cada aluno a quem queres atribuir cursos.',
+      choose_course: '[AI_TRANSLATION]Escolher Curso',
+      choose_instructions: '[AI_TRANSLATION]Seleciona o curso no menu dropdown que queres atribuir, depois clica em “Assign to Selected Students.”',
+      push_projects: '[AI_TRANSLATION]Recomendamos atribuir Web Development 1 ou Game Development 1 após os alunos terminarem a Introdução à Ciência da Computação! Veja o nosso {{resource_hub}} para mais detalhes sobre esses cursos.',
+      teacher_quest: '[AI_TRANSLATION]Missão do/a Professor/a pelo Sucesso',
+      quests_complete: '[AI_TRANSLATION]Missões Completas',
+      teacher_quest_create_classroom: '[AI_TRANSLATION]Criar Sala de Aula',
       teacher_quest_add_students: 'Adicionar Estudantes',
-      //    teacher_quest_teach_methods: "Help your students learn how to `call methods`."
-      //    teacher_quest_teach_methods_step1: "Get 75% of at least one class through the first level, Dungeons of Kithgard"
-      //    teacher_quest_teach_methods_step2: "Print out the [Student Quick Start Guide](https://files.codecombat.com/docs/resources/StudentQuickStartGuide.pdf) in the Teacher Toolkit."
-      //    teacher_quest_teach_strings: "Don't string your students along, teach them `strings`."
-      //    teacher_quest_teach_strings_step1: "Get 75% of at least one class through True Names"
-      //    teacher_quest_teach_strings_step2: "Use the Teacher Level Selector on [Course Guides](/teachers/courses) page to preview True Names."
-      //    teacher_quest_teach_loops: "Keep your students in the loop about `loops`."
-      //    teacher_quest_teach_loops_step1: "Get 75% of at least one class through Fire Dancing."
-      //    teacher_quest_teach_loops_step2: "Use the Loops Activity in the [CS1 Curriculum guide](/teachers/resources/cs1) to reinforce this concept."
-      //    teacher_quest_teach_variables: "Vary it up with `variables`."
-      //    teacher_quest_teach_variables_step1: "Get 75% of at least one class through Known Enemy."
-      //    teacher_quest_teach_variables_step2: "Encourage collaboration by using the [Pair Programming Activity](/teachers/resources/pair-programming)."
-      //    teacher_quest_kithgard_gates_100: "Escape the Kithgard Gates with your class."
-      //    teacher_quest_kithgard_gates_100_step1: "Get 75% of at least one class through Kithgard Gates."
-      //    teacher_quest_kithgard_gates_100_step2: "Guide students to think through hard problems using the [Engineering Cycle Worksheet](https://files.codecombat.com/docs/resources/EngineeringCycleWorksheet.pdf)."
-      //    teacher_quest_wakka_maul_100: "Prepare to duel in Wakka Maul."
-      //    teacher_quest_wakka_maul_100_step1: "Get 75% of at least one class to Wakka Maul."
-      //    teacher_quest_wakka_maul_100_step2: "See the [Arena Guide](/teachers/resources/arenas) in the [Teacher Toolkit](/teachers/resources) for tips on how to run a successful arena day."
-      //    teacher_quest_reach_gamedev: "Explore new worlds!"
-      //    teacher_quest_reach_gamedev_step1: "[Get licenses](/teachers/licenses) so that your students can explore new worlds, like Game Development and Web Development!"
-      //    teacher_quest_done: "Want your students to learn even more code? Get in touch with our [school specialists](mailto:schools@codecombat.com) today!"
-      //    teacher_quest_keep_going: "Keep going! Here's what you can do next:"
-      //    teacher_quest_more: "See all quests"
-      //    teacher_quest_less: "See fewer quests"
-      //    refresh_to_update: "(refresh the page to see updates)"
-      //    view_project_gallery: "View Project Gallery"
-      //    office_hours: "Teacher Webinars"
-      //    office_hours_detail: "Learn how to keep up with with your students as they create games and embark on their coding journey! Come and attend our"
-      //    office_hours_link: "teacher webinar"
-      //    office_hours_detail_2: "sessions."
-      //    success: "Success"
-      //    in_progress: "In Progress"
-      //    not_started: "Not Started"
-      //    mid_course: "Mid-Course"
-      //    end_course: "End of Course"
-      //    none: "None detected yet"
-      //    explain_open_ended: "Note: Students are encouraged to solve this level creatively — one possible solution is provided below."
+      teacher_quest_teach_methods: '[AI_TRANSLATION]Ajuda os teus alunos a aprender a `chamar métodos`.',
+      teacher_quest_teach_methods_step1: '[AI_TRANSLATION]Faz com que pelo menos 75% de uma turma complete o primeiro nível, Dungeons of Kithgard.',
+      teacher_quest_teach_methods_step2: '[AI_TRANSLATION]Imprime o [Guia de Início Rápido para Estudantes](https://files.codecombat.com/docs/resources/StudentQuickStartGuide.pdf) na Caixa de Ferramentas do Professor.',
+      teacher_quest_teach_strings: '[AI_TRANSLATION]Não enganes os teus alunos, ensina-os `strings`.',
+      teacher_quest_teach_strings_step1: '[AI_TRANSLATION]Faz com que pelo menos 75% de uma turma complete True Names.',
+      teacher_quest_teach_strings_step2: '[AI_TRANSLATION]Usa o Seletor de Níveis para Professores na página [Guias de Curso](/teachers/courses) para pré-visualizar True Names.',
+      teacher_quest_teach_loops: '[AI_TRANSLATION]Mantém os teus alunos a par sobre `loops`.',
+      teacher_quest_teach_loops_step1: '[AI_TRANSLATION]Faz com que pelo menos 75% de uma turma complete Fire Dancing.',
+      teacher_quest_teach_loops_step2: '[AI_TRANSLATION]Usa a atividade de Loops no [Guia Curricular CS1](/teachers/resources/cs1) para reforçar este conceito.',
+      teacher_quest_teach_variables: '[AI_TRANSLATION]Varia com `variáveis`.',
+      teacher_quest_teach_variables_step1: '[AI_TRANSLATION]Faz com que pelo menos 75% de uma turma complete Known Enemy.',
+      teacher_quest_teach_variables_step2: '[AI_TRANSLATION]Incentiva a colaboração usando a [Atividade de Programação em Par](/teachers/resources/pair-programming).',
+      teacher_quest_kithgard_gates_100: '[AI_TRANSLATION]Escapa dos Portões de Kithgard com a tua turma.',
+      teacher_quest_kithgard_gates_100_step1: '[AI_TRANSLATION]Faz com que pelo menos 75% de uma turma complete Kithgard Gates.',
+      teacher_quest_kithgard_gates_100_step2: '[AI_TRANSLATION]Guia os alunos a resolver problemas difíceis usando o [Engineering Cycle Worksheet](https://files.codecombat.com/docs/resources/EngineeringCycleWorksheet.pdf).',
+      teacher_quest_wakka_maul_100: '[AI_TRANSLATION]Prepara-te para o duelo em Wakka Maul.',
+      teacher_quest_wakka_maul_100_step1: '[AI_TRANSLATION]Faz com que pelo menos 75% de uma turma chegue a Wakka Maul.',
+      teacher_quest_wakka_maul_100_step2: '[AI_TRANSLATION]Vê o [Guia da Arena](/teachers/resources/arenas) no [Kit de Ferramentas para Professores](/teachers/resources) para dicas sobre como organizar um dia de arena bem-sucedido.',
+      teacher_quest_reach_gamedev: '[AI_TRANSLATION]Explora novos mundos!',
+      teacher_quest_reach_gamedev_step1: '[AI_TRANSLATION][Obtenha licenças](/teachers/licenses) para que os teus alunos possam explorar novos mundos, como Desenvolvimento de Jogos e Desenvolvimento Web!',
+      teacher_quest_done: '[AI_TRANSLATION]Queres que os teus alunos aprendam ainda mais sobre código? Fala com os nossos [especialistas em escolas](mailto:schools@codecombat.com) hoje!',
+      teacher_quest_keep_going: '[AI_TRANSLATION]Continua! Aqui está o que podes fazer a seguir:',
+      teacher_quest_more: '[AI_TRANSLATION]Ver todas as missões',
+      teacher_quest_less: '[AI_TRANSLATION]Ver menos missões',
+      refresh_to_update: '[AI_TRANSLATION](atualize a página para ver as mudanças)',
+      view_project_gallery: '[AI_TRANSLATION]Ver Galeria de Projetos',
+      office_hours: '[AI_TRANSLATION]Webinars para Professores',
+      office_hours_detail: '[AI_TRANSLATION]Aprende a acompanhar os teus alunos enquanto criam jogos e iniciam a sua jornada de programação! Vem e participa no nosso',
+      office_hours_link: '[AI_TRANSLATION]webinar do professor',
+      office_hours_detail_2: '[AI_TRANSLATION]sessões.',
+      success: '[AI_TRANSLATION]Sucesso',
+      in_progress: '[AI_TRANSLATION]Em Progresso',
+      //    not_started: "Not Started",
+      mid_course: '[AI_TRANSLATION]Meio do Curso',
+      end_course: '[AI_TRANSLATION]Fim do Curso',
+      none: '[AI_TRANSLATION]Nada detectado ainda',
+      explain_open_ended: '[AI_TRANSLATION]Nota: Os alunos são encorajados a resolver este nível de forma criativa — uma solução possível é fornecida abaixo.  ',
       level_label: 'Nível:',
       time_played_label: 'Tempo Jogado:',
-      //    back_to_resource_hub: "Back to Teacher Toolkit"
-      //    back_to_course_guides: "Back to Course Guides"
+      //    practice_threshold_label: "Practice Threshold:",
+      back_to_resource_hub: '[AI_TRANSLATION]De Volta ao Kit de Ferramentas para Professores',
+      back_to_course_guides: '[AI_TRANSLATION]De Volta aos Guias do Curso',
       print_guide: 'Imprimir este guia',
-      //    combo: "Combo"
-      //    combo_explanation: "Students pass Combo challenge levels by using at least one listed concept. Review student code by clicking the progress dot."
-      concept: 'Conceito'
+      combo: '[AI_TRANSLATION]Combo',
+      combo_explanation: '[AI_TRANSLATION]Os alunos passam os níveis de desafio Combo usando pelo menos um conceito listado. Revise o código do aluno clicando no ponto de progresso.',
+      concept: 'Conceito',
+      sync_google_classroom: '[AI_TRANSLATION]Sincronizar Google Classroom',
+      unit_overview: '[AI_TRANSLATION]Visão Geral da Unidade',
+      module_overview: '[AI_TRANSLATION]Visão Geral do Módulo',
+      chapter1_unit_overview_desc: '[AI_TRANSLATION]Resumo da experiência dos alunos, incluindo Cenas, Níveis de Prática, Intros e o projeto Capstone no Capítulo 1.',
+      lesson_plan: '[AI_TRANSLATION]Plano de Aula',
+      chapter1_lesson_plan_desc: '[AI_TRANSLATION]Guião detalhado da aula incluindo objetivos de aprendizagem, padrões CSTA, atividades de reflexão, dicas de facilitação e muito mais.',
+      capstone_rubric: '[AI_TRANSLATION]Rubrica do Projeto Final',
+      chapter1_capstone_rubric_desc: '[AI_TRANSLATION]Rubrica para avaliar os projetos Capstone dos alunos e atividades de reflexão no final desta unidade.',
+      chapter1: '[AI_TRANSLATION]Capítulo 1: Subindo a Montanha',
+      chapter2: '[AI_TRANSLATION]Capítulo 2: Os Dançarinos da Lua',
+      chapter3: '[AI_TRANSLATION]Capítulo 3: As Terras da Fénix',
+      module1: '[AI_TRANSLATION]Módulo 1:',
+      module2: '[AI_TRANSLATION]Módulo 2:',
+      module3: '[AI_TRANSLATION]Módulo 3:',
+      module4: '[AI_TRANSLATION]Módulo 4:',
+      module5: '[AI_TRANSLATION]Módulo 5:',
+      module6: '[AI_TRANSLATION]Módulo 6:',
+      module7: '[AI_TRANSLATION]Módulo 7:',
+      module8: '[AI_TRANSLATION]Módulo 8:',
+      algorithms_and_syntax: '[AI_TRANSLATION]Algoritmos e Sintaxe',
+      debugging: '[AI_TRANSLATION]Depuração',
+      variables: '[AI_TRANSLATION]Variáveis',
+      conditionals: '[AI_TRANSLATION]Condicionais  ',
+      capstone_intro: '[AI_TRANSLATION]Introdução do Projeto Final',
+      capstone_project: '[AI_TRANSLATION]Projeto de Conclusão',
+      level_code: '[AI_TRANSLATION]Código do Nível',
+      review_needed: '[AI_TRANSLATION]Revisão necessária',
+      review_tooltip_heading: '[AI_TRANSLATION]O que isso significa?',
+      review_tooltip_text: '[AI_TRANSLATION]Surgem bandeiras vermelhas ao lado das verificações de conceito onde o teu aluno(a) tentou responder à pergunta 3 ou mais vezes. Na seção <strong>Visão Geral do Curso</strong>, as bandeiras vermelhas surgem ao lado das verificações de conceito se pelo menos 50% de alunos que iniciaram ou completaram a verificação de conceito tentaram-na 3 ou mais vezes.',
+      scroll_to_see_more: '[AI_TRANSLATION]Role para ver mais',
+      click_to_view_concept_check: '[AI_TRANSLATION]Clica para ver a verificação de conceito.',
+      click_to_view_project_gallery: '[AI_TRANSLATION]Clica para ver a galeria de projetos.',
+      review_learning_goal: '[AI_TRANSLATION]Revê "Objetivo de Aprendizagem: __learningGoal__" com os alunos.',
+      view_capstone_project: '[AI_TRANSLATION]Ver Projeto Final',
+      ozaria_dashboard_guide: '[AI_TRANSLATION]Guia do Painel de Controlo do Professor',
+      dashboard_guide_desc: '[AI_TRANSLATION]Tutorial das funcionalidades do Painel de Professor de Ozaria que te ajudarão a ver o progresso e trabalho dos alunos.',
+      review: '[AI_TRANSLATION]Revisão',
+      for_loops: '[AI_TRANSLATION]Por Loops  ',
+      peer_feedback: '[AI_TRANSLATION]Formulário de Feedback de Pares',
+      presentation_checklist: '[AI_TRANSLATION]Lista de Verificação da Apresentação',
+      try_ozaria_footer: '[AI_TRANSLATION]Experimenta o nosso novo jogo de aventura, Ozaria!',
+      try_ozaria_free: '[AI_TRANSLATION]Experimenta Ozaria Grátis',
+      ozaria_intro: '[AI_TRANSLATION]Apresentação do Nosso Novo Programa de Ciência da Computação',
+      share_class: '[AI_TRANSLATION]`share class`',
+      permission: '[AI_TRANSLATION]Permissão',
+      not_write_permission: '[AI_TRANSLATION]Não tens permissão para escrever na classe',
+      not_read_permission: '[AI_TRANSLATION]Não tens permissão para ler a classe',
+      owned_license: '[AI_TRANSLATION]Licenciado',
+      archive_revoke_confirm: '[AI_TRANSLATION]os alunos da turma arquivada têm licenças ativas. Queres revogá-las para as aplicares a outros alunos?',
+      archive_without_revoking: '[AI_TRANSLATION]Arquivar Sem Revogar',
+      revoke_and_archive: '[AI_TRANSLATION]Revogar e Arquivar',
+      license_stats: '[AI_TRANSLATION]Estatísticas de Licença',
+      redeemers: '[AI_TRANSLATION]Estudantes Ativos',
+      removed_redeemers: '[AI_TRANSLATION]Alunos Inativos',
+      latest_podcast_episode: '[AI_TRANSLATION]Episódio Mais Recente do Podcast',
+      from_the_podcast: '[AI_TRANSLATION]Do Podcast',
+      edit_student_access_title: '[AI_TRANSLATION]Editar Acesso dos Alunos a Níveis',
+      edit_student_access_title_scenarios: '[AI_TRANSLATION]Editar Acesso dos Alunos a Projetos',
+      edit_student_access_subtitle: '[AI_TRANSLATION]Selecionaste __levels__ níveis para __students__ estudantes.\n',
+      edit_student_access_subtitle_scenarios: '[AI_TRANSLATION]Selecionaste __levels__ projetos para __students__ estudantes.\n',
+      student_ask_for_help: '[AI_TRANSLATION]O teu aluno __name__ está a pedir a tua ajuda.',
+      never_played: '[AI_TRANSLATION]Nunca Jogou',
+      //    test_student_modal_header: "Creating Test Student",
+      test_student_modal_p1: '[AI_TRANSLATION]Vais criar uma conta de teste única que imita a jornada de um aluno e salva o teu progresso.  ',
+      test_student_modal_no_class: '[AI_TRANSLATION]Por favor, cria uma turma para entrares como estudante  ',
+      test_student_modal_choose_class: '[AI_TRANSLATION]Escolhe uma classe para te juntares:  ',
+      test_student_modal_redirect: '[AI_TRANSLATION]Serás redirecionado para a tua conta de estudante de teste!  ',
+      stop_spying_student: '[AI_TRANSLATION]Podes voltar à conta de professor clicando em `Stop Spying` no menu suspenso do utilizador.',
+      //    show_practice_levels: "Show Practice Levels",
+      //    hide_practice_levels: "Hide Practice Levels",
     },
-    //    sync_google_classroom: "Sync Google Classroom"
-    //    unit_overview: "Unit Overview"
-    //    module_overview: "Module Overview"
-    //    chapter1_unit_overview_desc: "Summary of student experience, including Cutscenes, Practice Levels, Intros, and the Capstone project in Chapter 1."
-    //    lesson_plan: "Lesson Plan"
-    //    chapter1_lesson_plan_desc: "Detailed classroom guide including learning objectives, CSTA standards, reflection activities, facilitation tips, and more."
-    //    capstone_rubric: "Capstone Rubric"
-    //    chapter1_capstone_rubric_desc: "Rubric for evaluating students' Capstone projects and reflection activities at the end of this unit."
-    //    chapter1: "Chapter 1: Up The Mountain"
-    //    chapter2: "Chapter 2: The Moon Dancers"
-    //    chapter3: "Chapter 3: The Phoenix Lands"
-    //    module1: "Module 1: "
-    //    module2: "Module 2: "
-    //    module3: "Module 3: "
-    //    module4: "Module 4: "
-    //    module5: "Module 5: "
-    //    module6: "Module 6: "
-    //    algorithms_and_syntax: "Algorithms and Syntax"
-    //    debugging: "Debugging"
-    //    variables: "Variables"
-    //    conditionals: "Conditionals"
-    //    capstone_intro: "Capstone Intro"
-    //    capstone_project: "Capstone Project"
-    //    level_code: "Level Code"
-    //    review_needed: "Review Needed"
-    //    review_tooltip_heading: "What does this mean?"
-    //    review_tooltip_text: "Red flags appear next to Concept Checks where your student(s) attempted to answer the question 3 or more times. In the <strong>Course Overview</strong> section, red flags appear next to Concept Checks if at least 50% of students who have started or completed the concept check attempted it 3 or more times."
-    //    scroll_to_see_more: "Scroll to see more"
-    //    click_to_view_concept_check: "Click to view concept check"
-    //    click_to_view_project_gallery: "Click to view project gallery"
-    //    review_learning_goal: "Review \"Learning Goal: __learningGoal__\" with students."
-    //    view_capstone_project: "View Capstone Project"
-    //    ozaria_dashboard_guide: "Teacher Dashboard Guide"
-    //    dashboard_guide_desc: "Walkthrough of Ozaria Teacher Dashboard features that will help you view student progress and work."
-    //    review: "Review"
-    //    for_loops: "For Loops"
-    //    peer_feedback: "Peer Feedback Form"
-    //    presentation_checklist: "Presentation Checklist"
-    //    try_ozaria_footer: "Try our new adventure game, Ozaria!"
-    //    try_ozaria_free: "Try Ozaria for free"
-    //    ozaria_intro: "Introducing Our New Computer Science Program"
-    //    share_class: "share class"
-    //    permission: "Permission"
-    //    not_write_permission: "You don't have write permission to the class"
-    //    not_read_permission: "You don't have read permission to the class"
-    //    owned_license: "Licensed"
-    //    archive_revoke_confirm: " students of the archived class have active licenses. Would you like to revoke them so that you can re-apply them to other students?"
-    //    archive_without_revoking: "Archive Without Revoking"
-    //    revoke_and_archive: "Revoke and Archive"
-    //    license_stats: "License Stats"
-    //    redeemers: "Active Students"
-    //    removed_redeemers: "Inactive Students"
-    //    latest_podcast_episode: "Latest Podcast Episode"
-    //    from_the_podcast: "From the Podcast"
-    //    edit_student_access_title: "Edit Student Access to Levels"
-    //    edit_student_access_subtitle: "You have selected __levels__ levels for __students__ students."
-    //    student_ask_for_help: "Your studnet __name__ asking for your help."
 
-    //  teacher_licenses:
-    //    active_licenses: "Active Licenses"
-    //    expired_licenses: "Expired Licenses"
+    teacher_licenses: {
+      active_licenses: '[AI_TRANSLATION]Licenças Ativas',
+      expired_licenses: '[AI_TRANSLATION]Licenças Expiradas',
+    },
 
-    //  teacher_ozaria_encouragement_modal:
-    //    title: "Build Computer Science Skills to Save Ozaria"
-    //    sub_title: "You are invited to try the new adventure game from CodeCombat"
-    //    cancel: "Back to CodeCombat"
-    //    accept: "Try First Unit Free"
-    //    bullet1: "Deepen student connection to learning through an epic story and immersive gameplay"
-    //    bullet2: "Teach CS fundamentals, Python or JavaScript and 21st century skills"
-    //    bullet3: "Unlock creativity through capstone projects"
-    //    bullet4: "Support instructions through dedicated curriculum resources"
-    //    you_can_return: "You can always return to CodeCombat"
+    teacher_ozaria_encouragement_modal: {
+      title: '[AI_TRANSLATION]Constrói Competências de Ciência da Computação para Salvar Ozaria',
+      sub_title: '[AI_TRANSLATION]És convidado a experimentar o novo jogo de aventura do CodeCombat.',
+      cancel: '[AI_TRANSLATION]De Volta ao CodeCombat',
+      accept: '[AI_TRANSLATION]Experimenta a Primeira Unidade Grátis',
+      bullet1: '[AI_TRANSLATION]Aproxima os alunos do aprendizado através de uma história épica e jogabilidade imersiva',
+      bullet2: '[AI_TRANSLATION]Ensina fundamentos de CS, Python ou JavaScript e competências do século XXI',
+      bullet3: '[AI_TRANSLATION]Desbloqueia a criatividade através de projetos de clímax',
+      bullet4: '[AI_TRANSLATION]Professores Suportados',
+      you_can_return: '[AI_TRANSLATION]Podes sempre voltar ao CodeCombat.',
+    },
 
-    //  educator_signup_ozaria_encouragement:
-    //    recommended_for: "Recommended for:"
-    //    independent_learners: "Independent learners"
-    //    homeschoolers: "Homeschoolers"
-    //    educators_continue_coco: "Educators who want to continue using CodeCombat in their class"
-    //    continue_coco: "Continue with CodeCombat"
+    educator_signup_ozaria_encouragement: {
+      recommended_for: '[AI_TRANSLATION]Recomendado para:',
+      independent_learners: '[AI_TRANSLATION]Aprendizes independentes',
+      homeschoolers: '[AI_TRANSLATION]Estudantes de Escola em Casa',
+      educators_continue_coco: '[AI_TRANSLATION]Educadores que querem continuar a usar o CodeCombat na sua aula',
+      continue_coco: '[AI_TRANSLATION]Continua com CodeCombat',
+    },
 
-    //  ozaria_cta:
-    //    title1: "Standards Aligned Core Curriculum"
-    //    description1: "Immersive, story based curriculum that meets all 6th-8th grade CSTA standards."
-    //    title2: "Turnkey Lesson Plans"
-    //    description2: "In-depth presentations and worksheets for teachers to guide students through learning objectives."
-    //    title3: "New Teacher & Admin Dashboards"
-    //    description3: "All the actionable insights educators need at a glance, such as student progress and concept understanding."
+    ozaria_cta: {
+      title1: '[AI_TRANSLATION]Currículo Base Alinhado a Padrões',
+      description1: '[AI_TRANSLATION]Currículo imersivo e baseado em histórias que atende a todos os padrões da CSTA para o 6º ao 8º ano.  ',
+      title2: '[AI_TRANSLATION]Planos de Aula Prontos',
+      description2: '[AI_TRANSLATION]Apresentações detalhadas e folhas de trabalho para professores guiarem os alunos através dos objetivos de aprendizagem.',
+      title3: '[AI_TRANSLATION]Novos Painéis para Professores & Administradores',
+      description3: '[AI_TRANSLATION]Todos os insights acionáveis que os educadores precisam num piscar de olhos, como o progresso dos alunos e a compreensão de conceitos.',
+    },
 
     share_licenses: {
       share_licenses: 'Partilhar Licenças',
       shared_by: 'Partilhadas Por:',
-      //    add_teacher_label: "Enter exact teacher email:"
+      add_teacher_label: '[AI_TRANSLATION]Introduz o e-mail do professor exato:',
       add_teacher_button: 'Adicionar Professor',
-      //    modal_subtitle: "You can make your licenses available to other teachers in a shared pool."
-      //    modal_list_item_1: "Each license can only be used for one student at a time."
-      //    modal_list_item_2: "When teachers revoke licenses from students, the licenses will be returned to the shared pool for other teachers in this group to use."
-      //    subheader: "You can make your licenses available to other teachers in your organization. Each license can only be used for one student at a time."
-      //    teacher_not_found: "Teacher not found. Please make sure this teacher has already created a Teacher Account."
-      //    teacher_not_valid: "This is not a valid Teacher Account. Only teacher accounts can share licenses."
-      //    already_shared: "You've already shared these licenses with that teacher."
-      //    have_not_shared: "You've not shared these licenses with that teacher."
-      //    teachers_using_these: "Teachers who can access these licenses:"
-      //    footer: "When teachers revoke licenses from students, the licenses will be returned to the shared pool for other teachers in this group to use."
+      modal_subtitle: '[AI_TRANSLATION]Podes tornar as tuas licenças disponíveis para outros professores numa piscina partilhada.\n',
+      modal_list_item_1: '[AI_TRANSLATION]Cada licença só pode ser usada por um estudante de cada vez.',
+      modal_list_item_2: '[AI_TRANSLATION]Quando os professores revogarem licenças dos alunos, as licenças serão devolvidas ao pool partilhado para outros professores deste grupo usarem.',
+      subheader: '[AI_TRANSLATION]Podes tornar as tuas licenças disponíveis para outros professores na tua organização. Cada licença só pode ser usada por um aluno de cada vez.\n',
+      teacher_not_found: '[AI_TRANSLATION]Professor/a não encontrado/a. Por favor, certifique-se de que este/a professor/a já criou uma Conta de Professor/a.',
+      teacher_not_valid: '[AI_TRANSLATION]Esta não é uma Conta de Professor válida. Apenas contas de professor podem partilhar licenças.',
+      already_shared: '[AI_TRANSLATION]Já partilhaste estas licenças com aquele professor.',
+      have_not_shared: '[AI_TRANSLATION]Ainda não partilhaste estas licenças com aquele professor.',
+      teachers_using_these: '[AI_TRANSLATION]Professores/as que podem aceder a estas licenças:',
+      footer: '[AI_TRANSLATION]Quando os professores revogarem licenças dos alunos, as licenças serão devolvidas ao pool partilhado para outros professores deste grupo usarem.',
       you: '(tu)',
       one_license_used: '(1 licença usada)',
       licenses_used: '(__licensesUsed__ licenças usadas)',
-      //    licenses_used_no_braces: "__licensesUsed__/__all__ licenses used"
-      more_info: 'Mais informação'
+      licenses_used_no_braces: '[AI_TRANSLATION]__licensesUsed__/__all__ licenças usadas',
+      more_info: 'Mais informação',
+      shared_pool_label: '[AI_TRANSLATION]Professores/as na tua pool partilhada:',
+      teacher_delete_warning: '[AI_TRANSLATION]As licenças compartilhadas atribuídas ao professor não serão revogadas!',
+      licenses_limit: '[AI_TRANSLATION]Limite de Licenças:',
     },
-    //    shared_pool_label: "Teachers in your shared pool:"
-    //    teacher_delete_warning: "The shared licenses assigned to the teacher won't be revoked!"
-    //    licenses_limit: "Licenses Limit:"
 
     sharing: {
       game: 'Jogo',
       webpage: 'Página Web',
-      //    your_students_preview: "Your students will click here to see their finished projects! Unavailable in teacher preview."
-      //    unavailable: "Link sharing not available in teacher preview."
+      your_students_preview: '[AI_TRANSLATION]Os teus alunos vão clicar aqui para ver os projetos concluídos! Indisponível na pré-visualização do professor.',
+      unavailable: '[AI_TRANSLATION]Partilha de links não disponível na pré-visualização do professor.',
       share_game: 'Partilhar Este Jogo',
       share_web: 'Partilhar Esta Página Web',
       victory_share_prefix: 'Partilha esta ligação para convidares os teus amigos e a tua família para',
@@ -2764,14 +2957,14 @@ module.exports = {
       victory_course_share_web: 'vejam a página web',
       victory_course_share_suffix: 'que acabaste de criar.',
       copy_url: 'Copiar URL',
-      share_with_teacher_email: 'Envia para o teu professor'
+      share_with_teacher_email: 'Envia para o teu professor',
+      share_ladder_link: '[AI_TRANSLATION]Partilhar Link Multijogador',
+      ladder_link_title: '[AI_TRANSLATION]Partilhar o Link do Teu Jogo Multijogador',
+      ladder_link_blurb: '[AI_TRANSLATION]Partilhar o teu link da batalha de IA para que os teus amigos e família possam jogar contra o teu código:',
     },
-    //    share_ladder_link: "Share Multiplayer Link"
-    //    ladder_link_title: "Share Your Multiplayer Match Link"
-    //    ladder_link_blurb: "Share your AI battle link so your friends and family can play versus your code:"
 
     game_dev: {
-      creator: 'Criador'
+      creator: 'Criador',
     },
 
     web_dev: {
@@ -2787,7 +2980,7 @@ module.exports = {
       how_to_copy_paste: 'Como Copiar/Colar',
       copy: 'Copiar',
       paste: 'Colar',
-      back_to_editing: 'Voltar à Edição'
+      back_to_editing: 'Voltar à Edição',
     },
 
     classes: {
@@ -2809,27 +3002,29 @@ module.exports = {
       ambassador_title: 'Embaixador',
       ambassador_title_description: '(Suporte)',
       ambassador_summary: 'Amansa os nossos utilizadores do fórum e direciona aqueles que têm questões. Os nossos Embaixadores representam o CodeCombat perante o mundo.',
-      teacher_title: 'Professor'
+      teacher_title: 'Professor',
     },
 
     editor: {
       main_title: 'Editores do CodeCombat',
-      //    concept_title: "Concept Editor"
-      //    standards_title: "Standards Correlation Editor"
+      concept_title: '[AI_TRANSLATION]Editor de Conceitos  ',
+      standards_title: '[AI_TRANSLATION]Editor de Correlação de Padrões',
       article_title: 'Editor de Artigos',
       thang_title: 'Editor de Thangs',
       level_title: 'Editor de Níveis',
       course_title: 'Editor de Cursos',
       achievement_title: 'Editor de Conquistas',
       poll_title: 'Editor de Votações',
-      //    resource_title: "Resource Editor"
-      //    chat_title: "Chat Editor"
-      //    ai_scenario_title: "AI Scenario Editor"
-      //    ai_project_title: "AI Project Editor"
-      //    ai_model_title: "AI Model Editor"
-      //    ai_document_title: "AI Document Editor"
-      //    ai_chat_message_title: "AI Chat Message Editor"
-      //    resource_title_general: "__resource__ Editor"
+      resource_title: '[AI_TRANSLATION]Editor de Recursos',
+      chat_title: '[AI_TRANSLATION]Editor de Chat',
+      ai_scenario_title: '[AI_TRANSLATION]Editor do Cenário de IA',
+      ai_project_title: '[AI_TRANSLATION]Editor do Projeto de IA',
+      ai_model_title: '[AI_TRANSLATION]Editor do Modelo de IA',
+      ai_document_title: '[AI_TRANSLATION]Editor de Documentos de IA',
+      ai_chat_message_title: '[AI_TRANSLATION]Editor de Mensagens de Chat de IA',
+      ai_junior_scenario_title: '[AI_TRANSLATION]Editor de Cenário AI Junior  ',
+      ai_junior_project_title: '[AI_TRANSLATION]Editor de Projeto AI Junior  ',
+      resource_title_general: '[AI_TRANSLATION]__resource__ Editor',
       back: 'Voltar',
       revert: 'Reverter',
       revert_models: 'Reverter Modelos',
@@ -2845,6 +3040,9 @@ module.exports = {
       fork_title: 'Bifurcar Nova Versão',
       fork_creating: 'A Criar Bifurcação...',
       generate_terrain: 'Gerar Terreno',
+      generate_level: '[AI_TRANSLATION]Gerar Nível',
+      //    generate_practice_level: "Generate Practice Level",
+      //    generate_all_practice_levels: "Generate All Practice Levels",
       more: 'Mais',
       wiki: 'Wiki',
       live_chat: 'Chat ao Vivo',
@@ -2876,26 +3074,30 @@ module.exports = {
       level_systems_btn_add: 'Adicionar Sistema',
       level_components_title: 'Voltar para Todas as Thangs',
       level_components_type: 'Tipo',
-      //    concept_edit_title: "Edit Concept"
-      //    standards_edit_title: "Edit Standards Correlation"
+      concept_edit_title: '[AI_TRANSLATION]Editar Conceito',
+      standards_edit_title: '[AI_TRANSLATION]Editar Correlação de Padrões',
       level_component_edit_title: 'Editar Componente',
       level_component_config_schema: 'Configurar Esquema',
       level_system_edit_title: 'Editar Sistema',
-      //    course_edit_title: "Edit Course"
-      //    resource_edit_title: "Edit Resource"
-      //    resource_edit_title_general: "Edit __resource__"
-      //    chat_edit_title: "Edit Chat"
-      //    chat_edit_title_general: "Edit __chat__"
-      //    ai_scenario_edit_title: "Edit Scenario"
-      //    ai_scenario_edit_title_general: "Edit __scenario__"
-      //    ai_project_edit_title: "Edit Project"
-      //    ai_project_edit_title_general: "Edit __project__"
-      //    ai_model_edit_title: "Edit Model"
-      //    ai_document_edit_title: "Edit Document"
-      //    ai_chat_message_edit_title: "Edit Chat Message"
+      course_edit_title: '[AI_TRANSLATION]Editar Curso  ',
+      resource_edit_title: '[AI_TRANSLATION]Editar Recurso',
+      resource_edit_title_general: '[AI_TRANSLATION]Editar __resource__',
+      chat_edit_title: '[AI_TRANSLATION]Editar Chat',
+      chat_edit_title_general: '[AI_TRANSLATION]Editar __chat__',
+      ai_scenario_edit_title: '[AI_TRANSLATION]Editar Cenário',
+      ai_scenario_edit_title_general: '[AI_TRANSLATION]Editar __scenario__',
+      //    ai_project_edit_title: "Edit Project",
+      ai_project_edit_title_general: '[AI_TRANSLATION]Editar __project__',
+      ai_model_edit_title: '[AI_TRANSLATION]Editar Modelo',
+      ai_document_edit_title: '[AI_TRANSLATION]Editar Documento',
+      ai_chat_message_edit_title: '[AI_TRANSLATION]Editar Mensagem do Chat',
+      ai_junior_scenario_edit_title: '[AI_TRANSLATION]Editar Cenário Júnior  ',
+      //    ai_junior_scenario_edit_title_general: "Edit __scenario__",
+      ai_junior_project_edit_title: '[AI_TRANSLATION]Editar Projecto Júnior  ',
+      //    ai_junior_project_edit_title_general: "Edit __project__",
       create_system_title: 'Criar Novo Sistema',
-      //    new_concept_title: "Create New Concept"
-      //    new_standards_title: "Create New Standards Correlation"
+      new_concept_title: '[AI_TRANSLATION]Criar Novo Conceito',
+      new_standards_title: '[AI_TRANSLATION]Criar Nova Correlação de Padrões',
       new_component_title: 'Criar Novo Componente',
       new_component_field_system: 'Sistema',
       new_article_title: 'Criar um Novo Artigo',
@@ -2908,37 +3110,43 @@ module.exports = {
       new_achievement_title_login: 'Inicia Sessão para Criares uma Nova Conquista',
       new_poll_title: 'Criar uma Nova Votação',
       new_poll_title_login: 'Iniciar Sessão para Criar uma Nova Votação',
-      //    new_course_title: "Create a New Course"
-      //    new_course_title_login: "Log In to Create a New Course"
-      //    new_resource_title: "Create a New Resource"
-      //    new_resource_title_login: "Log In to Create a New Resource"
-      //    new_chat_title: "Create a New Chat"
-      //    new_chat_title_login: "Log In to Create a New Chat"
-      //    new_ai_scenario_title: "Create a New Scenario"
-      //    new_ai_scenario_title_login: "Log In to Create a New Scenario"
-      //    new_ai_project_title: "Create a New Project"
-      //    new_ai_project_title_login: "Log In to Create a New Project"
-      //    new_ai_model_title: "Create a New Model"
-      //    new_ai_model_title_login: "Log In to Create a New Model"
-      //    new_ai_document_title: "Create a New Document"
-      //    new_ai_document_title_login: "Log In to Create a New Document"
-      //    new_ai_chat_message_title: "Create a New Chat Message"
-      //    new_ai_chat_message_title_login: "Log In to Create a New Chat Message"
+      new_course_title: '[AI_TRANSLATION]Criar Novo Curso',
+      new_course_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Curso  ',
+      new_resource_title: '[AI_TRANSLATION]Criar Novo Recurso',
+      new_resource_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Recurso  ',
+      new_chat_title: '[AI_TRANSLATION]Criar Novo Chat',
+      new_chat_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Chat  ',
+      new_ai_scenario_title: '[AI_TRANSLATION]Criar Novo Cenário',
+      new_ai_scenario_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Cenário  ',
+      new_ai_project_title: '[AI_TRANSLATION]Criar Novo Projeto',
+      new_ai_project_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Projeto  ',
+      new_ai_model_title: '[AI_TRANSLATION]Criar Novo Modelo',
+      new_ai_model_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Modelo  ',
+      new_ai_document_title: '[AI_TRANSLATION]Criar Novo Documento',
+      new_ai_document_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar um Novo Documento  ',
+      new_ai_chat_message_title: '[AI_TRANSLATION]Criar Nova Mensagem de Chat',
+      new_ai_chat_message_title_login: '[AI_TRANSLATION]Iniciar Sessão para Criar uma Nova Mensagem de Chat  ',
+      new_ai_junior_scenario_title: '[AI_TRANSLATION]Cria um Novo Cenário Júnior  ',
+      new_ai_junior_scenario_title_login: '[AI_TRANSLATION]Iniciar sessão para criar um novo cenário Júnior  ',
+      new_ai_junior_project_title: '[AI_TRANSLATION]Cria um Novo Projeto Júnior  ',
+      //    new_ai_junior_project_title_login: "Log In to Create a New Junior Project",
       article_search_title: 'Procurar Artigos Aqui',
-      //    concept_search_title: "Search Concepts Here"
-      //    standards_search_title: "Search Standards Correlations Here"
+      concept_search_title: '[AI_TRANSLATION]Procurar Conceitos Aqui',
+      standards_search_title: '[AI_TRANSLATION]Procurar Correlações de Padrões Aqui',
       thang_search_title: 'Procurar Thangs Aqui',
       level_search_title: 'Procurar Níveis Aqui',
       achievement_search_title: 'Procurar Conquistas',
       poll_search_title: 'Procurar Votações',
-      //    course_search_title: "Search Courses"
-      //    resource_search_title: "Search Resources"
-      //    chat_search_title: "Search Chats"
-      //    ai_scenario_search_title: "Search Scenarios"
-      //    ai_project_search_title: "Search Projects"
-      //    ai_model_search_title: "Search Models"
-      //    ai_document_search_title: "Search Documents"
-      //    ai_chat_message_search_title: "Search Chat Messages"
+      course_search_title: '[AI_TRANSLATION]Procurar Cursos',
+      resource_search_title: '[AI_TRANSLATION]Procurar Recursos',
+      chat_search_title: '[AI_TRANSLATION]Procurar Chats',
+      ai_scenario_search_title: '[AI_TRANSLATION]Procurar Cenários',
+      ai_project_search_title: '[AI_TRANSLATION]Procurar Projetos',
+      ai_model_search_title: '[AI_TRANSLATION]Procurar Modelos',
+      ai_document_search_title: '[AI_TRANSLATION]Procurar Documentos',
+      ai_chat_message_search_title: '[AI_TRANSLATION]Procurar Mensagens de Chat',
+      ai_junior_scenario_search_title: '[AI_TRANSLATION]Procura Cenários Júnior  ',
+      ai_junior_project_search_title: '[AI_TRANSLATION]Procura Projetos Júnior  ',
       read_only_warning2: 'Nota: não podes guardar nenhuma edição feita aqui, porque não tens sessão iniciada.',
       no_achievements: 'Ainda não foram adicionadas conquistas a este nível.',
       achievement_query_misc: 'Conquista-chave de uma lista de variados',
@@ -2948,18 +3156,18 @@ module.exports = {
       tasks: 'Tarefas',
       clear_storage: 'Limpa as tuas alterações locais',
       add_system_title: 'Adicionar Sistemas ao Nível',
-      done_adding: 'Adição Concluída'
+      done_adding: 'Adição Concluída',
+      product: '[AI_TRANSLATION]Produto',
+      link: '[AI_TRANSLATION]Link',
     },
-    //    product: "Product"
-    //    link: "Link"
 
     article: {
       edit_btn_preview: 'Pré-visualizar',
-      edit_article_title: 'Editar Artigo'
+      edit_article_title: 'Editar Artigo',
     },
 
     polls: {
-      priority: 'Prioridade'
+      priority: 'Prioridade',
     },
 
     contribute: {
@@ -2982,31 +3190,31 @@ module.exports = {
       archmage_subscribe_desc: 'Receber e-mails relativos a novas oportunidades de programação e anúncios.',
       artisan_introduction_pref: "Temos de construir mais níveis! As pessoas estão a pedir mais conteúdo, e nós mesmos só podemos construir estes tantos. Neste momento, a tua estação de trabalho é o nível um; o nosso editor de nível é pouco utilizável, até mesmo pelos seus criadores, por isso fica atento. Se tens visões de campanhas que abranjam 'for-loops' para o",
       artisan_introduction_suf: ', então esta classe pode ser para ti.',
-      //    artisan_attribute_1: "Any experience in building content like this would be nice, such as using Blizzard's level editors. But not required!"
-      //    artisan_attribute_2: "A hankering to do a whole lot of testing and iteration. To make good levels, you need to take it to others and watch them play it, and be prepared to find a lot of things to fix."
-      //    artisan_attribute_3: "For the time being, endurance en par with an Adventurer. Our Level Editor is super preliminary and frustrating to use. You have been warned!"
+      artisan_attribute_1: '[AI_TRANSLATION]Qualquer experiência a criar conteúdos como este seria excelente, tal como usar os editores de níveis da Blizzard. Mas não é obrigatório!',
+      artisan_attribute_2: '[AI_TRANSLATION]Uma grande vontade de fazer muitos testes e iterações. Para criar bons níveis, precisas de levá-los a outros e vê-los jogar, e estar preparado para encontrar muitas coisas para corrigir.',
+      artisan_attribute_3: '[AI_TRANSLATION]Por enquanto, resistência ao nível de um Aventureiro. O nosso Editor de Níveis está super preliminar e frustrante de usar. Foste avisado!',
       artisan_join_desc: 'Usa o Editor de Níveis por esta ordem, pegar ou largar:',
       artisan_join_step1: 'Lê a documentação.',
       artisan_join_step2: 'Cria um nível novo e explora níveis existentes.',
       artisan_join_step3: 'Encontra-nos na nossa sala Slack pública se necessitares de ajuda.',
       artisan_join_step4: 'Coloca os teus níveis no fórum para receberes feedback.',
       artisan_subscribe_desc: 'Receber e-mails relativos a novidades do editor de níveis e anúncios.',
-      //    adventurer_introduction: "Let's be clear about your role: you are the tank. You're going to take heavy damage. We need people to try out brand-new levels and help identify how to make things better. The pain will be enormous; making good games is a long process and no one gets it right the first time. If you can endure and have a high constitution score, then this class might be for you."
-      //    adventurer_attribute_1: "A thirst for learning. You want to learn how to code and we want to teach you how to code. You'll probably be doing most of the teaching in this case, though."
-      //    adventurer_attribute_2: "Charismatic. Be gentle but articulate about what needs improving, and offer suggestions on how to improve."
-      //    adventurer_join_pref: "Either get together with (or recruit!) an Artisan and work with them, or check the box below to receive emails when there are new levels to test. We'll also be posting about levels to review on our networks like"
-      //    adventurer_forum_url: "our forum"
-      //    adventurer_join_suf: "so if you prefer to be notified those ways, sign up there!"
+      adventurer_introduction: '[AI_TRANSLATION]Vamos ser claros sobre o teu papel: tu és o tanque. Vais sofrer grandes danos. Precisamos de pessoas para testar novos níveis e ajudar a identificar como melhorar as coisas. A dor será enorme; fazer bons jogos é um processo longo e ninguém acerta na primeira tentativa. Se consegues aguentar e tens uma alta pontuação de constituição, então esta aula pode ser para ti.',
+      adventurer_attribute_1: '[AI_TRANSLATION]Uma sede de aprender. Queres aprender a programar e nós queremos ensinar-te a programar. Provavelmente vais fazer a maior parte do ensino neste caso, no entanto.',
+      adventurer_attribute_2: '[AI_TRANSLATION]Carismático. Sê gentil, mas claro, sobre o que precisa de ser melhorado, e oferece sugestões de como melhorar.',
+      adventurer_join_pref: '[AI_TRANSLATION]Junte-se a (ou recrute!) um Artesão e trabalhe com ele, ou marque a caixa abaixo para receber e-mails quando houver novos níveis para testar. Também vamos falar sobre novos níveis nas nossas redes como',
+      adventurer_forum_url: '[AI_TRANSLATION]nosso fórum',
+      adventurer_join_suf: '[AI_TRANSLATION]então se preferires ser notificado dessas formas, inscreve-te ali!',
       adventurer_subscribe_desc: 'Receber e-mails quando houver novos níveis para testar.',
-      //    scribe_introduction_pref: "CodeCombat isn't just going to be a bunch of levels. It will also include a resource for knowledge, a wiki of programming concepts that levels can hook into. That way rather than each Artisan having to describe in detail what a comparison operator is, they can simply link their level to the Article describing them that is already written for the player's edification. Something along the lines of what the "
-      //    scribe_introduction_url_mozilla: "Mozilla Developer Network"
-      //    scribe_introduction_suf: " has built. If your idea of fun is articulating the concepts of programming in Markdown form, then this class might be for you."
+      scribe_introduction_pref: '[AI_TRANSLATION]O CodeCombat não vai ser apenas um monte de níveis. Também incluirá um recurso de conhecimento, uma wiki de conceitos de programação aos quais os níveis podem estar ligados. Dessa forma, ao invés de cada Artesão ter que descrever em detalhe o que é um operador de comparação, eles podem simplesmente ligar o seu nível ao Artigo que já está escrito para a edificação do jogador. Algo na linha do que o ',
+      scribe_introduction_url_mozilla: '[AI_TRANSLATION]Rede de Desenvolvedores Mozilla',
+      scribe_introduction_suf: '[AI_TRANSLATION]construiu. Se a tua ideia de diversão é articular os conceitos de programação em Markdown, então esta aula pode ser para ti.',
       scribe_attribute_1: 'Habilidade com palavras é basicamente o que precisas. Não apenas gramática e ortografia, mas seres capaz de explicar ideias complicadas a outros.',
       contact_us_url: 'Contacta-nos',
       scribe_join_description: 'fala-nos um bocado de ti, da tua experiência com a programação e do tipo de coisas sobre as quais gostarias de escrever. Começamos a partir daí!',
       scribe_subscribe_desc: 'Receber e-mails sobre anúncios relativos à escrita de artigos.',
       diplomat_introduction_pref: 'Portanto, se há uma coisa que aprendemos com o nosso ',
-      //    diplomat_introduction_url: "open source community"
+      diplomat_introduction_url: '[AI_TRANSLATION]comunidade de código aberto',
       diplomat_introduction_suf: 'é que há um interesse considerável no CodeCombat noutros países! Estamos a construir um exército de tradutores dispostos a transformar um conjunto de palavras num outro conjuto de palavras, para conseguir que o CodeCombat fique o mais acessível quanto posível em todo o mundo. Se gostas de dar espreitadelas a conteúdos futuros e disponibilizar os níveis para os teus colegas nacionais o mais depressa possível, então esta classe talvez seja para ti.',
       diplomat_attribute_1: 'Fluência em Inglês e no idioma para o qual gostarias de traduzir. Quando são tentadas passar ideias complicadas, é importante uma excelente compreensão das duas!',
       diplomat_i18n_page_prefix: 'Podes começar a traduzir os nossos níveis se fores à nossa',
@@ -3016,12 +3224,12 @@ module.exports = {
       diplomat_github_url: 'no GitHub',
       diplomat_join_suf_github: ", edita-o online e submete um 'pull request'. Assinala ainda a caixa abaixo para ficares atualizado em relação a novos desenvolvimentos da internacionalização!",
       diplomat_subscribe_desc: 'Receber e-mails sobre desenvolvimentos da i18n e níveis para traduzir.',
-      //    ambassador_introduction: "This is a community we're building, and you are the connections. We've got forums, emails, and social networks with lots of people to talk with and help get acquainted with the game and learn from. If you want to help people get involved and have fun, and get a good feel of the pulse of CodeCombat and where we're going, then this class might be for you."
-      //    ambassador_attribute_1: "Communication skills. Be able to identify the problems players are having and help them solve them. Also, keep the rest of us informed about what players are saying, what they like and don't like and want more of!"
-      //    ambassador_join_desc: "tell us a little about yourself, what you've done and what you'd be interested in doing. We'll go from there!"
-      //    ambassador_join_step1: "Read the documentation."
-      //    ambassador_join_step2: "Find us in our public Slack channel."
-      //    ambassador_join_step3: "Help others in the Ambassador category."
+      ambassador_introduction: '[AI_TRANSLATION]Esta é uma comunidade que estamos a construir, e tu és as ligações. Temos fóruns, emails, e redes sociais com muitas pessoas para conversar e ajudar a conhecer o jogo e aprender. Se quiseres ajudar as pessoas a envolverem-se e a divertirem-se, e captar o pulsar do CodeCombat e para onde estamos a ir, então esta aula pode ser para ti.',
+      ambassador_attribute_1: '[AI_TRANSLATION]Competências de comunicação. Ser capaz de identificar os problemas que os jogadores estão a ter e ajudá-los a resolvê-los. Além disso, mantém-nos informados sobre o que os jogadores estão a dizer, o que gostam e não gostam e do que querem mais!',
+      ambassador_join_desc: '[AI_TRANSLATION]conta-nos um pouco sobre ti, o que fizeste e no que estás interessado em fazer. Vamos a partir daí!',
+      //    ambassador_join_step1: "Read the documentation.",
+      ambassador_join_step2: '[AI_TRANSLATION]Encontra-nos no nosso canal público do Slack.',
+      ambassador_join_step3: '[AI_TRANSLATION]Ajuda os outros na categoria de Embaixador.',
       ambassador_subscribe_desc: 'Receber e-mails relativos a novidades do suporte e desenvolvimentos do modo multijogador.',
       teacher_subscribe_desc: 'Receber e-mails sobre atualizações e anúncios para professores.',
       changes_auto_save: 'As alterações são guardadas automaticamente quando clicas nas caixas.',
@@ -3030,12 +3238,12 @@ module.exports = {
       creative_artisans: 'Os Nossos Creativos Artesãos:',
       brave_adventurers: 'Os Nossos Bravos Aventureiros:',
       translating_diplomats: 'Os Nossos Tradutores Diplomatas:',
-      helpful_ambassadors: 'Os Nossos Prestáveis Embaixadores:'
+      helpful_ambassadors: 'Os Nossos Prestáveis Embaixadores:',
     },
 
     ladder: {
-    //    title: "Multiplayer Arenas"
-    //    arena_title: "__arena__ | Multiplayer Arenas"
+      title: '[AI_TRANSLATION]Arenas Multijogador',
+      arena_title: '[AI_TRANSLATION]__arena__ | Arenas Multijogador',
       my_matches: 'Os Meus Jogos',
       simulate: 'Simular',
       simulation_explanation: 'Ao simulares jogos podes ter o teu jogo classificado mais rapidamente!',
@@ -3077,16 +3285,16 @@ module.exports = {
       log_in_for_friends: 'Inicia sessão para jogares com os teus amigos!',
       social_connect_blurb: 'Conecta-te e joga contra os teus amigos!',
       invite_friends_to_battle: 'Convida os teus amigos para se juntarem a ti em batalha!',
-      fight: 'Lutar!', // {change}
+      fight: 'Lutar!',
       watch_victory: 'Vê a tua vitória',
       defeat_the: 'Derrota o',
       watch_battle: 'Ver a batalha',
-      //    tournament_starts: "Tournament starts __timeElapsed__"
+      tournament_starts: '[AI_TRANSLATION]Torneio começa __timeElapsed__',
       tournament_started: ', começou',
       tournament_ends: 'O Torneio acaba',
       tournament_ended: 'O Torneio acabou',
-      //    tournament_results_published: ", results published __timeLeft__"
-      //    tournament_results_wait_publish: ", results will be published by owner"
+      tournament_results_published: '[AI_TRANSLATION], resultados publicados __timeLeft__',
+      tournament_results_wait_publish: '[AI_TRANSLATION], resultados serão publicados pelo proprietário',
       tournament_rules: 'Regras do Torneio',
       tournament_blurb: 'Escreve código, recolhe ouro, constrói exércitos, esmaga inimigos, ganha prémios e melhora a tua carreira no nosso torneio $40,000 Greed! Confere os detalhes',
       tournament_blurb_criss_cross: 'Ganha ofertas, constrói caminhos, supera os adversários, apanha gemas e melhore a tua carreira no nosso torneio Criss-Cross! Confere os detalhes',
@@ -3096,31 +3304,34 @@ module.exports = {
       rules: 'Regras',
       winners: 'Vencedores',
       league: 'Liga',
-      red_ai: 'CPU Vermelho', // "Red AI Wins", at end of multiplayer match playback
+      red_ai: 'CPU Vermelho',
       blue_ai: 'CPU Azul',
-      wins: 'Vence', // At end of multiplayer match playback
-      //    losses: "Losses"
-      //    win_num: "Wins"
-      //    loss_num: "Losses"
-      //    win_rate: "Win %"
-      humans: 'Vermelho', // Ladder page display team name
-      ogres: 'Azul'
+      wins: 'Vence',
+      losses: '[AI_TRANSLATION]Perdas',
+      //    win_num: "Wins",
+      loss_num: '[AI_TRANSLATION]Perdas',
+      win_rate: '[AI_TRANSLATION]% de Vitórias',
+      humans: 'Vermelho',
+      ogres: 'Azul',
+      live_tournament: '[AI_TRANSLATION]Torneio ao Vivo',
+      awaiting_tournament_title: '[AI_TRANSLATION]Torneio Inativo',
+      awaiting_tournament_blurb: '[AI_TRANSLATION]A arena do torneio não está atualmente ativa.',
+      tournament_end_desc: '[AI_TRANSLATION]O torneio acabou, obrigado por jogar.',
+      age: '[AI_TRANSLATION]Idade',
+      age_bracket: '[AI_TRANSLATION]Faixa Etária',
+      bracket_0_11: '[AI_TRANSLATION]0-11',
+      bracket_11_14: '[AI_TRANSLATION]11-14',
+      bracket_14_18: '[AI_TRANSLATION]14-18',
+      bracket_11_18: '[AI_TRANSLATION]11-18',
+      bracket_open: '[AI_TRANSLATION]Abrir',
+      create_tournament: '[AI_TRANSLATION]Criar Torneio',
+      //    difficulty_beginner: "Beginner",
+      //    difficulty_intermediate: "Intermediate",
+      //    difficulty_advanced: "Advanced",
     },
-    //    live_tournament: "Live Tournament"
-    //    awaiting_tournament_title: "Tournament Inactive"
-    //    awaiting_tournament_blurb: "The tournament arena is not currently active."
-    //    tournament_end_desc: "The tournament is over, thanks for playing"
-    //    age: "Age"
-    //    age_bracket: "Age Bracket"
-    //    bracket_0_11: "0-11"
-    //    bracket_11_14: "11-14"
-    //    bracket_14_18: "14-18"
-    //    bracket_11_18: "11-18"
-    //    bracket_open: "Open"
-    //    create_tournament: "Create a Tournament"
 
     user: {
-    //    user_title: "__name__ - Learn to Code with CodeCombat"
+      user_title: '[AI_TRANSLATION]__name__ - Aprende a Programar com o CodeCombat',
       stats: 'Estatísticas',
       singleplayer_title: 'Níveis Um Jogador',
       multiplayer_title: 'Níveis Multijogador',
@@ -3134,56 +3345,56 @@ module.exports = {
       no_achievements: 'Sem Conquistas ganhas.',
       favorite_prefix: 'A linguagem favorita é ',
       favorite_postfix: '.',
-      not_member_of_clans: 'Ainda não é membro de nenhum clã.'
+      not_member_of_clans: 'Ainda não é membro de nenhum clã.',
+      //    certificate_view: "view certificate",
+      certificate_click_to_view: '[AI_TRANSLATION]clique para ver o certificado',
+      certificate_course_incomplete: '[AI_TRANSLATION]curso incompleto',
+      certificate_of_completion: '[AI_TRANSLATION]Certificado de Conclusão',
+      certificate_endorsed_by: '[AI_TRANSLATION]Endossado por',
+      certificate_stats: '[AI_TRANSLATION]Estatísticas do Curso.',
+      certificate_lines_of: '[AI_TRANSLATION]linhas de',
+      certificate_levels_completed: '[AI_TRANSLATION]níveis completados',
+      certificate_for: '[AI_TRANSLATION]Para',
+      for_ozaria_chapters_1_4: '[AI_TRANSLATION]Para Capítulos 1 - 4 de Ozaria',
+      certificate_number: '[AI_TRANSLATION]Não.  ',
+      heroes_unlocked: '[AI_TRANSLATION]Heróis Desbloqueados',
+      current_items: '[AI_TRANSLATION]Itens Equipados',
+      contributor_badges: '[AI_TRANSLATION]Distintivos de Contribuidores',
+      contributions_title: '[AI_TRANSLATION]Contribuições',
+      //    type_stat: "Type",
+      patches_submit: '[AI_TRANSLATION]Patches Submetidos',
+      patches_approved: '[AI_TRANSLATION]Patches Aprovados',
+      patches_accepted: '[AI_TRANSLATION]Patches Aceitos',
+      level_edits: '[AI_TRANSLATION]Edições do Nível',
+      total_translations: '[AI_TRANSLATION]Traduções Totais',
+      //    campaign_stats: "Stats",
     },
-    //    certificate_view: "view certificate"
-    //    certificate_click_to_view: "click to view certificate"
-    //    certificate_course_incomplete: "course incomplete"
-    //    certificate_of_completion: "Certificate of Completion"
-    //    certificate_endorsed_by: "Endorsed by"
-    //    certificate_stats: "Course Stats"
-    //    certificate_lines_of: "lines of"
-    //    certificate_levels_completed: "levels completed"
-    //    certificate_for: "For"
-    //    for_ozaria_chapters_1_4: "For Ozaria Chapters 1 - 4"
-    //    certificate_number: "No."
-    //    heroes_unlocked: "Heroes Unlocked"
-    //    current_items: "Items Equipped"
-    //    contributor_badges: "Contributor Badges"
-    //    contributions_title: "Contributions"
-    //    type_stat: "Type" # As in, which type of contribution
-    //    patches_submit: "Patches Submitted"
-    //    patches_approved: "Patches Approved"
-    //    patches_accepted: "Patches Accepted"
-    //    level_edits: "Level Edits"
-    //    total_translations: "Total Translations"
-    //    campaign_stats: "Stats"
 
     achievements: {
       last_earned: 'Último Ganho',
       amount_achieved: 'Quantidade',
       achievement: 'Conquista',
-      current_xp_prefix: '',
+      //    current_xp_prefix: "",
       current_xp_postfix: ' no total',
-      new_xp_prefix: '',
+      //    new_xp_prefix: "",
       new_xp_postfix: ' ganho',
-      left_xp_prefix: '',
+      //    left_xp_prefix: "",
       left_xp_infix: ' até ao nível ',
-      left_xp_postfix: ''
+      //    left_xp_postfix: "",
     },
 
     account: {
-    //    title: "Account"
-    //    settings_title: "Account Settings"
-    //    unsubscribe_title: "Unsubscribe"
-    //    payments_title: "Payments"
-    //    subscription_title: "Subscription"
-    //    invoices_title: "Invoices"
-    //    prepaids_title: "Prepaids"
+      title: '[AI_TRANSLATION]Conta',
+      //    settings_title: "Account Settings",
+      //    unsubscribe_title: "Unsubscribe",
+      payments_title: '[AI_TRANSLATION]Pagamentos',
+      subscription_title: '[AI_TRANSLATION]Subscrição',
+      invoices_title: '[AI_TRANSLATION]Faturas',
+      prepaids_title: '[AI_TRANSLATION]Pré-pagos',
       payments: 'Pagamentos',
       prepaid_codes: 'Códigos Pré-pagos',
       purchased: 'Adquirido',
-      //    subscribe_for_gems: "Subscribe for gems"
+      subscribe_for_gems: '[AI_TRANSLATION]Subscreva para gemas',
       subscription: 'Subscrição',
       invoices: 'Donativos',
       service_apple: 'Apple',
@@ -3206,13 +3417,15 @@ module.exports = {
       email_sent: 'E-mail enviado! Verifica a tua caixa de entrada.',
       verifying_email: 'A verificar o teu endereço de e-mail...',
       successfully_verified: 'Verificaste o teu endereço de e-mail com sucesso!',
-      verify_error: 'Algo correu mal aquando da verificação do teu e-mail :('
+      verify_error: 'Algo correu mal aquando da verificação do teu e-mail :(',
+      unsubscribe_from_marketing: '[AI_TRANSLATION]Cancelar subscrição __email__ de todos os e-mails de marketing da CodeCombat?',
+      unsubscribe_button: '[AI_TRANSLATION]Sim, cancelar subscrição.',
+      unsubscribe_failed: '[AI_TRANSLATION]Falhado',
+      unsubscribe_success: '[AI_TRANSLATION]Sucesso',
+      manage_billing: '[AI_TRANSLATION]Gerir Pagamentos',
+      payments_history: '[AI_TRANSLATION]Histórico de Pagamentos',
+      no_payments_found: '[AI_TRANSLATION]Nenhum pagamento encontrado',
     },
-    //    unsubscribe_from_marketing: "Unsubscribe __email__ from all CodeCombat marketing emails?"
-    //    unsubscribe_button: "Yes, unsubscribe"
-    //    unsubscribe_failed: "Failed"
-    //    unsubscribe_success: "Success"
-    //    manage_billing: "Manage Billing"
 
     account_invoices: {
       amount: 'Quantidade em dólares americanos',
@@ -3222,16 +3435,16 @@ module.exports = {
       pay: 'Pagar Donativo',
       purchasing: 'A adquirir...',
       retrying: 'Erro do servidor, a tentar novamente.',
-      success: 'Pago com sucesso. Obrigado!'
+      success: 'Pago com sucesso. Obrigado!',
     },
 
     account_prepaid: {
       purchase_code: 'Comprar um Código de Subscrição',
-      //    purchase_code1: "Subscription Codes can be redeemed to add premium subscription time to one or more accounts for the Home version of CodeCombat."
-      //    purchase_code2: "Each CodeCombat account can only redeem a particular Subscription Code once."
-      //    purchase_code3: "Subscription Code months will be added to the end of any existing subscription on the account."
-      //    purchase_code4: "Subscription Codes are for accounts playing the Home version of CodeCombat, they cannot be used in place of Student Licenses for the Classroom version."
-      //    purchase_code5: "For more information on Student Licenses, reach out to"
+      purchase_code1: '[AI_TRANSLATION]Códigos de Subscrição podem ser resgatados para adicionar tempo de subscrição premium a uma ou mais contas na versão Home do CodeCombat.',
+      purchase_code2: '[AI_TRANSLATION]Cada conta de CodeCombat só pode resgatar um Código de Assinatura específico uma vez.',
+      purchase_code3: '[AI_TRANSLATION]Meses de Código de Subscrição serão adicionados ao final de qualquer subscrição existente na conta.',
+      purchase_code4: '[AI_TRANSLATION]Códigos de Assinatura são para contas que jogam a versão doméstica do CodeCombat, não podem ser usados em vez de Licenças de Estudante para a versão de Sala de Aula.',
+      purchase_code5: '[AI_TRANSLATION]Para mais informações sobre Licenças de Estudante, contacta',
       users: 'Utilizadores',
       months: 'Meses',
       purchase_total: 'Total',
@@ -3247,77 +3460,80 @@ module.exports = {
       no_codes: 'Nenhum código ainda!',
       you_can1: 'Podes',
       you_can2: 'adquirir um código pré-pago',
-      you_can3: 'que pode ser aplicado à tua conta ou dado a outros.'
+      you_can3: 'que pode ser aplicado à tua conta ou dado a outros.',
+      prepaid_add_months: '[AI_TRANSLATION]Este código pré-pago adiciona <strong>__months__ meses de subscrição</strong> à tua conta.  ',
+      can_use_times: '[AI_TRANSLATION]Pode ser usado <strong>__unlocksLeft__ more</strong> vezes.\n',
+      prepaid_applied_success: '[AI_TRANSLATION]Pré-pago aplicado na tua conta!',
+      activation_code_used: '[AI_TRANSLATION]O código de ativação já foi usado.',
+      redeem_code_error: '[AI_TRANSLATION]Erro: Não foi possível resgatar o código pré-pago.',
     },
-    //    prepaid_add_months: "This prepaid code adds <strong>__months__ months of subscription</strong> to your account."
-    //    can_use_times: "It can be used <strong>__unlocksLeft__ more</strong> times."
-    //    prepaid_applied_success: "Prepaid applied to your account!"
-    //    activation_code_used: "The Activation code has been used."
-    //    redeem_code_error: "Error: Could not redeem prepaid code. "
 
-    //  ozaria_chrome:
-    //    sound_off: "Mute"
-    //    sound_on: "Unmute"
-    //    back_to_map: "Back to Map"
-    //    level_options: "Level Options"
-    //    restart_level: "Restart Level"
-    //    max_browser: "Maximize Browser"
+    ozaria_chrome: {
+      sound_off: '[AI_TRANSLATION]Mudo',
+      sound_on: '[AI_TRANSLATION]Desmutar',
+      back_to_map: '[AI_TRANSLATION]De Volta ao Mapa',
+      level_options: '[AI_TRANSLATION]Opções do Nível',
+      //    restart_level: "Restart Level",
+      max_browser: '[AI_TRANSLATION]Maximizar o Navegador.',
+      ai_hint: '[AI_TRANSLATION]Sugestão de IA',
+    },
 
-    //  impact:
-    //    hero_heading: "Building A World-Class Computer Science Program"
-    //    hero_subheading: "We Help Empower Educators and Inspire Students Across the Country"
-    //    featured_partner_story: "Featured Partner Story"
-    //    partner_heading: "Successfully Teaching Coding at a Title I School"
-    //    partner_school: "Bobby Duke Middle School"
-    //    featured_teacher: "Scott Baily"
-    //    teacher_title: "Technology Teacher Coachella, CA"
-    //    implementation: "Implementation"
-    //    grades_taught: "Grades Taught"
-    //    length_use: "Length of Use"
-    //    length_use_time: "3 years"
-    //    students_enrolled: "Students Enrolled this Year"
-    //    students_enrolled_number: "130"
-    //    courses_covered: "Courses Covered"
-    //    course1: "CompSci 1"
-    //    course2: "CompSci 2"
-    //    course3: "CompSci 3"
-    //    course4: "CompSci 4"
-    //    course5: "GameDev 1"
-    //    fav_features: "Favorite Features"
-    //    responsive_support: "Responsive Support"
-    //    immediate_engagement: "Immediate Engagement"
-    //    paragraph1: "Bobby Duke Middle School sits nestled between the Southern California mountains of Coachella Valley to the west and east and the Salton Sea 33 miles south, and boasts a student population of 697 students within Coachella Valley Unified’s district-wide population of 18,861 students."
-    //    paragraph2: "The students of Bobby Duke Middle School reflect the socioeconomic challenges facing Coachella Valley’s residents and students within the district. With over 95% of the Bobby Duke Middle School student population qualifying for free and reduced-price meals and over 40% classified as English language learners, the importance of teaching 21st century skills was the top priority of Bobby Duke Middle School Technology teacher, Scott Baily."
-    //    paragraph3: "Baily knew that teaching his students coding was a key pathway to opportunity in a job landscape that increasingly prioritizes and necessitates computing skills. So, he decided to take on the exciting challenge of creating and teaching the only coding class in the school and finding a solution that was affordable, responsive to feedback, and engaging to students of all learning abilities and backgrounds."
-    //    teacher_quote: "When I got my hands on CodeCombat [and] started having my students use it, the light bulb went on. It was just night and day from every other program that we had used. They’re not even close."
-    //    quote_attribution: "Scott Baily, Technology Teacher"
-    //    read_full_story: "Read Full Story"
-    //    more_stories: "More Partner Stories"
-    //    partners_heading_1: "Supporting Multiple CS Pathways in One Class"
-    //    partners_school_1: "Preston High School"
-    //    partners_heading_2: "Excelling on the AP Exam"
-    //    partners_school_2: "River Ridge High School"
-    //    partners_heading_3: "Teaching Computer Science Without Prior Experience"
-    //    partners_school_3: "Riverdale High School"
-    //    download_study: "Download Research Study"
-    //    teacher_spotlight: "Teacher & Student Spotlights"
-    //    teacher_name_1: "Amanda Henry"
-    //    teacher_title_1: "Rehabilitation Instructor"
-    //    teacher_location_1: "Morehead, Kentucky"
-    //    spotlight_1: "Through her compassion and drive to help those who need second chances, Amanda Henry helped change the lives of students who need positive role models. With no previous computer science experience, Henry led her students to coding success in a regional coding competition."
-    //    teacher_name_2: "Kaila, Student"
-    //    teacher_title_2: "Maysville Community & Technical College"
-    //    teacher_location_2: "Lexington, Kentucky"
-    //    spotlight_2: "Kaila was a student who never thought she would be writing lines of code, let alone enrolled in college with a pathway to a bright future."
-    //    teacher_name_3: "Susan Jones-Szabo"
-    //    teacher_title_3: "Teacher Librarian"
-    //    teacher_school_3: "Ruby Bridges Elementary"
-    //    teacher_location_3: "Alameda, CA"
-    //    spotlight_3: "Susan Jones-Szabo promotes an equitable atmosphere in her class where everyone can find success in their own way. Mistakes and struggles are welcomed because everyone learns from a challenge, even the teacher."
-    //    continue_reading_blog: "Continue Reading on Blog..."
-    //    ozaria_impact_title: "Positive Impacts with Ozaria"
-    //    ozaria_impact_blurb: "CodeCombat's sister curriculum, Ozaria, has proven to have a positive impact on the student learning outcomes that matter most to both students and educators."
-    //    ozaria_impact_learn_more: "Learn more about Ozaria's curriculum efficacy here."
+    impact: {
+      hero_heading: '[AI_TRANSLATION]A Construir um Programa de Ciência da Computação de Classe Mundial',
+      hero_subheading: '[AI_TRANSLATION]Ajudamos a Capacitar Educadores e Inspirar Alunos Por Todo o País  ',
+      featured_partner_story: '[AI_TRANSLATION]História do Parceiro em Destaque',
+      partner_heading: '[AI_TRANSLATION]Ensinar Código com Sucesso numa Escola com Título I',
+      partner_school: '[AI_TRANSLATION]Bobby Duke Middle School',
+      featured_teacher: '[AI_TRANSLATION]Scott Baily',
+      teacher_title: '[AI_TRANSLATION]Professor de Tecnologia Coachella, CA  ',
+      implementation: '[AI_TRANSLATION]Implementação  ',
+      grades_taught: '[AI_TRANSLATION]Graus Ensinados',
+      length_use: '[AI_TRANSLATION]Duração de Uso',
+      length_use_time: '[AI_TRANSLATION]3 anos',
+      students_enrolled: '[AI_TRANSLATION]Estudantes Matriculados este Ano',
+      students_enrolled_number: '[AI_TRANSLATION]130',
+      courses_covered: '[AI_TRANSLATION]Cursos Abrangidos',
+      course1: '[AI_TRANSLATION]Ciência da Computação 1',
+      course2: '[AI_TRANSLATION]Ciência da Computação 2',
+      course3: '[AI_TRANSLATION]Ciência da Computação 3',
+      course4: '[AI_TRANSLATION]Ciência da Computação 4',
+      course5: '[AI_TRANSLATION]GameDev 1',
+      fav_features: '[AI_TRANSLATION]Funcionalidades Favoritas',
+      responsive_support: '[AI_TRANSLATION]Suporte Responsivo',
+      immediate_engagement: '[AI_TRANSLATION]Envolvimento Imediato  ',
+      paragraph1: '[AI_TRANSLATION]A Bobby Duke Middle School está situada entre as montanhas do Vale de Coachella no sul da Califórnia a oeste e leste e o Mar de Salton a 33 milhas a sul, e ostenta uma população estudantil de 697 alunos dentro da população distrital de 18.861 alunos do Coachella Valley Unified.',
+      paragraph2: '[AI_TRANSLATION]Os alunos da Bobby Duke Middle School refletem os desafios socioeconómicos enfrentados pelos residentes e alunos do Vale de Coachella. Com mais de 95% da população estudantil da Bobby Duke Middle School a qualificar-se para refeições grátis e a preços reduzidos e mais de 40% classificados como aprendizes de inglês, a importância de ensinar competências do século XXI foi a principal prioridade do professor de tecnologia da Bobby Duke Middle School, Scott Baily.',
+      paragraph3: '[AI_TRANSLATION]O Baily sabia que ensinar programação aos seus estudantes era um caminho chave para oportunidades num mercado de trabalho que cada vez mais prioriza e necessita de habilidades de computação. Assim, ele decidiu enfrentar o desafio emocionante de criar e ensinar a única aula de programação na escola, encontrando uma solução que fosse acessível, responsiva ao feedback e envolvente para estudantes de todas as habilidades de aprendizagem e origens.',
+      teacher_quote: '[AI_TRANSLATION]Quando tive acesso ao CodeCombat [e] comecei a usá-lo com os meus alunos, fez-se luz. Era uma diferença abissal em comparação com todos os outros programas que já tínhamos usado. Nem sequer têm comparação.',
+      quote_attribution: '[AI_TRANSLATION]Scott Baily, Professor de Tecnologia',
+      read_full_story: '[AI_TRANSLATION]Ler História Completa',
+      more_stories: '[AI_TRANSLATION]Mais Histórias de Parceiros',
+      partners_heading_1: '[AI_TRANSLATION]Fogo de supressão!',
+      partners_school_1: '[AI_TRANSLATION]Preston High School',
+      partners_heading_2: '[AI_TRANSLATION]A Arrasar no Exame AP',
+      partners_school_2: '[AI_TRANSLATION]Escola Secundária River Ridge',
+      partners_heading_3: '[AI_TRANSLATION]Ensinar Ciência da Computação Sem Experiência Prévia',
+      partners_school_3: '[AI_TRANSLATION]Escola Secundária Riverdale',
+      download_study: '[AI_TRANSLATION]Download Estudo de Pesquisa',
+      teacher_spotlight: '[AI_TRANSLATION]Destaques de Professores e Alunos',
+      teacher_name_1: '[AI_TRANSLATION]Amanda Henry',
+      teacher_title_1: '[AI_TRANSLATION]Instrutor de Reabilitação',
+      teacher_location_1: '[AI_TRANSLATION]Morehead, Kentucky',
+      spotlight_1: '[AI_TRANSLATION]Com a sua compaixão e vontade de ajudar quem precisa de uma segunda oportunidade, Amanda Henry ajudou a mudar a vida de estudantes que precisavam de modelos positivos. Sem experiência prévia em ciências da computação, Henry levou os seus alunos ao sucesso na programação numa competição regional.',
+      teacher_name_2: '[AI_TRANSLATION]Kaila, Estudante',
+      teacher_title_2: '[AI_TRANSLATION]Maysville Community & Technical College.',
+      teacher_location_2: '[AI_TRANSLATION]Lexington, Kentucky',
+      spotlight_2: '[AI_TRANSLATION]Kaila era uma aluna que nunca pensou que estaria a escrever linhas de código, muito menos inscrita na universidade com um caminho para um futuro brilhante.  ',
+      teacher_name_3: '[AI_TRANSLATION]Susan Jones-Szabo',
+      teacher_title_3: '[AI_TRANSLATION]Bibliotecário do Professor',
+      teacher_school_3: '[AI_TRANSLATION]Escola Primária Ruby Bridges',
+      teacher_location_3: '[AI_TRANSLATION]Alameda, CA',
+      spotlight_3: '[AI_TRANSLATION]Susan Jones-Szabo promove um ambiente equitativo na sua turma onde todos podem encontrar sucesso à sua maneira. Erros e dificuldades são bem-vindos porque todos aprendem com um desafio, até mesmo o professor.',
+      continue_reading_blog: '[AI_TRANSLATION]Continuar a Ler no Blog...',
+      ozaria_impact_title: '[AI_TRANSLATION]Pote 2',
+      ozaria_impact_blurb: '[AI_TRANSLATION]O currículo complementar do CodeCombat, Ozaria, provou ter um impacto positivo nos resultados de aprendizagem dos alunos que mais importam tanto para alunos quanto para educadores.',
+      ozaria_impact_learn_more: '[AI_TRANSLATION]Aprende mais sobre a eficácia do currículo de Ozaria aqui.',
+    },
 
     loading_error: {
       could_not_load: 'Erro a carregar do servidor. Experimenta atualizar a página.',
@@ -3328,9 +3544,9 @@ module.exports = {
       unauthorized: 'Precisas de ter sessão iniciada. Tens os cookies desativados?',
       forbidden: 'Proibido',
       forbidden_desc: 'Oh não, não há nada aqui que te possamos mostrar! Certifica-te de que tens sessão iniciada na conta correta ou visita uma das ligações abaixo para voltares para a programação!',
-      //    user_not_found: "User Not Found"
+      user_not_found: '[AI_TRANSLATION]Usuário não encontrado',
       not_found: 'Não Encontrado',
-      //    resource_not_found: "404 __resource__ Not Found"
+      resource_not_found: '[AI_TRANSLATION]404 __resource__ Not Found',
       not_found_desc: 'Hm, não há nada aqui. Visita uma das ligações seguintes para voltares para a programação!',
       not_allowed: 'Método não permitido.',
       timeout: 'O Servidor Expirou',
@@ -3339,10 +3555,10 @@ module.exports = {
       server_error: 'Erro do servidor.',
       unknown: 'Erro Desconhecido',
       error: 'ERRO',
-      general_desc: 'Algo correu mal, e, provavelmente, a culpa é nossa. Tenta esperar um pouco e depois recarregar a página, ou visita uma das ligações seguintes para voltares para a programação!'
+      general_desc: 'Algo correu mal, e, provavelmente, a culpa é nossa. Tenta esperar um pouco e depois recarregar a página, ou visita uma das ligações seguintes para voltares para a programação!',
+      too_many_login_failures: '[AI_TRANSLATION]Houve demasiadas tentativas de login sem sucesso. Por favor, tenta novamente mais tarde.',
+      something_went_wrong: '[AI_TRANSLATION]Oops! Algo deu errado',
     },
-    //    too_many_login_failures: "There have been too many unsuccessful login attempts.  Please try again later."
-    //    something_went_wrong: "Oops! Something went wrong"
 
     resources: {
       level: 'Nível',
@@ -3353,164 +3569,165 @@ module.exports = {
       component: 'Componente',
       components: 'Componentes',
       hero: 'Herói',
-      campaigns: 'Campanhas'
+      campaigns: 'Campanhas',
     },
 
     concepts: {
-    //    advanced_css_rules: "Advanced CSS Rules"
-    //    advanced_css_selectors: "Advanced CSS Selectors"
-    //    advanced_html_attributes: "Advanced HTML Attributes"
-    //    advanced_html_tags: "Advanced HTML Tags"
-    //    algorithm_average: "Algorithm Average"
-    //    algorithm_find_minmax: "Algorithm Find Min/Max"
-    //    algorithm_search_binary: "Algorithm Search Binary"
-    //    algorithm_search_graph: "Algorithm Search Graph"
-    //    algorithm_sort: "Algorithm Sort"
-    //    algorithm_sum: "Algorithm Sum"
+      advanced_css: 'CSS Avançado',
+      //    advanced_css_rules: "Advanced CSS Rules",
+      //    advanced_css_selectors: "Advanced CSS Selectors",
+      advanced_html: 'HTML Avançado',
+      //    advanced_html_attributes: "Advanced HTML Attributes",
+      //    advanced_html_tags: "Advanced HTML Tags",
+      advanced_strings: "'Strings' Avançadas",
+      advanced_web_scripting: '[AI_TRANSLATION]Scripting Web Avançado',
+      algorithms: 'Algoritmos',
+      //    algorithm_average: "Algorithm Average",
+      //    algorithm_find_minmax: "Algorithm Find Min/Max",
+      //    algorithm_search_binary: "Algorithm Search Binary",
+      //    algorithm_search_graph: "Algorithm Search Graph",
+      //    algorithm_sort: "Algorithm Sort",
+      //    algorithm_sum: "Algorithm Sum",
+      //    alter_existing_web_pages: "Alter existing web pages",
       arguments: 'Argumentos',
       arithmetic: 'Aritmética',
-      //    array_2d: "2D Array"
-      //    array_index: "Array Indexing"
-      //    array_iterating: "Iterating Over Arrays"
-      //    array_literals: "Array Literals"
-      //    array_searching: "Array Searching"
-      //    array_sorting: "Array Sorting"
+      //    array_2d: "2D Array",
+      //    array_index: "Array Indexing",
+      //    array_iterating: "Iterating Over Arrays",
+      //    array_literals: "Array Literals",
+      //    array_searching: "Array Searching",
+      //    array_sorting: "Array Sorting",
       arrays: "'Arrays'",
-      //    basic_css_rules: "Basic CSS rules"
-      //    basic_css_selectors: "Basic CSS selectors"
-      //    basic_html_attributes: "Basic HTML Attributes"
-      //    basic_html_tags: "Basic HTML Tags"
+      basic_css: 'CSS Básico',
+      //    basic_css_rules: "Basic CSS rules",
+      //    basic_css_selectors: "Basic CSS selectors",
+      //    basic_event_handling: "Basic Event Handling",
+      //    basic_game_ai: "Basic Game AI",
+      basic_html: 'HTML Básico',
+      //    basic_html_attributes: "Basic HTML Attributes",
+      //    basic_html_tags: "Basic HTML Tags",
+      //    basic_input_handling: "Basic Input Handling",
+      basic_javascript: 'JavaScript Básico',
       basic_syntax: 'Sintaxe Básica',
+      basic_web_scripting: '[AI_TRANSLATION]Scripting Web Básico',
       binary: 'Binário',
-      //    boolean_and: "Boolean And"
-      //    boolean_inequality: "Boolean Inequality"
-      //    boolean_equality: "Boolean Equality"
-      //    boolean_greater_less: "Boolean Greater/Less"
-      //    boolean_logic_shortcircuit: "Boolean Logic Shortcircuiting"
-      //    boolean_not: "Boolean Not"
-      //    boolean_operator_precedence: "Boolean Operator Precedence"
-      //    boolean_or: "Boolean Or"
-      //    boolean_with_xycoordinates: "Coordinate Comparison"
-      //    bootstrap: "Bootstrap"
+      //    boolean_and: "Boolean And",
+      //    boolean_equality: "Boolean Equality",
+      //    boolean_greater_less: "Boolean Greater/Less",
+      //    boolean_inequality: "Boolean Inequality",
+      boolean_logic: 'Lógica Booleana',
+      //    boolean_logic_shortcircuit: "Boolean Logic Shortcircuiting",
+      //    boolean_not: "Boolean Not",
+      //    boolean_operator_precedence: "Boolean Operator Precedence",
+      //    boolean_or: "Boolean Or",
+      //    boolean_with_xycoordinates: "Coordinate Comparison",
+      bootstrap: '[AI_TRANSLATION]Bootstrap',
       break_statements: "Declarações 'Break'",
       classes: 'Classes',
-      //    conditionals: "Conditionals"
+      comparators: '[AI_TRANSLATION]Comparadores',
+      compound_conditionals: '[AI_TRANSLATION]Condicionais Compostas',
+      conditionals: '[AI_TRANSLATION]Condicionais  ',
+      construct_mazes: 'Construir labirintos',
       continue_statements: "Declarações 'Continue'",
-      //    debugging: "Debugging"
-      //    dom_events: "DOM Events"
-      //    dynamic_styling: "Dynamic Styling"
+      //    create_playable_game: "Create a playable, sharable game project",
+      //    create_sharable_interactive_web_page: "Create a sharable interactive web page",
+      //    create_sharable_web_page: "Create a sharable web page",
+      data_and_analysis: '[AI_TRANSLATION]Dados & Análise',
+      data_types: '[AI_TRANSLATION]Tipos de Dados  ',
+      debugging: '[AI_TRANSLATION]Depuração',
+      //    dom_events: "DOM Events",
+      //    dynamic_styling: "Dynamic Styling",
       events: 'Eventos',
-      //    event_concurrency: "Event Concurrency"
-      //    event_data: "Event Data"
-      //    event_handlers: "Event Handlers"
-      //    event_spawn: "Spawn Event"
+      //    event_concurrency: "Event Concurrency",
+      //    event_data: "Event Data",
+      //    event_handlers: "Event Handlers",
+      //    event_spawn: "Spawn Event",
       for_loops: "'For Loops'",
-      //    for_loops_nested: "Nested For Loops"
-      //    for_loops_range: "For Loops Range"
+      //    for_loops_nested: "Nested For Loops",
+      for_loops_range: '[AI_TRANSLATION]Alcance de Ciclos `for`',
       functions: 'Funções',
       functions_parameters: 'Parâmetros',
       functions_multiple_parameters: 'Multiplos Parâmetros',
-      //    game_ai: "Game AI"
-      //    game_design: "Game Design"
-      //    game_goals: "Game Goals"
-      //    game_spawn: "Game Spawn"
+      //    game_ai: "Game AI",
+      game_design: '[AI_TRANSLATION]Design de Jogos',
+      //    game_goals: "Game Goals",
+      game_spawn: '[AI_TRANSLATION]Spawn do Jogo',
       graphics: 'Gráficos',
-      //    graphs: "Graphs"
-      //    heaps: "Heaps"
-      //    if_condition: "Conditional If Statements"
-      //    if_else_if: "If/Else If Statements"
-      //    if_else_statements: "If/Else Statements"
+      //    graphs: "Graphs",
+      //    heaps: "Heaps",
+      //    if_condition: "Conditional If Statements",
+      //    if_else_if: "If/Else If Statements",
+      //    if_else_statements: "If/Else Statements",
       if_statements: "Declarações 'If'",
-      //    if_statements_nested: "Nested If Statements"
-      //    indexing: "Array Indexes"
-      //    input_handling_flags: "Input Handling - Flags"
-      //    input_handling_keyboard: "Input Handling - Keyboard"
-      //    input_handling_mouse: "Input Handling - Mouse"
-      //    intermediate_css_rules: "Intermediate CSS Rules"
-      //    intermediate_css_selectors: "Intermediate CSS Selectors"
-      //    intermediate_html_attributes: "Intermediate HTML Attributes"
-      //    intermediate_html_tags: "Intermediate HTML Tags"
+      if_statements_nested: '[AI_TRANSLATION]Instruções If Aninhadas',
+      //    indexing: "Array Indexes",
+      input_handling: "Manuseamento de 'Input'",
+      //    input_handling_flags: "Input Handling - Flags",
+      //    input_handling_keyboard: "Input Handling - Keyboard",
+      //    input_handling_mouse: "Input Handling - Mouse",
+      intermediate_css: 'CSS Intermédio',
+      //    intermediate_css_rules: "Intermediate CSS Rules",
+      //    intermediate_css_selectors: "Intermediate CSS Selectors",
+      intermediate_html: 'HTML Intermédio',
+      //    intermediate_html_attributes: "Intermediate HTML Attributes",
+      //    intermediate_html_tags: "Intermediate HTML Tags",
+      intermediate_web_scripting: '[AI_TRANSLATION]Scripting Web Intermédio',
+      iteration: '[AI_TRANSLATION]Iteração',
       jquery: 'jQuery',
-      //    jquery_animations: "jQuery Animations"
-      //    jquery_filtering: "jQuery Element Filtering"
-      //    jquery_selectors: "jQuery Selectors"
-      //    length: "Array Length"
-      //    math_coordinates: "Coordinate Math"
+      //    jquery_animations: "jQuery Animations",
+      //    jquery_filtering: "jQuery Element Filtering",
+      //    jquery_selectors: "jQuery Selectors",
+      //    length: "Array Length",
+      //    loops: "Loops",
+      //    math_coordinates: "Coordinate Math",
       math_geometry: 'Geometria',
       math_operations: 'Operações Matemáticas',
-      //    math_proportions: "Proportion Math"
+      //    math_proportions: "Proportion Math",
       math_trigonometry: 'Trigonometria',
+      methods: '[AI_TRANSLATION]Métodos',
+      nesting: '[AI_TRANSLATION]Aninhamento',
+      objects: '[AI_TRANSLATION]Objetos',
       object_literals: "'Object Literals'",
       parameters: 'Parâmetros',
-      //    problem_solving: "Problem Solving"
+      //    place_game_objects: "Place game objects",
+      problem_solving: '[AI_TRANSLATION]Resolução de Problemas',
       programs: 'Programas',
       properties: 'Propriedades',
-      //    property_access: "Accessing Properties"
-      //    property_assignment: "Assigning Properties"
-      //    property_coordinate: "Coordinate Property"
-      //    queues: "Data Structures - Queues"
-      //    reading_docs: "Reading the Docs"
+      //    property_access: "Accessing Properties",
+      //    property_assignment: "Assigning Properties",
+      //    property_coordinate: "Coordinate Property",
+      //    queues: "Data Structures - Queues",
+      //    reading_docs: "Reading the Docs",
       recursion: 'Recursão',
-      //    return_statements: "Return Statements"
-      //    sequences_algorithms: "Sequences & Algorithms"
-      //    stacks: "Data Structures - Stacks"
+      //    return_statements: "Return Statements",
+      sequences_algorithms: '[AI_TRANSLATION]Sequências & Algoritmos',
+      //    stacks: "Data Structures - Stacks",
       strings: "'Strings'",
-      //    strings_concatenation: "String Concatenation"
-      //    strings_substrings: "Substring"
-      //    student_code: "Student Code"
-      //    syntax: "Syntax"
+      //    strings_concatenation: "String Concatenation",
+      //    strings_substrings: "Substring",
+      student_code: '[AI_TRANSLATION]Código do Estudante',
+      syntax: '[AI_TRANSLATION]Sintaxe',
       trees: 'Estruturas de Dados - Árvores',
       variables: 'Variáveis',
       vectors: 'Vetores',
-      //    while_condition_loops: "While Loops with Conditionals"
-      //    while_loops_simple: "While Loops"
-      //    while_loops_nested: "Nested While Loops"
-      xy_coordinates: 'Pares de Coordenadas',
-      advanced_strings: "'Strings' Avançadas", // Rest of concepts are deprecated
-      algorithms: 'Algoritmos',
-      boolean_logic: 'Lógica Booleana',
-      basic_html: 'HTML Básico',
-      basic_css: 'CSS Básico',
-      //    basic_web_scripting: "Basic Web Scripting"
-      intermediate_html: 'HTML Intermédio',
-      intermediate_css: 'CSS Intermédio',
-      //    intermediate_web_scripting: "Intermediate Web Scripting"
-      advanced_html: 'HTML Avançado',
-      advanced_css: 'CSS Avançado',
-      //    advanced_web_scripting: "Advanced Web Scripting"
-      input_handling: "Manuseamento de 'Input'",
+      //    while_condition_loops: "While Loops with Conditionals",
       while_loops: "'Loops While'",
-      //    place_game_objects: "Place game objects"
-      construct_mazes: 'Construir labirintos',
-      //    create_playable_game: "Create a playable, sharable game project"
-      //    alter_existing_web_pages: "Alter existing web pages"
-      //    create_sharable_web_page: "Create a sharable web page"
-      //    basic_input_handling: "Basic Input Handling"
-      //    basic_game_ai: "Basic Game AI"
-      basic_javascript: 'JavaScript Básico'
+      while_loops_simple: '[AI_TRANSLATION]Ciclos While  ',
+      //    while_loops_nested: "Nested While Loops",
+      xy_coordinates: 'Pares de Coordenadas',
     },
-    //    basic_event_handling: "Basic Event Handling"
-    //    create_sharable_interactive_web_page: "Create a sharable interactive web page"
-    //    iteration: "Iteration"
-    //    nesting: "Nesting"
-    //    data_types: "Data Types"
-    //    objects: "Objects"
-    //    methods: "Methods"
-    //    compound_conditionals: "Compound Conditionals"
-    //    comparators: "Comparators"
-    //    data_and_analysis: "Data & Analysis"
 
     anonymous_teacher: {
-    //    notify_teacher: "Notify Teacher"
-    //    create_teacher_account: "Create free teacher account"
+      notify_teacher: '[AI_TRANSLATION]Avisar o professor  ',
+      create_teacher_account: '[AI_TRANSLATION]Cria uma conta de professor gratuita',
       enter_student_name: 'O teu nome:',
       enter_teacher_email: 'O e-mail do teu professor:',
       teacher_email_placeholder: 'teacher.email@example.com',
       student_name_placeholder: 'escreve o teu nome aqui',
       teachers_section: 'Professores:',
-      students_section: 'Estudantes:'
+      students_section: 'Estudantes:',
+      teacher_notified: '[AI_TRANSLATION]Notificámos o teu professor que queres jogar mais CodeCombat na sala de aula!',
     },
-    //    teacher_notified: "We've notified your teacher that you want to play more CodeCombat in your classroom!"
 
     delta: {
       added: 'Adicionado',
@@ -3520,7 +3737,7 @@ module.exports = {
       moved_index: 'Índice Movido',
       text_diff: 'Diferença de Texto',
       merge_conflict_with: 'FUNDIR CONFLITO COM',
-      no_changes: 'Sem Alterações'
+      no_changes: 'Sem Alterações',
     },
 
     legal: {
@@ -3542,14 +3759,14 @@ module.exports = {
       email_settings_url: 'tuas definições de e-mail',
       email_description_suffix: 'ou através de ligações presentes nos e-mails que enviamos, podes mudar as tuas preferências e parar a tua subscrição facilmente, em qualquer momento.',
       cost_title: 'Custo',
-      cost_description: 'O CodeCombat é gratuito para os níveis fundamentais, com uma subscrição de ${{price}} USD/mês para acederes a ramos de níveis extra e {{gems}} gemas de bónus por mês. Podes cancelar com um clique, e oferecemos uma garantia de 100% de devolução do dinheiro.', // {change}
+      cost_description: '[AI_TRANSLATION]O CodeCombat é grátis para jogar nos seus níveis introdutórios, com uma assinatura de $__price__ USD/mês para acesso a níveis extras e __gems__ gemas de bónus por mês. Podes cancelar com um clique, e oferecemos uma garantia de reembolso de 100%.  ',
       copyrights_title: 'Direitos Autorais e Licensas',
       contributor_title: 'Contrato de Licença do Contribuinte (CLA)',
       contributor_description_prefix: 'Todas as contribuições, tanto no sítio como no nosso repositório GitHub, estão sujeitas ao nosso',
       cla_url: 'CLA',
       contributor_description_suffix: 'com o qual deves concordar antes de contribuir.',
-      //    code_title: "Client-Side Code - MIT"
-      //    client_code_description_prefix: "All client-side code for codecombat.com in the public GitHub repository and in the codecombat.com database, is licensed under the"
+      code_title: '[AI_TRANSLATION]Código do Lado do Cliente - MIT.',
+      client_code_description_prefix: '[AI_TRANSLATION]Todo o código do lado do cliente para codecombat.com no repositório público do GitHub e na base de dados do codecombat.com é licenciado sob a',
       mit_license_url: 'Licença do MIT',
       code_description_suffix: 'Isto inclui todo o código dentro dos Sistemas e dos Componentes, o qual é disponibilizado pelo CodeCombat para a criação de níveis.',
       art_title: 'Arte/Música - Creative Commons ',
@@ -3561,31 +3778,31 @@ module.exports = {
       art_artwork: 'Arte',
       art_sprites: 'Sprites',
       art_other: 'Quaisquer e todos os trabalhos criativos não-código que são disponibilizados aquando da criação de Níveis.',
-      //    art_access: "Currently there is no universal, easy system for fetching these assets. In general, fetch them from the URLs as used by the site, contact us for assistance, or help us in extending the site to make these assets more easily accessible."
-      //    art_paragraph_1: "For attribution, please name and link to codecombat.com near where the source is used or where appropriate for the medium. For example:"
+      art_access: '[AI_TRANSLATION]Atualmente não existe um sistema universal e fácil para buscar estes ativos. Em geral, busque-os através dos URLs usados pelo site, contacte-nos para assistência, ou ajude-nos a expandir o site para tornar estes ativos mais facilmente acessíveis.',
+      art_paragraph_1: '[AI_TRANSLATION]Para atribuição, por favor nomeia e linka para codecombat.com perto de onde a fonte é usada ou onde for apropriado para o meio. Por exemplo:',
       use_list_1: "Se usado num filme ou noutro jogo, inclui 'codecombat.com' nos créditos.",
-      //    use_list_2: "If used on a website, include a link near the usage, for example underneath an image, or in a general attributions page where you might also mention other Creative Commons works and open source software being used on the site. Something that's already clearly referencing CodeCombat, such as a blog post mentioning CodeCombat, does not need some separate attribution."
-      //    art_paragraph_2: "If the content being used is created not by CodeCombat but instead by a user of codecombat.com, attribute them instead, and follow attribution directions provided in that resource's description if there are any."
+      use_list_2: '[AI_TRANSLATION]Se usado num site, inclua um link perto do uso, por exemplo, embaixo de uma imagem, ou numa página de atribuições onde poderia também mencionar outras obras Creative Commons e software de código aberto utilizados no site. Algo que já esteja claramente a referenciar o CodeCombat, como um post no blog a mencionar o CodeCombat, não precisa de uma atribuição separada.',
+      art_paragraph_2: '[AI_TRANSLATION]Se o conteúdo a ser usado não for criado pelo CodeCombat, mas sim por um utilizador do codecombat.com, atribui-lhes o crédito e segue as instruções de atribuição fornecidas na descrição desse recurso, se houver.',
       rights_title: 'Direitos Reservados',
       rights_desc: 'Todos os direitos estão reservados aos próprios Níveis. Isto inclui',
       rights_scripts: 'Scripts',
       rights_unit: 'Configurações das unidades',
       rights_writings: 'Textos',
       rights_media: 'Mídia (sons, música) e quaisquer outros conteúdos criativos feitos especificamente para esse Nível e que não foram disponibilizados para a criação de Níveis.',
-      //    rights_clarification: "To clarify, anything that is made available in the Level Editor for the purpose of making levels is under CC, whereas the content created with the Level Editor or uploaded in the course of creation of Levels is not."
+      rights_clarification: '[AI_TRANSLATION]Para esclarecer, tudo o que está disponível no Editor de Níveis para criar níveis está sob CC, mas o conteúdo criado com o Editor de Níveis ou carregado durante a criação dos Níveis não está.\n',
       nutshell_title: 'Resumidamente',
       nutshell_description: 'Qualquer um dos recursos que fornecemos no Editor de Níveis são de uso livre para criares Níveis. Mas reservamos o direito de distribuição restrita dos próprios Níveis (que são criados em codecombat.com) pelo que podemos cobrar por eles no futuro, se for isso que acabar por acontecer.',
-      //    nutshell_see_also: "See also:"
+      nutshell_see_also: '[AI_TRANSLATION]Veja também:',
       canonical: 'A versão Inglesa deste documento é a versão definitiva e soberana. Se houver discrepâncias entre traduções, o documento Inglês prevalece.',
       third_party_title: 'Serviços de Terceiros',
       third_party_description: 'O CodeCombat usa os seguintes serviços de terceiros (entre outros):',
       cookies_message: 'O CodeCombat usa alguns cookies essenciais e não-essenciais.',
-      cookies_deny: 'Recusar cookies não-essenciais'
+      cookies_deny: 'Recusar cookies não-essenciais',
+      cookies_allow: '[AI_TRANSLATION]Permitir cookies',
     },
-    //    cookies_allow: "Allow cookies"
 
     ladder_prizes: {
-      title: 'Prémios do Torneio', // This section was for an old tournament and doesn't need new translations now.
+      title: 'Prémios do Torneio',
       blurb_1: 'Estes prémios serão entregues de acordo com',
       blurb_2: 'as regras do torneio',
       blurb_3: 'aos melhores jogadores humanos e ogres.',
@@ -3602,7 +3819,7 @@ module.exports = {
       one_month_coupon: 'cupão: escolhe Rails ou HTML',
       one_month_discount: 'desconto de 30%: escolhe Rails ou HTML',
       license: 'licença',
-      oreilly: 'ebook à tua escolha'
+      oreilly: 'ebook à tua escolha',
     },
 
     calendar: {
@@ -3620,1330 +3837,2667 @@ module.exports = {
       september: 'setembro',
       october: 'outubro',
       november: 'novembro',
-      december: 'dezembro'
+      december: 'dezembro',
     },
 
-    //  code_play_create_account_modal:
-    //    title: "You did it!" # This section is only needed in US, UK, Mexico, India, and Germany
-    //    body: "You are now on your way to becoming a master coder. Sign up to receive an extra <strong>100 Gems</strong> & you will also be entered for a chance to <strong>win $2,500 & other Lenovo Prizes</strong>."
-    //    sign_up: "Sign up & keep coding ▶"
-    //    victory_sign_up_poke: "Create a free account to save your code & be entered for a chance to win prizes!"
-    //    victory_sign_up: "Sign up & be entered to <strong>win $2,500</strong>"
+    code_play_create_account_modal: {
+      title: '[AI_TRANSLATION]Conseguiste!  ',
+      body: '[AI_TRANSLATION]Agora estás a caminho de te tornar um mestre da programação. Inscreve-te para receber extra <strong>100 Gemas</strong> e também estarás inscrito para uma chance de <strong>ganhar $2,500 e outros prémios Lenovo</strong>.',
+      sign_up: '[AI_TRANSLATION]Regista-te e continua a programar ▶',
+      victory_sign_up_poke: '[AI_TRANSLATION]Cria uma conta gratuita para guardar o teu código e ser inscrito para uma chance de ganhar prémios!',
+      victory_sign_up: '[AI_TRANSLATION]Regista-te e participa para <strong>ganhares $2,500</strong>',
+    },
 
     server_error: {
       email_taken: 'E-mail já escolhido',
-      username_taken: 'Nome de utilizador já escolhido'
+      username_taken: 'Nome de utilizador já escolhido',
+      easy_password: '[AI_TRANSLATION]A senha é muito fácil de adivinhar',
+      reused_password: '[AI_TRANSLATION]A senha não pode ser reutilizada',
     },
-    //    easy_password: "Password is too easy to guess"
-    //    reused_password: "Password cannot be reused"
 
     esper: {
       line_no: 'Linha $1: ',
-      //    uncaught: "Uncaught $1" # $1 will be an error type, eg "Uncaught SyntaxError"
-      //    reference_error: "ReferenceError: "
-      //    argument_error: "ArgumentError: "
-      //    type_error: "TypeError: "
-      //    syntax_error: "SyntaxError: "
+      uncaught: '[AI_TRANSLATION]Pendente não capturado $1',
+      reference_error: '[AI_TRANSLATION]ReferenceError:',
+      argument_error: '[AI_TRANSLATION]ArgumentError: ',
+      type_error: '[AI_TRANSLATION]TypeError: ',
+      syntax_error: '[AI_TRANSLATION]SyntaxError:',
       error: 'Erro: ',
       x_not_a_function: '$1 não é uma função',
       x_not_defined: '$1 não está definido',
-      //    spelling_issues: "Look out for spelling issues: did you mean `$1` instead of `$2`?"
-      //    capitalization_issues: "Look out for capitalization: `$1` should be `$2`."
-      //    py_empty_block: "Empty $1. Put 4 spaces in front of statements inside the $2 statement."
-      //    fx_missing_paren: "If you want to call `$1` as a function, you need `()`'s"
-      //    unmatched_token: "Unmatched `$1`.  Every opening `$2` needs a closing `$3` to match it."
-      //    unterminated_string: "Unterminated string. Add a matching `\"` at the end of your string."
-      //    missing_semicolon: "Missing semicolon."
-      //    missing_quotes: "Missing quotes. Try `$1`"
-      //    argument_type: "`$1`'s argument `$2` should have type `$3`, but got `$4`: `$5`."
-      //    argument_type2: "`$1`'s argument `$2` should have type `$3`, but got `$4`."
-      //    target_a_unit: "Target a unit."
-      //    attack_capitalization: "Attack `$1`, not `$2`. (Capital letters are important.)"
-      //    empty_while: "Empty while statement. Put 4 spaces in front of statements inside the while statement."
-      //    line_of_site: "`$1`'s argument `$2` has a problem. Is there an enemy within your line-of-sight yet?"
-      //    need_a_after_while: "Need a `$1` after `$2`."
-      //    too_much_indentation: "Too much indentation at the beginning of this line."
-      //    missing_hero: "Missing `$1` keyword; should be `$2`."
-      //    takes_no_arguments: "`$1` takes no arguments."
-      //    no_one_named: "There's no one named `\"$1\"` to target."
-      //    separated_by_comma: "Function calls paramaters must be seperated by `,`s"
-      //    protected_property: "Can't read protected property: $1"
-      //    need_parens_to_call: "If you want to call `$1` as function, you need `()`'s"
-      //    expected_an_identifier: "Expected an identifier and instead saw '$1'."
-      //    unexpected_identifier: "Unexpected identifier"
-      //    unexpected_end_of: "Unexpected end of input"
-      //    unnecessary_semicolon: "Unnecessary semicolon."
-      //    unexpected_token_expected: "Unexpected token: expected `$1` but found `$2` while parsing `$3`"
-      //    unexpected_token: "Unexpected token $1"
+      spelling_issues: '[AI_TRANSLATION]Atenção aos erros ortográficos: querias dizer `$1` em vez de `$2`?',
+      capitalization_issues: '[AI_TRANSLATION]Atenção às maiúsculas: `$1` deveria ser `$2`.',
+      py_empty_block: '[AI_TRANSLATION]Vazio $1. Coloca 4 espaços à frente das declarações dentro da declaração $2.',
+      fx_missing_paren: '[AI_TRANSLATION]Se quiseres chamar `$1` como uma função, precisas de `()`',
+      unmatched_token: '[AI_TRANSLATION]Incorrespondência `$1`. Cada abertura `$2` precisa de um fechamento `$3` correspondente.',
+      unterminated_string: '[AI_TRANSLATION]String não terminada. Adiciona um `"` correspondente no final da tua string.',
+      missing_semicolon: '[AI_TRANSLATION]Falta ponto e vírgula.',
+      missing_quotes: '[AI_TRANSLATION]Falta aspas. Tenta `$1`',
+      argument_type: '[AI_TRANSLATION]O argumento `$2` de `$1` deveria ser do tipo `$3`, mas recebeu `$4`: `$5`.',
+      argument_type2: '[AI_TRANSLATION]O argumento `$2` de `$1` deveria ser do tipo `$3`, mas recebeu `$4`.',
+      target_a_unit: '[AI_TRANSLATION]Alvo uma unidade.  ',
+      attack_capitalization: '[AI_TRANSLATION]Ataca `$1`, não `$2`. (As letras maiúsculas são importantes.)',
+      empty_while: '[AI_TRANSLATION]Declaração while vazia. Coloca 4 espaços à frente das declarações dentro da declaração while.',
+      line_of_site: '[AI_TRANSLATION]O argumento `$2` de `$1` tem um problema. Já existe um inimigo na tua linha de visão?',
+      need_a_after_while: '[AI_TRANSLATION]Precisas de um `$1` depois de `$2`.',
+      too_much_indentation: '[AI_TRANSLATION]Recuo a mais no início desta linha.',
+      missing_hero: '[AI_TRANSLATION]Falta a palavra-chave `$1`; devia ser `$2`.',
+      takes_no_arguments: '[AI_TRANSLATION]`$1` não aceita argumentos.',
+      no_one_named: '[AI_TRANSLATION]Não há ninguém chamado `"$1"` para ser alvo.',
+      separated_by_comma: '[AI_TRANSLATION]Os parâmetros das chamadas de funções devem ser separados por `,`',
+      protected_property: '[AI_TRANSLATION]Não dá para ler a propriedade protegida: $1',
+      need_parens_to_call: '[AI_TRANSLATION]Se quiseres chamar `$1` como uma função, precisas de `()`',
+      expected_an_identifier: "[AI_TRANSLATION]Esperava um identificador e em vez disso viu '$1'.",
+      unexpected_identifier: '[AI_TRANSLATION]Identificador inesperado',
+      unexpected_end_of: '[AI_TRANSLATION]Fim de input inesperado',
+      unnecessary_semicolon: '[AI_TRANSLATION]Ponto e vírgula desnecessário.',
+      unexpected_token_expected: '[AI_TRANSLATION]Token inesperado: esperava `$1` mas encontrou `$2` ao analisar `$3`',
+      unexpected_token: '[AI_TRANSLATION]Token inesperado $1',
       unexpected_token2: 'Símbolo inesperado',
       unexpected_number: 'Número inesperado',
-      //    unexpected: "Unexpected '$1'."
-      //    escape_pressed_code: "Escape pressed; code aborted."
-      //    target_an_enemy: "Target an enemy by name, like `$1`, not the string `$2`."
-      //    target_an_enemy_2: "Target an enemy by name, like `$1`."
-      //    cannot_read_property: "Cannot read property `$1` of `undefined`"
-      //    attempted_to_assign: "Attempted to assign to readonly property."
-      //    unexpected_early_end: "Unexpected early end of program."
-      //    you_need_a_string: "You need a string to build; one of `$1`"
-      //    unable_to_get_property: "Unable to get property '$1' of undefined or null reference" # TODO: Do we translate undefined/null?
-      //    code_never_finished_its: "Code never finished. It's either really slow or has an infinite loop."
-      //    unclosed_string: "Unclosed string."
-      //    unmatched: "Unmatched `$1`."
-      //    error_you_said_achoo: "You said: `$1`, but the password is: `$2`. (Capital letters are important.)"
-      //    indentation_error_unindent_does: "Indentation Error: unindent does not match any outer indentation level"
-      //    indentation_error: "Indentation error."
-      //    need_a_on_the: "Need a `:` on the end of the line following `$1`."
-      //    attempt_to_call_undefined: "attempt to call `$1` (a nil value)"
-      //    unterminated: "Unterminated `$1`"
-      //    target_an_enemy_variable: "Target an `$1` variable, not the string `$2`. (Try using `$3`.)"
-      //    error_use_the_variable: "Use the variable name like `$1` instead of a string like `$2`"
-      //    indentation_unindent_does_not: "Indentation unindent does not match any outer indentation level"
-      //    unclosed_paren_in_function_arguments: "Unclosed `$1` in function arguments."
-      //    unexpected_end_of_input: "Unexpected end of input"
-      //    there_is_no_enemy: "There is no `$1`. Use `$2` first." # Hints start here
+      unexpected: "[AI_TRANSLATION]'$1' inesperado.",
+      escape_pressed_code: '[AI_TRANSLATION]Escapa pressionado; código abortado.',
+      target_an_enemy: '[AI_TRANSLATION]Mirar um inimigo pelo nome, como `$1`, não a string `$2`.',
+      target_an_enemy_2: '[AI_TRANSLATION]Mirar um inimigo pelo nome, como `$1`.',
+      cannot_read_property: '[AI_TRANSLATION]Não é possível ler a propriedade `$1` de `undefined`',
+      attempted_to_assign: '[AI_TRANSLATION]Tentativa de atribuir a uma propriedade de leitura somente.',
+      unexpected_early_end: '[AI_TRANSLATION]Fim de programa inesperado.',
+      you_need_a_string: '[AI_TRANSLATION]Precisas de uma string para construir; uma de `$1`',
+      unable_to_get_property: "[AI_TRANSLATION]Incapaz de obter a propriedade '$1' de referência indefinida ou nula",
+      code_never_finished_its: '[AI_TRANSLATION]Código nunca terminado. Ou é realmente lento ou tem um loop infinito.',
+      unclosed_string: '[AI_TRANSLATION]String não fechada.',
+      unmatched: '[AI_TRANSLATION]Incorrespondência `$1`.',
+      error_you_said_achoo: '[AI_TRANSLATION]Disseste: `$1`, mas a senha é: `$2`. (As maiúsculas são importantes.)',
+      indentation_error_unindent_does: '[AI_TRANSLATION]Erro de Indentação: desindentação não corresponde a qualquer nível de indentação externo',
+      indentation_error: '[AI_TRANSLATION]Erro de indentação.',
+      need_a_on_the: '[AI_TRANSLATION]Precisas de um `:` no final da linha após `$1`.',
+      attempt_to_call_undefined: '[AI_TRANSLATION]tentativa de chamar `$1` (valor nulo)',
+      unterminated: '[AI_TRANSLATION]`$1` não terminado',
+      target_an_enemy_variable: '[AI_TRANSLATION]Apontar para uma variável `$1`, não a string `$2`. (Tenta usar `$3`.)',
+      error_use_the_variable: '[AI_TRANSLATION]Usa o nome da variável como `$1` em vez de uma string como `$2`',
+      indentation_unindent_does_not: '[AI_TRANSLATION]Desindentação não corresponde a qualquer nível de indentação externo',
+      unclosed_paren_in_function_arguments: '[AI_TRANSLATION]Pendente não fechado `$1` nos argumentos da função.',
+      unexpected_end_of_input: '[AI_TRANSLATION]Fim de input inesperado',
+      there_is_no_enemy: '[AI_TRANSLATION]Não há `$1`. Usa `$2` primeiro.',
       try_herofindnearestenemy: 'Experimenta `$1`',
       there_is_no_function: 'Não há nenhuma função `$1`, mas `$2` tem um método `$3`.',
-      //    attacks_argument_enemy_has: "`$1`'s argument `$2` has a problem."
-      //    is_there_an_enemy: "Is there an enemy within your line-of-sight yet?"
-      //    target_is_null_is: "Target is `$1`. Is there always a target to attack? (Use `$2`?)"
+      attacks_argument_enemy_has: '[AI_TRANSLATION]O argumento `$2` de `$1` tem um problema.',
+      is_there_an_enemy: '[AI_TRANSLATION]Há algum inimigo na tua linha de visão já?  ',
+      target_is_null_is: '[AI_TRANSLATION]O alvo é `$1`. Será que há sempre um alvo para atacar? (Usa `$2`?)',
       hero_has_no_method: '`$1` não tem nenhum método `$2`.',
-      there_is_a_problem: 'Há um problema com o teu código.'
-    }
-  }
+      there_is_a_problem: 'Há um problema com o teu código.',
+      did_you_mean: '[AI_TRANSLATION]Queres dizer `$1`? Não tens um item equipado com essa habilidade.',
+      missing_a_quotation_mark: '[AI_TRANSLATION]Falta uma marca de citação.',
+      missing_var_use_var: '[AI_TRANSLATION]Falta `$1`. Usa `$2` para fazer uma nova variável.',
+      you_do_not_have: '[AI_TRANSLATION]Não tens um item equipado com a habilidade `$1`.',
+      put_each_command_on: '[AI_TRANSLATION]Coloca cada comando numa linha separada',
+      are_you_missing_a: '[AI_TRANSLATION]Estás a faltar um `$1` depois de `$2`?',
+      your_parentheses_must_match: '[AI_TRANSLATION]Os teus parênteses devem coincidir.',
+      missing_parentheses: '[AI_TRANSLATION]Falta parênteses? Tenta `__suggestion__`',
+      do_nothing_without_parentheses: '[AI_TRANSLATION]`__code__` não faz nada sem `()`',
+      error_index_empty: '[AI_TRANSLATION]Não é possível ler a propriedade `__name__` de `__specTypeName__`',
+      error_call_non_function: '[AI_TRANSLATION]`__name__` não é uma função.',
+      error_not_iterable: '[AI_TRANSLATION]`__var__` não é iterável.',
+      error_assignment_invalid: '[AI_TRANSLATION]Referência inválida na atribuição.',
+      error_invalid_array_length: '[AI_TRANSLATION]Comprimento do array inválido.',
+      error_didnt_make_generator: '[AI_TRANSLATION]`__name__` não fez um gerador.',
+      error_undefined_variable: '[AI_TRANSLATION]`__name__` não está definido.',
+      error_declared_identifier: '[AI_TRANSLATION]Identificador `__name__` já foi declarado.',
+      error_declarations_cant_resolve: '[AI_TRANSLATION]Não foi possível resolver o componente de declarações: `__type__`.',
+      error_strict_no_statement: '[AI_TRANSLATION]O código em modo estrito não pode incluir uma declaração `with`.',
+      error_cant_resolve_ref_component: '[AI_TRANSLATION]Não foi possível resolver o componente de referência: `__type__`.',
+      error_cant_convert_null: '[AI_TRANSLATION]Não dá para converter `undefined` ou `null` em objeto.',
+      error_need_object: '[AI_TRANSLATION]Preciso de um objeto.',
+      error_illegal_object_prototype: '[AI_TRANSLATION]O protótipo do Objeto pode ser apenas um `Object` ou `null`.',
+      error_no_prototype: '[AI_TRANSLATION]Sem protótipo.',
+      error_cant_write_property_to_undefined: '[AI_TRANSLATION]Não dá para escrever a propriedade de `undefined`: `__idx__`.',
+      error_cant_write_property_to_non_obj: '[AI_TRANSLATION]Não dá para escrever a propriedade de tipo não-objeto: `__idx__`.',
+      error_function_isnt_constructor: '[AI_TRANSLATION]função não é um construtor',
+      error_write_protected_property: '[AI_TRANSLATION]Não dá para escrever na propriedade protegida: `__name__`',
+      error_read_protected_property: '[AI_TRANSLATION]Não dá para ler a propriedade protegida: `__name__`',
+      error_convert_value_failed: '[AI_TRANSLATION]Não dá para converter o valor de `__orig__` para `__new__`.',
+      error_convert_object_to_primitive: '[AI_TRANSLATION]Não dá para converter um objeto em valor primitivo.',
+      error_first_argument_to_be_function: '[AI_TRANSLATION]O primeiro argumento de `__fun__` deve ser uma função.',
+      error_write_non_writable: '[AI_TRANSLATION]Não dá para escrever num valor não gravável.',
+      error_delete_nonconfigurable_object: '[AI_TRANSLATION]Não dá para apagar um objeto não configurável.',
+      error_cant_access_get: '[AI_TRANSLATION]Não é possível aceder a `__name__` desse tipo.',
+      error_base_obj_not_invokable: '[AI_TRANSLATION]Objeto base não invocável.',
+      error_arg2_not_callable: '[AI_TRANSLATION]Arg2 não é invocável.',
+      error_reduce_empty_array_without_init: '[AI_TRANSLATION]Reduz um array vazio sem valor inicial.',
+      error_realm_prototype_not_realm: '[AI_TRANSLATION]Protótipo de realm, não realm.',
+      error_function_tostring_not_generic: '[AI_TRANSLATION]Function.prototype.toString não é genérico',
+      error_regex_on_non_regex: '[AI_TRANSLATION]Chamada de método regex em não-regex.',
+      error_call_string_on_null: '[AI_TRANSLATION]chamaste a função String em null ou undefined?',
+      error_wrong_type: '[AI_TRANSLATION]Tipo errado.',
+      error_replace_callback_not_written: '[AI_TRANSLATION]Substituir com callbacks ainda não escritos',
+      error_right_hand_side_not_callable: '[AI_TRANSLATION]Lado direito de `__name__` não é chamável  ',
+      error_segmentation_fault: '[AI_TRANSLATION]Falha de Segmentação `__offset__`.',
+      error_no_arg_to_reference: '[AI_TRANSLATION]Sem argumento para referenciar.',
+      error_unimplemented_property: '[AI_TRANSLATION]Tipo de propriedade não implementado.',
+      error_unimplemented: '[AI_TRANSLATION]Não implementado.',
+      error_cant_call_reference: '[AI_TRANSLATION]Não podes chamar a referência assim.',
+      error_no_arg_to_dereference: '[AI_TRANSLATION]Sem argumento para desreferenciar.',
+      error_try_dereference_non: '[AI_TRANSLATION]Tentou desreferenciar um não ponteiro.',
+      error_no_arg_to_alloc: '[AI_TRANSLATION]Sem argumento para alloc.',
+    },
+
+    apcsp: {
+      title: '[AI_TRANSLATION]Princípios de Ciência da Computação AP | Aprovada pelo College Board',
+      meta_description: '[AI_TRANSLATION]O abrangente currículo e programa de desenvolvimento profissional do CodeCombat são tudo o que precisas para oferecer o mais novo curso de ciências da computação da College Board aos teus alunos.  ',
+      syllabus: '[AI_TRANSLATION]Plano de Estudos de Princípios de AP CS',
+      syllabus_description: '[AI_TRANSLATION]Usa este recurso para planear o currículo do CodeCombat para a tua aula de Princípios de Ciência da Computação AP.',
+      computational_thinking_practices: '[AI_TRANSLATION]Práticas de Pensamento Computacional',
+      learning_objectives: '[AI_TRANSLATION]Objetivos de Aprendizagem',
+      curricular_requirements: '[AI_TRANSLATION]Requisitos Curriculares',
+      unit_1: '[AI_TRANSLATION]Unidade 1: Tecnologia Criativa',
+      unit_1_activity_1: '[AI_TRANSLATION]Unidade 1 Atividade: Revisão de Usabilidade de Tecnologia',
+      unit_2: '[AI_TRANSLATION]Unidade 2: Pensamento Computacional',
+      unit_2_activity_1: '[AI_TRANSLATION]Unidade 2 Atividade: Sequências Binárias',
+      unit_2_activity_2: '[AI_TRANSLATION]Unidade 2 Atividade: Projeto da Lição de Computação',
+      unit_3: '[AI_TRANSLATION]Unidade 3: Algoritmos',
+      unit_3_activity_1: '[AI_TRANSLATION]Unidade 3 Atividade: Algoritmos - Guia do Mochileiro',
+      unit_3_activity_2: '[AI_TRANSLATION]Unidade 3 Atividade: Simulação - Predador & Presa',
+      unit_3_activity_3: '[AI_TRANSLATION]Unidade 3 Atividade: Algoritmos - Design e Programação em Dupla',
+      unit_4: '[AI_TRANSLATION]Unidade 4: Programação',
+      unit_4_activity_1: '[AI_TRANSLATION]Unidade 4 Atividade: Abstrações',
+      unit_4_activity_2: '[AI_TRANSLATION]Unidade 4 Atividade: Pesquisa e Ordenação',
+      unit_4_activity_3: '[AI_TRANSLATION]Unidade 4 Atividade: Refatoração  ',
+      unit_5: '[AI_TRANSLATION]Unidade 5: A Internet',
+      unit_5_activity_1: '[AI_TRANSLATION]Unidade 5 Atividade: Como Funciona a Internet',
+      unit_5_activity_2: '[AI_TRANSLATION]Unidade 5 Atividade: Simulador de Internet',
+      unit_5_activity_3: '[AI_TRANSLATION]Unidade 5 Atividade: Simulação de Sala de Chat',
+      unit_5_activity_4: '[AI_TRANSLATION]Unidade 5 Atividade: Cibersegurança',
+      unit_6: '[AI_TRANSLATION]Unidade 6: Dados',
+      unit_6_activity_1: '[AI_TRANSLATION]Unidade 6 Atividade: Introdução aos Dados',
+      unit_6_activity_2: '[AI_TRANSLATION]Unidade 6 Atividade: Big Data',
+      unit_6_activity_3: '[AI_TRANSLATION]Unidade 6 Atividade: Compressão com Perda & Sem Perda',
+      unit_7: '[AI_TRANSLATION]Unidade 7: Impacto Pessoal & Global',
+      unit_7_activity_1: '[AI_TRANSLATION]Unidade 7 Atividade: Impacto Pessoal & Global',
+      unit_7_activity_2: '[AI_TRANSLATION]Unidade 7 Atividade: Crowdsourcing',
+      unit_8: '[AI_TRANSLATION]Unidade 8: Tarefas de Desempenho',
+      unit_8_description: '[AI_TRANSLATION]Prepara os alunos para a Tarefa de Criação construindo seus próprios jogos e praticando conceitos-chave.',
+      unit_8_activity_1: '[AI_TRANSLATION]Criar Tarefa Prática 1: Desenvolvimento de Jogos 1',
+      unit_8_activity_2: '[AI_TRANSLATION]Criar Tarefa Prática 2: Desenvolvimento de Jogos 2',
+      unit_8_activity_3: '[AI_TRANSLATION]Criar Tarefa Prática 3: Desenvolvimento de Jogos 3',
+      unit_9: '[AI_TRANSLATION]Unidade 9: Revisão AP',
+      unit_10: '[AI_TRANSLATION]Unidade 10: Pós-AP',
+      unit_10_activity_1: '[AI_TRANSLATION]Unidade 10 Atividade: Questionário Web',
+    },
+
+    apcsp_marketing: {
+      course_outline_unit_1: '[AI_TRANSLATION]Unidade 1',
+      course_outline_unit_2: '[AI_TRANSLATION]Unidade 2',
+      course_outline_unit_3: '[AI_TRANSLATION]Unidade 3',
+      course_outline_unit_4: '[AI_TRANSLATION]Unidade 4',
+      course_outline_unit_5: '[AI_TRANSLATION]Unidade 5',
+      course_outline_unit_6: '[AI_TRANSLATION]Unidade 6',
+      course_outline_unit_7: '[AI_TRANSLATION]Unidade 7',
+      course_outline_unit_8: '[AI_TRANSLATION]Unidade 8',
+      course_outline_unit_9: '[AI_TRANSLATION]Unidade 9',
+      course_outline_course_1: '[AI_TRANSLATION]Ciência da Computação 1',
+      course_outline_course_2: '[AI_TRANSLATION]Ciências da Computação 2\n',
+      course_outline_course_3: '[AI_TRANSLATION]Ciência da Computação 3',
+      course_outline_course_4: '[AI_TRANSLATION]Ciência da Computação 4',
+      course_outline_course_5: '[AI_TRANSLATION]Desenvolvimento Criativo',
+      course_outline_course_6: '[AI_TRANSLATION]Dados',
+      course_outline_course_7: '[AI_TRANSLATION]Sistemas e Redes de Computadores',
+      course_outline_course_8: '[AI_TRANSLATION]Impacto da Computação  ',
+      course_outline_course_9: '[AI_TRANSLATION]Preparação para Prova',
+      course_outline_description_1: '[AI_TRANSLATION]Os alunos começam o curso focando na criatividade, resolução de problemas e a sintaxe básica de Python.',
+      course_outline_description_2: '[AI_TRANSLATION]Os alunos focam em desenhar e implementar algoritmos usando os blocos de construção de Python.',
+      course_outline_description_3: '[AI_TRANSLATION]Os alunos exploram o conceito de abstração desenvolvendo as suas próprias abstrações dentro de códigos de programas.',
+      course_outline_description_4: '[AI_TRANSLATION]Os estudantes aplicam o seu entendimento de resolução de problemas, algoritmos, e abstrações para desenhar e implementar jogos digitais.  ',
+      course_outline_description_5: '[AI_TRANSLATION]Os alunos usam tudo o que aprenderam sobre Python para completar e enviar a sua Create Performance Task.',
+      course_outline_description_6: '[AI_TRANSLATION]Os alunos aprendem como os computadores consomem, transformam, armazenam e produzem novas informações para resolver problemas.',
+      course_outline_description_7: '[AI_TRANSLATION]Os alunos experimentam o poder de partilhar informações através das redes de computadores ao aprender sobre a Internet.',
+      course_outline_description_8: '[AI_TRANSLATION]Os alunos examinam como a computação revolucionou as nossas vidas e sociedade.',
+      course_outline_description_9: '[AI_TRANSLATION]Os alunos preparam-se para fazer a seção de escolha múltipla do exame AP CSP.',
+      icons_coding_levels: '[AI_TRANSLATION]150+ Níveis de Codificação no CodeCombat',
+      icons_lesson_slides: '[AI_TRANSLATION]60+ Slides de Lições Prontas',
+      icons_kahoot: '[AI_TRANSLATION]400+ Perguntas de Quiz no Kahoot!',
+      icons_classroom_instructions: '[AI_TRANSLATION]100+ Horas de Ensino em Sala de Aula',
+      icons_weeks_of_curriculum: '[AI_TRANSLATION]26 Semanas de Currículo',
+      icons_project_activities: '[AI_TRANSLATION]25+ Atividades Baseadas em Projetos',
+      icons_game_learning: '[AI_TRANSLATION]Aprendizagem Baseada em Jogos',
+      icons_text_coding: '[AI_TRANSLATION]Codificação Baseada em Texto',
+      icons_chromebook_compatible: '[AI_TRANSLATION]Compatível com Chromebook',
+      icons_standards_aligned: '[AI_TRANSLATION]Aulas Alinhadas a Padrões',
+      page_title: '[AI_TRANSLATION]Princípios de Ciência da Computação AP',
+      page_description: '[AI_TRANSLATION]O nosso currículo de AP CSP proporciona ferramentas baseadas em jogos e prontas a usar para preparar os alunos para o exame AP.',
+      page_description_endorsed: '[AI_TRANSLATION]Endossado pelo College Board, o nosso currículo AP CSP fornece ferramentas baseadas em jogos e chave na mão para preparar os alunos para o exame AP.',
+      request_access: '[AI_TRANSLATION]Solicitar Acesso',
+      game_based_learning: '[AI_TRANSLATION]Aprendizagem Baseada em Jogos',
+      game_based_learning_description: '[AI_TRANSLATION]A nossa tecnologia inovadora de aprendizagem baseada em jogos transformou a forma como os alunos se preparam para o exame AP CSP. Através dos nossos jogos no navegador, os alunos aprendem sobre tópicos importantes do exame enquanto exercitam as habilidades de pensamento crítico necessárias para o sucesso no exame.  ',
+      fostering_confidence: '[AI_TRANSLATION]Inspirar Confiança no Exame AP',
+      fostering_confidence_description: '[AI_TRANSLATION]Com o nosso currículo, os alunos vão praticar cada etapa da Tarefa de Criação através de projetos diferenciados e acessíveis que podem ser adaptados a uma grande variedade de necessidades de estudantes. Também fornecemos currículo e questionários no Kahoot! para os alunos praticarem perguntas de exames de múltipla escolha.',
+      accessible_real_world: '[AI_TRANSLATION]Acessível & Conexões com o Mundo Real',
+      accessible_real_world_description: '[AI_TRANSLATION]Para Dados, Impactos da Computação e outras Grandes Ideias, os nossos slides de aula prontos para uso ajudam os alunos a explorar esses tópicos através de discussões significativas e projetos colaborativos. Repleto de conexões com o mundo real, o nosso currículo permitirá que os alunos compreendam totalmente como a codificação afeta as suas vidas diárias.',
+      college_board: '[AI_TRANSLATION]O College Board está atualmente a rever o nosso currículo com uma endosse esperada em março de 2023.',
+      our_curriculum_offers: '[AI_TRANSLATION]O nosso currículo oferece características envolventes para que os alunos explorem e aprendam Ciência da Computação através de...',
+      course_outline: '[AI_TRANSLATION]Roteiro do Curso.',
+      course_outline_description: '[AI_TRANSLATION]As descrições a seguir são uma visão geral do conteúdo explorado no curso AP CSP do CodeCombat.',
+      explore_our_curriculum: '[AI_TRANSLATION]Explora o Nosso Currículo',
+      syllabus: '[AI_TRANSLATION]Syllabus',
+      pacing_guide: '[AI_TRANSLATION]Guia de Ritmo',
+      flyer: '[AI_TRANSLATION]Panfleto',
+      sample_lesson_slides: '[AI_TRANSLATION]Navega pelos nossos diapositivos de amostra de aulas',
+      //    introduction_to_cs: "Introduction to Computer Science",
+      introduction_to_cs_description: '[AI_TRANSLATION]Sintaxe e Sequências  ',
+      big_ideas: '[AI_TRANSLATION]Grandes Ideias: Sistemas de Computadores e Redes',
+      big_ideas_description: '[AI_TRANSLATION]A Internet (Visão Geral)',
+      get_full_course: '[AI_TRANSLATION]Obtém o curso completo aqui',
+      professional_development: '[AI_TRANSLATION]Desenvolvimento Profissional',
+      professional_development_description: '[AI_TRANSLATION]CodeCombat oferece um curso de desenvolvimento profissional online, auto-ritmado para educadores de todos os níveis de conhecimento em AP CSP. Os participantes irão explorar o currículo do CodeCombat e aprender como ele pode ser usado para preparar os alunos para terem sucesso no exame AP CSP. Através de discussões assíncronas com outros professores e videoconferências com os designers de aprendizagem do CodeCombat, você estará equipado com as ferramentas e técnicas necessárias para apoiar todos os seus alunos em AP CSP. No final do curso, você ganhará um Certificado de Conclusão que pode ser usado para a renovação da sua credencial de ensino.',
+      more_information: '[AI_TRANSLATION]Para Mais Informações',
+      //    contact_us: "Contact Us",
+      question_1: '[AI_TRANSLATION]Como posso aprender mais sobre o Curso AP CSP?',
+      answer_1: "[AI_TRANSLATION]Podes ver a __course_overview__ do College Board's AP Computer Science Principles e também explorar os __outcomes__ deste curso.",
+      question_2: '[AI_TRANSLATION]Quais são os requisitos tecnológicos para o currículo AP CSP do CodeCombat?',
+      answer_2: '[AI_TRANSLATION]Recomendamos pelo menos 4GB de RAM e o uso de um navegador moderno, como Chrome, Safari, Firefox ou Edge. Para mais detalhes, por favor visita __coco_requirements__.',
+      question_3: '[AI_TRANSLATION]Qual é o formato dos nossos planos e slides das aulas?',
+      answer_3: '[AI_TRANSLATION]Todos os nossos slides das aulas estão no formato de Google Slides e os nossos planos de aula estão no formato de Google Docs. Estes formatos permitem-te fazer cópias do nosso currículo para que possas adaptá-los às necessidades dos teus alunos. Os slides das aulas e os planos de aula também podem ser descarregados como ficheiros Microsoft® PowerPoint e Word.',
+      course_overview: '[AI_TRANSLATION]Visão Geral do Curso.',
+      outcomes: '[AI_TRANSLATION]resultados',
+      coco_requirements: '[AI_TRANSLATION]Requisitos de sistema do CodeCombat',
+      coco_recognized_blurb: '[AI_TRANSLATION]O CodeCombat é reconhecido pelo College Board como um fornecedor de currículo e desenvolvimento profissional para AP® Computer Science Principles (AP CSP). Esta endossemento afirma que o currículo do CodeCombat está alinhado a todos os padrões do AP Curriculum Framework e à avaliação do AP CSP. Isto dá às escolas acesso a recursos incluindo um plano de estudos do AP CSP pré-aprovado pela Auditoria de Cursos do College Board, e desenvolvimento profissional oficialmente reconhecido que prepara os professores para ensinar este currículo.',
+      ap_csp_portal: '[AI_TRANSLATION]Portal AP CSP',
+    },
+
+    apcsp_curriculum: {
+      access_syllabus: '[AI_TRANSLATION]Acessa o nosso __syllabus__ aprovado pelo College Board',
+      college_board_approved_syllabus: '[AI_TRANSLATION]Syllabus',
+      access_pacing_guide: '[AI_TRANSLATION]Revê o nosso __pacing_guide__ sugerido',
+      pacing_guide: '[AI_TRANSLATION]Guia de Ritmo',
+      resources: '[AI_TRANSLATION]Recursos de Desenvolvimento Profissional',
+      professional_development_description: '[AI_TRANSLATION]O CodeCombat oferece um curso online e autoguiado de desenvolvimento profissional para educadores de todos os níveis de experiência em AP CSP. Os participantes irão explorar o currículo do CodeCombat e aprender como pode ser usado para preparar os alunos para o sucesso no exame AP CSP. Através de discussões assíncronas com outros professores e videoconferências com os desenvolvedores do currículo do CodeCombat, estarás equipado com as ferramentas e técnicas necessárias para apoiar todos os teus alunos no AP CSP. No final do curso, receberás um Certificado de Conclusão que pode ser usado para a renovação da tua credencial de ensino. Oferecemos o nosso Currículo no __edapp__.  ',
+      contact: '[AI_TRANSLATION]Contacta __apcsp_email__ para obter acesso.',
+      role: '[AI_TRANSLATION]Papel',
+      location: '[AI_TRANSLATION]Localização  ',
+      //    state_and_country: "state and country",
+      no_license: '[AI_TRANSLATION]O nosso currículo AP CSP exige uma licença paga para ser visualizado. Saiba mais sobre o currículo AP CSP do CodeCombat visitando a nossa página "Sobre", link abaixo.',
+      request_license: '[AI_TRANSLATION]Junta-te ao Programa Piloto',
+      page_title: '[AI_TRANSLATION]Currículo de Princípios de Ciência da Computação AP',
+      explore_each_unit: '[AI_TRANSLATION]Explora cada unidade, incluindo <br> <strong>planos de aula</strong> e <strong>slides de aula</strong>',
+      about_apcsp_curriculum: '[AI_TRANSLATION]Sobre o Currículo de AP CSP',
+      step_1_title: '[AI_TRANSLATION]Começa Hoje',
+      step_1_subtitle: '[AI_TRANSLATION]Carrega o programa AP CSP do CodeCombat para a Auditoria de Curso da College Board.  ',
+      step_1_button_1: '[AI_TRANSLATION]Ver o Programa',
+      step_1_button_2: '[AI_TRANSLATION]Completa a Auditoria',
+      join_the_community: '[AI_TRANSLATION]Junta-te à Comunidade AP',
+      ap_teachers: '[AI_TRANSLATION]Central do Professor',
+      ap_classroom: '[AI_TRANSLATION]Sala de Aula AP',
+      slack: '[AI_TRANSLATION]Espaço de Trabalho AP',
+      //    join: "Join",
+    },
+
+    hoc_2019: {
+      heading: '[AI_TRANSLATION]Hora do Código',
+      start: '[AI_TRANSLATION]Começa a Tua Jornada',
+      create_a_class: '[AI_TRANSLATION]Criar uma turma para acompanhar o progresso dos teus alunos e garantir que os jogos da hora do código sejam guardados!',
+      choose_language: '[AI_TRANSLATION]1. ESCOLHE A LÍNGUA',
+      programming_language: '[AI_TRANSLATION]Linguagem',
+      sign_up: '[AI_TRANSLATION]2. INSCREVE-TE',
+      already_have_account: '[AI_TRANSLATION]Já tens uma conta no CodeCombat ou Ozaria? Inicia sessão.',
+      download_lesson_plan: '[AI_TRANSLATION]Download Plano de Aula',
+      try_activity_without_class: '[AI_TRANSLATION]Experimenta a atividade sem criar uma turma',
+      invite_students: '[AI_TRANSLATION]Convide Alunos para a Sua Turma Enviando-lhes',
+      class_code: '[AI_TRANSLATION]CÓDIGO DA TURMA',
+      enter_code: '[AI_TRANSLATION]Os alunos podem inserir este código em www.ozaria.com/hoc',
+      class_url: '[AI_TRANSLATION]URL DA TURMA',
+      share_url: '[AI_TRANSLATION]Partilhar URL para que os alunos se juntem automaticamente à tua turma.',
+      start_activity: '[AI_TRANSLATION]Iniciar Atividade',
+      save_progress_modal: '[AI_TRANSLATION]Guardar o teu progresso e continuar a jogar mais tarde',
+      want_to_save: '[AI_TRANSLATION]Queres salvar o teu progresso na Hora do Código?',
+      ask_teacher_class_code: '[AI_TRANSLATION]Pede o Código da Turma ao teu professor.',
+      dont_have: '[AI_TRANSLATION]Não tenho um, mas quero Tentar a Atividade!',
+      hoc_activity: '[AI_TRANSLATION]Atividade da Hora do Código',
+      save_progress: '[AI_TRANSLATION]Guardar Progresso',
+      err_google_exists: '[AI_TRANSLATION]Já existe uma conta para a conta Google que selecionaste. Por favor, escolhe outra conta Google ou regista-te com um nome de utilizador e palavra-passe.',
+      err_username_taken: '[AI_TRANSLATION]Já existe uma conta com o nome de utilizador que inseriste. Por favor, escolhe outro nome de utilizador.',
+      enter_it_here: '[AI_TRANSLATION]Introduz-o aqui para salvar o teu progresso enquanto jogas:',
+      have_a_class_code: '[AI_TRANSLATION]Tens um código de classe?',
+      create_class_and_try_activity: '[AI_TRANSLATION]Cria Aula e Tenta Atividade',
+    },
+
+    parents_landing_1: {
+      online_coding_classes: '[AI_TRANSLATION]Aulas de Programação Online ao Vivo',
+      powered_by_play: '[AI_TRANSLATION]Alimentado por Jogo',
+      partnership: '[AI_TRANSLATION]em parceria com',
+      kids_message: '[AI_TRANSLATION]Crianças: mostrem isso aos vossos pais para obterem a vossa aula de programação grátis e heróis premium!',
+      codecombat_intro: '[AI_TRANSLATION]CodeCombat combina o poder do jogo e instrução personalizada para oferecer aulas online de programação que o teu filho vai ansiar todas as semanas.',
+      remote_learning_works: '[AI_TRANSLATION]Ensino à Distância que Funciona',
+      invest_in_future: '[AI_TRANSLATION]Invista no Futuro do Seu Filho Enquanto Ele Se Diverte!',
+      personalized_learning_header: '[AI_TRANSLATION]Aprendizagem Personalizada',
+      personalized_learning_details: '[AI_TRANSLATION]Os nossos professores dedicados oferecem atenção individualizada através de um currículo estruturado. O teu filho tornar-se-á um programador confiante ao conquistar desafios e celebrar sucessos juntos!',
+      power_of_play_header: '[AI_TRANSLATION]O Poder do Jogo',
+      power_of_play_details: '[AI_TRANSLATION]Os nossos estudantes escrevem Python e JavaScript de verdade enquanto jogam do início ao fim! O nosso currículo envolvente garante que nunca vais ter de obrigar o teu filho a ir às aulas. Prometemos.',
+      early_coding_exposure: '[AI_TRANSLATION]Exposição Inicial à Programação',
+      early_coding_exposure_details: '[AI_TRANSLATION]Programar é uma competência de trabalho altamente procurada, e esta procura só vai aumentar. Expor o teu filho à programação numa idade precoce aumenta a probabilidade de que ele siga Ciências da Computação mais tarde na vida.',
+      quote_1: '[AI_TRANSLATION]Embora a aula comece todos os sábados às 7h, o meu filho está tão entusiasmado que acorda antes de mim! O CodeCombat cria um caminho para o meu filho melhorar as suas habilidades de programação.',
+      parent_name: '[AI_TRANSLATION]Latthaphon Pohpon, Pai',
+      course_offering: '[AI_TRANSLATION]Ofertas de Cursos.',
+      flexible_scheduling: '[AI_TRANSLATION]Com opções de aulas individuais ou em pequenos grupos, e horários flexíveis disponíveis, esta é a maneira mais fácil de começar na ciência da computação.',
+      private_instructions: '[AI_TRANSLATION]Todas as aulas têm instrução privada e individualizada. Para inscrever um grupo de alunos, contacte <a href="mailto:classes@codecombat.com">classes@codecombat.com</a> para um plano personalizado.',
+      most_popular: '[AI_TRANSLATION]Mais popular',
+      best_value: '[AI_TRANSLATION]Melhor Valor',
+      self_paced: '[AI_TRANSLATION]Ritmo Próprio',
+      private: '[AI_TRANSLATION]Privado',
+      subscription_plan: '[AI_TRANSLATION]Plano de Subscrição',
+      per_year: '[AI_TRANSLATION]por ano',
+      price_per_year_1: '[AI_TRANSLATION]$219 por mês',
+      price_per_year_2: '[AI_TRANSLATION]$399 por mês',
+      //    not_available: "N/A",
+      one_to_one: '[AI_TRANSLATION]1:1',
+      private_sessions_1: '[AI_TRANSLATION]1 sessão privada por semana',
+      private_sessions_2: '[AI_TRANSLATION]2 sessões privadas por semana',
+      benefit_1: '[AI_TRANSLATION]Sessões de 60 minutos via Zoom',
+      benefit_2: '[AI_TRANSLATION]Rácio de Estudante para Instrutor',
+      benefit_3: '[AI_TRANSLATION]Licença premium do CodeCombat incluída',
+      benefit_4: '[AI_TRANSLATION]Feedback imediato e personalizado  ',
+      benefit_5: '[AI_TRANSLATION]Atividades extra, recompensas e certificados de conclusão do curso',
+      benefit_6: '[AI_TRANSLATION]Projetos de fim de curso que demonstram os conceitos aprendidos',
+      benefit_7: '[AI_TRANSLATION]Atualizações mensais de progresso do instrutor',
+      benefit_8: '[AI_TRANSLATION]Horário flexível adaptado às necessidades de aprendizagem de cada aluno',
+      benefit_9: '[AI_TRANSLATION]Suporte 1:1 para enfrentar conceitos difíceis de codificação',
+      benefit_10: '[AI_TRANSLATION]Qualificação automática para torneios de codificação da AI League',
+      subscription_details: '[AI_TRANSLATION]Todas as subscrições são cobradas mensalmente e podem ser pausadas, canceladas ou retomadas sem taxas. A tua compra de subscrição é 100% livre de risco nos primeiros 30 dias. Se por alguma razão decidires não continuar, basta <a href="mailto:classes@codecombat.com">contactar-nos</a> dentro de 30 dias após a compra e nós reembolsaremos prontamente 100% do teu pagamento, sem perguntas. Todos os planos são renovados automaticamente ao mesmo nível e ciclo de faturação, a menos que sejam alterados ou cancelados.\n',
+      curriculum: '[AI_TRANSLATION]O nosso Currículo',
+      curriculum_description: '[AI_TRANSLATION]Confiado por mais de 140.000 educadores em todo o mundo, nosso currículo escalonado é fundamental para ajudar os alunos a perseverar. Os nossos alunos digitaram código real desde o início, tornam-se mais confiantes a cada aula e aprendem como a Ciência da Computação é relevante para as suas vidas diárias.',
+      student_outcomes: '[AI_TRANSLATION]Resultados dos Estudantes',
+      grit_header: '[AI_TRANSLATION]Resiliência',
+      grit_description: '[AI_TRANSLATION]CodeCombat desafia os alunos a abraçar e aprender com os seus erros. Dicas integradas ajudam os alunos a identificar e corrigir bugs, levando a uma maior confiança na programação.',
+      problem_solving_header: '[AI_TRANSLATION]Habilidades de Resolução de Problemas',
+      problem_solving_description: '[AI_TRANSLATION]Através de um processo iterativo de resolução de problemas, os nossos alunos resolvem desafios de programação e mostram a sua criatividade ao criar os seus próprios jogos, sites e apps para os projetos de fim de curso.',
+      technological_literacy: '[AI_TRANSLATION]Literacia Tecnológica',
+      technological_literacy_description: '[AI_TRANSLATION]Os alunos ganham uma compreensão profunda de Ciências da Computação e habilidades de literacia tecnológica que se transferem para outras disciplinas e futuras carreiras.',
+      concepts_covered: '[AI_TRANSLATION]Conceitos Abrangidos  ',
+      beginner: '[AI_TRANSLATION]Iniciante',
+      beginner_description: '[AI_TRANSLATION]Para estudantes com pouca ou nenhuma experiência em programação baseada em texto.',
+      beginner_concepts_1: '[AI_TRANSLATION]Sequências',
+      //    beginner_concepts_2: "Algorithms",
+      beginner_concepts_3: '[AI_TRANSLATION]Sintaxe',
+      //    beginner_concepts_4: "Strings",
+      //    beginner_concepts_5: "Arguments",
+      beginner_concepts_6: '[AI_TRANSLATION]Loops',
+      beginner_concepts_7: '[AI_TRANSLATION]Variáveis',
+      beginner_concepts_8: '[AI_TRANSLATION]Coordenadas Cartesianas',
+      intermediate_header: '[AI_TRANSLATION]Intermediário',
+      itermediate_details: '[AI_TRANSLATION]Para estudantes com alguma experiência em programação baseada em texto.',
+      intermediate_concepts_1: '[AI_TRANSLATION]Lógica Booleana.',
+      //    intermediate_concepts_2: "Properties",
+      intermediate_concepts_3: '[AI_TRANSLATION]Laços Avançados',
+      intermediate_concepts_4: '[AI_TRANSLATION]Condicionais  ',
+      intermediate_concepts_5: '[AI_TRANSLATION]Condicionais Aninhadas',
+      //    intermediate_concepts_6: "Functions",
+      intermediate_concepts_7: '[AI_TRANSLATION]Eventos',
+      intermediate_concepts_8: '[AI_TRANSLATION]IA de jogo básica',
+      advanced_header: '[AI_TRANSLATION]Avançado',
+      advanced_details: '[AI_TRANSLATION]Para estudantes com experiência substancial em programação baseada em texto e bom entendimento de conceitos complexos.',
+      advanced_concepts_1: '[AI_TRANSLATION]Strings Avançadas',
+      advanced_concepts_2: '[AI_TRANSLATION]Aritmética Computacional',
+      advanced_concepts_3: '[AI_TRANSLATION]Funções com retornos',
+      advanced_concepts_4: '[AI_TRANSLATION]Condicionais complexos',
+      //    advanced_concepts_5: "Arrays",
+      advanced_concepts_6: '[AI_TRANSLATION]Instruções break/continue',
+      //    advanced_concepts_7: "Recursion",
+      advanced_concepts_8: '[AI_TRANSLATION]Pilhas e Filas',
+      ai_hints: '[AI_TRANSLATION]Sugestões de IA',
+      ai_hints_details: '[AI_TRANSLATION]Os nossos instrutores oferecem a orientação e apoio que o teu filho precisa, mas nem sempre conseguem estar presentes. É aí que a nossa funcionalidade inovadora de dicas de IA ajuda a aprendizagem a continuar entre as sessões. Esta funcionalidade de apoio pode avaliar o código, apontar erros e explicar como corrigi-los. O mais importante, é que fornece todo o contexto necessário para entender o "porquê", sem fornecer a solução completa. Com apenas assistência disponível para o problema de código atual, os alunos ainda precisam trabalhar através de cada nível de desafio de codificação. Os assinantes recebem uma alocação de <b>20 dicas de IA por dia</b> para garantir que tenham sempre o apoio necessário.\n',
+      //    faq_header: "FAQs",
+      faq_q_1: '[AI_TRANSLATION]Como são combinados os instrutores com o meu filho?',
+      faq_a_1_trial_class: '[AI_TRANSLATION]Após a aula de teste inicial, a nossa equipa combina cuidadosamente os nossos instrutores online com cada aluno com base no seu nível de experiência, personalidade, interesses e horário. A nossa equipa trabalhará contigo para melhorar a experiência se tu ou o teu filho não adorarem aprender com o instrutor.',
+      faq_a_1: '[AI_TRANSLATION]Cada um dos nossos instrutores foi escolhido a dedo para representar o CodeCombat e proporcionar uma experiência de aprendizagem divertida e personalizada, adaptada a cada aluno. Acreditamos que o teu filho vai gostar de aprender com qualquer um dos nossos instrutores, mas se, por algum motivo, quiseres mudar de professor, estamos felizes em acomodar.',
+      faq_q_2: '[AI_TRANSLATION]Há algum limite de idade para os alunos?',
+      faq_a_2: '[AI_TRANSLATION]Recomendamos as nossas aulas online para estudantes dos 7 aos 16 anos. Contudo, se o teu filho souber digitar, usar um rato e estiver à vontade com o computador, é bem-vindo na nossa aula.\n',
+      faq_q_3: '[AI_TRANSLATION]Que tipo de tecnologia preciso para participar da aula?',
+      faq_a_3: '[AI_TRANSLATION]Qualquer dispositivo conectado à internet com um teclado completo. Recomenda-se laptops, PCs e Chromebooks, no entanto, iPads funcionam com um teclado externo.',
+      faq_q_4: '[AI_TRANSLATION]Qual é a política de cancelamento?',
+      faq_a_4: '[AI_TRANSLATION]A tua compra de subscrição é 100% livre de risco nos primeiros 30 dias. Se por qualquer razão decidires não continuar, simplesmente <a href="mailto:classes@codecombat.com">contacta-nos</a> dentro de 30 dias após a compra e reembolsaremos rapidamente 100% da tua compra, sem perguntas. Podes também congelar a tua subscrição a qualquer momento e reativá-la quando te for conveniente.',
+      faq_q_5: '[AI_TRANSLATION]E se eu precisar de remarcar uma aula?',
+      faq_a_5: '[AI_TRANSLATION]Assim que marcares uma aula semanal connosco, reservamos um horário na nossa agenda exclusivamente para ti, por isso exigimos um aviso prévio de 48 horas para remarcar as aulas. Podes remarcar a tua aula enviando um e-mail para <a href="mailto:classes@codecombat.com">classes@codecombat.com</a>. Aulas perdidas ou canceladas com menos de 48 horas de antecedência não serão remarcadas ou reembolsadas.',
+      faq_q_6: '[AI_TRANSLATION]O que devo esperar na aula experimental?',
+      faq_a_6: '[AI_TRANSLATION]Cada aula experimental é uma sessão privada de 60 minutos com <strong>45 minutos de instrução</strong> para o aluno, seguido de <strong>15 minutos para discussão com um pai ou tutor</strong>. Estes 15 minutos são importantes e são reservados para responder a perguntas, fornecer informações sobre como o currículo está a decorrer e ajudar-te a escolher o nível de habilidade e a linguagem de programação certa para o teu filho. Se disponível, um dos nossos conselheiros de aprendizagem remota pode juntar-se para esta parte da sessão.\n',
+      other_questions: '[AI_TRANSLATION]Se tiveres alguma questão sobre as nossas aulas online, por favor <a href="mailto:classes@codecombat.com">contacta-nos.</a>',
+    },
+
+    parents_landing_2: {
+      splash_title: '[AI_TRANSLATION]Descobre a magia de programar em casa.',
+      learn_with_instructor: '[AI_TRANSLATION]Aprende com um Instrutor',
+      live_classes: '[AI_TRANSLATION]Aulas Online ao Vivo',
+      live_classes_offered: '[AI_TRANSLATION]O CodeCombat agora oferece aulas ao vivo de ciências da computação online para alunos que aprendem em casa. Ótimo para estudantes que se dão melhor em ambientes 1:1 ou em pequenos grupos onde os resultados de aprendizagem são adaptados às suas necessidades.',
+      live_class_details_1: '[AI_TRANSLATION]Aulas de pequeno grupo ou privadas',
+      live_class_details_2: '[AI_TRANSLATION]Codificação em JavaScript e Python, além de conceitos básicos de Ciência da Computação',
+      live_class_details_3: '[AI_TRANSLATION]Provocar os Guardas',
+      live_class_details_4: '[AI_TRANSLATION]Feedback individualizado e instantâneo',
+      live_class_details_5: '[AI_TRANSLATION]Currículo confiável por mais de 80.000 educadores',
+      try_free_class: '[AI_TRANSLATION]Experimenta uma aula gratuita de 60 minutos',
+      pricing_plans: '[AI_TRANSLATION]Planos de Preços',
+      choose_plan: '[AI_TRANSLATION]Escolher Plano',
+      per_student: '[AI_TRANSLATION]por aluno',
+      sibling_discount: '[AI_TRANSLATION]15% de desconto para irmãos!',
+      small_group_classes: '[AI_TRANSLATION]Aulas de Programação em Pequenos Grupos',
+      small_group_classes_detail: '[AI_TRANSLATION]4 Sessões de Grupo / Mês',
+      small_group_classes_price: '[AI_TRANSLATION]$159/mês',
+      small_group_classes_detail_1: '[AI_TRANSLATION]4:1 razão aluno para instrutor',
+      small_group_classes_detail_2: '[AI_TRANSLATION]Aulas de 60 minutos',
+      small_group_classes_detail_3: '[AI_TRANSLATION]Constrói projetos e dá feedback a outros estudantes.',
+      small_group_classes_detail_4: '[AI_TRANSLATION]Partilhar ecrã para receber feedback ao vivo sobre código e depuração',
+      private_classes: '[AI_TRANSLATION]Aulas de Programação Privadas',
+      four_sessions_per_month: '[AI_TRANSLATION]4 Sessões Privadas / Mês',
+      eight_sessions_per_month: '[AI_TRANSLATION]8 Sessões Privadas / Mês',
+      four_private_classes_price: '[AI_TRANSLATION]$219/mês',
+      eight_private_classes_price: '[AI_TRANSLATION]$399/mês',
+      private_classes_detail: '[AI_TRANSLATION]4 ou 8 Sessões Privadas / Mês',
+      private_classes_price: '[AI_TRANSLATION]$219/mês ou $399/mês',
+      private_classes_detail_1: '[AI_TRANSLATION]Rácio de 1:1 aluno para instrutor',
+      private_classes_detail_2: '[AI_TRANSLATION]Aulas de 60 minutos',
+      private_classes_detail_3: '[AI_TRANSLATION]Horário flexível adaptado às tuas necessidades',
+      private_classes_detail_4: '[AI_TRANSLATION]Planos de aula e feedback ao vivo adaptados ao estilo, ritmo e nível de habilidade de aprendizagem dos alunos',
+      best_seller: '[AI_TRANSLATION]Mais Vendido',
+      best_value: '[AI_TRANSLATION]Melhor Valor',
+      //    codecombat_premium: "CodeCombat Premium",
+      learn_at_own_pace: '[AI_TRANSLATION]Aprende ao Teu Próprio Ritmo.',
+      //    monthly_sub: "Monthly Subscription",
+      buy_now: '[AI_TRANSLATION]Compra agora  ',
+      per_month: '[AI_TRANSLATION]/ mês',
+      //    lifetime_access: "Lifetime Access",
+      premium_details_title: '[AI_TRANSLATION]Ótimo para aprendizes autodidatas que prosperam com autonomia completa.',
+      premium_details_1: '[AI_TRANSLATION]Acessa heróis, animais de estimação e habilidades exclusivos para assinantes',
+      premium_details_2: '[AI_TRANSLATION]Recebe gemas bónus para comprar equipamentos, animais de estimação e mais heróis',
+      premium_details_3: '[AI_TRANSLATION]Desbloqueia uma compreensão mais profunda de conceitos e habilidades essenciais como desenvolvimento web e de jogos',
+      premium_details_4: '[AI_TRANSLATION]Suporte premium para subscritores',
+      premium_details_5: '[AI_TRANSLATION]Cria clãs privados para convidar amigos e competir num quadro de líderes de grupo.',
+      premium_need_help: '[AI_TRANSLATION]Precisas de ajuda ou preferes Paypal? Envia email para <a href="mailto:support@codecombat.com">support@codecombat.com</a>',
+      not_sure_kid: '[AI_TRANSLATION]Não tens a certeza se o CodeCombat é adequado para o teu filho? Pergunta-lhe!',
+      share_trailer: '[AI_TRANSLATION]Partilhar o nosso trailer do jogo com o teu filho e pedir para criarem uma conta para começar.',
+      why_kids_love: '[AI_TRANSLATION]Porque as Crianças Adoram o CodeCombat',
+      learn_through_play: '[AI_TRANSLATION]Aprender Através do Jogo',
+      learn_through_play_detail: '[AI_TRANSLATION]Os alunos desenvolvem as suas habilidades de codificação e também usam habilidades de resolução de problemas para progredir nos níveis e fortalecer os seus heróis.',
+      skills_they_can_share: '[AI_TRANSLATION]Competências que Eles Podem Partilhar',
+      skills_they_can_share_details: '[AI_TRANSLATION]Os alunos desenvolvem habilidades reais e criam projetos, como jogos e páginas web, que podem partilhar com amigos e família.',
+      help_when_needed: '[AI_TRANSLATION]Ajuda quando precisarem',
+      help_when_needed_detail: '[AI_TRANSLATION]Usar dados, cada nível foi projetado para ser desafiador, mas nunca desencorajador. Os alunos têm apoio com dicas quando ficam presos.',
+      book_first_class: '[AI_TRANSLATION]Reserva a tua primeira aula.',
+      why_parents_love: '[AI_TRANSLATION]Porque os Pais Adoram o CodeCombat',
+      most_engaging: '[AI_TRANSLATION]A maneira mais envolvente de aprender código digitado.',
+      most_engaging_detail: '[AI_TRANSLATION]O teu filho(a) vai ter tudo o que precisa ao alcance dos dedos para programar algoritmos em Python ou JavaScript, construir sites e até desenhar os próprios jogos, enquanto aprende matéria alinhada com os padrões do currículo nacional.  ',
+      critical_skills: '[AI_TRANSLATION]Construir habilidades críticas para o século XXI',
+      critical_skills_detail: '[AI_TRANSLATION]O teu filho vai aprender a navegar e tornar-se um cidadão no mundo digital. CodeCombat é uma solução que melhora o pensamento crítico, a criatividade e a resiliência do teu filho, dando-lhe as competências necessárias para qualquer indústria.',
+      parent_support: '[AI_TRANSLATION]Suportando Vários Caminhos de CS Numa Turma',
+      parent_support_detail: '[AI_TRANSLATION]No CodeCombat, somos pais. Somos programadores. Somos educadores. Mas, acima de tudo, somos pessoas que acreditam em dar às nossas crianças a melhor oportunidade de sucesso, seja lá o que decidirem fazer.',
+      everything_they_need: '[AI_TRANSLATION]Tudo o que precisam para começarem a escrever código por conta própria',
+      beginner_concepts: '[AI_TRANSLATION]Conceitos Iniciais',
+      beginner_concepts_1: '[AI_TRANSLATION]Sintaxe Básica',
+      beginner_concepts_2: '[AI_TRANSLATION]Ciclos While',
+      //    beginner_concepts_3: "Arguments",
+      //    beginner_concepts_4: "Strings",
+      beginner_concepts_5: '[AI_TRANSLATION]Variáveis',
+      //    beginner_concepts_6: "Algorithms",
+      intermediate_concepts: '[AI_TRANSLATION]Conceitos Intermédios',
+      intermediate_concepts_1: '[AI_TRANSLATION]If statements',
+      intermediate_concepts_2: '[AI_TRANSLATION]Comparações Booleanas.',
+      intermediate_concepts_3: '[AI_TRANSLATION]Condicionais Aninhadas',
+      //    intermediate_concepts_4: "Functions",
+      intermediate_concepts_5: '[AI_TRANSLATION]Tratamento básico de entradas',
+      intermediate_concepts_6: '[AI_TRANSLATION]Inteligência artificial de jogo básica',
+      advanced_concepts: '[AI_TRANSLATION]Conceitos Avançados',
+      advanced_concepts_1: '[AI_TRANSLATION]Manipulação de eventos',
+      advanced_concepts_2: '[AI_TRANSLATION]Ciclos while condicionais  ',
+      advanced_concepts_3: '[AI_TRANSLATION]Literais de Objetos',
+      advanced_concepts_4: '[AI_TRANSLATION]Parâmetros',
+      //    advanced_concepts_5: "Vectors",
+      advanced_concepts_6: '[AI_TRANSLATION]Operações da biblioteca de matemática.',
+      //    advanced_concepts_7: "Recursion",
+      get_started: '[AI_TRANSLATION]Começa Já',
+      quotes_title: '[AI_TRANSLATION]O que os pais e crianças dizem sobre o CodeCombat',
+      quote_1: '[AI_TRANSLATION]"Isto é programação de próximo nível para crianças e é bastante divertido. Eu também vou aprender uma coisa ou outra com isto."',
+      quote_2: '[AI_TRANSLATION]"Gostei de aprender uma nova habilidade que nunca tinha feito antes. Gostei que quando estava a ter dificuldades, conseguia encontrar os objetivos. Também gostei de ver o código a funcionar corretamente."',
+      quote_3: '[AI_TRANSLATION]"O Python do Oliver está a avançar. Ele está a usar o CodeCombat para fazer os seus próprios videojogos. Desafia-me a jogar os seus jogos, e depois ri-se quando eu perco."',
+      quote_4: '[AI_TRANSLATION]"Esta é uma das minhas coisas favoritas para fazer. Todas as manhãs acordo e jogo CodeCombat. Se tivesse de dar uma classificação ao CodeCombat de 1 a 10, dar-lhe-ia um 10!"',
+      //    parent: "Parent",
+      //    student: "Student",
+      grade: '[AI_TRANSLATION]Grau',
+      subscribe_error_user_type: '[AI_TRANSLATION]Parece que já te registaste para uma conta. Se estiveres interessado no CodeCombat Premium, por favor contacta-nos em team@codecombat.com.',
+      subscribe_error_already_subscribed: '[AI_TRANSLATION]Já te inscreveste numa conta Premium.',
+      start_free_trial_today: '[AI_TRANSLATION]Começa a tua prova gratuita hoje',
+      live_classes_title: '[AI_TRANSLATION]Aulas de programação ao vivo com CodeCombat!',
+      live_class_booked_thank_you: '[AI_TRANSLATION]A tua aula ao vivo foi marcada, obrigado!',
+      book_your_class: '[AI_TRANSLATION]Reserva a tua aula.',
+      call_to_book: '[AI_TRANSLATION]Chama agora para reservar.',
+      student_journey_start: '[AI_TRANSLATION]Parabéns! A jornada de programação do teu aluno está prestes a começar!',
+      enter_email_address: '[AI_TRANSLATION]Por favor, fornece o teu endereço de email para começar:',
+      enter_parent_email_address: '[AI_TRANSLATION]Se és estudante com menos de 18 anos, insere o email dos teus pais ou tutor.',
+      email_sent_success: '[AI_TRANSLATION]Uau! Um email foi enviado para o endereço que forneceste.',
+      email_schedule_info: '[AI_TRANSLATION]Por favor, abre e clica no link para aceder ao nosso portal de agendamento de aulas experimentais e seleciona qualquer horário disponível que funcione melhor para ti.',
+      personalized_coding: '[AI_TRANSLATION]Instrução de Codificação Personalizada',
+      premium_access: '[AI_TRANSLATION]Acesso Premium',
+      focus_choice: '[AI_TRANSLATION]O teu Foco, a tua Escolha',
+      get_free_coding_class: '[AI_TRANSLATION]Recebes uma Aula de Programação Grátis',
+      tailored_guidance: '[AI_TRANSLATION]Dá uma vista de olhos em como este código usa uma **variável**. Depois carrega no botão **RUN** para ver o que este programa faz.',
+      enjoy_all_games: '[AI_TRANSLATION]Aproveita todos os nossos jogos web e experiências Roblox',
+      choice_of_path: '[AI_TRANSLATION]Selecionar de Fundamentos de Codificação, Desenvolvimento de Jogos, Aplicações de IA, Preparação AP CSP, e mais para um caminho de aprendizagem personalizado',
+      classes_in_spanish_english: '[AI_TRANSLATION]As aulas estão disponíveis em Inglês ou Espanhol',
+      free_class: '[AI_TRANSLATION]Aula Grátis',
+    },
+
+    modal_timetap_confirmation: {
+      congratulations: '[AI_TRANSLATION]Parabéns!  ',
+      paragraph_1: '[AI_TRANSLATION]A aventura de programação do teu aluno aguarda.',
+      paragraph_2: '[AI_TRANSLATION]Temos o teu filho inscrito numa aula online e estamos muito entusiasmados para conhecê-lo!',
+      paragraph_3: '[AI_TRANSLATION]Em breve deves receber um email com os detalhes do horário das aulas, bem como o nome do teu instrutor e as informações de contacto.',
+      paragraph_4: '[AI_TRANSLATION]Se por qualquer razão precisares de modificar as tuas seleções de classe, reagendar ou apenas falar com um especialista em atendimento ao cliente, simplesmente entra em contato usando as informações fornecidas no teu convite por email.',
+      paragraph_5: '[AI_TRANSLATION]Obrigado por escolheres o CodeCombat e boa sorte na tua jornada pela ciência da computação!',
+      back_to_coco: '[AI_TRANSLATION]De Volta ao CodeCombat',
+    },
+
+    hoc_2018: {
+      banner_coco: '[AI_TRANSLATION]Bem-vindo à Hora do Código!',
+      banner_ozar: '[AI_TRANSLATION]Feliz Semana da Educação em Ciência da Computação!',
+      page_heading: '[AI_TRANSLATION]Os teus alunos vão aprender a programar construindo o seu próprio jogo!',
+      page_heading_ai_league: '[AI_TRANSLATION]Os teus alunos vão aprender a programar a sua própria IA para multijogador!',
+      page_heading_goblins: '[AI_TRANSLATION]Os teus alunos vão aprender programação salvando uma vila de goblins!',
+      step_1: '[AI_TRANSLATION]Passo 1: Assiste ao Vídeo de Visão Geral',
+      step_2: '[AI_TRANSLATION]Passo 2: Tenta tu Mesmo',
+      step_3: '[AI_TRANSLATION]Passo 3: Faz o Download do Plano de Aula',
+      try_activity: '[AI_TRANSLATION]Experimenta Atividade',
+      download_pdf: '[AI_TRANSLATION]Download PDF',
+      solutions: '[AI_TRANSLATION]Soluções',
+      teacher_signup_heading: '[AI_TRANSLATION]Transforma a Hora do Código num Ano de Código',
+      teacher_signup_blurb: '[AI_TRANSLATION]Tudo o que precisas para ensinar informática, sem precisares de experiência prévia.',
+      teacher_signup_input_blurb: '[AI_TRANSLATION]Obtém o primeiro curso grátis:',
+      teacher_signup_input_placeholder: '[AI_TRANSLATION]Endereço de email do/a professor/a',
+      teacher_signup_input_button: '[AI_TRANSLATION]Obtém CS1 Gratuito',
+      activities_header: '[AI_TRANSLATION]Mais Atividades de Hora do Código',
+      activity_label_1: '[AI_TRANSLATION]Iniciante CS: Escapa da Masmorra!',
+      activity_label_2: '[AI_TRANSLATION]Iniciante GD: Cria um Jogo!',
+      activity_label_3: '[AI_TRANSLATION]GD Avançada: Constrói um Jogo de Arcade!',
+      activity_label_hoc_2018: '[AI_TRANSLATION]GD Intermédio: Código, Jogo, Cria',
+      activity_label_ai_league: '[AI_TRANSLATION]Iniciante CS: Campo de Treino de Esports: AI League',
+      activity_label_goblins: '[AI_TRANSLATION]Iniciante CS: Goblins e Glória',
+      activity_button_1: '[AI_TRANSLATION]Ver Lição',
+      //    about: "About CodeCombat",
+      about_copy: '[AI_TRANSLATION]Um programa de ciência da computação baseado em jogos, alinhado com os padrões, que ensina Python e JavaScript reais e digitados.',
+      //    point1: "✓ Scaffolded",
+      //    point2: "✓ Differentiated",
+      //    point3: "✓ Assessments",
+      //    point4: "✓ Project-based courses",
+      //    point5: "✓ Student tracking",
+      //    point6: "✓ Full lesson plans",
+      title: '[AI_TRANSLATION]HORA DE CODIFICAÇÃO',
+      acronym: '[AI_TRANSLATION]HOC',
+      play_video: '[AI_TRANSLATION]Jogar Vídeo',
+      featured_title_1: "[AI_TRANSLATION]CodeCombat: Goblins 'n' Glory",
+      featured_subtitle_1: '[AI_TRANSLATION]Graus 6-8 | JavaScript, Python',
+      featured_blurb_1: '[AI_TRANSLATION]Precisamos da tua ajuda! Embarca numa busca épica onde controlas o jogo através dos teus poderes de programação.',
+      featured_title_2: '[AI_TRANSLATION]Campo de Treino de Esportes Eletrônicos: Liga de AI',
+      featured_subtitle_2: '[AI_TRANSLATION]Graus 6-8 | JavaScript, Python',
+      featured_blurb_2: '[AI_TRANSLATION]Programação competitiva nunca foi tão épica! Aprende as habilidades que precisas para jogar como os profissionais no nosso Bootcamp de Esports. Não é necessária experiência em programação',
+      featured_title_3: '[AI_TRANSLATION]Ozaria: A Tua Jornada Começa',
+      featured_subtitle_3: '[AI_TRANSLATION]Graus 6-8 | JavaScript, Python',
+      featured_blurb_3: '[AI_TRANSLATION]Entra no mundo de Ozaria onde deverás usar o poder da codificação para derrotar a escuridão que tomou conta do mundo!',
+      page_heading_latest_activities: '[AI_TRANSLATION]As nossas atividades mais recentes são fáceis de implementar e divertidas de jogar.',
+    },
+
+    hoc_2018_interstitial: {
+      welcome: '[AI_TRANSLATION]Bem-vindo à Hora de Código do CodeCombat!',
+      educator: '[AI_TRANSLATION]Sou um educador.',
+      show_resources: '[AI_TRANSLATION]Mostra-me recursos de professores!',
+      student: '[AI_TRANSLATION]Sou um estudante.',
+      ready_to_code: '[AI_TRANSLATION]Estou pronto para programar!',
+    },
+
+    hoc_2018_completion: {
+      congratulations: '[AI_TRANSLATION]Parabéns por completares <b>Code, Play, Share!</b>  ',
+      send: '[AI_TRANSLATION]Envia o teu jogo Hora do Código para os amigos e família!',
+      copy: '[AI_TRANSLATION]Copiar URL',
+      get_certificate: '[AI_TRANSLATION]Obtenha um certificado de conclusão para celebrar com a tua turma!',
+      get_cert_btn: '[AI_TRANSLATION]Obtém Certificado',
+      first_name: '[AI_TRANSLATION]Primeiro Nome',
+      last_initial: '[AI_TRANSLATION]Última Inicial',
+      teacher_email: '[AI_TRANSLATION]Endereço de email do/a professor/a',
+    },
+
+    school_administrator: {
+      title: '[AI_TRANSLATION]Painel do Administrador Escolar',
+      //    my_teachers: "My Teachers",
+      last_login: '[AI_TRANSLATION]Último Login',
+      licenses_used: '[AI_TRANSLATION]licenças usadas',
+      //    total_students: "total students",
+      active_students: '[AI_TRANSLATION]alunos ativos',
+      projects_created: '[AI_TRANSLATION]projetos criados',
+      //    other: "Other",
+      notice: '[AI_TRANSLATION]Os administradores escolares a seguir têm acesso apenas de visualização aos dados da tua sala de aula:',
+      add_additional_teacher: '[AI_TRANSLATION]Precisas de adicionar um professor extra? Contacta o teu gestor de conta CodeCombat ou envia um email para support@codecombat.com.',
+      license_stat_description: '[AI_TRANSLATION]Licenças disponíveis contabilizam o número total de licenças disponíveis para o professor, incluindo Licenças Partilhadas.',
+      //    students_stat_description: "Total students accounts for all students across all classrooms, regardless of whether they have licenses applied.",
+      active_students_stat_description: '[AI_TRANSLATION]Estudantes ativos conta o número de estudantes que fizeram login no CodeCombat nos últimos 60 dias.',
+      project_stat_description: '[AI_TRANSLATION]Projetos criados conta o número total de projetos de desenvolvimento de Jogos e Web que foram criados.',
+      no_teachers: '[AI_TRANSLATION]Ainda não tens escolas associadas à tua conta. Por favor contacta o teu <strong>Gestor de Sucesso Distrital</strong> ou <a href="mailto:schools@codecombat.com">schools@codecombat.com</a> para configurar o teu painel de controlo.',
+      totals_calculated: '[AI_TRANSLATION]Como são calculados estes totais?',
+      totals_explanation_1: '[AI_TRANSLATION]Como são calculados estes totais?',
+      totals_explanation_2: '[AI_TRANSLATION]Licenças usadas',
+      totals_explanation_3: '[AI_TRANSLATION]Conta o total de licenças aplicadas aos alunos em relação ao total de licenças disponíveis.',
+      totals_explanation_4: '[AI_TRANSLATION]Estudantes Totais',
+      totals_explanation_5: '[AI_TRANSLATION]Conta os alunos do professor em todas as suas turmas ativas. Para ver o total de alunos inscritos em turmas ativas e arquivadas, vai à página de Licenças para Alunos.',
+      totals_explanation_6: '[AI_TRANSLATION]Estudantes ativos',
+      totals_explanation_7: '[AI_TRANSLATION]Conta todos os alunos que foram ativos nos últimos 60 dias.',
+      totals_explanation_8: '[AI_TRANSLATION]Projetos criados',
+      totals_explanation_9: '[AI_TRANSLATION]Conta o total de jogos e páginas web criadas.',
+      date_thru_date: '[AI_TRANSLATION]__startDateRange__ até __endDateRange__',
+      //    teachers: "Teachers",
+      students_enrolled: '[AI_TRANSLATION]Estudantes Matriculados',
+      select_time_range: '[AI_TRANSLATION]Seleciona o intervalo de tempo:',
+      export: '[AI_TRANSLATION]Exportar',
+      preview: '[AI_TRANSLATION]Aqui está uma pré-visualização dos primeiros 200 linhas. Clica em Exportar para obter estatísticas completas.',
+      empty_results: '[AI_TRANSLATION]Resultados Vazios.',
+      roster: '[AI_TRANSLATION]Lista  ',
+    },
+
+    interactives: {
+      phenomenal_job: '[AI_TRANSLATION]Trabalho Fenomenal!',
+      try_again: '[AI_TRANSLATION]Ups, tenta de novo!',
+      select_statement_left: '[AI_TRANSLATION]Ups! Seleciona uma instrução de código antes de pressionares Enviar.',
+      fill_boxes: '[AI_TRANSLATION]Ups, certifica-te de preencher todas as caixas antes de clicar em "Enviar."',
+      cannot_play_video: '[AI_TRANSLATION]Lamentavelmente, este vídeo não pode ser reproduzido na tua área.',
+      console_instructions: '[AI_TRANSLATION]Vê porquê ao abrir a consola do teu navegador: 1) Clica com o botão direito 2) Escolhe "Inspecionar" 3) Clica na aba da consola.',
+      skip_video: '[AI_TRANSLATION]Saltar vídeo',
+      unavailable: '[AI_TRANSLATION]Indisponível',
+    },
+
+    browser_recommendation: {
+      title: '[AI_TRANSLATION]CodeCombat funciona melhor no Chrome!',
+      pitch_body: '[AI_TRANSLATION]Para a melhor experiência no CodeCombat, recomendamos usar a versão mais recente do Chrome. Faz o download da última versão do Chrome ao clicar no botão abaixo!',
+      download: '[AI_TRANSLATION]Download Chrome',
+      ignore: '[AI_TRANSLATION]Ignorar  ',
+    },
+
+    admin: {
+      license_type_full: '[AI_TRANSLATION]Cursos Completos',
+      license_type_customize: '[AI_TRANSLATION]Personalizar Cursos',
+    },
+
+    events: {
+      title: '[AI_TRANSLATION]Eventos do CodeCombat',
+      main_title: '[AI_TRANSLATION]Eventos do CodeCombat',
+      main_description: '[AI_TRANSLATION]Os eventos importantes do CodeCombat na China',
+      dashboard: '[AI_TRANSLATION]Painel de eventos',
+      online_classes: '[AI_TRANSLATION]Aulas Online',
+      my_classes: '[AI_TRANSLATION]As Minhas Aulas Online',
+      classes_stats: '[AI_TRANSLATION]Estatísticas das Aulas Online',
+      //    name: "Name",
+      class_name: '[AI_TRANSLATION]Nome da Classe',
+      description: '[AI_TRANSLATION]Descrição  ',
+      owner: '[AI_TRANSLATION]Proprietário',
+      //    type: "Type",
+      //    members: "Members",
+      start_date: '[AI_TRANSLATION]Data de Início',
+      end_date: '[AI_TRANSLATION]Tempo de Termino',
+      time_range: '[AI_TRANSLATION]Intervalo de Tempo',
+      rrule: '[AI_TRANSLATION]Regras de Recorrência',
+      add_member: '[AI_TRANSLATION]Adiciona Membro',
+      class_count: '[AI_TRANSLATION]Contagem das Aulas',
+      done: '[AI_TRANSLATION]Lições Terminadas',
+      attendance: '[AI_TRANSLATION]Presença',
+      course_description: '[AI_TRANSLATION]Notas do Professor',
+      teacher_notes: '[AI_TRANSLATION]Notas do Professor',
+      levels_completed: '[AI_TRANSLATION]Níveis Completados',
+      no_levels_completed: '[AI_TRANSLATION]Nenhum Nível Concluído Encontrado',
+      no_teacher_notes: '[AI_TRANSLATION]Nenhuma Nota do Professor Encontrada',
+      no_video_recording: '[AI_TRANSLATION]Nenhuma Gravação de Vídeo Encontrada',
+      reply: '[AI_TRANSLATION]Responder',
+      video_recording: '[AI_TRANSLATION]Gravação de Vídeo',
+      import_from_class: '[AI_TRANSLATION]Importar da Turma  ',
+      link_google_calendar: '[AI_TRANSLATION]Ligar com Google Calendar',
+      sync_to_google: '[AI_TRANSLATION]Sincronizar com o Google Calendar',
+      synced_to_google: '[AI_TRANSLATION]Sincronizado com o Google Calendar',
+      google_calendar_attendees: '[AI_TRANSLATION]Participantes do Google Calendar',
+      calendar: '[AI_TRANSLATION]Calendário',
+      edit_instance_tab_desc: '[AI_TRANSLATION]Editar a instância única deste evento, para editar todos os eventos, veja a aba de edição',
+      edit_event_tab_desc: '[AI_TRANSLATION]Editar o evento completo, para editar uma única instância deste evento, veja a aba de instância',
+      edit_members_tab_desc: '[AI_TRANSLATION]Editar o membro deste evento, a data de início depende da data da instância, então selecione a primeira instância para o novo membro',
+      lessons_count_desc: '[AI_TRANSLATION]O número total de lições deste membro, normalmente é o mesmo que o número de instâncias do evento, mas pode ser diferente se o membro for adicionado após o início do evento ou sair antes do término do evento.',
+      sync_to_google_desc: '[AI_TRANSLATION]Sincronizar este evento no TEU calendário do google, em vez do calendário do proprietário. E só pode funcionar com o gmail do CodeCombat.',
+      no_data_display: '[AI_TRANSLATION]Sem dados para mostrar',
+      meetingLink: '[AI_TRANSLATION]Link de Encontro',
+      time_zone: '[AI_TRANSLATION]Zona Horária',
+      timezone_tips: '[AI_TRANSLATION]Nota - O teu fuso horário:  ',
+    },
+
+    teacher_dashboard: {
+      lock: '[AI_TRANSLATION]Trancar  ',
+      unlock: '[AI_TRANSLATION]Desbloquear',
+      lock_until_date: '[AI_TRANSLATION]Bloqueado até data  ',
+      skip: '[AI_TRANSLATION]Saltar',
+      unskip: '[AI_TRANSLATION]Parar de Saltar',
+      make_optional: '[AI_TRANSLATION]Tornar opcional',
+      remove_optional: '[AI_TRANSLATION]Remover Opcional',
+      //    until_date: "until __date__",
+      unassign: '[AI_TRANSLATION]Desatribuir',
+      locked: '[AI_TRANSLATION]Bloqueado  ',
+      locked_by_previous: '[AI_TRANSLATION]Bloqueado pelo nível anterior  ',
+      locked_with_timeframe: '[AI_TRANSLATION]Bloqueado  ',
+      skipped: '[AI_TRANSLATION]Saltado',
+      optional: '[AI_TRANSLATION]Opcional',
+      assigned: '[AI_TRANSLATION]Atribuído',
+      unlocked: '[AI_TRANSLATION]Desbloqueado',
+      unassigned: '[AI_TRANSLATION]Não atribuído',
+      complete: '[AI_TRANSLATION]Completo',
+      progress: '[AI_TRANSLATION]Em Progresso',
+      choose_course: '[AI_TRANSLATION]Clica para Selecionar da Lista.',
+      teacher_locked_message: '[AI_TRANSLATION]O teu professor bloqueou o próximo nível.',
+      plan_your_class_title: '[AI_TRANSLATION]Planeia a tua primeira aula por',
+      plan_your_class1: '[AI_TRANSLATION]Vendo informações de progressão do curso',
+      plan_your_class2: '[AI_TRANSLATION]Pré-visualizar slides da lição e atividades de extensão',
+      plan_your_class3: '[AI_TRANSLATION]Experimenta o primeiro capítulo de graça',
+      click_dismiss: '[AI_TRANSLATION]Clica para Descartar.',
+      track_progress: '[AI_TRANSLATION]Acompanhar Progresso',
+      track_progress_desc: '[AI_TRANSLATION]Clica na aula que acabaste de criar para ver o progresso detalhado dos alunos.',
+      add_classes_title: '[AI_TRANSLATION]Adiciona Classes Aqui',
+      add_classes: '[AI_TRANSLATION]Adiciona aulas e começa os alunos com o primeiro capítulo grátis!',
+      all_classes: '[AI_TRANSLATION]Todas as Classes',
+      my_licenses: '[AI_TRANSLATION]As Minhas Licenças',
+      //    resource_hub: "Teacher Toolkit",
+      pd: '[AI_TRANSLATION]Desenvolvimento Profissional',
+      pd_short: '[AI_TRANSLATION]PD',
+      apcsp: '[AI_TRANSLATION]APCSP',
+      curriculum_guide: '[AI_TRANSLATION]Guia de Currículo',
+      curriculum: '[AI_TRANSLATION]Currículo',
+      coming_soon: '[AI_TRANSLATION]Em breve!',
+      add_class: '[AI_TRANSLATION]Adiciona Nova Turma',
+      no_licenses_yet: '[AI_TRANSLATION]Sem licenças ainda',
+      req_licenses: '[AI_TRANSLATION]Solicitar Licenças',
+      license_ratio_used: '[AI_TRANSLATION]__totalUsedLicenses__ de __totalSpots__',
+      licenses_applied: '[AI_TRANSLATION]Licenças Aplicadas',
+      student_projects: '[AI_TRANSLATION]Projetos dos Estudantes',
+      no_classes_yet: '[AI_TRANSLATION]Ainda sem aulas',
+      exemplar_project: '[AI_TRANSLATION]Projeto Exemplar',
+      capstone_proj_for: '[AI_TRANSLATION]Projeto de Conclusão para __courseName__',
+      project_rubric: '[AI_TRANSLATION]Rubrica de Projeto',
+      select_chapter: '[AI_TRANSLATION]Selecionar Capítulo',
+      select_course: '[AI_TRANSLATION]Selecionar Curso',
+      concept_flag: '[AI_TRANSLATION]Bandeira de Conceito  ',
+      support_learning: '[AI_TRANSLATION]Apoio ao Progresso dos Estudantes',
+      concept_flag_desc: '[AI_TRANSLATION]Mais de 50% da turma tentou um Concept Check 3 ou mais vezes.',
+      concept_flag_desc2: '[AI_TRANSLATION]O estudante tentou um Verificação de Conceito 3 ou mais vezes.',
+      click_progress_dot_tip: '[AI_TRANSLATION]Dica: Clica nas bolhas de progresso para mais detalhes',
+      color_code: '[AI_TRANSLATION]Código de Cores',
+      content_guide: '[AI_TRANSLATION]Guia de Conteúdo',
+      //    story: "Story",
+      cutscenes: '[AI_TRANSLATION]Cenas Cortadas',
+      cutscenes_tooltip: '[AI_TRANSLATION]<h3>Cena</h3><p>Vídeos curtos que explicam partes da narrativa épica de Ozaria.</p>',
+      cinematics: '[AI_TRANSLATION]Cinemáticos',
+      concept_checks: '[AI_TRANSLATION]Verificações de Conceitos  ',
+      //    practice_level: "Practice Level",
+      practice_levels: '[AI_TRANSLATION]Níveis de Prática',
+      //    extra_practice: "Extra Practice",
+      challenge_levels: '[AI_TRANSLATION]Níveis de Desafio',
+      capstone_levels: '[AI_TRANSLATION]Níveis do Projeto Final',
+      //    intro: "Intro",
+      practice: '[AI_TRANSLATION]Prática',
+      assess: '[AI_TRANSLATION]Avaliar',
+      view_options: '[AI_TRANSLATION]Ver Opções',
+      manage_class: '[AI_TRANSLATION]Gerir Turma',
+      assign_content: '[AI_TRANSLATION]Atribuir Conteúdo',
+      remove_students: '[AI_TRANSLATION]Remover Estudantes',
+      revoke_licenses: '[AI_TRANSLATION]Revogar Licenças',
+      remaining_licenses: '[AI_TRANSLATION]__remaining__ licença(s) restantes',
+      start_date: '[AI_TRANSLATION]Início: __date__',
+      end_date: '[AI_TRANSLATION]Terminar: __date__',
+      license_questions: '[AI_TRANSLATION]Tens perguntas sobre como aplicar ou revocar licenças?',
+      need_more_licenses: '[AI_TRANSLATION]Precisas de mais licenças? Vamos ajudar-te a criar uma solução que atenda às tuas necessidades.',
+      see_also_our: '[AI_TRANSLATION]Veja também o nosso',
+      for_more_funding_resources: '[AI_TRANSLATION]para saber como aproveitar fontes de financiamento do CARES Act, como o ESSER e o GEER.',
+      support_oz: '[AI_TRANSLATION]support@ozaria.com',
+      standards_alignment: '[AI_TRANSLATION]Alinhamento de Padrões',
+      standards_sample: '[AI_TRANSLATION]Um exemplo dos padrões abordados neste capítulo:',
+      add_course_to_classroom: '[AI_TRANSLATION]Adiciona Curso',
+      play_chapter: '[AI_TRANSLATION]Jogar Capítulo',
+      play_course: '[AI_TRANSLATION]Jogar Curso',
+      class_time_range: '[AI_TRANSLATION]Hora da Classe (Intervalo):',
+      in_game_play_time: '[AI_TRANSLATION]Tempo de Jogo:',
+      class_time: '[AI_TRANSLATION]Hora da Classe',
+      solution_guide: '[AI_TRANSLATION]Guia de Solução',
+      module: '[AI_TRANSLATION]Módulo',
+      need_licenses_tooltip: "[AI_TRANSLATION]<h3>Precisamos de licenças para aceder a este conteúdo!</h3><p>Por favor visita a página <a href='/teachers/licenses'>Minhas Licenças</a> para mais informações.</p>",
+      lesson_slides_tooltip: '[AI_TRANSLATION]<h3>Slides da Aula</h3><p>Slides de apresentação para download, passo a passo, para guiar os alunos através dos objetivos de aprendizagem do módulo.</p>',
+      project_rubric_tooltip: '[AI_TRANSLATION]<h3>Rubrica do Projeto</h3><p>Rubrica de avaliação do Projeto Capstone para download e modificação</p>',
+      exemplar_projects_tooltip: '[AI_TRANSLATION]<h3>Projeto Exemplar</h3><p>Visualização ao vivo do Projeto Capstone Exemplar</p>',
+      add_course_to_classroom_tooltip: '[AI_TRANSLATION]<h3>Adicionar Curso à Turma</h3><p>Este curso ainda não está na sua turma. Para adicionar, clica neste botão.</p>',
+      want_to_save_tooltip: '[AI_TRANSLATION]<h3>Queres guardar o teu progresso?</h3><p>Por favor cria uma conta de aluno, ou vai a <i>Minha Conta / Testar como Aluno</i> e joga Ozaria como aluno se quiseres guardar o teu progresso.</p>',
+      want_to_save_tooltip_coco: '[AI_TRANSLATION]<h3>Queres guardar o teu progresso?</h3><p>Por favor cria uma conta de aluno, ou vai a <i>Minha Conta / Testar como Aluno</i> e joga CodeCombat como aluno se quiseres guardar o teu progresso.</p>',
+      intro_explain_tooltip: '[AI_TRANSLATION]<b>"Intros"</b> introduzem novos conceitos ou avançam na trama de uma forma estruturada. Normalmente incluem Cenas Cinemáticas e/ou Verificações de Conceito.',
+      chapter_num: '[AI_TRANSLATION]Capítulo __num__',
+      read: '[AI_TRANSLATION]Apenas Visualizar',
+      write: '[AI_TRANSLATION]Acesso Completo',
+      read_blurb: '[AI_TRANSLATION]Apenas Visualizar permite que o professor adicionado veja a sua turma e o progresso dos alunos sem a possibilidade de fazer alterações na sua turma.',
+      write_blurb: '[AI_TRANSLATION]Acesso Completo dá aos professores adicionados a capacidade de fazer modificações na tua turma (adicionar/remover alunos, atribuir capítulos, modificar licenciamento)',
+      shared_with_none: '[AI_TRANSLATION]Esta turma não é partilhada com outros professores atualmente.',
+      shared_with: '[AI_TRANSLATION]Partilhado com',
+      share_info: '[AI_TRANSLATION]Para dar acesso à turma a outros professores, adiciona os emails abaixo.',
+      class_owner: '[AI_TRANSLATION]Dono da Classe',
+      share: '[AI_TRANSLATION]Partilhar  ',
+      add: '[AI_TRANSLATION]Adicionar',
+      note: '[AI_TRANSLATION]Nota  ',
+      lock_or_skip_levels: '[AI_TRANSLATION]Trancar ou Saltar Níveis  ',
+      level_access_status_blurb: "[AI_TRANSLATION]Quando escolhes saltar um nível, ele terá os status 'bloqueado' e 'opcional'. Retirar a opção de saltar o nível vai tirar ambos os status 'bloqueado' e 'opcional'.",
+      reset_progress: '[AI_TRANSLATION]Reiniciar Progresso',
+      export_progress: '[AI_TRANSLATION]Exportar Progresso',
+      assessments_tab: '[AI_TRANSLATION]Avaliações',
+      ai_hackstack_junior_tab: '[AI_TRANSLATION]AI HackStack Jr  ',
+      switch_on: '[AI_TRANSLATION]Em',
+      switch_off: '[AI_TRANSLATION]Desligado',
+      ai_league: '[AI_TRANSLATION]Ligas de IA',
+      version_old: '[AI_TRANSLATION]Antigo',
+      version_new: '[AI_TRANSLATION]Novo',
+      dashboard_version: '[AI_TRANSLATION]Versão do Painel de Controlo',
+      arena_days_left: '[AI_TRANSLATION]Dias restantes na Temporada __season__, __arenaName__:',
+      arena_days_elapse: '[AI_TRANSLATION]Temporada __season__, __arenaName__ terminou __time__',
+      global_stats_vs_team_stats: '[AI_TRANSLATION]Estatísticas globais vs estatísticas da equipa',
+      global_stats: '[AI_TRANSLATION]Estatísticas globais',
+      show_stats_for_all_players_and_teams: '[AI_TRANSLATION]mostrar estatísticas para todos os jogadores e equipes.',
+      team_stats: '[AI_TRANSLATION]Estatísticas de Equipa',
+      show_stats_for_individuals_playing_on_the_same_team: '[AI_TRANSLATION]mostrar estatísticas para indivíduos jogando na mesma equipe.',
+      for_each_class_you_add_a_team_will_be_automatically_created_for_the_students_in_that_class: '[AI_TRANSLATION]Para cada turma que adicionares, uma equipa será automaticamente criada para os alunos dessa turma.',
+      view_team_page: '[AI_TRANSLATION]Ver Página da Equipa',
+      no_modifiers_changed: '[AI_TRANSLATION]Níveis já modificados para estes alunos',
+      no_modifiers_changed_unlocks_skipped: '[AI_TRANSLATION]Parece que tentaste desbloquear níveis que não estão atualmente bloqueados. Nota que se o teu nível selecionado aparece como bloqueado, pode ser porque um nível anterior está bloqueado. Para continuar, garante que desbloqueias o nível anterior primeiro.\n',
+      view_custom_league: '[AI_TRANSLATION]Ver Liga Personalizada',
+      view_global_league: '[AI_TRANSLATION]Ver Liga Global',
+      refresh_progress: '[AI_TRANSLATION]Atualizar Progresso',
+      assign_content_first: '[AI_TRANSLATION]Por favor, assegura-te de que o conteúdo é atribuído aos alunos antes de ajustares os níveis de acesso',
+      failed_attempts: '[AI_TRANSLATION]Tentativas Falhadas',
+      no_failed_attempts: '[AI_TRANSLATION]Nenhuma Tentativa Falhada',
+      failed_attempts_subtext: '[AI_TRANSLATION]Número de vezes que a opção incorreta foi selecionada',
+      open_project: '[AI_TRANSLATION]Abrir Projeto',
+      create_class_hackstack: '[AI_TRANSLATION]Por favor, cria uma Nova Classe para aceder ao AI HackStack',
+      add_club: '[AI_TRANSLATION]Adiciona Novo Clube  ',
+      test_student_only: '[AI_TRANSLATION](Apenas para Estudantes de Teste)  ',
+      ready_to_review: '[AI_TRANSLATION]Pronto para Rever  ',
+      ozaria_hs_modal_title: '[AI_TRANSLATION]Acede ao Hackstack da IA Exclusivamente no CodeCombat  ',
+      ozaria_hs_modal_blurb: '[AI_TRANSLATION]Os educadores podem agora aceder ao AI Hackstack diretamente no **[https://codecombat.com/teachers/classes]CodeCombat** usando as mesmas credenciais do Ozaria. Para maior comodidade, podes importar as tuas turmas do Ozaria para o CodeCombat facilmente.  ',
+      //    ozaria_ai_league_modal_title: "Access AI League Exclusively on CodeCombat",
+      //    ozaria_ai_league_modal_blurb: "Educators can now access AI League directly on **[https://codecombat.com/teachers/ai-league]CodeCombat** using the same credentials as Ozaria. For added convenience, you can easily import your classes from Ozaria into CodeCombat.",
+      //    completed_all_practice_levels: "The student has successfully completed all practice levels.",
+      //    played_some_practice_levels: "The student has started working on the practice levels.",
+      //    ai_league_start_title: "Welcome to AI League!",
+      //    ai_league_start_blurb: "Our Getting Started guide walks you through everything you need to know - from setting up your first class to running your first tournament.",
+      //    ai_league_curriculum_title: "AI League Curriculum",
+      //    ai_league_curriculum_blurb: "Access our comprehensive curriculum guides designed specifically for AI League arenas. These resources help you introduce competitive coding concepts and teach strategic thinking.",
+      //    ai_league_custom_title: "Custom AI League Tournaments",
+      //    ai_league_custom_blurb: "Create your own customized tournaments to engage your students! Select from our library of coding arenas and set competition dates, whether it's a classroom challenge or a school-wide competition.",
+      //    this_project_is_remixed: "This project is remixed.",
+      //    view_original_project: "View Original Project",
+      //    activate_license: "Activate License",
+      //    violation: "Violation",
+      //    safety_violations: "Safety Violations",
+      //    collapse: "Collapse",
+    },
+
+    outcomes: {
+      outcomes_report: '[AI_TRANSLATION]Relatório de Resultados',
+      customize_report: '[AI_TRANSLATION]Personalizar Relatório',
+      done_customizing: '[AI_TRANSLATION]Personalização concluída',
+      start_date: '[AI_TRANSLATION]Data de início',
+      end_date: '[AI_TRANSLATION]Data de Termino',
+      country: '[AI_TRANSLATION]País.',
+      school_admin: '[AI_TRANSLATION]Administrador Escolar',
+      school_network: '[AI_TRANSLATION]Rede Escolar',
+      school_subnetwork: '[AI_TRANSLATION]Subrede Escolar',
+      classroom: '[AI_TRANSLATION]Sala de Aula',
+      view_outcomes_report: '[AI_TRANSLATION]Ver Relatório de Resultados',
+      key_concepts: '[AI_TRANSLATION]Conceitos Chave',
+      code_languages: '[AI_TRANSLATION]Linguagens de Código',
+      using_codecombat: '[AI_TRANSLATION]Usando o motor de aprendizagem personalizado do CodeCombat...',
+      //    wrote: "wrote...",
+      across_an_estimated: '[AI_TRANSLATION]atravessando uma estimativa...',
+      in: '[AI_TRANSLATION]em...',
+      include: '[AI_TRANSLATION]Incluir',
+      archived: '[AI_TRANSLATION]Arquivado',
+      max: '[AI_TRANSLATION]Máximo.',
+      multiple: '[AI_TRANSLATION]s',
+      computer_program: '[AI_TRANSLATION]programa de computador',
+      computer_programs: '[AI_TRANSLATION]programas de computador',
+      line_of_code: '[AI_TRANSLATION]linha de código',
+      lines_of_code: '[AI_TRANSLATION]linhas de código',
+      coding_hours: '[AI_TRANSLATION]horas de codificação',
+      expressed_creativity: '[AI_TRANSLATION]e exprimiu criatividade ao construir',
+      report_content_1: '[AI_TRANSLATION]jogo independente e web',
+      project: '[AI_TRANSLATION]projeto',
+      projects: '[AI_TRANSLATION]projetos',
+      progress_stats: '[AI_TRANSLATION]Estatísticas de progresso com base numa amostra de __sampleSize__ de __populationSize__ estudantes.',
+      standards_coverage: '[AI_TRANSLATION]Cobertura de Padrões',
+      coverage_p1_coco: '[AI_TRANSLATION]O currículo completo do CodeCombat cobre os principais padrões de programação em vários frameworks amplamente adotados, incluindo os da Sociedade Internacional de Tecnologia em Educação (ISTE), da Associação de Professores de Ciência da Computação (CSTA) e do Framework de Ciência da Computação K-12.',
+      coverage_p1_ozar: '[AI_TRANSLATION]O currículo completo da Ozaria cobre os principais padrões de programação em vários frameworks amplamente adotados, incluindo os da Sociedade Internacional de Tecnologia em Educação (ISTE), da Associação de Professores de Ciência da Computação (CSTA) e do Framework de Ciência da Computação K-12.',
+      coverage_p2_coco: '[AI_TRANSLATION]No CodeCombat, acreditamos que os alunos estarão mais preparados tanto para empregos reais em computação como para estudos avançados em ciências da computação utilizando código real, escrito em linguagens de programação completas. Assim, em vez de usar linguagens de programação visuais baseadas em blocos para iniciantes, ensinamos Python e JavaScript – as mesmas linguagens amplamente usadas hoje por empresas que vão desde a Google até o New York Times.',
+      coverage_p2_ozar: '[AI_TRANSLATION]Ozaria foi criado pela CodeCombat, a empresa de aprendizagem baseada em jogos. Acreditamos que os estudantes estarão mais preparados tanto para trabalhos de computação no mundo real quanto para estudos futuros de ciência da computação ao usar código real, digitado em linguagens de programação completas. Por isso, em vez de usar linguagens de programação visuais baseadas em blocos para iniciantes, ensinamos Python e JavaScript – as mesmas linguagens amplamente utilizadas hoje por empresas que vão desde a Google até o New York Times.',
+      questions: '[AI_TRANSLATION]Tens perguntas ou queres mais informações? Estamos aqui para ajudar.',
+      reach_out_manager: '[AI_TRANSLATION]Contacta o teu Gestor de Conta __name__ em ',
+      stats_include: '[AI_TRANSLATION]As estatísticas incluem __number__ outros __name__',
+      include_other_product: '[AI_TRANSLATION]Mostrar estatísticas do __product__',
+      show_other_product: '[AI_TRANSLATION]Mostrar estatísticas do __product__',
+      show_license_stats: '[AI_TRANSLATION]Mostrar Detalhes das Estatísticas da Licença',
+      show_license_summary: '[AI_TRANSLATION]Mostrar Resumo da Licença',
+      license_stats: '[AI_TRANSLATION]Estatísticas de Licença',
+      license_template: '[AI_TRANSLATION]<b>Licenças</b>: __used__ usadas, __available__ disponíveis',
+      licensed_teachers: '[AI_TRANSLATION]<b>Professores com licenças</b>: __teachers__',
+      licensed_schools: '[AI_TRANSLATION]<b>Escolas com licenças</b>: __schools__',
+      //    students: "Students",
+      //    teachers: "Teachers",
+      licensesUsed: '[AI_TRANSLATION]Licenças Usadas',
+      //    schools: "Schools",
+      top_teacher_info: '[AI_TRANSLATION]O Professor __A__, __B__ e __n__ outros professores usam a nossa plataforma',
+      top_teacher_info_1: '[AI_TRANSLATION]O Professor __A__ e __B__ usam a nossa plataforma',
+      top_teacher_info_2: '[AI_TRANSLATION]O Professor __A__ usa a nossa plataforma',
+      ai_league: '[AI_TRANSLATION]Ligas de IA',
+      ai_league_stats: '[AI_TRANSLATION]__n__ jogadores jogaram nas arenas da Liga de IA',
+    },
+
+    efficacy: {
+      ozaria_efficacy: '[AI_TRANSLATION]Eficácia de Ozaria',
+      header_subtitle: '[AI_TRANSLATION]Ozaria comprovou ter um impacto positivo nos resultados de aprendizagem dos alunos que mais importam tanto para os alunos como para os educadores.',
+      //    pathway_dialog_line1: "while True:",
+      pathway_dialog_line2: '[AI_TRANSLATION]hero.moveDown(times)',
+      pathway_dialog_line3: '[AI_TRANSLATION]hero.moveRight(times)',
+      exploring_creativity: '[AI_TRANSLATION]Explorando a Criatividade',
+      exploring_creativity_description: '[AI_TRANSLATION]Quase todos os alunos pesquisados disseram que adoraram poder criar o seu próprio jogo no final de cada capítulo.',
+      essential_skills: '[AI_TRANSLATION]Habilidades Essenciais',
+      essential_skills_description: '[AI_TRANSLATION]Professores/as consideraram Ozaria um currículo superior para ensinar conceitos complexos de programação, assim como essenciais competências do século XXI, tais como resolução de problemas e raciocínio, competências de pensamento crítico e computacional.',
+      fun_engaging: '[AI_TRANSLATION]Divertido e Envolvente',
+      fun_engaging_description: '[AI_TRANSLATION]Ozaria foi relatado como um currículo divertido e envolvente. Os estudantes destacaram especialmente o quão eficaz foi para ensinar a codificação baseada em texto, e como os tutoriais, dicas e mensagens de erro ofereceram o suporte adequado.',
+      easy_to_use: '[AI_TRANSLATION]Fácil de Usar',
+      easy_to_use_description: '[AI_TRANSLATION]Tanto o professor quanto os alunos acharam a plataforma fácil de implementar e usar.',
+      mcintosh_study_title: '[AI_TRANSLATION]Aumentar os Ganhos de Pontuação em Avaliações',
+      mcintosh_middle_school: '[AI_TRANSLATION]McIntosh Middle School.',
+      mcintosh_study_description: '[AI_TRANSLATION]Um professor novato com experiência em programação de nível avançado ensinou três grupos de alunos. Cada grupo foi estudado ao longo de um semestre inteiro.  ',
+      study_highlights_title: '[AI_TRANSLATION]Destaques dos resultados do estudo:',
+      mcintosh_study_highlight_1: '[AI_TRANSLATION]98% dos alunos classificaram o seu nível de entusiasmo pelo Ozaria como alto ou extremamente alto  ',
+      mcintosh_study_highlight_2: '[AI_TRANSLATION]100% dos alunos obtiveram mais de 70% nas avaliações intermédias e finais',
+      read_the_study: '[AI_TRANSLATION]Ler o Estudo (PDF)',
+      mrms_study_title: '[AI_TRANSLATION]Ganhando Confiança em Ciência da Computação',
+      mountain_ridge_middle_school: '[AI_TRANSLATION]Escola Secundária Mountain Ridge',
+      mrms_study_description: '[AI_TRANSLATION]Um professor experiente com início em experiência de programação ensinou dois grupos de estudantes. Cada grupo foi estudado ao longo de um semestre completo.',
+      mrms_study_highlight_1: '[AI_TRANSLATION]Os alunos tiveram um ganho médio de 33% entre a avaliação inicial e a avaliação final.',
+      mrms_study_highlight_2: '[AI_TRANSLATION]Tanto o professor como os alunos acharam o Ozaria divertido, envolvente e fácil de usar.',
+      graph1_description: '[AI_TRANSLATION]Os alunos tiveram um ganho médio de 47% entre a avaliação inicial e a avaliação final.',
+      graph2_description: '[AI_TRANSLATION]Mais de 90% dos alunos classificaram o seu nível de confiança no código como Confiante ou Extremamente Confiante após usar Ozaria.',
+      quote_section_content: '[AI_TRANSLATION]Uma coisa que agora sou capaz de fazer que não conseguia antes é realmente acreditar que consigo programar.',
+      quote_section_footer: '[AI_TRANSLATION]Estudante, Escola Secundária Mountain Ridge',
+      teacher_quote1_content: '[AI_TRANSLATION]O currículo manteve os alunos completamente empenhados. Eles adoraram a história e os personagens. Mais importante ainda, ganharam confiança na sua capacidade de resolver problemas complexos com os conceitos que aprenderam em Ozaria.',
+      teacher_quote1_footer1: '[AI_TRANSLATION]Ronnie Cox, Professor',
+      teacher_quote1_footer2: '[AI_TRANSLATION]McIntosh Middle School.',
+      student_quote_content: '[AI_TRANSLATION]Gosto que possas cometer um erro e o jogo o corrija ou te diga que há um erro. Muitos principiantes cometem muitos erros ao programar e às vezes não sabem programar, então não conseguem corrigir os erros porque não sabem o que está errado. O Ozaria é o jogo de programação perfeito para principiantes.',
+      student_quote_footer: '[AI_TRANSLATION]Estudante, Escola Secundária McIntosh',
+      teacher_quote2_content: '[AI_TRANSLATION]Tenho adorado usar Ozaria na minha aula nos últimos três anos. Os meus alunos têm gostado imenso da história enquanto aprendem Python num ambiente de aprendizagem autónoma. Recomendo vivamente o Ozaria para professores que sabem pouco ou nada sobre programação, pois o suporte para professores é muito detalhado.',
+      teacher_quote2_footer1: '[AI_TRANSLATION]Lynette Personett, Professora',
+      teacher_quote2_footer2: '[AI_TRANSLATION]Escola Secundária Mountain Ridge',
+      commitment_title: '[AI_TRANSLATION]Compromisso do CodeCombat com a Eficácia',
+      commitment_description: '[AI_TRANSLATION]Comprometemo-nos a garantir que os nossos produtos têm um impacto positivo e mensurável nos resultados de aprendizagem. Criamos experiências de aprendizagem significativas e usamos práticas baseadas em evidências para conceber conteúdos que realizem os resultados que mais importam para professores e alunos.',
+      commitment_question: '[AI_TRANSLATION]Interessado em implementar um currículo de CS eficaz e impactante na tua escola? ',
+      //    teachers_love_codecombat: "Teachers Love CodeCombat",
+      teachers_love_description: '[AI_TRANSLATION]Explora o impacto do nosso produto irmão, CodeCombat, no ensino e aprendizagem de Ciências da Computação!',
+      //    teachers_love_box1: "Report that their students enjoy using CodeCombat to learn how to code",
+      //    teachers_love_box2: "Would recommend CodeCombat to other computer science teachers",
+      //    teachers_love_box3: "Say that CodeCombat helps them support students’ problem solving abilities",
+      classroom_image: '[AI_TRANSLATION]Sala de Aula',
+      ozaria_branding_logo: '[AI_TRANSLATION]Logótipo de Marca Ozaria',
+      dog: '[AI_TRANSLATION]Cão',
+      //    hero: "Hero",
+      teacher: '[AI_TRANSLATION]Professor  ',
+    },
+
+    league: {
+      student_register_1: '[AI_TRANSLATION]Torna-te o próximo Campeão de IA!',
+      student_register_2: '[AI_TRANSLATION]Regista-te, cria a tua equipa ou junta-te a outras equipas para começar a competir.',
+      student_register_3: '[AI_TRANSLATION]Fornece a informação abaixo para ser elegível para prémios.',
+      teacher_register_1: '[AI_TRANSLATION]Regista-te para aceder à página do perfil da tua turma e começar a tua aula.',
+      general_news: '[AI_TRANSLATION]Recebe emails com as últimas notícias e atualizações sobre as nossas Ligas de IA e torneios.',
+      how_it_works1: '[AI_TRANSLATION]Junta-te a uma __team__',
+      seasonal_arena_tooltip: '[AI_TRANSLATION]Batalha contra os teus colegas de equipa e outros enquanto usas as tuas melhores habilidades de programação para ganhar pontos e subir na classificação da Liga de IA antes de enfrentar a arena do Campeonato no final da temporada.',
+      summary: '[AI_TRANSLATION]A Liga de IA do CodeCombat é única pois é tanto um simulador de batalhas de IA competitivo como um motor de jogo para aprender código real em Python e JavaScript.',
+      join_now: '[AI_TRANSLATION]Inscreve-te Já',
+      tagline: '[AI_TRANSLATION]A Liga de IA do CodeCombat combina o nosso currículo baseado em projetos alinhado com os padrões, um jogo de código envolvente baseado em aventuras, e o nosso torneio global anual de codificação em IA numa competição académica organizada como nenhuma outra.',
+      ladder_subheader: '[AI_TRANSLATION]Usa as tuas habilidades de programação e estratégias de batalha para subir na classificação!',
+      earn_codepoints: '[AI_TRANSLATION]Ganha pontos de código ao completar níveis',
+      codepoints: '[AI_TRANSLATION]CodePoints',
+      free_1: '[AI_TRANSLATION]Acessa arenas multijogador competitivas, leaderboard e campeonatos globais de codificação',
+      free_2: '[AI_TRANSLATION]Ganha pontos por completar níveis de prática e competir em partidas frente-a-frente',
+      free_3: '[AI_TRANSLATION]Junta-te a equipas de codificação competitivas com amigos, família ou colegas de turma',
+      free_4: '[AI_TRANSLATION]Mostra as tuas habilidades de programação e leva prémios incríveis para casa.',
+      compete_season: '[AI_TRANSLATION]Põe todas as habilidades que aprendeste à prova! Compete contra alunos e jogadores de todo o mundo neste emocionante culminar de temporada.',
+      season_subheading1: '[AI_TRANSLATION]Para ambas as arenas de Temporada e Campeonato, cada jogador programa a sua equipa de “Heróis AI” com código escrito em Python, JavaScript, C++, Lua ou Java.',
+      season_subheading2: '[AI_TRANSLATION]O código deles informa as estratégias que os Heróis IA deles vão executar numa batalha direta contra outros concorrentes.',
+      team_derbezt: '[AI_TRANSLATION]Aprende a programar e ganha prémios patrocinados pelo ator, comediante e cineasta mexicano superstar Eugenio Derbez.',
+      invite_link: '[AI_TRANSLATION]Convide jogadores para esta equipa enviando-lhes este link:',
+      public_link: '[AI_TRANSLATION]Partilhar esta classificação de equipa com o seu link público:',
+      //    end_to_end: "Unlike other esports platforms serving schools, we own the structure top to bottom, which means we’re not tied to any game developer or have issues with licensing. That also means we can make custom modifications in-game for your school or organization.",
+      path_success: '[AI_TRANSLATION]A plataforma de jogo encaixa-se num currículo regular de Ciências da Computação, então à medida que os alunos jogam os níveis do jogo, estão a completar trabalhos do curso. Os alunos aprendem a programar e sobre Ciências da Computação enquanto jogam, depois usam essas habilidades em batalhas de arena enquanto praticam e jogam na mesma plataforma.',
+      unlimited_potential: '[AI_TRANSLATION]A nossa estrutura de torneio é adaptável a qualquer ambiente ou caso de uso. Os alunos podem participar num horário designado durante o aprendizado regular, jogar em casa de forma assíncrona ou participar no seu próprio horário.',
+      //    team: "Team",
+      edit_team: '[AI_TRANSLATION]Editar Equipa',
+      start_team: '[AI_TRANSLATION]Criar uma Equipa',
+      leave_team: '[AI_TRANSLATION]Sair da Equipa',
+      join_team: '[AI_TRANSLATION]Junta-te à Equipa',
+      view_team: '[AI_TRANSLATION]Ver Equipa',
+      join_team_name: '[AI_TRANSLATION]Junta-te à Equipa __name__',
+      features: '[AI_TRANSLATION]Funcionalidades',
+      built_in: '[AI_TRANSLATION]Infraestrutura Competitiva Embutida',
+      built_in_subheader: '[AI_TRANSLATION]A nossa plataforma hospeda todos os elementos do processo competitivo, desde tabelas de classificação à plataforma de jogos, ativos e prémios de torneios.',
+      custom_dev: '[AI_TRANSLATION]Desenvolvimento Personalizado',
+      custom_dev_subheader: '[AI_TRANSLATION]Elementos de personalização para a sua escola ou organização estão incluídos, além de opções como páginas de entrada com a marca e personagens no jogo.',
+      comprehensive_curr: '[AI_TRANSLATION]Currículo Abrangente',
+      comprehensive_curr_subheader: '[AI_TRANSLATION]CodeCombat é uma solução de CS alinhada aos padrões que ajuda educadores a ensinar programação real em JavaScript e Python, independentemente da sua experiência.',
+      roster_management: '[AI_TRANSLATION]Ferramentas de Gestão de Plantel',
+      roster_management_subheader: '[AI_TRANSLATION]Acompanhar o desempenho dos alunos no currículo e no jogo, e adicionar ou remover alunos facilmente.',
+      share_flyer: '[AI_TRANSLATION]Partilhar o nosso flyer da Liga de IA com educadores, administradores, pais, treinadores de esports ou outros que possam estar interessados.',
+      download_flyer: '[AI_TRANSLATION]Download Flyer',
+      championship_summary: '[AI_TRANSLATION]A arena do campeonato __championshipArena__ já está aberta! Luta durante o mês de __championshipMonth__ para ganhares prémios na __championshipArena__ __championshipType__.',
+      play_arena_full: '[AI_TRANSLATION]Jogar __arenaName__ __arenaType__',
+      play_arena_short: '[AI_TRANSLATION]Jogar __arenaName__',
+      view_arena_winners: '[AI_TRANSLATION]Ver vencedores de __arenaName__ __arenaType__',
+      arena_type_championship: '[AI_TRANSLATION]Arena do Campeonato',
+      arena_type_regular: '[AI_TRANSLATION]Arena Multijogador',
+      blazing_battle: '[AI_TRANSLATION]Batalha Ardente',
+      infinite_inferno: '[AI_TRANSLATION]Inferno Infinito',
+      mages_might: '[AI_TRANSLATION]Poder dos Magos',
+      sorcerers: '[AI_TRANSLATION]Feiticeiros',
+      giants_gate: '[AI_TRANSLATION]Portão dos Gigantes',
+      colossus: '[AI_TRANSLATION]Colosso',
+      iron_and_ice: '[AI_TRANSLATION]Ferro e Gelo',
+      tundra_tower: '[AI_TRANSLATION]Torre da Tundra',
+      magma_mountain: '[AI_TRANSLATION]Montanha de Magma',
+      lava_lake: '[AI_TRANSLATION]Lago de Lava',
+      desert_duel: '[AI_TRANSLATION]Duelo do Deserto',
+      sandstorm: '[AI_TRANSLATION]Tempestade de Areia',
+      frozen_fortress: '[AI_TRANSLATION]Fortificação Congelada',
+      equinox: '[AI_TRANSLATION]Equinócio',
+      farmers_feud: '[AI_TRANSLATION]Disputa de Fazendeiros',
+      farmscape: '[AI_TRANSLATION]Paisagem de Fazenda',
+      storm_siege: '[AI_TRANSLATION]Cerco à Tempestade',
+      snowhold: '[AI_TRANSLATION]Fortes de Neve',
+      fierce_forces: '[AI_TRANSLATION]Forças Ferozes',
+      anti_gravity: '[AI_TRANSLATION]Anti-Gravidade',
+      solar_skirmish: '[AI_TRANSLATION]Confronto Solar',
+      sunfire: '[AI_TRANSLATION]Fogo Solar',
+      system_shock: '[AI_TRANSLATION]System Shock',
+      supercharged: '[AI_TRANSLATION]Supercarregado',
+      //    pawns_passage: "Pawn's Passage",
+      //    kings_gambit: "King's Gambit",
+      //    strikers_stadium: "Striker's Stadium",
+      //    golden_goal: "Golden Goal",
+      //    turbo_track: "Turbo Track",
+      //    grand_prix: "Grand Prix",
+      season_label: '[AI_TRANSLATION]Temporada __seasonNumber__: __seasonName__',
+      season_1: '[AI_TRANSLATION]Forjado em Chamas',
+      season_2: '[AI_TRANSLATION]Feitiços da Fortuna',
+      season_3: '[AI_TRANSLATION]Era dos Titãs',
+      season_4: '[AI_TRANSLATION]Geadas da Guerra',
+      season_5: '[AI_TRANSLATION]Areias do Tempo',
+      season_6: '[AI_TRANSLATION]Caos de Lava',
+      season_7: '[AI_TRANSLATION]Ponto de Fusão',
+      season_8: '[AI_TRANSLATION]Colheita do Programador',
+      season_9: '[AI_TRANSLATION]Reinado do Código',
+      season_10: '[AI_TRANSLATION]Jogos de Gravidade',
+      season_11: '[AI_TRANSLATION]Destruição de Verão',
+      season_12: '[AI_TRANSLATION]Faísca de Poder',
+      //    season_13: "Checkmate Challenge",
+      //    season_14: "Soccer Showdown",
+      //    season_15: "Racing Rivals",
+      cup: '[AI_TRANSLATION]Taça',
+      blitz: '[AI_TRANSLATION]Blitz',
+      clash: '[AI_TRANSLATION]Conflito',
+      //    season13_announcement_1: "In the depths of ancient ruins, a magical checkerboard arises and the towers comes alive. Get as many pieces to the end of the line!",
+      //    season12_announcement_2: "Collectors fly high, control points emerges, mythical crystals stand tall, as the dungeon expands, the battle is getting fiercer, only the righteous shall be the victor.",
+      //    season12_announcement_1: "Deep in the dungeons, mythical crystals stand tall, collecting energy and mana from abandoned ruins. Summon units, cast spells, and claim victory!",
+      season11_announcement_1: '[AI_TRANSLATION]A competição está a aquecer! Com o sol a brilhar, instala e melhora os teus painéis solares, evita as armadilhas elétricas, coloca caranguejos robôs, e passa através de portais, obtém o máximo de energia solar possível e reclama a vitória!',
+      season10_announcement_1: '[AI_TRANSLATION]Está a escaldar, e rochas de magma estão a irradiar energias poderosas! Invoca unidades e lança feitiços para empurrar as rochas de magma para a área do teu oponente. Adapta-te à gravidade sempre em mudança no campo de batalha!',
+      season9_announcement_1: '[AI_TRANSLATION]Uma batalha épica está a ser travada nos picos gelados de Snowhold Clash para a arena de campeonatos da Temporada 9! Puxa o teu manto para bem perto e o teu código ainda mais perto enquanto utilizas estratégia e algoritmos para alcançar a vitória nesta terra além do céu.',
+      season8_announcement_1: '[AI_TRANSLATION]É época de colheita na Farmscape Blitz Temporada 8! À medida que as folhas mudam, é hora de codificar o teu caminho em torno de obstáculos selvagens e impenetráveis na quinta. Recolhe estrategicamente impulsos vitais para capacitar o teu trabalhador robô e utiliza habilidades especiais para aumentar a produtividade e superar os teus oponentes!',
+      season8_announcement_2: '[AI_TRANSLATION]Nota: Ajustes de balanço da arena podem ocorrer até 15 de agosto. Por isso, volta frequentemente para testar o teu código contra o ranking global.  ',
+      season7_announcement_1: '[AI_TRANSLATION]Testemunha o amanhecer de um novo desafio na Taça do Equinócio! A arena de defesa da torre da Temporada 7 oferece uma mistura única de estratégia, monstros e batalhas contra bosses para conquistas.',
+      season6_announcement_1: '[AI_TRANSLATION]É o absoluto Caos Sideral com o lançamento das finais do Clash do Lago de Lava! Sobrevive e supera a concorrência nesta quente versão do jogo clássico Snake.',
+      season6_announcement_2: '[AI_TRANSLATION]Nota: Ajustes de balanço da arena podem ocorrer até 15 de dezembro. Por isso, volta frequentemente para testar o teu código contra o ranking global.  ',
+      season5_announcement_1: '[AI_TRANSLATION]A Final da Tempestade de Areia está a começar. Nesta arena de basquetebol, tens que convocar os heróis certos, fazer as jogadas certas e marcar mais pontos que o teu oponente para vencer!',
+      season5_announcement_2: '[AI_TRANSLATION]Nota: Ajustes de balanço da arena podem ocorrer até 15 de setembro. Por isso, volta frequentemente para testar o teu código contra o ranking global.  ',
+      season4_announcement_1: '[AI_TRANSLATION]A Final da Tundra Tower Cup está a decorrer. Neste novo olhar sobre o clássico jogo de defesa de torre, deves proteger a tua base da horda de monstros construindo torres e usando anomalias gravitacionais.',
+      season4_announcement_2: '[AI_TRANSLATION]Nota: Ajustes de balanço da arena podem ocorrer até 15 de abril. Por isso, volta frequentemente para testar o teu código contra o ranking global.  ',
+      season3_announcement_1: '[AI_TRANSLATION]Hora de colocar as tuas habilidades de programação à prova na nossa arena final da temporada 3. O Colossus Clash está ao vivo e oferece um novo desafio e uma nova tabela de líderes para subir.',
+      season3_announcement_2: "[AI_TRANSLATION]Precisas de mais prática? Fica na Giant's Gate Arena para melhorares as tuas habilidades. Tens até 14 de dezembro para jogar nas duas arenas. Nota: ajustes de balanço da arena podem ocorrer até 6 de dezembro.",
+      season3_announcement_3: '[AI_TRANSLATION]Grandes prémios disponíveis para os melhores no Colossus Clash:',
+      season2_announcement_1: '[AI_TRANSLATION]Hora de colocar as tuas habilidades de programação à prova na nossa arena final da temporada 2. O Sorcerers Blitz está ao vivo e oferece um novo desafio e uma nova tabela de líderes para subir.',
+      season2_announcement_2: "[AI_TRANSLATION]Precisas de mais prática? Fica na Mage's Might Arena para melhorares as tuas habilidades. Tens até 31 de agosto para jogar nas duas arenas. Nota: ajustes de balanço da arena podem ocorrer até 23 de agosto.",
+      season2_announcement_3: '[AI_TRANSLATION]Grandes prémios disponíveis para os melhores no Sorcerers Blitz:',
+      season1_prize_1: '[AI_TRANSLATION]Bolsa de Estudo de $1,000',
+      season1_prize_2: '[AI_TRANSLATION]RESPAWN Gaming Gear',
+      season1_prize_3: '[AI_TRANSLATION]Avatar Personalizado do CodeCombat',
+      season1_prize_4: '[AI_TRANSLATION]E mais!',
+      season1_prize_hyperx: '[AI_TRANSLATION]Periféricos Premium HyperX',
+      codecombat_ai_league: '[AI_TRANSLATION]Liga de IA do CodeCombat',
+      register: '[AI_TRANSLATION]Registar',
+      not_registered: '[AI_TRANSLATION]Não Registrado',
+      register_for_ai_league: '[AI_TRANSLATION]Regista-te na AI League',
+      world: '[AI_TRANSLATION]Mundo',
+      quickstart_video: '[AI_TRANSLATION]Vídeo de Início Rápido',
+      arena_rankings: '[AI_TRANSLATION]Classificações da Arena',
+      arena_rankings_blurb: '[AI_TRANSLATION]Classificações da arena da Global AI League',
+      arena_rankings_title: '[AI_TRANSLATION]Classificação global para todos os jogadores desta equipa nas arenas da AI League na faixa etária aberta.',
+      competing: '[AI_TRANSLATION]Competindo:',
+      count_student: '[AI_TRANSLATION]estudante',
+      count_students: '[AI_TRANSLATION]estudantes',
+      top_student: '[AI_TRANSLATION]Topo:',
+      //    top_percent: "top",
+      top_of: '[AI_TRANSLATION]de',
+      arena_victories: '[AI_TRANSLATION]Vitórias na Arena',
+      arena_victories_blurb: '[AI_TRANSLATION]Vitórias recentes na arena da Global AI League',
+      arena_victories_title: '[AI_TRANSLATION]A contagem de vitórias é baseada nos últimos 1000 jogos jogados assincronamente por cada jogador em cada uma das arenas da AI League.',
+      //    count_wins: "wins",
+      codepoints_blurb: '[AI_TRANSLATION]1 CodePoint = 1 linha de código escrita',
+      codepoints_title: '[AI_TRANSLATION]Ganha-se um CodePoint por cada linha de código não vazia necessária para vencer o nível. Cada nível vale a mesma quantidade de CodePoints de acordo com a sua solução padrão, independentemente do aluno ter escrito mais ou menos linhas de código.',
+      count_total: '[AI_TRANSLATION]Total:',
+      join_teams_header: '[AI_TRANSLATION]Junta-te às Equipas e Ganha Coisas Fixes!',
+      join_team_hyperx_title: '[AI_TRANSLATION]Junta-te à Equipa HyperX, Obtém 10% de Desconto',
+      join_team_hyperx_blurb: '[AI_TRANSLATION]30 membros da equipa serão escolhidos aleatoriamente para ganhar um tapete de rato gaming grátis!',
+      join_team_derbezt_title: '[AI_TRANSLATION]Junta-te à Equipa DerBezt, Ganha um Herói Exclusivo',
+      join_team_derbezt_blurb: '[AI_TRANSLATION]Desbloqueia o herói Armando Hoyos da superestrela mexicana Eugenio Derbez!',
+      join_team_ned_title: '[AI_TRANSLATION]Junta-te à Equipa Ned, Desbloqueia o Herói do Ned',
+      join_team_ned_blurb: '[AI_TRANSLATION]Obtém o herói exclusivo com espátula do YouTube star, Try Guy Ned Fulmer!',
+      check_out_all: '[AI_TRANSLATION]Dá uma olhada em todos os\n',
+      pick_best_tournaments: '[AI_TRANSLATION]escolhe as que funcionarem melhor para o teu torneio personalizado!',
+      final_arena: '[AI_TRANSLATION]Arena Final',
+      package_options_and_guide: '[AI_TRANSLATION]Opções de Pacote & Guia de Implementação',
+      custom_tournament: '[AI_TRANSLATION]Para um Torneio Personalizado',
+      you_win: '[AI_TRANSLATION]Podes ganhar',
+      great_prizes: '[AI_TRANSLATION]ótimos prêmios',
+      powered_by: '[AI_TRANSLATION]Alimentado por',
+      grand_prize: '[AI_TRANSLATION]Grande Prémio',
+      scholarship: '[AI_TRANSLATION]Bolsa de Estudo',
+      top_players_win: '[AI_TRANSLATION]Os três melhores jogadores em cada divisão ganham: periféricos HyperX pro',
+      team_hyperx: '[AI_TRANSLATION]Equipa HyperX',
+      //    earn_more_gear: "you could earn even more gear!",
+      prize_footer1: '[AI_TRANSLATION]Atribuído ao jogador com melhor desempenho em todos os grupos etários.',
+      prize_footer2: '[AI_TRANSLATION]Produtos e modelos específicos estão sujeitos a alterações.',
+      prize_footer3: '[AI_TRANSLATION]Prémios serão atribuídos aos jogadores que alcançarem o topo da classificação na arena das Finais.',
+      prize_footer4_1: '[AI_TRANSLATION]Verificação de idade necessária para ser elegível. Alguns prémios são limitados aos participantes dos EUA apenas.',
+      coco_reserves: '[AI_TRANSLATION]CodeCombat reserva-se',
+      prize_footer4_2: '[AI_TRANSLATION]o direito de determinar a seu exclusivo critério se um jogador se qualifica e receberá um prêmio.',
+      place: '[AI_TRANSLATION]Lugar',
+      arena_under_construction: '[AI_TRANSLATION]A arena da próxima temporada está em construção. Volta em breve!',
+      unlock_ai_league: '[AI_TRANSLATION]Desbloqueia todo o potencial da AI League.',
+      esports_anonymous_changing: '[AI_TRANSLATION]A visibilidade do nome do jogador de Esportes Eletrônicos mudará a partir de 1 de setembro',
+      esports_get_full_access: '[AI_TRANSLATION]Obtém Acesso Completo',
+      click_to_unlock_now: '[AI_TRANSLATION]Clica para descartar por agora.',
+      click_to_unlock_before_sep: '[AI_TRANSLATION]Clica para fazer o anonimato desaparecer antes de 1 de setembro.',
+      unlock_content_padding: '[AI_TRANSLATION]Contacta a nossa equipa hoje para ver as notas, classificações, código e muito mais do teu aluno!',
+      unlock_leaderboard: '[AI_TRANSLATION]Contacta-nos para desbloquear o placar',
+      without_license_blurb: '[AI_TRANSLATION]Desbloqueia todo o potencial da AI League. Compra um pacote de torneio personalizado para aceder às pontuações, classificações, código dos teus alunos e mais opções de personalização de torneios. Consulta nosso',
+      custom_pricing: '[AI_TRANSLATION]Opções Personalizadas e Guia de Implementação',
+      more_details: '[AI_TRANSLATION]para mais detalhes.',
+      contact_sales_custom: '[AI_TRANSLATION]O teu torneio personalizado aguarda-te. Escolhe a arena que queres usar para o teu torneio personalizado e contacta o teu representante de vendas do CodeCombat para confirmar os detalhes da configuração e agendamento.',
+      create_custom: '[AI_TRANSLATION]Criar Torneio Personalizado',
+      custom_tournament_text: '[AI_TRANSLATION]Torneio Personalizado',
+      promotion_blurb: '[AI_TRANSLATION]Programação Competitiva - Gratuito para começar',
+      promotion_part1: '[AI_TRANSLATION]Junta-te a equipas de codificação com amigos e família',
+      promotion_part2: '[AI_TRANSLATION]Acessa arenas globais de codificação e leaderboards',
+      promotion_part3: '[AI_TRANSLATION]Mostra as tuas habilidades de programação e ganha prémios.',
+      promotion_part4: '[AI_TRANSLATION]Ganha pontos através de prática e partidas frente-a-frente',
+      codecombat_ai_league_description: '[AI_TRANSLATION]A Liga de IA do CodeCombat combina o nosso currículo baseado em projetos alinhado com os padrões, um jogo de código envolvente baseado em aventuras, e o nosso torneio global anual de codificação em IA numa competição académica única.',
+      teacher_getting_started_guide: '[AI_TRANSLATION]Guia de Primeiros Passos para o Professor',
+      try_ai_league_as_a_teacher: '[AI_TRANSLATION]Experimenta AI League como Professor',
+      //    ai_league_curriculum: "AI League Curriculum",
+      current_season: '[AI_TRANSLATION]Estação Atual',
+      all_time: '[AI_TRANSLATION]Todo o Tempo',
+      view_leaderboards_for_team: '[AI_TRANSLATION]Ver classificações para a equipa:',
+      global_stats: '[AI_TRANSLATION]ESTATÍSTICAS GLOBAIS',
+      code_your_way: '[AI_TRANSLATION]Código ao teu jeito  ',
+      //    to_win_the_price: "to first place to win",
+      //    regular: "Regular",
+      //    championship: "Championship",
+      //    global: "Global",
+      //    custom: "Custom",
+    },
+
+    tournament: {
+      mini_tournaments: '[AI_TRANSLATION]Mini Torneios',
+      usable_ladders: '[AI_TRANSLATION]Todas as Escadas Utilizáveis',
+      make_tournament: '[AI_TRANSLATION]Faz um mini torneio',
+      go_tournaments: '[AI_TRANSLATION]Vai aos mini torneios.',
+      class_tournaments: '[AI_TRANSLATION]Mini torneios de Turma  ',
+      class_tournaments_more: '[AI_TRANSLATION]Mais mini torneios de Aula',
+      no_tournaments_owner: '[AI_TRANSLATION]Não há torneio agora, por favor cria um',
+      no_tournaments: '[AI_TRANSLATION]Não há torneio agora',
+      edit_tournament: '[AI_TRANSLATION]Editar Torneio',
+      create_tournament: '[AI_TRANSLATION]Criar Torneio',
+      //    view_tournament: "View Tournament",
+      upcoming: '[AI_TRANSLATION]Imediato',
+      starting: '[AI_TRANSLATION]A começar',
+      ended: '[AI_TRANSLATION]Terminado',
+      view_results: '[AI_TRANSLATION]Ver Resultados',
+      estimate_days: '[AI_TRANSLATION]Em __time__ Dias',
+      team_name: '[AI_TRANSLATION]Equipa: __name__',
+      status: '[AI_TRANSLATION]Estado: __state__',
+      from_start: '[AI_TRANSLATION]Iniciar __time__',
+      from_end: '[AI_TRANSLATION]Terminar __time__',
+      start_date_time: '[AI_TRANSLATION]Hora de Início',
+      end_date_time: '[AI_TRANSLATION]Tempo de Termino',
+      results_date_time: '[AI_TRANSLATION]Hora dos Resultados',
+      start_date_description: '[AI_TRANSLATION](PT) A hora de início do torneio',
+      end_date_description: '[AI_TRANSLATION](PT) A hora de fim do torneio',
+      results_date_description: '[AI_TRANSLATION]Selecionar uma hora para publicar os resultados.',
+      results_date_suggestion_0: '[AI_TRANSLATION]Nota: O torneio pode precisar de algum tempo para gerar o ranking final, por isso precisas de dar tempo suficiente para os resultados.  ',
+      results_date_suggestion_1: '[AI_TRANSLATION]i.e. 0-50 jogadores: 5 mins',
+      results_date_suggestion_2: '[AI_TRANSLATION]50-100 jogadores: 20 minutos',
+      results_date_suggestion_3: '[AI_TRANSLATION]100-500 jogadores: 10 horas',
+      select_team_desc: '[AI_TRANSLATION]seleciona a tua equipa para criar/editar os teus torneios',
+      already_create_tournaments_num: '[AI_TRANSLATION]Já criaste __num__ torneios aqui:',
+      can_create_tournaments_num: '[AI_TRANSLATION]Podes criar __num__ torneios mais a partir daqui:',
+      my_teams: '[AI_TRANSLATION]As Minhas Equipas:',
+      //    team: "Team",
+      team_description: '[AI_TRANSLATION](Obrigatório) Apenas os jogadores da equipa podem participar neste torneio',
+      review_results: '[AI_TRANSLATION]Revisar Resultados',
+      review_description: '[AI_TRANSLATION]Vamos enviar-te os resultados do torneio por email e esperar que publiques para os participantes.',
+      publish_immediately: '[AI_TRANSLATION]Publicar Imediatamente',
+      publish_description: '[AI_TRANSLATION]O resultado do torneio será publicado imediatamente assim que estiver pronto.',
+      error_end_date_too_early: '[AI_TRANSLATION]O Tempo de Fim não pode ser anterior ao Tempo de Início',
+      error_results_date_too_early: '[AI_TRANSLATION]A Hora dos Resultados não pode ser anterior à Hora de Término',
+      publish_results: '[AI_TRANSLATION]Publicar Resultados',
+      publish_options: '[AI_TRANSLATION]Opções de Publicação',
+    },
+
+    payments: {
+      //    student_licenses: "Student Licenses",
+      //    computer_science: "Computer Science",
+      //    web_development: "Web Development",
+      //    game_development: "Game Development",
+      per_student: '[AI_TRANSLATION]Por Aluno',
+      just: '[AI_TRANSLATION]Só',
+      teachers_upto: '[AI_TRANSLATION]O/a professor/a pode comprar até',
+      great_courses: '[AI_TRANSLATION]Grandes Cursos incluídos para',
+      studentLicense_successful: '[AI_TRANSLATION]Parabéns! As tuas licenças estarão prontas para uso num minuto. Clica no Guia de Início Rápido no Kit de Ferramentas do Professor para aprenderes a aplicá-las aos teus alunos.',
+      onlineClasses_successful: '[AI_TRANSLATION]Parabéns! O teu pagamento foi bem-sucedido. A nossa equipa irá entrar em contacto contigo com os próximos passos.',
+      homeSubscriptions_successful: '[AI_TRANSLATION]Parabéns! O teu pagamento foi bem-sucedido. O teu acesso premium estará disponível em alguns minutos.',
+      failed: '[AI_TRANSLATION]O teu pagamento falhou, tenta novamente, por favor.',
+      session_week_1: '[AI_TRANSLATION]1 sessão/semana',
+      session_week_2: '[AI_TRANSLATION]2 sessões/semana',
+      month_1: '[AI_TRANSLATION]Mensal',
+      month_3: '[AI_TRANSLATION]Trimestral',
+      month_6: '[AI_TRANSLATION]Semestral',
+      year_1: '[AI_TRANSLATION]Anual',
+      most_popular: '[AI_TRANSLATION]Mais Popular',
+      best_value: '[AI_TRANSLATION]Melhor Valor',
+      purchase_licenses: '[AI_TRANSLATION]Compra Licenças facilmente para obter acesso total ao CodeCombat e Ozaria',
+      homeschooling: '[AI_TRANSLATION]Licenças de Estudo em Casa',
+      recurring_month_1: '[AI_TRANSLATION]Faturação recorrente a cada mês',
+      recurring_month_3: '[AI_TRANSLATION]Faturação recorrente a cada 3 meses',
+      recurring_month_6: '[AI_TRANSLATION]Faturação recorrente a cada 6 meses',
+      recurring_year_1: '[AI_TRANSLATION]Faturação recorrente a cada ano',
+      purchase_licenses_2: '[AI_TRANSLATION]Compra licenças para os teus alunos acederem ao currículo pago após o primeiro curso',
+      applying_licenses: '[AI_TRANSLATION]aplicando licenças',
+      about: '[AI_TRANSLATION]sobre',
+      school_district_heading: '[AI_TRANSLATION]Escolas ou Distritos',
+      school_district_subheading: '[AI_TRANSLATION]Para turmas, escolas e distritos com 10 ou mais alunos',
+      classroom_heading: '[AI_TRANSLATION]Sala de Aula Pequena',
+      classroom_subheading: '[AI_TRANSLATION]Para clubes, programas pós-escolares e pequenas turmas com 5-9 alunos.',
+      customer_support_info_1: '[AI_TRANSLATION]Suporte ao cliente via email ou chat',
+      customer_support_info_2: '[AI_TRANSLATION]Suporte ao cliente via email ou chat, além de um gerente de sucesso escolar dedicado disponível por telefone ou email para suporte na implementação',
+      self_serve_credit: '[AI_TRANSLATION]Compra com cartão de crédito self-service',
+      multiple_payment_options: '[AI_TRANSLATION]Várias opções de pagamento disponíveis, incluindo: ordem de compra, licenças de site e descontos multianuais.',
+      admin_dashboard: '[AI_TRANSLATION]Painel do Administrador com dados e insights acionáveis',
+      pd_info: '[AI_TRANSLATION]Curso online abrangente de 40 horas que te permite aprender a qualquer hora, em qualquer lugar e ao teu próprio ritmo.',
+      implementation_info: '[AI_TRANSLATION]60 min de Treino de Introdução sobre como usar o CodeCombat e Ozaria para apoiar objetivos institucionais e instrucionais específicos.',
+      ai_league_info: '[AI_TRANSLATION]Envolva estudantes numa competição de esports emocionante que lhes permite mostrar a sua compreensão dos conceitos num novo ambiente e praticar estratégias criativas de resolução de problemas!',
+      ai_custom_tournament: '[AI_TRANSLATION]Torneio Personalizado da Liga de IA',
+      implementation_training: '[AI_TRANSLATION]Treinamento de Implementação  ',
+      full_access_coco: '[AI_TRANSLATION]Acesso Completo a ambos CodeCombat',
+      and_oz: '[AI_TRANSLATION]E Ozaria',
+      cs_info: '[AI_TRANSLATION]Ciência da Computação 1-6: 65 sessões',
+      wd_info: '[AI_TRANSLATION]Desenvolvimento Web 1-2: 10 sessions',
+      gd_info: '[AI_TRANSLATION]Desenvolvimento de Jogos 1-3: 20 sessões',
+      chap1_info: '[AI_TRANSLATION]Capítulo 1: 10 aulas',
+      chap2_info: '[AI_TRANSLATION]Capítulo 2: 30 aulas',
+      chap3_info: '[AI_TRANSLATION]Capítulo 3: 25 aulas',
+      chap4_info: '[AI_TRANSLATION]Capítulo 4: 20 aulas',
+      includes: '[AI_TRANSLATION]Inclui:',
+      show_plan_features: '[AI_TRANSLATION]Mostrar Características do Plano',
+      purchase_annually: '[AI_TRANSLATION]Disponível para compra uma vez por ano.',
+      class_school_solution: '[AI_TRANSLATION]Vamos ajudar-te a construir uma solução que atenda às necessidades da tua turma, escola ou distrito.',
+      bulk: '[AI_TRANSLATION]A Granel',
+      discounts: '[AI_TRANSLATION]descontos',
+      available: '[AI_TRANSLATION]disponível',
+      //    request_quote: "Request a Quote",
+      business_partner_licenses: '[AI_TRANSLATION]Licenças de Parceiros de Negócios  ',
+      bd_subheading: '[AI_TRANSLATION]Para Parceiros de Negócio com pelo menos 10 alunos, obtenha acesso premium aos jogos de ciência da computação e codificação do CodeCombat:',
+      bd_info_list_heading: '[AI_TRANSLATION]O CodeCombat é o parceiro preferido por dezenas de empresas de educação em programação porque:',
+      bd_info_list_1: '[AI_TRANSLATION]os estudantes adoram o nosso currículo baseado em jogo, fantasia e aventura e continuam voltando para mais sessões',
+      bd_info_list_2: '[AI_TRANSLATION]qualquer pessoa pode ensinar programação com CodeCombat; o jogo é o professor principal e nós fornecemos recursos de suporte extensivos',
+      //    bd_info_list_3: "you will receive over 200 hours of curriculum, providing years of educational content for your business",
+      bd_includes_1: '[AI_TRANSLATION]Acesso completo ao CodeCombat e Ozaria com mais de 200 horas de conteúdo premium baseado em jogo',
+      bd_includes_2: '[AI_TRANSLATION]Painel do/a professor/a para registo e acompanhamento de progresso',
+      bd_includes_3: '[AI_TRANSLATION]Hub de Recursos Online com tutoriais e walkthroughs',
+      bd_help: '[AI_TRANSLATION]Para qualquer ajuda, contacta',
+      manage_stripe: '[AI_TRANSLATION]Gerir Faturação Stripe',
+      manage_billing_info: '[AI_TRANSLATION]Isto vai levar-te ao Stripe, onde podes tratar de tarefas relacionadas com subscrições, como rever o teu histórico de faturação e atualizar o teu método de pagamento.',
+      billing_portal: '[AI_TRANSLATION]Portal de Faturamento do Cliente',
+      email_not_verified: '[AI_TRANSLATION]O teu e-mail não está verificado, por favor verifica-o nas definições da conta!',
+      stripe_no_data: '[AI_TRANSLATION]Não tens dados para gerir no portal do Stripe.',
+    },
+
+    form_validation_errors: {
+      required: '[AI_TRANSLATION]Campo é obrigatório',
+      invalidEmail: '[AI_TRANSLATION]Email inválido',
+      invalidPhone: '[AI_TRANSLATION]Número de telefone inválido',
+      emailExists: '[AI_TRANSLATION]Email já existe',
+      numberGreaterThanZero: '[AI_TRANSLATION]Deve ser um número maior que 0',
+      requireValidEmail: '[AI_TRANSLATION]Por favor, insere um endereço de email válido.',
+      requireValidPhone: '[AI_TRANSLATION]Por favor, insere um número de telefone válido, incluindo o código de área.',
+    },
+
+    partners: {
+      for: '[AI_TRANSLATION]para',
+      business_partners: '[AI_TRANSLATION]Parceiros de Negócios',
+      headline: '[AI_TRANSLATION]Junta-te a nós na nossa missão de tornar a programação envolvente e acessível a todos.',
+      below_headline_blurb: '[AI_TRANSLATION]Na CodeCombat, desenvolvemos ferramentas abrangentes que tornam aprender a programar divertido e ensinar programação fácil. As nossas soluções turnkey podem ser aproveitadas em muitas execuções.',
+      coding_title: '[AI_TRANSLATION]Negócios de Educação em Programação & STEAM:',
+      coding_blurb: '[AI_TRANSLATION]Parceiros valiosos como Code Ninjas e IDEA Lab Kids usam o nosso jogo para ensinar programação real em Python e JavaScript aos alunos nos locais das suas franquias. Oferecemos um programa fácil de usar, recursos de implementação e opções de formação para garantir uma experiência incrível aos alunos.',
+      esports_title: '[AI_TRANSLATION]Patrocinadores de Esports Educacionais:',
+      esports_blurb: '[AI_TRANSLATION]Estamos a reinventar o que um e-sport pode ser ao envolver milhares de estudantes a aprender a programar. O pilar dos e-sports endémicos __hyperx__ apoiou a CodeCombat AI League desde a sua temporada inaugural, criando programas promocionais atraentes em torno deste e-sport único.',
+      hyperx: '[AI_TRANSLATION]HyperX',
+      respawn: '[AI_TRANSLATION]RESPAWN',
+      distribution_title: '[AI_TRANSLATION]Distribuição Internacional:',
+      distribution_blurb: '[AI_TRANSLATION]Os nossos programas já atenderam estudantes em mais de 190 países e o nosso conteúdo está traduzido em mais de __forty_languages__. Enquanto que os EUA e a China são mercados onde vendemos diretamente, trabalhamos em estreita colaboração com parceiros locais de distribuição SaaS e EdTech ao redor do mundo para expandir o nosso alcance.',
+      forty_languages: '[AI_TRANSLATION]40 línguas',
+      equity_social_title: '[AI_TRANSLATION]Equidade Tecnológica & Impacto Social:',
+      equity_social_blurb: '[AI_TRANSLATION]Nem toda a parceria é construída na base do lucro. Como uma organização baseada em missões, procuramos também formas de retribuir. Trabalhamos em estreita colaboração com fundações e outros parceiros filantrópicos para expandir o acesso a uma educação de programação de alta qualidade.',
+      latin_superstar_blurb: '[AI_TRANSLATION]Além disso, o superstar latino __eugenio_derbez__ ajudou-nos a alcançar a comunidade Latinx com uma parceria para envolver estudantes deste grupo frequentemente subservido e sub-representado.',
+      reach_latinx: '[AI_TRANSLATION]alcançar a comunidade Latinx',
+      eugenio_derbez_blurb: '[AI_TRANSLATION]"É importante para mim ver rapazes e raparigas latinos representados neste espaço," disse Eugenio Derbez. "A programação é a linguagem do futuro e se queremos fazer parte desse futuro, temos que ensinar os nossos miúdos a programar."',
+      seek_relationships_blurb: '[AI_TRANSLATION]Procuramos parcerias com organizações sem fins lucrativos e comunitárias que trabalhem com grupos sub-representados nas carreiras de ciências da computação e tecnologias. A nossa parceria com __seeds_of_light__ vai financiar oportunidades educacionais em CS para milhares de jovens.\n',
+      seeds_of_light: '[AI_TRANSLATION]Sementes de Luz',
+      corporate_team_building_title: '[AI_TRANSLATION]Formação de Equipa Corporativa',
+      corporate_team_building_blurb: '[AI_TRANSLATION]Precisas de engajar os teus colaboradores com uma atividade chave-na-mão que inspire o espírito competitivo deles e os desafie a resolver problemas de forma criativa? Trabalha connosco para criar um torneio de programação competitivo customizado que levará a tua equipa a programar as suas próprias estratégias enquanto jogam um jogo. __see_how__',
+      footer_blurb: '[AI_TRANSLATION]Estes são apenas alguns exemplos de estruturas de parcerias que apoiámos com sucesso. Se quiseres iniciar uma conversa com a nossa equipa de desenvolvimento de negócios sobre qualquer um destes modelos ou tiveres uma oportunidade de parceria diferente, contacta-nos hoje.',
+      talk_with_us: '[AI_TRANSLATION]Fala connosco',
+      our_partners: '[AI_TRANSLATION]Os nossos Parceiros',
+      see_how: '[AI_TRANSLATION]Ver Como',
+    },
+
+    podcast: {
+      learning_adventure: '[AI_TRANSLATION]Onde aprender é sempre uma aventura.',
+      explores_stem: '[AI_TRANSLATION]O nosso podcast explora o papel da tecnologia, STEM, e do jogo criativo na educação. Com convidados especialistas, descobrimos como aprender é sempre uma aventura.',
+      listen: '[AI_TRANSLATION]Ouvir',
+      download: '[AI_TRANSLATION]Download',
+      transcript: '[AI_TRANSLATION]Transcrição',
+      learn_more_coco: '[AI_TRANSLATION]Queres aprender mais sobre as experiências de codificação do CodeCombat?',
+      //    subscribe: "Subscribe",
+      explore_coco: '[AI_TRANSLATION]Explora o CodeCombat',
+      interested_in_being_guest: '[AI_TRANSLATION]Interessado em ser um convidado no EdTech Adventures?',
+      lets_chat: '[AI_TRANSLATION]Vamos falar',
+      air_date: '[AI_TRANSLATION]Data de Exibição',
+      play_episode: '[AI_TRANSLATION]Jogar Episódio',
+      about_guest: '[AI_TRANSLATION]Sobre o Nosso Convidado',
+      about_guests: '[AI_TRANSLATION]Sobre os Nossos Convidados',
+      all_episodes: '[AI_TRANSLATION]Ver Todos os Episódios',
+      no_permission: '[AI_TRANSLATION]Não tens permissão para ver este podcast',
+      listen_now: '[AI_TRANSLATION]Ouvir Agora',
+      show_all_episodes: '[AI_TRANSLATION]Mostrar todos os episódios',
+    },
+
+    library: {
+      enter_library_card: '[AI_TRANSLATION]Introduz o Número do Cartão da Biblioteca:',
+      access_coco: '[AI_TRANSLATION]Acessar CodeCombat',
+      already_using_library_id: '[AI_TRANSLATION]Já a usar a id da biblioteca',
+      //    play_coco: "to play CodeCombat",
+      not_library_id: '[AI_TRANSLATION]Não é o teu ID da biblioteca  ',
+      //    access_using_id: "to access using your id!!",
+      network_detected: '[AI_TRANSLATION]Rede da biblioteca detetada, redirecionando-te para jogar CodeCombat',
+      not_redirect_auto: '[AI_TRANSLATION]se o redirecionamento não acontecer automaticamente',
+      engage_members: '[AI_TRANSLATION]Dá aos teus membros a forma mais divertida de aprender a programar.',
+      importance_blurb: '[AI_TRANSLATION]As bibliotecas desempenham um papel importante na promoção da equidade educacional nas suas comunidades. Muitos jovens alunos não têm acesso ou exposição à ciência da computação, e as bibliotecas podem fornecer recursos importantes para esses grupos carenciados. É por isso que estamos a colaborar com bibliotecas em todo o país para fornecer acesso às nossas ferramentas de aprendizagem baseadas em jogos e recursos educacionais.',
+      games_teach_blurb: '[AI_TRANSLATION]Os nossos jogos ensinam linguagens de programação reais como Python, JavaScript e C++ através do poder da diversão. O jogo é combinado com um currículo escalonado para permitir que os alunos avancem ao seu próprio ritmo e dominem os conceitos fundamentais de programação antes de passar para os mais complexos. Cada nível desafia o jogador a digitar o código necessário para avançar o seu herói e atingir o objetivo do nível.  ',
+      platform_built: '[AI_TRANSLATION]A nossa plataforma é construída para responder às necessidades específicas das bibliotecas e seus visitantes:',
+      accessible: '[AI_TRANSLATION]Acessível',
+      accessible_blurb: '[AI_TRANSLATION]Um computador básico com acesso à internet é tudo o que precisas para fazer login e começar a jogar. O conteúdo é destinado a iniciantes sem qualquer experiência prévia em programação.\n',
+      self_paced_intuitive: '[AI_TRANSLATION]Ritmo Próprio e Intuitivo',
+      self_paced_intuitive_blurb: '[AI_TRANSLATION]Professores/as não são necessários/as, pois os/as jogadores/as podem ditar o ritmo a que avançam pelo currículo. O nosso motor de código personalizado e intérprete é desenhado para principiantes, entende os erros que as crianças cometem e fala com elas usando termos humanos e amigáveis para principiantes.',
+      engaging_content: '[AI_TRANSLATION]Conteúdo Cativante',
+      engaging_content_blurb: '[AI_TRANSLATION]A aprendizagem baseada em jogos aumenta o envolvimento desde o início, mas talvez mais importante, mantém os alunos envolvidos quando os conceitos ficam mais desafiadores. Em um ambiente de jogo, falhas e sucessos são esperados e aceitos como parte da experiência lúdica.',
+      api_integrate: '[AI_TRANSLATION]Integração de API',
+      api_integrate_blurb: '[AI_TRANSLATION]Os nossos jogos podem ser facilmente incorporados na tua interface de biblioteca digital através de EZProxy ou outros sistemas populares. Esta estrutura proporciona acesso instantâneo com o login existente dos membros e não é necessário pessoal para gerir qualquer logística de licenciamento ou acesso.\n',
+      //    privacy: "Privacy",
+      privacy_blurb: '[AI_TRANSLATION]Levamos a segurança dos usuários, a cibersegurança e a privacidade dos dados a sério, seguindo muitas regulamentações rigorosas de privacidade, como COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Práticas de Informação Justa, CAN-SPAM e GDPR. Estas políticas e medidas de proteção permitiram-nos servir com segurança mais de vinte milhões de usuários ao redor do mundo.\n',
+      privacy_policy: '[AI_TRANSLATION]nossa política completa de privacidade',
+      see: '[AI_TRANSLATION]Ver',
+      communication_limit: '[AI_TRANSLATION]Limites de Comunicação',
+      communication_limit_blurb: '[AI_TRANSLATION]Para garantir a segurança dos teus membros, não oferecemos chat dentro do jogo ou outras funcionalidades de comunicação entre jogadores, no entanto, permitimos que os membros partilhem os seus projetos de codificação com amigos, família e a comunidade do CodeCombat. Restringimos qualquer mensagem de venda adicional ou de marketing para oferecer uma experiência ininterrupta aos teus patronos.',
+      usage_stats: '[AI_TRANSLATION]Estatísticas de Uso',
+      usage_stats_blurb: '[AI_TRANSLATION]Ganha insights sobre o uso dos membros com a nossa ferramenta de relatórios instantâneos. Dá acesso a estatísticas de uso a qualquer hora, incluindo utilizadores ativos mensais, dias licenciados usados e mais dados valiosos.',
+      esports: '[AI_TRANSLATION]Esports Académico',
+      esports_blurb: '[AI_TRANSLATION]O nosso programa de esports oferece uma oportunidade de envolver ainda mais os teus membros através de uma competição divertida e emocionante. A AI League permite que os membros mostrem a sua compreensão dos conceitos de codificação num novo ambiente e pratiquem estratégias de resolução de problemas enquanto se enfrentam em batalhas contra a comunidade global.',
+      work_with_us_blurb: '[AI_TRANSLATION]Trabalha connosco para desbloquear a próxima geração de engenheiros, programadores e profissionais de CS na tua comunidade.',
+      schedule_demo: '[AI_TRANSLATION]Agendar uma Demo',
+      license_modal_subtitle: '[AI_TRANSLATION]Por favor, preenche este formulário curto e um dos nossos especialistas de biblioteca entrará em contacto para fornecer uma demonstração e opções de preços personalizados!',
+      license_modal_members: '[AI_TRANSLATION]Membros Necessitando Acesso',
+      license_modal_members_placeholder: '[AI_TRANSLATION]Aproximadamente quantos membros precisarão de acesso?',
+      license_modal_contact: '[AI_TRANSLATION]Contactar a Nossa Equipa',
+      license_days_used: '[AI_TRANSLATION]Dias de Licença utilizados',
+      //    licenses_used: "Licenses used",
+      users_active_licenses: '[AI_TRANSLATION]Utilizadores com licenças ativas',
+      //    lines_code: "Lines of Code",
+      programs_written: '[AI_TRANSLATION]Programas escritos',
+      time_spent_min: '[AI_TRANSLATION]Tempo gasto (em min)',
+      //    month: "Month",
+      teacher_classroom_name: '[AI_TRANSLATION]Nome do/a professor/a ou da turma',
+      already_logged_in: '[AI_TRANSLATION]Já iniciaste sessão, por favor termina a sessão na barra de navegação superior para voltares a iniciar sessão.',
+      search_box_option: '[AI_TRANSLATION]Se o campo de pesquisa não carregar, faz login clicando.',
+      new_signups: '[AI_TRANSLATION]Novos Cadastros',
+      heading_for: '[AI_TRANSLATION]para',
+      heading_libraries: '[AI_TRANSLATION]Bibliotecas',
+      educational_equity: '[AI_TRANSLATION]Equidade Educacional',
+      power_of_play: '[AI_TRANSLATION]Poder do jogo  ',
+      library_card: '[AI_TRANSLATION]Número do Cartão da Biblioteca',
+      library_signup_promotion: '[AI_TRANSLATION]Regista-te para guardar o progresso e continuar de onde paraste no CodeCombat!!',
+      welcome_dashboard: '[AI_TRANSLATION]Bem-vindo ao teu painel de controlo',
+      total_licenses_used: '[AI_TRANSLATION]Licenças Totais Usadas',
+      from_launch_date: '[AI_TRANSLATION]a partir da data de lançamento',
+      renewal_date: '[AI_TRANSLATION]Data de Renovação',
+      access_old_dashboard: '[AI_TRANSLATION]Se quiseres aceder ao dashboard antigo, visita',
+      loading_from: '[AI_TRANSLATION]carregando dados de',
+      user_activities: '[AI_TRANSLATION]Atividades do Utilizador',
+      total_users: '[AI_TRANSLATION]Utilizadores Totais',
+      lines_of_code_written: '[AI_TRANSLATION]Linhas de Código Escritas',
+      hours_spent: '[AI_TRANSLATION]Horas gastas',
+      time_spent: '[AI_TRANSLATION]Tempo gasto (em minutos)',
+      new_users: '[AI_TRANSLATION]Novos Utilizadores',
+      age_demographics: '[AI_TRANSLATION]Demografia por Idade',
+      levels_completed: '[AI_TRANSLATION]Níveis Completados',
+      adjust_dates_explore: '[AI_TRANSLATION]Ajusta as datas abaixo para explorar as tendências de uso de patronos ao longo do tempo.',
+    },
+
+    related_accounts: {
+      subtitle: '[AI_TRANSLATION]Adiciona conexões entre diferentes contas do CodeCombat para poderes alternar rapidamente entre elas. Por exemplo, como pai/mãe, poderias trocar para ver o CodeCombat a partir das contas dos teus filhos. Ou, como professor, poderias adicionar uma conta de estudante de teste para ti próprio(a) para veres o que os teus alunos veem.',
+      wrong_account: '[AI_TRANSLATION]Por favor, faz login na conta correta para confirmar a ligação da conta. Faz Login na conta e abre o link do email novamente.',
+      link_account: '[AI_TRANSLATION]Liga a tua conta a',
+      link_successful_redirect: '[AI_TRANSLATION]Conta vinculada com sucesso, a redirecionar',
+      add_related_user: '[AI_TRANSLATION]Adiciona Usuário Relacionado',
+      adding: '[AI_TRANSLATION]Adicionando',
+      removing: '[AI_TRANSLATION]Removendo',
+      added: '[AI_TRANSLATION]Conta adicionada',
+      related_email: '[AI_TRANSLATION]Email de Usuário Relacionado',
+      relation: '[AI_TRANSLATION]Relação',
+      bi_directional: '[AI_TRANSLATION]Bidirecional',
+      account_exists: '[AI_TRANSLATION]Conta existe',
+      link_using_email: '[AI_TRANSLATION]Liga a conta utilizando o email de confirmação',
+      link_using_email_blurb: '[AI_TRANSLATION]O utilizador vai receber um email em __email__. Por favor, pede-lhe que confirme o link presente no email.',
+      account_not_exist: '[AI_TRANSLATION]Conta não existe',
+      account_type: '[AI_TRANSLATION]Tipo de Conta',
+      create_account_and_email: '[AI_TRANSLATION]Cria uma conta e envia um email para o link',
+      authenticate: '[AI_TRANSLATION]Autenticar',
+      invite: '[AI_TRANSLATION]Convidar',
+      auth_using_pass: '[AI_TRANSLATION]Autentica usando __email__ e password',
+      related_users: '[AI_TRANSLATION]Usuários Relacionados',
+      no_related_users: '[AI_TRANSLATION]Sem utilizadores relacionados no momento.',
+      send_verify_email: '[AI_TRANSLATION]Enviar Email de Verificação',
+      verified: '[AI_TRANSLATION]Verificado',
+      switch: '[AI_TRANSLATION]Trocar',
+      title: '[AI_TRANSLATION]Contas Relacionadas',
+      bi_directional_help_text: '[AI_TRANSLATION]Permites que o utilizador adicionado mude para a tua conta?',
+    },
+
+    modal_free_class: {
+      paragraph_1: '[AI_TRANSLATION]Obrigado por escolheres o CodeCombat.',
+      paragraph_2: '[AI_TRANSLATION]A nossa equipa está ansiosa para entrar em contacto contigo para agendar uma aula experimental gratuita para o teu filho.',
+      paragraph_3: '[AI_TRANSLATION]Por favor, fornece as tuas informações de contacto e um dos nossos conselheiros de aprendizagem vai-te ligar para recolher informações sobre o aluno, identificar um professor com base no estilo de aprendizagem preferido do teu filho e agendar a aula experimental.',
+      //    name: "Name",
+      phone_number: '[AI_TRANSLATION]Número de Telefone',
+      available: '[AI_TRANSLATION]Estás disponível para falar agora?',
+      yes: '[AI_TRANSLATION]Sim',
+      no: '[AI_TRANSLATION]Não',
+      preferred_time: '[AI_TRANSLATION]Hora preferencial para chamar se não conseguirmos conectar agora',
+      anytime: '[AI_TRANSLATION]A qualquer momento',
+      morning: '[AI_TRANSLATION]Manhã (8H - 12H)',
+      afternoon: '[AI_TRANSLATION]Tarde (12PM - 4PM)',
+      evening: '[AI_TRANSLATION]Final de Tarde (16h - 20h)',
+      time_zone: '[AI_TRANSLATION]O teu Fuso Horário',
+      //    email: "Email",
+    },
+
+    mobile_landing: {
+      subtitle: '[AI_TRANSLATION]Obtém acesso gratuito à forma mais envolvente de ensinar CS',
+      you_re_set: '[AI_TRANSLATION]ESTÁS PRONTO!',
+      done_blurb: '[AI_TRANSLATION]Verifica o teu e-mail para instruções de como aceder à conta de professor. Para uma melhor experiência, sugerimos usar um dispositivo com um teclado externo e um ecrã maior.',
+      step_email: '[AI_TRANSLATION]PASSO 1',
+      step_name: '[AI_TRANSLATION]PASSO 2',
+      step_done: '[AI_TRANSLATION]PRONTO',
+      video_title: '[AI_TRANSLATION]DÁ UMA OLHADINHA AQUI',
+      email_confirm: '[AI_TRANSLATION]O endereço de email "__email__" já está registado. Gostarias de iniciar sessão?',
+    },
+
+    roblox_landing: {
+      meta_title: '[AI_TRANSLATION]Mundos do CodeCombat no Roblox: Joga, Programa e Cria',
+      headline: '[AI_TRANSLATION]Capacitar Cada Jogador a Tornar-se um Criador!',
+      subhead: '[AI_TRANSLATION]Experimenta a forma mais fácil e divertida de programar e criar os teus próprios jogos Roblox',
+      join_the_beta: '[AI_TRANSLATION]Junta-te à Beta',
+      //    sign_up: "Sign Up",
+      box_play_subhead: '[AI_TRANSLATION]Jogar',
+      box_code_subhead: '[AI_TRANSLATION]Codigo',
+      box_create_subhead: '[AI_TRANSLATION]Criar',
+      box_headline: '[AI_TRANSLATION]Jogar, Programar e Criar no Roblox',
+      box_play_blurb_teacher: '[AI_TRANSLATION]Em parceria com a Roblox Education, estamos a combinar a nossa abordagem comprovada de codificação como jogabilidade com o poder criativo e social da plataforma Roblox para criar uma nova experiência Roblox que ensina codificação e desenvolvimento de jogos no próprio jogo.',
+      box_code_blurb_teacher: '[AI_TRANSLATION]A experiência será personalizada e diferenciada, oferecendo prática intuitiva estruturada e não estruturada que permite ao jogador aprender como quiser, mantendo-se alinhada com os padrões de ciência da computação CSTA e ISTE.',
+      box_create_blurb_teacher: '[AI_TRANSLATION]Esta experiência de jogo envolvente fornecerá a instrução fundamental necessária para levar os jogadores do zero conhecimento de codificação à publicação de jogos completos no Roblox. O nosso Modo Criativo permite aos jogadores construir enquanto jogam, sem necessidade de mudar de modo para o IDE completo do Roblox Studio no desktop.',
+      box_play_blurb_player: '[AI_TRANSLATION]Explora a experiência 3D imersiva dos Mundos do CodeCombat. Programa os teus animais de estimação e aventura-te num universo de criatividade e experiências partilhadas com amigos.',
+      box_code_blurb_player: '[AI_TRANSLATION]Aprende programação real em Lua, do iniciante ao avançado. Usa código para explorar, recolher recursos, construir e descobrir o teu caminho para a glória.',
+      box_create_blurb_player: '[AI_TRANSLATION]Sem Roblox Studio? Sem problema. Programa no jogo em Modo Criativo para fazer jogos completos no Roblox e partilhá-los com os teus amigos.',
+      box_play_blurb_parent: '[AI_TRANSLATION]Através da nossa abordagem comprovada de aprendizagem baseada em jogos, envolvemos os jovens aprendizes através da brincadeira, enquanto ensinamos programação e desenvolvimento de jogos.',
+      box_code_blurb_parent: '[AI_TRANSLATION]Programando desde o início da sua aventura, a experiência é personalizada e diferenciada, oferecendo prática intuitiva estruturada e não estruturada que permite ao teu filho aprender como quiser.',
+      box_create_blurb_parent: '[AI_TRANSLATION]Muitos miúdos querem criar jogos mas não sabem por onde começar. Esta experiência divertida fornecerá a instrução fundamental necessária para levar os jogadores do zero conhecimento de codificação a publicar jogos completos no Roblox.',
+      box_play_blurb_partner: '[AI_TRANSLATION]Envolve os jovens aprendizes com uma experiência de Roblox de nova geração. Com o apoio da Roblox Education, estamos a combinar a nossa abordagem comprovada de programação como jogabilidade com o poder criativo e social da plataforma Roblox para criar uma nova experiência de Roblox que ensina programação e desenvolvimento de jogos no jogo.  ',
+      box_code_blurb_partner: '[AI_TRANSLATION]A experiência será personalizada e diferenciada, oferecendo prática intuitiva estruturada e não estruturada que permite ao jogador aprender como quiser. Tornamos mais fácil do que nunca ensinar programação real aos teus alunos, seja em contextos de autoaprendizagem ou orientados pelo instrutor.',
+      box_create_blurb_partner: '[AI_TRANSLATION]Em vez de construir um currículo autonomo ligado ao Roblox Studio, aproveita o nosso Modo Criativo no jogo com instruções estruturadas para guiar os teus alunos desde nenhuma experiência em programação até publicar jogos completos no Roblox.',
+      role_teacher: '[AI_TRANSLATION]Professor  ',
+      role_player: '[AI_TRANSLATION]Jogador',
+      //    role_parent: "Parent",
+      role_partner: '[AI_TRANSLATION]Parceiro',
+      select_role: '[AI_TRANSLATION]Por favor, seleciona o teu papel',
+      question_1: '[AI_TRANSLATION]Precisas de saber Lua ou Roblox Studio?',
+      answer_1: '[AI_TRANSLATION]Não. Esta experiência vai permitir a qualquer pessoa jogar, programar e criar desde o início da sua aventura, sem qualquer experiência de programação.',
+      question_2: '[AI_TRANSLATION]Posso criar os meus próprios jogos?',
+      answer_2: '[AI_TRANSLATION]Sim. O desenvolvimento de jogos é o núcleo desta experiência e depois de completares os níveis de aprendizagem principais, terás a oportunidade de criar o teu próprio jogo.',
+      question_3: '[AI_TRANSLATION]As minhas criações vão estar disponíveis no Roblox?',
+      answer_3: '[AI_TRANSLATION]Sim. Tudo o que criares nesta experiência, vais poder importar para o Roblox Studio e depois publicar na plataforma para que qualquer um possa jogar.',
+      bottom_blurb_parent: '[AI_TRANSLATION]Não precisas esperar - __sign-up__ para as nossas aulas online ao vivo e começa a ensinar o teu filho a programar hoje! Começa com CodeCombat web para seres o primeiro a ter acesso à experiência CodeCombat Worlds Roblox.',
+      bottom_blurb_sign_up: '[AI_TRANSLATION]Regista-te',
+      bottom_blurb_partner: '[AI_TRANSLATION]Queres usar a nova experiência CodeCombat Worlds no Roblox para o teu negócio educacional, iniciativa de impacto social ou oportunidade de distribuição internacional? __reach-out__ para discutir a parceria hoje.',
+      bottom_blurb_reach_out: '[AI_TRANSLATION]Alcançar',
+      boxes_title: '[AI_TRANSLATION]Jogar, Programar e Criar no Roblox',
+      login_message: '[AI_TRANSLATION]Precisas de fazer login antes de ligar a tua conta ao Roblox.',
+      connect_button_header: '[AI_TRANSLATION]Recompensas por Vinculação de Conta',
+      connect_button_linker_badge: '[AI_TRANSLATION]Insígnia de Ligação',
+      connect_button_accounts_linked: '[AI_TRANSLATION]Contas Vinculadas',
+      connect_button_pet_chroma: '[AI_TRANSLATION]Pet Chroma',
+      connect_button_exclusive_pet: '[AI_TRANSLATION]Animal de Estimação Exclusivo',
+      connect_button_blurb: '[AI_TRANSLATION]Liga as tuas contas de CodeCombat e Roblox para uma experiência contínua!',
+      connect_button_list_item_1: '[AI_TRANSLATION]Gerir subscrições',
+      connect_button_list_item_2: '[AI_TRANSLATION]Desbloqueia conteúdo adicional',
+      connect_button_list_item_3: '[AI_TRANSLATION]Acompanhar progresso',
+      connect_button_list_item_4: '[AI_TRANSLATION]Recebe recompensas exclusivas',
+      connect_button_list_item_5: '[AI_TRANSLATION]Acessa recursos curriculares',
+      connect_button_list_item_6: '[AI_TRANSLATION]Acesso ao painel de pais e professores',
+      connect_button_list_item_7: '[AI_TRANSLATION]Desbloqueia funcionalidades de IA generativa',
+      connect_button_list_item_8: '[AI_TRANSLATION]Publicação e exportação no modo criativo',
+      connect_button_connected_blurb: '[AI_TRANSLATION]Parabéns, ligaste as tuas contas! Convida os teus amigos para ajudar a atingir os objetivos de ligação da comunidade.',
+      connect_button_not_connected_blurb: '[AI_TRANSLATION]Quanto mais pessoas ligarem as suas contas, mais recompensas irás receber!',
+      faq_bottom: '[AI_TRANSLATION]Ver mais <a href="https://codecombat.zendesk.com/hc/en-us/categories/18084251471383-CodeCombat-Worlds-Roblox-" target="_blank">perguntas frequentes no nosso centro de ajuda</a>. <br />Se tiveres outras perguntas, <a href="mailto:support@codecombat.com">Contacta-nos</a>.',
+      modal_title: '[AI_TRANSLATION]Mundos do CodeCombat<br> Agora ao Vivo no Roblox!',
+      modal_play_now: '[AI_TRANSLATION]JOGA AGORA!',
+      modal_button_link_roblox_account: '[AI_TRANSLATION]Ligar Conta Roblox',
+      age_restriction: '[AI_TRANSLATION]Tens de ter 13 anos ou mais para associares a tua conta Roblox.',
+    },
+
+    ai: {
+      prompt_level_chat_1: '[AI_TRANSLATION]O que este erro significa?',
+      prompt_level_chat_2: '[AI_TRANSLATION]Por favor, explica este erro.',
+      prompt_level_chat_3: '[AI_TRANSLATION]O que se passa?',
+      prompt_level_chat_4: '[AI_TRANSLATION]Por favor, ajuda a explicar isto.',
+      prompt_level_chat_5: '[AI_TRANSLATION]Como posso corrigi-lo?',
+      prompt_level_chat_6: '[AI_TRANSLATION]Ajuda, por favor.',
+      prompt_level_chat_7: '[AI_TRANSLATION]O que faço?',
+      prompt_level_chat_8: '[AI_TRANSLATION]O que isso significa?',
+      prompt_level_chat_9: '[AI_TRANSLATION]Por favor, explica.',
+      prompt_level_chat_10: '[AI_TRANSLATION]Que erro é este?',
+      prompt_level_chat_11: '[AI_TRANSLATION]Qual é o problema?',
+      prompt_level_chat_12: '[AI_TRANSLATION]???',
+      prompt_level_chat_13: '[AI_TRANSLATION]Cara IA, imploro-te, explica-me o meu erro, em verso.',
+      prompt_level_chat_hint_1: '[AI_TRANSLATION]Posso ter uma dica?',
+      prompt_level_chat_hint_2: '[AI_TRANSLATION]Qual é a próxima coisa que devo fazer?',
+      prompt_level_chat_hint_3: '[AI_TRANSLATION]Ajuda-me com a próxima parte do meu código, por favor.',
+      prompt_level_chat_hint_4: '[AI_TRANSLATION]Dica de programação, por favor.',
+      prompt_level_chat_hint_5: '[AI_TRANSLATION]Preciso de uma dica para o próximo passo.',
+      hackstack_promotion: '[AI_TRANSLATION]Desbloqueia todo o Potencial da IA Generativa',
+      try_it_free: '[AI_TRANSLATION]Experimenta grátis',
+      hackstack_promotion_blurb: '[AI_TRANSLATION]Novato na IA? Explora <b>CodeCombat AI HackStack</b> – a rota mais simples para a literacia em IA. Desbloqueia o potencial do ChatGPT-4, Claude, Stable Diffusion, e DALL-E. Esta ferramenta inovadora oferece treino prático em IA, tornando a criação fácil.',
+      generate: '[AI_TRANSLATION]Gerar',
+      games: '[AI_TRANSLATION]Jogos',
+      art: '[AI_TRANSLATION]Arte',
+      websites: '[AI_TRANSLATION]Websites',
+      code_more: '[AI_TRANSLATION]Código e mais',
+      ideal_endeavour: '[AI_TRANSLATION]É o companheiro ideal para qualquer empreendimento.',
+      //    ai_made_ss: "AI Made Simple & Safe -- Start Today!",
+      //    aiss_body: "Built as the simplest path to AI literacy, this tool empowers learners to harness top LLMs with hands-on AI training, making creation easy—whether it’s games, art, writing, code, or more. Together, we help learners safely bring their ideas to life across any subject.",
+      //    learn_more: "Learn More!",
+    },
+
+    user_credits: {
+      level_chat_left_in_duration: '[AI_TRANSLATION]__credits__ Consultas ao Bot de IA restantes para o __duration_key__',
+      level_chat_left_in_duration_multiple: '[AI_TRANSLATION]__credits__ Consultas ao Bot de IA restantes para __duration_amount__ __duration_key__',
+      level_chat_no_credits_left_duration: '[AI_TRANSLATION]Não há mais consultas do Bot AI durante a __duration_key__',
+      level_chat_no_credits_left_duration_multiple: '[AI_TRANSLATION]Não há mais consultas do Bot AI durante __duration_amount__ __duration_key__',
+      level_chat_no_credits_left: '[AI_TRANSLATION]Não há mais consultas do Bot AI',
+    },
+
+    home_v3: {
+      mission_title: '[AI_TRANSLATION]Junta-te a nós na nossa missão de tornar a programação e IA acessíveis a todos.',
+      mission_supporting_text: '[AI_TRANSLATION]Estamos comprometidos em oferecer soluções educacionais de alta qualidade que capacitem todos a realizar seu potencial e ajudar a moldar um futuro melhor.',
+      stat_card_1_text: '[AI_TRANSLATION]20 Milhões',
+      stat_card_1_description: '[AI_TRANSLATION]Alunos Envolvidos',
+      stat_card_2_text: '[AI_TRANSLATION]1 Bilhão',
+      //    stat_card_2_description: "Lines of Code",
+      stat_card_3_text: '[AI_TRANSLATION]320.000',
+      stat_card_3_description: '[AI_TRANSLATION]Apoiado por pais como tu',
+      stat_card_4_text: '[AI_TRANSLATION]75.000',
+      stat_card_4_description: '[AI_TRANSLATION]Escolas Alcançadas',
+      stat_card_5_text: '[AI_TRANSLATION]190+',
+      //    stat_card_5_description: "Countries",
+      stat_card_6_text: '[AI_TRANSLATION]5,2 Milhões',
+      stat_card_6_description: '[AI_TRANSLATION]Jogadores de Esportes Eletrônicos',
+      learn_to_code: '[AI_TRANSLATION]Aprende a **programar** e usar **IA**, tudo através do **poder do jogo**.',
+      innovative_play_experiences: '[AI_TRANSLATION]Criamos experiências de jogo inovadoras para tornar a ciência da computação envolvente e acessível para todos.',
+      sign_up_today: '[AI_TRANSLATION]Regista-te hoje para jogar gratuitamente e explorar os nossos jogos e recursos.',
+      im_an_educator: '[AI_TRANSLATION]Sou um Educador',
+      im_a_parent: '[AI_TRANSLATION]Sou um Pai/Mãe',
+      im_a_student: '[AI_TRANSLATION]Sou um Estudante',
+      programming_languages: '[AI_TRANSLATION]Linguagens de Programação e Ferramentas de IA',
+      engaging_play_experiences: '[AI_TRANSLATION]Experiências de Jogo Cativantes',
+      for_younger_learners: '[AI_TRANSLATION]Para Jovens Aprendizes',
+      your_turnkey_solutions: '[AI_TRANSLATION]As tuas Soluções Chave-na-Mão',
+      trends_insights: '[AI_TRANSLATION]Tendências & Insights',
+      //    awards_partners: "Awards & Partners",
+      faq_visit_help_center: '[AI_TRANSLATION]Para respostas às perguntas frequentes, visita o nosso **centro de ajuda**.',
+      //    contact_us: "Contact Us",
+      for_further_questions: '[AI_TRANSLATION]Para mais perguntas',
+      education_partner: '[AI_TRANSLATION]Parceiro de Educação[NEWLINE]',
+      official_member: '[AI_TRANSLATION]Membro[NEWLINE]Oficial',
+      best_creativity_tool_for_students: '[AI_TRANSLATION]Melhor Ferramenta de Criatividade[NEWLINE]para Estudantes',
+      official_partner: '[AI_TRANSLATION]Parceiro[NEWLINE]Oficial',
+      hour_of_code_activity_partner: '[AI_TRANSLATION]Hora do Código[NEWLINE]Parceiro de Atividade',
+      top_pick_for_learning: '[AI_TRANSLATION]Melhor Escolha para[NEWLINE]Aprender',
+      //    testimonals_1_title: "“One thing I am able to do now, that I could not do before, is actually believe I can code.”",
+      testimonals_1_name: '[AI_TRANSLATION]Estudante da Escola Secundária Mountain Ridge',
+      testimonals_2_title: '[AI_TRANSLATION]"Nomeia um programa online, já o experimentei. Nenhum deles se compara ao CodeCombat & Ozaria. Qualquer professor que queira que os seus alunos aprendam a programar... comece aqui!"',
+      testimonals_2_name: '[AI_TRANSLATION]Scott Baily, Escola Secundária Bobby Duke',
+      testimonals_3_title: '[AI_TRANSLATION]"Sempre tive aspirações de desenhar videojogos e aprender a programar ... isto está a dar-me um ótimo ponto de partida."',
+      testimonals_3_name: '[AI_TRANSLATION]Joey, 10º Ano',
+      testimonals_4_title: '[AI_TRANSLATION]"O que eu mais adoro no CodeCombat é que não simplifica a programação. Os alunos estão a aprender a escrever código real, mas de uma forma que se estão a divertir."',
+      testimonals_4_name: '[AI_TRANSLATION]Sandra Ahlstrom, Professora, Distrito Escolar do Condado de Sheridan #2',
+      carousel_1_title: '[AI_TRANSLATION]Aprendizagem[NEWLINE]Baseada em Jogos',
+      carousel_1_text: '[AI_TRANSLATION]Com a nossa abordagem única, os alunos abraçam a aprendizagem enquanto jogam e escrevem código desde o início da sua aventura, promovendo a aprendizagem ativa e uma mentalidade de crescimento.',
+      carousel_2_title: '[AI_TRANSLATION]Codificação[NEWLINE]Baseada em Texto',
+      carousel_2_text: '[AI_TRANSLATION]O nosso motor de código personalizado e interpretador é projetado para iniciantes, ensinando as verdadeiras linguagens de programação Python, JavaScript e C++ usando termos simples e amigáveis para iniciantes.',
+      carousel_3_title: '[AI_TRANSLATION]Avaliações Baseadas em Projeto[NEWLINE]',
+      carousel_3_text: '[AI_TRANSLATION]Estes projetos são uma oportunidade para os alunos programarem os seus próprios jogos partilháveis. Fornecemos rubricas de avaliação para que possas usar os projetos Capstone como avaliações somativas principais.',
+      carousel_4_title: '[AI_TRANSLATION]Aceleração por IA[NEWLINE]',
+      carousel_4_text: '[AI_TRANSLATION]Ensinamos os alunos a usar IA para acelerar a aprendizagem e melhorar as suas habilidades de programação. Esta combinação poderosa desbloqueia o potencial criativo de qualquer nível de habilidade.',
+      carousel_5_title: '[AI_TRANSLATION]Empoderamento[NEWLINE]Educacional',
+      carousel_5_text: '[AI_TRANSLATION]As nossas soluções para salas de aula são construídas com todo o suporte e recursos que qualquer educador precisaria para implementar o currículo e alcançar resultados de sucesso.',
+      carousel_6_title: '[AI_TRANSLATION]Estudante[NEWLINE]Impacto',
+      carousel_6_text: '[AI_TRANSLATION]Os nossos produtos já ajudaram mais de 20 milhões de estudantes a gostar de aprender Ciências da Computação, ensinando-os a ser aprendizes críticos, confiantes e criativos. Envolvemos todos os alunos, independentemente da experiência, ajudando-os a encontrar um caminho de sucesso nas Ciências da Computação.\n',
+      engaging_boxes_1_title: '[AI_TRANSLATION]Sala de Aula Ozaria',
+      engaging_boxes_1_text: '[AI_TRANSLATION]Uma aventura narrativa de codificação que estabelece os fundamentos da ciência da computação.',
+      engaging_boxes_2_title: '[AI_TRANSLATION]CodeCombat Sala de Aula',
+      engaging_boxes_2_text: '[AI_TRANSLATION]Um currículo completo de CS que se baseia em conceitos fundamentais até ao desenvolvimento web, desenvolvimento de jogos e **[https://codecombat.com/apcsp]AP CSP**.',
+      engaging_boxes_3_title: '[AI_TRANSLATION]Mundos do CodeCombat no Roblox',
+      engaging_boxes_3_text: '[AI_TRANSLATION]Em parceria com a Roblox Education, esta experiência com IA melhora imenso as habilidades de codificação dos alunos e proporciona uma plataforma real para criar jogos e experiências incríveis.',
+      engaging_boxes_4_title: '[AI_TRANSLATION]CodeCombat Liga de Esports IA',
+      engaging_boxes_4_text: '[AI_TRANSLATION]Uma plataforma épica de eSports de programação competitiva que incentiva a programação criativa num ambiente baseado em jogos.',
+      engaging_boxes_5_title: '[AI_TRANSLATION]CodeCombat IA HackStack',
+      engaging_boxes_5_text: '[AI_TRANSLATION]A primeira ferramenta de IA generativa especificamente criada para iniciantes em IA com foco na privacidade e segurança dos estudantes. Misturando simplicidade e poder, a plataforma acelera as habilidades dos estudantes e liberta o seu potencial criativo.',
+      engaging_boxes_6_title: '[AI_TRANSLATION]Página Inicial do CodeCombat',
+      engaging_boxes_6_text: '[AI_TRANSLATION]Com acesso a mais de 530 níveis e características exclusivas como mascotes, itens apenas para assinantes, e heróis, o teu filho pode mergulhar de cabeça no mundo da programação. Podem até mesmo criar jogos para desafiar os amigos, construir websites e apps para partilhar.',
+      young_learners_1_title: '[AI_TRANSLATION]CodeCombat Júnior',
+      young_learners_1_text: '[AI_TRANSLATION]O nosso currículo principal para K-5 apresenta uma progressão de níveis de aprendizagem que ensinam conceitos básicos de codificação a um ritmo mais lento, modelado especificamente para alunos do ensino primário.',
+      young_learners_1_linkText: '[AI_TRANSLATION]Regista-te para Acesso Beta',
+      young_learners_2_title: '[AI_TRANSLATION]AI Junior',
+      young_learners_2_text: '[AI_TRANSLATION]Introduz IA generativa multi-modal numa plataforma simples e intuitiva, desenhada especificamente para estudantes de K-5.',
+      young_learners_2_linkText: '[AI_TRANSLATION]Regista-te para Acesso Beta',
+      solutions_1_title: '[AI_TRANSLATION]Desenvolvimento Profissional',
+      solutions_1_text: '[AI_TRANSLATION]Construído para capacitar todos os professores com as habilidades, conhecimentos e confiança para ensinar informática de forma eficaz.',
+      solutions_1_middleText: '[AI_TRANSLATION]Ganha até 6 créditos de graduação.',
+      solutions_1_linkText: '[AI_TRANSLATION]Experimenta agora',
+      solutions_2_title: '[AI_TRANSLATION]Preparação para o Exame AP CSP',
+      solutions_2_text: '[AI_TRANSLATION]Somos reconhecidos pelo College Board como um fornecedor aprovado de currículo e desenvolvimento profissional para AP® Computer Science Principles (AP CSP). O nosso currículo AP CSP fornece ferramentas baseadas em jogos e prontas a usar para preparar os alunos para o exame AP.',
+      solutions_2_linkText: '[AI_TRANSLATION]Experimenta agora',
+      solutions_3_title: '[AI_TRANSLATION]Fontes de Subsídios e Financiamento',
+      solutions_3_text: '[AI_TRANSLATION]Entendemos as dificuldades de financiamento que as escolas enfrentam e estamos apaixonados por ajudar a superar esses obstáculos. Dá uma olhada no nosso guia completo de financiamento por subsídios ou fala com a nossa equipa para saberes mais.',
+      solutions_4_title: '[AI_TRANSLATION]Soluções a Nível de Distrito',
+      solutions_4_text: '[AI_TRANSLATION]As nossas soluções inovadoras ajudaram distritos em todo o país a expandir ou iniciar os seus programas de ciência da computação. Projetada com o feedback da nossa comunidade de mais de 320.000 educadores, a nossa solução abrangente oferece um currículo responsivo e flexível que atende às necessidades de todos os alunos e educadores. É fácil de implementar e escalar com a nossa equipa a fornecer a formação e o apoio que os seus professores precisam.  ',
+      solutions_5_title: '[AI_TRANSLATION]Aulas Online ao Vivo',
+      solutions_5_text: '[AI_TRANSLATION]As nossas aulas online de programação combinam o poder do jogo com instrução personalizada para uma experiência que o teu filho vai adorar. Desde programar e publicar os seus próprios jogos no Roblox até construir um site para um novo negócio, o teu filho vai explorar tudo o que é possível com IA e programação.',
+      solutions_6_title: '[AI_TRANSLATION]CodeQuest',
+      solutions_6_text: '[AI_TRANSLATION]Junta-te a nós para uma experiência educativa imersiva como nenhuma outra, desenhada para inspirar e capacitar a próxima geração de inovadores em ciência da computação. Esta rara oportunidade junta estudantes de todo o mundo para participar numa série de hackathons de programação, aprender com oradores notáveis e visitar universidades e organizações de tecnologia de topo.',
+      solutions_6_linkText: '[AI_TRANSLATION]Descobre Mais',
+      solutions_7_title: '[AI_TRANSLATION]Soluções de Parceiros',
+      solutions_7_text: '[AI_TRANSLATION]Junta-te à nossa missão de tornar a programação acessível e envolvente para todos, tornando-te um parceiro valorizado. As nossas estruturas de parceria flexíveis incluem negócios educacionais, patrocinadores de esports, distribuidores internacionais e organizações de impacto social. Os parceiros têm acesso a programas fáceis de usar, recursos de implementação e opções de formação para uma experiência bem-sucedida e agradável.',
+      solutions_8_title: '[AI_TRANSLATION]Soluções de Biblioteca',
+      solutions_8_text: '[AI_TRANSLATION]Como um recurso digital totalmente autodirigido e no seu próprio ritmo, o CodeCombat é a melhor integração para bibliotecas que querem capacitar seus membros de todas as idades a aprender a programar. A nossa plataforma oferece tudo o que os aprendentes precisam para ter uma educação em programação de alto nível através de um currículo único e emocionante baseado em jogos. Perfeito para iniciantes até aqueles que querem dominar conceitos de programação a nível universitário.  ',
+      learn_more_text: '[AI_TRANSLATION]Descobre Mais',
+      best_homeschool_curriculum: '[AI_TRANSLATION]Melhor Currículo de Ensino[NEWLINE]Doméstico',
+      sign_up_free: '[AI_TRANSLATION]Regista-te Gratuitamente',
+      try_it_now: '[AI_TRANSLATION]Experimenta agora',
+      //    junior_modal_header: "Try Our New K-5 Curriculum Today!",
+      //    junior_modal_body: "Perfect for K-5 classrooms, this new curriculum features real coding with icons, drag-and-drop blocks, parallel blocks with text, or purely text-based options. Plus, it’s fully accessible on tablets making it easy to support all learners.",
+    },
+
+    schools_page: {
+      meta_title: '[AI_TRANSLATION]CodeCombat: a solução de ciência da computação mais eficaz para escolas',
+      most_effective_computer_science_solution: '[AI_TRANSLATION]A solução mais eficaz de ciência da computação para **escolas**.',
+      our_comprehensive_implementation: '[AI_TRANSLATION]A nossa implementação abrangente capacita os professores, envolve os alunos e entrega resultados bem-sucedidos.',
+      start_teach_trial: '[AI_TRANSLATION]Começa a ensinar hoje com acesso gratuito a todos os jogos e recursos educativos.',
+      get_my_solution: '[AI_TRANSLATION]Obtém a Minha Solução',
+      flexible_standards_aligned_curriculum_title: '[AI_TRANSLATION]Um Currículo Flexível e Alinhado aos Padrões',
+      flexible_standards_aligned_curriculum_text: '[AI_TRANSLATION]A nossa abordagem escalonada cobre desde os fundamentos de ciência da computação até cursos avançados e apresenta **[https://codecombat.com/apcsp]AP CSP endossado pelo College Board**, desenvolvimento web e de jogos. Construímos caminhos personalizados para proporcionar uma experiência de aprendizagem personalizada que atende aos **[https://codecombat.com/standards]padrões CSTA, ISTE e Common Core State Standards**. O currículo flexível permite ensinar Python, JavaScript, C++, Luau e mais.',
+      comprehensive_tools_resources_title: '[AI_TRANSLATION]Ferramentas & Recursos Abrangentes',
+      comprehensive_tools_resources_text: '[AI_TRANSLATION]O hub de recursos para professores capacita todos os educadores para ensinar desde o primeiro dia. Acede facilmente a planos de aula, slides de aula para alunos, rubricas, atividades de extensão, projetos finais e avaliações. As nossas integrações seguras de IA aceleram o potencial dos alunos e permitem aos educadores otimizar o tempo de aula. Para prática e aplicação no mundo real, oferecemos esports de codificação competitiva, design de jogos Roblox e opções de design web. Além disso, os educadores podem controlar o ritmo dos alunos com funcionalidades de atribuição e bloqueio de conteúdo.',
+      accessible_data_insights_title: '[AI_TRANSLATION]Dados & Insights Acessíveis',
+      accessible_data_insights_text: '[AI_TRANSLATION]Fornecemos aos administradores os insights que precisam com dados de uso em tempo real e relatórios de progresso ao nível da turma, escola, distrito e estado. O rastreamento de progresso ao nível dos alunos permite aos educadores identificar facilmente quando é necessário intervenção, e as avaliações pré e pós-módulo incorporadas medem a compreensão dos alunos.',
+      high_quality_professional_development_title: '[AI_TRANSLATION]Desenvolvimento Profissional de Alta Qualidade',
+      high_quality_professional_development_text: '[AI_TRANSLATION]**[https://csteachers.org/pd-opportunities/accredited-pd/]Aprovado pela Associação de Professores de Ciência da Computação (CSTA)**, o curso oferece mais de 44 horas de aprendizagem autodirigida, baseada na web e sob demanda. O programa é auto-ritmado e projetado para se adaptar a qualquer agenda ocupada. O curso prepara qualquer pessoa com ou sem experiência de ensino para implementar com sucesso um currículo de CS.',
+      earn_up_to_3_graduate_credits: '[AI_TRANSLATION]Ganha até 6 créditos de graduação com este curso.',
+      //    request_a_demo: "Request a Demo",
+      maximize_your_impact: '[AI_TRANSLATION]Todas as ferramentas para maximizar os resultados de aprendizagem.',
+      core_curriculum: '[AI_TRANSLATION]Currículo Central',
+      practice_enrichment: '[AI_TRANSLATION]Prática & Enriquecimento',
+      student_acceleration_ap_csp: '[AI_TRANSLATION]Aceleração do Estudante & AP CSP',
+      young_learners: '[AI_TRANSLATION]Jovens Aprendizes',
+      funding_solutions: '[AI_TRANSLATION]Soluções de Financiamento',
+      support_development: '[AI_TRANSLATION]Suporte de Aprendizagem',
+      ai_support_acceleration_title: '[AI_TRANSLATION]Suporte e Aceleração de IA',
+      ai_support_acceleration_text: '[AI_TRANSLATION]Usamos IA para tornar o tempo de ensino mais eficaz. O CodeCombat agora suporta uma funcionalidade de dicas de IA que avalia o código, identifica erros e explica como corrigi-los. O mais importante é que fornece todo o contexto necessário para entender o porquê, sem revelar a solução completa. Os alunos ainda precisam de trabalhar em cada desafio de codificação de nível, mas agora não precisas parar a aula para atender necessidades individuais. **Os professores recebem uma alocação de 100 dicas de IA por dia** e **cada aluno recebe 5 dicas de IA por dia**, para garantir que têm sempre o apoio necessário.',
+      codecombat_ai_hackstack_text: '[AI_TRANSLATION]Para os novos na IA, oferecemos o **CodeCombat AI HackStack**. Esta ferramenta inovadora não só ensina os alunos a usar IA como também fornece acesso seguro a muitos dos mais recentes LLMs, incluindo ChatGPT-4, Claude, Stable Diffusion, DALL-E e outros. Após apenas algum tempo a trabalhar no modo de treino, os utilizadores desbloqueiam o potencial criativo completo da ferramenta, permitindo projetos de prompt-para-código-para-publicado em minutos. Esta aplicação potenciada por IA permite aos utilizadores gerar jogos, arte, websites, código e mais. **Os professores recebem uma alocação de 100 prompts de IA por mês** e **cada aluno recebe 10 prompts de IA por semana**, para criar múltiplos projetos de IA.\n',
+      pathways_for_success: '[AI_TRANSLATION]Caminhos para o Sucesso',
+      for_your_custom_pathway: '[AI_TRANSLATION]Pelo Teu Caminho Personalizado  ',
+      elementary_school: '[AI_TRANSLATION]Escola Elementar',
+      codecombat_jr: '[AI_TRANSLATION]CodeCombat Júnior',
+      ai_hacksstack_jr: '[AI_TRANSLATION]AI Junior',
+      codecombat_worlds: '[AI_TRANSLATION]Mundos do CodeCombat',
+      k: '[AI_TRANSLATION]Ok',
+      icons_block_based: '[AI_TRANSLATION]Ícones & Baseado em Blocos',
+      introduction_to_ai: '[AI_TRANSLATION]Introdução à IA',
+      grade_1: '[AI_TRANSLATION]Grau 1',
+      simple_ai_templates: '[AI_TRANSLATION]Templates de IA Simples',
+      grade_2: '[AI_TRANSLATION]Grau 2',
+      complex_ai_templates: '[AI_TRANSLATION]Complex AI Templates',
+      explorations: '[AI_TRANSLATION]Explorações',
+      grade_3: '[AI_TRANSLATION]Grau 3',
+      block_based: '[AI_TRANSLATION]Baseada em Blocos',
+      grade_4: '[AI_TRANSLATION]Grau 4',
+      block_based_text: '[AI_TRANSLATION]Baseada em Blocos & Texto',
+      grade_5: '[AI_TRANSLATION]Grau 5',
+      text: '[AI_TRANSLATION]Texto',
+      our_k_5_implementation_pathway: '[AI_TRANSLATION]O nosso Caminho de Implementação para K-5 vai apresentar duas novas plataformas **fáceis para principiantes**, incluindo CodeCombat Junior, a nossa principal oferta para o nível básico, com uma progressão de níveis de aprendizagem que **ensina conceitos básicos de programação a um ritmo mais lento**, e AI Junior, uma **ferramenta multimodal de IA** que permite aos alunos desenhar, escrever e criar os seus próprios produtos digitais. Esta progressão estruturada permitirá que os alunos cresçam com o nosso conteúdo imersivo e explorem uma grande variedade de conceitos de pensamento computacional e ciência da computação.\n',
+      middle_school: '[AI_TRANSLATION]Escola Secundária',
+      high_school: '[AI_TRANSLATION]Escola Secundária',
+      //    ozaria: "Ozaria",
+      ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      ai_league: '[AI_TRANSLATION]Ligas de IA',
+      grade_6: '[AI_TRANSLATION]Grau 6',
+      introduction_to_coding: '[AI_TRANSLATION]Introdução à Programação',
+      introduction_to_luau_coding: '[AI_TRANSLATION]Introdução à Programação em Lua',
+      introduction_to_coding_esports: '[AI_TRANSLATION]Introdução aos Esports de Programação',
+      grade_7: '[AI_TRANSLATION]Grau 7',
+      loops_structures: '[AI_TRANSLATION]Loops & Estruturas',
+      introduction_to_creative_mode: '[AI_TRANSLATION]Introdução ao Modo Criativo',
+      ai_scenarios: '[AI_TRANSLATION]Cenários de IA',
+      competitive_coding_arenas: '[AI_TRANSLATION]Arenas de Programação Competitiva',
+      grade_8: '[AI_TRANSLATION]Grau 8',
+      functions_data: '[AI_TRANSLATION]Funções & Dados',
+      //    game_development: "Game Development",
+      open_ended_ai_projects: '[AI_TRANSLATION]Projetos de IA Aberta',
+      middle_school_implementation: '[AI_TRANSLATION]A nossa implementação para o ensino básico estabelece uma **base de conceitos de programação** com Ozaria, o nosso currículo principal de Ciências da Computação. Isso eventualmente expande para mais opções, onde os alunos vão **explorar programação e IA** através de três plataformas diferentes. **Os educadores e os alunos podem escolher** o quão profundamente vão explorar cada uma dessas plataformas adicionais.',
+      //    codecombat: "CodeCombat",
+      ap_csp: '[AI_TRANSLATION]AP CSP',
+      cs1_4_data_science_cybersecurity_exam_content: '[AI_TRANSLATION]CS1-4 [NEWLINE] Data Science [NEWLINE] Cibersegurança [NEWLINE] Conteúdo do Exame',
+      advanced_cs: '[AI_TRANSLATION]Ciências da Computação Avançadas',
+      cs5_6_gd1_3_wd1_2: '[AI_TRANSLATION]CS 5-6 [NEWLINE] GD 1-3 [NEWLINE] WD 1-2',
+      advanced_game_development: '[AI_TRANSLATION]Desenvolvimento Avançado de Jogos  ',
+      advanced_ai_projects: '[AI_TRANSLATION]Projetos Avançados de IA',
+      global_esports_tournament: '[AI_TRANSLATION]Torneio Global de Esports',
+      first_year_high_school_curriculum: '[AI_TRANSLATION]O primeiro ano do nosso currículo de ensino secundário foca-se nos **Princípios de AP de CS**, que inclui os nossos cursos de CodeCombat, CS1−CS4 e conteúdos de currículo para exame, tais como **Ciência de Dados** e **Sistemas de Computação**. O ano mais avançado permite aos alunos explorar mais dos nossos **cursos avançados de CS** e oferece voz e escolha nas nossas três plataformas.',
+      accessibility_representation_title: '[AI_TRANSLATION]Acessibilidade & Representação',
+      //    accessibility_representation_text: "Our student-centric design meets students where they are and provides them with the support they need. In-person and remote learning capabilities allow students to learn anywhere, anytime. Keyboard accessibility, full-screen reader compatibility and colorblind-friendly color scheme ensures everyone can learn to code.",
+      //    accessibility_acr_prefix: "We meet WCAG 2.1 Level AA and Revised Section 508 Standards. See our",
+      //    accessibility_acr_link_text: "Accessibility Compliance Report (ACR) / VPAT",
+      //    accessibility_acr_suffix: "for more information.",
+      privacy_security_title: '[AI_TRANSLATION]Privacidade e Segurança',
+      privacy_security_text: '[AI_TRANSLATION]Levamos a segurança dos estudantes, a cibersegurança e a privacidade dos dados a sério, e seguimos as regulamentações rigorosas de privacidade escolar, incluindo COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Práticas de Informação Justa, CAN-SPAM, bem como o GDPR. Todos os dados são armazenados com segurança na Amazon Web Services nos EUA. As nossas integrações de IA têm guardrails para proteger Informações Pessoalmente Identificáveis e restringir conteúdos sensíveis. A partilha de projetos é controlada e a comunicação peer-to-peer é restringida. Acordos de Processamento de Dados estão disponíveis, visite **https://codecombat.com/privacy** para mais informações.\n',
+      contact_our_team: '[AI_TRANSLATION]Contactar a Nossa Equipa',
+      for_turnkey_solutions: '[AI_TRANSLATION]Para a tua solução turnkey',
+      //    testimonials_1_quote: "“Let me make this clear first. I recommend your product because it is the best programming teaching tool currently on Earth.”",
+      testimonials_1_name: '[AI_TRANSLATION]Seth Reichelson',
+      testimonials_1_title: '[AI_TRANSLATION]Professor de Ciência da Computação AP, Lake Brantley High School. Vencedor do Prémio Champion of Change da Casa Branca',
+      //    testimonials_2_quote: "“[Ozaria] is a full curriculum for computer science education, it’s super impressive, very extensive [...] It’s got everything you need [...] I don't know that we've seen anything with this much extra stuff to help you teach it well.”",
+      testimonials_2_name: '[AI_TRANSLATION]Tanner Higgin',
+      testimonials_2_title: '[AI_TRANSLATION]Diretor Editorial - Conteúdo Educativo, Common Sense Education',
+      testimonials_2_full_review_text: '[AI_TRANSLATION]Revisão Completa Aqui',
+      //    testimonials_3_quote: "“CodeCombat was one of the easiest to implement programs we’ve piloted and student engagement was extremely high. The way the content is designed, scaffolds perfectly and allows students to quickly move into high level programming skills far beyond anything we could have hoped for.”",
+      testimonials_3_name: '[AI_TRANSLATION]Steve Kong',
+      testimonials_3_title: '[AI_TRANSLATION]Especialista em Serviços Instrucionais, Distrito Escolar Unificado de Riverside',
+      //    testimonials_4_quote: "“One thing I am able to do now that I could not do before is actually believe I can code.”",
+      //    testimonials_4_name: "",
+      testimonials_4_title: '[AI_TRANSLATION]Estudante da Escola Secundária Mountain Ridge',
+      //    testimonials_5_quote: "“CodeCombat has transformed how I teach coding...I utilize the great teacher resources including Curriculum Guides, Project Guides, and Solutions. Using CodeCombat has helped me to teach fairly advanced concepts in a way the students enjoy and understand. What I love the most about CodeCombat is that it does not simplify coding. The students are learning to write actual code, yet doing it in such a way that they are having fun.”",
+      testimonials_5_name: '[AI_TRANSLATION]Sandra Ahlstrom',
+      testimonials_5_title: '[AI_TRANSLATION]Professor/a, Sheridan County School District #2',
+      faq_1_question: '[AI_TRANSLATION]O que precisas saber sobre exames de certificação e AP CSP',
+      faq_1_answer: '[AI_TRANSLATION]Os programas de Educação Técnica e Profissional (CTE) nos EUA focam em equipar os estudantes com habilidades valorizadas pela indústria e podem levar à formação em escolas técnicas ou faculdades. Obrigados por leis estaduais e federais, os programas de CTE devem oferecer aos estudantes crédito pós-graduado, certificações industriais ou horas de estágio. Enquanto alguns campos, como a cibersegurança, oferecem exames de certificação valorizados, outros, como a engenharia de software, priorizam mais os cursos de quatro anos do que esses exames. No entanto, passar no exame AP Computer Science Principles serve como uma via reconhecida para crédito pós-secundário, permitindo que os estudantes evitem os requisitos caros e demorados da faculdade. Para ajudar a preparar os estudantes, o CodeCombat oferece um **[https://codecombat.com/apcsp]curso AP CSP**, endossado pelo College Board.',
+      faq_2_question: '[AI_TRANSLATION]Como usamos IA para apoiar educadores.',
+      faq_2_answer: '[AI_TRANSLATION]Usamos IA para tornar o tempo de ensino mais eficaz. Com o aumento do tamanho das turmas e tempo limitado para instrução personalizada, o nosso assistente de chat de nível potenciado por IA é a ferramenta perfeita para cuidar das perguntas individuais dos teus alunos. Este assistente poderoso pode avaliar o código, identificar erros, explicar como corrigi-los e fornecer todo o contexto necessário para entender o "porquê". E, o mais importante, não dará a solução. Com assistência apenas na próxima linha disponível, os alunos ainda terão de trabalhar nos desafios de codificação de cada nível, mas agora já não tens de parar a aula para atender necessidades individuais.',
+      faq_3_question: '[AI_TRANSLATION]Como integramos IA de forma segura e responsável.',
+      faq_3_answer: '[AI_TRANSLATION]A nossa tecnologia de IA adere a princípios de segurança em primeiro lugar, proporcionando confiança tanto a alunos quanto a educadores. Não permitimos que os nossos fornecedores de LLM backend treinem as suas conversas e estabelecemos medidas de proteção contra conteúdo impróprio. Estas medidas incluem filtrar linguagem prejudicial, manter o foco em temas relevantes, proteger informações pessoais e educar os alunos sobre possíveis armadilhas da IA. Além disso, registramos a atividade do chat de IA para monitoramento dos professores e mantemos protocolos rigorosos de privacidade e segurança de dados.',
+      faq_4_question: '[AI_TRANSLATION]Porque a ciência da computação é importante',
+      //    faq_4_answer: "Computer science education provides the immediate benefits of boosting problem-solving competencies, sharpening mathematical abilities, and encourages the logical thinking necessary for success across other core school subjects. The learning extends far beyond the code, enhancing students' capability to solve complex problems and adapt to different situations. See how Ozaria helps make those **[https://docs.google.com/presentation/d/1xcc1tw4k8oY9basXuxO0v_RU9z-Dr8ImvbvbuNvJeHA/edit#slide=id.g134a7e7c8f1_0_3]cross curricular connections**. Our curriculum is designed to equip students today with the crucial computer science skills that will prepare them for the digital jobs of tomorrow.",
+      faq_5_question: '[AI_TRANSLATION]Porque é que a aprendizagem baseada em jogos funciona',
+      faq_5_answer: '[AI_TRANSLATION]A aprendizagem baseada em jogos é tão eficaz porque proporciona um ambiente seguro onde o fracasso não é temido, mas esperado, oferecendo uma oportunidade de crescimento e compreensão. Esta abordagem incentiva os alunos a aprender com os seus erros e a adaptar as suas estratégias para o sucesso. Além disso, a natureza interativa e dinâmica dos jogos ajuda os alunos a reter informações de forma mais eficaz, pois eles estão a aprender através de experiências práticas. Envolve ativamente os alunos no processo de aprendizagem, aumentando a sua motivação e prazer.',
+      faq_6_question: '[AI_TRANSLATION]Como encontrar fontes de financiamento alternativas',
+      faq_6_answer: '[AI_TRANSLATION]A educação em ciência da computação tornou-se um componente vital na jornada académica de um estudante; contudo, muitas escolas enfrentam desafios em garantir os recursos necessários para fornecer programas abrangentes de ciência da computação aos seus alunos. Na CodeCombat, entendemos as dificuldades de financiamento que as escolas enfrentam e estamos empenhados em ajudá-las a superar esses obstáculos. Subsídios podem ser um recurso valioso, mas difíceis de descobrir e solicitar. Confere o nosso **[https://codecombat.com/grants]guia abrangente de financiamento por subsídios** ou fala com a nossa equipa para saber mais.',
+      faq_7_question: '[AI_TRANSLATION]Como começar',
+      faq_7_answer_1: '[AI_TRANSLATION]Cria a tua Conta de Professor ou Administrador',
+      faq_7_answer_2: '[AI_TRANSLATION]Criar uma turma',
+      faq_7_answer_3: '[AI_TRANSLATION]Adiciona estudantes.',
+      faq_7_answer_4: '[AI_TRANSLATION]Senta-te e vê os teus alunos divertirem-se a aprender a programar',
+      faq_8_question: '[AI_TRANSLATION]Instruções de suporte através de recursos curriculares dedicados',
+      faq_8_answer: '[AI_TRANSLATION]Oferecemos integração tanto com Clever quanto com Google Classroom. Confere a nossa **[https://codecombat.com/teachers/resources/clever-faq]Clever Integration FAQ** para mais detalhes sobre como começar. Se estás a usar Google Classroom, assegura-te de usar o modal de Google Single Sign-On (SSO) para criar a tua conta de professor. Se já tens uma conta usando o teu email do Google, usa o modal de Google SSO para fazer login da próxima vez. No modal Criar Turma, verás uma opção para Ligar ao Google Classroom. Atualmente, só suportamos o preenchimento de turmas via Google Classroom. Nota: precisas usar o Google SSO para te inscreveres ou fazeres login pelo menos uma vez para ver a opção de integração com o Google Classroom.',
+      faq_9_question: '[AI_TRANSLATION]Navegador e sistema operativo recomendados',
+      faq_9_answer: '[AI_TRANSLATION]CodeCombat e Ozaria funcionam melhor em computadores com pelo menos 4GB de RAM, num navegador moderno como Chrome, Safari, Firefox ou Edge. Chromebooks com 2GB de RAM podem ter pequenos problemas gráficos em cursos mais avançados. É necessário um mínimo de 200 Kbps de largura de banda por aluno, embora seja recomendado 1+ Mbps.',
+      core_curriculum_1_title: '[AI_TRANSLATION]Sala de Aula Ozaria',
+      core_curriculum_1_text: '[AI_TRANSLATION]Uma aventura narrativa de codificação que estabelece os fundamentos da ciência da computação.',
+      core_curriculum_1_link_text: '[AI_TRANSLATION]Experimenta agora',
+      core_curriculum_2_title: '[AI_TRANSLATION]CodeCombat Sala de Aula',
+      core_curriculum_2_text: '[AI_TRANSLATION]Um currículo completo de CS que se baseia em conceitos fundamentais até ao desenvolvimento web, desenvolvimento de jogos e **[http://codecombat.com/apcsp]AP CSP**.',
+      core_curriculum_2_link_text: '[AI_TRANSLATION]Experimenta agora',
+      practice_enrichment_1_title: '[AI_TRANSLATION]CodeCombat Liga de Esports IA',
+      practice_enrichment_1_text: '[AI_TRANSLATION]Uma plataforma épica de eSports de programação competitiva que incentiva a programação criativa num ambiente baseado em jogos.',
+      practice_enrichment_1_link_text: '[AI_TRANSLATION]Experimenta agora',
+      practice_enrichment_2_title: '[AI_TRANSLATION]Mundos do CodeCombat no Roblox',
+      practice_enrichment_2_text: '[AI_TRANSLATION]Em parceria com a Roblox Education, esta experiência com IA melhora imenso as habilidades de codificação dos alunos e proporciona uma plataforma real para criar jogos e experiências incríveis.',
+      practice_enrichment_2_link_text: '[AI_TRANSLATION]Experimenta agora',
+      student_acceleration_1_title: '[AI_TRANSLATION]CodeCombat IA HackStack',
+      student_acceleration_1_text: '[AI_TRANSLATION]A primeira ferramenta de IA generativa especificamente criada para iniciantes em IA com foco na privacidade e segurança dos estudantes. Misturando simplicidade e poder, a plataforma acelera as habilidades dos estudantes e liberta o seu potencial criativo.',
+      student_acceleration_1_link_text: '[AI_TRANSLATION]Experimenta agora',
+      student_acceleration_2_title: '[AI_TRANSLATION]Preparação para o Exame AP CSP',
+      student_acceleration_2_text: '[AI_TRANSLATION]Somos reconhecidos pelo College Board como um fornecedor aprovado de currículo e desenvolvimento profissional para AP® Computer Science Principles (AP CSP). O nosso currículo AP CSP fornece ferramentas baseadas em jogos e prontas a usar para preparar os alunos para o exame AP.',
+      young_learners_1_title: '[AI_TRANSLATION]CodeCombat Júnior',
+      young_learners_1_text: '[AI_TRANSLATION]O nosso currículo principal para K-5 apresenta uma progressão de níveis de aprendizagem que ensinam conceitos básicos de codificação a um ritmo mais lento, modelado especificamente para alunos do ensino primário.',
+      young_learners_1_link_text: '[AI_TRANSLATION]Regista-te para Acesso Beta',
+      young_learners_2_title: '[AI_TRANSLATION]AI Junior',
+      young_learners_2_text: '[AI_TRANSLATION]Introduz IA generativa multi-modal numa plataforma simples e intuitiva, desenhada especificamente para estudantes de K-5.',
+      young_learners_2_link_text: '[AI_TRANSLATION]Regista-te para Acesso Beta',
+      funding_solutions_1_title: '[AI_TRANSLATION]Fontes de Subsídios e Financiamento',
+      funding_solutions_1_text: '[AI_TRANSLATION]Entendemos as dificuldades de financiamento que as escolas enfrentam e estamos apaixonados por ajudar a superar esses obstáculos. Dá uma olhada no nosso guia completo de financiamento por subsídios ou fala com a nossa equipa para saberes mais.',
+      funding_solutions_1_link_text: '[AI_TRANSLATION]Descobre Mais',
+      support_development_1_title: '[AI_TRANSLATION]Aulas Online ao Vivo',
+      support_development_1_text: '[AI_TRANSLATION]Gostavas de oferecer instrução de qualidade em Ciências da Computação, mas não tens a equipa para executar? O nosso grupo de instrutores mestres pode fornecer lições virtuais envolventes, perfeitas para programas em sala de aula ou pós-escolar.',
+      support_development_1_link_text: '[AI_TRANSLATION]Regista-te para Acesso Beta',
+      faq_header: '[AI_TRANSLATION]Perguntas Frequentes',
+      faq_see_more: '[AI_TRANSLATION]Vê mais perguntas frequentes no nosso **[https://codecombat.zendesk.com/hc/en-us]centro de ajuda**.',
+      trends_1_title: '[AI_TRANSLATION]A IA não está a substituir a Programação, está a acelerá-la!',
+      trends_1_text: '[AI_TRANSLATION]Entrámos oficialmente na era da IA. Juntamente com a excitação e a hipérbole vem uma onda de medo e incerteza sobre o futuro da ciência da computação. Vídeos de IA a escrever código com entradas simples e histórias de engenheiros substituídos por bots de IA alimentaram uma narrativa dramática, mas, em última análise, falhada. A verdade é que a IA não está a substituir a codificação; está a acelerá-la!',
+      trends_1_linkText: '[AI_TRANSLATION]Ler o Blog',
+      trends_2_title: '[AI_TRANSLATION]Educação Técnica e Profissional com Pat Keeney',
+      //    trends_2_text: "Career Technical Education (CTE) prepares students to become lifelong learners and provides them with the skills and knowledge they need to succeed in their future careers. In this episode, Pat Keeney, CTE Champion at McGraw Hill, shares his experience",
+      trends_2_linkText: '[AI_TRANSLATION]Ouve o Podcast',
+      learn_more_text: '[AI_TRANSLATION]Descobre Mais',
+      your_turnkey_solutions: '[AI_TRANSLATION]As tuas Soluções Chave-na-Mão',
+      free_teacher_account: '[AI_TRANSLATION]Conta de Professor Grátis',
+      trial_the_curriculum: '[AI_TRANSLATION]Experimenta o currículo com os teus alunos hoje!',
+      try_it_free: '[AI_TRANSLATION]Experimenta Grátis',
+    },
+
+    //  hackstack_page: {
+    //    header: "Learn, create, and accelerate with **AI HackStack**",
+    //    header_details: "Together, we empower learners to safely bring their ideas to life across any subject.",
+    //    accessible_safe_use: "Accessible, safe, and responsible use of AI",
+    //    learn_title: "Learn",
+    //    learn_description: "From **English Language Arts** to **Mathematics** and **Science**, students discover how to craft safe and effective prompts for generating output in each discipline. Learn essential prompt engineering skills in a **wide range of subjects** using Al HackStack's Learning Scenarios. Along the way, your students will gain hands-on experience with popular Al models like Claude, DALL-E, and Stable Diffusion.",
+    //    create_title: "Create",
+    //    create_description: "Bring your wildest ideas to life with HackStack's Al **sandbox environment**. Here, students will be able to quickly prototype interdisciplinary projects of all kinds. Use our turnkey curriculum to help your students engage in meaningful discussions about the **responsible use** of Al and the **ethical implications** of their creations. This holistic approach not only sparks innovation but also cultivates digital citizenship, equipping students with the skills and awareness needed to thrive in the digital age.",
+    //    remix_title: "Remix",
+    //    remix_description: "Supercharge the creative process by customizing one of the many projects found in Al HackStack's **community library**. The remix feature not only accelerates individual progress but also fosters a **collaborative ecosystem** where ideas evolve rapidly. As students remix and build upon each other's work, the collective output of your classroom will reach new creative heights, resulting in an impressive showcase of student-driven innovation.",
+    //    privacy_title: "Safety and Privacy",
+    //    privacy_subtitle: "Our AI platforms fuel student curiosity and creativity, with the privacy and security you need.",
+    //    data_title: "Your Data is Safe",
+    //    data_description: "We carefully vet Al tools before they are added to Al HackStack. If they're not safe, we don't include them. We also screen user prompts to make sure they don't contain any Personally Identifiable Information. If they do, we replace it with a placeholder value before giving it to an external Al model. Additionally, you have the power to lock specific Al tools so that your students cannot access the ones you don't feel comfortable using.",
+    //    moderation_title: "Our Moderation Practices",
+    //    moderation_description: "We monitor user prompts and Al output to make sure they don't contain any inappropriate content. You can review every prompt that your student has written in the Al HackStack teacher dashboard. We also provide turnkey resources to help you and your students navigate the complexity of using Al, and provide professional development opportunities for those who want more guidance on what to look for when students are using Al.",
+    //    professional_development: "High Quality Professional Development",
+    //    professional_development_text: "We offer professional development opportunities for those who want more guidance on how to use AI in the classroom. These professional development workshops were modeled after **[https://www.teachai.org/toolkit]Teach AI**, **[https://www.edsafeai.org/safe]EdSafe**, **[https://csteachers.org/k12standards/]CSTA**, and **[https://ai4k12.org/]AI4K12’s** AI standards, which focus on the safe and responsible use of AI.",
+    //    ask_pd: "Ask about AI PD",
+    //    testimonials_1_quote: "The energy and excitement... in experimenting with different models and brainstorming and pitching their first Al programs were truly uplifting! I can't wait to check out these programs. Here's to making Al accessible to everyone!",
+    //    testimonials_1_name: "Vivienne Byrd",
+    //    testimonials_1_title: "STEAM Librarian & Program Lead of Citizen Science Initiative, Los Angeles Public Library",
+    //    try_it_free: "Try It Free",
+    //    faq_1_question: "How old should my students be to use AI HackStack?",
+    //    faq_1_answer: "AI HackStack is great for middle school and high school-aged students. Our safety and privacy practices allow us to help younger users, like your students, interface safely with AI.  Do you teach elementary-aged students? If so, **[mailto:team@codecombat.com]connect with our team** to learn more about CodeCombat AI Junior, which introduces multimodal generative AI in a simple and intuitive platform designed specifically for K-5 students.\"",
+    //    faq_2_question: "How we integrate AI safely and responsibly?",
+    //    faq_2_answer: "Our AI technology adheres to safety-first principles, providing confidence to both students and educators. We do not allow our backend LLM providers to train your chats and have established protective measures against inappropriate content. These measures include filtering harmful language, maintaining focus on relevant subjects, safeguarding personal information, and educating students about potential AI pitfalls. Moreover, we log AI chat activity for teacher monitoring and uphold stringent data privacy and security protocols.",
+    //    faq_3_question: "What LLMs is AI HackStack using?",
+    //    faq_3_answer_1: "ChatGPT-4: A model designed for natural language understanding and generation tasks.",
+    //    faq_3_answer_2: "Claude: A language model that focuses on performance and safety in AI interactions.",
+    //    faq_3_answer_3: "Stable Diffusion: A model that generates images from text descriptions.",
+    //    faq_3_answer_4: "DALL-E: An image generation model that creates visuals based on text prompts.",
+    //    faq_3_answer_5: "We continuously evaluate these models for performance and safety, ensuring we update to the latest versions available.",
+    //    faq_4_question: "How to find alternative funding sources?",
+    //    faq_4_answer: "Computer science education has become a vital component of a student's academic journey, however, many schools face challenges in securing the necessary resources to provide their students with comprehensive computer science programs. At CodeCombat, we understand the funding hurdles that schools encounter and are passionate about helping them overcome these obstacles. Grants can be a valuable resource but difficult to discover and apply for. Check out our comprehensive **[https://codecombat.com/grants]guide to grant funding** or **[mailto:team@codecombat.com]speak with our team** to learn more.",
+    //    faq_5_question: "How to get started",
+    //    faq_5_answer_1: "Create your Teacher or Admin Account",
+    //    faq_5_answer_2: "Create a class",
+    //    faq_5_answer_3: "Add students",
+    //    faq_5_answer_4: "Unlock AI HackStack for your class",
+    //    faq_5_answer_5: "Sit back and watch your students have fun learning about AI",
+    //    faq_6_question: "Support for Clever and Google login",
+    //    faq_6_answer: "We offer both Clever and Google Classroom integration. Check out our **[https://codecombat.com/teachers/resources/clever-faq]Clever Integration FAQ** for more details on how to get started. If you are using Google Classroom be sure to use the Google Single Sign-On (SSO) Modal to sign up for your teacher account. If you already have an account using your Google email, use the Google SSO modal to log in next time. In the Create Class modal, you will see an option to Link Google Classroom. We only support rostering via Google Classroom at this time. Note: you must use Google SSO to sign up or log in at least once in order to see the Google Classroom integration option.",
+    //    faq_7_question: "Recommended browser and operating system",
+    //    faq_7_answer: "TBA",
+    //    learn_more: "Learn More",
+    //  },
+
+    standards_page: {
+      standards_aligned_curriculum: '[AI_TRANSLATION]**Currículo Alinhado aos Padrões**',
+      curriculum_description: '[AI_TRANSLATION]CodeCombat oferece caminhos robustos de curso alinhados com várias estruturas de padrões nacionais e estaduais através das séries K-12, incluindo cursos de programação de nível AP em muitas linguagens. Nosso currículo engaja os alunos a explorar e aprender ciência da computação através de lições alinhadas aos padrões.',
+      most_effective_computer_science_solution: '[AI_TRANSLATION]A solução mais eficaz de ciência da computação para **[https://codecombat.com/schools]schools**.',
+      comprehensive_implementation: '[AI_TRANSLATION]A nossa implementação abrangente capacita os professores, envolve os alunos e entrega resultados bem-sucedidos.',
+      carousel_1_title: '[AI_TRANSLATION]Associação de Professores de Ciência da Computação (CSTA)',
+      carousel_1_text: '[AI_TRANSLATION]Os **[https://csteachers.org/k12standards/]Computer Science Teachers Association K-12 Computer Science Standards** delineiam um conjunto central de objetivos de aprendizagem que são projetados para fornecer a base para um currículo completo de ciência da computação e sua implementação no K-12.[NEWLINE]CodeCombat é reconhecido pela CSTA como um provedor credenciado de currículo e desenvolvimento profissional. Aprenda as habilidades para ensinar ciência da computação de forma eficaz com o nosso curso autodirigido de **[https://www.ozaria.com/professional-development]Desenvolvimento Profissional** acreditado pela CSTA. Ganhe até 40 horas de crédito a qualquer momento, de qualquer dispositivo.[NEWLINE]Saiba mais sobre o Alinhamento detalhado dos CSTA Standards abaixo:',
+      carousel_1_button_1_text: '[AI_TRANSLATION]Alinhamento CSTA',
+      //    carousel_1_button_2_text: "CodeCombat",
+      carousel_2_title: '[AI_TRANSLATION]Princípios de Ciência da Computação AP (AP CSP)',
+      carousel_2_text: '[AI_TRANSLATION]O CodeCombat é reconhecido pelo College Board como um fornecedor de currículo e desenvolvimento profissional para AP® Computer Science Principles (AP CSP). Esta endossemento afirma que o currículo do CodeCombat está alinhado a todos os padrões do AP Curriculum Framework e à avaliação do AP CSP. Isto dá às escolas acesso a recursos incluindo um plano de estudos do AP CSP pré-aprovado pela Auditoria de Cursos do College Board, e desenvolvimento profissional oficialmente reconhecido que prepara os professores para ensinar este currículo.[NEWLINE]Saiba mais sobre o nosso currículo AP CSP do CodeCombat abaixo:',
+      carousel_2_button_1_text: '[AI_TRANSLATION]CodeCombat CSP AP',
+      carousel_3_title: '[AI_TRANSLATION]Sociedade Internacional para Tecnologia na Educação (ISTE)',
+      carousel_3_text: '[AI_TRANSLATION]Focados na pedagogia, não nas ferramentas, os **[https://iste.org/standards]Padrões ISTE** são uma estrutura que guia os educadores na utilização da tecnologia para criar experiências de aprendizagem de alto impacto, sustentáveis e escaláveis para todos os alunos.[NEWLINE]O currículo do CodeCombat é desenhado para satisfazer as necessidades de todos os padrões ISTE, tanto para alunos como para professores.[NEWLINE]Aprende sobre o Alinhamento Detalhado dos Padrões ISTE abaixo:',
+      //    carousel_3_button_1_text: "Ozaria",
+      //    carousel_3_button_2_text: "CodeCombat",
+      carousel_4_title: '[AI_TRANSLATION]Normas Estaduais Comuns',
+      carousel_4_text: '[AI_TRANSLATION]Os **[https://corestandards.org/]Common Core State Standards** são um conjunto de padrões académicos uniformes para Matemática e Artes da Língua Inglesa do K–12.[NEWLINE]CodeCombat integra uma variedade de conexões curriculares transversais a áreas de estudo principais ao longo do nosso currículo. [NEWLINE]Saiba mais sobre a Alinhamento detalhado dos Common Core Standards abaixo:',
+      //    carousel_4_button_1_text: "Ozaria",
+      //    carousel_4_button_2_text: "CodeCombat",
+      carousel_5_title: '[AI_TRANSLATION]Normas de Ciência da Próxima Geração (NGSS)',
+      carousel_5_text: '[AI_TRANSLATION]Os **[https://www.nextgenscience.org/]Next Generation Science Standards (NGSS)** são padrões de conteúdo científico K–12, estabelecendo expectativas sobre o que os alunos devem saber e ser capazes de fazer. Esses padrões foram desenvolvidos pelos estados para melhorar a educação científica para todos os alunos.[NEWLINE]CodeCombat é um parceiro curricular perfeito para introduzir conceitos-chave de ciência e engenharia dos NGSS.[NEWLINE]Saiba mais sobre o Alinhamento detalhado dos NGSS Standards abaixo:',
+      carousel_5_button_1_text: '[AI_TRANSLATION]Alinhamento NGSS',
+      //    carousel_5_button_2_text: "CodeCombat",
+    },
+
+    codequest_page: {
+      join_us: '[AI_TRANSLATION]Junta-te a Nós',
+      start_application: '[AI_TRANSLATION]Iniciar Aplicação',
+      codequest: '[AI_TRANSLATION]CodeQuest',
+      //    date: "Date",
+      date_time: '[AI_TRANSLATION]22 de Julho - 27 de Julho de 2024',
+      supporting_text: '[AI_TRANSLATION]Junta-te a nós para uma experiência educativa imersiva como nenhuma outra, desenhada para inspirar e capacitar a próxima geração de inovadores em ciência da computação através da programação e IA. Estudantes com idades entre os 13 e os 17 são bem-vindos.',
+      apply_now: '[AI_TRANSLATION]Inscreve-te Agora',
+      insight: '[AI_TRANSLATION]Uma experiência de aprendizagem perspicaz e realista!',
+      testimonials_heading: '[AI_TRANSLATION]Esta rara oportunidade junta estudantes de todo o mundo. Vê aqui a experiência dos estudantes num relance.',
+      engaging_hackathongs: '[AI_TRANSLATION]Hackathons Envolventes',
+      insightful_speakers: '[AI_TRANSLATION]Oradores Perspicazes',
+      university_visits: '[AI_TRANSLATION]Visitas ao Campus Universitário',
+      silicon_valley_experience: '[AI_TRANSLATION]Experiência Silicon Valley',
+      content_title: '[AI_TRANSLATION]A Experiência do Aluno',
+      core_curriculum_heading_1: '[AI_TRANSLATION]Múltiplos',
+      core_curriculum_heading_2: '[AI_TRANSLATION]competições de hackathon',
+      core_curriculum_heading_3: '[AI_TRANSLATION]desenhado para',
+      core_curriculum_heading_4: '[AI_TRANSLATION]inspire criatividade',
+      core_curriculum_heading_5: '[AI_TRANSLATION]na programação e',
+      core_curriculum_heading_6: '[AI_TRANSLATION]ensine aplicações do mundo real de IA',
+      core_curriculum_title_1: '[AI_TRANSLATION]Desafio de Projeto AI HackStack',
+      core_curriculum_text_1: '[AI_TRANSLATION]A primeira ferramenta de IA generativa especificamente criada para iniciantes em IA, permite aos estudantes passarem de texto-para-código-para-resultado instantaneamente. <br /><br /> Os competidores serão emparelhados com outros estudantes para desenvolver um projeto usando prompts de IA e apresentá-lo para avaliação.',
+      core_curriculum_title_2: '[AI_TRANSLATION]Final Global do CodeQuest da Liga de IA',
+      core_curriculum_text_2: '[AI_TRANSLATION]Uma plataforma épica de eSports de programação competitiva que incentiva a programação criativa num ambiente baseado em jogos. <br /><br /> Os concorrentes serão emparelhados com outros estudantes para desenvolver o código ideal para superar as outras equipas, colecionar vitórias frente a frente e terminar no topo da tabela de classificação.',
+      core_curriculum_heading_11: '[AI_TRANSLATION]Hackathons serão realizados em ',
+      core_curriculum_heading_12: '[AI_TRANSLATION]universidades de renome',
+      core_curriculum_heading_13: '[AI_TRANSLATION]oferecendo uma experiência única para os alunos',
+      core_curriculum_heading_14: '[AI_TRANSLATION]immerse',
+      core_curriculum_heading_15: '[AI_TRANSLATION]eles próprios na',
+      core_curriculum_heading_16: '[AI_TRANSLATION]ambiente colegial',
+      core_curriculum_text_11: '[AI_TRANSLATION]Reconhecida mundialmente pela sua pesquisa e inovação de ponta, a UC Berkeley oferece programas completos e rigorosos de ciência da computação. Estes programas melhoram as habilidades criativas de resolução de problemas e incentivam uma compreensão mais profunda da teoria computacional, preparando indivíduos para serem líderes transformadores na indústria tecnológica em rápida evolução.',
+      //    core_curriculum_text_12: "Recognized worldwide as a leader in technology and innovation, Stanford offers robust programs in computer science, fostering creative thinking and a deep understanding of theoretical foundation, preparing individuals to become pioneering leaders in computer science and technology.",
+      core_curriculum_heading_21: '[AI_TRANSLATION]A nossa lista de oradores oferece',
+      //    core_curriculum_heading_22: "unparalleled insight",
+      //    core_curriculum_heading_23: "into what it takes to pursue success in computer science and will help judge the competitions.",
+      core_curriculum_title_21: '[AI_TRANSLATION]Orador em Destaque da UC Berkeley',
+      //    core_curriculum_text_21: "While immersed in the collegiate setting of this storied university, students will be welcomed by representatives from the Department of Electrical Engineering and Computer Sciences at UC Berkeley, who will provide a glimpse into the extensive research and cutting edge developments in computer science happening right here on campus. Students will gain insight into what it is like to be a part of these research programs and what career pathways can be realized.",
+      core_curriculum_title_22: '[AI_TRANSLATION]Google X - O Orador Destaque da Fábrica Moonshot',
+      core_curriculum_text_22: '[AI_TRANSLATION]Em 2010, os fundadores da Google, Larry Page e Sergey Brin, decidiram formar uma nova divisão da empresa para trabalhar em projetos audaciosos: tecnologias futuristas e de ficção científica que, um dia, poderiam tornar o mundo um lugar radicalmente melhor. 10 anos depois, a X incubou centenas de projetos audaciosos diferentes, muitos dos quais se tornaram negócios independentes. Ouve como este grupo diversificado de inventores e empreendedores constrói e lança tecnologias que visam melhorar a vida de milhões, ou até bilhões, de pessoas.',
+      core_curriculum_title_23: '[AI_TRANSLATION]Nick Winter, CEO, CodeCombat',
+      core_curriculum_text_23: '[AI_TRANSLATION]O Nick é o fundador e CEO do CodeCombat. Um líder comprovado na indústria edtech, o Nick mistura a sua paixão pela educação com a sua perícia tecnológica para tornar a aprendizagem de programação mais acessível e envolvente para estudantes em todo o mundo. Antes do CodeCombat, ele co-fundou a Skritter, uma plataforma para aprender caracteres chineses e japoneses. Com um forte compromisso em revolucionar o setor educativo, o Nick contribui ativamente para fazer da programação uma habilidade fundamental para a geração futura. A sua dedicação e visão continuam a inspirar e a impactar o mundo da edtech.',
+      core_curriculum_title_24: '[AI_TRANSLATION]Workshop de Desenvolvimento de Tecnologia da Apple',
+      core_curriculum_text_24: '[AI_TRANSLATION]Ouve em primeira mão de um painel de capitalistas de risco e líderes tecnológicos enquanto detalham o processo de construir uma plataforma tecnológica global e criar um plano de negócios bem-sucedido. Esta apresentação interativa desvendará o que é construir a próxima grande peça de tecnologia e como lançá-la.',
+      core_curriculum_heading_31: '[AI_TRANSLATION]São Francisco e Vale do Silício oferecem aos estudantes a oportunidade única de ',
+      core_curriculum_heading_32: '[AI_TRANSLATION]experienciar vida num gigante tecnológico  ',
+      core_curriculum_heading_33: '[AI_TRANSLATION]e',
+      core_curriculum_heading_34: '[AI_TRANSLATION]explora os pontos turísticos da cidade',
+      core_curriculum_title_31: '[AI_TRANSLATION]Visita ao Google HQ & X- The Moonshot Factory',
+      core_curriculum_text_31: '[AI_TRANSLATION]Localizado em Mountain View, Califórnia, o campus do Google oferece uma visão única do coração da inovação do Silicon Valley. Os alunos encontrarão arquitetura divertida, múltiplos espaços colaborativos de trabalho, e instalações de arte tech-driven que inspiram criatividade e oferecem um vislumbre de como poderia ser trabalhar em tecnologia. Esta visita exclusiva incluirá um passeio ao X - The Moonshot Factory para ver como esta equipa inovadora dentro do Google está a criar novas tecnologias radicais para resolver alguns dos problemas mais difíceis do mundo.  ',
+      core_curriculum_title_32: '[AI_TRANSLATION]Visita & Workshop na Apple Park HQ',
+      core_curriculum_text_32: '[AI_TRANSLATION]A Apple Park é a sede global do inovador gigante da tecnologia e uma atração obrigatória quando em São Francisco. Os estudantes irão experimentar a “Cultura de Garagem” de Steve Jobs que inspirou a Apple a tornar-se a maior empresa do mundo e participar de um workshop com capitalistas de risco e líderes em tecnologia para ouvir em primeira mão o que é necessário para construir uma plataforma tecnológica global e criar o seu próprio plano de negócios.',
+      core_curriculum_title_33: '[AI_TRANSLATION]Tour de São Francisco',
+      core_curriculum_text_33: '[AI_TRANSLATION]Os estudantes têm a oportunidade de se imergir no charme diverso e dinâmico de São Francisco. Desde a icónica Ponte Golden Gate e a histórica Ilha de Alcatraz até aos piers agitados e parques serenos, há aventura a cada esquina. Uma visita a São Francisco é uma mistura fascinante de beleza natural, sofisticação urbana e rica herança cultural, prometendo uma experiência inesquecível.',
+      cta_supporting: '[AI_TRANSLATION]Os detalhes específicos sobre a série de atividades planeadas estão sujeitos a mudanças. Comprometemo-nos a manter-te informado de tais mudanças tanto quanto possível, embora possam ocorrer sem aviso prévio.',
+      contact: '[AI_TRANSLATION]Contactar a Nossa Equipa',
+      if_question: '[AI_TRANSLATION]Se tiveres alguma questão',
+      how_it_works: '[AI_TRANSLATION]Como funciona.',
+      apply: '[AI_TRANSLATION]Aplicar',
+      apply_time: '[AI_TRANSLATION]Janeiro-Fevereiro',
+      apply_steps_1: '[AI_TRANSLATION]Os alunos interessados em participar preencherão uma candidatura.',
+      apply_steps_2: '[AI_TRANSLATION]Uma avaliação ou teste de habilidades pode ser necessário para confirmar a tua capacidade de participar.',
+      //    confirm: "Confirm",
+      confirm_time: '[AI_TRANSLATION]Março-Abril',
+      confirm_steps_1: '[AI_TRANSLATION]Se fores aceito, um conselheiro do programa entrará em contacto contigo para confirmar os detalhes adicionais.',
+      confirm_steps_2: '[AI_TRANSLATION]Será necessário um depósito inicial para garantir o seu lugar no programa.',
+      confirm_steps_3: '[AI_TRANSLATION]A tua viagem será coordenada e reservada.',
+      confirm_steps_4: '[AI_TRANSLATION]Será necessário um termo de responsabilidade para todos os participantes.',
+      travel: '[AI_TRANSLATION]Viajar',
+      //    travel_time: "July",
+      travel_steps_1: '[AI_TRANSLATION]Antes da partida, vais receber um pacote de viagem completo com todas as informações que precisas saber.',
+      travel_steps_2: '[AI_TRANSLATION]Foram feitas preparações para transportar os participantes do aeroporto para o hotel e para as atividades durante toda a semana. O transporte de volta ao aeroporto para a partida também será organizado.',
+      travel_steps_3: '[AI_TRANSLATION]A taxa completa do pacote será devida antes da viagem, menos a taxa de depósito inicial.',
+      frame_heading_1: '[AI_TRANSLATION]O horário escalonado vai preencher os dias com uma mistura de',
+      frame_heading_2: '[AI_TRANSLATION]aprendendo',
+      frame_heading_3: '[AI_TRANSLATION]e',
+      frame_heading_4: '[AI_TRANSLATION]diversão',
+      all_participants: '[AI_TRANSLATION]Todos os Participantes',
+      international_participants: '[AI_TRANSLATION]Participantes Internacionais',
+      schedule_day_title_1: '[AI_TRANSLATION]Segunda-feira',
+      schedule_day_title_2: '[AI_TRANSLATION]Terça-feira',
+      schedule_day_title_3: '[AI_TRANSLATION]Quarta-feira',
+      schedule_day_title_4: '[AI_TRANSLATION]Quinta-feira',
+      schedule_day_title_5: '[AI_TRANSLATION]Sexta-feira',
+      schedule_day_title_6: '[AI_TRANSLATION]Sábado',
+      schedule_event_title_1: '[AI_TRANSLATION]Dia de Viagem',
+      schedule_event_title_2: '[AI_TRANSLATION]São Francisco',
+      schedule_event_title_3: '[AI_TRANSLATION]UC Berkeley',
+      schedule_event_title_4: '[AI_TRANSLATION]Silicon Valley',
+      schedule_event_title_5: '[AI_TRANSLATION]Stanford',
+      schedule_event_sub_title_1: '[AI_TRANSLATION]Chegada',
+      schedule_event_sub_title_2: '[AI_TRANSLATION]Tour',
+      schedule_event_sub_title_3: '[AI_TRANSLATION]Hackathon',
+      schedule_event_sub_title_4: '[AI_TRANSLATION]Tours & Palestrantes',
+      schedule_event_sub_title_6: '[AI_TRANSLATION]Partida',
+      frame_content_heading: '[AI_TRANSLATION]Incluído na maioria das opções de pacote',
+      frame_content_flight_title: '[AI_TRANSLATION]Despesas de Transporte Aéreo e Local',
+      frame_content_flight_text: '[AI_TRANSLATION]Voos de ida e volta em companhias áreas principais e transporte de e para o aeroporto, hotel e locais de eventos.',
+      frame_content_hotel_title: '[AI_TRANSLATION]Acomodações de Hotel',
+      frame_content_hotel_text: '[AI_TRANSLATION]Todos os hotéis devem atender aos nossos altos padrões de qualidade, segurança e limpeza.',
+      frame_content_meal_title: '[AI_TRANSLATION]Refeições.',
+      frame_content_meal_text: '[AI_TRANSLATION]Mínimo de três refeições por dia, além de lanches e água disponíveis ao longo de cada dia cheio de atividades.',
+      frame_cta_text: '[AI_TRANSLATION]Download Horário',
+      frame_cta_supporting: '[AI_TRANSLATION]Todos os detalhes da experiência estão sujeitos a alterações.',
+      frame_core_heading_1: '[AI_TRANSLATION]Esta Oportunidade está Aberta a',
+      frame_core_heading_2: '[AI_TRANSLATION]Internacional',
+      frame_core_heading_3: '[AI_TRANSLATION]e',
+      frame_core_heading_4: '[AI_TRANSLATION]Doméstico',
+      frame_core_heading_5: '[AI_TRANSLATION]Participantes',
+      frame_core_international_title_text: '[AI_TRANSLATION]Internacional: ',
+      frame_core_international_title_span: '[AI_TRANSLATION]SEMANA COMPLETA',
+      frame_core_international_text: '[AI_TRANSLATION]A experiência completa inclui os três dias da hackathon, múltiplas visitas a campus universitários e dois dias de imersão em São Francisco e no Vale do Silício.',
+      frame_core_international_price: '[AI_TRANSLATION]Preços: $ 10,000',
+      frame_core_international_price_text_1: '[AI_TRANSLATION]Para o nosso',
+      frame_core_international_price_text_2: '[AI_TRANSLATION]participantes internacionais',
+      frame_core_international_price_text_3: '[AI_TRANSLATION]vindo de fora dos EUA',
+      frame_core_international_price_text_4: '[AI_TRANSLATION]Inclui viagem de avião e alojamento',
+      frame_core_domestic_title_text: '[AI_TRANSLATION]Doméstico (EUA):',
+      frame_core_domestic_title_span: '[AI_TRANSLATION]3 DIAS',
+      frame_core_domestic_text: '[AI_TRANSLATION]Inclui participação nos três dias de hackathon e apresenta múltiplas experiências em campus universitários.',
+      frame_core_domestic_price: '[AI_TRANSLATION]Preços: $3,750 (Preço antecipado: $2,950 se reservares antes de 31/3)',
+      frame_core_domestic_price_text_1: '[AI_TRANSLATION]Para ',
+      frame_core_domestic_price_text_2: '[AI_TRANSLATION]Participantes baseados nos EUA',
+      frame_core_domestic_price_text_3: '[AI_TRANSLATION]Inclui viagem de avião e alojamento',
+      frame_core_domestic_price_2: '[AI_TRANSLATION]Preços: $2,175 (Preço antecipado: $1,675 se reservares antes de 31/3)',
+      frame_core_domestic_price_text_4: '[AI_TRANSLATION]participantes locais',
+      frame_core_domestic_price_text_5: '[AI_TRANSLATION]Não inclui viagens nem alojamento. Os estudantes terão de se encontrar em cada local do evento para participar.',
+      accessibility_title: '[AI_TRANSLATION]Precauções de Saúde e Segurança',
+      accessibility_text_1: '[AI_TRANSLATION]Os alunos permanecerão em instalações seguras, guiados pela nossa equipa de conselheiros educacionais.',
+      accessibility_text_2: '[AI_TRANSLATION]Todos os acompanhantes e conselheiros educacionais passaram pelas verificações de antecedentes.',
+      accessibility_text_3: '[AI_TRANSLATION]Todas as instalações serão aprovadas quanto à segurança, controlo de qualidade no local e limpeza.',
+      accessibility_text_4: '[AI_TRANSLATION]De momento não há restrições de viagem devido à Covid ou outra doença. Se uma restrição de viagem for reinstalada ou se a nossa equipa considerar que há uma preocupação com a saúde dos participantes, a experiência pode ser alterada ou cancelada.',
+      faq: '[AI_TRANSLATION]Perguntas Frequentes',
+      faq_q_1: '[AI_TRANSLATION]Há um requisito de idade?',
+      faq_a_1: '[AI_TRANSLATION]Os participantes devem ter entre 13 e 17 anos e ser capazes de fornecer documentação legal para viajar.',
+      faq_q_2: '[AI_TRANSLATION]Posso viajar com o meu filho?',
+      faq_a_2: '[AI_TRANSLATION]Alguns pais escolhem viajar, mas as atividades, eventos, viagens e acomodações são fornecidas apenas para os alunos.',
+      faq_q_3: '[AI_TRANSLATION]Quanta experiência precisas para participar?',
+      faq_a_3: '[AI_TRANSLATION]Um entendimento básico de programação em qualquer linguagem é tudo o que um aluno precisa saber. Como estamos a agrupá-los em equipas com diferentes níveis de experiência, esperamos que aqueles com mais experiência apoiem os com menos.\n',
+      faq_q_4: '[AI_TRANSLATION]Devo levar o meu portátil?',
+      faq_a_4: '[AI_TRANSLATION]Vamos fornecer todo o hardware e software necessário para participar nos hackathons. Embora permitamos que os participantes usem os seus computadores pessoais, a nossa equipa pode não conseguir suportar ou resolver todos os problemas, por isso recomendamos usar o equipamento fornecido.',
+      faq_q_5: '[AI_TRANSLATION]Preciso levar algum documento de identificação?\n',
+      faq_a_5_1: '[AI_TRANSLATION]Doméstico - se o participante viajar sozinho, pedimos aos pais ou tutores legais para preencherem um formulário de contacto de emergência que inclua informações de identificação sobre a criança.',
+      faq_a_5_2: '[AI_TRANSLATION]Global - os estudantes globais precisam de trazer os seus passaportes (com VISTO) consigo.',
+      faq_q_6: '[AI_TRANSLATION]Que acomodações pode o meu filho esperar?',
+      faq_a_6: '[AI_TRANSLATION]Todos os participantes e acompanhantes ficarão no mesmo hotel, com acomodações separadas para participantes e acompanhantes. Os participantes irão partilhar um quarto com um colega participante. Os funcionários nunca podem estar sozinhos com os participantes. Os pais que desejem acompanhar o seu filho irão partilhar um quarto juntos.',
+      faq_q_7: '[AI_TRANSLATION]E se o meu filho for alérgico a certos alimentos ou tiver necessidades médicas?',
+      faq_a_7: '[AI_TRANSLATION]Qualquer preocupação de saúde relacionada com o teu filho deve ser identificada no formulário de contato de emergência.',
+      faq_q_8: '[AI_TRANSLATION]Quem vai acompanhar o meu filho?',
+      faq_a_8_1: '[AI_TRANSLATION]O nosso compromisso é pôr os teus filhos na companhia das pessoas mais confiáveis e capazes que podemos contratar–instrutores e conselheiros certificados, bem preparados para cuidar dos participantes. Cada membro da equipa passa por uma verificação intensa de antecedentes e referências; o esforço que colocamos na triagem e seleção da nossa equipa faz parte desse compromisso.',
+      faq_a_8_2: '[AI_TRANSLATION]O nosso pessoal trabalha com os teus filhos num ambiente visível e bem monitorizado, que tem muitos mecanismos de controlo. Instrutores e conselheiros são guiados por políticas claras e firmes em relação ao comportamento. As suas ações são visíveis para colegas de trabalho e participantes.',
+      faq_q_9: '[AI_TRANSLATION]Que medidas de segurança gerais tens implementadas?',
+      faq_a_9: '[AI_TRANSLATION]Todos os funcionários passam por formação em emergência e gestão de crise.',
+      faq_q_10: '[AI_TRANSLATION]Qual é a vossa política de reembolso?',
+      faq_a_10: '[AI_TRANSLATION]Os depósitos para segurar o teu lugar são reembolsáveis até que a viagem seja marcada para o participante. Depois de a viagem ser marcada, não poderemos fornecer um reembolso.',
+      more_faq: '[AI_TRANSLATION]Ver mais',
+      help_center: '[AI_TRANSLATION]centro de ajuda',
+    },
+
+    hackstack: {
+      'Action_missing-renderer-for-action-type-actiont': '[AI_TRANSLATION]Falta renderizador para o tipo de ação "__actionType__"',
+      ActionButton_create: '[AI_TRANSLATION]Criar',
+      ActionButton_learn: '[AI_TRANSLATION]Aprende',
+      'AddEndOfLessonMsgButton_end-lesson': '[AI_TRANSLATION]Terminar Aula',
+      'AddTeacherMsgButton_add-teacher-message': '[AI_TRANSLATION]Adiciona Mensagem do Professor',
+      'AlternatePromptChoicesForm_save-choices': '[AI_TRANSLATION]Guardar Escolhas',
+      //    App_alt: "",
+      App_loading: '[AI_TRANSLATION]A Carregar...  ',
+      'ChatInputForm_enter-your-prompt-here': '[AI_TRANSLATION]insere o teu prompt aqui',
+      //    "ChatLayout_tw-fixed-tw-inset-0-tw-z-30-tw-bg-black5": "tw-fixed tw-inset-0 tw-z-30 tw-bg-black/50 tw-transition-opacity tw-duration-300 tw-ease-in-out md:tw-hidden",
+      'ChatMessage_are-you-sure-you-want-to-delete-this-mes': '[AI_TRANSLATION]Tens a certeza que queres apagar esta Mensagem?',
+      //    ChatMessage_delete: "Delete",
+      //    ChatMessage_edit: "Edit",
+      'ChatMessage_update-a-messageactorteacherteacherendof': '[AI_TRANSLATION]Atualiza uma __messageActorTeacherTeacherEndOfLesson__ Lesson',
+      //    CodeThumbnail_copy: "Copy",
+      'CodeThumbnail_open-in-editor': '[AI_TRANSLATION]Abrir no editor',
+      'CodeThumbnail_run-code': '[AI_TRANSLATION]Correr Código',
+      'ConfirmDeleteChatMessageButton_confirm-delete': '[AI_TRANSLATION]Confirmar Eliminação  ',
+      ContinueRenderer_continue: '[AI_TRANSLATION]Continua →',
+      //    EditAlternatePromptChoicesPage_cancel: "Cancel",
+      'EditAlternatePromptChoicesPage_save-choices': '[AI_TRANSLATION]Guardar Escolhas',
+      'EditChatMessagePage_chat-message-settings': '[AI_TRANSLATION]Definições de Mensagens de Chat',
+      'Empty_select-or-create-a-project-to-get-starte': '[AI_TRANSLATION]Selecionar ou criar um projeto para começar!',
+      EndOfLessonRenderer_feedback: '[AI_TRANSLATION]Feedback',
+      'EndOfLessonRenderer_start-a-new-project': '[AI_TRANSLATION]Começar um Novo Projeto →',
+      //    FullscreenModal_close: "Close",
+      'GenericError_something-went-wrong': '[AI_TRANSLATION]Algo correu mal',
+      'HowItWorksPage_ah-now-thats-a-question-i-cant-answer-ju': '[AI_TRANSLATION]Ah, essa é uma pergunta que ainda não posso responder. Mas se queres dar a tua opinião, tens que experimentar o que é possível, então... vamos começar a criar. Estás pronto?',
+      'HowItWorksPage_ah-thats-the-best-part-you-dont-have-to-': '[AI_TRANSLATION]Ah! Essa é a melhor parte. Não precisas de fazer nada. Eu trato de tudo. Basta falares comigo, e eu faço o resto.',
+      'HowItWorksPage_bet-so-what-if-i-wanna-create-a-sock-mat': '[AI_TRANSLATION]aposta - então e se eu quiser criar um jogo de combinar meias',
+      'HowItWorksPage_but-i-dont-even-know-how-to-use-them-all': '[AI_TRANSLATION]mas eu nem sequer sei como usá-los todos',
+      'HowItWorksPage_but-i-dont-have-accounts-for-those-and-i': '[AI_TRANSLATION]mas eu não tenho contas para esses e acho que o chatgpt está bloqueado aqui',
+      'HowItWorksPage_but-who-made-you': '[AI_TRANSLATION]mas quem te criou?',
+      'HowItWorksPage_codecombat-ai-hackstack-is-an-all-in-one': '[AI_TRANSLATION]CodeCombat IA HackStack é uma ferramenta tudo-em-um para criar jogos, arte, músicas, apps e muito mais apenas conversando. Ele executa tudo para ti, hospeda os teus projetos e ajuda com a programação. O modo CORE é gratuito e ensina-te através de prompts de múltipla escolha. O modo PRO+ custa $9.99/mês para prompts de forma livre. Os projetos são seguros e não alimentam dados das grandes tecnologias. Foi feito pela equipa CodeCombat para tornar a IA acessível a todos. Agora, vamos começar a criar.',
+      'HowItWorksPage_core-mode-is-free-and-you-dont-even-need': '[AI_TRANSLATION]O modo CORE é gratuito e nem precisas de uma conta para EXPERIMENTAR! Se quiseres explorar prompts livres no modo PRO+, são $9.99/mês, mas podes experimentar alguns grátis todos os dias.',
+      'HowItWorksPage_did-they-use-ai-to-create-you': '[AI_TRANSLATION]usaram IA para te criar?',
+      'HowItWorksPage_hey-ai-so-how-do-i-use-this-thingy': '[AI_TRANSLATION]ei ia - como é que eu uso isto?',
+      'HowItWorksPage_how-do-i-start': '[AI_TRANSLATION]como começo?',
+      'HowItWorksPage_i-dont-know-how-to-code-tho': '[AI_TRANSLATION]eu não sei programar, mas',
+      'HowItWorksPage_i-got-you-we-can-build-that-and-more': '[AI_TRANSLATION]Apanhei-te! Nós podemos construir isso e mais.',
+      'HowItWorksPage_i-used-ai': '[AI_TRANSLATION]Eu usei IA.',
+      'HowItWorksPage_is-it-free': '[AI_TRANSLATION]É grátis??',
+      'HowItWorksPage_just-chat': '[AI_TRANSLATION]só bate-papo?',
+      'HowItWorksPage_just-chat-and-lets-see-what-we-can-creat': '[AI_TRANSLATION]Só conversa e vamos ver o que podemos criar juntos.',
+      'HowItWorksPage_just-chat-with-me-ill-show-you': '[AI_TRANSLATION]Só conversa comigo, eu te mostro.',
+      'HowItWorksPage_learn-anything-create-something-do-every': '[AI_TRANSLATION]Aprende QUALQUER COISA, cria ALGUMA COISA, faz TUDO com a CodeCombat AI HackStack. Empoderamento de IA para todos!',
+      'HowItWorksPage_lets-go': '[AI_TRANSLATION]VAMOS!!!',
+      HowItWorksPage_marketing: '[AI_TRANSLATION]Marketing',
+      'HowItWorksPage_maybe-i-should-just-stick-to-directly-us': '[AI_TRANSLATION]talvez deva usar diretamente o chatgpt ou o bing ou o bard',
+      HowItWorksPage_more: '[AI_TRANSLATION]mais?',
+      'HowItWorksPage_most-things-if-the-ai-isnt-smart-enough-': '[AI_TRANSLATION]A maioria das coisas. Se a IA ainda não for inteligente o suficiente para algo, em breve será! Podes aceder a todos os tipos de projetos criativos na nossa galeria. Aqui estão alguns que estou a trabalhar com outros utilizadores agora: - Um gerador de história de aventura onde podes escolher a tua própria história que pode enviar um livro físico - Uma loja de ecommerce para roupas e acessórios personalizados do Roblox - Um jogo virtual extremo de estourar espinhas. Sim, alguns criadores estão a levar o conceito de “criatividade infinita” literalmente!',
+      'HowItWorksPage_no-coding-experience-no-problem-just-tel': '[AI_TRANSLATION]Sem experiência de código, sem problema. Basta dizer-me o que queres e eu gerarei o código para ti. Muitos projetos nem precisam de código, mas se souberes um pouco, posso amplificar as tuas habilidades para criares algo espetacular.',
+      'HowItWorksPage_no-worries-my-friend-i-have-the-keys-to-': '[AI_TRANSLATION]Sem preocupações, meu amigo! Eu tenho as chaves para o reino criativo. Podes aceder a todas as melhores ferramentas de IA com uma única conta de AI HackStack.',
+      'HowItWorksPage_not-with-ai-hackstack-i-access-all-the-l': '[AI_TRANSLATION]Não com o AI HackStack. Acesso a todos os modelos mais recentes, desde GPT-4 até Stable Diffusion e tudo entre estes.  ',
+      'HowItWorksPage_of-course': '[AI_TRANSLATION]Claro.',
+      'HowItWorksPage_oh-im-an-incredible-host-every-project-h': '[AI_TRANSLATION]Oh, sou um anfitrião incrível! Cada projeto tem um URL que podes partilhar com o mundo. Cria um site e começa um negócio só com chat. Ou faz download do teu projeto, sincroniza com o GitHub, ou pega no teu código e aventura-te - a escolha é tua.',
+      'HowItWorksPage_ok-so-where-does-my-project-live': '[AI_TRANSLATION]ok - então onde vive o meu projeto?',
+      'HowItWorksPage_ok-well-can-i-really-make-anything': '[AI_TRANSLATION]ok então posso mesmo fazer qualquer coisa?',
+      'HowItWorksPage_so-how-are-you-making-all-this': '[AI_TRANSLATION]então - como estás a fazer tudo isto?',
+      'HowItWorksPage_so-if-ai-can-create-ai-what-happens-next': '[AI_TRANSLATION]então se a IA pode criar IA, o que acontece a seguir?',
+      'HowItWorksPage_the-codecombat-team-they-got-really-good': '[AI_TRANSLATION]A equipa do CodeCombat. Eles ficaram mesmo bons a tornar fácil aprender coisas difíceis ao ensinar 20 milhões de iniciantes a programar com aprendizado baseado em jogos, então quando a tecnologia ficou suficientemente boa, quiseram fazer o mesmo para a IA. Se a IA é o futuro da criação, então precisamos tornar fácil para qualquer um usar!',
+      //    "HowItWorksPage_tldr-summarize-this-chat": "tl;dr. summarize this chat",
+      'HowItWorksPage_well-start-you-off-easy-in-core-mode-wit': '[AI_TRANSLATION]Vamos começar de forma fácil no modo CORE, com algumas perguntas e respostas super simples para te preparar sobre como fazer os melhores prompts. Depois, juntamos esses prompts para criar o teu primeiro projeto. Em alguns minutos, estás pronto para o modo PRO+, onde tudo é possível.',
+      //    "HowItWorksPage_what-they-send-it-but-i-put-like-private": "what?!!! they send it… -but i put, like, private stuff in there! like that love-you-more rap battle for alex!",
+      'HowItWorksPage_wow-dont-you-need-like-a-100-different-a': '[AI_TRANSLATION]UAU!!! - não precisas de uns 100 ferramentas de IA para isso?',
+      'HowItWorksPage_yeah-thats-why-those-are-free-they-feed-': '[AI_TRANSLATION]Pois é, por isso é que são grátis. Eles alimentam os teus dados na próxima IA deles para que ela possa aprender a fazer melhores batalhas de rap de amor. Mas quando usas-me, eles não armazenam nem treinam com isso. Por isso, se estás numa escola ou tens menos de 18 com consentimento dos pais ou menos de 13 em geral, tecnicamente não podes usar o ChatGPT diretamente. Com o AI HackStack estás seguro, protegido e pronto para ir.',
+      'HowItWorksPage_yep-im-here-to-accelerate-your-creative-': '[AI_TRANSLATION]Isso! Estou aqui para acelerar o teu potencial criativo, dar superpoderes aos teus sonhos, fornecer combustível de foguete para tua imaginação! Jogos, música, filmes, apps, arte, sites, código e qualquer coisa que ronde essa tua cabeça incrível são possíveis aqui mesmo.',
+      'HowItWorksPage_you-could-but-i-answer-faster-dont-rate-': '[AI_TRANSLATION]Podes MAS eu… - respondo mais rápido - não limito a classificação - dou-te mais modelos de IA - ensino-te a usar IA - construo e hospedo projetos automaticamente para ti - tenho uma interface mais simples e poderosa - dou orientação ética integrada para não plagiares artistas - deixo-te ver o código-fonte e remixar os projetos de qualquer um Ah, e eu não... ENVIO TODAS AS TUAS CONVERSAS PARA A OPENAI/MICROSOFT/GOOGLE PARA TREINAR NELAS!  ',
+      LeftSidebar_new: '[AI_TRANSLATION]+ Novo',
+      LeftSidebar_projects: '[AI_TRANSLATION]Projetos',
+      LeftSidebar_scenarios: '[AI_TRANSLATION]Cenários',
+      'LeftSidebarItem_untitled-isprojectprojectscenario': '[AI_TRANSLATION]Sem Título __isProjectProjectScenario__',
+      //    NewProjectPage_: "▲",
+      'NewProjectPage_codecombat-ai': '[AI_TRANSLATION]CodeCombat IA',
+      NewProjectPage_filters: '[AI_TRANSLATION]Filtros ▼',
+      //    "NewProjectPage_learn-more": "Learn more",
+      'NewProjectPage_new-ai-project': '[AI_TRANSLATION]Novo Projeto de IA',
+      'NewProjectPage_prompt-the-ai-to-create-websites-games-w': '[AI_TRANSLATION]Prompt para a IA criar websites, jogos, apps web, histórias, arte e muito mais com o CodeCombat AI HackStack.',
+      'NewScenarioPage_a-webpage': '[AI_TRANSLATION]uma página web.',
+      'NewScenarioPage_codecombat-ai': '[AI_TRANSLATION]CodeCombat IA',
+      'NewScenarioPage_create-new-scenario': '[AI_TRANSLATION]Cria um novo cenário',
+      NewScenarioPage_document: '[AI_TRANSLATION]Documento',
+      'NewScenarioPage_lets-go': '[AI_TRANSLATION]Vamos aí!',
+      NewScenarioPage_make: '[AI_TRANSLATION]fazer',
+      NewScenarioPage_mode: '[AI_TRANSLATION]Modo',
+      NewScenarioPage_task: '[AI_TRANSLATION]Prova o meu **espada longa**!',
+      NewScenarioPage_tool: '[AI_TRANSLATION]Ferramenta',
+      'NewScenarioPage_whats-this': '[AI_TRANSLATION]O que é isto?',
+      //    "NotFound_not-found": "Not Found",
+      //    ProjectTile_with: "with",
+      'PromptQuizRenderer_choose-the-best-prompt': '[AI_TRANSLATION]Escolher a melhor sugestão:',
+      PromptQuizRenderer_continue: '[AI_TRANSLATION]Continua →',
+      'RenderedMessage_unknown-action-type-msgactiondatatype': '[AI_TRANSLATION]Tipo de ação desconhecida: __msgActionDataType__',
+      ScenarioDetailsPanel_beta: '[AI_TRANSLATION]Beta',
+      ScenarioDetailsPanel_draft: '[AI_TRANSLATION]Rascunho',
+      //    ScenarioDetailsPanel_name: "Name",
+      'ScenarioDetailsPanel_release-phase': '[AI_TRANSLATION]Fase de Lançamento',
+      ScenarioDetailsPanel_released: '[AI_TRANSLATION]Lançado',
+      'ScenarioDetailsPanel_save-scenario': '[AI_TRANSLATION]Guardar Cenário',
+      'ScenarioDetailsPanel_scenario-settings': '[AI_TRANSLATION]Definições do Cenário',
+      //    "ScenarioPage_youre-in-scenario-creation-mode-go-ahead": "You're in scenario creation mode! Go ahead, mess around and try to build a cool scenario, then click \"beta\" or \"released\" to share it with the world! If you ever don't like a prompt, just go back and edit it.",
+      'ScenarioPromptMessage_alternate-choices': '[AI_TRANSLATION]Escolhas Alternativas',
+      //    ScenarioPromptMessage_edit: "Edit",
+      'ScenarioPromptMessage_prompt-choices': '[AI_TRANSLATION]Escolhas de Prompt',
+      TeacherMessageForm_create: '[AI_TRANSLATION]Criar',
+      //    "Topbar_back-to-chat": "← Back to Chat",
+      UpdateChatMessageForm_update: '[AI_TRANSLATION]Atualização',
+      'creditMessage_creditcreditsleft-creditinitialcredits-c': '[AI_TRANSLATION]__creditCreditsLeft__ / __creditInitialCredits__ créditos restantes para __durAmount__ __creditDurationKey__',
+      creditMessage_the: '[AI_TRANSLATION]o',
+      'onDelete_are-you-sure-you-want-to-delete-this-isp': '[AI_TRANSLATION]Tens a certeza que queres apagar este __isProjectProjectScenario__?',
+      renderFilterCheckboxes_clear: '[AI_TRANSLATION]Limpo',
+      'renderFilterCheckboxes_create-your-own-project': '[AI_TRANSLATION]Cria o teu próprio projeto',
+      'renderFilterCheckboxes_creates-photorealistic-images-from-text': '[AI_TRANSLATION]Cria imagens fotorrealistas a partir de texto.',
+      'renderFilterCheckboxes_learn-how-to-use-a-model': '[AI_TRANSLATION]Aprende a usar um modelo.',
+      'renderFilterCheckboxes_learn-what-you-can-create-with-ai': '[AI_TRANSLATION]Aprende o que podes criar com IA.',
+      'renderFilterCheckboxes_quickly-and-easily-creates-images-from-t': '[AI_TRANSLATION]Cria imagens rapidamente e facilmente a partir de texto.',
+      'renderFilterCheckboxes_use-models-to-create-your-own-ai-project': '[AI_TRANSLATION]Usa modelos para criar os teus próprios projetos de IA.',
+      'renderFilterCheckboxes_writes-code-for-web-games-and-apps': '[AI_TRANSLATION]Escreve código para jogos e apps web.',
+      'renderFilterCheckboxes_writes-stories-and-summarizes-documents': '[AI_TRANSLATION]Escreve histórias e resume documentos.',
+      //    "renderFilterCheckboxes_key-write": "write",
+      //    "renderFilterCheckboxes_key-code": "code",
+      //    "renderFilterCheckboxes_key-simulate": "simulate",
+      //    "renderFilterCheckboxes_key-study": "study",
+      //    "renderFilterCheckboxes_key-draw": "draw",
+      //    "renderFilterCheckboxes_key-graph": "graph",
+      //    "renderFilterCheckboxes_key-learn": "learn",
+      //    "renderFilterCheckboxes_key-advertise": "advertise",
+      //    "renderFilterCheckboxes_key-model": "model",
+      //    "renderFilterCheckboxes_key-solve": "solve",
+      choices: '[AI_TRANSLATION]Escolhas',
+      'could-not-find-project-with-id-projectid': '[AI_TRANSLATION]Não foi possível encontrar o projeto com id __projectId__',
+      generated: '[AI_TRANSLATION]gerado',
+      'missing-action-data-for-project-projecti': '[AI_TRANSLATION]Falta dados de ação para o projeto __projectId__',
+      'overwriting-existing-dev-command-callbac': '[AI_TRANSLATION]A sobrescrever o comando de desenvolvimento existente para a chave: __key__',
+      prompt: '[AI_TRANSLATION]Prompt',
+      'teacher-response': '[AI_TRANSLATION]Resposta do Professor',
+      'unhandled-payload-exhaustivecheck': '[AI_TRANSLATION]Payload não tratado: __exhaustiveCheck__',
+      modes: '[AI_TRANSLATION]Modos',
+      tools: '[AI_TRANSLATION]Ferramentas',
+      //    tasks: "Tasks",
+      documents: '[AI_TRANSLATION]Documentos',
+      'stable-diffusion-description': '[AI_TRANSLATION]Cria imagens fotorrealistas a partir de texto.',
+      'dall-e-3-description': '[AI_TRANSLATION]Cria imagens rapidamente e facilmente a partir de texto.',
+      'gpt-4-description': '[AI_TRANSLATION]Escreve código para jogos e apps web.',
+      'claude-description': '[AI_TRANSLATION]Escreve histórias e resume documentos.',
+      locked: '[AI_TRANSLATION]TRANCADO  ',
+      view: '[AI_TRANSLATION]Ver',
+      continue: '[AI_TRANSLATION]Continuar',
+      no_assigned_projects: '[AI_TRANSLATION]O teu professor ainda não atribuiu nenhum projeto de IA.  ',
+      //    continue_here: "Continue",
+      //    start_new: "Start from scratch",
+      //    choice_prompt_1: "What would you like to do next?",
+      //    choice_prompt_2: "You can continue with your project or start a new one from scratch!",
+      //    create_from_scratch: "Create from scratch",
+      //    complete_to_unlock: "Complete a __model__ learn mode project to unlock",
+      //    actionbutton_finished: "Learned",
+      //    my_class: "My Class",
+      //    my_creations: "My Creations",
+      //    my_trainings: "My Trainings",
+      //    my_courses: "My Courses",
+      //    what_do_you_want_to_do_today: "What do you want to do today?",
+      //    learn_ai: "Learn AI",
+      //    create_ai: "Create AI",
+      //    learn_with_ai: "Learn With AI",
+      //    create_with_ai: "Create With AI",
+      //    name_conflict: "Name Conflict, please choose a different name",
+      //    edit: "Edit",
+      //    delete: "Delete",
+      //    duplicate: "Duplicate",
+      //    use_as_a_template: "Use as a Template",
+      //    get_inspired: "Get Inspired",
+      //    remixed_from: "Remixed from",
+      //    hackstack_credits: "AI HackStack Credits",
+      //    model: "Model",
+      //    tags: "Tags",
+      //    see_all: "See All",
+      //    created_by: "created by",
+      //    remix: "Remix",
+    },
+
+    parents_v2: {
+      testimonials_1_quote: '[AI_TRANSLATION]Nem consigo começar a explicar as profundas mudanças que ocorreram em Luka academicamente desde que trabalhou contigo.',
+      testimonials_1_name: '[AI_TRANSLATION]Marina G.  ',
+      //    testimonials_1_title: "proud parent",
+      //    testimonials_2_quote: "One thing I am able to do now that I could not do before is actually believe I can code.",
+      //    testimonials_2_name: "Student",
+      //    testimonials_2_title: "Mountain Ridge Middle School",
+      //    testimonials_3_quote: "Even though the class starts every Saturday at 7am, my son is so excited that he wakes up before me! CodeCombat creates a pathway for my son to advance his coding skills.",
+      testimonials_3_name: '[AI_TRANSLATION]Latthaphon Pohpon  ',
+      //    testimonials_3_title: "Parent",
+      comprehensive_package_item_0_text: '[AI_TRANSLATION]Uma hora[NEWLINE]Sessões privadas 1:1[NEWLINE]  ',
+      comprehensive_package_item_1_text: '[AI_TRANSLATION]Acesso 24/7 para se Divertir e Aprender  ',
+      comprehensive_package_item_2_text: '[AI_TRANSLATION]Apoio no Mesmo Dia[NEWLINE]  ',
+      comprehensive_package_item_3_text: '[AI_TRANSLATION]Progresso[NEWLINE]Atualizações  ',
+      comprehensive_package_item_4_text: '[AI_TRANSLATION]Turma[NEWLINE]Gravações  ',
+      comprehensive_package_item_5_text: '[AI_TRANSLATION]Estudante[NEWLINE]Certificação  ',
+      comprehensive_package_item_6_text: '[AI_TRANSLATION]Garantia de Devolução[NEWLINE]do Dinheiro[NEWLINE]em 30 Dias  ',
+      //    grid_most_popular: "Most Popular",
+      //    grid_best_value: "Best Value",
+      grid_self_paced: '[AI_TRANSLATION]**[/premium]Curso no Teu Ritmo**',
+      grid_1_sessions_weekly: '[AI_TRANSLATION]**[/payments/initial-online-classes-71]1 Sessão Semanal**',
+      grid_2_sessions_weekly: '[AI_TRANSLATION]**[/payments/initial-online-classes-71]2 Sessões Semanais**',
+      //    grid_features: "Features",
+      grid_99_annual: '[AI_TRANSLATION]$99 Anual  ',
+      grid_219_monthly: '[AI_TRANSLATION]$219 Mensal  ',
+      grid_399_monthly: '[AI_TRANSLATION]$399 Mensal  ',
+      //    grid_self_paced_year_price: "$__price__ Annual",
+      //    grid_self_paced_year_price_without_currency: "__price__ Annual",
+      grid_personalized_instruction: '[AI_TRANSLATION]1:1 Instrução Personalizada  ',
+      //    grid_premium_access: "Premium Access",
+      //    grid_codecombat: "CodeCombat",
+      //    grid_ozaria: "Ozaria",
+      //    grid_ai_league: "AI League",
+      //    grid_codecombat_worlds: "CodeCombat Worlds",
+      //    grid_ai_hackstack: "AI HackStack",
+      grid_parent_dashboard: '[AI_TRANSLATION]Painel Personalizado para Pais',
+      grid_lesson_slides: '[AI_TRANSLATION]Slides de Aula Contextual',
+      grid_connections_applications: '[AI_TRANSLATION]Ligações e Aplicações ao Mundo Real  ',
+      grid_monthly_reports: '[AI_TRANSLATION]Relatórios de Progresso Mensais  ',
+      grid_completion_certificates: '[AI_TRANSLATION]Certificados de Conclusão de Curso  ',
+      grid_apcsp_option: '[AI_TRANSLATION]Opção de Preparação AP CSP  ',
+      grid_class_recording: '[AI_TRANSLATION]Opção de Gravação de Aula*  ',
+      grid_money_back: '[AI_TRANSLATION]Garantia de Devolução do Dinheiro em 30 Dias**  ',
+      grid_ai_hints_allowance: '[AI_TRANSLATION]Permissão de Dicas na AI do CodeCombat (Diária)***  ',
+      grid_prompts_allowance: '[AI_TRANSLATION]Permissão de Sugestões na AI do CodeCombat (Mensal)***  ',
+      step_boxes_header_text: '[AI_TRANSLATION]O currículo envolvente, baseado em projetos, foca-se no ensino de **linguagens de programação textuais do mundo real**. Enquanto a nossa abordagem prática garante que os estudantes passam a maior parte do tempo de aula a codificar, a divertir-se e a receber feedback em tempo real, evitando assim sentimentos de frustração ou estagnação.',
+      step_box_1_title: '[AI_TRANSLATION]Instruções Ao Vivo  ',
+      step_box_1_subtitle: '[AI_TRANSLATION]Envolver  ',
+      step_box_1_footer_text: '[AI_TRANSLATION]Que tipos de laços existem no mundo real?',
+      step_box_2_title: '[AI_TRANSLATION]Instruções Ao Vivo  ',
+      step_box_2_subtitle: '[AI_TRANSLATION]Explorar  ',
+      step_box_2_footer_text: '[AI_TRANSLATION]Loops são uma forma de repetir uma sequência de código.  ',
+      step_box_3_title: '[AI_TRANSLATION]Tempo de Jogo  ',
+      step_box_3_subtitle: '[AI_TRANSLATION]Avalia',
+      step_box_3_footer_text: '[AI_TRANSLATION]Constrói um jogo usando loops.  ',
+      step_box_4_title: '[AI_TRANSLATION]Tempo de Jogo  ',
+      step_box_4_subtitle: '[AI_TRANSLATION]Estender  ',
+      step_box_4_footer_text: '[AI_TRANSLATION]Usa loops para recolher as pedras de luz.  ',
+      step_boxes_footer_text: '[AI_TRANSLATION]Confiado por mais de **320,000 educadores** em todo o mundo, o nosso currículo estruturado é fundamental para ajudar os alunos a perseverar. Os nossos alunos começam a escrever código verdadeiro desde o início, ficam mais confiantes a cada aula, e aprendem como a Ciência da Computação é relevante para o seu dia a dia.  ',
+      play_code_create: '[AI_TRANSLATION]Joga, programa e cria com as mais envolventes **aulas de programação ao vivo online**  ',
+      unlock_passion: '[AI_TRANSLATION]Desbloqueia a paixão do teu filho pela ciência da computação e potencial para o sucesso com o nosso currículo flexível e instrução personalizada.  ',
+      schedule_free_class: '[AI_TRANSLATION]Marca uma aula grátis  ',
+      enroll_now: '[AI_TRANSLATION]Ou volta a outros níveis concluídos para ideias.',
+      create_parent_account: '[AI_TRANSLATION]Criar Conta de Pai  ',
+      to_explore: '[AI_TRANSLATION]Para Explorar  ',
+      testimonials_1_full_review_text: '[AI_TRANSLATION]Depoimento 1 Texto da Revisão Completa\r',
+      adapt_interests: '[AI_TRANSLATION]Adaptamo-nos aos interesses do teu filho  ',
+      comprehensive_packages: '[AI_TRANSLATION]Os nossos pacotes abrangentes incluem\n',
+      classes_recorded: '[AI_TRANSLATION]As aulas são gravadas por defeito para fins de qualidade e treino. Armazenamos as gravações das aulas por 3-5 dias úteis. Não gravaremos as aulas se solicitado.  ',
+      subscriptions_billed: '[AI_TRANSLATION]Todas as subscrições são cobradas antecipadamente e podem ser pausadas, canceladas ou retomadas sem taxas adicionais. As subscrições de Aulas Online ao Vivo são 100% livres de risco nos primeiros 30 dias. Se por alguma razão decidires não continuar, contacta-nos dentro de 30 dias após a compra e reembolsaremos 100% do teu pagamento. Todos os planos são renovados automaticamente ao mesmo nível e ciclo de faturação, a menos que sejam alterados ou cancelados. Não oferecemos reembolsos após os primeiros 30 dias. O cancelamento após os primeiros 30 dias entrará em vigor no início do próximo ciclo de faturação.\n',
+      ai_hints: '[AI_TRANSLATION]Dicas de AI e permissões de prompt estão sujeitas a alterações  ',
+      prefix_or: '[AI_TRANSLATION]Ou, **[https://codecombat.com/payments/initial-online-classes-71]Inscreve-te agora**',
+      signup_description: '[AI_TRANSLATION]Inscreve-te para acesso autônomo  ',
+      homeschool_solution: '[AI_TRANSLATION]À procura de uma solução homeschool  ',
+      teach_child: '[AI_TRANSLATION]Se planeares ensinar o teu filho, podemos fornecer uma solução pronta que te capacita a entregar o nosso currículo em tua casa. Providenciamos todos os recursos de ensino necessários para que tu e o teu filho tenham sucesso, incluindo guias de solução de cursos. Contacta a nossa equipa para saber mais - envia um email para **[mailto:classes@codecombat.com]classes@codecombat.com** para te conectares com um conselheiro de aprendizagem.  ',
+      meet_instructors: '[AI_TRANSLATION]**Conhece os Nossos Instrutores**  ',
+      //    why_cs_important: "Why computer science is important",
+      cs_benefits: '[AI_TRANSLATION]A educação em ciência da computação oferece benefícios imediatos ao melhorar as competências de resolução de problemas, aumentar as habilidades matemáticas e incentivar o pensamento lógico necessário para o sucesso em muitas outras disciplinas escolares principais. O aprendizado vai muito além do código, melhorando a capacidade dos alunos de resolver problemas complexos, adaptar-se a diferentes situações e fomentar uma mentalidade de crescimento. Vê como o Ozaria ajuda a fazer essas conexões transversais.\n',
+      curriculum_design: '[AI_TRANSLATION]O nosso currículo foi concebido para equipar o teu filho hoje com as competências cruciais de ciência da computação que o prepararão para os **empregos digitais de amanhã.**\n',
+      //    concepts_covered: "Concepts covered",
+      //    beginner_level: "Beginner",
+      beginner_title: '[AI_TRANSLATION]Para alunos com pouca ou nenhuma experiência em programação baseada em texto  ',
+      intermediate_level: '[AI_TRANSLATION]Intermediário',
+      intermediate_title: '[AI_TRANSLATION]Para alunos com alguma experiência em programação baseada em texto  ',
+      //    advanced_level: "Advanced",
+      advanced_title: '[AI_TRANSLATION]Para alunos com bastante experiência em programação baseada em texto e uma boa compreensão de conceitos complexos  ',
+      //    cs_careers: "For those interested in pursuing careers in coding and computer science, no worries; AI is not going to replace you. In fact, according to the **[https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america]McKinsey Global Institute Report [Generative AI and the future of work in America]**, by 2030, STEM jobs will see the second highest labor demand growth at +23%, just behind healthcare. STEM professionals will be well positioned to understand and adopt the latest AI technologies as they continue to evolve, making those with computer science knowledge even more effective and valuable.",
+      //    why_game_based: "Why game-based learning works",
+      game_based_effective: '[AI_TRANSLATION]Aprender com base em jogos é tão eficaz porque oferece um ambiente seguro onde o fracasso não é temido, mas visto como uma oportunidade esperada de crescimento e compreensão. Esta abordagem incentiva os jogadores a aprender com os seus erros e a adaptar as suas estratégias para o sucesso. Além disso, a natureza interativa e dinâmica dos jogos ajuda os jovens a reter informações de forma mais eficaz, pois estão a aprender através de experiências práticas e concretas. Envolve-os ativamente no processo de aprendizagem, aumentando a sua motivação e prazer.  ',
+      //    how_integrate_ai: "How we integrate AI safely and responsibly",
+      see_how: '[AI_TRANSLATION]Vê como os nossos instrutores misturam a revisão dos conceitos principais do currículo, a aplicação no mundo real, a prática no jogo e exercícios de codificação criativa numa experiência divertida e personalizada.  ',
+      //    ai_technology_description: "Our AI technology adheres to **safety-first principles**, providing confidence to both learners and instructors. We do not allow our backend LLM providers to train on your chats and have established **protective measures against inappropriate content**. These measures include filtering harmful language, maintaining focus on relevant subjects, safeguarding personal information, and educating learners about potential AI pitfalls. Moreover, we log AI chat activity for instructor monitoring and uphold **stringent data privacy and security protocols**.",
+      //    instructors_offer_guidance: "Our instructors offer the guidance and support your child needs, but can’t always be there. That’s where our innovative AI hints feature helps the learning continue between sessions. This support feature can evaluate code, point out errors, and explain how to fix them. Most importantly, it provides all the context needed to understand the why, without providing the entire solution. With only current code problem assistance available students will still need to work through each level's coding challenge. Subscribers receive an allocation of 20 AI hints per day to ensure they always have the support they need.",
+      new_to_ai: '[AI_TRANSLATION]Para aqueles que são novos na IA, oferecemos **[/ai]CodeCombat AI HackStack**. Os nossos instrutores usam esta ferramenta inovadora para ensinar o teu filho a usar IA de forma segura e responsável. A aplicação fornece acesso seguro a muitos dos mais recentes LLMs, incluindo ChatGPT-4, Claude, Stable Diffusion, DALL-E e outros. Após um curto período a trabalhar com os nossos instrutores, o teu filho desbloqueará todo o potencial criativo da ferramenta, permitindo projetos do tipo prompt-para-código-para-publicado em minutos. Esta aplicação potenciada por IA permite aos utilizadores gerar jogos, arte, código de websites e mais. Todos os assinantes de aulas online ao vivo recebem 200 prompts por mês para criar múltiplos projetos de IA.',
+      ap_csp_preparation: '[AI_TRANSLATION]Preparação AP CSP  ',
+      ap_csp_description: '[AI_TRANSLATION]Sabias que não precisas estar inscrito numa turma de AP CSP para fazer o exame AP CSP? Se o teu filho planeia seguir uma carreira em ciência da computação, fazer o exame de Princípios de Ciência da Computação pode ser um primeiro passo promissor, e nós podemos ajudar. Passar no exame serve como um caminho reconhecido para crédito pós-secundário, permitindo aos alunos evitar requisitos universitários dispendiosos e demorados. O nosso curso, aprovado pelo College Board, confirma que o nosso currículo está alinhado com todos os padrões do AP Curriculum Framework e a avaliação AP CSP.  ',
+      get_prepared_for_ap_csp_exam: '[AI_TRANSLATION]**[/apcsp]Prepara-te para o exame AP CSP**',
+      schedule_a_free_class: '[AI_TRANSLATION]Marca uma aula grátis  ',
+      boxes_title: '[AI_TRANSLATION]Instrução personalizada e acesso premium com uma única assinatura',
+      //    ozaria_title: "Ozaria",
+      //    ozaria_text: "An enchanting narrative coding adventure that establishes the fundamentals of computer science.",
+      //    personalized_instruction: "An enchanting narrative coding adventure that establishes the fundamentals of computer science.",
+      //    codecombat_title: "CodeCombat",
+      codecombat_text: '[AI_TRANSLATION]Um currículo de ciência da computação baseado em jogos que inclui desenvolvimento web, desenvolvimento de jogos e preparação para o exame AP CSP.  ',
+      ai_league_sports_title: '[AI_TRANSLATION]Desporto AI League  ',
+      //    ai_league_sports_text: "An epic competitive coding esports platform that encourages creative programming in a game-based environment.",
+      //    codecombat_worlds_title: "CodeCombat Worlds",
+      codecombat_worlds_text: '[AI_TRANSLATION]Desenvolvido em parceria com Roblox Education, esta experiência acelera as habilidades de codificação do teu filho para criar jogos e experiências incríveis no Roblox.  ',
+      //    ai_hackstack_title: "AI HackStack",
+      ai_hackstack_text: '[AI_TRANSLATION]Aprende qualquer coisa, cria algo, faz de tudo com a primeira ferramenta de IA generativa feita especialmente para quem é novo em IA. É empoderamento de IA para todos!  ',
+      every_child_different_learning_style: '[AI_TRANSLATION]**Cada criança tem um estilo de aprendizagem e interesses académicos diferentes. Desenvolvemos um conjunto de programas de aprendizagem baseados em jogos eficazes para garantir que o teu filho se mantenha interessado e entusiasmado em continuar a aprender, mesmo quando os tópicos se tornam complexos ou desafiantes.**\n',
+      carousel_items_1_title: '[AI_TRANSLATION]Codificação[NEWLINE]Fundamental  ',
+      carousel_items_1_title_prefix: '[AI_TRANSLATION]**Concentra-te:**  ',
+      //    carousel_items_1_text: "For students with little to no coding experience, most class sessions will be in Ozaria to build foundational skills and then in CodeCombat to deepen programming knowledge. AI HackStack will be used to help accelerate your child’s coding abilities and showcase real-world applications of their new-found skills. CodeCombat Worlds and AI League will offer occasional practice and creative play opportunities.",
+      carousel_items_2_title: '[AI_TRANSLATION]Desenvolvimento do Jogo  ',
+      carousel_items_2_title_prefix: '[AI_TRANSLATION]**Concentra-te:**  ',
+      //    carousel_items_2_text: "If your child loves games and wants to make them, then our game development focused curriculum will feature CodeCombat at the core for the initial game development activities and projects. In no time your child will be working in CodeCombat Worlds building and publishing real games to the Roblox platform. Competing in our AI League provides additional insight into successful game dynamics and development, while AI HackStack will be a powerful tool for iterative game development.",
+      carousel_items_3_title: '[AI_TRANSLATION]Desenvolvimento Web[NEWLINE]',
+      carousel_items_3_title_prefix: '[AI_TRANSLATION]**Concentra-te:**  ',
+      //    carousel_items_3_text: "Developing for the web is ever evolving and it’s important to stay ahead of the curve. In this curriculum focus the initial web development activities will be conducted in CodeCombat, while Ozaria will be used for those new to coding. AI HackStack will be heavily implemented as the platform to build an publish to the web, with limited use of CodeCombat Worlds and AI League to help reinforce key coding concepts.",
+      carousel_items_4_title: '[AI_TRANSLATION]Competição de Codificação de Esports\n',
+      carousel_items_4_title_prefix: '[AI_TRANSLATION]**Concentra-te:**  ',
+      carousel_items_4_text: '[AI_TRANSLATION]Os entusiastas de esports vão adorar o espírito competitivo deste currículo focado. Com uma base construída a partir do CodeCombat, o teu filho estará a competir nos nossos torneios de esports globais da AI League durante todo o ano, com bolsas de estudo e prémios em jogo. Com ênfase no código criativo e iteração, o teu filho vai aprender a usar a nossa ferramenta AI HackStack para turbinar as suas habilidades em competição.',
+      carousel_items_5_title: '[AI_TRANSLATION]IA[NEWLINE]Aplicações  ',
+      carousel_items_5_title_prefix: '[AI_TRANSLATION]**Concentra-te:**  ',
+      //    carousel_items_5_text: "AI is everywhere and those that can harness its power will be able to maximise their potential. This curriculum focus builds from CodeCombat but it’s AI HackStack that will help teach the art of drafting the strongest AI prompts and how to use all the latest generative AI tools in a safe and secure environment. The generative AI feature built into CodeCombat Worlds will offer yet another real world opportunity to see what your child can do with AI.",
+      carousel_items_6_title: '[AI_TRANSLATION]Preparações AP CSP[NEWLINE]  ',
+      carousel_items_6_title_prefix: '[AI_TRANSLATION]**Concentra-te:**  ',
+      carousel_items_6_text: '[AI_TRANSLATION]Se o teu filho quer seguir uma carreira em ciência da computação, fazer o exame AP Computer Science Principles pode ser um primeiro passo promissor. Passar no exame serve como uma via reconhecida para crédito pós-secundário, permitindo que os alunos evitem requisitos universitários dispendiosos e demorados. O nosso curso, aprovado pelo College Board, confirma que o nosso currículo está alinhado a todos os padrões do AP Curriculum Framework e à avaliação AP CSP. Não precisas estar inscrito numa aula AP do ensino secundário para fazer o exame e podemos ajudar-te a encontrar um local de exame presencial.\n',
+      instructors_1_text: '[AI_TRANSLATION]O Brian é um apaixonado professor de programação com 13 anos a ensinar matemática e ciências da computação na sala de aula. Ele tem experiência com Java, Python, Javascript, HTML e CSS. Com uma licenciatura em Educação Matemática e um Mestrado em Teoria da Educação, adora partilhar a sua paixão pela matemática e ciência das computadoras com os outros. Acredita que ao ensinar ciências da computação estamos a preparar os jovens para serem a próxima geração de solucionadores de problemas excecionais.  ',
+      instructors_2_text: '[AI_TRANSLATION]A Shreeaa tem uma paixão por ajudar os outros a descobrir a alegria de programar. Com sucesso anterior numa carreira em desenvolvimento de software, ela traz conhecimentos do mundo real para as suas aulas. O seu estilo de ensino é prático e direto, com enfoque em ajudar a adquirir as habilidades necessárias para criar projetos reais enquanto se diverte muito. Seja novo na programação ou querendo expandir o conhecimento, ela está aqui para te apoiar na tua jornada.  ',
+      instructors_3_text: '[AI_TRANSLATION]Escolhe uma boa posição.\n',
+      //    instructors_4_text: "Carson has been teaching coding for two years, with professional experience in many programming languages, including Python, Javascript and HTML. Carson's teaching approach focuses on relating the concepts to things the student is passionate about or interested in. He prefers to let the student explore and find their own path, while guiding them through learning in the way that suits their style and personality.",
+      instructors_5_text: '[AI_TRANSLATION]Dania é uma graduada em Engenharia Informática com paixão por ensinar e partilhar conhecimento. Dania tem mais de seis anos de experiência a ensinar diferentes linguagens de programação e literacia informática. Acredita na importância de aprender a programar desde jovem para garantir uma vantagem no mundo digital de hoje, onde a programação é a língua global.',
+      instructors_6_text: '[AI_TRANSLATION]A jornada do Riley começou quando aprendeu Python sozinho enquanto seguia o seu primeiro curso de Licenciatura. A sua paixão pela educação levou-o a tornar-se professor de Estudos Sociais no ensino secundário, onde continuou a melhorar as suas habilidades de programação. Após três anos a ensinar, decidiu voltar à escola para obter outra Licenciatura em Informática. O seu entusiasmo pela educação continua tão forte como sempre, e agora está genuinamente entusiasmado por ensinar algo que adora. Ele promove interações significativas com os seus alunos, despertando o seu interesse genuíno pelo assunto, em vez de depender apenas da memorização rigorosa.  ',
+      instructors_7_text: '[AI_TRANSLATION]Ishraq é uma professora de código apaixonada, com experiência em desenvolvimento web full-stack. Começou a programar no ensino básico e acredita que aprender a programar desde novo é fundamental. Tendo começado a programar quando era jovem, entende como é importante que gostem do processo de aprendizagem e faz de tudo para que os seus alunos adorem cada aula.  ',
+      instructors_8_text: '[AI_TRANSLATION]Este é o Edi, diminutivo de Edwin. Ele vive em Bali, Indonésia, e tem gerido uma escola de programação nos últimos dois anos. Na sua carreira anterior, era um profissional de TI que viajava pelo mundo implementando estruturas de projeto. As suas paixões são ensinar e partilhar conhecimento, e adora a oportunidade de ensinar crianças e apresentá-las ao maravilhoso mundo da programação. Sampai Jumpa lagi (Indonésio para até breve)!\n',
+      //    instructors_9_text: "Meet Kislay, a mom, engineering graduate, coding instructor, and math enthusiast with three years of edtech teaching experience. She is passionate about teaching coding and math to others, and has helped hundreds of students from diverse backgrounds with their math concepts and coding languages such as Python, JavaScript, HTML/CSS, and Node.js. Her teaching style emphasizes practical, real-world applications, and her goal is to help her students build the skills and confidence they need to succeed in the tech industry.",
+      //    instructors_10_text: "Nadeem was first inspired to take up coding while studying Java in community college. After transferring to the University of California, Berkeley and picking up Python, his passion and excitement for coding grew. As a current PhD student in computational mathematics, coding now sits at the heart of what he works on everyday. Coming from a large family, Nadeem has always enjoyed being around kids, and relishes the opportunity to mentor young students.",
+      //    instructors_11_text: "Bhavika has a Masters Degree in Information Systems and  extensive experience in tech. She started her career in Web Development and has explored other areas of IT, such as Middleware Administration and QA Testing. She has experience in several programming languages including Python, Django, AngularJS, Lua Coding, HTML and CSS. She believes no one is ever too young to start learning these vital skills.",
+      instructors_12_text: '[AI_TRANSLATION]Sergio tem sido professor de Tecnologia/Ciências da Computação há sete anos, trabalhando em escolas internacionais na América do Sul e na Coreia do Sul. É originalmente da Venezuela e atualmente vive na Colômbia. Com um diploma em Educação em Ciências da Computação, ele ensina Python, HTML, CSS, JavaScript e Swift, entre outras disciplinas não relacionadas à programação. Ele também obteve vários certificados em linguagens de programação e está atualmente a trabalhar numa certificação em Ciência de Dados. Ele acredita que aprender a programar pode ajudar qualquer um a resolver problemas no mundo real. E sim, ele pode ensinar em espanhol.',
+      instructors_13_text: '[AI_TRANSLATION]A Bella estuda atualmente Ciência da Computação na UC Berkeley e tem paixão por partilhar a emoção do mundo tecnológico com os outros. Desde robótica até desenvolvimento web, a Bella ensina programação há mais de cinco anos e promove um ambiente de aprendizagem inclusivo e de apoio para que os alunos possam prosperar e controlar a sua jornada de codificação.  ',
+      //    faq_1_question: "What should I expect in the trial class?",
+      faq_1_answer: '[AI_TRANSLATION]Cada aula experimental é uma sessão privada de 60 minutos com **45 minutos de instrução** para o aluno, seguido de **15 minutos para discussão com um pai ou tutor**. Estes 15 minutos são importantes e são reservados para responder a perguntas, fornecer informações sobre como o currículo está a decorrer e ajudar-te a escolher o nível de habilidade e a linguagem de programação certa para o teu filho.\n',
+      //    faq_2_question: "How are instructors matched with my child?",
+      //    faq_2_answer: "After the initial trial class, our team carefully matches our online instructors to each student based on their experience level, personality, interests, and schedule. Our team will work with you to improve your experience if you or your child doesn’t love learning with your instructor.",
+      //    faq_3_question: "Are there any student age limits?",
+      faq_3_answer: '[AI_TRANSLATION]Oferecemos várias abordagens para garantir que tanto alunos mais novos quanto mais velhos tirem o máximo proveito do nosso currículo e ensino. Atendemos principalmente alunos do ensino básico ao ensino secundário. No entanto, se o teu filho souber digitar, usar um rato e estiver confortável a usar um computador, é bem-vindo na nossa aula.  ',
+      //    faq_4_question: "What kind of technology do I need to join the class?",
+      faq_4_answer: '[AI_TRANSLATION]O teu aluno precisará de uma ligação à Internet fiável e de um computador portátil ou de secretária. Não recomendamos tablets, pois os alunos precisarão de partilhar o ecrã do navegador.  ',
+      //    faq_5_question: "What is the cancellation policy?",
+      faq_5_answer: '[AI_TRANSLATION]A tua subscrição é 100% sem risco nos primeiros 30 dias. Se por qualquer razão decidires não continuar, basta contactares-nos para **[mailto:classes@codecombat.com]classes@codecombat.com** dentro de 30 dias após a compra e reembolsamos 100% do valor, sem perguntas.  ',
+      //    faq_6_question: "What if I need to reschedule a class?",
+      faq_6_answer: '[AI_TRANSLATION]Uma vez que tenhas reservado uma aula semanal connosco, temos tempo reservado exclusivamente para ti, por isso, exigimos um aviso prévio de 48 horas para reprogramar aulas. Podes reprogramar a tua aula enviando um e-mail para **[mailto:classes@codecombat.com]classes@codecombat.com**. Aulas perdidas ou canceladas com menos de 48 horas de antecedência não serão reorganizadas ou reembolsadas.',
+      faq_7_question: '[AI_TRANSLATION]E se tivermos férias planeadas?  ',
+      faq_7_answer: '[AI_TRANSLATION]Oferecemos a opção de pausar as tuas aulas até duas semanas. Se precisares de uma pausa mais longa, suspendemos a tua subscrição durante esse tempo e voltamos a contactar-te para reativar as aulas quando regressares. Nota que poderemos ter de encontrar um novo horário se o instrutor do teu estudante já não estiver disponível à hora anterior.\n',
+      faq_8_question: '[AI_TRANSLATION]Ofereces aulas em grupo?',
+      faq_8_answer: '[AI_TRANSLATION]Não organizamos ou designamos aulas de grupo, mas se tiveres um grupo de estudantes que querem trabalhar juntos, teremos todo o gosto em facilitar uma aula de grupo para eles.  ',
+      faq_9_question: '[AI_TRANSLATION]Fazes algum desconto?',
+      faq_9_answer: '[AI_TRANSLATION]Oferecemos descontos para irmãos e aulas em grupo. Não organizamos ou atribuimos aulas em grupo, mas se tiveres um grupo de alunos que querem trabalhar juntos, facilitaremos uma aula em grupo para eles. Por favor, entra em contacto com **[mailto:classes@codecombat.com]classes@codecombat.com** para esclarecer dúvidas sobre detalhes de preços específicos.  ',
+      faq_10_question: '[AI_TRANSLATION]O meu aluno vai trabalhar com o mesmo instrutor?',
+      faq_10_answer: '[AI_TRANSLATION]Sim, uma vez que a subscrição esteja feita, o teu aluno trabalhará com o mesmo instrutor todas as semanas. De vez em quando pode ser necessário um substituto devido a conflitos de horários, mas é raro.  ',
+      faq_11_question: '[AI_TRANSLATION]Os dados do meu filho estão seguros?  ',
+      //    faq_11_answer: "We take student safety, cybersecurity, and data privacy seriously, and follow the stringent school-grade privacy regulations including COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Fair Information Practices, CAN-SPAM, as well as GDPR. All student data is stored securely on Amazon Web Services in the US. Our AI integrations have guardrails to protect Personal Identifiable Information (PII) and restrict sensitive content. Project sharing is controlled and peer-to-peer communication is restricted. Visit  **[https://codecombat.com/privacy]https://codecombat.com/privacy** for more information.",
+      faq_12_question: '[AI_TRANSLATION]Ofereces aulas noutras línguas?',
+      //    faq_12_answer: "We offer the full class experience in both English and Spanish. However our talented group of instructors speak many other languages. If you have a specific language preference please reach out to **[mailto:classes@codecombat.com]classes@codecombat.com** to see if we can accommodate your child’s preferred language.",
+      faq_13_question: '[AI_TRANSLATION]O que torna a experiência da nossa aula diferente?',
+      faq_13_answer: '[AI_TRANSLATION]Ao contrário de outras plataformas de educação em programação, a nossa abordagem baseada em jogos usa os nossos jogos e tecnologia proprietária para proporcionar uma experiência mais envolvente e resultados mais eficazes. Desenvolvemos os nossos próprios jogos baseados na web e uma experiência totalmente imersiva no Roblox que torna a aprendizagem de programação e criação de jogos mais agradável.  ',
+    },
+
+    roblox: {
+      header_title: '[AI_TRANSLATION]Empoderar cada jogador a tornar-se um **criador**!',
+      //    header_content: "Experience the easiest and most enjoyable way to code and create your own Roblox games",
+      //    link_reward: "Account Linking Rewards",
+      link_reward_desc: '[AI_TRANSLATION]Liga as tuas contas do CodeCombat e do Roblox para desbloquear funcionalidades e recompensas  ',
+      //    link_encouragement: "The more people link their accounts, the more rewards you'll receive!",
+      //    connect_button_list_item_1: "Manage subscriptions",
+      connect_button_list_item_2: '[AI_TRANSLATION]Desbloqueia conteúdo premium  ',
+      //    connect_button_list_item_3: "Track progress",
+      connect_button_list_item_4: '[AI_TRANSLATION]Ganha recompensas exclusivas  ',
+      //    connect_button_list_item_5: "Access curricular resources",
+      //    connect_button_list_item_6: "Unlock generative AI features",
+      //    connect_button_list_item_7: "Creative mode publishing",
+      connect_button_list_item_8: '[AI_TRANSLATION]Painéis para pais e professores',
+      link_now: '[AI_TRANSLATION]Link Agora  ',
+      //    pcc_on_roblox: "Play, Code and Create on Roblox",
+      //    play_title: "Play",
+      //    play_desc: "Explore the 3D immersive experience of CodeCombat Worlds. Program your pets and adventure into a universe of creativity and shared experiences with friends.",
+      //    code_title: "Code",
+      //    code_desc: "Learn real Lua coding, from beginner to advanced. Use code to explore, gather resources, build, and discover your path to glory.",
+      //    create_title: "Create",
+      //    create_desc: "No Roblox Studio? No problem. Code in-game in Creative Mode to make full Roblox games to share with your friends.",
+      what_create: '[AI_TRANSLATION]O que vais criar?',
+      access_guidebook: '[AI_TRANSLATION]Acede ao Guia  ',
+      guidebook_description: '[AI_TRANSLATION]Tudo o que precisas saber para começar  ',
+      //    faq_1_question: "Do I need to know Lua or Roblox Studio?",
+      //    faq_1_answer: "No. This experience will allow anyone to play, code and create from the very start of their adventure, without any coding experience.",
+      //    faq_2_question: "Can I create my own games?",
+      faq_2_answer: '[AI_TRANSLATION]Sim. A criação de jogos é o ponto central desta experiência e, após completares os níveis de aprendizagem essenciais, terás a oportunidade de criar o teu próprio.  ',
+      //    faq_3_question: "Will my creations be available on Roblox?",
+      faq_3_answer: '[AI_TRANSLATION]Sim. Os jogadores podem partilhar as suas experiências dentro dos Mundos do CodeCombat e importar as suas experiências para o Studio para publicação através de um plugin, mantendo a compatibilidade com o Studio.  ',
+      faq_4_question: '[AI_TRANSLATION]Preciso de uma conta Roblox?\n',
+      faq_4_answer: '[AI_TRANSLATION]Sim. Todos os jogadores podem inscrever-se gratuitamente em roblox.com. Não te esqueças de ligar a tua conta CodeCombat e a tua conta Roblox para aceder a todas as funcionalidades e recompensas.  ',
+      faq_5_question: '[AI_TRANSLATION]Vai funcionar no meu Chromebook ou dispositivo móvel?',
+      faq_5_answer: '[AI_TRANSLATION]Sim. CodeCombat Worlds permite-te jogar, digitar código real e criar jogos em PC, Mac, Chromebooks, tablets, telemóveis e consolas.  ',
+    },
+
+    pd_page: {
+      //    implementation_training_title: "Implementation Training",
+      implementation_training_blurb: '[AI_TRANSLATION]Os educadores recebem uma formação de iniciação ao vivo e online de 60 minutos e orientação sobre como usar CodeCombat ou Ozaria para apoiar objetivos institucionais e instrucionais específicos. A implementação foca-se numa visão geral do painel de professor abrangente que inclui:  ',
+      list_1: '[AI_TRANSLATION]Como adicionar turmas e alunos  ',
+      list_2: '[AI_TRANSLATION]Como rastrear e bloquear o progresso dos alunos  ',
+      list_3: '[AI_TRANSLATION]Uma visão geral de como usar os recursos disponíveis no Hub de Recursos, incluindo: Guia do Curso, Planos de Aula, Apresentações de Aula e FAQ para Educadores',
+      modal_subtitle: '[AI_TRANSLATION]Para conseguir licenças para o nosso curso de desenvolvimento profissional, envia-nos uma mensagem e a nossa equipa de sucesso escolar entrará em contacto!  ',
+      email_message: '[AI_TRANSLATION]Olá! Estou interessado em aprender mais sobre o vosso curso de desenvolvimento profissional e discutir opções de preços.',
+      professional_development_title: '[AI_TRANSLATION]Desenvolvimento Profissional[NEWLINE](Com Ozaria)  ',
+      //    professional_development_blurb: "This 40+ hour online, self-directed course provides educators with the knowledge, skills and resources to implement high-quality CS instruction.",
+      list_4: '[AI_TRANSLATION]Adere às diretrizes ESSA para aprendizagem profissional exemplar, é endossado pela CSTA e qualifica para horas valiosas de crédito em educação profissional.  ',
+      list_5: '[AI_TRANSLATION]O curso é construído com base num modelo "Aprende, Experimenta, Ensina", garantindo que os professores têm uma base sólida dos conceitos antes de os implementarem na sala de aula.',
+      list_6: '[AI_TRANSLATION]Ganha até 3 créditos de educação de nível superior enquanto exploras conceitos básicos de CS e estratégias de ensino que incluem pensamento computacional, aprendizagem baseada em questionamento, SEL e DEI.  ',
+      download_table_of_contents: '[AI_TRANSLATION]Transferir Índice',
+      ap_csp_professional_development_title: '[AI_TRANSLATION]Desenvolvimento Profissional AP CSP[NEWLINE](Com CodeCombat)  ',
+      ap_csp_professional_development_blurb: '[AI_TRANSLATION]Este curso online de mais de 40 horas, em grande parte autodirigido, é ideal para qualquer educador que queira preparar os seus alunos para terem sucesso no exame AP Computer Science Principles usando o CodeCombat.  ',
+      list_7: '[AI_TRANSLATION]Tanto este curso como o currículo AP CSP do CodeCombat são endossados pelo College Board. As horas concluídas neste curso podem ser usadas para qualificar-se para crédito em educação profissional valiosa.  ',
+      //    list_8: "The course leverages synchronous, small group conversations with AP CSP teachers from across the globe in order to deepen one’s CS knowledge and enrich one’s classroom practices.",
+      list_9: '[AI_TRANSLATION]Através da parceria da CodeCombat com a Southern New Hampshire University (SNHU), podes ganhar até 3 créditos a nível de pós-graduação enquanto aprendes a preparar melhor os teus alunos para o exame AP CSP.\n',
+      download_syllabus: '[AI_TRANSLATION]Transferir Programa',
+      get_full_course: '[AI_TRANSLATION]Consegue Curso Completo  ',
+      try_sample_lesson: '[AI_TRANSLATION]Experimenta a Lição de Exemplo  ',
+      trophy_header: '[AI_TRANSLATION]Sobres Dá um passo em frente como Professor de Ciências da Computação com as nossas ofertas de Desenvolvimento Profissional!',
+    },
+
+    //  junior_page: {
+    //    testimonials_1_quote: "The future is programmable and you will need to be able to code to participate… I think CodeCombat has the best CS curriculum on the market… the teacher toolkit is what sets it apart.",
+    //    testimonials_1_name: "Jacob Kaminski",
+    //    testimonials_1_title: "STEM Program Director, American STEM Prep",
+    //    start_their_coding_journey_today: "**Start** their coding journey **today!**",
+    //    our_flagship_k_5_curriculum: "Our **flagship K-5 curriculum** features a scaffolded progression of learning levels that **teach coding concepts at a slower pace**, modeled specifically for elementary students.",
+    //    sign_up_to_start_today: "Sign up to start today",
+    //    testimonials_1_full_review_text: "Full review text",
+    //    scaffolded_approach: "Scaffolded Approach",
+    //    no_matter_the_coding_experience: "No matter the coding experience, CodeCombat Junior **meets students where they’re at.** They can code with icon blocks, word blocks, blocks and text code in parallel, or text-based coding with industry standard languages.",
+    //    accessible_to_all: "Accessible to All",
+    //    with_our_tablet_friendly_platform: "We’ve anticipated the challenges our youngest learners might face, incorporating **no-reading and no-typing options.** The simplified user interface performs exceptionally well on Chromebooks, as well as tablets and iPads without physical keyboards, ensuring equity and accessibility for all, irrespective of their device.",
+    //    adaptive_to_each_student: "Adaptive to Each Student",
+    //    codecombat_junior_automatically_assesses: "CodeCombat Junior automatically assesses learner’s coding success and recommends **custom-generated practice levels** when they need extra support. This provides a personalized learning pathway for every student while offering the ability for parents and educators to track progress.",
+    //    coding_fundamentals_and_cross_curricular_connections: "Coding Fundamentals and Cross-Curricular Connections",
+    //    our_curriculum_offers_student_facing: "For educators, our curriculum offers student-facing lesson slides and approachable activities to teach both core K-5 coding concepts and cross-curricular connections. The unplugged activities **integrate coding concepts with other disciplines like Math and ELA.** Topics include sequencing stories, visualizing and graphing data, narratives, and number sentences. All of our lessons are designed to **meet Computer Science Teachers Association (CSTA) Standards and Common Core Standards.**",
+    //    request_a_quote: "Request a Quote",
+    //    scope_and_sequence: "Scope and Sequence",
+    //    check_out_this_resource: "Check out **[https://docs.google.com/spreadsheets/d/1_2zr55qsEcbHDyDNoelYamN9ov0G35ju7s-ufttSzVQ]this resource** as a starting point for your personalized approach.",
+    //    connect_with_our_team: "Connect with our team to access all the teacher resources, a personalized learning pathway, generative practice levels, and more. We’ll help you integrate this comprehensive K-5 coding curriculum to ensure your students thrive at every stage of their coding journey.",
+    //    faq_1_question: "FAQ 1 Question",
+    //    faq_1_answer: "FAQ 1 Answer",
+    //    faq_2_question: "FAQ 2 Question",
+    //    faq_2_answer: "FAQ 2 Answer",
+    //    faq_3_question: "FAQ 3 Question",
+    //    faq_3_answer: "FAQ 3 Answer",
+    //    faq_4_question: "FAQ 4 Question",
+    //    faq_4_answer: "FAQ 4 Answer",
+    //    meta_title: "CodeCombat Junior: K-5 Computer Science for Schools",
+    //    our_comprehensive_implementation: "Our comprehensive implementation",
+    //    trends_1_title: "Kickstarting CS in K-5 Classrooms",
+    //    trends_1_text: "Watch as CodeCombat's Director of Education, Charlotte Cheng, and STEM Program Director, Jacob Kaminski, explore how to integrate **CodeCombat Junior** and **CodeCombat Worlds** into your classroom. They share practical strategies, success stories, and answer questions from fellow educators.",
+    //    trends_1_linkText: "Learn more",
+    //    trends_2_title: "CodeCombat Junior: A New Dynamic Approach to K-5 Coding",
+    //    trends_2_text: "Learn more about how **CodeCombat Junior** can bring coding education to K-5 classrooms. From drag-and-drop icon-based block coding to text-based coding in Python and JavaScript, this adaptable platform supports students at every stage. With over 1,100 levels and more in development, CodeCombat Junior offers endless opportunities.",
+    //    trends_2_linkText: "Read the blog",
+    //    get_a_headstart: "Get a Headstart from Home",
+    //    parents_junior_perfect: "Parents, CodeCombat Junior is the perfect way to start introducing your child not only to computer science but all the benefits, including problem solving, logic and reasoning, persistence, computational thinking and creative exploration.",
+    //    explore_learning_options: "Explore Learning Options",
+    //  },
+
+    //  paywall: {
+    //    badge_free: "Free",
+    //    "badge_sales-call": "Call Now!",
+    //    badge_paid: "Premium",
+    //    badge_tooltip_free: "Explore our levels at no cost!",
+    //    "badge_tooltip_sales-call": "Interested in more? Give us a call and unlock!",
+    //    badge_tooltip_paid: "This content is exclusive to users with a valid license.",
+    //  },
+
+    //  exams: {
+    //    timer_tip: "A timer will start when you click Start Exam",
+    //    no_permission: "Only users with permission can take the exam",
+    //    level_num: "Challenge __num__",
+    //    time_left: "Time Left (HH:mm):",
+    //    submit_tip: "Are you sure you want to mark as complete? You will not be able to play the levels again.",
+    //    start_exam: "Start Exam",
+    //    continue_exam: "Continue Exam",
+    //    return_to_exam: "Return to the Exam",
+    //  },
+
+    //  hoc_page: {
+    //    learn_and_engage_with_these_csedweek_activities: "**Learn** and **engage** with these **CSEdWeek** activities!",
+    //    latest_activities: "Latest Activities",
+    //    turn_csedweek_into_a_cs_year: "Turn CSEdWeek into a CS Year",
+    //    start_teaching_today_with_free_trial_access_to_all_games_and_teaching_resources: "Start teaching today with free trial access to all games and teaching resources.",
+    //    more_of_our_csedweek_activities: "More of Our CSEdWeek Activities",
+    //    latest_activities_1_title: "AI HackStack: Exploring AI Basics",
+    //    latest_activities_1_text: "Unleash your creativity and explore the future with AI HackStack! From designing AI-generated art to building intelligent tools, dive into hands-on activities that make learning safe, fun, and inspiring for all skill levels.",
+    //    latest_activities_1_label_1: "Grades 6-8",
+    //    latest_activities_1_label_2: "Multimodal AI",
+    //    latest_activities_2_title: "CodeCombat Junior",
+    //    latest_activities_2_text: "Ready, set, code! Help your pet collect gems by mastering the basics of programming. Learn to create sequences, solve puzzles, and build algorithms in this hands-on adventure!",
+    //    latest_activities_2_label_1: "Grades K-5",
+    //    latest_activities_2_label_2: "JavaScript, Python",
+    //    latest_activities_2_label_3: "Tablet Friendly",
+    //    try_activity: "Try Activity",
+    //    view_lesson: "View Lesson",
+    //    codecombat_worlds_title: "CodeCombat Worlds",
+    //    codecombat_worlds_text: "Master coding by creating your own Roblox games, from coding pets in the Overworld to crafting games in Creative Mode!",
+    //    codecombat_worlds_label_1: "Grades 2+",
+    //    codecombat_worlds_label_2: "Lua",
+    //    codecombat_worlds_label_3: "Tablet Friendly",
+    //    codecombat_worlds_label_4: "Download Required",
+    //    goblins_glory_title: "CodeCombat: Goblins 'n' Glory",
+    //    goblins_glory_text: "We need your help! Embark on an epic quest where you take control of the game through your powers of programming.",
+    //    goblins_glory_label_1: "Grades 6-8",
+    //    goblins_glory_label_2: "JavaScript, Python",
+    //    ai_league_title: "Esports Bootcamp: AI League",
+    //    ai_league_text: "Competitive coding has never been so epic! Learn the skills you need to play like the pros in our Esports Bootcamp. No coding experience needed.",
+    //    ai_league_label_1: "Grades 6-8",
+    //    ai_league_label_2: "JavaScript, Python",
+    //    ozaria_title: "Ozaria: Your Journey Begins",
+    //    ozaria_text: "Enter the world of Ozaria where you must use the power of coding to defeat a darkness that has taken over the world!",
+    //    ozaria_label_1: "Grades 6-8",
+    //    ozaria_label_2: "JavaScript, Python",
+    //    escape_dungeon_title: "Beginner CS: Escape the Dungeon!",
+    //    escape_dungeon_text: "Choose your hero and code your way through the ogre patrols, lava pits, and laser beams of Kithgard Dungeon. Level up, earn gems, and loot magic items to unlock new programming powers!",
+    //    escape_dungeon_label_1: "Grades 6-8",
+    //    escape_dungeon_label_2: "JavaScript, Python",
+    //    beginner_game_dev_title: "Beginner Game Dev: Build Your Own Game!",
+    //    beginner_game_dev_text: "First, level up your Python or JavaScript programming skills by coding your way out of danger and grabbing sweet loot. Then use your programming powers to build your own game and see if your friends can beat it!",
+    //    beginner_game_dev_label_1: "Grades 6-8",
+    //    beginner_game_dev_label_2: "JavaScript, Python",
+    //    intermediate_game_dev_title: "Intermediate Game Dev: Code, Play, Create",
+    //    intermediate_game_dev_text: "Code and play a series of game levels while learning important Computer Science concepts. On the final level, show off your creativity and skills to code your own game from scratch!",
+    //    intermediate_game_dev_label_1: "Grades 6+",
+    //    intermediate_game_dev_label_2: "JavaScript, Python",
+    //    advanced_game_dev_title: "Advanced Game Dev: Build an Arcade Game!",
+    //    advanced_game_dev_text: "Ready to create an even cooler game? Brush up on advanced coding concepts like functions and events using Python or JavaScript, then use those skills to build your own arcade survival game!",
+    //    advanced_game_dev_label_1: "Grades 6+",
+    //    advanced_game_dev_label_2: "JavaScript, Python",
+    //  },
+  },
 }
-//    did_you_mean: "Did you mean `$1`? You do not have an item equipped with that skill."
-//    missing_a_quotation_mark: "Missing a quotation mark. "
-//    missing_var_use_var: "Missing `$1`. Use `$2` to make a new variable."
-//    you_do_not_have: "You do not have an item equipped with the `$1` skill."
-//    put_each_command_on: "Put each command on a separate line"
-//    are_you_missing_a: "Are you missing a `$1` after `$2`? "
-//    your_parentheses_must_match: "Your parentheses must match."
-//    missing_parentheses: "Missing parentheses? Try `__suggestion__`"
-//    do_nothing_without_parentheses: "`__code__` doesn't do anything without `()`"
-//    error_index_empty: "Cannot read property `__name__` of `__specTypeName__`"
-//    error_call_non_function: "`__name__` is not a function."
-//    error_not_iterable: "`__var__` is not iterable."
-//    error_assignment_invalid: "Invalid reference in assignment."
-//    error_invalid_array_length: "Invalid array length."
-//    error_didnt_make_generator: "`__name__` didn't make a generator."
-//    error_undefined_variable: "`__name__` is not defined."
-//    error_declared_identifier: "Identifier `__name__` has already been declared."
-//    error_declarations_cant_resolve: "Couldn't resolve declarations component: `__type__`."
-//    error_strict_no_statement: "Strict mode code may not include a `with` statement."
-//    error_cant_resolve_ref_component: "Couldn't resolve ref component: `__type__`."
-//    error_cant_convert_null: "Cannot convert `undefined` or `null` to object."
-//    error_need_object: "Need an object."
-//    error_illegal_object_prototype: "Object prototype may only be an `Object` or `null`."
-//    error_no_prototype: "No prototype."
-//    error_cant_write_property_to_undefined: "Can't write property of `undefined`: `__idx__`."
-//    error_cant_write_property_to_non_obj: "Can't write property of non-object type: `__idx__`."
-//    error_function_isnt_constructor: "function is not a constructor"
-//    error_write_protected_property: "Can't write to protected property: `__name__`"
-//    error_read_protected_property: "Can't read protected property: `__name__`"
-//    error_convert_value_failed: "Cannot convert `__orig__` value to `__new__` value."
-//    error_convert_object_to_primitive: "Cannot convert object to primitive value."
-//    error_first_argument_to_be_function: "First argument to `__fun__` must be a function."
-//    error_write_non_writable: "Can't write to non-writable value."
-//    error_delete_nonconfigurable_object: "Can't delete non configurable object."
-//    error_cant_access_get: "Can't access get `__name__` of that type."
-//    error_base_obj_not_invokable: "Base object not invokable."
-//    error_arg2_not_callable: "Arg2 not callable."
-//    error_reduce_empty_array_without_init: "Reduce an empty array with no initial value."
-//    error_realm_prototype_not_realm: "Realm prototype not realm."
-//    error_function_tostring_not_generic: "Function.prototype.toString is not generic"
-//    error_regex_on_non_regex: "Calling regex method on non regex."
-//    error_call_string_on_null: "called String function on null or undefined?"
-//    error_wrong_type: "Wrong Type."
-//    error_replace_callback_not_written: "Replace with callbacks not written yet"
-//    error_right_hand_side_not_callable: "Right-hand side of `__name__` is not callable"
-//    error_segmentation_fault: "Segmentation Fault `__offset__`."
-//    error_no_arg_to_reference: "No argument to reference."
-//    error_unimplemented_property: "Unimplemented property type."
-//    error_unimplemented: "Unimplemented."
-//    error_cant_call_reference: "Can't call reference like that."
-//    error_no_arg_to_dereference: "No argument to dereference."
-//    error_try_dereference_non: "Tried to dereference non pointer."
-//    error_no_arg_to_alloc: "No argument to alloc."
-
-//  apcsp:
-//    title: "AP Computer Science Principals | College Board Endorsed"
-//    meta_description: "CodeCombat’s comprehensive curriculum and professional development program are all you need to offer College Board’s newest computer science course to your students."
-//    syllabus: "AP CS Principles Syllabus"
-//    syllabus_description: "Use this resource to plan CodeCombat curriculum for your AP Computer Science Principles class."
-//    computational_thinking_practices: "Computational Thinking Practices"
-//    learning_objectives: "Learning Objectives"
-//    curricular_requirements: "Curricular Requirements"
-//    unit_1: "Unit 1: Creative Technology"
-//    unit_1_activity_1: "Unit 1 Activity: Technology Usability Review"
-//    unit_2: "Unit 2: Computational Thinking"
-//    unit_2_activity_1: "Unit 2 Activity: Binary Sequences"
-//    unit_2_activity_2: "Unit 2 Activity: Computing Lesson Project"
-//    unit_3: "Unit 3: Algorithms"
-//    unit_3_activity_1: "Unit 3 Activity: Algorithms - Hitchhiker's Guide"
-//    unit_3_activity_2: "Unit 3 Activity: Simulation - Predator & Prey"
-//    unit_3_activity_3: "Unit 3 Activity: Algorithms - Pair Design and Programming"
-//    unit_4: "Unit 4: Programming"
-//    unit_4_activity_1: "Unit 4 Activity: Abstractions"
-//    unit_4_activity_2: "Unit 4 Activity: Searching & Sorting"
-//    unit_4_activity_3: "Unit 4 Activity: Refactoring"
-//    unit_5: "Unit 5: The Internet"
-//    unit_5_activity_1: "Unit 5 Activity: How the Internet Works"
-//    unit_5_activity_2: "Unit 5 Activity: Internet Simulator"
-//    unit_5_activity_3: "Unit 5 Activity: Chat Room Simulation"
-//    unit_5_activity_4: "Unit 5 Activity: Cybersecurity"
-//    unit_6: "Unit 6: Data"
-//    unit_6_activity_1: "Unit 6 Activity: Introduction to Data"
-//    unit_6_activity_2: "Unit 6 Activity: Big Data"
-//    unit_6_activity_3: "Unit 6 Activity: Lossy & Lossless Compression"
-//    unit_7: "Unit 7: Personal & Global Impact"
-//    unit_7_activity_1: "Unit 7 Activity: Personal & Global Impact"
-//    unit_7_activity_2: "Unit 7 Activity: Crowdsourcing"
-//    unit_8: "Unit 8: Performance Tasks"
-//    unit_8_description: "Prepare students for the Create Task by building their own games and practicing key concepts."
-//    unit_8_activity_1: "Create Task Practice 1: Game Development 1"
-//    unit_8_activity_2: "Create Task Practice 2: Game Development 2"
-//    unit_8_activity_3: "Create Task Practice 3: Game Development 3"
-//    unit_9: "Unit 9: AP Review"
-//    unit_10: "Unit 10: Post-AP"
-//    unit_10_activity_1: "Unit 10 Activity: Web Quiz"
-
-//  apcsp_marketing:
-//    course_outline_unit_1: "Unit 1"
-//    course_outline_unit_2: "Unit 2"
-//    course_outline_unit_3: "Unit 3"
-//    course_outline_unit_4: "Unit 4"
-//    course_outline_unit_5: "Unit 5"
-//    course_outline_unit_6: "Unit 6"
-//    course_outline_unit_7: "Unit 7"
-//    course_outline_unit_8: "Unit 8"
-//    course_outline_unit_9: "Unit 9"
-//    course_outline_course_1: "Computer Science 1"
-//    course_outline_course_2: "Computer Science 2"
-//    course_outline_course_3: "Computer Science 3"
-//    course_outline_course_4: "Computer Science 4"
-//    course_outline_course_5: "Creative Development"
-//    course_outline_course_6: "Data"
-//    course_outline_course_7: "Computer Systems and Networks"
-//    course_outline_course_8: "Impact of Computing"
-//    course_outline_course_9: "Exam Prep"
-//    course_outline_description_1: "Students begin the course focusing on creativity, problem solving, and the basic syntax of Python."
-//    course_outline_description_2: "Students focus on designing and implementing algorithms using the building blocks of Python."
-//    course_outline_description_3: "Students explore the concept of abstraction by developing their own abstractions inside program code."
-//    course_outline_description_4: "Students apply their understanding of problem solving, algorithms, and abstractions to design and implement digital games."
-//    course_outline_description_5: "Students use all that they have learned about Python to complete and submit their Create Performance Task."
-//    course_outline_description_6: "Students learn how computers consume, transform, store, and produce new information in order to solve problems."
-//    course_outline_description_7: "Students experience the power of sharing information via computer networks by learning about the Internet."
-//    course_outline_description_8: "Students examine how computing has revolutionized our lives and society."
-//    course_outline_description_9: "Students prepare to take the multiple choice section of the AP CSP exam."
-//    icons_coding_levels: "150+ CodeCombat Coding Levels"
-//    icons_lesson_slides: "60+ Turnkey Lesson Slides"
-//    icons_kahoot: "400+ Kahoot! Quiz Questions"
-//    icons_classroom_instructions: "100+ Hours of Classroom Instruction"
-//    icons_weeks_of_curriculum: "26 Weeks of Curriculum"
-//    icons_project_activities: "25+ Project-Based Activities"
-//    icons_game_learning: "Game-Based Learning"
-//    icons_text_coding: "Text-Based Coding"
-//    icons_chromebook_compatible: "Chromebook Compatible"
-//    icons_standards_aligned: "Standards-Aligned Lessons"
-//    page_title: "AP Computer Science Principles"
-//    page_description: "Our AP CSP curriculum provides game-based and turnkey tools to prepare students for the AP exam."
-//    page_description_endorsed: "Endorsed by the College Board, our AP CSP curriculum provides game-based and turnkey tools to prepare students for the AP exam."
-//    request_access: "Request Access"
-//    game_based_learning: "Game-Based Learning"
-//    game_based_learning_description: "Our innovative game-based learning technology has transformed the way students prepare for the AP CSP exam. Through our browser-based games, students learn about important exam topics while exercising the critical thinking skills that are necessary for success on the exam."
-//    fostering_confidence: "Fostering Confidence in the AP Exam"
-//    fostering_confidence_description: "With our curriculum, students will practice every stage of the Create Task through scaffolded and approachable capstone projects that can be adapted to a wide variety of student needs. We also provide curriculum and Kahoot! quizzes for students to practice multiple choice exam questions."
-//    accessible_real_world: "Accessible & Real-World Connections"
-//    accessible_real_world_description: "For Data, Impacts of Computing, and additional Big Ideas, our turnkey lesson slides help students explore these topics through meaningful discussions and collaborative projects. Filled with real-world connections, our curriculum will allow students to fully understand how coding affects their everyday lives."
-//    college_board: "The College Board is currently reviewing our curriculum with an expected endorsement in March 2023."
-//    our_curriculum_offers: "Our curriculum offers engaging features so that students explore and learn Computer Science through..."
-//    course_outline: "Course Outline"
-//    course_outline_description: "The following descriptions are an overview of the content explored in the CodeCombat AP CSP course."
-//    explore_our_curriculum: "Explore Our Curriculum"
-//    syllabus: "Syllabus"
-//    pacing_guide: "Pacing Guide"
-//    flyer: "Flyer"
-//    sample_lesson_slides: "Browse through our sample lesson slides"
-//    introduction_to_cs: "Introduction to Computer Science"
-//    introduction_to_cs_description: "Syntax and Sequences"
-//    big_ideas: "Big Ideas: Computer Systems and Networks"
-//    big_ideas_description: "The Internet (Overview)"
-//    get_full_course: "Get the full course here"
-//    professional_development: "Professional Development"
-//    professional_development_description: "CodeCombat offers an online, self-paced professional development course for educators of all levels of AP CSP expertise. Participants will explore the CodeCombat curriculum and learn how it can be used to prepare students to succeed on the AP CSP exam. Through asynchronous discussions with fellow teachers and video conferences with CodeCombat learning designers, you will be equipped with the tools and techniques you need to support all of your students in AP CSP. At the end of the course, you will earn a Certificate of Completion that can be used for the renewal of your teaching credential."
-//    more_information: "For More Information"
-//    contact_us: "Contact Us"
-//    question_1: "How can I learn more about the AP CSP Course?"
-//    answer_1: "You can check out the College Board’s AP Computer Science Principles __course_overview__ and also explore the __outcomes__ for this course."
-//    question_2: "What are the technology requirements for CodeCombat’s AP CSP curriculum?"
-//    answer_2: "We recommend at least 4GB of RAM and using a modern browser such as Chrome, Safari, Firefox, or Edge. For additional specifics, please visit __coco_requirements__."
-//    question_3: "What is the format of our lesson plans and lesson slides?"
-//    answer_3: "All of our lesson slides are in the format of Google Slides and our lesson plans are in the format of Google Docs. These formats allow you to make copies of our curriculum so that you can adapt them to the needs of your students. Lesson slides and lesson plans can also be downloaded as Microsoft® PowerPoint and Word files."
-//    course_overview: "Course Overview"
-//    outcomes: "outcomes"
-//    coco_requirements: "CodeCombat’s system requirements"
-//    coco_recognized_blurb: "CodeCombat is recognized by College Board as an endorsed provider of curriculum and professional development for AP® Computer Science Principles (AP CSP). This endorsement affirms that CodeCombat’s curriculum is aligned to all the AP Curriculum Framework standards and the AP CSP assessment. This affords schools access to resources including an AP CSP syllabus pre-approved by the College Board’s Course Audit, and officially recognized professional development that prepares teachers to teach this curriculum."
-
-//  apcsp_curriculum:
-//    access_syllabus: "Access our College Board approved __syllabus__"
-//    college_board_approved_syllabus: "Syllabus"
-//    access_pacing_guide: "Review our suggested __pacing_guide__"
-//    pacing_guide: "Pacing Guide"
-//    resources: "Professional Development Resources"
-//    professional_development_description: "CodeCombat offers an online, self-paced professional development course for educators of all levels of AP CSP expertise. Participants will explore the CodeCombat curriculum and learn how it can be used to prepare students to succeed on the AP CSP exam. Through asynchronous discussions with fellow teachers and video conferences with CodeCombat curriculum developers, you will be equipped with the tools and techniques you need to support all of your students in AP CSP. At the end of the course, you will earn a Certificate of Completion that can be used for the renewal of your teaching credential. We offer our Curriculum on __edapp__."
-//    contact: "Contact __apcsp_email__ to get access."
-//    role: "Role"
-//    no_license: "Our AP CSP curriculum requires a paid license or participation in our AP CSP pilot program. If you're interested in the pilot program, please fill out this form"
-//    request_license: "Join Pilot Program"
-//    page_title: "AP Computer Science Principles Curriculum"
-//    explore_each_unit: "Explore each unit, including <br> <strong>lesson plans</strong> and <strong>lesson slides</strong>"
-
-//  hoc_2019:
-//    heading: "Hour of Code"
-//    start: "Start Your Journey"
-//    create_a_class: "Create a class to track your students' progress and ensure their hour of code games are saved!"
-//    choose_language: "1. CHOOSE LANGUAGE"
-//    programming_language: "Language"
-//    sign_up: "2. SIGN UP"
-//    already_have_account: "Already have a CodeCombat or Ozaria account? Login."
-//    download_lesson_plan: "Download Lesson Plan"
-//    try_activity_without_class: "Try activity without creating a class"
-//    invite_students: "Invite Students to Your Class By Sending Them"
-//    class_code: "CLASS CODE"
-//    enter_code: "Students can enter this code at www.ozaria.com/hoc"
-//    class_url: "CLASS URL"
-//    share_url: "Share URL to have students automatically join your class."
-//    start_activity: "Start Activity"
-//    save_progress_modal: "Save your progress and keep playing later"
-//    want_to_save: "Want to save your Hour of Code progress?"
-//    ask_teacher_class_code: "Ask your teacher for your Class Code"
-//    dont_have: "I don't have one, but want to Try the Activity!"
-//    hoc_activity: "Hour of Code Activity"
-//    save_progress: "Save Progress"
-//    err_google_exists: "An account already exists for the Google account you've selected. Please choose another Google account or sign up with a username and password."
-//    err_username_taken: "An account already exists for the username you've entered. Please choose another username."
-//    enter_it_here: "Enter it here to save your progress as you play:"
-//    have_a_class_code: "Have a class code?"
-//    create_class_and_try_activity: "Create Class and Try Activity"
-
-//  parents_landing_2:
-//    splash_title: "Discover the magic of coding at home."
-//    learn_with_instructor: "Learn with an Instructor"
-//    live_classes: "Live Online Classes"
-//    live_classes_offered: "CodeCombat now offers live online computer science classes for students learning at home. Great for students who work best in 1:1 or small-group settings where learning outcomes are tailored to their needs."
-//    live_class_details_1: "Small group or private lessons"
-//    live_class_details_2: "JavaScript and Python coding, plus core Computer Science concepts"
-//    live_class_details_3: "Taught by expert coding instructors"
-//    live_class_details_4: "Individualized and instant feedback"
-//    live_class_details_5: "Curriculum trusted by 80,000+ educators"
-//    try_free_class: "Try a free 60 minute class"
-//    pricing_plans: "Pricing Plans"
-//    choose_plan: "Choose Plan"
-//    per_student: "per student"
-//    sibling_discount: "15% Sibling Discount!"
-//    small_group_classes: "Small Group Coding Classes"
-//    small_group_classes_detail: "4 Group Sessions / Mo."
-//    small_group_classes_price: "$159/mo"
-//    small_group_classes_detail_1: "4:1 student to instructor ratio"
-//    small_group_classes_detail_2: "60 minute classes"
-//    small_group_classes_detail_3: "Build projects and give feedback to other students"
-//    small_group_classes_detail_4: "Screen sharing to get live feedback on coding and debugging"
-//    private_classes: "Private Coding Classes"
-//    four_sessions_per_month: "4 Private Sessions / Mo."
-//    eight_sessions_per_month: "8 Private Sessions / Mo."
-//    four_private_classes_price: "$219/mo"
-//    eight_private_classes_price: "$399/mo"
-//    private_classes_detail: "4 or 8 Private Sessions / Mo."
-//    private_classes_price: "$219/mo or $399/mo"
-//    private_classes_detail_1: "1:1 student to instructor ratio"
-//    private_classes_detail_2: "60 minute classes"
-//    private_classes_detail_3: "Flexible schedule tailored to your needs"
-//    private_classes_detail_4: "Lesson plans and live feedback tailored to students' learning style, pace, and ability level"
-//    best_seller: "Best Seller"
-//    best_value: "Best Value"
-//    codecombat_premium: "CodeCombat Premium"
-//    learn_at_own_pace: "Learn at Your Own Pace"
-//    monthly_sub: "Monthly Subscription"
-//    buy_now: "Buy now"
-//    per_month: " / mo"
-//    lifetime_access: "Lifetime Access"
-//    premium_details_title: "Great for self-driven learners who thrive with complete autonomy."
-//    premium_details_1: "Access to subscriber-only heroes, pets and skills"
-//    premium_details_2: "Receive bonus gems to buy gear, pets and more heroes"
-//    premium_details_3: "Unlock a deeper understanding of core concepts and skills like web and game development"
-//    premium_details_4: "Premium support for subscribers"
-//    premium_details_5: "Create private clans to invite friends and compete on a group leaderboard"
-//    premium_need_help: "Need help or prefer Paypal? Email <a href=\"mailto:support@codecombat.com\">support@codecombat.com</a>"
-//    not_sure_kid: "Not sure if CodeCombat is right for your kid?  Ask them!"
-//    share_trailer: "Share our game trailer with your kid and have them create an account to get started."
-//    why_kids_love: "Why Kids Love CodeCombat"
-//    learn_through_play: "Learning Through Play"
-//    learn_through_play_detail: "Students grow their coding skills, and also use problem-solving skills to progress through levels and power up their heroes."
-//    skills_they_can_share: "Skills They Can Share"
-//    skills_they_can_share_details: "Students build real-world skills and create projects, such as games and webpages, that they can share with friends and family."
-//    help_when_needed: "Help When They Need It"
-//    help_when_needed_detail: "Using data, every level has been built to be challenging, but never discouraging.  Students are supported with hints when they get stuck."
-//    book_first_class: "Book your first class"
-//    why_parents_love: "Why Parents Love CodeCombat"
-//    most_engaging: "The most engaging way to learn typed code"
-//    most_engaging_detail: "Your child will have everything they need at the tip of their fingers to program algorithms in Python or JavaScript, build websites and even design their own games, while learning material aligned with national curriculum standards."
-//    critical_skills: "Building critical skills for the 21st century"
-//    critical_skills_detail: "Your child will learn how to navigate and become citizens in the digital world. CodeCombat is a solution that enhances your child’s critical thinking, creativity, and resilience, empowering them with the skills they need for any industry."
-//    parent_support: "Supported by parents like you"
-//    parent_support_detail: "At CodeCombat, we’re parents. We’re coders. We’re educators. But most of all, we’re people who believe in giving our kids the best opportunity for success in whatever it is they decide to do."
-//    everything_they_need: "Everything they need to start typing code on their own"
-//    beginner_concepts: "Beginner Concepts"
-//    beginner_concepts_1: "Basic syntax"
-//    beginner_concepts_2: "While loops"
-//    beginner_concepts_3: "Arguments"
-//    beginner_concepts_4: "Strings"
-//    beginner_concepts_5: "Variables"
-//    beginner_concepts_6: "Algorithms"
-//    intermediate_concepts: "Intermediate Concepts"
-//    intermediate_concepts_1: "If statements"
-//    intermediate_concepts_2: "Boolean comparisons"
-//    intermediate_concepts_3: "Nested conditionals"
-//    intermediate_concepts_4: "Functions"
-//    intermediate_concepts_5: "Basic input handling"
-//    intermediate_concepts_6: "Basic game artificial intelligence"
-//    advanced_concepts: "Advanced Concepts"
-//    advanced_concepts_1: "Event handling"
-//    advanced_concepts_2: "Conditional while loops"
-//    advanced_concepts_3: "Object literals"
-//    advanced_concepts_4: "Parameters"
-//    advanced_concepts_5: "Vectors"
-//    advanced_concepts_6: "Math library operations"
-//    advanced_concepts_7: "Recursion"
-//    get_started: "Get Started"
-//    quotes_title: "What parents and kids are saying about CodeCombat"
-//    quote_1: "\"This is next level coding for kids and it’s pretty fun. I am going to learn a thing or two from this too.\""
-//    quote_2: "\"I liked learning a new skill that I haven’t done before. I liked that when I was struggling, I could find the goals. I also liked that you could see the code work correctly.\""
-//    quote_3: "\"Oliver’s Python is coming along. He’s using CodeCombat to make his own video games. He challenges me to play his games, then laughs when I lose.\""
-//    quote_4: "\"This is one of my favorite things to do. Every morning I wake up and play CodeCombat. If I had to give CodeCombat a rating from 1 to 10, I would give it a 10!\""
-//    parent: "Parent"
-//    student: "Student"
-//    grade: "Grade"
-//    subscribe_error_user_type: "Looks like you've already signed up for an account. If you're interested in CodeCombat Premium, please contact us at team@codecombat.com."
-//    subscribe_error_already_subscribed: "You've already signed up for a Premium account."
-//    start_free_trial_today: "Start free trial today"
-//    live_classes_title: "Live coding classes from CodeCombat!"
-//    live_class_booked_thank_you: "Your live class has been booked, thank you!"
-//    book_your_class: "Book Your Class"
-//    call_to_book: "Call now to book"
-//    student_journey_start: "Congratulations! Your student's coding journey is about to begin!"
-//    enter_email_address: "Please provide your email address to get started:"
-//    enter_parent_email_address: "If you are a student under 18 years of age, please enter your parent or guardian's email address."
-//    email_sent_success: "Awesome! An email has been sent to the address you provided."
-//    email_schedule_info: "Please open and click the link to access our trial class scheduling portal and select any available time that works best for you."
-
-//  modal_timetap_confirmation:
-//    congratulations: "Congratulations!"
-//    paragraph_1: "Your student’s coding adventure awaits."
-//    paragraph_2: "We have your child booked for an online class and we’re so excited to meet them!"
-//    paragraph_3: "Soon you should be recieving an email invitation with the class schedule details as well as your class instructor’s name and contact information."
-//    paragraph_4: "If for whatever reason you need to modify your class selections, reschedule or just want to talk with a customer care specialist, simply reach out using the contact information provided in your email invitation."
-//    paragraph_5: "Thank you for choosing CodeCombat and good luck on your computer science journey!"
-//    back_to_coco: "Back to CodeCombat"
-
-//  hoc_2018:
-//    banner_coco: "Welcome to Hour of Code!"
-//    banner_ozar: "Happy Computer Science Education Week!"
-//    page_heading: "Your students will learn to code by building their own game!"
-//    page_heading_ai_league: "Your students will learn to code their own multiplayer AI!"
-//    page_heading_goblins: "Your students will learn coding by saving a village from goblins!"
-//    step_1: "Step 1: Watch Video Overview"
-//    step_2: "Step 2: Try it Yourself"
-//    step_3: "Step 3: Download Lesson Plan"
-//    try_activity: "Try Activity"
-//    download_pdf: "Download PDF"
-//    solutions: "Solutions"
-//    teacher_signup_heading: "Turn Hour of Code into a Year of Code"
-//    teacher_signup_blurb: "Everything you need to teach computer science, no prior experience needed."
-//    teacher_signup_input_blurb: "Get first course free:"
-//    teacher_signup_input_placeholder: "Teacher email address"
-//    teacher_signup_input_button: "Get CS1 Free"
-//    activities_header: "More Hour of Code Activities"
-//    activity_label_1: "Beginner CS: Escape the Dungeon!"
-//    activity_label_2: " Beginner GD: Build a Game!"
-//    activity_label_3: "Advanced GD: Build an Arcade Game!"
-//    activity_label_hoc_2018: "Intermediate GD: Code, Play, Create"
-//    activity_label_ai_league: "Beginner CS: Esports Bootcamp: AI League"
-//    activity_label_goblins: "Beginner CS: Goblins 'n' Glory"
-//    activity_button_1: "View Lesson"
-//    about: "About CodeCombat"
-//    about_copy: "A game-based, standards-aligned computer science program that teaches real, typed Python and JavaScript."
-//    point1: "✓ Scaffolded"
-//    point2: "✓ Differentiated"
-//    point3: "✓ Assessments"
-//    point4: "✓ Project-based courses"
-//    point5: "✓ Student tracking"
-//    point6: "✓ Full lesson plans"
-//    title: "HOUR OF CODE"
-//    acronym: "HOC"
-//    play_video: "Play Video"
-//    featured_title_1: "CodeCombat: Goblins 'n' Glory"
-//    featured_subtitle_1: "Grades 6-8 | JavaScript, Python"
-//    featured_blurb_1: "We need your help! Embark on an epic quest where you take control of the game through your powers of programming."
-//    featured_title_2: "Esports Bootcamp: AI League"
-//    featured_subtitle_2: "Grades 6-8 | JavaScript, Python"
-//    featured_blurb_2: "Competitive coding has never been so epic! Learn the skills you need to play like the pros in our Esports Bootcamp. No coding experience needed"
-//    featured_title_3: "Ozaria: Your Journey Begins"
-//    featured_subtitle_3: "Grades 6-8 | JavaScript, Python"
-//    featured_blurb_3: "Enter the world of Ozaria where you must use the power of coding to defeat a darkness that has taken over the world!"
-//    page_heading_latest_activities: "Our latest activities are easy to implement and fun to play"
-
-//  hoc_2018_interstitial:
-//    welcome: "Welcome to CodeCombat's Hour of Code!"
-//    educator: "I'm an educator"
-//    show_resources: "Show me teacher resources!"
-//    student: "I'm a student"
-//    ready_to_code: "I'm ready to code!"
-
-//  hoc_2018_completion:
-//    congratulations: "Congratulations on completing <b>Code, Play, Share!</b>"
-//    send: "Send your Hour of Code game to friends and family!"
-//    copy: "Copy URL"
-//    get_certificate: "Get a certificate of completion to celebrate with your class!"
-//    get_cert_btn: "Get Certificate"
-//    first_name: "First Name"
-//    last_initial: "Last Initial"
-//    teacher_email: "Teacher's email address"
-
-//  school_administrator:
-//    title: "School Administrator Dashboard"
-//    my_teachers: "My Teachers"
-//    last_login: "Last Login"
-//    licenses_used: "licenses used"
-//    total_students: "total students"
-//    active_students: "active students"
-//    projects_created: "projects created"
-//    other: "Other"
-//    notice: "The following school administrators have view-only access to your classroom data:"
-//    add_additional_teacher: "Need to add an additional teacher? Contact your CodeCombat Account Manager or email support@codecombat.com. "
-//    license_stat_description: "Licenses available accounts for the total number of licenses available to the teacher, including Shared Licenses."
-//    students_stat_description: "Total students accounts for all students across all classrooms, regardless of whether they have licenses applied."
-//    active_students_stat_description: "Active students counts the number of students that have logged into CodeCombat in the last 60 days."
-//    project_stat_description: "Projects created counts the total number of Game and Web development projects that have been created."
-//    no_teachers: "You don’t have any schools tied to your account yet. Please contact your <strong>District Success Manager</strong> or <a href=\"mailto:schools@codecombat.com\">schools@codecombat.com</a> to get your dashboard set up."
-//    totals_calculated: "How are these totals calculated?"
-//    totals_explanation_1: "How are these totals calculated?"
-//    totals_explanation_2: "Licenses used"
-//    totals_explanation_3: "Counts total licenses applied to students out of total licenses available."
-//    totals_explanation_4: "Total students"
-//    totals_explanation_5: "Counts teacher’s students across all of their active classrooms. To see total students enrolled in both active and archived classrooms, go to the Student Licenses page."
-//    totals_explanation_6: "Active students"
-//    totals_explanation_7: "Counts all students who were active within the past 60 days."
-//    totals_explanation_8: "Projects created"
-//    totals_explanation_9: "Counts total games and web pages created."
-//    date_thru_date: "__startDateRange__ thru __endDateRange__"
-//    teachers: "Teachers"
-//    students_enrolled: "Students Enrolled"
-//    select_time_range: "Select the time range:"
-//    export: "Export"
-//    preview: "Here is a preview for top 200 lines, Click the Export to get full stats"
-//    empty_results: "Empty Results."
-
-//  interactives:
-//    phenomenal_job: "Phenomenal Job!"
-//    try_again: "Whoops, try again!"
-//    select_statement_left: "Whoops! Select a code statement before pressing Submit."
-//    fill_boxes: "Whoops, make sure to fill all boxes before hitting \"Submit.\""
-//    cannot_play_video: "Sadly, this video cannot be played in your area."
-//    console_instructions: "See why by opening your browser console: 1) Right click 2) Choose \"Inspect\" 3) Click the console tab."
-//    skip_video: "Skip video"
-//    unavailable: "Unavailable"
-
-//  browser_recommendation:
-//    title: "CodeCombat works best on Chrome!"
-//    pitch_body: "For the best CodeCombat experience we recommend using the latest version of Chrome. Download the latest version of chrome by clicking the button below!"
-//    download: "Download Chrome"
-//    ignore: "Ignore"
-
-//  admin:
-//    license_type_full: "Full Courses"
-//    license_type_customize: "Customize Courses"
-
-//  events:
-//    title: "CodeCombat Events"
-//    main_title: "CodeCombat Events"
-//    main_description: "The important events of codecombat China"
-//    dashboard: "Events Dashboard"
-//    online_classes: "Online Classes"
-//    my_classes: "My Online Classes"
-//    classes_stats: "Online Classes Stats"
-//    name: "Name"
-//    class_name: "Class Name"
-//    description: "Description"
-//    owner: "Owner"
-//    type: "Type"
-//    members: "Members"
-//    start_date: "Start Date"
-//    end_date: "End Time"
-//    time_range: "Time Range"
-//    rrule: "Recurrence Rules"
-//    add_member: "Add Member"
-//    class_count: "Lessons Count"
-//    done: "Finished Lesson"
-//    attendance: "Attendance"
-//    course_description: "Teacher Notes"
-//    teacher_notes: "Teacher Notes"
-//    levels_completed: "Levels Completed"
-//    no_levels_completed: "No Completed Levels Found"
-//    no_teacher_notes: "No Teacher Notes Found"
-//    no_video_recording: "No Video Recording Found"
-//    reply: "Reply"
-//    video_recording: "Video Recording"
-//    import_from_class: "Import from Class"
-//    link_google_calendar: "Link with Google Calendar"
-//    sync_to_google: "Sync to Google Calendar"
-//    synced_to_google: "Synced to Google Calendar"
-//    google_calendar_attendees: "Google Calendar Attendees"
-//    calendar: "Calendar"
-//    edit_instance_tab_desc: "Edit the single instance of this event, for editing whole events, see edit tab"
-//    edit_event_tab_desc: "Edit the whole event, for editing single instance of this event, see instance tab"
-//    edit_members_tab_desc: "Edit the member of this event, the startDate is depends on the instance date, so select the first instance for the new member"
-//    lessons_count_desc: "The total lessons count of this member, normally it is the same as the event instances count, but it can be different if the member is added after the event started or ended before the event ended"
-//    sync_to_google_desc: "Sync this event to YOUR google calendar, instead of the owner's calendar. And can only work on CodeCombat gmail"
-//    no_data_display: "No data to display"
-//    meetingLink: "Meeting Link"
-//    time_zone: "Time Zone"
-//    timezone_tips: "Note - Your timezone: "
-
-//  teacher_dashboard:
-//    lock: "Lock"
-//    unlock: "Unlock"
-//    lock_until_date: "Lock until date"
-//    skip: "Skip"
-//    unskip: "Unskip"
-//    make_optional: "Make optional"
-//    remove_optional: "Remove Optional"
-//    until_date: "until __date__"
-//    unassign: "Unassign"
-//    locked: "Locked"
-//    locked_by_previous: "Locked by previous level"
-//    locked_with_timeframe: "Locked"
-//    skipped: "Skipped"
-//    optional: "Optional"
-//    assigned: "Assigned"
-//    unlocked: "Unlocked"
-//    choose_course: "Click to Select from Dropdown"
-//    teacher_locked_message: "Your teacher has locked the next level"
-//    plan_your_class_title: "Plan your first class by"
-//    plan_your_class1: "Viewing course progression info"
-//    plan_your_class2: "Previewing lesson slides & extension activities"
-//    plan_your_class3: "Trying the first chapter for free"
-//    click_dismiss: "Click to Dismiss"
-//    track_progress: "Track Progress"
-//    track_progress_desc: "Click into the class you just created to view detailed student progress."
-//    add_classes_title: "Add Classes Here"
-//    add_classes: "Add classes and get students started with the first free chapter!"
-//    all_classes: "All Classes"
-//    my_licenses: "My Licenses"
-//    resource_hub: "Teacher Toolkit"
-//    pd: "Professional Development"
-//    pd_short: "PD"
-//    curriculum_guide: "Curriculum Guide"
-//    add_class: "Add New Class"
-//    no_licenses_yet: "No licenses yet"
-//    req_licenses: "Request Licenses"
-//    license_ratio_used: "__totalUsedLicenses__ out of __totalSpots__"
-//    licenses_applied: "Licenses Applied"
-//    student_projects: "Student Projects"
-//    no_classes_yet: "No classes yet"
-//    exemplar_project: "Exemplar Project"
-//    capstone_proj_for: "Capstone Project for __courseName__"
-//    project_rubric: "Project Rubric"
-//    select_chapter: "Select Chapter"
-//    concept_flag: "Concept Flag"
-//    support_learning: "Support Learning"
-//    concept_flag_desc: "More than 50% of the class attempted a Concept Check 3 or more times."
-//    concept_flag_desc2: "Student attempted a Concept Check 3 or more times."
-//    click_progress_dot_tip: "Tip: Click on the progress bubbles for more details"
-//    color_code: "Color Code"
-//    content_guide: "Content Guide"
-//    story: "Story"
-//    cutscenes: "Cutscenes"
-//    cutscenes_tooltip: "<h3>Cutscene</h3><p>Short videos that explain parts of the epic Ozaria narrative.</p>"
-//    cinematics: "Cinematics"
-//    concept_checks: "Concept Checks"
-//    practice_levels: "Practice Levels"
-//    challenge_levels: "Challenge Levels"
-//    capstone_levels: "Capstone Levels"
-//    intro: "Intro"
-//    practice: "Practice"
-//    assess: "Assess"
-//    view_options: "View Options"
-//    manage_class: "Manage Class"
-//    assign_content: "Assign Content"
-//    remove_students: "Remove Students"
-//    revoke_licenses: "Revoke Licenses"
-//    remaining_licenses: "__remaining__ license(s) remaining"
-//    start_date: "Start: __date__"
-//    end_date: "End: __date__"
-//    license_questions: "Have questions about applying or revoking licenses?"
-//    need_more_licenses: "Need more licenses? We'll help you build a solution that meets your needs."
-//    see_also_our: "See also our"
-//    for_more_funding_resources: "for how to leverage CARES Act funding sources like ESSER and GEER."
-//    support_oz: "support@ozaria.com"
-//    standards_alignment: "Standards Alignment"
-//    standards_sample: "A sample of the standards covered in this Chapter:"
-//    play_chapter: "Play Chapter"
-//    class_time_range: "Class Time (Range):"
-//    in_game_play_time: "In-Game Play Time:"
-//    class_time: "Class Time"
-//    solution_guide: "Solution Guide"
-//    module: "Module"
-//    need_licenses_tooltip: "<h3>You need licenses to access this content!</h3><p>Please visit the <a href='/teachers/licenses'>My Licenses</a> page for more information.</p>"
-//    lesson_slides_tooltip: "<h3>Lesson Slides</h3><p>Downloadable, step-by-step presentation slides for guiding students through module learning objectives</p>"
-//    project_rubric_tooltip: "<h3>Project Rubric</h3><p>Downloadable and modifiable scoring rubric for the Capstone Project</p>"
-//    exemplar_projects_tooltip: "<h3>Exemplar Project</h3><p>Live view of the exemplar Capstone Project</p>"
-//    want_to_save_tooltip: "<h3>Want to save your progress?</h3><p>Please create a student account and play Ozaria as a student if you would like to save your progress.</p>"
-//    intro_explain_tooltip: "<b>\"Intros\"</b> introduce new concepts or further the storyline in a scaffolded way. They typically include Cinematics and/or Concept Checks."
-//    chapter_num: "Chapter __num__"
-//    read: "View Only"
-//    write: "Full Access"
-//    read_blurb: "View Only permits the added teacher to view your class and student progress without the ability to make changes to your class."
-//    write_blurb: "Full Access grants the added teacher the ability to make modifications to your class (add/remove students, assign chapters, modify licensure)"
-//    shared_with_none: "This class is not currently shared with any other teachers."
-//    shared_with: "Shared with"
-//    share_info: "To give other teachers access to the class, add their emails below."
-//    class_owner: "Class Owner"
-//    share: "Share"
-//    add: "Add"
-//    note: "Note"
-//    lock_or_skip_levels: "Lock or Skip Levels"
-//    level_access_status_blurb: "When you choose to skip a level, it will have both the 'locked' and 'optional' status. Unskipping the level will remove both the 'locked' and 'optional' statuses."
-//    reset_progress: "Reset Progress"
-
-//  outcomes:
-//    outcomes_report: "Outcomes Report"
-//    customize_report: "Customize Report"
-//    done_customizing: "Done Customizing"
-//    start_date: "Start date"
-//    end_date: "End date"
-//    school_admin: "School Administrator"
-//    school_network: "School Network"
-//    school_subnetwork: "School Subnetwork"
-//    classroom: "Classroom"
-//    view_outcomes_report: "View Outcomes Report"
-//    key_concepts: "Key Concepts"
-//    code_languages: "Code Languages"
-//    using_codecombat: "Using CodeCombat's personalized learning engine..."
-//    wrote: "wrote..."
-//    across_an_estimated: "across an estimated..."
-//    in: "in..."
-//    include: "Include "
-//    archived: "Archived"
-//    max: "Max "
-//    multiple: "s"
-//    computer_program: "computer program"
-//    computer_programs: "computer programs"
-//    line_of_code: "line of code"
-//    lines_of_code: "lines of code"
-//    coding_hours: "coding hours"
-//    expressed_creativity: "and expressed creativity by building"
-//    report_content_1: "standalone game and web "
-//    project: "project"
-//    projects: "projects"
-//    progress_stats: "Progress stats based on sampling __sampleSize__ of __populationSize__ students."
-//    standards_coverage: "Standards Coverage"
-//    coverage_p1_coco: "The full CodeCombat curriculum covers major programming standards in several widely-adopted frameworks, including those of the International Society for Technology in Education (ISTE), the Computer Science Teacher Association (CSTA), and the K-12 Computer Science Framework."
-//    coverage_p1_ozar: "The full Ozaria curriculum covers major programming standards in several widely-adopted frameworks, including those of the International Society for Technology in Education (ISTE), the Computer Science Teacher Association (CSTA), and the K-12 Computer Science Framework."
-//    coverage_p2_coco: "At CodeCombat, we believe that students will be most prepared for both real-world computing jobs and further study of computer science by using real, typed code in full programming languages, so instead of using block-based visual programming languages for beginners, we teach Python and JavaScript – the same languages used widely today by companies ranging from Google to the New York Times."
-//    coverage_p2_ozar: "Ozaria is created by the CodeCombat, the game-based learning company. We believe that students will be most prepared for both real-world computing jobs and further study of computer science by using real, typed code in full programming languages, so instead of using block-based visual programming languages for beginners, we teach Python and JavaScript – the same languages used widely today by companies ranging from Google to the New York Times."
-//    questions: "Have questions or want more information? We'd be happy to help."
-//    reach_out_manager: "Reach out to your Account Manager __name__ at "
-//    stats_include: "stats include __number__ other __name__"
-
-//  efficacy:
-//    ozaria_efficacy: "Ozaria Efficacy"
-//    header_subtitle: "Ozaria has proven to have a positive impact on the student learning outcomes that matter most to both students and educators."
-//    pathway_dialog_line1: "while True:"
-//    pathway_dialog_line2: "hero.moveDown(1)"
-//    pathway_dialog_line3: "hero.moveRight(2)"
-//    exploring_creativity: "Exploring Creativity"
-//    exploring_creativity_description: "Almost all students surveyed said they really enjoyed being able to create their own game at the end of each Chapter."
-//    essential_skills: "Essential Skills"
-//    essential_skills_description: "Teachers found Ozaria to be a superior curriculum for teaching complex coding concepts as well as essential 21st century skills, such as problem solving and reasoning, critical and computational thinking skills."
-//    fun_engaging: "Fun & Engaging"
-//    fun_engaging_description: "Ozaria was reported to be a fun and engaging curriculum. Students especially noted how effective it was in teaching text-based coding, and how the tutorials, hints, and error messages provided the appropriate amount of support."
-//    easy_to_use: "Easy to Use"
-//    easy_to_use_description: "Both teacher and students found the platform easy to implement and use."
-//    mcintosh_study_title: "Increasing Score Gains on Assessments"
-//    mcintosh_middle_school: "McIntosh Middle School"
-//    mcintosh_study_description: "A novice teacher with advanced level coding experience taught three cohorts of students. Each cohort was studied across a full semester."
-//    study_highlights_title: "Highlights from the study results:"
-//    mcintosh_study_highlight_1: "98% of students rated their level of enthusiasm for Ozaria as high or extremely high"
-//    mcintosh_study_highlight_2: "100% of students scored above 70% on both the mid-term and final assessments"
-//    read_the_study: "Read the Study (PDF)"
-//    mrms_study_title: "Gaining Confidence in Computer Science"
-//    mountain_ridge_middle_school: "Mountain Ridge Middle School"
-//    mrms_study_description: "An experienced teacher with beginning level coding experience taught two cohorts of students. Each cohort was studied across a full semester."
-//    mrms_study_highlight_1: "Students made an average gain score of 33% between the pre-assessment and the final assessment"
-//    mrms_study_highlight_2: " Both the teacher and students found Ozaria to be fun, engaging, and easy to use."
-//    graph1_description: "Students made a 47% average gain score between the pre-assessment and the final assessment."
-//    graph2_description: "More than 90% of students rated their coding confidence level as Confident or Extremely Confident after using Ozaria."
-//    quote_section_content: "One thing I am able to do now that I could not do before is actually believe I can code."
-//    quote_section_footer: "Student, Mountain Ridge Middle School"
-//    teacher_quote1_content: "The curriculum had students thoroughly engaged. They enjoyed the story and the characters. More importantly, they gained confidence in their ability to solve complex problems with concepts they'd learned in Ozaria."
-//    teacher_quote1_footer1: "Ronnie Cox, Teacher"
-//    teacher_quote1_footer2: "McIntosh Middle School"
-//    student_quote_content: "I like that you can make a mistake and the game corrects it or tells you that there's an error. A lot of beginners make a lot of mistakes when coding and sometimes don't know how to code, so they can't correct their mistakes because they don't know what's wrong. Ozaria is the perfect coding game for beginners."
-//    student_quote_footer: "Student, McIntosh Middle School"
-//    teacher_quote2_content: "I have absolutely loved using Ozaria in my class for the past three years. My students have thoroughly enjoyed the storyline as they learned Python in a self-paced learning environment. I would highly recommend Ozaria for teachers that know little to nothing about coding, as the support for teachers is very in-depth."
-//    teacher_quote2_footer1: "Lynette Personett, Teacher"
-//    teacher_quote2_footer2: "Mountain Ridge Middle School"
-//    commitment_title: "CodeCombat’s Commitment to Efficacy"
-//    commitment_description: "We are committed to ensuring our products have a positive and measurable impact on learning outcomes. We create meaningful learning experiences, and use evidence-based practices to design content that will realize the outcomes that matter the most to teachers and students."
-//    commitment_question: "Interested in implementing an effective and impactful CS curriculum at your school?"
-//    teachers_love_codecombat: "Teachers Love CodeCombat"
-//    teachers_love_description: "Explore the impact of our sister product, CodeCombat, on Computer Science teaching & learning!"
-//    teachers_love_box1: "Report that their students enjoy using CodeCombat to learn how to code"
-//    teachers_love_box2: "Would recommend CodeCombat to other computer science teachers"
-//    teachers_love_box3: "Say that CodeCombat helps them support students’ problem solving abilities"
-//    classroom_image: "Classroom"
-//    ozaria_branding_logo: "Ozaria branding logo"
-//    dog: "Dog"
-//    hero: "Hero"
-//    teacher: "Teacher"
-
-//  league:
-//    student_register_1: "Become the next AI Champion!"
-//    student_register_2: "Sign up, create your own team, or join other teams to start competing."
-//    student_register_3: "Provide the information below to be eligible for prizes."
-//    teacher_register_1: "Sign up to access your class league profile page and get your class started."
-//    general_news: "Get emails on the latest news and updates regarding our AI Leagues and tournaments."
-//    team: "Team"
-//    how_it_works1: "Join a __team__"
-//    seasonal_arena_tooltip: "Battle against your teammates and others as you use your best programming skills to earn points and rank up the AI League leaderboard before taking on the Championship arena at the end of the season."
-//    summary: "The CodeCombat AI League is uniquely both a competitive AI battle simulator and game engine for learning real Python and JavaScript code."
-//    join_now: "Join Now"
-//    tagline: "The CodeCombat AI League combines our project-based standards-aligned curriculum, engaging adventure-based coding game, and our annual AI coding global tournament into an organized academic competition unlike any other."
-//    ladder_subheader: "Use your coding skills and battle strategies to rise up the ranks!"
-//    earn_codepoints: "Earn CodePoints by completing levels"
-//    codepoints: "CodePoints"
-//    free_1: "Access competitive multiplayer arenas, leaderboard, and global coding championships"
-//    free_2: "Earn points for completing practice levels and competing in head-to-head matches"
-//    free_3: "Join competitive coding teams with friends, family, or classmates"
-//    free_4: "Showcase your coding skills and take home great prizes"
-//    compete_season: "Put all the skills you’ve learned to the test! Compete against students and players from across the world in this exciting culmination to the season."
-//    season_subheading1: "For both Season and Championship arenas, each player programs their team of “AI Heroes” with code written in Python, JavaScript, C++, Lua, or CoffeeScript."
-//    season_subheading2: "Their code informs the strategies their AI Heroes will execute in a head-to-head battle against other competitors."
-//    team_derbezt: "Learn coding and win prizes sponsored by superstar Mexican actor, comedian, and filmmaker Eugenio Derbez."
-//    invite_link: "Invite players to this team by sending them this link:"
-//    public_link: "Share this team leaderboard with its public link:"
-//    end_to_end: "Unlike other esports platforms serving schools, we own the structure top to bottom, which means we’re not tied to any game developer or have issues with licensing. That also means we can make custom modifications in-game for your school or organization."
-//    path_success: "The game platform fits into a regular Computer Science curriculum, so as students play through the game levels, they’re completing course work. Students learn coding and computer science while they play, then use these skills in arena battles as they practice and play on the same platform."
-//    unlimited_potential: "Our tournament structure is adaptable to any environment or use case. Students can participate at a designated time during regular learning, play at home asynchronously, or participate on their own schedule."
-//    edit_team: "Edit Team"
-//    start_team: "Start a Team"
-//    leave_team: "Leave Team"
-//    join_team: "Join Team"
-//    view_team: "View Team"
-//    join_team_name: "Join Team __name__"
-//    features: "Features"
-//    built_in: "Built-in Competitive Infrastructure"
-//    built_in_subheader: "Our platform hosts every element of the competitive process, from leaderboards to the game platform, assets, and tournament awards."
-//    custom_dev: "Custom Development"
-//    custom_dev_subheader: "Customization elements for your school or organization are included, plus options like branded landing pages and in-game characters."
-//    comprehensive_curr: "Comprehensive Curriculum"
-//    comprehensive_curr_subheader: "CodeCombat is a standards-aligned CS solution that helps educators teach real coding in JavaScript and Python, no matter their experience."
-//    roster_management: "Roster Management Tools"
-//    roster_management_subheader: "Track student performance within the curriculum and within the game, and easily add or remove students."
-//    share_flyer: "Share our AI League flyer with educators, administrators, parents, esports coaches or others that may be interested."
-//    download_flyer: "Download Flyer"
-//    championship_summary: "The __championshipArena__ championship arena is now open! Battle it out for the month of __championshipMonth__ to win prizes in the __championshipArena__ __championshipType__."
-//    play_arena_full: "Play __arenaName__ __arenaType__"
-//    play_arena_short: "Play __arenaName__"
-//    view_arena_winners: "View __arenaName__ __arenaType__ winners"
-//    arena_type_championship: "Championship Arena"
-//    arena_type_regular: "Multiplayer Arena"
-//    blazing_battle: "Blazing Battle"
-//    infinite_inferno: "Infinite Inferno"
-//    mages_might: "Mages' Might"
-//    sorcerers: "Sorcerers"
-//    giants_gate: "Giants' Gate"
-//    colossus: "Colossus"
-//    iron_and_ice: "Iron and Ice"
-//    tundra_tower: "Tundra Tower"
-//    magma_mountain: "Magma Mountain"
-//    lava_lake: "Lava Lake"
-//    desert_duel: "Desert Duel"
-//    sandstorm: "Sandstorm"
-//    frozen_fortress: "Frozen Fortress"
-//    equinox: "Equinox"
-//    farmers_feud: "Farmer's Feud"
-//    farmscape: "Farmscape"
-//    storm_siege: "Storm Siege"
-//    snowhold: "Snowhold"
-//    season_label: "Season __seasonNumber__: __seasonName__"
-//    season_1: "Forged in Flame"
-//    season_2: "Spells of Fortune"
-//    season_3: "Titan Age"
-//    season_4: "Frosts of War"
-//    season_5: "Sands of Time"
-//    season_6: "Molten Mayhem"
-//    season_7: "Melting Point"
-//    season_8: "Coder's Harvest"
-//    season_9: "Reign of Code"
-//    cup: "Cup"
-//    blitz: "Blitz"
-//    clash: "Clash"
-//    season9_announcement_1: "An epic battle is being waged atop the wintry peaks of Snowhold Clash for the Season 9 championship arena! Draw your cloak close and your code closer as you wield strategy and algorithms to achieve victory in this land beyond the sky."
-//    season8_announcement_1: "It's harvesting season in Farmscape Blitz Season 8! As the leaves change, it's time to code your way around wild and impenetrable obstacles on the farm. Strategically collect vital boosts to empower your robot worker and utilize special abilities to boost productivity and out-farm your opponents!"
-//    season8_announcement_2: "Note: arena balance adjustments may occur up until August 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season7_announcement_1: "Witness the dawn of a new challenge in the Equinox Cup! Season 7's tower defense arena offers a unique blend of strategy, monsters, and boss battles for you to conquer."
-//    season6_announcement_1: "It’s absolute Molten Mayhem with the launch of the Lava Lake Clash finals! Outlast and outwit the competition in this hot take on classic Snake gameplay."
-//    season6_announcement_2: "Note: arena balance adjustments may occur up until December 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season5_announcement_1: "The Sandstorm Blitz Final is on. In this basketbrawl of an arena, you must summon the right heroes, call the right plays, and outscore your opponent to take the victory!"
-//    season5_announcement_2: "Note: arena balance adjustments may occur up until September 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season4_announcement_1: "The Tundra Tower Cup Final is on. In this all new take on the classic tower defense gameplay, you must protect your base from the horde of monsters by building towers and using gravitational anomalies."
-//    season4_announcement_2: "Note: arena balance adjustments may occur up until April 15th. So be sure to come back often to test your code against the global leaderboard."
-//    season3_announcement_1: "Time to put your coding skills to the test in our season 3 final arena. The Colossus Clash is live and offers a new challenge and a new leaderboard to climb."
-//    season3_announcement_2: "Need more practice? Stick with the Giant's Gate Arena to refine your skills. You have until December 14th to play both arenas. Note: arena balance adjustments may occur until December 6th."
-//    season3_announcement_3: "Great prizes available for top performers in the Colossus Clash:"
-//    season2_announcement_1: "Time to put your coding skills to the test in our season 2 final arena. The Sorcerers Blitz is live and offers a new challenge and a new leaderboard to climb."
-//    season2_announcement_2: "Need more practice? Stick with the Mage's Might Arena to refine your skills. You have until August 31st to play both arenas. Note: arena balance adjustments may occur until August 23rd."
-//    season2_announcement_3: "Great prizes available for top performers in the Sorcerers Blitz:"
-//    season1_prize_1: "$1,000 Scholarship"
-//    season1_prize_2: "RESPAWN Gaming Gear"
-//    season1_prize_3: "Custom CodeCombat Avatar"
-//    season1_prize_4: "And more!"
-//    season1_prize_hyperx: "HyperX Premium Peripherals"
-//    codecombat_ai_league: "CodeCombat AI League"
-//    register: "Register"
-//    not_registered: "Not Registered"
-//    register_for_ai_league: "Register for AI League"
-//    world: "World"
-//    quickstart_video: "Quickstart Video"
-//    arena_rankings: "Arena Rankings"
-//    arena_rankings_blurb: "Global AI League arena rankings"
-//    arena_rankings_title: "Global leaderboard rank for all players in this team across AI League arenas in the open age bracket."
-//    competing: "Competing:" # Competing: 3 students
-//    count_student: "student" # 1 student
-//    count_students: "students" # 2 students
-//    top_student: "Top:" # Top: Jane D
-//    top_percent: "top" # - top 3%)
-//    top_of: "of" # (#8 of 35). Perhaps just use "/" if this doesn't translate naturally.
-//    arena_victories: "Arena Victories"
-//    arena_victories_blurb: "Global AI League arena recent wins"
-//    arena_victories_title: "Win count is based on the last 1000 matches played asynchronously by each player in each of their AI League arenas."
-//    count_wins: "wins" # 100+ wins or 974 wins
-//    codepoints_blurb: "1 CodePoint = 1 line of code written"
-//    codepoints_title: "One CodePoint is earned for every non-whitespace line of code needed to beat the level. Each level is worth the same amount of CodePoints according to its standard solution, regardless of whether the student wrote more or fewer lines of code."
-//    count_total: "Total:" # Total: 300 CodePoints, or Total: 300 wins
-//    join_teams_header: "Join Teams & Get Cool Stuff!"
-//    join_team_hyperx_title: "Join Team HyperX, Get 10% Off"
-//    join_team_hyperx_blurb: "30 team members will be chosen at random for a free gaming mousepad!"
-//    join_team_derbezt_title: "Join Team DerBezt, Get Exclusive Hero"
-//    join_team_derbezt_blurb: "Unlock the Armando Hoyos hero from Mexican superstar Eugenio Derbez!"
-//    join_team_ned_title: "Join Team Ned, Unlock Ned's Hero"
-//    join_team_ned_blurb: "Get the exclusive spatula-wielding hero from YouTube star, Try Guy Ned Fulmer!"
-//    check_out_all: "Check out all the"
-//    pick_best_tournaments: "pick the ones that will work best for your custom tournament!"
-//    final_arena: "Final Arena"
-//    package_options_and_guide: "Package Options & Implementation Guide"
-//    custom_tournament: "For a Custom Tournament"
-//    you_win: "You can win"
-//    great_prizes: "great prizes"
-//    powered_by: "Powered by"
-//    grand_prize: "Grand Prize"
-//    scholarship: "Scholarship"
-//    top_players_win: "Top three players in each division win: HyperX pro peripherals"
-//    team_hyperx: "Team HyperX"
-//    earn_more_gear: "you could earn even more gear!"
-//    prize_footer1: "Awarded to the top performing player across all age groups."
-//    prize_footer2: "Specific products and models subject to change."
-//    prize_footer3: "Prizes will be awarded to players who reach the top of the leaderboard in the Finals arena."
-//    prize_footer4_1: "Age verification necessary to be eligible. Some prizes are limited to US participants only."
-//    coco_reserves: "CodeCombat reserves"
-//    prize_footer4_2: "the right to determine in its sole discretion if a player qualifies and will receive a prize."
-//    place: "Place" # as in 1st place
-//    arena_under_construction: "Next season's arena is under construction. Check back soon!"
-//    unlock_ai_league: "Unlock the full potential of the AI League."
-//    esports_anonymous_changing: "Esports player name visibility changing September 1"
-//    esports_get_full_access: "Get Full Access"
-//    click_to_unlock_now: "Click to dismiss for now"
-//    click_to_unlock_before_sep: "Click to make the anonymizing go away before Sep.1"
-//    unlock_content_padding: "Contact our team today to see your student's scoress, ranks, code and more!"
-//    unlock_leaderboard: "Contact Us to unlock the leaderboard"
-//    without_license_blurb: "Unlock the full potential of AI League. Purchase a custom tournament package to access your students’ scores, ranks, code and experience more tournament customization options. See our"
-//    custom_pricing: "Custom Options and Implementation Guide"
-//    more_details: "for more details."
-//    contact_sales_custom: "Your custom tournament awaits. Choose the arena that you’d like to use for your custom tournament and contact your CodeCombat sales representative to confirm set up and scheduling details."
-//    create_custom: "Create Custom Tournament"
-//    custom_tournament_text: "Custom Tournament"
-
-//  tournament:
-//    mini_tournaments: "Mini Tournaments"
-//    usable_ladders: "All Usable Ladders"
-//    make_tournament: "Make a mini tournament"
-//    go_tournaments: "Go to mini tournaments"
-//    class_tournaments: "Class mini tournaments"
-//    class_tournaments_more: "More Class mini tournaments"
-//    no_tournaments_owner: "There is no tournament now, please create one"
-//    no_tournaments: "There is no tournament now"
-//    edit_tournament: "Edit Tournament"
-//    create_tournament: "Create a Tournament"
-//    upcoming: "Upcoming"
-//    starting: "Starting"
-//    ended: "Ended"
-//    view_results: "View Results"
-//    estimate_days: "In __time__ Days"
-//    team_name: "Team: __name__"
-//    status: "Status: __state__"
-//    from_start: "Start __time__"
-//    from_end: "End __time__"
-//    start_date_time: "Start Time"
-//    end_date_time: "End Time"
-//    results_date_time: "Results Time"
-//    start_date_description: "(PT) The start time of tournament"
-//    end_date_description: "(PT) The end time of tournament"
-//    results_date_description: "Select a time to publish results."
-//    results_date_suggestion_0: "Note: Tournament may need some time to generate final leaderboard, so you need to allow enough time for the results."
-//    results_date_suggestion_1: "i.e. 0-50 players: 5 mins"
-//    results_date_suggestion_2: "     50-100 players: 20 mins"
-//    results_date_suggestion_3: "     100-500 players: 10 hours"
-//    select_team_desc: "select your team to creat/edit your tournaments"
-//    already_create_tournaments_num: "You already created __num__ tournaments here:"
-//    can_create_tournaments_num: "You can create __num__ more tournament(s) from below:"
-//    my_teams: "My Teams:"
-//    team: "Team"
-//    team_description: "(Required) Only the players in the team can join this tournament"
-//    review_results: "Review Results"
-//    review_description: "We will email you the results of tournament and wait for you to publish for participants."
-//    publish_immediately: "Publish Immediately"
-//    publish_description: "The result of tournament will be published immediately once ready."
-//    error_end_date_too_early: "The End Time cannot be earlier than Start Time"
-//    error_results_date_too_early: "The Results Time cannot be earlier than End Time"
-//    publish_results: "Publish Results"
-//    publish_options: "Publish Options"
-
-//  payments:
-//    student_licenses: "Student Licenses"
-//    computer_science: "Computer Science"
-//    web_development: "Web Development"
-//    game_development: "Game Development"
-//    per_student: "Per Student"
-//    just: "Just"
-//    teachers_upto: "Teacher can purchase upto"
-//    great_courses: "Great Courses included for"
-//    studentLicense_successful: "Congratulations! Your licenses will be ready to use in a min. Click on the Getting Started Guide in the Teacher Toolkit to learn how to apply them to your students."
-//    onlineClasses_successful: "Congratulations! Your payment was successful. Our team will reach out to you with the next steps."
-//    homeSubscriptions_successful: "Congratulations! Your payment was successful. Your premium access will be available in few minutes."
-//    failed: "Your payment failed, please try again"
-//    session_week_1: "1 session/week"
-//    session_week_2: "2 sessions/week"
-//    month_1: "Monthly"
-//    month_3: "Quarterly"
-//    month_6: "Half-yearly"
-//    year_1: "Yearly"
-//    most_popular: "Most Popular"
-//    best_value: "Best Value"
-//    purchase_licenses: "Purchase Licenses easily to get full access to CodeCombat and Ozaria"
-//    homeschooling: "Homeschooling Licenses"
-//    recurring_month_1: "Recurring billing every month"
-//    recurring_month_3: "Recurring billing every 3 months"
-//    recurring_month_6: "Recurring billing every 6 months"
-//    recurring_year_1: "Recurring billing every year"
-//    purchase_licenses_2: "Purchase licenses for your students to access paid curriculum after the first course"
-//    applying_licenses: "applying licenses"
-//    about: "about"
-//    school_district_heading: "Schools or Districts"
-//    school_district_subheading: "For classrooms, schools and districts with 10 or more students"
-//    classroom_heading: "Small Classroom"
-//    classroom_subheading: "For clubs, after-school programs and small classrooms with 5-9 students."
-//    customer_support_info_1: "Customer support via email or chat"
-//    customer_support_info_2: "Customer support via email or chat, plus a dedicated school success manager available via phone or email for implementation support"
-//    self_serve_credit: "Self-serve credit card purchase"
-//    multiple_payment_options: "Variety of payment options available, including: purchase order, site licenses, & multi-year discounts."
-//    admin_dashboard: "Administrator dashboard with actionable data and insights"
-//    pd_info: "Comprehensive 40-hour online course that allows you to learn anytime, anywhere and at any pace."
-//    implementation_info: "60 min Onboarding Training on how to use CodeCombat and Ozaria to support specific institutional and instructional goals."
-//    ai_league_info: "Engage students in an exciting esports competition that allows them to showcase their understanding of concepts in a new environment and practice creative problem-solving strategies!"
-//    ai_custom_tournament: "AI League Custom Tournament"
-//    implementation_training: "Implementation Training"
-//    full_access_coco: "Full Access to both CodeCombat"
-//    and_oz: "And Ozaria"
-//    cs_info: "Computer Science 1-6: 65 sessions"
-//    wd_info: "Web Development 1-2: 10 sessions"
-//    gd_info: "Game Development 1-3: 20 sessions"
-//    chap1_info: "Chapter 1: 10 class sessions"
-//    chap2_info: "Chapter 2: 30 class sessions"
-//    chap3_info: "Chapter 3: 25 class sessions"
-//    chap4_info: "Chapter 4: 20 class sessions"
-//    includes: "Includes:"
-//    show_plan_features: "Show Plan Features"
-//    purchase_annually: "Available for purchase one time annually."
-//    class_school_solution: "We'll help you build a solution that meets the needs of your class, school or district."
-//    bulk: "Bulk"
-//    discounts: "discounts"
-//    available: "available"
-//    request_quote: "Request a Quote"
-//    business_partner_licenses: "Business Partner Licenses"
-//    bd_subheading: "For Business Partners with at least 10 students, get premium access to CodeCombat’s computer science and coding games:"
-//    bd_info_list_heading: "CodeCombat is the preferred partner for dozens of coding education businesses because:"
-//    bd_info_list_1: "students love our game-based curriculum based in fantasy and adventure and keep coming back for more sessions"
-//    bd_info_list_2: "anyone can teach coding with CodeCombat; the game is the primary teacher and we provide extensive support resources"
-//    bd_info_list_3: "you will receive over 200 hours of curriculum, providing years of educational content for your business"
-//    bd_includes_1: "Full access to CodeCombat and Ozaria with over 200 hours of premium game-based content"
-//    bd_includes_2: "Teacher dashboard for record keeping and progress tracking "
-//    bd_includes_3: "Online Resource Hub with walkthroughs and tutorials"
-//    bd_help: "For any help, contact"
-
-//  form_validation_errors:
-//    required: "Field is required"
-//    invalidEmail: "Invalid email"
-//    invalidPhone: "Invalid phone number"
-//    emailExists: "Email already exists"
-//    numberGreaterThanZero: "Should be a number greater than 0"
-//    requireValidEmail: "Please enter a valid email address."
-//    requireValidPhone: "Please enter a valid phone number, including area code."
-
-//  partners:
-//    for: "for"
-//    business_partners: "Business Partners"
-//    headline: "Join us in our mission to make coding engaging and accessible to all"
-//    below_headline_blurb: "At CodeCombat we’ve developed comprehensive tools that make learning to code fun and teaching programming easy. Our turnkey solutions can be leveraged in many executions."
-//    coding_title: "Coding & STEAM Education Businesses:"
-//    coding_blurb: "Valued partners like Code Ninjas and IDEA Lab Kids use our game to teach real Python and JavaScript coding to students in their franchise locations. We offer an easy to use program, implementation resources and training options to ensure an amazing student experience."
-//    esports_title: "Educational Esports Sponsors:"
-//    esports_blurb: "We are reinventing what an esport can be while engaging thousands of students to learn to code. Endemic esports mainstay __hyperx__ supported the CodeCombat AI League from its inaugural season, building compelling promotional programs around this unique esport."
-//    hyperx: "HyperX"
-//    respawn: "RESPAWN"
-//    distribution_title: "International Distribution:"
-//    distribution_blurb: "Our programs have served students in over 190 countries and our content is translated into over __forty_languages__. While the US and China are markets where we sell directly, we work closely with local SaaS and EdTech distribution partners around the world to expand our reach"
-//    forty_languages: "40 languages"
-//    equity_social_title: "Tech Equity & Social Impact:"
-//    equity_social_blurb: "Not every partnership is built on the bottom line. As a mission-based organization we seek ways to give back as well. We work closely with foundations and other philanthropy partners to expand access to high-quality coding education.  "
-//    latin_superstar_blurb: "Additionally, Latin superstar __eugenio_derbez__ has helped us reach the Latinx community with a partnership to engage students in this often underserved and underrepresented group."
-//    reach_latinx: "reach the Latinx community"
-//    eugenio_derbez_blurb: "\"It is important to me to see Latino boys and girls represented in this space,\" said Eugenio Derbez. \"Coding is the language of the future and if we want to be a part of that future then we need to get our kids coding.\""
-//    seek_relationships_blurb: "We seek relationships with nonprofits and community-based organizations working with groups underrepresented in computer science and technology careers. Our partnership with __seeds_of_light__ will fund CS educational opportunities for thousands of young learners."
-//    seeds_of_light: "Seeds of Light"
-//    corporate_team_building_title: "Corporate Team Building"
-//    corporate_team_building_blurb: "Need to engage your employees with a turnkey activity that will inspire their competitive spirit and challenge them to creatively problem solve? Work with us to build a custom competitive coding tournament that will have your team programming their own strategies while playing a game. __see_how__"
-//    footer_blurb: "These are just a few of the partnership structures we have successfully supported. If you would like to initiate a discussion with our business development team on any of these models or have a different partnership opportunity, please reach out today."
-//    talk_with_us: "Talk with Us"
-//    our_partners: "Our Partners"
-//    see_how: "See How"
-
-//  podcast:
-//    learning_adventure: "Where learning is always an adventure."
-//    explores_stem: "Our podcast explores the role of technology, STEM, and creative play in education. With expert guests, we discover how learning is always an adventure."
-//    listen: "Listen"
-//    download: "Download"
-//    transcript: "Transcript"
-//    learn_more_coco: "Want to learn more about CodeCombat coding experiences?"
-//    subscribe: "Subscribe"
-//    explore_coco: "Explore CodeCombat"
-//    interested_in_being_guest: "Interested in being a guest on EdTech Adventures?"
-//    lets_chat: "Let's Chat"
-//    air_date: "Air date" # upload date
-//    play_episode: "Play Episode"
-//    about_guest: "About Our Guest"
-//    about_guests: "About Our Guests"
-//    all_episodes: "View All Episodes"
-//    no_permission: "You don't have permission to view this podcast"
-//    listen_now: "Listen Now"
-//    show_all_episodes: "Show all episodes"
-
-//  library:
-//    enter_library_card: "Enter your Library Card Number:"
-//    access_coco: "Access CodeCombat"
-//    already_using_library_id: "Already using library id"
-//    play_coco: "to play CodeCombat"
-//    not_library_id: "Not your library id"
-//    access_using_id: "to access using your id!!"
-//    network_detected: "Library network detected, redirecting you to play CodeCombat"
-//    not_redirect_auto: "if redirect doesn't happen automatically"
-//    engage_members: "Give your members access to the most engaging way to learn coding."
-//    importance_blurb: "Libraries play an important role in advancing educational equity in their communities. Many young learners do not have access or exposure to computer science, and libraries can provide important resources to these underserved groups. That is why we are partnering with libraries across the country to provide access to our game-based learning tools and educational resources."
-//    games_teach_blurb: "Our games teach real typed Python, JavaScript and C++ coding languages through the power of play. The gameplay is paired with a scaffolded curriculum to allow self-paced learners the ability to master foundational programming concepts before moving on to the more complex. Each level challenges the player to type the code necessary to advance their hero and achieve the level goal."
-//    platform_built: "Our platform is built to address the specific needs of libraries and their patrons:"
-//    accessible: "Accessible"
-//    accessible_blurb: "A basic computer with internet access is all you need to sign-in and start playing. The content is intended for beginners with no prior coding experience."
-//    self_paced_intuitive: "Self-Paced and Intuitive"
-//    self_paced_intuitive_blurb: "Teachers are not required as players can dictate the pace at which they move through the curriculum. Our custom code engine and interpreter is designed for beginners, it understands the mistakes kids make and speaks to them using human, beginner-friendly terms."
-//    engaging_content: "Engaging Content"
-//    engaging_content_blurb: "Game-based learning drives engagement from the start but perhaps even more importantly keeps students engaged when the concepts get more challenging. In a game environment failure and success are expected and embraced as part of the play experience."
-//    api_integrate: "API integration"
-//    api_integrate_blurb: "Our games can be easily incorporated into your digital library interface through EZProxy or other popular systems. This structure provides instant access with the members’ existing log in and no staff is needed to manage any logistics of licensing or access."
-//    privacy: "Privacy"
-//    privacy_blurb: "We take user safety, cybersecurity, and data privacy seriously, following many stringent privacy regulations, like COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Fair Information Practices, CAN-SPAM, and GDPR. These policies and protective measures have let us securely serve over twenty million users around the world."
-//    privacy_policy: "our full privacy policy."
-//    see: "See"
-//    communication_limit: "Communication Limits"
-//    communication_limit_blurb: "To ensure the security of your members, we do not offer in-game chat or other communication features between players, however we do allow members to safely share their coding projects with friends, family and the CodeCombat community. We restrict any upsell or marketing messaging to provide an uninterrupted experience for your patrons."
-//    usage_stats: "Usage Stats"
-//    usage_stats_blurb: "Gain insight to your members’ usage with our snapshot reporting tool. It provides access to usage stats at any time, including monthly active users, licensed days used and more valuable data points."
-//    esports: "Academic Esports"
-//    esports_blurb: "Our esports program offers an opportunity to further engage your members through a fun and exciting competition. The AI League allows members to showcase their understanding of coding concepts in a new environment and practice problem solving strategies as they go head to head in battle against the global community."
-//    work_with_us_blurb: "Work with us to unlock the next generation of engineers, programmers and CS professionals in your community."
-//    schedule_demo: "Schedule a Demo"
-//    license_modal_subtitle: "Please complete this short form and one of our library specialists will reach out to provide a demo and custom pricing options!"
-//    license_modal_members: "Members Needing Access"
-//    license_modal_members_placeholder: "Approximately how many members will need access?"
-//    license_modal_contact: "Contact Our Team"
-//    license_days_used: "License days used"
-//    users_active_licenses: "Users with active licenses"
-//    lines_code: "Lines of Code"
-//    programs_written: "Programs written"
-//    time_spent_min: "Time spent (in min)"
-//    month: "Month"
-//    teacher_classroom_name: "Teacher or classroom name"
-//    already_logged_in: "Already logged in, please logout from the top navigation bar to login again."
-//    search_box_option: "If search box doesn't load, login by clicking"
-//    new_signups: "New Signups"
-//    heading_for: "for"
-//    heading_libraries: "Libraries"
-//    educational_equity: "Educational Equity"
-//    power_of_play: "Power of play"
-//    library_card: "Library Card Number"
-//    library_signup_promotion: "Sign Up to save progress and continue from where you left off on CodeCombat!!"
-//    welcome_dashboard: "Welcome to your dashboard"
-//    total_licenses_used: "Total Licenses Used"
-//    from_launch_date: "from the date of launch"
-//    renewal_date: "Renewal Date"
-//    access_old_dashboard: "If you want to access the old dashboard, visit"
-//    loading_from: "loading data from"
-//    user_activities: "User Activities"
-//    total_users: "Total Users"
-//    lines_of_code_written: "Lines of Code Written"
-//    hours_spent: "Hours spent"
-//    number_users: "Number of users"
-//    time_spent: "Time spent (in minutes)"
-//    new_users: "New Users"
-//    age_demographics: "Age demographics"
-//    levels_completed: "Levels Completed"
-//    adjust_dates_explore: "Adjust the dates below to explore patron usage trends over time."
-
-//  related_accounts:
-//    subtitle: "Add connections between different CodeCombat accounts to be able to quickly switch between them. For example, as a parent, you could switch to viewing CodeCombat from your kids’ accounts. Or, as a teacher, you could add a test student account for yourself to see what your students see."
-//    wrong_account: "Please log in to the correct account to confirm the account linking. Log In to the account and open link from email again."
-//    link_account: "Link your account to"
-//    link_successful_redirect: "Account linked successfully, redirecting"
-//    add_related_user: "Add Related User"
-//    adding: "Adding"
-//    removing: "Removing"
-//    added: "Account added"
-//    related_email: "Related User Email"
-//    relation: "Relation"
-//    bi_directional: "Bi-directional"
-//    account_exists: "Account exists"
-//    link_using_email: "Link account using confirmation email"
-//    link_using_email_blurb: "User will receive a mail on __email__. Please ask the user to confirm linking by pressing on link present in email."
-//    account_not_exist: "Account does not exist"
-//    account_type: "Account Type"
-//    create_account_and_email: "Create account and send email to link"
-//    authenticate: "Authenticate"
-//    invite: "Invite"
-//    auth_using_pass: "Authenticate using __email__ password"
-//    related_users: "Related Users"
-//    no_related_users: "No related users right now"
-//    send_verify_email: "Send Verify Email"
-//    verified: "Verified"
-//    switch: "Switch"
-//    title: "Related Accounts"
-//    bi_directional_help_text: "Allow added user to switch to your account?"
-
-//  modal_free_class:
-//    paragraph_1: "Thank you for choosing CodeCombat."
-//    paragraph_2: "Our team is eager to connect with you to get your child scheduled for a free trial class."
-//    paragraph_3: "Please provide your contact information and one of our learning advisors will call you to gather student information, identify a teacher based on your child’s preferred learning style and to schedule the trial class."
-//    name: "Name"
-//    phone_number: "Phone Number"
-//    available: "Are you available to talk now?"
-//    yes: "Yes"
-//    no: "No"
-//    preferred_time: "Preferred time for call if we can't connect now"
-//    anytime: "Anytime"
-//    morning: "Morning (8AM - 12PM)"
-//    afternoon: "Afternoon (12PM - 4PM)"
-//    evening: "Evening (4PM - 8PM)"
-//    time_zone: "Your Time Zone"
-//    email: "Email"
-
-//  mobile_landing:
-//    subtitle: "Get free access to the most engaging way to teach CS"
-//    you_re_set: "YOU'RE SET!"
-//    done_blurb: "Check your email for instructions on accessing your teacher account. For the best experience, we suggest using a device with an external keyboard and larger screen."
-//    step_email: "STEP 1"
-//    step_name: "STEP 2"
-//    step_done: "DONE"
-//    video_title: "GET A SNEAK PEEK HERE"
-//    email_confirm: "The email address \"__email__\" is already registered. Would you like to login?"
-
-//  roblox_landing:
-//    headline: "Empowering Every Player to Become a Creator!"
-//    subhead: "Experience the easiest and most enjoyable way to code and create your own Roblox games"
-//    join_the_beta: "Join the Beta"
-//    sign_up: "Sign Up"
-//    box_play_subhead: "Play"
-//    box_code_subhead: "Code"
-//    box_create_subhead: "Create"
-//    box_headline: "Play, Code and Create on Roblox"
-//    box_play_blurb_teacher: "In partnership with Roblox Education, we are combining our proven coding-as-gameplay approach with the creative and social power of the Roblox platform to make a new Roblox experience that teaches coding and game development in-game."
-//    box_code_blurb_teacher: "The experience will be personalized and differentiated, offering structured and unstructured intuitive practice that allows the player to learn as they like, while still aligning with CSTA and ISTE computer science standards."
-//    box_create_blurb_teacher: "This engaging play experience will provide the foundational instruction needed to take players from zero coding knowledge to publishing full Roblox games. Our Creative Mode lets players build while playing, without requiring switching modes to the full desktop Roblox Studio IDE."
-//    box_play_blurb_player: "Explore the 3D immersive experience of CodeCombat Worlds. Program your pets and adventure into a universe of creativity and shared experiences with friends."
-//    box_code_blurb_player: "Learn real Lua coding, from beginner to advanced. Use code to explore, gather resources, build, and discover your path to glory."
-//    box_create_blurb_player: "No Roblox Studio? No problem. Code in-game in Creative Mode to make full Roblox games to share with your friends."
-//    box_play_blurb_parent: "Through our proven game-based learning approach, we engage young learners through play, while teaching coding and game development."
-//    box_code_blurb_parent: "Coding from the very start of their adventure, the experience is personalized and differentiated, offering structured and unstructured intuitive practice that allows your child to learn as they like."
-//    box_create_blurb_parent: "Many kids want to create games but don’t know where to start. This engaging play experience will provide the foundational instruction needed to take players from zero coding knowledge to publishing full Roblox games."
-//    box_play_blurb_partner: "Engage young learners with a next-generation Roblox experience. With support from Roblox Education, we are combining our proven coding-as-gameplay approach with the creative and social power of the Roblox platform to make a new Roblox experience that teaches coding and game development in-game."
-//    box_code_blurb_partner: "The experience will be personalized and differentiated, offering structured and unstructured intuitive practice that allows the player to learn as they like. We make it easier than ever to teach real coding to your students in either self-paced or instructor-directed contexts."
-//    box_create_blurb_partner: "Instead of building a standalone curriculum tied to Roblox Studio, take advantage of our in-game Creative Mode and its scaffolded instruction to easily ramp your students from no coding experience to publishing full Roblox games."
-//    role_teacher: "Teacher"
-//    role_player: "Player"
-//    role_parent: "Parent"
-//    role_partner: "Partner"
-//    select_role: "Please select your role"
-//    question_1: "Do I need to know Lua or Roblox Studio?"
-//    answer_1: "No. This experience will allow anyone to play, code and create from the very start of their adventure, without any coding experience."
-//    question_2: "Can I create my own games?"
-//    answer_2: "Yes. Game development is at the core of this experience and after completing the core learning levels you will have the opportunity to create your own."
-//    question_3: "Will my creations be available on Roblox?"
-//    answer_3: "Yes. Anything you create in this experience, you will be able to import into Roblox Studio and then publish to the platform for anyone to play."
-//    bottom_blurb_parent: "No need to wait - __sign-up__ for our live online classes to get your child coding today! Get them started with CodeCombat web to be the first to get access to the CodeCombat Worlds Roblox experience."
-//    bottom_blurb_sign_up: "Sign up"
-//    bottom_blurb_partner: "Want to use the new CodeCombat Worlds Roblox experience for your education business, social impact initiative or international distribution opportunity? __reach-out__ to discuss partnering today."
-//    bottom_blurb_reach_out: "Reach out"
-//    boxes_title: "Play, Code and Create on Roblox"
-//    login_message: "You need to login before connecting your account to Roblox"
-//    connect_button_header: "Account Linking Rewards"
-//    connect_button_linker_badge: "Linker Badge"
-//    connect_button_accounts_linked: "Accounts Linked"
-//    connect_button_pet_chroma: "Pet Chroma"
-//    connect_button_exclusive_pet: "Exclusive Pet"
-//    connect_button_blurb: "Link your CodeCombat and Roblox accounts for a seamless experience!"
-//    connect_button_list_item_1: "Manage subscriptions"
-//    connect_button_list_item_2: "Unlock additional content"
-//    connect_button_list_item_3: "Track progress"
-//    connect_button_list_item_4: "Receive exclusive rewards"
-//    connect_button_list_item_5: "Access curricular resources"
-//    connect_button_list_item_6: "Parent and teacher dashboard access"
-//    connect_button_list_item_7: "Unlock generative AI features"
-//    connect_button_list_item_8: "Creative mode publishing and exporting"
-//    connect_button_connected_blurb: "Congratulations, you have linked your accounts! Invite your friends to help reach the community linking goals."
-//    connect_button_not_connected_blurb: "The more people link their accounts, the more rewards you'll receive!"
-//    faq_bottom: "See more <a href=\"https://codecombat.zendesk.com/hc/en-us/categories/18084251471383-CodeCombat-Worlds-Roblox-\" target=\"_blank\">frequently asked questions in our help center</a>. <br />If you have any other questions, please <a href=\"mailto:support@codecombat.com\">Contact Us</a>."
-//    modal_title: "CodeCombat Worlds<br> Now Live on Roblox!"
-//    modal_play_now: "PLAY NOW!"
-//    modal_button_link_roblox_account: "Link Roblox Account"
-
-//  ai:
-//    prompt_level_chat_1: "What does this error mean?"
-//    prompt_level_chat_2: "Please explain this error."
-//    prompt_level_chat_3: "What's wrong?"
-//    prompt_level_chat_4: "Please help explain this."
-//    prompt_level_chat_5: "How can I fix it?"
-//    prompt_level_chat_6: "Help, please."
-//    prompt_level_chat_7: "What do I do?"
-//    prompt_level_chat_8: "What does this mean?"
-//    prompt_level_chat_9: "Please explain."
-//    prompt_level_chat_10: "What is this error?"
-//    prompt_level_chat_11: "What is the problem?"
-//    prompt_level_chat_12: "???"
-//    prompt_level_chat_13: "Dear AI, I beseech you, explain my error, in verse."

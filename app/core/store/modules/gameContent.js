@@ -1,5 +1,8 @@
 import classroomsApi from 'core/api/classrooms'
 import campaignsApi from 'core/api/campaigns'
+import { courseIDs } from 'core/utils'
+
+import { getCurriculumGuideContentList, generateLevelNumberMap } from 'ozaria/site/components/teacher-dashboard/BaseCurriculumGuide/curriculum-guide-helper.js'
 
 // These default projections ensure that all the pages of the teacher dashboard that need gameContent data have all the info they need,
 // since gameContent is static in nature and we dont want to fetch it over and over again on every page
@@ -9,7 +12,7 @@ const defaultProjections = {
   cinematics: '_id,i18n,name,slug,displayName,description',
   interactives: '_id,i18n,name,slug,displayName,interactiveType,unitCodeLanguage,documentation,draggableOrderingData,insertCodeData,draggableStatementCompletionData,defaultArtAsset,promptText',
   cutscenes: '_id,i18n,name,slug,displayName,description',
-  levels: 'original,name,description,slug,concepts,displayName,type,ozariaType,practice,shareable,i18n,assessment,goals,additionalGoals,documentation,thangs,screenshot,exemplarProjectUrl,exemplarCodeUrl,projectRubricUrl,totalStages'
+  levels: 'original,name,description,slug,concepts,displayName,type,ozariaType,practice,shareable,i18n,assessment,goals,additionalGoals,documentation,heroThang,screenshot,exemplarProjectUrl,exemplarCodeUrl,projectRubricUrl,totalStages,practiceThresholdMinutes',
 }
 
 export default {
@@ -18,7 +21,7 @@ export default {
   state: {
     loading: {
       byClassroom: {},
-      byCampaign: {}
+      byCampaign: {},
     },
 
     // gameContent: {
@@ -43,8 +46,9 @@ export default {
     // }
     gameContent: {
       byClassroom: {},
-      byCampaign: {}
-    }
+      byCampaign: {},
+    },
+    levelNumberMap: {},
   },
 
   mutations: {
@@ -52,7 +56,7 @@ export default {
       Vue.set(
         state.loading.byClassroom,
         classroomId,
-        !state.loading.byClassroom[classroomId]
+        !state.loading.byClassroom[classroomId],
       )
     },
 
@@ -60,7 +64,7 @@ export default {
       Vue.set(
         state.loading.byCampaign,
         campaignId,
-        !state.loading.byCampaign[campaignId]
+        !state.loading.byCampaign[campaignId],
       )
     },
 
@@ -70,7 +74,14 @@ export default {
 
     addContentForCampaign: (state, { campaignId, contentData }) => {
       Vue.set(state.gameContent.byCampaign, campaignId, contentData)
-    }
+    },
+
+    addLevelNumber: (state, { levelId, levelNumber }) => {
+      Vue.set(state.levelNumberMap, levelId, levelNumber)
+    },
+    setLevelNumberMap (state, newMap) {
+      state.levelNumberMap = newMap
+    },
   },
 
   getters: {
@@ -79,7 +90,13 @@ export default {
     },
     getContentForCampaign: (state) => (id) => {
       return state.gameContent.byCampaign[id]
-    }
+    },
+    getLevelNumber: (state) => (id) => {
+      return state.levelNumberMap?.[id]
+    },
+    levelNumberMap: (state) => {
+      return state.levelNumberMap
+    },
   },
 
   actions: {
@@ -93,15 +110,35 @@ export default {
         cinematics: (options.project || {}).cinematics || defaultProjections.cinematics,
         interactives: (options.project || {}).interactives || defaultProjections.interactives,
         cutscenes: (options.project || {}).cutscenes || defaultProjections.cutscenes,
-        levels: (options.project || {}).levels || defaultProjections.levels
+        levels: (options.project || {}).levels || defaultProjections.levels,
       }
 
       return classroomsApi.fetchGameContent(classroomId, { data: { project: projectData } })
         .then(res => {
           if (res) {
+            if (res[courseIDs.JUNIOR]) {
+              //
+              // Move practice levels into the previous level's practiceLevels array
+              //
+              const juniorCourseData = res[courseIDs.JUNIOR]
+              const moduleEntries = Object.entries(juniorCourseData.modules)
+              for (const [moduleNum, moduleData] of moduleEntries) {
+                juniorCourseData.modules[moduleNum] = moduleData.reduce((acc, item) => {
+                  const { practice } = item
+                  if (practice) {
+                    const previous = acc[acc.length - 1]
+                    previous.practiceLevels = acc[acc.length - 1].practiceLevels || []
+                    previous.practiceLevels.push(item)
+                  } else {
+                    acc.push(item)
+                  }
+                  return acc
+                }, [])
+              }
+            }
             commit('addContentForClassroom', {
               classroomId,
-              contentData: res
+              contentData: res,
             })
           } else {
             throw new Error('Unexpected response from fetch content API.')
@@ -111,7 +148,7 @@ export default {
         .finally(() => commit('toggleLoadingForClassroom', classroomId))
     },
 
-    fetchGameContentForCampaign: ({ commit, state }, { campaignId, options = {} }) => {
+    fetchGameContentForCampaign: ({ commit, state }, { campaignId, language, options = {} }) => {
       if (state.gameContent.byCampaign[campaignId]) {
         return Promise.resolve()
       }
@@ -121,15 +158,15 @@ export default {
         cinematics: (options.project || {}).cinematics || defaultProjections.cinematics,
         interactives: (options.project || {}).interactives || defaultProjections.interactives,
         cutscenes: (options.project || {}).cutscenes || defaultProjections.cutscenes,
-        levels: (options.project || {}).levels || defaultProjections.levels
+        levels: (options.project || {}).levels || defaultProjections.levels,
       }
 
-      return campaignsApi.fetchGameContent(campaignId, { data: { project: projectData }, callOz: options.callOz })
+      return campaignsApi.fetchGameContent(campaignId, { data: { project: projectData, cacheEdge: true, language: language || 'python' }, callOz: options.callOz })
         .then(res => {
           if (res) {
             commit('addContentForCampaign', {
               campaignId,
-              contentData: res
+              contentData: res,
             })
           } else {
             throw new Error('Unexpected response from fetch content API.')
@@ -137,6 +174,30 @@ export default {
         })
         .catch((e) => noty({ text: 'Fetch content failure' + e, type: 'error', layout: 'topCenter', timeout: 2000 }))
         .finally(() => commit('toggleLoadingForCampaign', campaignId))
-    }
-  }
+    },
+
+    async generateLevelNumberMap ({ commit, state, dispatch, getters }, { campaignId, language }) {
+      let gameContent = state.gameContent.byCampaign[campaignId]
+
+      if (!gameContent) {
+        await dispatch('fetchGameContentForCampaign', {
+          campaignId,
+          language,
+        })
+      }
+      gameContent = getters.getContentForCampaign(campaignId)
+      const allLevels = []
+      for (const [moduleNum] of Object.entries(gameContent.modules)) {
+        const levelsList = getCurriculumGuideContentList({
+          introLevels: gameContent.introLevels,
+          moduleInfo: gameContent.modules,
+          moduleNum,
+        })
+        allLevels.push(...levelsList)
+      }
+
+      const levelNumberMap = generateLevelNumberMap(allLevels)
+      commit('setLevelNumberMap', levelNumberMap)
+    },
+  },
 }

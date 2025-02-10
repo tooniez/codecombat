@@ -1,5 +1,3 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 const c = require('./../schemas')
 
 const ClassroomSchema = c.object({
@@ -21,12 +19,19 @@ _.extend(ClassroomSchema.properties, {
   description: { type: 'string' },
   code: c.shortString({ title: 'Unique code to redeem' }),
   codeCamel: c.shortString({ title: 'UpperCamelCase version of code for display purposes' }),
-  aceConfig: {
+  aceConfig: c.object({}, {
     language: { type: 'string', enum: ['python', 'javascript', 'cpp', 'java'] },
     liveCompletion: { type: 'boolean', default: true },
-    blocks: { type: 'string', enum: ['hidden', 'opt-in', 'opt-out'], description: 'Drag-and-drop blocks option for students. Default if unset: hidden.' },
+    codeFormats: c.array({ title: 'Code Formats', description: 'Enable these code formats for students', minitems: 1, uniqueItems: true }, {
+      type: 'string',
+      enum: ['text-code', 'blocks-and-code', 'blocks-text', 'blocks-icons'],
+    }),
+    codeFormatDefault: { type: 'string', enum: ['blocks-icons', 'blocks-text', 'blocks-and-code', 'text-code'], description: 'Default code format option for students. Default if unset: text-code.' },
     levelChat: { type: 'string', enum: ['fixed_prompt_only', 'none'] }
-  },
+  }),
+  hackstackConfig: c.object({}, {
+    remixAllowed: { type: 'boolean', default: true },
+  }),
   averageStudentExp: { type: 'string' },
   ageRangeMin: { type: 'string' },
   ageRangeMax: { type: 'string' },
@@ -81,7 +86,16 @@ _.extend(ClassroomSchema.properties, {
       introContent: c.array()
     }))
   })),
+  initialFreeCourses: {
+    description: 'Courses that are free and will be automatically assigned to any joining student',
+    type: 'array',
+    items: {
+      type: ['string'],
+      links: [{ rel: 'db', href: '/db/course/{($)}/version' }],
+    }
+  },
   googleClassroomId: { title: 'Google classroom id', type: 'string' },
+  otherProductId: { title: 'Id in other product', type: 'string' },
   lmsClassroomId: { title: 'LMS classroom id', type: 'string' },
   grades: c.array({ title: 'Class Grades' }, { type: 'string', enum: ['elementary', 'middle', 'high'] }),
   classroomItems: { title: 'Items & Gems', type: 'boolean', description: 'Whether students should earn gems and equip items during gameplay' },
@@ -92,6 +106,10 @@ _.extend(ClassroomSchema.properties, {
       { title: 'Student Lock Object', description: 'Key value of student id tied to the lock data.' }, {
         courseId: c.objectId(),
         levelOriginal: c.objectId(),
+        lockedScenarioLevels: c.object({
+          description: 'AI Scenario levels that can be locked or unlocked',
+          additionalProperties: ['boolean', c.stringDate()]
+        }),
         lockedLevels: c.object({
           additionalProperties: ['boolean', c.stringDate()]
         }),
@@ -102,7 +120,7 @@ _.extend(ClassroomSchema.properties, {
   }, {}),
   stats: c.object({ additionalProperties: true }),
   initializedOuterStats: { type: 'boolean', default: true, description: 'whether the classroom.stats for the classroom is initialized' },
-  type: { title: 'Class Type', type: 'string', enum: ['', 'in-school', 'after-school', 'online', 'camp', 'homeschool', 'other'] }
+  type: { title: 'Class Type', type: 'string', enum: ['', 'in-school', 'after-school', 'online', 'camp', 'camp-esports', 'camp-junior', 'homeschool', 'other', 'club-ozaria', 'club-esports', 'club-roblox', 'club-hackstack', 'annual-plan-cn-coco'] },
 })
 
 c.extendBasicProperties(ClassroomSchema, 'Classroom')

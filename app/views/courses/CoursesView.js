@@ -95,7 +95,7 @@ module.exports = (CoursesView = (function () {
       this.utils = utils
       this.classCodeQueryVar = utils.getQueryVariable('_cc', false)
       this.courseInstances = new CocoCollection([], { url: `/db/user/${me.id}/course-instances`, model: CourseInstance })
-      this.courseInstances.comparator = ci => parseInt(ci.get('classroomID'), 16) + utils.orderedCourseIDs.indexOf(ci.get('courseID'))
+      this.courseInstances.comparator = ci => parseInt(ci.get('classroomID').substr(0, 8), 16) + utils.orderedCourseIDs.indexOf(ci.get('courseID'))
       this.listenToOnce(this.courseInstances, 'sync', this.onCourseInstancesLoaded)
       this.supermodel.loadCollection(this.courseInstances, { cache: false })
       this.classrooms = new CocoCollection([], { url: '/db/classroom', model: Classroom })
@@ -129,8 +129,10 @@ module.exports = (CoursesView = (function () {
 
         if (me.get('role') === 'student') {
           const tournaments = new CocoCollection([], { url: `/db/tournaments?memberId=${me.id}`, model: Tournament })
+          this.reversedTournaments = []
           this.listenToOnce(tournaments, 'sync', () => {
             this.tournaments = (Array.from(tournaments.models).map((t) => t.toJSON()))
+            this.reversedTournaments = this.tournaments.slice().reverse()
             this.tournamentsByState = _.groupBy(this.tournaments, 'state')
             return this.renderSelectors('.student-profile-area')
           })
@@ -310,6 +312,22 @@ module.exports = (CoursesView = (function () {
       return false
     }
 
+    hasCodeNinjasEsportsCamp () {
+      return me.isCodeNinja() && _.find(this.classrooms?.models || [], classroom => classroom.get('type') === 'camp-esports')
+    }
+
+    hasOnlyCodeNinjasEsportsCamps () {
+      return me.isCodeNinja() && _.all(this.classrooms?.models || [], classroom => classroom.get('type') === 'camp-esports')
+    }
+
+    hasCodeNinjasJuniorCamp () {
+      return me.isCodeNinja() && _.find(this.classrooms?.models || [], classroom => classroom.get('type') === 'camp-junior')
+    }
+
+    hasOnlyCodeNinjasJuniorCamps () {
+      return me.isCodeNinja() && _.all(this.classrooms?.models || [], classroom => classroom.get('type') === 'camp-junior')
+    }
+
     afterInsert () {
       super.afterInsert()
       if (!me.isStudent() && (!this.classCodeQueryVar || !!me.isTeacher())) {
@@ -422,6 +440,9 @@ module.exports = (CoursesView = (function () {
                 }
               }
             }
+            if (course._id === utils.courseIDs.HACKSTACK) {
+              return false
+            }
             return !stats.courseComplete
           }, this)
         }, this)
@@ -434,7 +455,7 @@ module.exports = (CoursesView = (function () {
           for (const level of Array.from(levels.models)) { this.originalLevelMap[level.get('original')] = level }
           return this.render()
         })
-        return this.supermodel.trackRequest(levels.fetchForClassroom(classroomID, { data: { project: `original,primerLanguage,slug,name,i18n.${me.get('preferredLanguage', true)}` } }))
+        return this.supermodel.trackRequest(levels.fetchForClassroom(classroomID, { data: { project: `original,primerLanguage,slug,name,i18n.${me.get('preferredLanguage', true)},displayName` } }))
       })
 
       if (utils.isOzaria && this.showHocProgress()) {
@@ -506,7 +527,14 @@ module.exports = (CoursesView = (function () {
       if (window.tracker != null) {
         window.tracker.trackEvent('Students Change Hero Started', { category: 'Students' })
       }
-      const modal = new HeroSelectModal({ currentHeroID: this.hero.id })
+      let hasOnlyJuniorCourses = true
+      for (const courseInstance of this.courseInstances.models) {
+        if (courseInstance.get('courseID') !== utils.courseIDs.JUNIOR) {
+          hasOnlyJuniorCourses = false
+          break
+        }
+      }
+      const modal = new HeroSelectModal({ currentHeroID: this.hero.id, product: hasOnlyJuniorCourses ? 'codecombat-junior' : null })
       this.openModalView(modal)
       this.listenTo(modal, 'hero-select:success', newHero => {
         // @hero.url = "/db/thang.type/#{me.get('heroConfig').thangType}/version"
@@ -771,7 +799,8 @@ const nextLevelBannerImages = {
   'game-dev.png': { courses: ['GD1', 'GD2', 'GD3'] },
   'heroes-vs-ogres.png': { heroes: ['raider', 'champion', 'captain', 'ninja'], courses: ['CS1', 'CS2', 'CS3', 'CS4', 'CS5', 'CS6', 'GD1', 'GD2', 'GD3'] },
   'mountain-heroes.png': { heroes: ['goliath', 'guardian', 'knight', 'stalwart', 'duelist'], courses: ['CS4', 'CS5', 'CS6'] },
-  'wizard-heroes.png': { heroes: ['potion-master', 'master-wizard', 'librarian', 'sorcerer', 'necromancer'], courses: ['CS1'], levels: ['the-wizards-door', 'the-wizards-haunt', 'the-wizards-plane'] }
+  'wizard-heroes.png': { heroes: ['potion-master', 'master-wizard', 'librarian', 'sorcerer', 'necromancer'], courses: ['CS1'], levels: ['the-wizards-door', 'the-wizards-haunt', 'the-wizards-plane'] },
+  'banner-junior.png': { courses: ['JR'] },
 }
 
 function __guard__ (value, transform) {

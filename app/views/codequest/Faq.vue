@@ -2,7 +2,7 @@
   <div class="FA-qs">
     <div class="frame">
       <div class="heading">
-        Frequently Asked Questions
+        {{ $t('codequest_page.faq') }}
       </div>
       <div
         id="accordion"
@@ -10,51 +10,88 @@
       >
         <FaqItem
           id="collapseOne"
-          question="Is there an age requirement?"
+          :question="$t('codequest_page.faq_q_1')"
           href="#collapseOne"
         >
-          Participants must be aged 13-17 and be able to provide legal documentation to travel.
+          {{ $t('codequest_page.faq_a_1') }}
         </FaqItem>
         <FaqItem
           id="collapseTwo"
-          question="Can I travel with my child?"
+          :question="$t('codequest_page.faq_q_2')"
           href="#collapseTwo"
         >
-          Some parents do choose to travel, however the activities, events, travel and accommodations are only provided for students.
+          {{ $t('codequest_page.faq_a_2') }}
         </FaqItem>
         <FaqItem
           id="collapseThree"
-          question="How much experience do you need to participate?"
+          :question="$t('codequest_page.faq_q_3')"
           href="#collapseThree"
         >
-          A basic understanding of programming in any language is all that a student must know. Since we are grouping them into teams of varying experience levels we expect those with more experience to support those with less.
+          {{ $t('codequest_page.faq_a_3') }}
         </FaqItem>
         <FaqItem
           id="collapseFour"
-          question="Should I bring my laptop?"
+          :question="$t('codequest_page.faq_q_4')"
           href="#collapseFour"
         >
-          We will supply all the hardware and software needed to participate in the hackathons. While we will allow participants to use their personal computers, our team may not be able to fully support or troubleshoot all issues, so we recommend using the equipment provided.
+          {{ $t('codequest_page.faq_a_4') }}
         </FaqItem>
         <FaqItem
           id="collapseFive"
-          question="Do I need bring any identification supporting materials?"
+          :question="$t('codequest_page.faq_q_5')"
           href="#collapseFive"
         >
-          Domestic - <br>
-          Global - global students need to bring their passports (with VISA) with them.
+          {{ $t('codequest_page.faq_a_5_1') }}
+          <br>
+          {{ $t('codequest_page.faq_a_5_2') }}
+        </FaqItem>
+        <FaqItem
+          id="collapseSix"
+          :question="$t('codequest_page.faq_q_6')"
+          href="#collapseSix"
+        >
+          {{ $t('codequest_page.faq_a_6') }}
+        </FaqItem>
+        <FaqItem
+          id="collapseSeven"
+          :question="$t('codequest_page.faq_q_7')"
+          href="#collapseSeven"
+        >
+          {{ $t('codequest_page.faq_a_7') }}
+        </FaqItem>
+        <FaqItem
+          id="collapseEight"
+          :question="$t('codequest_page.faq_q_8')"
+          href="#collapseEight"
+        >
+          {{ $t('codequest_page.faq_a_8_1') }}
+          <br><br>
+          {{ $t('codequest_page.faq_a_8_2') }}
+        </FaqItem>
+        <FaqItem
+          id="collapseNine"
+          :question="$t('codequest_page.faq_q_9')"
+          href="#collapseNine"
+        >
+          {{ $t('codequest_page.faq_a_9') }}
+        </FaqItem>
+        <FaqItem
+          id="collapseTen"
+          :question="$t('codequest_page.faq_q_10')"
+          href="#collapseTen"
+        >
+          {{ $t('codequest_page.faq_a_10') }}
         </FaqItem>
       </div>
       <p class="p">
-        <span class="span">See more frequently asked questions in our </span>
+        <span class="span">{{ $t('codequest_page.more_faq') }}</span>
         <a
           href="https://codecombat.zendesk.com/hc/en-us"
           rel="noopener noreferrer"
           target="_blank"
         >
-          <span class="text-wrapper-2">help center</span>
+          <span class="text-wrapper-2">{{ $t('codequest_page.help_center') }}</span><span class="span">.</span>
         </a>
-        <span class="span">.</span>
       </p>
     </div>
   </div>

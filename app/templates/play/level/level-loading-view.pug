@@ -6,6 +6,9 @@ if view.utils.isCodeCombat
 #loading-details.loading-container
   if view.utils.isOzaria
     .chrome-border.chrome-off-slice
+
+  h1.level-name.secret.rtl-allowed
+
   .level-loading-goals.secret.rtl-allowed
     .goals-title(data-i18n=view.goalHeaderTransationKey) Goals
     ul.list-unstyled(dir="auto")
@@ -51,6 +54,11 @@ if view.utils.isCodeCombat
   .license-required
     span(data-i18n=("courses.license_required_to_play_"+product))
     a.btn.btn-lg.btn-warning(data-i18n=("courses.back_courses_" + product), href="/students")
+
+  .level-locked
+    span(data-i18n=("courses.level_locked"))
+    a.btn.btn-lg.btn-warning(data-i18n=("courses.back_courses_" + product), href="/students")
+
 
   if view.utils.isCodeCombat
     #tip-wrapper.picoctf-hide

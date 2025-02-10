@@ -56,8 +56,15 @@ module.exports = {
     }))
   },
 
-  fetchByOwner (ownerId, options) {
+  createStudentsForCodeNinja ({ classroomID, num }, options) {
     if (options == null) { options = {} }
+    return fetchJson(`/db/classrooms/${classroomID}/codeninja-create-students`, _.assign({}, options, {
+      method: 'POST',
+      json: { num }
+    }))
+  },
+
+  async fetchByOwner (ownerId, options = {}) {
     let projectionString = ''
     if (Array.isArray(options.project)) {
       projectionString += `&project=${options.project.join(',')}`
@@ -65,9 +72,31 @@ module.exports = {
     if (options.includeShared) {
       projectionString += '&includeShared=true'
     }
-    return fetchJson(`/db/classroom?ownerID=${ownerId}${projectionString}`, {
+    const classrooms = await fetchJson(`/db/classroom?ownerID=${ownerId}${projectionString}`, {
+      callOz: options.callOz,
       method: 'GET'
     })
+
+    if (classrooms.length > 0) {
+      const classroomLanguages = [...classrooms.reduce((acc, classroom) => {
+        acc.add(classroom.aceConfig.language)
+        return acc
+      }, new Set())]
+
+      const coursesByLanguagePromises = classroomLanguages.map(lang =>
+        fetchJson(`/db/classroom-courses-data?language=${lang}`)
+          .then(courses => ({ [lang]: courses }))
+      )
+
+      const coursesResults = await Promise.all(coursesByLanguagePromises)
+      const coursesByLanguage = Object.assign({}, ...coursesResults)
+
+      classrooms.forEach(classroom => {
+        classroom.courses = coursesByLanguage[classroom.aceConfig.language]
+      })
+    }
+
+    return classrooms
   },
 
   fetchByCourseInstanceId (courseInstanceId) {
@@ -143,5 +172,14 @@ module.exports = {
     }))
   },
 
-  getMembersByClassCode (code) { return fetchJson(`/db/classroom/${code}/members-by-code`) }
+  getMembersByClassCode (code) {
+    return fetchJson(`/db/classroom/${code}/members-by-code`)
+  },
+
+  addOrUpdateCourse ({ classroomId, courseId }) {
+    return fetchJson(`/db/classroom/${classroomId}/update-course`, _.assign({}, {
+      method: 'POST',
+      json: { courseId }
+    }))
+  },
 }

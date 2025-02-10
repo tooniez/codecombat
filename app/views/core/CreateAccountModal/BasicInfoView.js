@@ -399,11 +399,16 @@ module.exports = (BasicInfoView = (function () {
           me.set('emails', emails)
           me.set(_.pick(data, 'firstName', 'lastName'))
 
-          if (!_.isNaN(this.signupState.get('birthday').getTime())) {
+          if (!_.isNaN(this.signupState.get('birthday')?.getTime())) {
             me.set('birthday', this.signupState.get('birthday').toISOString().slice(0, 7))
           }
 
           me.set(_.omit(this.signupState.get('ssoAttrs') || {}, 'email', 'facebookID', 'gplusID'))
+
+          me.set('features', {
+            ...(me.get('features') || {}),
+            isNewDashboardActive: true
+          })
 
           const jqxhr = me.save()
           if (!jqxhr) {
@@ -435,19 +440,23 @@ module.exports = (BasicInfoView = (function () {
           }
 
           switch (this.signupState.get('ssoUsed')) {
-            case 'gplus':
+            case 'gplus': {
               var { email, gplusID } = this.signupState.get('ssoAttrs')
               var { name } = forms.formToObject(this.$el)
               jqxhr = me.signupWithGPlus(name, email, gplusID)
               break
-            case 'facebook':
+            }
+            case 'facebook': {
               ({ email, facebookID } = this.signupState.get('ssoAttrs'));
               ({ name } = forms.formToObject(this.$el))
-              jqxhr = me.signupWithFacebook(name, email, facebookID)
+              const facebookAccessToken = this.signupState.get('ssoResp')?.authResponse?.accessToken
+              jqxhr = me.signupWithFacebook(name, email, facebookID, { facebookAccessToken })
               break
-            default:
+            }
+            default: {
               ({ name, email, password } = forms.formToObject(this.$el))
               jqxhr = me.signupWithPassword(name, email, password)
+            }
           }
 
           return new Promise(jqxhr.then)
@@ -571,7 +580,7 @@ module.exports = (BasicInfoView = (function () {
             resp,
             context: this,
             success (ssoAttrs) {
-              this.signupState.set({ ssoAttrs })
+              this.signupState.set({ ssoAttrs, ssoResp: resp })
               const { email } = ssoAttrs
               return User.checkEmailExists(email).then(({ exists }) => {
                 this.signupState.set({

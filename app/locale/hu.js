@@ -1,242 +1,241 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 module.exports = {
   nativeDescription: 'magyar',
   englishDescription: 'Hungarian',
   translation: {
 
-    //  ozaria_home:
-    //    subtitle: "Computer Science that Captivates"
-    //    heading_subtitle: "A coding adventure for students and your turnkey solution for teaching Computer Science."
-    //    item_list_p: "Try Chapter 1 for Free Today!"
-    //    engaging_heading_corner: "A solution to Engage Students and Support Teachers"
-    //    engaging_row1_h2: "Easy Implementation"
-    //    engaging_row1_p: "Even with no coding experience, you can teach a full Computer Science curriculum with Ozaria. Our ready-to-go lesson plans and intuitive dashboard will provide you with the tools you need to be ready to teach on day one."
-    //    engaging_row2_h2: "Immersive Gameplay"
-    //    engaging_row2_p: "Students are immersed in an adventure game in which their knowledge of Computer Science advances with the storyline. In this engaging learning environment, students build real-world skills through the power of play."
-    //    engaging_row3_h2: "Standards-Aligned Curriculum"
-    //    engaging_row3_p: "Ozaria meets CSTA and ISTE standards, enabling you to teach with confidence as your students master core Computer Science concepts, develop computational thinking skills, and learn about the relevance of Computer Science to their daily lives."
-    //    pd_blurb: "Learn the skills to effectively teach computer science with our self-directed, CSTA-accredited __pd__ course. Earn up to 40 credit hours any time, from any device."
-    //    back_cta_1_a: "Try Chapter 1 for Free"
-    //    speech_bubble_testimonial_1_blockquote: "Once again, your team has managed to accomplish the Holy Grail of Edutainment. In my opinion as a 26-year veteran Middle School educator, there is no more engaging resource for teaching coding."
-    //    core_curriculum_header: "Core Computer Science Curriculum"
-    //    core_curriculum_p: "We have developed our instructional model based on proven theories and extensive evidence around how students learn best."
-    //    core_curriculum_carousel_item1_header: "Make Connections"
-    //    core_curriculum_carousel_item1_p: "At the start of every module, use our turnkey lesson slides to help your students make the connection between new Computer Science concepts and relevant examples from their daily lives."
-    //    core_curriculum_carousel_item2_header: "Construct Own Meaning"
-    //    core_curriculum_carousel_item2_p: "Next, guide your students in constructing a deeper understanding of new concepts through unplugged and discussion activities that are built into our lesson plans."
-    //    core_curriculum_carousel_item3_header: "Learn New Concepts"
-    //    core_curriculum_carousel_item3_p: "In the third stage of the learning cycle, your students will learn new concepts through expositional dialogue between characters in the Ozaria story. Voice-over, graphics, and animations make absorbing new information even more accessible and fun."
-    //    core_curriculum_carousel_item4_header: "Apply New Knowledge"
-    //    core_curriculum_carousel_item4_p: "Next, your students will put what they learned into practice by typing real Python or JavaScript to solve a variety of challenges in scaffolded game levels. Built-in hints help students identify and fix bugs, leading to greater coding confidence."
-    //    core_curriculum_carousel_item5_header: "Summative Project"
-    //    core_curriculum_carousel_item5_p: "At the end of each chapter, your students will be challenged to showcase their new skills and express their creativity through summative projects in which they build their own games, stories, and more."
-    //    core_curriculum_scope_sequence: "View Scope & Sequence"
-    //    core_curriculum_sample_lesson_slides: "View Sample Lesson Slides"
-    //    global_community_header: "Join Our Global Community"
-    //    global_community_row1_p: "Learners"
-    //    global_community_row2_p: "Lines of Code"
-    //    global_community_row3_p: "Teachers"
-    //    global_community_row4_p: "Countries"
-    //    admin_dashboard_header: "Comprehensive Teacher & Admin Dashboards"
-    //    admin_dashboard_p: "Designed with feedback from our community of over 140,000 educators, Ozaria addresses the challenges of teaching Computer Science by providing tools and resources that work."
-    //    admin_dashboard_row1_p: "The intuitive Teacher Dashboard provides access to student-facing lesson plans, pacing guides, distance learning strategies, and other resources to support your needs."
-    //    admin_dashboard_row2_p: "The Track Progress page allows you to monitor student progress on an ongoing basis, get valuable information on their performance, and immediately identify whether interventions are needed."
-    //    admin_dashboard_row3_a: "Request a Quote"
-    //    acodus_awards_a: "Try Chapter 1 for Free"
-    //    speech_bubble_testimonial_2_blockquote: "It’s the most accessible programming site I’ve seen as of yet. I appreciate the story that goes with Ozaria, as it aligns with a mission my students can empathize with. Frankly, I love it. In fact, I found myself playing for far longer than I wish to admit last weekend!"
-    //    shareable_resources_header: "Shareable Resources"
-    //    shareable_resources_p: "Share the resources below with teachers, administrators, and others involved in bringing Computer Science to your school or expanding offerings already in place."
-    //    shareable_resources_a: "Download Flyer"
-    //    back_cta_2_a: "Try Chapter 1 for Free"
-    //    faq_header: "Frequently Asked Questions"
-    //    faq_row1_header: "How is Ozaria related to CodeCombat?"
-    //    faq_row1_p: "Ozaria is the classroom-centered evolution of CodeCombat, one of the most popular coding games in history. We built Ozaria based off the insights gained from teaching over 20 million learners Python and JavaScript. Ozaria incorporates new pedagogical models, an immersive story-driven narrative, and was designed to be implemented in classrooms, for both in-person and remote learning settings."
-    //    faq_row2_header: "What ages or grades are appropriate for Ozaria?"
-    //    faq_row2_p: "Ozaria is aligned to the CSTA and ISTE middle school CS standards, but has been practiced and enjoyed by students ranging from upper elementary through high school."
-    //    faq_row3_header: "How much does it cost to access all of the available units and resources?"
-    //    faq_row3_p_part1: "We customize solutions for schools and districts and work with you to understand your use case, context, and budget. "
-    //    faq_row3_p_part2: " for further details! We also provide a "
-    //    faq_row3_p_part3: "funding resources guide"
-    //    faq_row3_p_part4: " for school and district CS programs."
-    //    faq_row4_header: "Does Ozaria have project-based learning?"
-    //    faq_row4_p: "Yes. Ozaria incorporates shareable Capstone Projects at the end of each Chapter, where students create their own games. These projects serve as summative assessments and are great ways for students to express themselves and demonstrate their learnings to classmates, friends, and family."
-    //    faq_row5_header: "Can I use Ozaria as my class’s main curriculum?"
-    //    faq_row5_p: "Absolutely! Ozaria has everything you need to run a full Computer Science class, even if you don't have a Computer Science background. From lesson plans and solution guides to project rubrics and built-in standards alignment, it's all here."
-    //    faq_row6_p_part1: "If you have any other questions, please "
-    //    see_faq_prefix: "See more"
-    //    see_faq_link: "frequently asked questions in our help center"
-    //    see_faq_suffix: "."
-    //    summary: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world."
-    //    value_prop1_h1: "Epic Story. Immersive Gameplay."
-    //    value_prop1_h2: "Inspire a deeper connection to learning"
-    //    value_prop1_p: "In Ozaria, students find themselves embedded in a new world where they master core computer science concepts to progress within the game. The unfolding narrative creates a powerful student-centered learning experience, with each student’s investment in Ozaria’s story paralleling the investment they are making in their own learning journey."
-    //    value_prop2_h1: "Discover the Hero within Every Student"
-    //    value_prop2_h2: "Build real skills through play"
-    //    value_prop2_p: "Concepts and skills are introduced via a thoughtfully-designed content progression that includes game levels, instructional character dialogue, cutscenes, and more. Students learn to type Python or JavaScript, problem-solve using computational thinking, demonstrate understanding through formative assessments, and apply what they learn by making their own projects."
-    //    value_prop3_h1: "Start Your Journey For Free"
-    //    value_prop3_p: "Teach through adventure with free content covering introductory computer science concepts, plus access to implementation guides and lesson plans."
-    //    projects_inspire_heading: "Projects that Inspire. Resources that Empower."
-    //    student_creativity: "Unleash Student Creativity"
-    //    student_creativity_paragraph: "At the end of each unit, students apply what they've learned by creating projects, from games to choose-your-own adventure stories and more. Built with scaffolded goals, yet allowing for limitless ideation, students build a shareable and playable portfolio of work that showcases their creative identity."
-    //    teach_with_support: "Teach with Support"
-    //    teach_with_support_paragraph: "Ozaria is built for educators. Each unit throughout the curriculum has a lesson plan that outlines learning objectives, common student misconceptions, key terms, and CSTA standards. In addition, a comprehensive teacher dashboard helps teachers to track student progress and check student code."
-    //    request_demo: "Request a Demo"
-    //    im_an_educator: "I'm an Educator"
-    //    im_a_student: "I'm a Student"
-    //    global_title: "Join Our Global Community of Learners and Educators"
-    //    global_subtitle1: "Learners"
-    //    global_subtitle2: "Lines of Code"
-    //    global_subtitle3: "Teachers"
-    //    global_subtitle4: "Countries"
-    //    sign_up: "Sign Up"
-    //    individual_account_warning: "You are logged in as __name__, which is an individual account. Ozaria is for teacher and student accounts only; do you need to update your account?"
-    //    learner_number: "12 Million"
-    //    code_line_number: "1 Billion"
-    //    dei_initiatives: "What initiatives does Ozaria have to ensure diversity, equity, and inclusion in the game?"
-    //    dei_initiatives_blurb: "Ozaria is dedicated to promoting diversity, equity, and inclusion (DEI) within the game. Through diverse character representation, equitable opportunities, and an inclusive environment, Ozaria embraces differences and fosters a welcoming experience for players of all backgrounds and abilities. Explore our __deipage__ to learn more about our commitment and initiatives towards DEI in Ozaria."
-    //    dei_page: "DEI page"
-    //    ozaria_efficacy: "How does Ozaria measure and demonstrate its effectiveness in improving learning outcomes in the classroom?"
-    //    ozaria_efficacy_blurb: "We prioritize effectiveness through evidence-based practices and assessment. Our __efficacypage__ offers detailed statistics, real teacher quotes, and compelling case studies demonstrating the transformative impact of Ozaria. By creating meaningful learning experiences and employing evidence-based practices, we design content that delivers the outcomes that matter most to teachers and students."
-    //    efficacy_page: "efficacy page"
-    //    social_learning: "Does Ozaria promote social and emotional learning (SEL)?"
-    //    social_learning_blurb: "Yes! Ozaria actively integrates social and emotional learning (SEL) into its curriculum. Through gamified activities, students develop essential skills such as decision-making, self-awareness, self-management, social awareness, relationship skills, and responsible decision-making. You can learn more about our philosophy on our __selpage__."
-    //    sel_page: "SEL page"
+    ozaria_home: {
+      subtitle: '[AI_TRANSLATION]Informatika, ami elvarázsol',
+      heading_subtitle: '[AI_TRANSLATION]Egy kódolós kaland diákoknak és a te mindenre kiterjedő megoldásod Informatika oktatására.',
+      item_list_p: '[AI_TRANSLATION]Próbáld ki az 1. fejezetet ingyen ma!',
+      engaging_heading_corner: '[AI_TRANSLATION]Megoldás, hogy bevonjuk a diákokat és támogassuk a tanárokat',
+      engaging_row1_h2: '[AI_TRANSLATION]Könnyű Megvalósítás',
+      engaging_row1_p: '[AI_TRANSLATION]Még ha nincs is semmilyen kódolási tapasztalatod, teljes számítástechnikai tantervet taníthatsz az Ozariával. Az előre elkészített óratervek és az intuitív kezelőfelület minden szükséges eszközt biztosít ahhoz, hogy már az első napon taníthass.',
+      engaging_row2_h2: '[AI_TRANSLATION]Magával ragadó játékmenet',
+      engaging_row2_p: '[AI_TRANSLATION]A diákok egy kalandjátékba mélyednek, ahol a számítástechnikai tudásuk a történet előrehaladtával növekszik. Ebben az izgalmas tanulási környezetben a diákok valós készségeket fejlesztenek a játék ereje által.',
+      engaging_row3_h2: '[AI_TRANSLATION]Tanterv, amely megfelel a szabványoknak.',
+      engaging_row3_p: '[AI_TRANSLATION]Az Ozaria megfelel a CSTA és ISTE szabványoknak, lehetővé téve, hogy magabiztosan taníts, miközben a diákjaid elsajátítják az alapvető számítástechnikai fogalmakat, fejlesztik a számítástechnikai gondolkodási képességeiket, és megismerik a számítástechnika hétköznapi életükre gyakorolt jelentőségét.',
+      pd_blurb: '[AI_TRANSLATION]Tanuld meg a készségeket a számítógépes tudomány hatékony tanításához önállóan, a CSTA által akkreditált __pd__ kurzusunkkal. Szerezz akár 40 kreditórát bármikor, bármilyen eszközről.',
+      back_cta_1_a: '[AI_TRANSLATION]Próbáld ki az 1. fejezetet ingyen',
+      speech_bubble_testimonial_1_blockquote: '[AI_TRANSLATION]Ismét, a csapatotok elérte az OKTATÁSOS SZÓRAKOZÁS SZENT GRÁLJÁT. 26 éves tapasztalattal rendelkező középiskolai tanárként véleményem szerint nincs ennél magával ragadóbb erőforrás a kódolás oktatásához.',
+      core_curriculum_header: '[AI_TRANSLATION]Alapvető Számítástechnikai Tananyag',
+      core_curriculum_p: '[AI_TRANSLATION]Oktatási modellünket bevált elméletek és széleskörű bizonyítékok alapján fejlesztettük ki, hogy a diákok a legjobban tanuljanak.',
+      core_curriculum_carousel_item1_header: '[AI_TRANSLATION]Kapcsolatok Létrehozása',
+      core_curriculum_carousel_item1_p: '[AI_TRANSLATION]Minden modul elején használd az előre elkészített óravázlat diánkat, hogy segíts diákjaidnak összekapcsolni az új számítástechnikai fogalmakat a mindennapi életük releváns példáival.',
+      core_curriculum_carousel_item2_header: '[AI_TRANSLATION]Saját jelentés készítése',
+      core_curriculum_carousel_item2_p: '[AI_TRANSLATION]Következő lépésként irányítsd a diákjaidat, hogy mélyebb megértésre tegyenek szert az új fogalmakról kiegészítő és megbeszélő tevékenységekkel, amelyek be vannak építve a tantervünkbe.  ',
+      core_curriculum_carousel_item3_header: '[AI_TRANSLATION]Új Fogalmak Megismerése',
+      core_curriculum_carousel_item3_p: '[AI_TRANSLATION]A tanulási ciklus harmadik szakaszában diákjaid új fogalmakat tanulnak meg az Ozaria történet szereplői közötti kiállított párbeszéden keresztül. A hangalámondás, grafikák és animációk még elérhetőbbé és szórakoztatóbbá teszik az új információk elsajátítását.',
+      core_curriculum_carousel_item4_header: '[AI_TRANSLATION]Új Tudás Alkalmazása',
+      core_curriculum_carousel_item4_p: '[AI_TRANSLATION]Ezután a diákjaid gyakorlatba ültetik a tanultakat, valódi Python vagy JavaScript kódot írva, hogy különböző kihívásokat oldjanak meg a helyben épített játékszinteken. A beépített súgók segítenek a diákoknak azonosítani és kijavítani a hibákat, ami növeli a kódolási önbizalmat.',
+      core_curriculum_carousel_item5_header: '[AI_TRANSLATION]Összegző projekt',
+      core_curriculum_carousel_item5_p: '[AI_TRANSLATION]Minden fejezet végén a diákok kihívás elé néznek, hogy bemutassák új képességeiket és kifejezzék kreativitásukat összegző projektek formájában, amelyekben saját játékokat, történeteket és egyebeket készítenek.',
+      core_curriculum_scope_sequence: '[AI_TRANSLATION]Nézd meg az órák anyagát és sorrendjét',
+      core_curriculum_sample_lesson_slides: '[AI_TRANSLATION]addRect',
+      global_community_header: '[AI_TRANSLATION]Csatlakozz a Globális Közösségünkhöz',
+      global_community_row1_p: '[AI_TRANSLATION]Tanulók',
+      //    global_community_row2_p: "Lines of Code",
+      global_community_row3_p: '[AI_TRANSLATION]Tanárok',
+      global_community_row4_p: '[AI_TRANSLATION]Országok',
+      admin_dashboard_header: '[AI_TRANSLATION]Átfogó Tanári & Admin Vezérlőpultok',
+      admin_dashboard_p: '[AI_TRANSLATION]Több mint 140 000 oktatóból álló közösségünk visszajelzései alapján tervezve, az Ozaria megoldást nyújt az informatika oktatás kihívásaira, eszközöket és forrásokat biztosítva.',
+      admin_dashboard_row1_p: '[AI_TRANSLATION]Az intuitív Tanári Irányítópult hozzáférést biztosít a diákoknak szóló tantervekhez, tempóvezetőkhöz, távoktatási stratégiákhoz és egyéb forrásokhoz, hogy támogassa az igényeidet.',
+      admin_dashboard_row2_p: '[AI_TRANSLATION]Az Előrehaladás Követése oldal lehetővé teszi, hogy folyamatosan nyomon kövesd a diákok előrehaladását, értékes információkat szerezz a teljesítményükről, és azonnal azonosítsd, hogy szükségesek-e beavatkozások.',
+      //    admin_dashboard_row3_a: "Request a Quote",
+      acodus_awards_a: '[AI_TRANSLATION]Próbáld ki az 1. fejezetet ingyen',
+      speech_bubble_testimonial_2_blockquote: '[AI_TRANSLATION]Ez a legelérhetőbb programozási oldal, amit eddig láttam. Nagyra értékelem az Ozaria történetét, mivel összhangban van azzal a küldetéssel, amellyel a diákjaim együtt tudnak érezni. Őszintén szólva, imádom. Valójában, sokkal tovább játszottam a múlt hétvégén, mint szeretném bevallani!',
+      shareable_resources_header: '[AI_TRANSLATION]Megosztható Források',
+      shareable_resources_p: '[AI_TRANSLATION]Oszd meg az alábbi forrásokat a tanárokkal, adminisztrátorokkal és mindenki mással, aki részt vesz az informatika iskolai bevezetésében vagy a meglévő kínálat bővítésében.',
+      shareable_resources_a: '[AI_TRANSLATION]Szórólap Letöltése ',
+      back_cta_2_a: '[AI_TRANSLATION]Próbáld ki az 1. fejezetet ingyen',
+      faq_header: '[AI_TRANSLATION]Gyakran Ismételt Kérdések',
+      faq_row1_header: '[AI_TRANSLATION]Hogyan kapcsolódik Ozaria a CodeCombat-hoz?',
+      faq_row1_p: '[AI_TRANSLATION]Az Ozaria a CodeCombat teremben használható fejlődése, az egyik legnépszerűbb kódoló játék történetében. Az Ozaria-t az alapján építettük, hogy több mint 20 millió tanulót tanítottunk Pythonra és JavaScriptre. Az Ozaria új pedagógiai modelleket, egy magával ragadó történetvezérelt narratívát tartalmaz, és úgy tervezték, hogy osztálytermekben alkalmazható legyen, mind személyes, mind távoktatási környezetben.\n',
+      faq_row2_header: '[AI_TRANSLATION]Milyen korosztályoknak vagy évfolyamoknak ajánlott az Ozaria?',
+      faq_row2_p: '[AI_TRANSLATION]Az Ozaria a CSTA és ISTE középiskolai informatika szabványaihoz igazodik, de a felső tagozatosoktól a középiskolásokig gyakorolták és élvezték a diákok.',
+      faq_row3_header: '[AI_TRANSLATION]Mennyibe kerül az összes elérhető egységhez és erőforráshoz való hozzáférés?',
+      faq_row3_p_part1: '[AI_TRANSLATION]Mi testreszabott megoldásokat kínálunk iskoláknak és kerületeknek, együttműködve veletek, hogy megértsük az igényeiteket, a kontextust és a költségvetést.',
+      faq_row3_p_part2: '[AI_TRANSLATION] további részletekért! Ezenkívül biztosítunk egy ',
+      faq_row3_p_part3: '[AI_TRANSLATION]finanszírozási források útmutató',
+      faq_row3_p_part4: '[AI_TRANSLATION]iskolai és körzeti számítógépes programok számára.',
+      faq_row4_header: '[AI_TRANSLATION]Az Ozaria projektalapú tanulást kínál?',
+      faq_row4_p: '[AI_TRANSLATION]Igen. Az Ozaria az egyes fejezetek végén megosztható Capstone Projektekbe építkezik, ahol a diákok saját játékokat hoznak létre. Ezek a projektek összefoglaló értékelésként szolgálnak, és nagyszerű módjai a diákok önkifejezésének és annak, hogy megmutassák tudásukat osztálytársaiknak, barátaiknak és családjuknak.  ',
+      faq_row5_header: '[AI_TRANSLATION]Használhatom az Ozariát az osztályom fő tananyagaként?',
+      faq_row5_p: '[AI_TRANSLATION]Abszolút! Az Ozaria mindent tartalmaz, amire szükséged lehet egy teljes Számítástechnika óra levezetéséhez, még akkor is, ha nincs Számítástechnikai háttér ismereted. Órarendek, megoldási útmutatók, projekt értékelések és beépített standard igazítások mind itt vannak.',
+      faq_row6_p_part1: '[AI_TRANSLATION]Ha van más kérdésed, kérlek',
+      see_faq_prefix: '[AI_TRANSLATION]Nézd meg a többit',
+      see_faq_link: '[AI_TRANSLATION]gyakran ismételt kérdések a súgóközpontunkban  ',
+      //    see_faq_suffix: ".",
+      summary: '[AI_TRANSLATION]Az Ozaria egy számítástechnikai program, egy kalandjáték és egy fantasy történet, ahol a diákok a kódolás elveszett varázsát sajátítják el, hogy megmentsék világukat.',
+      value_prop1_h1: '[AI_TRANSLATION]Epikus Történet. Magával Ragadó Játékmenet.',
+      value_prop1_h2: '[AI_TRANSLATION]Inspirálj mélyebb kötődést a tanuláshoz',
+      value_prop1_p: '[AI_TRANSLATION]Az Ozariában a diákok egy új világba csöppennek, ahol alapvető informatikai fogalmakat sajátítanak el, hogy tovább jussanak a játékban. A kibontakozó történet egy erős, diákközpontú tanulási élményt teremt, ahol minden diák befektetése az Ozaria történetébe párhuzamba állítható a saját tanulási útjukba történő befektetéssel.',
+      value_prop2_h1: '[AI_TRANSLATION]Fedezd fel a hőst minden diákban',
+      value_prop2_h2: '[AI_TRANSLATION]Valódi képességeket építhetsz játék közben',
+      value_prop2_p: '[AI_TRANSLATION]A fogalmak és készségek egy gondosan megtervezett tartalomprogresszió révén kerülnek bemutatásra, amely játékszinteket, oktató karakterpárbeszédeket, átvezető jeleneteket és egyebeket is tartalmaz. A diákok megtanulnak Python vagy JavaScript nyelven gépelni, algoritmikus gondolkodást alkalmazni, formális értékeléseken keresztül bemutatni a megértést, és a tanultakat saját projektek készítésével alkalmazni.\n',
+      value_prop3_h1: '[AI_TRANSLATION]Kezdd a kalandodat ingyen',
+      value_prop3_p: '[AI_TRANSLATION]Taníts kalandokon keresztül ingyenes tartalommal, amely bevezető számítástechnikai fogalmakat ölel fel, valamint hozzáférést biztosít implementációs útmutatókhoz és óratervekhez.',
+      projects_inspire_heading: '[AI_TRANSLATION]Inspiráló projektek. Felhatalmazó erőforrások.',
+      student_creativity: '[AI_TRANSLATION]Szabadítson fel diák kreativitást',
+      student_creativity_paragraph: '[AI_TRANSLATION]Minden egység végén a diákok alkalmazzák, amit tanultak, projekteket készítve, a játékoktól egészen a válaszd-a-saját-kalandod történetekig és még tovább. Lépcsőzetes célokkal építve, mégis korlátlan ötletelést lehetővé téve, a diákok egy megosztható és játszható portfóliót építenek, amely bemutatja kreatív identitásukat.',
+      teach_with_support: '[AI_TRANSLATION]Tanítás Támogatással',
+      teach_with_support_paragraph: '[AI_TRANSLATION]Az Ozaria oktatók számára készült. A tanterv minden egységéhez tartozik egy óraterv, amely körvonalazza a tanulási célokat, a gyakori diák tévképzeteket, a kulcsfogalmakat és a CSTA szabványokat. Ezen felül egy átfogó tanári irányítópult segíti a tanárokat a diákok haladásának nyomon követésében és a diákok kódjának ellenőrzésében.',
+      //    request_demo: "Request a Demo",
+      im_an_educator: '[AI_TRANSLATION]Tanár vagyok',
+      //    im_a_student: "I'm a Student",
+      global_title: '[AI_TRANSLATION]Csatlakozz Tanulók és Oktatók Globális Közösségéhez.',
+      global_subtitle1: '[AI_TRANSLATION]Tanulók',
+      //    global_subtitle2: "Lines of Code",
+      global_subtitle3: '[AI_TRANSLATION]Tanárok',
+      global_subtitle4: '[AI_TRANSLATION]Országok',
+      //    sign_up: "Sign Up",
+      individual_account_warning: '[AI_TRANSLATION]Be vagy jelentkezve mint __name__, ami egy egyéni fiók. Az Ozaria tanári és diákfiókokhoz való; szükséged van a fiókod frissítésére?',
+      learner_number: '[AI_TRANSLATION]12 Millió',
+      code_line_number: '[AI_TRANSLATION]1 Milliárd',
+      dei_initiatives: '[AI_TRANSLATION]Milyen kezdeményezései vannak Ozariának, hogy biztosítsa a sokszínűséget, egyenlőséget és befogadást a játékban?',
+      dei_initiatives_blurb: '[AI_TRANSLATION]Az Ozaria elkötelezett a sokszínűség, egyenlőség és befogadás (DEI) előmozdítása iránt a játékban. A különböző karakterek reprezentációján, az egyenlő esélyeken és a befogadó légkörön keresztül az Ozaria tiszteletben tartja a különbségeket, és minden hátterű és képességű játékos számára barátságos élményt kínál. Böngészd át a __deipage__-ünket, hogy többet megtudj elkötelezettségünkről és kezdeményezéseinkről a DEI iránt az Ozariában.',
+      dei_page: '[AI_TRANSLATION]DEI oldal',
+      ozaria_efficacy: '[AI_TRANSLATION]Hogyan méri és bizonyítja az Ozaria a tanulási eredmények javulását az osztályteremben?',
+      ozaria_efficacy_blurb: '[AI_TRANSLATION]Az eredményességet bizonyíték alapú gyakorlatokkal és értékelésekkel helyezzük előtérbe. Az __efficacypage__ részletes statisztikákat, valódi tanári idézeteket és meggyőző esettanulmányokat kínál, amelyek bemutatják Ozaria átalakító hatását. Jelentős tanulási élményeket teremtve és bizonyíték alapú gyakorlatokat alkalmazva olyan tartalmakat készítünk, amelyek biztosítják a tanárok és diákok számára legfontosabb eredményeket.',
+      efficacy_page: '[AI_TRANSLATION]hatékonysági oldal',
+      social_learning: '[AI_TRANSLATION]Az Ozaria támogatja a szociális és érzelmi tanulást (SEL)?',
+      social_learning_blurb: '[AI_TRANSLATION]Igen! Az Ozaria aktívan integrálja a szociális és érzelmi tanulást (SEL) a tantervébe. A játékos tevékenységeken keresztül a diákok létfontosságú készségeket fejlesztenek, mint például a döntéshozatal, önismeret, önirányítás, szociális tudatosság, kapcsolatkészségek és felelős döntéshozatal. További információkat találhatsz filozófiánkról a __selpage__ oldalon.',
+      sel_page: '[AI_TRANSLATION]SEL oldal',
+    },
 
     new_home: {
-    //    title_coco: "CodeCombat - Coding games to learn Python and JavaScript"
-    //    title_ozar: "Ozaria - Computer science that captivates"
-    //    title_cn_home: "CodeCombat|Python, Javascript"
-    //    meta_keywords_coco: "CodeCombat, python, javascript, Coding Games"
-    //    meta_keywords_ozar: "CodeCombat, python, javascript, Coding Games, Computer Science Program, Adventure, Epic Story"
-    //    meta_description_coco: "Learn typed code through a programming game. Learn Python, JavaScript, and HTML as you solve puzzles and learn to make your own coding games and websites."
-    //    meta_description_ozar: "Ozaria is a computer science program, an adventure game, and a fantasy story where students master the lost magic of coding to save their world."
-    //    meta_og_url: "https://codecombat.com"
-    //    become_investor: "to become an investor in CodeCombat"
-    //    built_for_teachers_title: "A Coding Game Built with Teachers in Mind"
-    //    built_for_teachers_blurb: "Teaching kids to code can often feel overwhelming. CodeCombat helps all educators teach students how to code in either JavaScript or Python, two of the most popular programming languages. With a comprehensive curriculum that includes six computer science units and reinforces learning through project-based game development and web development units, kids will progress on a journey from basic syntax to recursion!"
-    //    built_for_teachers_subtitle1: "Computer Science"
-    //    built_for_teachers_subblurb1: "Starting with our free Introduction to Computer Science course, students master core coding concepts such as while/for loops, functions, and algorithms."
-    //    built_for_teachers_subtitle2: "Game Development"
-    //    built_for_teachers_subblurb2: "Learners construct mazes and use basic input handling to code their own games that can be shared with friends and family."
-    //    built_for_teachers_subtitle3: "Web Development"
-    //    built_for_teachers_subblurb3: "Using HTML, CSS, and jQuery, learners flex their creative muscles to program their own webpages with a custom URL to share with their classmates."
-    //    century_skills_title: "21st Century Skills"
-    //    century_skills_blurb1: "Students Don't Just Level Up Their Hero, They Level Up Themselves"
-    //    century_skills_quote1: "You mess up…so then you think about all of the possible ways to fix it, and then try again. I wouldn't be able to get here without trying hard."
-    //    century_skills_subtitle1: "Critical Thinking"
-    //    century_skills_subblurb1: "With coding puzzles that are naturally scaffolded into increasingly challenging levels, CodeCombat's programming game ensures kids are always practicing critical thinking."
-    //    century_skills_quote2: "Everyone else was making mazes, so I thought, ‘capture the flag’ and that’s what I did."
-    //    century_skills_subtitle2: "Creativity"
-    //    century_skills_subblurb2: "CodeCombat encourages students to showcase their creativity by building and sharing their own games and webpages."
-    //    century_skills_quote3: "If I got stuck on a level. I would work with people around me until we were all able to figure it out."
-    //    century_skills_subtitle3: "Collaboration"
-    //    century_skills_subblurb3: "Throughout the game, there are opportunities for students to collaborate when they get stuck and to work together using our pair programming guide."
-    //    century_skills_quote4: "I’ve always had aspirations of designing video games and learning how to code ... this is giving me a great starting point."
-    //    century_skills_quote4_author: "Joey, 10th Grade"
-    //    century_skills_subtitle4: "Communication"
-    //    century_skills_subblurb4: "Coding requires kids to practice new forms of communication, including communicating with the computer itself and conveying their ideas using the most efficient code."
-    //    classroom_in_box_title: "We Strive To:"
-    //    classroom_in_box_blurb1: "Engage every student so that they believe coding is for them."
-    //    classroom_in_box_blurb2: "Empower any educator to feel confident when teaching coding."
-    //    classroom_in_box_blurb3: "Inspire all school leaders to create a world-class computer science program."
-    //    classroom_in_box_blurb4: "" # only for koudashijie.com
-    //    click_here: "Click here"
-    //    creativity_rigor_title: "Where Creativity Meets Rigor"
-    //    creativity_rigor_subtitle1: "Make coding fun and teach real-world skills"
-    //    creativity_rigor_blurb1: "Students type real Python and JavaScript while playing games that encourage trial-and-error, critical thinking, and creativity. Students then apply the coding skills they’ve learned by developing their own games and websites in project-based courses."
-    //    creativity_rigor_subtitle2: "Reach students at their level"
-    //    creativity_rigor_blurb2: "Every CodeCombat level is scaffolded based on millions of data points and optimized to adapt to each learner. Practice levels and hints help students when they get stuck, and challenge levels assess students' learning throughout the game."
-    //    creativity_rigor_subtitle3: "Built for all teachers, regardless of experience"
-    //    creativity_rigor_blurb3: "CodeCombat’s self-paced, standards-aligned curriculum makes teaching computer science possible for everyone. CodeCombat equips teachers with the training, instructional resources, and dedicated support to feel confident and successful in the classroom."
-    //    featured_partners_title1: "Featured In"
-    //    featured_partners_title2: "Awards & Partners"
-    //    featured_partners_blurb1: "Clever Partner"
-    //    featured_partners_blurb2: "Best Creativity Tool for Students"
-    //    featured_partners_blurb3: "Top Pick for Learning"
-    //    featured_partners_blurb4: "Code.org Official Partner"
-    //    featured_partners_blurb5: "CSforAll Official Member"
-    //    featured_partners_blurb6: "Hour of Code Activity Partner"
-    //    for_leaders_title: "For School Leaders"
-    //    for_leaders_blurb: "A Comprehensive, Standards-Aligned Computer Science Program"
-    //    for_leaders_subtitle1: "Easy Implementation"
-    //    for_leaders_subblurb1: "A web-based program that requires no IT support. Get started in under 5 minutes using Google or Clever Single Sign-On (SSO)."
-    //    for_leaders_subtitle2: "Full Coding Curriculum"
-    //    for_leaders_subblurb2: "A standards-aligned curriculum with instructional resources and professional development to enable any teacher to teach computer science."
-    //    for_leaders_subtitle3: "Flexible Use Cases"
-    //    for_leaders_subblurb3: "Whether you want to build a Middle School coding elective, a CTE pathway, or an AP Computer Science Principles class, CodeCombat is tailored to suit your needs."
-    //    for_leaders_subtitle4: "Real-World Skills"
-    //    for_leaders_subblurb4: "Students build grit and develop a growth mindset through coding challenges that prepare them for the 500K+ open computing jobs."
-    //    for_teachers_title: "For Teachers"
-    //    for_teachers_blurb: "Tools to Unlock Student Potential"
-    //    for_teachers_subtitle1: "Project-Based Learning"
-    //    for_teachers_subblurb1: "Promote creativity, problem-solving, and confidence in project-based courses where students develop their own games and webpages."
-    //    for_teachers_subtitle2: "Teacher Dashboard"
-    //    for_teachers_subblurb2: "View data on student progress, discover curriculum resources, and access real-time support to empower student learning."
-    //    for_teachers_subtitle3: "Built-in Assessments"
-    //    for_teachers_subblurb3: "Personalize instruction and ensure students understand core concepts with formative and summative assessments."
-    //    for_teachers_subtitle4: "Automatic Differentiation"
-    //    for_teachers_subblurb4: "Engage all learners in a diverse classroom with practice levels that adapt to each student's learning needs."
-    //    game_based_blurb: "CodeCombat is a game-based computer science program where students type real code and see their characters react in real time."
-    //    get_started: "Get started"
-    //    global_title: "Join Our Global Community of Learners and Educators"
-    //    global_subtitle1: "Learners"
-    //    global_subtitle2: "Lines of Code"
-    //    global_subtitle3: "Teachers"
-    //    global_subtitle4: "Countries"
-    //    go_to_my_classes: "Go to my classes"
-    //    go_to_my_courses: "Go to my courses"
-    //    quotes_quote1: "Name any program online, I’ve tried it. None of them match up to CodeCombat & Ozaria. Any teacher who wants their students to learn how to code... start here!"
-    //    quotes_quote2: " I was surprised about how easy and intuitive CodeCombat makes learning computer science. The scores on the AP exam were much higher than I expected and I believe CodeCombat is the reason why this was the case."
-    //    quotes_quote3: "CodeCombat has been the most beneficial for teaching my students real-life coding capabilities. My husband is a software engineer and he has tested out all of my programs. He put this as his top choice."
-    //    quotes_quote4: "The feedback … has been so positive that we are structuring a computer science class around CodeCombat. The program really engages the students with a gaming style platform that is entertaining and instructional at the same time. Keep up the good work, CodeCombat!"
-    //    quotes_quote5: "Even though the class starts every Saturday at 7am, my son is so excited that he wakes up before me! CodeCombat creates a pathway for my son to advance his coding skills."
-    //    quotes_quote5_author: "Latthaphon Pohpon, Parent"
-    //    see_example: "See example"
-      slogan: 'A legvonzóbb játék, amivel megtanulhatsz programozni.', // {change}
-      //    slogan_power_of_play: "Learn to Code Through the Power of Play"
-      //    teach_cs1_free: "Teach CS1 Free"
-      //    teachers_love_codecombat_title: "Teachers Love CodeCombat"
-      //    teachers_love_codecombat_blurb1: "Report that their students enjoy using CodeCombat to learn how to code"
-      //    teachers_love_codecombat_blurb2: "Would recommend CodeCombat to other computer science teachers"
-      //    teachers_love_codecombat_blurb3: "Say that CodeCombat helps them support students’ problem solving abilities"
-      //    teachers_love_codecombat_subblurb: "In partnership with McREL International, a leader in research-based guidance and evaluations of educational technology."
-      //    top_banner_blurb: "Parents, give your child the gift of coding and personalized instruction with our live teachers!"
-      //    top_banner_summer_camp: "Enrollment now open for our summer coding camps–ask us about our week-long virtual sessions starting at just $199."
-      //    top_banner_blurb_pd: "We now offer professional development for educators."
-      //    top_banner_blurb_funding: "New: CARES Act funding resources guide to ESSER and GEER funds for your CS programs."
-      //    top_banner_blurb_maintenance: "Upgrades coming! Scheduled maintenance: up to 3 hours starting at __maintenanceStartTime__."
-      //    top_banner_blurb_podcast: "NEW: Explore the world of EdTech with our new podcast EdTech Adventures."
-      //    top_banner_blurb_roblox: "NEW! CodeCombat is coming to Roblox!"
-      //    top_banner_blurb_roblox_teachers: "NEW! CodeCombat has partnered with Roblox Education!"
-      //    top_banner_blurb_roblox_players: "NEW! Learn to code while playing Roblox!"
-      //    top_banner_blurb_roblox_players_cta: "Join Beta Waitlist"
-      //    top_banner_blurb_live_online_classes_parents: "PARENTS! Get your child coding today with a free trial class."
-      //    top_banner_blurb_live_online_classes: "Live online coding classes powered by play!"
-      //    top_banner_blurb_live_online_classes_cta: "Sign up for a free trial class!"
-      //    top_banner_blurb_demo_day: "Please join us for a demo day webinar on Thursday, August 25 at 4:00 pm EDT."
-      //    top_banner_blurb_demo_day_10_20: "Join us for a spooktacular demo of CodeCombat & Ozaria on Thursday, October 20 at 4:00 pm CDT."
-      //    top_banner_blurb_hoc_2022_12_01: "Join us Dec. 1st for our Hour of Code Walkthrough! Everything you need to implement our all new activities __topBannerHereLink__"
-      //    top_banner_blurb_hoc_2022_12_01_here: "HERE"
-      //    top_banner_blurb_demo_day_2023_02_16: "LIVE DEMO! See how you can use esports to teach coding. Join us Thursday February 16th at 2:00 pm PST."
-      //    try_the_game: "Try the game"
+      //    title_coco: "CodeCombat - Coding games to learn Python and JavaScript",
+      //    title_ozar: "Ozaria - Computer science that captivates",
+      title_cn_home: '[AI_TRANSLATION]CodeCombat|Python, Javascript',
+      meta_keywords_coco: '[AI_TRANSLATION]CodeCombat, python, javascript, Kódolós Játékok',
+      meta_keywords_ozar: '[AI_TRANSLATION]CodeCombat, python, javascript, Kódolós Játékok, Számítógépes Tudomány Program, Kaland, Epikus Történet',
+      meta_description_coco: '[AI_TRANSLATION]Tanulj gépelt kódokat egy programozási játékon keresztül. Tanulj meg Python-t, JavaScript-et és HTML-t, miközben rejtvényeket oldasz meg, és saját programozási játékokat és weboldalakat készítesz.',
+      meta_description_ozar: '[AI_TRANSLATION]Az Ozaria egy számítástechnikai program, egy kalandjáték és egy fantasy történet, ahol a diákok a kódolás elveszett varázsát sajátítják el, hogy megmentsék világukat.',
+      meta_og_url: '[AI_TRANSLATION]https://codecombat.com',
+      become_investor: '[AI_TRANSLATION]hogy befektetővé válj a CodeCombatban',
+      built_for_teachers_title: '[AI_TRANSLATION]Egy játék, amelyet a tanárok igényeire szabtak',
+      built_for_teachers_blurb: '[AI_TRANSLATION]Gyerekeket tanítani kódolni néha kimerítő lehet. A CodeCombat segít minden oktatónak abban, hogy megtanítsa a diákoknak a kódolást JavaScript vagy Python nyelven, ami a két legnépszerűbb programozási nyelv. Egy átfogó tantervvel, ami hat számítástechnikai egységet tartalmaz, és projektalapú játékfejlesztésen és webfejlesztési egységeken keresztül erősíti a tanulást, a gyerekek az alapvető szintaxistól a rekurzióig haladnak végig az úton!',
+      built_for_teachers_subtitle1: '[AI_TRANSLATION]Számítástechnika',
+      built_for_teachers_subblurb1: '[AI_TRANSLATION]Az ingyenes Bevezetés a Számítástechnikába kurzussal a diákok elsajátítják az alapvető kódolási fogalmakat, mint a while/for ciklusok, függvények és algoritmusok.',
+      built_for_teachers_subtitle2: '[AI_TRANSLATION]Játékfejlesztés  ',
+      built_for_teachers_subblurb2: '[AI_TRANSLATION]A tanulók labirintusokat építenek és alapvető bemeneti kezelést használnak, hogy saját játékokat kódoljanak, melyeket megoszthatnak barátaikkal és családtagjaikkal.',
+      built_for_teachers_subtitle3: '[AI_TRANSLATION]Webfejlesztés  ',
+      built_for_teachers_subblurb3: '[AI_TRANSLATION]HTML-t, CSS-t és jQuery-t használva a tanulók kiélhetik kreativitásukat, hogy saját weboldalakat készítsenek, melyeket egyedi URL-en oszthatnak meg osztálytársaikkal.',
+      century_skills_title: '[AI_TRANSLATION]21. századi Készségek',
+      century_skills_blurb1: '[AI_TRANSLATION]A diákok nem csak a hőst fejlesztik, hanem saját magukat is.',
+      century_skills_quote1: '[AI_TRANSLATION]Elrontod... aztán gondolkodsz minden lehetséges módon a javításon, és újrapróbálod. Nem jutottam volna ide kemény munka nélkül.',
+      century_skills_subtitle1: '[AI_TRANSLATION]Kritikus gondolkodás',
+      century_skills_subblurb1: '[AI_TRANSLATION]Kódolási rejtvényekkel, amelyek természetesen egyre kihívást jelentőbb szintekre vannak felosztva, a CodeCombat programozási játéka biztosítja, hogy a gyerekek mindig gyakorolják a kritikus gondolkodást.',
+      century_skills_quote2: '[AI_TRANSLATION]Mindenki más labirintusokat készített, ezért azt gondoltam, „zászló foglalás”, és ezt tettem.',
+      century_skills_subtitle2: '[AI_TRANSLATION]Kreativitás',
+      century_skills_subblurb2: '[AI_TRANSLATION]A CodeCombat bátorítja a diákokat, hogy mutassák meg kreativitásukat saját játékok és weboldalak építésével és megosztásával.',
+      century_skills_quote3: '[AI_TRANSLATION]Ha elakadtam egy szinten, addig dolgoztam a körülöttem lévőkkel, amíg mindannyian ki nem találtuk.',
+      century_skills_subtitle3: '[AI_TRANSLATION]Együttműködés',
+      century_skills_subblurb3: '[AI_TRANSLATION]A játék során lehetőségek nyílnak a diákok közötti együttműködésre, amikor elakadnak, és arra, hogy együtt dolgozzanak páros programozási útmutatónk segítségével.  ',
+      century_skills_quote4: '[AI_TRANSLATION]Mindig is álmodoztam videojátékok tervezéséről és kódolás megtanulásáról... ez egy remek kezdőpontot ad számomra.  ',
+      century_skills_quote4_author: '[AI_TRANSLATION]Joey, 10. osztály',
+      century_skills_subtitle4: '[AI_TRANSLATION]Kommunikáció',
+      century_skills_subblurb4: '[AI_TRANSLATION]A kódolás megköveteli a gyerekektől, hogy új kommunikációs formákat gyakoroljanak, beleértve a számítógéppel való kommunikációt és ötleteik hatékony kóddal való kifejezését.',
+      classroom_in_box_title: '[AI_TRANSLATION]Arra törekszünk, hogy:',
+      classroom_in_box_blurb1: '[AI_TRANSLATION]Vegyél részt minden diákban, hogy elhiggyék, a kódolás nekik való.',
+      classroom_in_box_blurb2: '[AI_TRANSLATION]Hatalmazd fel bármely oktatót, hogy magabiztosan taníthassa a kódolást.',
+      classroom_in_box_blurb3: '[AI_TRANSLATION]Inspiráld az összes iskolai vezetőt, hogy világklasszis számítástechnikai programot hozzanak létre.',
+      //    classroom_in_box_blurb4: "",
+      click_here: '[AI_TRANSLATION]Kattints ide',
+      creativity_rigor_title: '[AI_TRANSLATION]Ahol a Kreativitás Találkozik a Kímmé Páncélral',
+      creativity_rigor_subtitle1: '[AI_TRANSLATION]Tegyétek szórakoztatóvá a kódolást és tanítsatok valós készségeket',
+      creativity_rigor_blurb1: '[AI_TRANSLATION]A diákok valódi Python és JavaScript kódot írnak, miközben olyan játékokat játszanak, amelyek bátorítják a próbálkozást, a kritikus gondolkodást és a kreativitást. Ezután a diákok az így megszerzett kódolási képességeiket saját játékok és weboldalak fejlesztésével alkalmazzák projektalapú kurzusokban.',
+      creativity_rigor_subtitle2: '[AI_TRANSLATION]Érd el a diákokat az ő szintjükön',
+      creativity_rigor_blurb2: '[AI_TRANSLATION]Minden CodeCombat szint több millió adatpontra épül és optimalizálva van, hogy alkalmazkodjon minden tanulóhoz. Gyakorló szintek és tippek segítik a diákokat, amikor elakadnak, és a kihívási szintek értékelik a diákok tanulását a játék során.',
+      creativity_rigor_subtitle3: '[AI_TRANSLATION]Minden tanárnak készült, tapasztalattól függetlenül',
+      creativity_rigor_blurb3: '[AI_TRANSLATION]A CodeCombat saját tempójú, szabványokhoz igazodó tananyaga lehetővé teszi a számítástechnika tanítását mindenki számára. A CodeCombat felkészíti a tanárokat a kiképzéssel, oktatási forrásokkal és dedikált támogatással, hogy magabiztosnak és sikeresnek érezzék magukat az osztályteremben.',
+      featured_partners_title1: '[AI_TRANSLATION]Szerepelt',
+      featured_partners_title2: '[AI_TRANSLATION]Díjak és partnerek',
+      featured_partners_blurb1: '[AI_TRANSLATION]Ravasz Partner',
+      featured_partners_blurb2: '[AI_TRANSLATION]Legjobb Kreatív Eszköz Diákoknak',
+      featured_partners_blurb3: '[AI_TRANSLATION]Top Pick for Learning',
+      featured_partners_blurb4: '[AI_TRANSLATION]Code.org Hivatalos Partner',
+      featured_partners_blurb5: '[AI_TRANSLATION]CSforAll Hivatalos Tag',
+      featured_partners_blurb6: '[AI_TRANSLATION]Kódórás Tevékenységi Partner',
+      for_leaders_title: '[AI_TRANSLATION]Iskolai vezetőknek',
+      for_leaders_blurb: '[AI_TRANSLATION]Átfogó, Szabványokkal Igazodó Számítástechnikai Program',
+      for_leaders_subtitle1: '[AI_TRANSLATION]Könnyű Megvalósítás',
+      for_leaders_subblurb1: '[AI_TRANSLATION]Egy webalapú program, amelyhez nincs szükség IT támogatásra. Kezdd el kevesebb mint 5 perc alatt a Google vagy a Clever Single Sign-On (SSO) használatával.',
+      for_leaders_subtitle2: '[AI_TRANSLATION]Teljes Kódolási Tanterv',
+      for_leaders_subblurb2: '[AI_TRANSLATION]Egy szabványokhoz illeszkedő tanterv oktatási erőforrásokkal és szakmai fejlődéssel, amely lehetővé teszi bármely tanár számára, hogy számítástechnikát tanítson.',
+      for_leaders_subtitle3: '[AI_TRANSLATION]Rugalmas felhasználási esetek',
+      for_leaders_subblurb3: '[AI_TRANSLATION]Akár általános iskolai kóddal kapcsolatos órát, CTA fakultációt, vagy AP Informatikai Alapelvek osztályt szeretnél építeni, a CodeCombat az igényeidhez van szabva.',
+      for_leaders_subtitle4: '[AI_TRANSLATION]Való Világbeli Készségek',
+      for_leaders_subblurb4: '[AI_TRANSLATION]A diákok kitartást fejlesztenek, és növekedési szemléletet alakítanak ki kódolási kihívások révén, amelyek felkészítik őket az 500K+ nyitott számítástechnikai munkákra.',
+      for_teachers_title: '[AI_TRANSLATION]SOP nélkül nagy gondban lennél.',
+      for_teachers_blurb: '[AI_TRANSLATION]Eszközök a diákok potenciáljának kiaknázásához',
+      for_teachers_subtitle1: '[AI_TRANSLATION]Projekt alapú tanulás',
+      for_teachers_subblurb1: '[AI_TRANSLATION]Pet Explorer: Kész',
+      for_teachers_subtitle2: '[AI_TRANSLATION]Tanár Irányítópult',
+      for_teachers_subblurb2: '[AI_TRANSLATION]Nézd meg az adatokat a diákok előrehaladásáról, felfedezz tananyag forrásokat, és érd el valós idejű támogatást a diákok tanulásának ösztönzéséhez.',
+      for_teachers_subtitle3: '[AI_TRANSLATION]Beépített Értékelések',
+      for_teachers_subblurb3: '[AI_TRANSLATION]Személyre szabhatod az oktatást, és biztosíthatod, hogy a diákok megértsék az alapvető fogalmakat a formatív és szummatív értékelések révén.',
+      for_teachers_subtitle4: '[AI_TRANSLATION]Automatikus Differenciálás',
+      for_teachers_subblurb4: '[AI_TRANSLATION]Foglald le az összes tanulót egy változatos tanteremben gyakorlószintekkel, amelyek alkalmazkodnak minden diák tanulási igényeihez.',
+      game_based_blurb: '[AI_TRANSLATION]A CodeCombat egy játék alapú számítástechnikai program, ahol a diákok valódi kódot írnak be, és látják a karaktereik valós idejű reakcióit.',
+      get_started: '[AI_TRANSLATION]Kezdj neki',
+      global_title: '[AI_TRANSLATION]Csatlakozz Tanulók és Oktatók Globális Közösségéhez.',
+      global_subtitle1: '[AI_TRANSLATION]Tanulók',
+      //    global_subtitle2: "Lines of Code",
+      global_subtitle3: '[AI_TRANSLATION]Tanárok',
+      global_subtitle4: '[AI_TRANSLATION]Országok',
+      go_to_my_classes: '[AI_TRANSLATION]Menj az óráimhoz',
+      go_to_my_courses: '[AI_TRANSLATION]Menj a kurzusaimhoz',
+      quotes_quote1: '[AI_TRANSLATION]Nevezzen meg bármilyen online programot, kipróbáltam. Egyik sem ér fel a CodeCombat & Ozaria szintjéhez. Bármely tanár számára, aki meg akarja tanítani a diákjainak a kódolást... itt kezdje!',
+      quotes_quote2: '[AI_TRANSLATION]Meglepődtem, hogy milyen könnyű és intuitív a CodeCombat segítségével számítástechnikát tanulni. Az AP vizsgán elért pontszámok sokkal magasabbak voltak, mint vártam, és úgy gondolom, hogy ennek oka a CodeCombat.',
+      quotes_quote3: '[AI_TRANSLATION]A CodeCombat volt eddig a leghasznosabb a diákjaim valódi kódolási képességeinek tanításában. A férjem szoftverfejlesztő, és minden programomat kipróbálta. Ez lett a kedvence.',
+      quotes_quote4: '[AI_TRANSLATION]A visszajelzés annyira pozitív volt, hogy elkezdjük a számítástechnikai óránkat a CodeCombat köré építeni. A program igazán leköti a diákokat egy olyan játékstílusú platformmal, amely egyszerre szórakoztató és oktatási. Csak így tovább, CodeCombat!',
+      quotes_quote5: '[AI_TRANSLATION]Bár az óra minden szombaton reggel 7-kor kezdődik, a fiam annyira izgatott, hogy előbb ébred fel, mint én! A CodeCombat egy utat teremt a fiamnak, hogy fejlessze a kódolási képességeit.',
+      quotes_quote5_author: '[AI_TRANSLATION]Latthaphon Pohpon, Szülő',
+      see_example: '[AI_TRANSLATION]Lásd példa',
+      slogan: 'A legvonzóbb játék, amivel megtanulhatsz programozni.',
+      slogan_power_of_play: '[AI_TRANSLATION]Tanulj meg kódolni a játék ereje által',
+      teach_cs1_free: '[AI_TRANSLATION]Taníts CS1 Ingyen',
+      teachers_love_codecombat_title: '[AI_TRANSLATION]A Tanárok Szeretik a CodeCombatot',
+      teachers_love_codecombat_blurb1: '[AI_TRANSLATION]Jelentik, hogy a diákjaik élvezik a CodeCombat használatát a kódolás tanulására.',
+      teachers_love_codecombat_blurb2: '[AI_TRANSLATION]Ajánlanám a CodeCombatot más informatika tanároknak',
+      teachers_love_codecombat_blurb3: '[AI_TRANSLATION]Mondják, hogy a CodeCombat segít a diákok problémamegoldó képességeinek fejlesztésében',
+      teachers_love_codecombat_subblurb: '[AI_TRANSLATION]A McREL International partnereként, akik vezetők a kutatásokra alapuló iránymutatások és az oktatási technológia értékelésében.',
+      top_banner_blurb: '[AI_TRANSLATION]Szülők, adják meg gyermeküknek a kódolás ajándékát, személyre szabott oktatással élő tanárainkkal!  ',
+      top_banner_summer_camp: '[AI_TRANSLATION]Jelentkezés most nyitva nyári kódoló táborainkra – kérdezz a hetes virtuális szakaszokról, amelyek csak $199-tól kezdődnek.',
+      top_banner_blurb_pd: '[AI_TRANSLATION]Mostantól szakmai fejlődést biztosítunk az oktatóknak.',
+      top_banner_blurb_funding: '[AI_TRANSLATION]Új: A CARES Act források útmutatója az ESSER és GEER alapokhoz a CS programjaidhoz.',
+      top_banner_blurb_maintenance: '[AI_TRANSLATION]Jönnek a frissítések! Ütemezett karbantartás: akár 3 óra __maintenanceStartTime__-tól.',
+      top_banner_blurb_podcast: '[AI_TRANSLATION]ÚJ: Ismerd meg az EdTech világát új podcastunkkal, az EdTech Kalandokkal.',
+      top_banner_blurb_roblox: '[AI_TRANSLATION]ÚJ! A CodeCombat jön a Robloxra!',
+      top_banner_blurb_roblox_teachers: '[AI_TRANSLATION]ÚJ! A CodeCombat partnert talált a Roblox Education-ben!',
+      top_banner_blurb_roblox_players: '[AI_TRANSLATION]ÚJ! Tanulj meg programozni, miközben Robloxot játszol!',
+      top_banner_blurb_roblox_players_cta: '[AI_TRANSLATION]Csatlakozz a Béta Várólistához',
+      top_banner_blurb_live_online_classes_parents: '[AI_TRANSLATION]SZÜLŐK! Kezdje el gyermekét kódolni egy ingyenes próbaórával még ma.',
+      top_banner_blurb_live_online_classes: '[AI_TRANSLATION]Élő online kódolási órák játékkal fűszerezve!',
+      top_banner_blurb_live_online_classes_cta: '[AI_TRANSLATION]Iratkozz fel egy ingyenes próbaórára!',
+      top_banner_blurb_demo_day: '[AI_TRANSLATION]Kérlek csatlakozz a bemutató napos webinárunkhoz csütörtökön, augusztus 25-én, 16:00 EDT-kor.',
+      top_banner_blurb_demo_day_10_20: '[AI_TRANSLATION]Csatlakozz hozzánk egy fergeteges CodeCombat & Ozaria bemutatóra október 20-án, csütörtökön délután 4-kor közép-európai idő szerint.',
+      top_banner_blurb_hoc_2022_12_01: '[AI_TRANSLATION]Csatlakozz hozzánk Dec. 1-jén az Óra Kódjához! Minden, amire szükséged van az új tevékenységek megvalósításához __topBannerHereLink__',
+      top_banner_blurb_hoc_2022_12_01_here: '[AI_TRANSLATION]ITT',
+      top_banner_blurb_demo_day_2023_02_16: '[AI_TRANSLATION]ÉLŐ DEMÓ! Nézd meg, hogyan lehet az e-sportot felhasználni a kódolás tanításához. Csatlakozz február 16-án, csütörtökön, 14:00 PST-kor.',
+      try_the_game: '[AI_TRANSLATION]Próbáld ki a játékot',
       classroom_edition: 'Tantermi változat:',
       learn_to_code: 'Tanulj meg kódolni:',
       play_now: 'Játssz Most',
-      //    im_a_parent: "I'm a Parent"
-      //    im_a_parent_description: "Explore our live online coding classes"
-      //    im_an_educator: "I'm an Educator"
-      //    im_an_educator_description: "Teach Computer Science with CodeCombat"
+      im_a_parent: '[AI_TRANSLATION]Szülő vagyok',
+      im_a_parent_description: '[AI_TRANSLATION]Fedezd fel élő online kódolási óráinkat',
+      im_an_educator: '[AI_TRANSLATION]Tanár vagyok',
+      im_an_educator_description: '[AI_TRANSLATION]Taníts számítástechnikát a CodeCombattal',
       im_a_teacher: 'Tanár vagyok',
       im_a_student: 'Diák vagyok',
-      //    im_a_student_description: "Learn Computer Science with your class"
-      //    im_an_individual: "I'm an Individual"
-      //    im_an_individual_description: "Play at home outside of a class setting"
+      im_a_student_description: '[AI_TRANSLATION]Tanulj számítástechnikát az osztályoddal',
+      im_an_individual: '[AI_TRANSLATION]Én Egyén Vagyok',
+      im_an_individual_description: '[AI_TRANSLATION]Játsz otthon, osztálytermen kívül.',
       learn_more: 'Tudj meg többet',
-      //    check_it_out: "Check it out!"
+      check_it_out: '[AI_TRANSLATION]Nézd meg!',
       classroom_in_a_box: 'Egy mindent-egyben megoldás programozás tanításra.',
-      codecombat_is: 'A CodeCombat a diákoknak egy olyan platform, melyben programozni tanulnak, miközben egy igazi játékot játszanak.', // {change}
-      our_courses: 'Kurzusaink osztálytermi keretek közötti oktatásra kiválóan alkalmasak, akár informatikában kevésbé jártas tanárok számára is.', // {change}
+      codecombat_is: 'A CodeCombat a diákoknak egy olyan platform, melyben programozni tanulnak, miközben egy igazi játékot játszanak.',
+      our_courses: 'Kurzusaink osztálytermi keretek közötti oktatásra kiválóan alkalmasak, akár informatikában kevésbé jártas tanárok számára is.',
       watch_how: 'Nézd meg hogyan alakítja át a CodeCombat az emberek tanuási módját a számítástechnikát illetően.',
       top_screenshots_hint: 'A tanulók valós időben láthatják a beírt kód működését.',
       designed_with: 'Tanárok igényeihez tervezve',
@@ -249,7 +248,7 @@ module.exports = {
       accessible_to: 'Hozzáférhető',
       everyone: 'mindenki számára',
       democratizing: 'A programozni tanulás demokratizálása filozófiánk lényege. Mindenki számára hozzáférhetővé kell tenni ezt az ismeretanyagot.',
-      forgot_learning: 'Azt hiszem teljesen megfeledkeztek róla, hogy valójában tanulnak valamit.', // {change}
+      forgot_learning: 'Azt hiszem teljesen megfeledkeztek róla, hogy valójában tanulnak valamit.',
       wanted_to_do: 'Mindig is szerettem volna kódolni, de sosem gondoltam volna, hogy a suliban megtanulhatom.',
       builds_concepts_up: 'Tetszik a CodeCombat fogalmainak felépítése. Nagyon egyszerű ezeket megérteni és könnyen ki lehet mindent találni.',
       why_games: 'Miért fontos játékokon keresztül tanulni?',
@@ -276,12 +275,12 @@ module.exports = {
       request_demo: 'Bemutató kérése',
       request_quote: 'Kvóta kérése',
       setup_a_class: 'Osztály létrehozása',
-      have_an_account: 'Van már fiókod?', // {change}
+      have_an_account: 'Van már fiókod?',
       logged_in_as: 'Jelenleg így vagy belépve',
-      computer_science: 'Programozás kurzusok minden korosztálynak', // {change}
+      computer_science: 'Programozás kurzusok minden korosztálynak',
       ffa: 'Ingyenes minden tanulónak',
       coming_soon: 'Hamarosan!',
-      courses_available_in: 'A Kurzusok elérhetőek JavaScript, Python, és Java (hamarosan!) nyelveken', // {change}
+      courses_available_in: 'A Kurzusok elérhetőek JavaScript, Python, és Java (hamarosan!) nyelveken',
       boast: 'Elég bonyolult feladványokkal dicsekedhet, melyek játékosokat és kódereket egyaránt elbűvölnek.',
       winning: 'Programozás házi feladatok és RPG játékélmény nyerő kombinációja, mely tényleg élvezetessé teszi a tanulást.',
       run_class: 'Minden, amire egy programozás óra megtartásához szükséged lehet. Mély szaktudás nem szükséges.',
@@ -292,58 +291,58 @@ module.exports = {
       want_coco: 'Szeretnéd kipróbálni a CodeCombatot az iskoládban?',
       educator: 'Pedagógus',
       student: 'Tanuló',
-      //    go_to_my_dashboard: "Go to My Dashboard"
-      //    our_coding_programs: "Our Coding Programs"
+      go_to_my_dashboard: '[AI_TRANSLATION]Menj a Saját Irányítópultomhoz',
+      our_coding_programs: '[AI_TRANSLATION]Programozó Tanfolyamaink',
       codecombat: 'CodeCombat',
       ozaria: 'Ozaria',
-      //    codecombat_blurb: "Our original coding game. Recommended for parents, individuals, educators, and students who want to experience one of the most-loved coding games in the world."
-      //    ozaria_blurb: "An adventure game and Computer Science program where students master the lost magic of coding to save their world. Recommended for educators and students."
-      //    ozaria_china_blurb: ""
+      codecombat_blurb: '[AI_TRANSLATION]Az eredeti kódoló játékunk. Ajánlott szülőknek, egyéneknek, oktatóknak és diákoknak, akik szeretnék megtapasztalni a világ egyik legkedveltebb kódoló játékát.',
+      ozaria_blurb: '[AI_TRANSLATION]Egy kalandjáték és számítástechnikai program, ahol a diákok elsajátítják a kódolás elveszett varázslatát, hogy megmentsék világukat. Ajánlott tanároknak és diákoknak.',
+      //    ozaria_china_blurb: "",
       try_codecombat: 'Próbáld ki a CodeCombatot',
-      try_ozaria: 'Próbáld ki az Ozariat'
+      try_ozaria: 'Próbáld ki az Ozariat',
+      explore_codecombat: '[AI_TRANSLATION]Fedezd fel a CodeCombatot',
+      explore_ai_league: '[AI_TRANSLATION]Fedezd fel az AI Ligát',
+      explore_ozaria: '[AI_TRANSLATION]Fedezd fel Ozaria-t',
+      explore_online_classes: '[AI_TRANSLATION]Fedezd fel az online órákat',
+      explore_pd: '[AI_TRANSLATION]Fedezd fel a szakmai fejlődést',
+      new_adventure_game_blurb: '[AI_TRANSLATION]Az Ozaria a vadonatúj kalandjátékunk és a számítástechnika tanítására szolgáló turnkey megoldásunk. A tanulóknak szóló __slides__ és tanároknak szóló jegyzetek megkönnyítik és felgyorsítják az órák tervezését és megtartását.',
+      lesson_slides: '[AI_TRANSLATION]lecke diákat',
+      pd_blurb: '[AI_TRANSLATION]Tanulj meg hatékonyan számítástechnikát tanítani az önirányított, CSTA által akkreditált szakmai továbbképző kurzusunkkal. Akár 40 kreditórát is szerezhetsz bármikor, bármilyen eszközről. Jól párosul az Ozaria Tanteremmel. ',
+      ai_league_blurb: '[AI_TRANSLATION]A versenykódolás még sosem volt ilyen epikus ezzel az oktatási e-sport ligával, amely egyedülállóan egyaránt AI csata szimulátor és játék motor valódi kód tanulásához.',
+      codecombat_live_online_classes: '[AI_TRANSLATION]CodeCombat Élő Online Órák',
+      learning_technology_blurb: '[AI_TRANSLATION]Az eredeti játékunk valós készségeket tanít a játék ereje által. A lépcsőzetes tanterv rendszerszerűen építi a diákok tapasztalataira és tudására, ahogy haladnak előre.',
+      learning_technology_blurb_short: '[AI_TRANSLATION]Az innovatív játék alapú tanulástechnológiánk megváltoztatta a diákok kódolási tanulási módját.',
+      online_classes_blurb: '[AI_TRANSLATION]Online kódoló óráink a játékmenet erejét és a személyre szabott oktatást ötvözik, amit gyermeked imádni fog. Privát és csoportos lehetőségek egyaránt elérhetők, ez a távoktatás, ami működik.',
+      codecombat_home_blurb: '[AI_TRANSLATION]A __codecombatHome__ szórakoztató és vonzó módot kínál gyermeked kódolási készségeinek fejlesztésére. Több mint 530 szinthez és kizárólagos funkciókhoz, mint háziállatok, csak prémium tárgyak és hősök férhetnek hozzá, hogy gyermeked teljesen elmerülhessen a kódolás világában. Sőt, játékokat tervezhet barátainak kihívására, weboldalakat és alkalmazásokat készíthet megosztásra, és privát csapatokat hozhat létre, hogy csoportos ranglistákon versenyezzenek, mindezt biztonságos és interaktív környezetben, amely ösztönzi a tanulást és a társas kapcsolatok építését.',
+      codecombat_home: '[AI_TRANSLATION]CodeCombat Kezdőlap',
+      for_educators: '[AI_TRANSLATION]Oktatóknak',
+      for_parents: '[AI_TRANSLATION]Szülőknek',
+      for_everyone: '[AI_TRANSLATION]Mindenkinek',
+      for_students: '[AI_TRANSLATION]Diákoknak',
+      for_individuals: '[AI_TRANSLATION]Egyének számára',
+      for_libraries: '[AI_TRANSLATION]Könyvtárak számára',
+      for_partners: '[AI_TRANSLATION]Partnereknek',
+      for_partners_title: '[AI_TRANSLATION]Társ a CodeCombattal',
+      for_partners_blurb: '[AI_TRANSLATION]Csatlakozz a küldetésünkhöz, hogy a kódolást mindenki számára elérhetővé és élvezetessé tegyük, értékes partnerré válva a CodeCombatnál. Partnerségi struktúráink magukban foglalják az oktatási vállalkozásokat, az e-sport szponzorokat, a nemzetközi forgalmazókat és a társadalmi hatású partnereket. A partnerek hozzáférést kapnak a könnyen használható programjainkhoz, megvalósítási erőforrásainkhoz és képzési lehetőségeinkhez egy sikeres és élvezetes élmény érdekében.',
+      for_partners_button: '[AI_TRANSLATION]Partnerségek Felfedezése',
+      for_libraries_title: '[AI_TRANSLATION]Könyvtár integráció',
+      for_libraries_blurb: '[AI_TRANSLATION]Teljesen önállóan végezhető és önirányított digitális erőforrásként a CodeCombat a legjobb integráció azoknak a könyvtáraknak, akik minden korosztályban támogatni kívánják tagjaikat a kódolás elsajátításában. Platformunk mindent kínál, ami a tanulóknak szükséges, hogy egyedülállóan izgalmas, játékalapú tanterv keretében magas szintű kódolási oktatásban részesüljenek. Tökéletes harmadik osztályos tanulóknak, egészen felnőttekig, akik főiskolai szintű kódolási fogalmakat szeretnének elsajátítani.',
+      for_libraries_button: '[AI_TRANSLATION]Fedezd fel a könyvtárakat',
+      what_our_customers_are_saying: '[AI_TRANSLATION]Amit az ügyfeleink mondanak',
+      game_based_learning: '[AI_TRANSLATION]Játék Alapú Tanulás',
+      unique_approach_blurb: '[AI_TRANSLATION]Egyedi megközelítésünkkel a diákok a játék és a kód írása révén ismerkednek meg a tanulással már az elején, ami elősegíti az aktív tanulást és a fejlődő mentalitást.',
+      text_based_coding: '[AI_TRANSLATION]Szöveg alapú kódolás',
+      custom_code_engine_blurb: '[AI_TRANSLATION]Az egyedi kódmotorunk és tolmácsunk a kezdők számára készült, hogy valódi Python, JavaScript és C++ programozási nyelveket tanítson emberbarát, kezdőbarát kifejezésekkel.',
+      student_impact: '[AI_TRANSLATION]Diák Hatás',
+      help_enjoy_learning_blurb: '[AI_TRANSLATION]Termékeink több mint 20 millió diáknak segítettek élvezetessé tenni a számítástechnika tanulását, tanítva őket, hogy kritikus, magabiztos és kreatív tanulókká váljanak. Minden diákot bevonzunk, függetlenül a tapasztalatuktól, hogy felismerjék az utat a számítástechnika sikeréhez.\n',
+      global_community: '[AI_TRANSLATION]Csatlakozz a Globális Közösségünkhöz',
+      million: '[AI_TRANSLATION]__num__ Millió',
+      billion: '[AI_TRANSLATION]__num__ milliárd',
+      meta_keywords_podcast: '[AI_TRANSLATION]CodeCombat, python, javascript, Kódoló Játékok, podcast, edtech',
+      coco_worlds_header: '[AI_TRANSLATION]CodeCombat Világok',
+      coco_worlds_description: '[AI_TRANSLATION]Vegyél részt egy 3D kódolási kalandban a Robloxban, ahol programozhatsz háziállatokat, játszhatsz barátaiddal és fejleszthetsz játékokat, miközben magad is játszol. Csatlakozz a CodeCombat közösséghez és szabadítsd fel kreativitásodat a metaverzumban!',
+      coco_worlds_button: '[AI_TRANSLATION]Fedezd fel a CodeCombat világait.  ',
     },
-    //    explore_codecombat: "Explore CodeCombat"
-    //    explore_ai_league: "Explore AI League"
-    //    explore_ozaria: "Explore Ozaria"
-    //    explore_online_classes: "Explore Online Classes"
-    //    explore_pd: "Explore Professional Development"
-    //    new_adventure_game_blurb: "Ozaria is our brand new adventure game and your turnkey solution for teaching Computer science. Our student-facing __slides__ and teacher-facing notes make planning and delivering lessons easier and faster."
-    //    lesson_slides: "lesson slides"
-    //    pd_blurb: "Learn the skills to effectively teach computer science with our self-directed, CSTA-accredited professional development course. Earn up to 40 credit hours any time, from any device. Pairs well with Ozaria Classroom."
-    //    ai_league_blurb: "Competitive coding has never been so epic with this educational esports league, uniquely both an AI battle simulator and game engine for learning real code."
-    //    codecombat_live_online_classes: "CodeCombat Live Online Classes"
-    //    learning_technology_blurb: "Our original game teaches real-world skills through the power of play. The scaffolded curriculum systematically builds on student’s experiences and knowledge as they progress."
-    //    learning_technology_blurb_short: "Our innovative game-based learning technology has transformed the way students learn to code."
-    //    online_classes_blurb: "Our online coding classes combine the power of gameplay and personalized instruction for an experience your child will love. With both private or group options available, this is remote learning that works."
-    //    codecombat_home_blurb: "__codecombatHome__ offers your child a fun and engaging way to advance their coding skills. With access to over 530 levels and exclusive features like pets, premium-only items, and heroes, your child can fully immerse themselves in the world of coding. They can even design games to challenge their friends, build websites and apps to share, and create private teams to compete on a group leaderboard, all in a safe and interactive environment that encourages learning and socialization."
-    //    codecombat_home: "CodeCombat Home"
-    //    for_educators: "For Educators"
-    //    for_parents: "For Parents"
-    //    for_everyone: "For Everyone"
-    //    for_students: "For Students"
-    //    for_individuals: "For Individuals"
-    //    for_libraries: "For Libraries"
-    //    for_partners: "For Partners"
-    //    for_partners_title: "Partner With CodeCombat"
-    //    for_partners_blurb: "Join our mission to make coding accessible and engaging for all by becoming a valued partner with CodeCombat. Our partnership structures include educational businesses, esports sponsors, international distributors, and social impact partners. Partners receive access to our easy-to-use programs, implementation resources, and training options for a successful and enjoyable experience."
-    //    for_partners_button: "Explore Partnerships"
-    //    for_libraries_title: "Library Integration"
-    //    for_libraries_blurb: "As an entirely self-paced and self-directed digital resource, CodeCombat is the best integration for libraries that want to empower their members of all ages to learn how to code. Our platform offers everything learners need to experience a high-level coding education through a uniquely exciting, game-based curriculum. Perfect for learners in third grade all the way up to adults who want to master college-level coding concepts."
-    //    for_libraries_button: "Explore Libraries"
-    //    what_our_customers_are_saying: "What Our Customers Are Saying"
-    //    game_based_learning: "Game-Based Learning"
-    //    unique_approach_blurb: "With our unique approach, students embrace learning as they play and write code from the very start of their adventure, promoting active learning and a growth mindset."
-    //    text_based_coding: "Text-Based Coding"
-    //    custom_code_engine_blurb: "Our custom code engine and interpreter is designed for beginners, teaching true Python, JavaScript, and C++ programming languages using human, beginner-friendly terms."
-    //    student_impact: "Student Impact"
-    //    help_enjoy_learning_blurb: "Our products have helped over 20 million students enjoy learning Computer Science, teaching them to be critical, confident, and creative learners. We engage all students, regardless of experience, helping them to realize a pathway to success in Computer Science."
-    //    global_community: "Join Our Global Community"
-    //    million: "__num__ Million"
-    //    billion: "__num__ Billion"
-    //    meta_keywords_podcast: "CodeCombat, python, javascript, Coding Games, podcast, edtech"
-    //    coco_worlds_header: "CodeCombat Worlds"
-    //    coco_worlds_description: "Embark on a 3D coding adventure in Roblox, where you can program pets, play with friends, and develop games all while playing one. Join the CodeCombat community and unleash your creativity in the metaverse!"
-    //    coco_worlds_button: "Explore CodeCombat Worlds"
 
     nav: {
       aiyouth: 'MI fiatalság',
@@ -351,7 +350,7 @@ module.exports = {
       follow_us: 'Kövess minket',
       general: 'Általános',
       map: 'Térkép',
-      play: 'Játék', // The top nav bar entry where players choose which levels to play
+      play: 'Játék',
       community: 'Közösség',
       courses: 'Kurzusok',
       units: 'Órák',
@@ -392,97 +391,140 @@ module.exports = {
       copyright_suffix: 'Minden jog fenntartva.',
       help_pref: 'Segítségre van szükséged? Küldj egy e-mailt',
       help_suff: 'és mi fölvesszük veled a kapcsolatot!',
-      resource_hub: 'Segédanyag központ', // {change}
+      resource_hub: 'Segédanyag központ',
       apcsp: 'Számítógép-tudományi alapelvek',
       parent: 'Szülők',
-      faq: 'GYIK'
+      faq: 'GYIK',
+      return_coco: '[AI_TRANSLATION]Vissza a CodeCombat-hoz.',
+      //    classes: "Classes",
+      term_of_service: '[AI_TRANSLATION]Szolgáltatási feltételek ',
+      esports: '[AI_TRANSLATION]E-sport',
+      browser_recommendation: '[AI_TRANSLATION]A legjobb élmény érdekében ajánljuk, hogy a Chrome legújabb verzióját használd. Töltsd le a böngészőt itt!',
+      ozaria_classroom: '[AI_TRANSLATION]Ozaria Osztályterem',
+      codecombat_classroom: '[AI_TRANSLATION]CodeCombat Tanterem',
+      ozaria_dashboard: '[AI_TRANSLATION]Ozaria műszerfal',
+      ozaria_teacher_dashboard: '[AI_TRANSLATION]Ozaria Tanári Irányítópult',
+      ozaria_admin_dashboard: '[AI_TRANSLATION]Ozaria Admin Vezérlőpult',
+      codecombat_dashboard: '[AI_TRANSLATION]CodeCombat Irányítópult',
+      codecombat_teacher_dashboard: '[AI_TRANSLATION]CodeCombat Tanári Irányítópult',
+      codecombat_admin_dashboard: '[AI_TRANSLATION]CodeCombat Admin Vezérlőpult',
+      professional_development: '[AI_TRANSLATION]Szakmai Fejlődés',
+      new: '[AI_TRANSLATION]Új!  ',
+      //    admin: "Admin",
+      api: '[AI_TRANSLATION]API',
+      api_dashboard: '[AI_TRANSLATION]API Vezérlőpult',
+      funding_resources_guide: '[AI_TRANSLATION]Finanszírozási Források Útmutató',
+      partnerships: '[AI_TRANSLATION]Partnerségek',
+      podcast: '[AI_TRANSLATION]A Podcastunk',
+      dashboard: '[AI_TRANSLATION]Irányítópult',
+      products: '[AI_TRANSLATION]Termékek',
+      live_online_classes: '[AI_TRANSLATION]Élő Online Órák',
+      codecombat_home: '[AI_TRANSLATION]CodeCombat Kezdőlap',
+      libraries: '[AI_TRANSLATION]Könyvtárak',
+      codecombat_worlds_on_roblox: '[AI_TRANSLATION]CodeCombat Világok a Robloxon',
+      pricing: '[AI_TRANSLATION]Árazás',
+      help_center: '[AI_TRANSLATION]Segítség Központ',
+      research_efficacy: '[AI_TRANSLATION]Kutatás - Hatékonyság',
+      research_impact: '[AI_TRANSLATION]Kutatás - Hatás',
+      terms: '[AI_TRANSLATION]Feltételek',
+      podcast_simple: '[AI_TRANSLATION]Podcast',
+      create_free_account: '[AI_TRANSLATION]Hozz létre ingyenes fiókot',
+      school_district_solutions: '[AI_TRANSLATION]Iskolai és Körzeti Megoldások',
+      teacher_toolkit_preview: '[AI_TRANSLATION]Tanári eszköztár előzetes',
+      teacher_toolkit: '[AI_TRANSLATION]Tanári Eszköztár',
+      efficacy_studies: '[AI_TRANSLATION]Hatékonysági tanulmányok',
+      success_stories: '[AI_TRANSLATION]Sikertörténetek',
+      hoc: '[AI_TRANSLATION]Kód Órája',
+      grants_funding_resources: '[AI_TRANSLATION]Támogatások és finanszírozási források',
+      //    accessibility: "Accessibility (ACR/VPAT)",
+      request_quote_demo: '[AI_TRANSLATION]Demó vagy Ajánlat Kérése',
+      coco_junior_beta: '[AI_TRANSLATION]CodeCombat Junior (Béta)',
+      //    coco_junior: "CodeCombat Junior",
+      ap_csp: '[AI_TRANSLATION]AP CSP',
+      ai_league_esports: '[AI_TRANSLATION]AI League Esports',
+      ai_hackstack_beta: '[AI_TRANSLATION]AI HackStack (Beta)',
+      ai_junior_beta: '[AI_TRANSLATION]AI Junior (Béta)',
+      premium_self_paced: '[AI_TRANSLATION]Prémium Önkéntes',
+      codequest: '[AI_TRANSLATION]CodeQuest',
+      library_solutions: '[AI_TRANSLATION]Könyvtár Megoldások',
+      partner_solutions: '[AI_TRANSLATION]Partneri megoldások',
+      teaching_solutions: '[AI_TRANSLATION]Oktatási Megoldások',
+      play2: '[AI_TRANSLATION]Játsz',
+      my_dashborads: '[AI_TRANSLATION]Saját Irányítópult',
+      //    resources: "Resources",
+      curriculum: '[AI_TRANSLATION]Tanterv',
+      company: '[AI_TRANSLATION]Cég',
+      coco_home_description: '[AI_TRANSLATION]Hozzáféréssel az összes 530 szinthez és exkluzív funkciókhoz, mint a háziállatok, csak prémium tárgyak és hősök, bárki teljesen elmerülhet a kódolás világában.',
+      coco_classroom_description: '[AI_TRANSLATION]Egy teljes informatikai tanterv, amely az alapvető fogalmaktól kezdve a webfejlesztésen és játékkészítésen át az AP CSP-ig építkezik.',
+      coco_junior_description: '[AI_TRANSLATION]A népszerű K-5 tantervünk fokozatos tanulási szinteket kínál, amelyek lassabb tempóban tanítják az alapvető kódolási fogalmakat, kifejezetten az általános iskolások számára tervezve.',
+      oz_classroom_description: '[AI_TRANSLATION]Egy elbűvölő narratív kódolási kaland, amely megalapozza a számítástechnika alapjait.',
+      ap_csp_description: '[AI_TRANSLATION]Az AP CSP tantervünket a College Board ajánlja, amely játék-alapú és könnyen alkalmazható eszközöket biztosít a diákoknak az AP vizsgára való felkészüléshez.',
+      ai_league_description: '[AI_TRANSLATION]Egy epikus versenyképes kódolós esports platform, amely bátorítja a kreatív programozási gyakorlást egy játék alapú környezetben.',
+      roblox_description: '[AI_TRANSLATION]Ez az MMORPG Lua kódolást tanít, és valódi platformot biztosít elképesztő játékok és élmények létrehozásához.',
+      ai_hackstack_description: '[AI_TRANSLATION]Az első generatív MI társ-eszköz, amelyet kifejezetten az AI-t újoncok számára készítettek, a diákok magánéletére és biztonságára összpontosítva.  ',
+      ai_junior_description: '[AI_TRANSLATION]Bemutat multimodális generatív AI-t egy egyszerű és intuitív platformon, amelyet kifejezetten K-5 osztályos diákok számára terveztek.',
+      learning_options: '[AI_TRANSLATION]Tanulási opciók',
+      ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      beta: '[AI_TRANSLATION]Béta',
     },
-    //    return_coco: "Return to CodeCombat"
-    //    classes: "Classes"
-    //    term_of_service: "Terms of Service"
-    //    esports: "Esports"
-    //    browser_recommendation: "For the best experience we recommend using the latest version of Chrome. Download the browser here!"
-    //    ozaria_classroom: "Ozaria Classroom"
-    //    codecombat_classroom: "CodeCombat Classroom"
-    //    ozaria_dashboard: "Ozaria Dashboard"
-    //    ozaria_teacher_dashboard: "Ozaria Teacher Dashboard"
-    //    ozaria_admin_dashboard: "Ozaria Admin Dashboard"
-    //    codecombat_dashboard: "CodeCombat Dashboard"
-    //    codecombat_teacher_dashboard: "CodeCombat Teacher Dashboard"
-    //    codecombat_admin_dashboard: "CodeCombat Admin Dashboard"
-    //    professional_development: "Professional Development"
-    //    new: "New!"
-    //    admin: "Admin"
-    //    api: "API"
-    //    api_dashboard: "API Dashboard"
-    //    funding_resources_guide: "Funding Resources Guide"
-    //    partnerships: "Partnerships"
-    //    podcast: "Our Podcast"
-    //    dashboard: "Dashboard"
-    //    products: "Products"
-    //    live_online_classes: "Live Online Classes"
-    //    codecombat_home: "CodeCombat Home"
-    //    libraries: "Libraries"
-    //    codecombat_worlds_on_roblox: "CodeCombat Worlds on Roblox"
-    //    pricing: "Pricing"
-    //    help_center: "Help Center"
-    //    research_efficacy: "Research - Efficacy"
-    //    research_impact: "Research - Impact"
 
     modal: {
       close: 'Bezár',
       okay: 'Oké',
       cancel: 'Mégsem',
-      try_again: 'Próbáld újra'
+      try_again: 'Próbáld újra',
     },
 
     not_found: {
-      page_not_found: 'Az oldal nem található'
+      page_not_found: 'Az oldal nem található',
     },
 
     diplomat_suggestion: {
-      title: 'Segítsd lefordítani a CodeCombat-ot!', // This shows up when a player switches to a non-English language using the language selector.
+      title: 'Segítsd lefordítani a CodeCombat-ot!',
       sub_heading: 'Szükségünk van a segítségedre!',
-      pitch_body: 'Az oldalt angol nyelven fejlesztettük, de máris rengeteg játékosunk van szerte a világban. Nagyon sokan szeretnének közülük magyarul játszani, de nem beszélnek angolul. Ha te beszélsz angolul is, magyarul is, kérlek jelentkezz Diplomatának, s segíts lefordítani mind a honlapot, mind a pályákat magyarra.', // {change}
+      pitch_body: 'Az oldalt angol nyelven fejlesztettük, de máris rengeteg játékosunk van szerte a világban. Nagyon sokan szeretnének közülük magyarul játszani, de nem beszélnek angolul. Ha te beszélsz angolul is, magyarul is, kérlek jelentkezz Diplomatának, s segíts lefordítani mind a honlapot, mind a pályákat magyarra.',
       missing_translations: 'Addig, amíg nincs minden lefordítva magyarra, angol szöveget fogsz látni ott, ahol még nincs fordítás.',
       learn_more: 'Tudj meg többet a Diplomatákról!',
-      subscribe_as_diplomat: 'Jelentkezz Diplomatának'
+      subscribe_as_diplomat: 'Jelentkezz Diplomatának',
     },
 
-    //  new_home_faq:
-    //    what_programming_languages: "What programming languages are available?"
-    //    python_and_javascript: "We currently support Python, JavaScript, C++, Java, and Lua."
-    //    why_python: "Why should you choose Python?"
-    //    why_python_blurb: "Python is both beginner-friendly and currently used by major corporations (such as Google). If you have younger or first-time learners, we strongly recommend Python."
-    //    why_javascript: "Why should you choose JavaScript?"
-    //    why_javascript_blurb: "JavaScript is the language of the web and is used across nearly every website. You may prefer to choose JavaScript if you are planning to also study web development. We’ve also made it easy for students to transition from Python to JavaScript-based web development."
-    //    javascript_versus_python: "JavaScript’s syntax is a little more difficult for beginners than Python, so if you cannot decide between the two, we recommend Python."
-    //    how_do_i_get_started: "How do I get started?"
-    //    getting_started_1: "Create your Teacher Account"
-    //    getting_started_2: "Create a class"
-    //    getting_started_3: "Add students"
-    //    getting_started_4: "Sit back and watch your students have fun learning to code"
-    //    main_curriculum: "Can I use CodeCombat or Ozaria as my main curriculum?"
-    //    main_curriculum_blurb: "Absolutely! We’ve spent time consulting with education specialists to craft classroom curriculum and materials specifically for teachers who are using CodeCombat or Ozaria without any prior computer science experience themselves. Many schools are implementing CodeCombat and/or Ozaria as the main computer science curriculum."
-    //    clever_instant_login: "Does CodeCombat and Ozaria support Clever Instant Login?"
-    //    clever_instant_login_blurb: "Yes! Check out our __clever__ for more details on how to get started."
-    //    clever_integration_faq: "Clever Integration FAQ"
-    //    google_classroom: "What about Google Classroom?"
-    //    google_classroom_blurb1: "Yup! Be sure to use the Google Single Sign-On (SSO) Modal to sign up for your teacher account. If you already have an account using your Google email, use the Google SSO modal to log in next time. In the Create Class modal, you will see an option to Link Google Classroom. We only support rostering via Google Classroom at this time."
-    //    google_classroom_blurb2: "Note: you must use Google SSO to sign up or log in at least once in order to see the Google Classroom integration option."
-    //    how_much_does_it_cost: "How much does it cost to access all of the available courses and resources?"
-    //    how_much_does_it_cost_blurb: "We customize solutions for schools and districts and work with you to understand your use case, context, and budget. __contact__ for further details! See also our __funding__ for how to leverage CARES Act funding sources like ESSER and GEER."
-    //    recommended_systems: "Is there a recommended browser and operating system?"
-    //    recommended_systems_blurb: "CodeCombat and Ozaria run best on computers with at least 4GB of RAM, on a modern browser such as Chrome, Safari, Firefox, or Edge. Chromebooks with 2GB of RAM may have minor graphics issues in later courses. A minimum of 200 Kbps bandwidth per student is required, although 1+ Mbps is recommended."
-    //    other_questions: "If you have any other questions, please __contact__."
-    //    see_faq_prefix: "See more"
-    //    see_faq_link: "frequently asked questions in our help center"
-    //    see_faq_suffix: "."
+    new_home_faq: {
+      what_programming_languages: '[AI_TRANSLATION]Milyen programozási nyelvek érhetők el?',
+      python_and_javascript: '[AI_TRANSLATION]Jelenleg támogatjuk a Python, JavaScript, C++, Java és Lua nyelveket.',
+      why_python: '[AI_TRANSLATION]Miért válaszd a Python-t?',
+      why_python_blurb: '[AI_TRANSLATION]A Python mind kezdőbarát, mind pedig olyan nagyvállalatok által használt (mint például a Google). Ha fiatalabb vagy első alkalommal tanulókkal van dolgunk, erősen ajánljuk a Python-t.',
+      why_javascript: '[AI_TRANSLATION]Miért válassz JavaScriptet?',
+      why_javascript_blurb: '[AI_TRANSLATION]A JavaScript a web nyelve, és szinte minden weboldalon használják. Érdemes lehet a JavaScriptet választani, ha a webfejlesztést is tervezi tanulni. Mi is megkönnyítettük a diákok számára a Pythonról JavaScript alapú webfejlesztésre való átmenetet.',
+      javascript_versus_python: '[AI_TRANSLATION]A JavaScript szintaxisa egy kicsit bonyolultabb a kezdőknek, mint a Pythoné, így ha nem tudsz dönteni a kettő között, javasoljuk a Python-t.',
+      how_do_i_get_started: '[AI_TRANSLATION]Hogyan kezdjem el?  ',
+      getting_started_1: '[AI_TRANSLATION]Hozd létre a tanári fiókodat',
+      getting_started_2: '[AI_TRANSLATION]Hozz létre egy osztályt',
+      getting_started_3: '[AI_TRANSLATION]Adj hozzá diákokat',
+      getting_started_4: '[AI_TRANSLATION]Dőlj hátra, és nézd, ahogy a diákjaid szórakozva tanulják a kódolást',
+      main_curriculum: '[AI_TRANSLATION]Használhatom a CodeCombat vagy Ozaria programot fő tananyagként?',
+      main_curriculum_blurb: '[AI_TRANSLATION]Abszolút! Oktatási szakértőkkel konzultáltunk, hogy olyan tantervet és anyagokat készíthessünk az osztályterem számára, amelyeket kifejezetten olyan tanároknak szánunk, akik CodeCombatet vagy Ozariát használnak anélkül, hogy saját maguknak bármilyen számítástechnikai tapasztalata lenne. Sok iskola a CodeCombatet és/vagy Ozariát használja a fő számítástechnikai tananyagként.',
+      clever_instant_login: '[AI_TRANSLATION]Támogatja a CodeCombat és az Ozaria a Clever Instant Login-t?',
+      clever_instant_login_blurb: '[AI_TRANSLATION]Igen! Nézd meg a __clever__-ünket további részletekért, hogyan kezdj neki.',
+      clever_integration_faq: '[AI_TRANSLATION]Okos Integráció GYIK ',
+      google_classroom: '[AI_TRANSLATION]Mi van a Google Classroom-mal?',
+      google_classroom_blurb1: '[AI_TRANSLATION]Igen! Mindenképpen használd a Google egyszeri bejelentkezést (SSO) a tanári fiók létrehozásához. Ha már van Google e-maillel regisztrált fiókod, használd a Google SSO-t a következő bejelentkezéshez. Az Osztály létrehozása modalban látni fogod a Google Classroom összekapcsolásának lehetőségét. Jelenleg csak a Google Classroom-on keresztüli diákregisztrációt támogatjuk.',
+      google_classroom_blurb2: '[AI_TRANSLATION]Megjegyzés: be kell jelentkezned vagy regisztrálnod a Google SSO-val legalább egyszer, hogy lásd a Google Classroom integrációs opcióját.',
+      how_much_does_it_cost: '[AI_TRANSLATION]Mennyibe kerül hozzáférni az összes elérhető kurzushoz és erőforráshoz?',
+      how_much_does_it_cost_blurb: '[AI_TRANSLATION]Szabjuk testre az iskolák és körzetek számára a megoldásokat, és azon dolgozunk együtt, hogy megértsük az esethasználatodat, kontextusodat és költségvetésedet. __contact__ további részletekért! Nézd meg a __funding__-ot is, hogy hogyan lehet felhasználni a CARES Act finanszírozási forrásokat, mint az ESSER és GEER.',
+      recommended_systems: '[AI_TRANSLATION]Van ajánlott böngésző és operációs rendszer?',
+      recommended_systems_blurb: '[AI_TRANSLATION]A CodeCombat és az Ozaria a legjobban olyan számítógépeken fut, amelyek legalább 4GB RAM-mal rendelkeznek, olyan modern böngészővel, mint a Chrome, Safari, Firefox vagy Edge. A 2GB RAM-mal rendelkező Chromebookok kisebb grafikai problémákat tapasztalhatnak a későbbi kurzusok során. Hallgatónként minimum 200 Kbps sávszélesség szükséges, bár az 1+ Mbps javasolt.',
+      other_questions: '[AI_TRANSLATION]Ha bármilyen más kérdésed van, kérlek __contact__.',
+      see_faq_prefix: '[AI_TRANSLATION]Nézd meg a többit',
+      see_faq_link: '[AI_TRANSLATION]gyakran ismételt kérdések a súgóközpontunkban  ',
+      //    see_faq_suffix: ".",
+      ai_bot_faq_title: '[AI_TRANSLATION]Mi az AI Level Help Bot és milyen intézkedések vannak a biztonság érdekében?',
+      ai_bot_faq_blurb: '[AI_TRANSLATION]A CodeCombat AI Chat Szint Segéd Bot AI-vezérelt tippekkel segíti a tanulókat a kódolási kihívások során, biztosítva egy irányított, mégis önálló tanulási élményt. A biztonság elsődleges, mivel az AI kiszűri a személyes adatokat és kiképzett a nem megfelelő kérések kezelésére.',
+    },
 
     play: {
-    //    title: "Play CodeCombat Levels - Learn Python, JavaScript, and HTML"
-    //    meta_description: "Learn programming with a coding game for beginners. Learn Python or JavaScript as you solve mazes, make your own games, and level up. Challenge your friends in multiplayer arena levels!"
-    //    level_title: "__level__ - CodeCombat"
+      title: '[AI_TRANSLATION]Játszd a CodeCombat szinteket - Tanulj Python-t, JavaScript-et és HTML-t\n',
+      meta_description: '[AI_TRANSLATION]Tanulj programozást egy kezdőknek szóló kódoló játékkal. Tanulj meg Pythont vagy JavaScriptet, miközben labirintusokat oldasz meg, saját játékokat készítesz és fejlődsz. Hívd ki barátaidat a többjátékos aréna szinteken!  ',
+      level_title: '[AI_TRANSLATION]__level__ - CodeCombat',
       level_title_ozaria: '__level__ - Ozaria',
       video_title: '__video__ | Videó pálya',
       game_development_title: '__level__ | Játékfejlesztés',
@@ -494,40 +536,43 @@ module.exports = {
       anon_signup_create_class: 'Szeretnél egy tantermet létrehozni?',
       anon_signup_setup_class: 'Hozz létre egy tantermet, adj hozzá diákokat, és kísérd figyelemmel a haladásukat!',
       anon_signup_create_teacher: 'Hozz létre egy ingyenes tanári azonosítót',
-      play_as: 'Játssz mint', // Ladder page
+      play_as: 'Játssz mint',
       get_course_for_class: 'A tantermeidhez adj hozzá játék-fejlesztési és egyéb kurzusokat!',
       request_licenses: 'A részletekért kérdezd iskolai kapcsolattartóinkat!',
-      compete: 'Mérkőzz!', // Course details page
-      spectate: 'Néző', // Ladder page
+      compete: 'Mérkőzz!',
+      spectate: 'Néző',
       simulate_all: 'Összes szimulálása',
-      players: 'Játékosok', // Hover over a level on /play
-      hours_played: 'Játékidő', // Hover over a level on /play
-      items: 'Tárgyak', // Tooltip on item shop button from /play
-      unlock: 'Feloldás', // For purchasing items and heroes
+      players: 'Játékosok',
+      hours_played: 'Játékidő',
+      items: 'Tárgyak',
+      unlock: 'Feloldás',
       confirm: 'Megerősítés',
-      owned: 'Megszerzett', // For items you own
+      owned: 'Megszerzett',
       locked: 'Zárolva',
       locked_by_teacher: 'Tanár által zárolva',
       available: 'Elérhető',
-      skills_granted: 'Elnyert képességek', // Property documentation details
-      heroes: 'Hősök', // Tooltip on hero shop button from /play
-      achievements: 'Eredmények', // Tooltip on achievement list button from /play
-      settings: 'Beállítások', // Tooltip on settings button from /play
-      poll: 'Kérdőív', // Tooltip on poll button from /play
-      next: 'Következő', // Go from choose hero to choose inventory before playing a level
-      change_hero: 'Hős váltás', // Go back from choose inventory to choose hero
+      skills_granted: 'Elnyert képességek',
+      heroes: 'Hősök',
+      achievements: 'Eredmények',
+      settings: 'Beállítások',
+      poll: 'Kérdőív',
+      next: 'Következő',
+      change_hero: 'Hős váltás',
       change_hero_or_language: 'Válts hőst vagy nyelvet',
+      //    change_language: "Code Language / Code Format",
       buy_gems: 'Vásárolj Drágköveket',
       subscribers_only: 'Csak előfizetőknek!',
       subscribe_unlock: 'Fizess elő, hogy hozzáférhess!',
       subscriber_heroes: 'Fizess elő még ma, hogy azonnal hozzáférhess Amara-hoz, Hushbaum-hoz és Hattori-hoz!',
       subscriber_gems: 'Fizess elő még ma, hogy megvehesd ezt a hőst drágakövekért!',
+      //    practice_license_required: "(license required for practice levels)",
       anonymous: 'Anonymus Játékos',
       level_difficulty: 'Nehézség: ',
-      awaiting_levels_adventurer_prefix: 'Minden héten öt új pályát teszünk elérhetővé.', // {change}
+      awaiting_levels_adventurer_prefix: 'Minden héten öt új pályát teszünk elérhetővé.',
       awaiting_levels_adventurer: 'Jelentkezz mint Kalandor',
       awaiting_levels_adventurer_suffix: 'legyél az első aki új pályákon játszik.',
       adjust_volume: 'Hangerő beállítása',
+      toggle_fullscreen: '[AI_TRANSLATION]1UP Záró Projekt Prototípus  ',
       campaign_multiplayer: 'Multiplayer Arénák',
       campaign_multiplayer_description: '... amelyekben a kódod felveheti a versenyt más játékosok kódjával',
       brain_pop_done: 'Legyőzted az Ogrékat a programkódoddal! Győztél!',
@@ -540,15 +585,23 @@ module.exports = {
       back_to_ozaria: 'Vissza az ozaria.com oldalra',
       customize_hero: 'Hős testreszabása',
       account_settings: 'Fiókbeállítások',
-      //    back_to_tutorial: "Back to tutorial"
-      //    teacher_vega_message: "Students are guided by these tutorial messages. In order to view these messages and to save your progress as you play through the game, please create a student account and play Ozaria as a student."
+      back_to_tutorial: '[AI_TRANSLATION]Vissza az oktatóanyaghoz',
+      teacher_vega_message: '[AI_TRANSLATION]A diákokat ezek a bemutató üzenetek vezetik. Hogy megtekintsd ezeket az üzeneteket és elmentsd a játék során elért haladásodat, kérlek, hozz létre egy diák fiókot és játssz Ozaria-ban diáként.',
       beta_levels_on: 'béta pályák be',
       beta_levels_turn_off: 'kikapcsolás',
-      confirm_m7_off: 'Biztos ki akarod kapcsolni a béta pályákat?'
+      confirm_m7_off: 'Biztos ki akarod kapcsolni a béta pályákat?',
+      play_codecombat: '[AI_TRANSLATION]Játssz CodeCombattal',
+      play_codecombat_junior: '[AI_TRANSLATION]Játssz a CodeCombat Juniorral',
+      //    age_codecombat: "Ages 8+",
+      //    age_codecombat_junior: "Ages 5-8",
+      //    age_description_codecombat: "Real Python or JavaScript coding for everyone",
+      //    age_description_codecombat_junior: "Blocks or simple text coding for beginners",
+      want_more_hints: '[AI_TRANSLATION]Akarsz több tippet?',
+      //    choose_your_adventure: "Choose Your Adventure",
     },
 
     code: {
-      if: 'ha', // Keywords--these translations show up on hover, so please translate them all, even if it's kind of long. (In the code editor, they will still be in English.)
+      if: 'ha',
       else: 'különben',
       elif: 'különben ha',
       while: 'amíg',
@@ -595,7 +648,7 @@ module.exports = {
       undefined: 'meghatározatlan',
       null: 'üres',
       nil: 'üres',
-      None: 'Semmi'
+      None: 'Semmi',
     },
 
     share_progress_modal: {
@@ -604,11 +657,11 @@ module.exports = {
       form_blurb: 'Írd be valamelyik szülőd e-mail-címét, és mi megmutatjuk neki!',
       form_label: 'E-mail-cím',
       placeholder: 'e-mail-cím',
-      title: 'Szép munka, Tanítvány'
+      title: 'Szép munka, Tanítvány',
     },
 
     login: {
-    //    auth_sign_up: "New to Ozaria? Create an Account"
+      auth_sign_up: '[AI_TRANSLATION]Új vagy az Ozariában? Hozz létre egy fiókot.',
       sign_up: 'Regisztráció',
       email_or_username: 'E-mail vagy felhasználónév',
       or: 'vagy',
@@ -620,26 +673,26 @@ module.exports = {
       finishing: 'Befejezés',
       sign_in_with_facebook: 'Jelentkezz be Facebook-kal',
       sign_in_with_gplus: 'Jelentkezz be G+-szal',
-      signup_switch: 'Hozz létre egy fiókot!'
+      signup_switch: 'Hozz létre egy fiókot!',
+      already_have_account1: '[AI_TRANSLATION]Már van CodeCombat Tanár vagy Diák fiókod?',
+      already_have_account2: '[AI_TRANSLATION]Be tudsz jelentkezni az Ozaria.com-ra azzal a fiókkal.',
+      sign_into_ozaria: '[AI_TRANSLATION]Jelentkezz be az Ozaria.com-ra',
+      individual_users_not_supported: '[AI_TRANSLATION]Az Ozaria csak osztálytermek számára készült! Kérjük, látogass el a CodeCombat oldalára, hogy folytathasd a játékot!',
+      accounts_merge_confirmation: '[AI_TRANSLATION]Ezzel a Google-fiókkal már van társított fiók. Szeretnéd egyesíteni ezeket a fiókokat?',
+      stop_spying: '[AI_TRANSLATION]Hagyd abba a kémkedést',
+      stop_switching: '[AI_TRANSLATION]Átkapcsolás Megállítása',
+      test_as_student: '[AI_TRANSLATION]Tesztelés diák módra',
+      gplus_linked: '[AI_TRANSLATION]Google-fiók sikeresen összekapcsolva',
+      plus_link_error: '[AI_TRANSLATION]Google Fiók összekapcsolása sikertelen',
+      email_or_username_or_library: '[AI_TRANSLATION]Email vagy felhasználónév vagy könyvtári kártyaszám',
     },
-    //    already_have_account1: "Already have a CodeCombat Teacher or Student account?"
-    //    already_have_account2: "You can sign into Ozaria.com using that account."
-    //    sign_into_ozaria: "Sign Into Ozaria.com"
-    //    individual_users_not_supported: "Ozaria is for classrooms only!  Please visit CodeCombat to continue playing!"
-    //    accounts_merge_confirmation: "There is an account associated with the email from this Google account. Would you like to merge these accounts?"
-    //    stop_spying: "Stop Spying"
-    //    stop_switching: "Stop Switching"
-    //    test_as_student: "Test as Student"
-    //    gplus_linked: "Google Account linked successfully"
-    //    plus_link_error: "Google Account linked failed"
-    //    email_or_username_or_library: "Email or Username or Library Card number"
 
     signup: {
       complete_subscription: 'Előfizetés létrehozása',
       create_student_header: 'Tanulói fiók létrehozása',
       create_teacher_header: 'Oktatói fiók létrehozása',
       create_individual_header: 'Egyéni fiók létrehozása',
-      email_announcements: 'Szeretnél kapni hírlevelet?', // {change}
+      email_announcements: 'Szeretnél kapni hírlevelet?',
       sign_in_to_continue: 'Lépj be vagy hozz létre egy felhasználót a folytatáshoz!',
       create_account_to_submit_multiplayer: 'Hozz létre egy ingyenes fiókot a többjátékos MI rangsorolásához, és fedezd fel az egész játékot!',
       teacher_email_announcements: 'Értesítéseket kérek az új tanári segédanyagokról, tantervekről és kurzusokról.',
@@ -658,7 +711,7 @@ module.exports = {
       birthday: 'Születésnap',
       parent_email_blurb: 'Biztosan már alig várod, hogy programozhass &mdash; mi legalább ilyen izgatottak vagyunk! A szüleidnek e-mailben elküldjük a további utasításokat ahhoz, hogy létrehozhassanak számodra egy fiókot. Küldj egy e-mailt {{email_link}}, ha kérdésed van.',
       classroom_not_found: 'Ezzel az osztálykóddal nem létezik osztály. Ellenőrizd a helyesírásod vagy fordulj segítségért a tanárodhoz.',
-      //    activation_code_used: "The activation code has been used. Check your spelling or ask your teacher for help."
+      activation_code_used: '[AI_TRANSLATION]Az aktivációs kódot már felhasználták. Ellenőrizd a helyesírást, vagy kérj segítséget a tanárodtól.',
       checking: 'Ellenőrzés...',
       account_exists: 'Ez az e-mail cím már foglalt:',
       sign_in: 'Feliratkozás',
@@ -695,60 +748,60 @@ module.exports = {
       account_created: 'A fiók létrejött.',
       confirm_student_blurb: 'Jegyezd fel az adatokat, mert később is szükséged lesz rájuk. A tanárod is tud segíteni, ha bármikor új jelszót szeretnél beállítani.',
       confirm_individual_blurb: 'Jegyezd fel a bejelentkezési adataidat, később is szükséged lehet rájuk. Erősítsd meg az e-mail címed, így akkor is helyreállíthatod a fiókod, ha elfelejtenéd a jelszavadat. Ellenőrizd a postafiókod.',
-      //    confirm_individual_blurb_without_email: "Write down your login information in case you need it later."
+      confirm_individual_blurb_without_email: '[AI_TRANSLATION]Írd le a bejelentkezési adataidat, hátha később szükség lesz rájuk.',
       write_this_down: 'Jegyezd fel ezeket az adatokat:',
       start_playing: 'Kezdd el a játékot!',
       sso_connected: 'Sikeresen kapcsolódtál:',
       select_your_starting_hero: 'Válaszd ki azt a hőst, amelyikkel el szeretnéd kezdeni a játékot:',
       you_can_always_change_your_hero_later: 'A kiválasztott hőst a későbbiekben bármikor lecserélheted.',
-      finish: 'Befejezés'
+      finish: 'Befejezés',
+      teacher_ready_to_create_class: '[AI_TRANSLATION]Készen állsz, hogy létrehozd az első osztályod!',
+      teacher_students_can_start_now_coco: '[AI_TRANSLATION]A diákjaid azonnal elkezdhetik az első kurzust, a Bevezetést a Számítástechnikába.',
+      teacher_students_can_start_now_ozar: '[AI_TRANSLATION]A diákjaid azonnal elkezdhetik játszani az első egységet, az 1. fejezetet: Fel a hegyen.',
+      teacher_list_create_class: '[AI_TRANSLATION]A következő képernyőn létrehozhatsz egy új osztályt.',
+      teacher_list_add_students: '[AI_TRANSLATION]Lépj be az osztályba a "Megtekintés" linkre kattintva, majd küldd el a diákjaidnak az Osztálykódot vagy URL-t. E-mailen keresztül is meghívhatod őket, ha van e-mail címük.',
+      teacher_list_resource_hub_1: '[AI_TRANSLATION]Nézd meg a',
+      //    teacher_list_resource_hub_2_coco: "Course Guides",
+      //    teacher_list_resource_hub_2_ozar: "Unit Guides",
+      teacher_list_resource_hub_3: '[AI_TRANSLATION]minden szint megoldásához, és a',
+      teacher_list_resource_hub_4: '[AI_TRANSLATION]Tanári Eszköztár',
+      teacher_list_resource_hub_5: '[AI_TRANSLATION]tantervi útmutatók, tevékenységek és egyéb dolgok számára!',
+      teacher_additional_questions: '[AI_TRANSLATION]Ennyi! Ha további segítségre van szükséged vagy kérdésed van, lépj kapcsolatba a(z) __supportEmail__ címmel.',
+      dont_use_our_email_silly: '[AI_TRANSLATION]Ne add meg a mi emailünket itt! Add meg a szüleid emailjét.',
+      want_codecombat_in_school: '[AI_TRANSLATION]Mindig szeretnél CodeCombatot játszani?',
+      eu_confirmation: '[AI_TRANSLATION]Egyetértek, hogy a CodeCombat tárolhatja az adataimat amerikai szervereken.',
+      eu_confirmation_place_of_processing: '[AI_TRANSLATION]Tudj meg többet az esetleges kockázatokról',
+      eu_confirmation_student: '[AI_TRANSLATION]Ha nem vagy biztos benne, kérdezd meg a tanárodat.',
+      eu_confirmation_individual: '[AI_TRANSLATION]Ha nem szeretnéd, hogy az adatokat az USA szerverein tároljuk, mindig játszhatsz névtelenül, kódod mentése nélkül.',
+      request_class_code: '[AI_TRANSLATION]Diákok, kérjetek egy Osztálykódot a tanárotoktól, hogy fiókot hozhassatok létre!',
+      educators_create_account: '[AI_TRANSLATION]Tanárok, hozzatok létre egy Tanári Fiókot, hogy ingyen hozzáférjetek az első egységhez!',
+      looking_for_classroom: '[AI_TRANSLATION]Osztálykeresés...\n',
+      create_your_educator_account: '[AI_TRANSLATION]Hozd létre az oktatói fiókodat',
+      educator_signup_list_1_title: '[AI_TRANSLATION]Nézd meg, mit látnak a diákjaid:',
+      educator_signup_list_1_desc: '[AI_TRANSLATION]Demózd az első egység minden játékszintjét',
+      educator_signup_list_2_title: '[AI_TRANSLATION]Tanári források:',
+      educator_signup_list_2_desc: '[AI_TRANSLATION]Hozzáférés a tantervhez, leckékhez, és még sok minden máshoz',
+      educator_signup_list_3_title: '[AI_TRANSLATION]Nézd meg, ahogy a tanítványaid boldogulnak:',
+      educator_signup_list_3_desc: '[AI_TRANSLATION]Próbáld ki az első egységet az osztályoddal ingyen',
+      signup_with_email: '[AI_TRANSLATION]Regisztráció Email-lel',
+      already_have_account: '[AI_TRANSLATION]Már van CodeCombat vagy Ozaria fiókod',
+      select_your_role: '[AI_TRANSLATION]Válaszd ki a szereped',
+      select_your_state: '[AI_TRANSLATION]Válaszd ki az államodat',
+      password_requirements: '[AI_TRANSLATION]4 és 64 karakter között ismétlés nélkül  ',
+      invalid: '[AI_TRANSLATION]Érvénytelen',
+      invalid_password: '[AI_TRANSLATION]Érvénytelen jelszó',
+      with: '[AI_TRANSLATION]-val/-vel',
+      want_to_play_codecombat: '[AI_TRANSLATION]Nem, nincs, de szeretnék játszani a CodeCombat-tal!',
+      have_a_classcode: '[AI_TRANSLATION]Van kódod az osztályhoz?',
+      yes_i_have_classcode: '[AI_TRANSLATION]Igen, van egy osztálykódom!',
+      enter_it_here: '[AI_TRANSLATION]Írd be ide:',
+      play_without_saving: '[AI_TRANSLATION]Játszd mentés nélkül',
     },
-    //    teacher_ready_to_create_class: "You're ready to create your first class!"
-    //    teacher_students_can_start_now_coco: "Your students will be able to start playing the first course, Introduction to Computer Science, immediately."
-    //    teacher_students_can_start_now_ozar: "Your students will be able to start playing the first unit, Chapter 1: Up The Mountain, immediately."
-    //    teacher_list_create_class: "On the next screen you will be able to create a new class."
-    //    teacher_list_add_students: "Add students to the class by clicking the View Class link, then sending your students the Class Code or URL. You can also invite them via email if they have email addresses."
-    //    teacher_list_resource_hub_1: "Check out the"
-    //    teacher_list_resource_hub_2_coco: "Course Guides"
-    //    teacher_list_resource_hub_2_ozar: "Unit Guides"
-    //    teacher_list_resource_hub_3: "for solutions to every level, and the"
-    //    teacher_list_resource_hub_4: "Teacher Toolkit"
-    //    teacher_list_resource_hub_5: "for curriculum guides, activities, and more!"
-    //    teacher_additional_questions: "That’s it! If you need additional help or have questions, reach out to __supportEmail__."
-    //    dont_use_our_email_silly: "Don't put our email here! Put your parent's email."
-    //    want_codecombat_in_school: "Want to play CodeCombat all the time?"
-    //    eu_confirmation: "I agree to allow CodeCombat to store my data on US servers."
-    //    eu_confirmation_place_of_processing: "Learn more about the possible risks"
-    //    eu_confirmation_student: "If you are not sure, ask your teacher."
-    //    eu_confirmation_individual: "If you do not want us to store your data on US servers, you can always keep playing anonymously without saving your code."
-    //    request_class_code: "Students, request a Class Code from your Teacher to create an Account!"
-    //    educators_create_account: "Educators, create a Teacher Account to access the first unit for free!"
-    //    looking_for_classroom: "Looking for classroom..."
-    //    create_your_educator_account: "Create your educator account"
-    //    educator_signup_list_1_title: "See what your students see:"
-    //    educator_signup_list_1_desc: "Demo each game level in the first unit"
-    //    educator_signup_list_2_title: "See teacher resources:"
-    //    educator_signup_list_2_desc: "Access scope and sequence, lessons, and more"
-    //    educator_signup_list_3_title: "See your students thrive:"
-    //    educator_signup_list_3_desc: "Try the first unit with your class for free"
-    //    signup_with_email: "Sign up with Email"
-    //    already_have_account: "Already have a CodeCombat or Ozaria account"
-    //    select_your_role: "Select your role"
-    //    select_your_state: "Select your state"
-    //    password_requirements: "4 to 64 characters with no repeating"
-    //    invalid: "Invalid"
-    //    invalid_password: "Invalid password"
-    //    with: "with"
-    //    want_to_play_codecombat: "No, I don't have one but want to play CodeCombat!"
-    //    have_a_classcode: "Have a Class Code?"
-    //    yes_i_have_classcode: "Yes, I have a Class Code!"
-    //    enter_it_here: "Enter it here:"
-    //    play_without_saving: "Play without saving"
 
     recover: {
       recover_account_title: 'Meglévő fiók visszaállítása',
       send_password: 'Küldj Új Jelszót',
-      recovery_sent: 'Új jelszó elküldve.'
+      recovery_sent: 'Új jelszó elküldve.',
     },
 
     items: {
@@ -757,7 +810,7 @@ module.exports = {
       armor: 'Vért',
       accessories: 'Kiegészítők',
       misc: 'Egyveleg',
-      books: 'Könyvek'
+      books: 'Könyvek',
     },
 
     common: {
@@ -766,9 +819,9 @@ module.exports = {
       ozaria: 'Ozaria',
       default_meta_description_coco: 'Tanulj gépelt kódot egy programozási játékon keresztül. Tanulj Pythont, JavaScriptet és HTML-t, miközben rejtvényeket oldasz meg, és megtanulod, hogyan készíts saját kódolási játékokat és weboldalakat..',
       default_meta_description_ozar: 'Az Ozaria egy informatikai program, egy kalandjáték és egy fantasy történet, ahol a diákok elsajátítják a kódolás elveszett mágiáját, hogy megmentsék a világukat..',
-      back: 'Vissza', // When used as an action verb, like "Navigate backward"
+      back: 'Vissza',
       coming_soon: 'Hamarosan!',
-      continue: 'Folytasd', // When used as an action verb, like "Continue forward"
+      continue: 'Folytasd',
       next: 'Következő',
       default_code: 'Alapértelmezett kód',
       loading: 'Töltés...',
@@ -786,7 +839,7 @@ module.exports = {
       publish: 'Publikálás',
       create: 'Létrehozás',
       fork: 'Villára vesz',
-      play: 'Játszd', // When used as an action verb, like "Play next level"
+      play: 'Játszd',
       retry: 'Próbáld újra!',
       actions: 'Lehetőségek',
       info: 'Infó',
@@ -809,7 +862,7 @@ module.exports = {
       locked: 'Zárolva',
       internal_error: 'Belső hiba',
       manage: 'Kezelés',
-      empty_results: 'Nincs eredmény.'
+      empty_results: 'Nincs eredmény.',
     },
 
     general: {
@@ -860,7 +913,7 @@ module.exports = {
       medium: 'Közepes',
       hard: 'Nehéz',
       player: 'Játékos',
-      player_level: 'Szint', // Like player level 5, not like level: Dungeons of Kithgard
+      player_level: 'Szint',
       warrior: 'Harcos',
       ranger: 'Vadász',
       wizard: 'Varázsló',
@@ -880,9 +933,9 @@ module.exports = {
       email_us: 'Küldj nekünk e-mailt',
       sales: 'Értékesítés',
       support: 'Támogatás',
-      here: 'itt'
+      here: 'itt',
+      from: '[AI_TRANSLATION]Tól',
     },
-    //    from: "From"
 
     units: {
       second: 'másodperc',
@@ -899,7 +952,7 @@ module.exports = {
       month: 'hónap',
       months: 'hónap',
       year: 'év',
-      years: 'év'
+      years: 'év',
     },
 
     play_level: {
@@ -916,26 +969,26 @@ module.exports = {
       course: 'Kurzus:',
       done: 'Kész',
       next_level: 'Következő pálya',
-      //    combo_challenge: "Combo Challenge"
-      //    concept_challenge: "Concept Challenge"
-      //    challenge: "Challenge"
-      //    challenge_unlocked: "Challenge Unlocked"
-      //    combo_challenge_unlocked: "Combo Challenge Unlocked"
-      //    concept_challenge_unlocked: "Concept Challenge Unlocked"
-      //    concept_challenge_complete: "Concept Challenge Complete!"
-      //    combo_challenge_complete: "Combo Challenge Complete!"
-      //    combo_challenge_complete_body: "Great job, it looks like you're well on your way to understanding __concept__!"
-      //    replay_level: "Replay Level"
-      //    combo_concepts_used: "__complete__/__total__ Concepts Used"
-      //    combo_all_concepts_used: "You used all concepts possible to solve the challenge. Great job!"
-      //    combo_not_all_concepts_used: "You used __complete__ out of the __total__ concepts possible to solve the challenge. Try to get all __total__ concepts next time!"
+      combo_challenge: '[AI_TRANSLATION]Kombó Kihívás',
+      concept_challenge: '[AI_TRANSLATION]Fogalom kihívás',
+      //    challenge: "Challenge",
+      challenge_unlocked: '[AI_TRANSLATION]Kihívás Feloldva',
+      combo_challenge_unlocked: '[AI_TRANSLATION]Kombó Kihívás Feloldva',
+      concept_challenge_unlocked: '[AI_TRANSLATION]Fogalmi Kihívás Feloldva',
+      concept_challenge_complete: '[AI_TRANSLATION]Fogalmi Kihívás Teljesítve!',
+      combo_challenge_complete: '[AI_TRANSLATION]Kombó kihívás teljesítve!',
+      combo_challenge_complete_body: '[AI_TRANSLATION]Nagyszerű munka, úgy tűnik, úton vagy a __koncepció__ megértéséhez!',
+      replay_level: '[AI_TRANSLATION]Szint újrajátszása',
+      combo_concepts_used: '[AI_TRANSLATION]__complete__/__total__ Felhasznált Fogalmak',
+      combo_all_concepts_used: '[AI_TRANSLATION]Minden lehetséges koncepciót felhasználtál a kihívás megoldásához. Nagyszerű munka!',
+      combo_not_all_concepts_used: '[AI_TRANSLATION]__complete__ fogalmat használtál a lehetséges __total__ fogalomból a kihívás megoldásához. Próbálj meg legközelebb minden __total__ fogalmat használni!',
       start_challenge: 'Kihívás indítása',
       next_game: 'Következő játék',
       languages: 'Nyelvek',
       programming_language: 'Programnyelv',
       show_menu: 'Játék Menü',
-      home: 'Kezdőlap', // Not used any more, will be removed soon.
-      level: 'Pálya', // Like "Level: Dungeons of Kithgard"
+      home: 'Kezdőlap',
+      level: 'Pálya',
       skip: 'Ugrás',
       game_menu: 'Játék Menü',
       restart: 'Előlről',
@@ -943,10 +996,10 @@ module.exports = {
       goal: 'Cél',
       challenge_level_goals: 'Kihívás szint célok',
       challenge_level_goal: 'Kihívás szint cél',
-      //    concept_challenge_goals: "Concept Challenge Goals"
-      //    combo_challenge_goals: "Challenge Level Goals"
-      //    concept_challenge_goal: "Concept Challenge Goal"
-      //    combo_challenge_goal: "Challenge Level Goal"
+      concept_challenge_goals: '[AI_TRANSLATION]Fogalmi Kihívás Céljai',
+      //    combo_challenge_goals: "Challenge Level Goals",
+      concept_challenge_goal: '[AI_TRANSLATION]Koncepció Kihívás Cél',
+      //    combo_challenge_goal: "Challenge Level Goal",
       running: 'Futás...',
       success: 'Sikerült!',
       incomplete: 'Hiányos',
@@ -960,11 +1013,11 @@ module.exports = {
       restart_confirm: 'Igen, újraindítás',
       test_level: 'Teszt pálya',
       victory: 'Győzelem',
-      victory_title_prefix: '',
+      //    victory_title_prefix: "",
       victory_title_suffix: 'Kész',
       victory_sign_up: 'Regisztrálj a friss infókért',
       victory_sign_up_poke: 'Szeretnéd, ha levelet küldenénk neked az újításokról? Regisztrálj ingyen egy fiókot, és nem maradsz le semmiről!',
-      victory_rate_the_level: 'Értékeld a pályát: ', // {change}
+      victory_rate_the_level: 'Értékeld a pályát: ',
       victory_return_to_ladder: 'Vissza a ranglétrához',
       victory_saving_progress: 'Folyamat mentése',
       victory_go_home: 'Vissza a kezdőoldalra',
@@ -984,9 +1037,10 @@ module.exports = {
       tome_cast_button_ran: 'Lefutott',
       tome_cast_button_update: 'Frissítés',
       tome_submit_button: 'Beküldés',
-      tome_reload_method: 'Eredeti Eljárás újratöltése', // {change}
+      tome_reload_method: 'Eredeti Eljárás újratöltése',
       tome_available_spells: 'Elérhető varázslatok',
       tome_your_skills: 'Képességeid',
+      blocks: '[AI_TRANSLATION]Blokkok',
       hints: 'Tippek',
       videos: 'Videók',
       hints_title: 'Tipp {{number}}',
@@ -1002,22 +1056,23 @@ module.exports = {
       problem_alert_title: 'Javítsd ki a Kódod',
       problem_alert_need_help: 'Segítségre van szükséged?',
       problem_alert_ask_the_ai: 'Kérdezd az MI-t',
+      problem_alert_need_hint: '[AI_TRANSLATION]Kellenek tippek? Kérdezheted az AI-tól.',
       time_current: 'Most:',
       time_total: 'Maximum:',
       time_goto: 'Menj',
       non_user_code_problem_title: 'Nem sikerült betölteni a pályát',
       infinite_loop_title: 'Végtelen ciklust észleltünk',
       infinite_loop_description: 'A kezdeti kód, ami a világot építi fel, nem fejeződött be. Valószínűleg vagy nagyon lassú, vagy végtelen ciklust tartalmaz. Esetleg hibát tartalmaz. Megpróbálkozhatsz a kód újrafuttatásával, vagy állítsd vissza a kódot a kezdő állapotba. Ha ez sem segít, kérlek tudasd velünk!',
-      //    non_user_code_problem_description: "The initial code to build the world never finished running because of an error: <pre>__error__</pre>You can either try running this code again or reset the code to the default state. If that doesn't fix it, please let us know."
+      non_user_code_problem_description: '[AI_TRANSLATION]A világ építésére szánt kezdeti kód nem fejeződött be hibabejegyzés miatt: <pre>__error__</pre>Újra próbálkozhatsz ezzel a kóddal, vagy visszaállíthatod az alapértelmezett állapotot. Ha ez sem segít, kérlek, jelezd felénk.',
       check_dev_console: 'Továbbá megnyithatod a böngésző konzolját is (developer console), hogy lásd mi a hiba.',
       check_dev_console_link: '(útmatató)',
       infinite_loop_try_again: 'Próbáld meg újra!',
       infinite_loop_reset_level: 'Pálya újrakezdés',
       infinite_loop_comment_out: 'Tegye a kódom kommentárba',
       tip_toggle_play: 'Játék/Szünet kapcsoló Ctrl+P.',
-      tip_scrub_shortcut: 'Ctrl+[ és Ctrl+] visszatekerés és gyors-előre.', // {change}
+      tip_scrub_shortcut: 'Ctrl+[ és Ctrl+] visszatekerés és gyors-előre.',
       tip_guide_exists: 'Hasznos információkért kattints az oldal tetején az útmutatóra..',
-      tip_open_source: 'A CodeCombat 100%-osan nyitott forráskódú.', // {change}
+      tip_open_source: 'A CodeCombat 100%-osan nyitott forráskódú.',
       tip_tell_friends: 'Élvezed a CodeCombat-ot? Mesélj rólunk a barátaidnak!',
       tip_beta_launch: 'CodeCombat Béta teszt 2013 Októberétől elérhető.',
       tip_think_solution: 'A megoldásra gondolj, ne a problémára!',
@@ -1082,16 +1137,16 @@ module.exports = {
       project_complete: 'Projekt kész!',
       share_this_project: 'Oszd meg ezt a projektet a barátaiddal vagy a családoddal:',
       ready_to_share: 'Készen állsz közzétenni a projektedet?',
-      //    click_publish: "Click \"Publish\" to make it appear in the class gallery, then check out what your classmates built! You can come back and continue to work on this project. Any further changes will automatically be saved and shared with your classmates."
-      //    already_published_prefix: "Your changes have been published to the class gallery."
-      //    already_published_suffix: "Keep experimenting and making this project even better, or see what the rest of your class has built! Your changes will automatically be saved and shared with your classmates."
+      click_publish: '[AI_TRANSLATION]Kattints a "Publish"-ra, hogy megjelenjen az osztály galériájában, majd nézd meg, mit építettek az osztálytársaid! Vissza tudsz térni és folytatni a munkát a projekten. Bármilyen további módosítás automatikusan mentésre és megosztásra kerül az osztálytársaiddal.  ',
+      already_published_prefix: '33.\nA változtatásaid közzétéve lettek az osztály galériában.\n',
+      already_published_suffix: '[AI_TRANSLATION]Kísérletezz tovább és tedd ezt a projektet még jobbá, vagy nézd meg, mit építettek a többiek! A változtatásaid automatikusan elmentődnek és megosztódnak az osztálytársaiddal.',
       view_gallery: 'Galéria megtekintése',
-      //    project_published_noty: "Your level has been published!"
+      project_published_noty: '[AI_TRANSLATION]A szinted ki lett adva!',
       keep_editing: 'Szerkesztés folytatása',
-      //    learn_new_concepts: "Learn new concepts"
-      //    watch_a_video: "Watch a video on __concept_name__"
-      //    concept_unlocked: "Concept Unlocked"
-      //    use_at_least_one_concept: "Use at least one concept: "
+      learn_new_concepts: '[AI_TRANSLATION]Tanulj új fogalmakat',
+      watch_a_video: '[AI_TRANSLATION]Nézz meg egy videót a __concept_name__ témáról',
+      concept_unlocked: '[AI_TRANSLATION]Koncepció Feloldva',
+      use_at_least_one_concept: '[AI_TRANSLATION]Használj legalább egy fogalmat: ',
       command_bank: 'Kódbank',
       learning_goals: 'Tanulási célok',
       start: 'Start',
@@ -1099,16 +1154,21 @@ module.exports = {
       capella_character: 'Capella karakter',
       octans_character: 'Octans karakter',
       click_to_continue: 'Kattints a folytatáshoz',
-      //    fill_in_solution: "Fill in solution"
-      //    toggle_solution: "Toggle solution"
-      //    play_as_humans: "Play As Red"
-      //    play_as_ogres: "Play As Blue"
+      fill_in_solution: '[AI_TRANSLATION]Oldd meg',
+      toggle_solution: '[AI_TRANSLATION]Váltás megoldásra',
+      play_as_humans: '[AI_TRANSLATION]Játék Pirosként',
+      play_as_ogres: '[AI_TRANSLATION]Játssz Kékben',
       changed: 'Utoljára szerkesztve ',
-      //    team_humans: "Red"
-      //    team_ogres: "Blue"
-      //    watch_game: "Spectate"
-      //    share_your_project: "Share Your Project"
-      //    keep_editing_your_project: "You can always keep editing your project, even after sharing it."
+      team_humans: '[AI_TRANSLATION]Piros',
+      team_ogres: '[AI_TRANSLATION]Kék',
+      watch_game: '[AI_TRANSLATION]Nézőként',
+      //    block_go: "go",
+      //    block_up: "up",
+      //    block_down: "down",
+      //    block_left: "left",
+      //    block_right: "right",
+      share_your_project: '[AI_TRANSLATION]Oszd meg a projektet',
+      keep_editing_your_project: '[AI_TRANSLATION]Projekted folyamatosan szerkeszthető, még megosztás után is.',
       copy_url: 'URL másolása',
       level_status: 'Állapot',
       level_status_locked: 'Zárolva',
@@ -1119,24 +1179,35 @@ module.exports = {
       level_status_optional: 'Opcionális',
       level_type_practice: 'Gyakorlás',
       level_type_challenge: 'Kihívás',
+      level_type_level: '[AI_TRANSLATION]Szint',
       level_type_cutscene: 'Vágójelenet',
-      //    level_type_capstone: "Capstone"
-      level_type_intro: 'Bevezető'
+      level_type_capstone: '[AI_TRANSLATION]Zárókő',
+      level_type_intro: 'Bevezető',
+      level_type_practice_level: '[AI_TRANSLATION]Gyakorló szint',
+      level_type_challenge_level: '[AI_TRANSLATION]Kihívás Szint',
+      level_type_cutscene_level: '[AI_TRANSLATION]Átvezető szint',
+      level_type_capstone_level: '[AI_TRANSLATION]Zárókő Szint',
+      level_type_capstone_project: '[AI_TRANSLATION]Záróprojekt',
+      level_type_intro_level: '[AI_TRANSLATION]Bevezető Szint',
+      content_type_avatar: '[AI_TRANSLATION]Avatar kiválasztás',
+      content_type_cinematic: '[AI_TRANSLATION]Mozifilm',
+      content_type_interactive: '[AI_TRANSLATION]Fogalmi Ellenőrzés',
+      content_type_arena: '[AI_TRANSLATION]Aréna',
+      feedback: '[AI_TRANSLATION]Visszajelzés',
+      ask_teacher_for_help: '[AI_TRANSLATION]Kérj segítséget a tanárodtól',
+      ask_teacher_for_help_offline: '[AI_TRANSLATION]A tanárod jelenleg offline',
+      not_enough_credits_bot: '[AI_TRANSLATION]Hoppá! Úgy tűnik, nincs elég lekérdezésed. Iratkozz fel most, és kapd meg a szükséges AI támogatáshoz szükséges lekérdezéseket!',
+      not_enough_credits_interval: '[AI_TRANSLATION]Nincs több kredit az __interval__-hoz. Felhasznált __amount__ kredit.',
+      not_enough_credits_interval_multiple: '[AI_TRANSLATION]Nincs több kredit __duration__ __interval__. Elfogyott __amount__ kredit.',
+      create_account_to_get_credits: '[AI_TRANSLATION]Hozz létre egy fiókot, hogy ingyenes krediteket kapj az AI által támogatott ügyfélszolgálat használatához!',
+      ask_teacher_for_credits: '[AI_TRANSLATION]Kérj a tanárodtól egy AI Hackstack licencet.',
+      get_credits: '[AI_TRANSLATION]Szerezd meg a krediteket',
+      get_ai_hs_license: '[AI_TRANSLATION]Szerezd meg az AI Hackstack Licencet',
+      use: '[AI_TRANSLATION]Használj  ',
+      learn_to_use: '[AI_TRANSLATION]Használat megtanulása  ',
+      //    navigate_to_previous_page: "Navigate to the previous page",
+      //    navigate_to_next_page: "Navigate to the next page",
     },
-    //    level_type_practice_level: "Practice Level"
-    //    level_type_challenge_level: "Challenge Level"
-    //    level_type_cutscene_level: "Cutscene Level"
-    //    level_type_capstone_level: "Capstone Level"
-    //    level_type_capstone_project: "Capstone Project"
-    //    level_type_intro_level: "Intro Level"
-    //    content_type_avatar: "Avatar Selection"
-    //    content_type_cinematic: "Cinematic"
-    //    content_type_interactive: "Concept Check"
-    //    feedback: "Feedback"
-    //    ask_teacher_for_help: "Ask your teacher for help"
-    //    ask_teacher_for_help_offline: "Your Teacher is currently offline"
-    //    not_enough_credits_bot: "Opps! Looks like you don’t have enough queries. Subscribe now and get the queries you want for the AI powered support you need!"
-    //    not_enough_credits_interval: "No credits left for the __interval__. Consumed __amount__ credits."
 
     apis: {
       methods: 'Eljárások',
@@ -1156,33 +1227,35 @@ module.exports = {
       jquery: 'jQuery',
       json: 'JSON',
       number: 'Number',
-      webjavascript: 'JavaScript'
+      webjavascript: 'JavaScript',
     },
 
-    //  amazon_hoc:
-    //    title: "Keep Learning with Amazon!"
-    //    congrats: "Congratulations on conquering that challenging Hour of Code!"
-    //    educate_1: "Now, keep learning about coding and cloud computing with AWS Educate, an exciting, free program from Amazon for both students and teachers. With AWS Educate, you can earn cool badges as you learn about the basics of the cloud and cutting-edge technologies such as gaming, virtual reality, and Alexa."
-    //    educate_2: "Learn more and sign up here"
-    //    future_eng_1: "You can also try to build your own school facts skill for Alexa"
-    //    future_eng_2: "here"
-    //    future_eng_3: "(device is not required). This Alexa activity is brought to you by the"
-    //    future_eng_4: "Amazon Future Engineer"
-    //    future_eng_5: "program which creates learning and work opportunities for all K-12 students in the United States who wish to pursue computer science."
+    amazon_hoc: {
+      title: '[AI_TRANSLATION]Folytasd a tanulást az Amazonnal!',
+      congrats: '[AI_TRANSLATION]Gratulálok, hogy meghódítottad ezt a kihívást jelentő Kód Óráját!',
+      educate_1: '[AI_TRANSLATION]Most pedig folytasd a kódolás és felhőalapú számítástechnika tanulását az AWS Educate programmal, amely egy izgalmas, ingyenes lehetőség az Amazon-tól diákok és tanárok számára egyaránt. Az AWS Educate keretén belül menő jelvényeket szerezhetsz, miközben megismered a felhő alapjait és a csúcstechnológiákat, mint például a játékfejlesztés, virtuális valóság és Alexa.',
+      educate_2: '[AI_TRANSLATION]Tudj meg többet és iratkozz fel itt',
+      future_eng_1: '[AI_TRANSLATION]Kipróbálhatod, hogy saját iskolai tények készségét építsd Alexa számára',
+      future_eng_2: '[AI_TRANSLATION]itt',
+      future_eng_3: '[AI_TRANSLATION](az eszköz nem szükséges). Ezt az Alexa tevékenységet támogatta',
+      future_eng_4: '[AI_TRANSLATION]Amazon Jövőbeli Mérnöke',
+      future_eng_5: '[AI_TRANSLATION]program, amely tanulási és munkalehetőségeket teremt az Egyesült Államokban minden K-12 diák számára, akik szeretnék tanulni a számítástechnikát.',
+    },
 
     live_class: {
       title: 'Köszönjük!',
       content: 'Elképesztő! Épp most indítottunk egy élő online órát.',
-      link: 'Készen állsz arra, hogy előrébb juss a kódolásban?'
+      link: 'Készen állsz arra, hogy előrébb juss a kódolásban?',
     },
 
-    //  code_quest:
-    //    great: "Great!"
-    //    join_paragraph: "Join the largest international Python AI coding tournament for all ages and compete for the top of the leaderboard! This month-long global battle starts August 1st and includes $5k worth of prizes and a virtual awards ceremony where we'll announce winners and recognize your coding skills."
-    //    link: "Click here to register and learn more"
-    //    global_tournament: "Global Tournament"
-    //    register: "Register"
-    //    date: "Aug 1 - Aug 31"
+    code_quest: {
+      great: '[AI_TRANSLATION]Nagyszerű!\n',
+      join_paragraph: '[AI_TRANSLATION]Csatlakozz a legnagyobb nemzetközi Python AI kódolási versenyhez minden korosztály számára, és versenyezz a ranglista éléért! Ez az egy hónapos globális küzdelem augusztus 1-jén kezdődik, és 5000 dollár értékű díjakat tartalmaz, valamint egy virtuális díjátadó ünnepséget, ahol bejelentjük a győzteseket és elismerjük kódolási képességeidet.',
+      link: '[AI_TRANSLATION]Kattints ide a regisztrációhoz és további információkért',
+      global_tournament: '[AI_TRANSLATION]Globális Torna',
+      register: '[AI_TRANSLATION]Regisztrálj',
+      date: '[AI_TRANSLATION]Aug 1 - Aug 31',
+    },
 
     play_game_dev_level: {
       created_by: 'Készítette: {{name}}',
@@ -1198,13 +1271,14 @@ module.exports = {
       goal_defeat_amount: 'Győzz le __amount__ ellenfelet!',
       goal_move: 'Menj oda minden piros X jelhez!',
       goal_collect: 'Gyűjts össze minden tárgyat!',
-      goal_collect_amount: 'Gyűjts össze __amount__ tárgyat!'
+      goal_collect_amount: 'Gyűjts össze __amount__ tárgyat!',
     },
 
     game_menu: {
       inventory_tab: 'Raktár',
       save_load_tab: 'Ment/Betölt',
       options_tab: 'Beállítások',
+      my_code_tab: '[AI_TRANSLATION]My Code',
       guide_tab: 'Vezérfonal',
       guide_video_tutorial: 'Bevezető videó',
       guide_tips: 'Tippek',
@@ -1212,14 +1286,17 @@ module.exports = {
       auth_tab: 'Iratkozz fel!',
       inventory_caption: 'Szereld fel a hősöd!',
       choose_hero_caption: 'Válassz hős, nyelvet.',
+      change_langugae_caption: '[AI_TRANSLATION]Válassz nyelvet',
+      change_language_tab: '[AI_TRANSLATION]Nyelv',
       options_caption: 'Beállítások módosítása',
+      my_code_caption: '[AI_TRANSLATION]Gyors Kód Akciók',
       guide_caption: 'Jegyzőkönyv és tippek',
       multiplayer_caption: 'Játssz a barátaiddal!',
-      auth_caption: 'Mentsd el a fejlődésed.'
+      auth_caption: 'Mentsd el a fejlődésed.',
     },
 
     leaderboard: {
-      view_other_solutions: 'Más Megoldások Megtekintése', // {change}
+      view_other_solutions: 'Más Megoldások Megtekintése',
       scores: 'Pontok',
       top_players: 'Legjobb játékosok',
       day: 'Ma',
@@ -1234,7 +1311,7 @@ module.exports = {
       survival_time: 'Túlélted',
       defeated: 'Ellenfél legyőzve',
       code_length: 'Kód sorainak száma',
-      score_display: '__scoreType__: __score__'
+      score_display: '__scoreType__: __score__',
     },
 
     inventory: {
@@ -1250,7 +1327,7 @@ module.exports = {
       unequip: 'Levesz',
       warrior_only: 'Csak harcos',
       ranger_only: 'Csak őr',
-      wizard_only: 'Csak varázsló'
+      wizard_only: 'Csak varázsló',
     },
 
     buy_gems: {
@@ -1267,27 +1344,27 @@ module.exports = {
       price: 'x {{gems}} / hó',
       buy_premium: 'Vegyél Premium tagságot',
       purchase: 'Vásárlás',
-      purchased: 'Megvetted'
+      purchased: 'Megvetted',
     },
 
     subscribe_for_gems: {
       prompt_title: 'Nincs elég drágaköved!',
-      prompt_body: 'Fizess elő a Prémiumra, hogy drágaköveket szerezz és még több pályához hozzáférj!'
+      prompt_body: 'Fizess elő a Prémiumra, hogy drágaköveket szerezz és még több pályához hozzáférj!',
     },
 
     earn_gems: {
       prompt_title: 'Nincs elég drágaköved',
-      prompt_body: 'Játssz tovább, hogy szerezz még!'
+      prompt_body: 'Játssz tovább, hogy szerezz még!',
     },
 
     subscribe: {
-    //    best_deal: "Best Deal!"
-    //    confirmation: "Congratulations! You now have a CodeCombat Premium Subscription!"
-    //    premium_already_subscribed: "You're already subscribed to Premium!"
-    //    subscribe_modal_title: "CodeCombat Premium"
-      comparison_blurb: 'Élesítsd képességeid CodeCombat feliratkozással!', // {change}
+      best_deal: '[AI_TRANSLATION]Legjobb Ajánlat!',
+      confirmation: '[AI_TRANSLATION]Gratulálok! Most már van egy CodeCombat Prémium Előfizetésed!',
+      premium_already_subscribed: '[AI_TRANSLATION]Már elő vagy fizetve a Premiumra!',
+      subscribe_modal_title: '[AI_TRANSLATION]CodeCombat Prémium',
+      comparison_blurb: 'Élesítsd képességeid CodeCombat feliratkozással!',
       must_be_logged: 'Ehhez be kell jelentkezned. Kérlek regisztrálj, vagy lépj be a fenti menüben!',
-      subscribe_title: 'Feliratkozás', // Actually used in subscribe buttons, too
+      subscribe_title: 'Feliratkozás',
       unsubscribe: 'Leiratkozás',
       confirm_unsubscribe: 'Leiratkozás megerősítése',
       never_mind: 'Nembaj, akkor is Szeretlek',
@@ -1297,128 +1374,136 @@ module.exports = {
       sorry_to_see_you_go: 'Sajnáljuk hogy elmész. Kérlek tudasd velünk mit csinálhattunk volna jobban.',
       unsubscribe_feedback_placeholder: 'O, mit tettünk?',
       stripe_description: 'Havi előfizetés',
-      //    stripe_yearly_description: "Annual Subscription"
-      //    buy_now: "Buy Now"
+      stripe_yearly_description: '[AI_TRANSLATION]Éves Előfizetés',
+      buy_now: '[AI_TRANSLATION]Vedd meg most',
       subscription_required_to_play: 'Ehhez a szinthez elő kell fizetnek.',
       unlock_help_videos: 'Végy előfizetést, hogy feloldd az összes videó oktatóanyagot.',
-      personal_sub: 'Egyéni előfizetés', // Accounts Subscription View below
+      personal_sub: 'Egyéni előfizetés',
       loading_info: 'Előfizetési információk betöltése...',
       managed_by: 'Kezelő',
       will_be_cancelled: 'Törlés dátuma',
       currently_free: 'Jelenleg ingyenes előfizetéssel rendelkezel',
       currently_free_until: 'Jelenlegi előfizetésed lejárati dátuma __date__',
-      //    free_subscription: "Free subscription"
+      free_subscription: '[AI_TRANSLATION]Ingyenes előfizetés',
       was_free_until: 'Ingyenes előfizetésed lejárati dátuma',
       managed_subs: 'Kezelt előfizetések',
       subscribing: 'Előfizetés folyamatban',
       current_recipients: 'Jelenlegi címzettek',
       unsubscribing: 'Leiratkozás',
       subscribe_prepaid: 'Az előre utalt előfizetési kód használatához kattints az Előfizetés lehetőségre',
-      using_prepaid: 'Előre utalt előfizetési kód használata havi előfizetéshez'
+      using_prepaid: 'Előre utalt előfizetési kód használata havi előfizetéshez',
+      //    subscribe_to_premium: "Subscribe to Premium",
+      feature_level_access: '[AI_TRANSLATION]Hozzáférés 600+ elérhető szinthez',
+      feature_heroes: '[AI_TRANSLATION]Oldj fel exkluzív hősöket és kedvenceket',
+      feature_learn: '[AI_TRANSLATION]Tanulj játékokat és weboldalakat készíteni',
+      feature_languages: '[AI_TRANSLATION]Szerezd meg az összes támogatott nyelvet',
+      //    feature_aiyouth: "",
+      feature_gems: '[AI_TRANSLATION]Szerezz __gems__ drágaköveket/hónap (__gems12__ drágakő/év)',
+      //    feature_all_products: "4-in-1: CodeCombat Home, CodeCombat Junior, CodeCombat Worlds on Roblox, and CodeCombat AI HackStack",
+      //    feature_products: "Access CodeCombat Junior, CodeCombat & AI HackStack",
+      month_price: '[AI_TRANSLATION]$__price__/mo',
+      month_price_without_currency: '[AI_TRANSLATION]__price__/hó',
+      first_month_price: '[AI_TRANSLATION]Csak $__price__ az első hónapodért!',
+      lifetime: '[AI_TRANSLATION]Élettartam hozzáférés',
+      lifetime_price: '[AI_TRANSLATION]$__price__',
+      year_subscription: '[AI_TRANSLATION]Éves Előfizetés',
+      year_price: '[AI_TRANSLATION]$__price__/év',
+      year_price_without_currency: '[AI_TRANSLATION]__price__/yr',
+      support_part1: '[AI_TRANSLATION]Segítségre van szükséged a fizetéssel kapcsolatban vagy inkább PayPal-t használnál? Email',
+      support_part2: '[AI_TRANSLATION]support@codecombat.com  ',
+      go_prepaid: '[AI_TRANSLATION]Kattints ide a kód beolvasása és vásárlás után',
+      forever: '[AI_TRANSLATION]Mindörökké  ',
+      subscription_status: '[AI_TRANSLATION]Előfizetésed státusza',
+      currently_not_free: '[AI_TRANSLATION]Még nincs előfizetésed.',
+      online_classes: '[AI_TRANSLATION]Online órák',
+      feature_ai_level_bot: '[AI_TRANSLATION]Gyorsítsd fel a tanulást AI-alapú támogatással',
+      sure_buy_as_parent: '[AI_TRANSLATION]Biztos, hogy prémium hozzáférést akarsz magadnak a gyereked helyett?',
     },
-    //    feature_level_access: "Access 500+ levels available"
-    //    feature_heroes: "Unlock exclusive heroes and pets"
-    //    feature_learn: "Learn to make games and websites"
-    //    feature_languages: "Get all supported languages"
-    //    feature_aiyouth: ""
-    //    feature_gems: "Earn __gems__ gems/mo (__gems12__ gems/yr)"
-    //    month_price: "$__price__/mo"
-    //    month_price_without_currency: "__price__/mo"
-    //    first_month_price: "Only $__price__ for your first month!"
-    //    lifetime: "Lifetime Access"
-    //    lifetime_price: "$__price__"
-    //    year_subscription: "Annual Subscription"
-    //    year_price: "$__price__/yr"
-    //    year_price_without_currency: "__price__/yr"
-    //    support_part1: "Need help with payment or prefer PayPal? Email"
-    //    support_part2: "support@codecombat.com"
-    //    go_prepaid: "Click here after scaning the code and purchasing"
-    //    forever: "Forever"
-    //    subscription_status: "Your Subscription Status"
-    //    currently_not_free: "You don't have a Subscription yet."
-    //    online_classes: "Online Classes"
-    //    feature_ai_level_bot: "Get AI powered debugging support"
 
-    //  announcement:
-    //    now_available: "Now available for subscribers!"
-    //    subscriber: "subscriber"
-    //    cuddly_companions: "Cuddly Companions!" # Pet Announcement Modal
-    //    kindling_name: "Kindling Elemental"
-    //    kindling_description: "Kindling Elementals just want to keep you warm at night. And during the day. All the time, really."
-    //    griffin_name: "Baby Griffin"
-    //    griffin_description: "Griffins are half eagle, half lion, all adorable."
-    //    raven_name: "Raven"
-    //    raven_description: "Ravens are excellent at gathering shiny bottles full of health for you."
-    //    mimic_name: "Mimic"
-    //    mimic_description: "Mimics can pick up coins for you. Move them on top of coins to increase your gold supply."
-    //    cougar_name: "Cougar"
-    //    cougar_description: "Cougars like to earn a PhD by Purring Happily Daily."
-    //    fox_name: "Blue Fox"
-    //    fox_description: "Blue foxes are very clever and love digging in the dirt and snow!"
-    //    pugicorn_name: "Pugicorn"
-    //    pugicorn_description: "Pugicorns are some of the rarest creatures and can cast spells!"
-    //    wolf_name: "Wolf Pup"
-    //    wolf_description: "Wolf pups excel in hunting, gathering, and playing a mean game of hide-and-seek!"
-    //    ball_name: "Red Squeaky Ball"
-    //    ball_description: "ball.squeak()"
-    //    collect_pets: "Collect pets for your heroes!"
-    //    each_pet: "Each pet has a unique helper ability!"
-    //    upgrade_to_premium: "Become a {{subscriber}} to equip pets."
-    //    play_second_kithmaze: "Play {{the_second_kithmaze}} to unlock the Wolf Pup!"
-    //    the_second_kithmaze: "The Second Kithmaze"
-    //    keep_playing: "Keep playing to discover the first pet!"
-    //    coming_soon: "Coming soon"
-    //    ritic: "Ritic the Cold" # Ritic Announcement Modal
-    //    ritic_description: "Ritic the Cold. Trapped in Kelvintaph Glacier for countless ages, finally free and ready to tend to the ogres that imprisoned him."
-    //    ice_block: "A block of ice"
-    //    ice_description: "There appears to be something trapped inside..."
-    //    blink_name: "Blink"
-    //    blink_description: "Ritic disappears and reappears in a blink of an eye, leaving nothing but a shadow."
-    //    shadowStep_name: "Shadowstep"
-    //    shadowStep_description: "A master assassin knows how to walk between the shadows."
-    //    tornado_name: "Tornado"
-    //    tornado_description: "It is good to have a reset button when one's cover is blown."
-    //    wallOfDarkness_name: "Wall of Darkness"
-    //    wallOfDarkness_description: "Hide behind a wall of shadows to prevent the gaze of prying eyes."
-    //    notifications: "Notifications"
-    //    x_announcement: "__x__ Notification"
-    //    x_announcements: "__x__ Notifications"
-    //    x_announcement_with_unread: "__x__ Notification (__y__ unread)"
-    //    x_announcements_with_unread: "__x__ Notifications (__y__ unread)"
-    //    see_more: "See __unread__ more unread Notifications"
-    //    mark_read: "Mark Read"
-    //    read_all: "Read All"
-    //    more_announcements: "more notifications..."
+    announcement: {
+      now_available: '[AI_TRANSLATION]Most elérhető az előfizetők számára!',
+      subscriber: '[AI_TRANSLATION]előfizető',
+      cuddly_companions: '[AI_TRANSLATION]Ölelgethető társak!',
+      kindling_name: '[AI_TRANSLATION]Gyújtóst Elem  ',
+      kindling_description: '[AI_TRANSLATION]A Kindling Elementálok csak éjszaka akarnak melegen tartani. És nappal is. Valójában mindig.',
+      griffin_name: '[AI_TRANSLATION]Baby Griff',
+      griffin_description: '[AI_TRANSLATION]A griffek félig sasok, félig oroszlánok, teljesen bájosak.',
+      raven_name: '[AI_TRANSLATION]Holló  ',
+      raven_description: '[AI_TRANSLATION]A hollók kiválóak az egészséggel teli csillogó üvegek gyűjtésében.',
+      mimic_name: '[AI_TRANSLATION]Mimick  ',
+      mimic_description: '[AI_TRANSLATION]A mimikák felvehetnek neked érméket. Mozgasd őket az érmékre, hogy növeld az aranykészleted.',
+      cougar_name: '[AI_TRANSLATION]Párduc  ',
+      cougar_description: '[AI_TRANSLATION]A pumák szeretnek napi örömteli dorombolással PhD-t szerezni.',
+      fox_name: '[AI_TRANSLATION]Kék róka',
+      fox_description: '[AI_TRANSLATION]A kék rókák nagyon okosak, és imádnak ásni a földben és a hóban!',
+      pugicorn_name: '[AI_TRANSLATION]Pugicorn  ',
+      pugicorn_description: '[AI_TRANSLATION]Pugikornisok a legritkább lények közé tartoznak, és varázslatokat is képesek szórni!',
+      wolf_name: '[AI_TRANSLATION]Farkaskölyök',
+      wolf_description: '[AI_TRANSLATION]A farkaskölykök kiválóak a vadászatban, gyűjtögetésben és a bújócska játékban!  ',
+      ball_name: '[AI_TRANSLATION]Piros Nyikorgó Labda',
+      ball_description: '[AI_TRANSLATION]ball.squeak()',
+      collect_pets: '[AI_TRANSLATION]Gyűjts kisállatokat hőseid számára!',
+      each_pet: '[AI_TRANSLATION]Minden kisállat egyedi segítő képességgel rendelkezik!',
+      upgrade_to_premium: '[AI_TRANSLATION]Légy {{subscriber}}, hogy állatokat fogadhass fel.',
+      play_second_kithmaze: '[AI_TRANSLATION]Játszd le a {{the_second_kithmaze}} hogy feloldd a Farkaskölyköt!',
+      //    the_second_kithmaze: "The Second Kithmaze",
+      keep_playing: '[AI_TRANSLATION]Játssz tovább, hogy felfedezd az első házikedvencet!  ',
+      coming_soon: '[AI_TRANSLATION]Hamarosan',
+      ritic: '[AI_TRANSLATION]Ritic a Hideg  ',
+      ritic_description: '[AI_TRANSLATION]Ritic, a Hideg. Számtalan éven át fogságban volt a Kelvintaph-gleccserben, végül kiszabadult és készen áll gondoskodni az ogrék börtönéről.',
+      ice_block: '[AI_TRANSLATION]Egy jégtömb',
+      ice_description: '[AI_TRANSLATION]Úgy tűnik, van valami csapdába esve belül...',
+      blink_name: '15.\nPislantás\n',
+      blink_description: '[AI_TRANSLATION]Ritic eltűnik és újra előbukkan egy szempillantás alatt, nem hagyva maga után mást, csak egy árnyékot.',
+      shadowStep_name: '[AI_TRANSLATION]Árnyéklépés',
+      shadowStep_description: '[AI_TRANSLATION]Egy mester bérgyilkos tudja, hogyan járjon az árnyékok között.',
+      tornado_name: '[AI_TRANSLATION]Tornádó',
+      tornado_description: '[AI_TRANSLATION]Jó, ha van egy reset gomb, ha lebuksz.',
+      wallOfDarkness_name: '[AI_TRANSLATION]A Sötétség Fala',
+      wallOfDarkness_description: '[AI_TRANSLATION]Bújj el egy árnyékfal mögé, hogy elkerüld a kíváncsi szemeket.',
+      notifications: '[AI_TRANSLATION]Értesítések',
+      x_announcement: '[AI_TRANSLATION]__x__ Értesítés',
+      x_announcements: '[AI_TRANSLATION]__x__ Értesítések',
+      x_announcement_with_unread: '[AI_TRANSLATION]__x__ Értesítés (__y__ olvasatlan)',
+      x_announcements_with_unread: '[AI_TRANSLATION]__x__ Értesítések (__y__ olvasatlan)',
+      see_more: '[AI_TRANSLATION]Nézd meg __unread__ további olvasatlan értesítéseket',
+      mark_read: '[AI_TRANSLATION]Jelölve olvasottként  ',
+      read_all: '[AI_TRANSLATION]Mindent Olvasni',
+      more_announcements: '[AI_TRANSLATION]több értesítés...',
+    },
 
     avatar_selection: {
       pick_an_avatar: 'Válassz egy avatárt, ami játékosként téged fog képviselni',
-      select_avatar_title: 'Choose Player Avatar'
+      select_avatar_title: 'Choose Player Avatar',
     },
 
-    //  premium_features:
-    //    get_premium: "Get<br>CodeCombat<br>Premium" # Fit into the banner on the /features page
-    //    master_coder: "Become a Master Coder by subscribing today!"
-    //    paypal_redirect: "You will be redirected to PayPal to complete the subscription process."
-    //    subscribe_now: "Subscribe Now"
-    //    hero_blurb_1: "Get access to __premiumHeroesCount__ super-charged subscriber-only heroes! Harness the unstoppable power of Okar Stompfoot, the deadly precision of Naria of the Leaf, or summon \"adorable\" skeletons with Nalfar Cryptor."
-    //    hero_blurb_2: "Premium Warriors unlock stunning martial skills like Warcry, Stomp, and Hurl Enemy. Or, play as a Ranger, using stealth and bows, throwing knives, traps! Try your skill as a true coding Wizard, and unleash a powerful array of Primordial, Necromantic or Elemental magic!"
-    //    hero_caption: "Exciting new heroes!"
-    //    pet_blurb_1: "Pets aren't just adorable companions, they also provide unique functionality and methods. The Baby Griffin can carry units through the air, the Wolf Pup plays catch with enemy arrows, the Cougar is fond of chasing ogres around, and the Mimic attracts coins like a magnet!"
-    //    pet_blurb_2: "Collect all the pets to discover their unique abilities!"
-    //    pet_caption: "Adopt pets to accompany your hero!"
-    //    game_dev_blurb: "Learn game scripting and build new levels to share with your friends! Place the items you want, write code for unit logic and behavior, and see if your friends can beat the level!"
-    //    game_dev_caption: "Design your own games to challenge your friends!"
-    //    everything_in_premium: "Everything you get in CodeCombat Premium:"
-    //    list_gems: "Receive bonus gems to buy gear, pets, and heroes"
-    //    list_levels: "Gain access to __premiumLevelsCount__ more levels"
-    //    list_heroes: "Unlock exclusive heroes, include Ranger and Wizard classes"
-    //    list_game_dev: "Make and share games with friends"
-    //    list_web_dev: "Build websites and interactive apps"
-    //    list_items: "Equip Premium-only items like pets"
-    //    list_support: "Get Premium support to help you debug tricky code"
-    //    list_clans: "Create private clans to invite your friends and compete on a group leaderboard"
-    //    ai_bot_learning: "AI Powered support to accelerate your learning!"
-    //    ai_bot_description: "Meet DebugBot AI, CodeCombat’s AI powered assistant. This powerful helper can evaluate your code, point out errors, explain how to fix them, and provide all the context you need to understand the “why”. It’s instant support when you need it most."
+    premium_features: {
+      get_premium: '[AI_TRANSLATION]Szerezz<br>CodeCombat<br>Premiumot',
+      master_coder: '[AI_TRANSLATION]Válj a Kódmesterévé azzal, hogy előfizetsz még ma!',
+      paypal_redirect: '[AI_TRANSLATION]Átirányítunk a PayPal-re, hogy befejezhesd az előfizetési folyamatot.',
+      subscribe_now: '[AI_TRANSLATION]Iratkozz fel most',
+      hero_blurb_1: '[AI_TRANSLATION]Szerezz hozzáférést __premiumHeroesCount__ szuper-erős, kizárólag előfizetők számár elérhető hőshöz! Használd Okar Lábnyom földrengető erejét, Naria a Levél halálos pontosságát, vagy idézz "aranyos" csontvázakat Nalfar Kriptátorral.',
+      hero_blurb_2: '[AI_TRANSLATION]Prémium Harcosok hihetetlen harci képességeket oldanak fel, mint a Harci Kiáltás, Taposás és Ellenség Dobás. Vagy, játssz Rangerként, használva lopakodást, íjat, dobókéseket, csapdákat! Próbáld ki magad valódi kódoló Varázslóként, és szabadítsd el az Ősi, Nekromanta vagy Elementális mágia hatalmas sorozatát!',
+      hero_caption: '[AI_TRANSLATION]Izgalmas új hősök!',
+      pet_blurb_1: '[AI_TRANSLATION]A kis kedvencek nemcsak aranyos társak, hanem egyedi funkciókat és metódusokat is kínálnak. A Kis Griffin a levegőben tud egységeket szállítani, a Farkaskölyök elkapja az ellenséges nyilakat, a Puma imád ogrek után szaladgálni, és a Mimic mágnesként vonzza a pénzérméket!',
+      pet_blurb_2: '[AI_TRANSLATION]Gyűjtsd össze az összes háziállatot, hogy felfedezd egyedi képességeiket!',
+      pet_caption: '[AI_TRANSLATION]Fogadjatok örökbe háziállatokat, hogy elkísérjék a hősötöket!',
+      game_dev_blurb: '[AI_TRANSLATION]Tanulj játék szkriptelést és építs új pályákat, amelyeket megoszthatsz a barátaiddal! Helyezd el az elemeket, amiket szeretnél, írj kódot az egységek logikájához és viselkedéséhez, és nézd meg, a barátaid le tudják-e győzni a pályát!',
+      game_dev_caption: '[AI_TRANSLATION]Tervezd meg saját játékaidat, hogy kihívd a barátaidat!',
+      everything_in_premium: '[AI_TRANSLATION]Minden, amit a CodeCombat Premium nyújt:',
+      list_gems: '[AI_TRANSLATION]Bónusz drágaköveket kapni, hogy felszerelést, háziállatokat és hősöket vehess',
+      list_levels: '[AI_TRANSLATION]Hozzáférés __premiumLevelsCount__ további szinthez',
+      list_heroes: '[AI_TRANSLATION]Oldj fel exkluzív hősöket, köztük az Íjász és Varázsló osztályokat',
+      list_game_dev: '[AI_TRANSLATION]Készíts és ossz meg játékokat barátaidal',
+      list_web_dev: '[AI_TRANSLATION]Weboldalakat és interaktív alkalmazásokat építeni',
+      list_items: '[AI_TRANSLATION]Felszerelés Premium-only tárgyakkal, mint például kedvencek',
+      list_support: '[AI_TRANSLATION]Szerezz Prémium támogatást, hogy segítsenek hibajavítani bonyolult kódokat',
+      list_clans: '[AI_TRANSLATION]Hozz létre privát klánokat, hogy meghívd a barátaidat és egy csoportos ranglistán versenyezz.',
+      ai_bot_learning: '[AI_TRANSLATION]AI által vezérelt támogatás a tanulási eredmények felgyorsításához!',
+      ai_bot_description: '[AI_TRANSLATION]A CodeCombat AI által meghajtott tippek funkciója képes értékelni a kódot, rámutatni a hibákra és megmagyarázni, hogyan lehet azokat kijavítani. A legfontosabb, hogy minden szükséges kontextust biztosít ahhoz, hogy megértsük a miértet, anélkül, hogy az egész megoldást megadná. Mivel csak az aktuális kódproblémák támogatása érhető el, a fiatal tanulóknak még mindig végig kell menniük minden szint kódolási kihívásán. A prémium előfizetők napi <b>10 AI tippet</b> kapnak, hogy biztosan mindig megkapják a szükséges támogatást.',
+      list_ai_bot: '[AI_TRANSLATION]A prémium előfizetők napi 10 AI segítséget kapnak',
+      ai_bot_notice: '[AI_TRANSLATION]*AZ AI tipp díjak változhatnak.',
+    },
 
     choose_hero: {
       choose_hero: 'Válassz hőst.',
@@ -1432,18 +1517,28 @@ module.exports = {
       lua_blurb: 'Játék programozó nyelv',
       java_blurb: '(Csak előfizetőknek) Android és vállalati felhasználók.',
       cpp_blurb: '(Csak előfizetőknek) Játékfejlesztés és nagy teljesítményű számítástechnika.',
+      code_format: '[AI_TRANSLATION]Kód Formátum',
+      text_code: '[AI_TRANSLATION]Szövegkód',
+      blocks_and_code: '[AI_TRANSLATION]Blokkok és kód',
+      blocks_text: '[AI_TRANSLATION]Blokkok',
+      blocks_icons: '[AI_TRANSLATION]Blokkok (ikonok)',
+      //    blocks_icons_helptext: "Junior only",
+      text_code_blurb: '[AI_TRANSLATION]Írj szöveges kódot egy valódi kódszerkesztőben',
+      blocks_and_code_blurb: '[AI_TRANSLATION]Blokkok és szövegkód egymás mellett',
+      blocks_text_blurb: '[AI_TRANSLATION]Blokkok húzása és ejtése tabletekre vagy fiatalabb tanulóknak',
+      blocks_icons_blurb: '[AI_TRANSLATION]Ikonalapú blokkok telefonokhoz vagy olvasás előtti gyerekek számára',
       status: 'Státusz',
       weapons: 'Fegyverek',
       weapons_warrior: 'Kardok - Rövid hatótávolság, mágikus erő nélkül.',
       weapons_ranger: 'Számszeríj, Fegyverek - Nagy hatótávolság, mágikus erő nélkül.',
       weapons_wizard: 'Pálcák és Botok - Nagy hatótávolság és mágikus erő.',
-      attack: 'Támadás', // Can also translate as "Attack"
+      attack: 'Támadás',
       health: 'Élet',
       speed: 'Sebesség',
       regeneration: 'Gyógyulás',
-      range: 'Hatótáv', // As in "attack or visual range"
-      blocks: 'Blokkolás', // As in "this shield blocks this much damage"
-      backstab: 'Hátbaszúrás', // As in "this dagger does this much backstab damage"
+      range: 'Hatótáv',
+      blocks: 'Blokkolás',
+      backstab: 'Hátbaszúrás',
       skills: 'Képességek',
       attack_1: 'Sebez',
       attack_2: 'az alábbi',
@@ -1453,9 +1548,13 @@ module.exports = {
       health_3: 'páncél életerő.',
       speed_1: 'Mozog',
       speed_2: 'méter / másodperc.',
-      available_for_purchase: 'Megvehető', // Shows up when you have unlocked, but not purchased, a hero in the hero store
-      level_to_unlock: 'Szükséges pályák:', // Label for which level you have to beat to unlock a particular hero (click a locked hero in the store to see)
-      restricted_to_certain_heroes: 'Csak bizonyos hős játszhatja ezt a pályát.'
+      available_for_purchase: 'Megvehető',
+      level_to_unlock: 'Szükséges pályák:',
+      restricted_to_certain_heroes: 'Csak bizonyos hős játszhatja ezt a pályát.',
+      code_format_not_supported: '[AI_TRANSLATION]Nem támogatott',
+      code_format_disable_by_teacher: '[AI_TRANSLATION]Tanár által letiltva  ',
+      code_language_subscriber_only: '[AI_TRANSLATION]Csak Előfizetőknek\n',
+      code_language_not_support_by_blocks: '[AI_TRANSLATION]Nem támogatott blokkokkal',
     },
 
     char_customization_modal: {
@@ -1463,18 +1562,18 @@ module.exports = {
       body: 'Test',
       name_label: 'Hős neve',
       hair_label: 'Hajszín',
-      skin_label: 'Bőrszín'
+      skin_label: 'Bőrszín',
     },
 
     skill_docs: {
-      function: 'függvény (function)', // skill types
+      function: 'függvény (function)',
       method: 'metódus',
       snippet: 'snippet',
       number: 'szám',
       array: 'tömb',
       object: 'objektum',
       string: 'szöveg (string)',
-      writable: 'írható', // Hover over "attack" in Your Skills while playing a level to see most of this
+      writable: 'írható',
       read_only: 'csak olvasható',
       action: 'Akció',
       spell: 'Varázsige',
@@ -1486,7 +1585,7 @@ module.exports = {
       action_radius: 'Körzet',
       action_duration: 'Hatásidő',
       example: 'Példa',
-      ex: 'pl.', // Abbreviation of "example"
+      ex: 'pl.',
       current_value: 'Aktuális érték',
       default_value: 'Eredeti érték',
       parameters: 'Paraméterek',
@@ -1495,16 +1594,16 @@ module.exports = {
       returns: 'Visszatérés',
       granted_by: 'Megkapva',
       still_undocumented: 'Még mindig nem dokumentált, sajnálom.',
-      description_coming_soon: 'Leírás hamarosan'
+      description_coming_soon: 'Leírás hamarosan',
     },
 
     save_load: {
       granularity_saved_games: 'Mentve',
-      granularity_change_history: 'Történet'
+      granularity_change_history: 'Történet',
     },
 
     options: {
-      general_options: 'Általános beállítások', // Check out the Options tab in the Game Menu while playing a level
+      general_options: 'Általános beállítások',
       volume_label: 'Hangerő',
       music_label: 'Zene',
       music_description: 'Háttérzene ki/bekapcsolása',
@@ -1517,17 +1616,19 @@ module.exports = {
       editor_config_indentguides_label: 'Bekezdés segítő',
       editor_config_indentguides_description: 'Vízszintes vonalak megjelenítése a jobb áttekinthetőség érdekében.',
       editor_config_behaviors_label: 'Okos viselkedés',
-      editor_config_behaviors_description: 'Automata zárójel és idézet befejezés.'
+      editor_config_behaviors_description: 'Automata zárójel és idézet befejezés.',
+      editor_config_wide_editor_label: '[AI_TRANSLATION]Széles Szerkesztő Engedélyezése',
+      editor_config_wide_editor_description: '[AI_TRANSLATION]Növeld a szerkesztő szélességét, mint a régi módban',
+      editor_config_screen_reader_mode_label: '[AI_TRANSLATION]Képernyőolvasó mód engedélyezése',
+      editor_config_screen_reader_mode_label_disable: '[AI_TRANSLATION]Képernyőolvasó mód kikapcsolása',
+      editor_config_screen_reader_mode_description: '[AI_TRANSLATION]A szintek szöveges megjelenítése vizuális helyett.',
+      editor_config_livecompletion_disabled_by_teacher: '[AI_TRANSLATION]A tanárod kikapcsolta az automatikus kiegészítést.\n',
     },
-    //    editor_config_screen_reader_mode_label: "Enable Screen Reader Mode"
-    //    editor_config_screen_reader_mode_label_disable: "Disable Screen Reader Mode"
-    //    editor_config_screen_reader_mode_description: "Display levels in text rather than visually."
-    //    editor_config_livecompletion_disabled_by_teacher: "Your teacher has disabled your autocomplete."
 
     about: {
-    //    title: "About CodeCombat - Engaging Students, Empowering Teachers, Inspiring Creation"
-    //    meta_description: "Our mission is to level computer science through game-based learning and make coding accessible to every learner. We believe programming is magic and want learners to be empowered to to create things from pure imagination."
-    //    learn_more: "Learn More"
+      title: '[AI_TRANSLATION]Erdő Betörés Befejezve',
+      meta_description: '[AI_TRANSLATION]Küldetésünk, hogy játék alapú oktatással szintre emeljük az informatika oktatását, és elérhetővé tegyük a kódolást minden tanuló számára. Hisszük, hogy a programozás varázslat, és azt szeretnénk, hogy a tanulók képesek legyenek tiszta képzeletből dolgokat létrehozni.',
+      learn_more: '[AI_TRANSLATION]Tudj meg többet',
       main_title: 'Ha meg akarsz tanulni programozni, rengeteg kódot kell írnod.',
       main_description: 'A CodeCombat szerepe ebben az, hogy mindezt mosolyogva tedd.',
       mission_link: 'Küldetés',
@@ -1539,72 +1640,74 @@ module.exports = {
       mission_description_2: 'Úgy tűnik, hogy ez a módszer a tanulást is felgyorsítja. Jelentősen felgyorsítja. A különbség olyan, mint ha az útmutató olvasása helyett egy jót beszélgetnénk. Ezt a laza beszélgetős módszert szeretnénk elhozni minden iskola és <strong>minden egyes diák</strong> életébe, mert mindenkinek lehetőséget kell adni, hogy elsajátítsa a programozás varázslatos tudományát.',
       team_title: 'Ismerd meg a CodeCombat csapatát',
       team_values: 'A nyitott párbeszédben, az egymás iránti tiszteletben hiszünk, ahol a legjobb ötlet a nyerő. A döntéseink piackutatáson alapulnak, a folyamataink kialakítása pedig a kézzelfogható eredmények létrehozását célozza meg. Mindenki együttműködő és az ügyvezetőtől a GitHub fejlesztőkig mindenki aktívan részt vesz a munkában. Nagyrértékeljük a növekedést és készek vagyunk tanulni egymástól.',
-      nick_title: 'Programozó', // {change}
-      //    csr_title: "Customer Success Representative"
-      //    csm_title: "Customer Success Manager"
-      //    scsm_title: "Senior Customer Success Manager"
-      //    ae_title: "Account Executive"
-      //    sae_title: "Senior Account Executive"
-      //    sgd_title: "Senior Game Developer"
-      //    gd_title: "Game Developer"
-      //    dois_title: "Director of Inside Sales"
-      //    ism_title: "Inside Sales Manager"
-      //    sism_title: "Senior Inside Sales Manager"
-      //    shan_title: "Head of Marketing, CodeCombat Greater China"
-      //    run_title: "Head of Operations, CodeCombat Greater China"
-      //    lance_title: "Head of Technology, CodeCombat Greater China"
-      //    zhiran_title: "Head of Curriculum, CodeCombat Greater China"
-      //    yuqiang_title: "Head of Innovation, CodeCombat Greater China"
-      //    swe_title: "Software Engineer"
-      //    sswe_title: "Senior Software Engineer"
-      //    css_title: "Customer Support Specialist"
-      //    am_cs_title: "Associate Manager, Customer Success"
-      //    css_qa_title: "Customer Support / QA Specialist"
-      //    maya_title: "Senior Curriculum Developer"
-      //    bill_title: "General Manager, CodeCombat Greater China"
-      //    pvd_title: "Product and Visual Designer"
-      //    spvd_title: "Senior Product and Visual Designer"
-      //    daniela_title: "Marketing Manager"
-      //    mm_title: "Marketing Manager"
-      //    bobby_title: "Senior Game Designer"
-      //    brian_title: "Senior Game Design Manager"
-      //    stephanie_title: "Customer Support Specialist"
-      //    sdr_title: "Sales Development Representative"
-      //    bd_pr_title: "Business Development and Partnerships Representative"
+      nick_title: 'Programozó',
+      csr_title: '[AI_TRANSLATION]Ügyfélkapcsolati képviselő',
+      csm_title: '[AI_TRANSLATION]Ügyfélsiker Menedzser',
+      scsm_title: '[AI_TRANSLATION]Senior Ügyfélsiker Menedzser',
+      ae_title: '[AI_TRANSLATION]Számla vezető',
+      sae_title: '[AI_TRANSLATION]Vezető Számlavezető',
+      sgd_title: '[AI_TRANSLATION]Vezető Játék Fejlesztő',
+      gd_title: '[AI_TRANSLATION]Játékfejlesztő',
+      dois_title: '[AI_TRANSLATION]Belső Értékesítési Igazgató',
+      ism_title: '[AI_TRANSLATION]Belső Értékesítési Menedzser',
+      sism_title: '[AI_TRANSLATION]Szenior Belső Értékesítési Menedzser',
+      shan_title: '[AI_TRANSLATION]Belső Értékesítés, Európa',
+      run_title: '[AI_TRANSLATION]Operációs vezető, CodeCombat Nagy-Kína',
+      lance_title: '[AI_TRANSLATION]Műszaki vezető, CodeCombat Nagy-Kína',
+      zhiran_title: '[AI_TRANSLATION]Tananyag Vezető, CodeCombat Nagy-Kína',
+      yuqiang_title: '[AI_TRANSLATION]Innovációs vezető, CodeCombat Nagy-Kína',
+      swe_title: '[AI_TRANSLATION]Szoftvermérnök',
+      sswe_title: '[AI_TRANSLATION]Szenior Szoftverfejlesztő Mérnök',
+      css_title: '[AI_TRANSLATION]Ügyfélszolgálati szakember',
+      am_cs_title: '[AI_TRANSLATION]Ügyfélsiker Társvezetője',
+      css_qa_title: '[AI_TRANSLATION]Ügyfélszolgálat / QA Szakértő ',
+      maya_title: '[AI_TRANSLATION]Vezető Tantervfejlesztő  ',
+      bill_title: '[AI_TRANSLATION]Általános Vezető, CodeCombat Nagy-Kína',
+      pvd_title: '[AI_TRANSLATION]Termék- és vizuális tervező',
+      spvd_title: '[AI_TRANSLATION]Senior termék- és vizuális tervező',
+      daniela_title: '[AI_TRANSLATION]Marketing vezető',
+      mm_title: '[AI_TRANSLATION]Marketing vezető',
+      bobby_title: '[AI_TRANSLATION]Vezető Játéktervező',
+      brian_title: '[AI_TRANSLATION]Vezető játéktervezési menedzser',
+      stephanie_title: '[AI_TRANSLATION]Ügyfélszolgálati szakember',
+      sdr_title: '[AI_TRANSLATION]Értékesítési Fejlesztési Képviselő',
+      bd_pr_title: '[AI_TRANSLATION]Üzletfejlesztési és Partnerségi Képviselő',
       retrostyle_title: 'Illusztráció',
       retrostyle_blurb: 'RetroStyle Games',
       community_title: '...és a nyílt támogatói közösségünk',
-      //    lgd_title: "Lead Game Designer"
-      //    oa_title: "Operations Associate"
-      //    ac_title: "Administrative Coordinator"
-      //    sac_title: "Senior Administrative Coordinator"
-      //    ea_title: "Executive Assistant"
-      //    om_title: "Operations Manager"
-      //    som_title: "Senior Operations Manager"
-      //    sales_om_title: "Sales Operations Manager"
-      //    pe_title: "Principal Engineer"
-      //    mo_title: "Manager, Operations"
-      //    smo_title: "Senior Manager, Operations"
-      //    do_title: "Director of Operations"
-      //    vp_o_title: "VP, Operations"
-      //    scd_title: "Senior Curriculum Developer"
-      //    lcd_title: "Lead Curriculum Developer"
-      //    cd_title: "Curriculum Developer"
-      //    sem_title: "Senior Education Manager"
-      //    de_title: "Director of Education"
-      //    vpm_title: "VP, Marketing"
-      //    vps_title: "VP, Sales"
-      //    oi_title: "Online Instructor"
-      //    m_oi_title: "Manager, Online Instruction"
-      //    aoim_title: "Associate Online Instructor Manager"
-      //    bdm_title: "Business Development Manager"
-      community_subtitle: 'Eddig több mint 450 támogató járult hozzá a CodeCombat építéséhez, és minden héten egyre többen csatlakoznak!', // {change}
-      //    community_description_3: "CodeCombat is a"
-      //    community_description_link_2: "community project"
-      community_description_1: 'A CodeCombat egy közösségi kezdeményezés, így játékosok százai csatlakoztak önkéntesen, akik új szinteket, új funkciókat hoztak létre, tesztelték és javították a programot. Sőt, az önkéntes fordítók révén a játék már 50 nyelven elérhető! A fejlesztők, támogatók és az egész közösség is rengeteget nyer az ötletek megosztása és az együttes erőfeszítéseink által. A játék számtalan nyílt forráskódú projektből tevődik össze, így mi is visszadunk a közösségnek, és egy izgalmas utat nyitunk a kis felfedezőknek a kódolás világába. A CodeCombat közösséghez bárki csatlakozhat! Látogass el a', // {change}
+      lgd_title: '[AI_TRANSLATION]Fő Játékkészítő',
+      oa_title: '[AI_TRANSLATION]Operációs Munkatárs',
+      ac_title: '[AI_TRANSLATION]Adminisztratív koordinátor',
+      sac_title: '[AI_TRANSLATION]Felsővezetői Koordinátor',
+      oss_title: '[AI_TRANSLATION]Műveleti Támogató Specialista',
+      ea_title: '[AI_TRANSLATION]Vezető Asszisztens',
+      om_title: '[AI_TRANSLATION]Műveleti Vezető',
+      som_title: '[AI_TRANSLATION]Idősebb műveleti vezető',
+      sales_om_title: '[AI_TRANSLATION]Értékesítési Operációk Menedzser',
+      pe_title: '[AI_TRANSLATION]Főmérnök',
+      mo_title: '[AI_TRANSLATION]Menedzser, Műveletek',
+      smo_title: '[AI_TRANSLATION]Senior Manager, Operations',
+      do_title: '[AI_TRANSLATION]Műveleti igazgató',
+      vp_o_title: '[AI_TRANSLATION]VP, Műveletek',
+      scd_title: '[AI_TRANSLATION]Vezető Tantervfejlesztő  ',
+      lcd_title: '[AI_TRANSLATION]Tartalomfejlesztési Vezető',
+      cd_title: '[AI_TRANSLATION]Tananyagfejlesztő',
+      sem_title: '[AI_TRANSLATION]Szenior Oktatási Menedzser',
+      de_title: '[AI_TRANSLATION]Oktatási Igazgató',
+      vpm_title: '[AI_TRANSLATION]VP, Marketing',
+      vps_title: '[AI_TRANSLATION]Értékesítési Alelnök',
+      vpsm_title: '[AI_TRANSLATION]VP, Értékesítés és Marketing',
+      oi_title: '[AI_TRANSLATION]Online Oktató',
+      m_oi_title: '[AI_TRANSLATION]Menedzser, Online Útmutatás',
+      aoim_title: '[AI_TRANSLATION]Online Instruktor Menedzser',
+      bdm_title: '[AI_TRANSLATION]Üzletfejlesztési menedzser  ',
+      community_subtitle: 'Eddig több mint 450 támogató járult hozzá a CodeCombat építéséhez, és minden héten egyre többen csatlakoznak!',
+      community_description_3: '[AI_TRANSLATION]A CodeCombat egy',
+      community_description_link_2: '[AI_TRANSLATION]közösségi projekt',
+      community_description_1: 'A CodeCombat egy közösségi kezdeményezés, így játékosok százai csatlakoztak önkéntesen, akik új szinteket, új funkciókat hoztak létre, tesztelték és javították a programot. Sőt, az önkéntes fordítók révén a játék már 50 nyelven elérhető! A fejlesztők, támogatók és az egész közösség is rengeteget nyer az ötletek megosztása és az együttes erőfeszítéseink által. A játék számtalan nyílt forráskódú projektből tevődik össze, így mi is visszadunk a közösségnek, és egy izgalmas utat nyitunk a kis felfedezőknek a kódolás világába. A CodeCombat közösséghez bárki csatlakozhat! Látogass el a',
       community_description_link: 'segítők oldalára',
       community_description_2: 'további információkért.',
-      number_contributors: 'Eddig több mint 450 támogató segítette munkájával a projektet.', // {change}
+      number_contributors: 'Eddig több mint 450 támogató segítette munkájával a projektet.',
       story_title: 'Történetünk számokban',
       story_subtitle: '2013 óta a CodeCombat néhány vázlatos rajzból egy élő és folyamatosan fejlődő játékká nőtte ki magát.',
       story_statistic_1a: '20 000 000+',
@@ -1621,15 +1724,14 @@ module.exports = {
       jobs_title: 'Gyere, dolgozz velünk és segíts újraírni a CodeCombat történetét!',
       jobs_subtitle: 'Nem látsz hozzádillő munkát a listában, de figyelemmel kísérnéd a lehetőségeket? Tekintsd meg a ”Hozd létre a sajátod" listát.',
       jobs_benefits: 'Juttatások',
-      jobs_benefit_4: 'Korlátlan szabadság', // {change}
+      jobs_benefit_4: 'Korlátlan szabadság',
       jobs_benefit_5: 'Szakmai előmenetel és folyamatos támogatás, ingyenes könyvek és játékok!',
-      jobs_benefit_6: 'Orvosi (arany), fogorvosi, szemészeti ellátás', // {change}
+      jobs_benefit_6: 'Orvosi (arany), fogorvosi, szemészeti ellátás',
       jobs_benefit_9: '10 éves részvényopció-lehívási lehetőség',
       jobs_benefit_10: 'Szülési szabadság nőknek: 10 hét fizetett szabadság, további 6 hétig a fizetés 55%-a',
-      jobs_benefit_11: 'Szülési szabadság férfiaknak: 10 hét fizetett szabadság', // {change}
-      //    jobs_benefit_12: "$50/mo internet & biz services benefit"
-      //    jobs_benefit_13: "$50/mo health and wellness benefit"
-      //    jobs_benefit_14: "100% distributed team"
+      jobs_benefit_11: 'Szülési szabadság férfiaknak: 10 hét fizetett szabadság',
+      jobs_benefit_12: '[AI_TRANSLATION]50 $/hó internet- és üzleti szolgáltatás juttatás',
+      jobs_benefit_14: '[AI_TRANSLATION]100%-ban elosztott csapat',
       jobs_custom_title: 'Hozd létre a sajátod',
       jobs_custom_description: 'Elkötelezett híve vagy a CodeCombat küldetésének, de nem látsz számodra megfelelő állást az ajánlatok között? Írj nekünk az elképzeléseidről és hogy mivel tudnál hozzájárulni a csapatunkhoz. Kíváncsiak vagyunk az ötleteidre!',
       jobs_custom_contact_1: 'Írj nekünk a',
@@ -1646,115 +1748,161 @@ module.exports = {
       character_art: 'Karakterek',
       download_all: 'Összes letöltése',
       previous: 'Előző',
-      location_title: 'Az irodánkat San Francisco szívében találod:'
+      location_title: 'Az irodánkat San Francisco szívében találod:',
     },
 
     teachers: {
-      licenses_needed: 'Licensz szükséges'
+      licenses_needed: 'Licensz szükséges',
+      google_classroom_disabled_text: '[AI_TRANSLATION]A Google Classroom összekapcsolásához jelentkezz be a Google SSO-val',
+      select_class: '[AI_TRANSLATION]Osztály kiválasztása',
+      programming_language: '[AI_TRANSLATION]Programozási nyelv',
+      programming_language_edit_desc: '[AI_TRANSLATION]A nyelvet nem lehet megváltoztatni, miután a diákok csatlakoztak egy osztályhoz. Javasoljuk, hogy hozz létre egy új osztályt ugyanazoknak a diákoknak.',
+      programming_language_edit_desc_new: '[AI_TRANSLATION]Ha megváltoztatod a programozási nyelvet, a diákjaid előző nyelvben elért haladása el lesz rejtve, és újra kell kezdeniük az új nyelvben. Azt javasoljuk, hogy hozz létre egy új osztályt ugyanazoknak a diákoknak.',
+      add_a_class: '[AI_TRANSLATION]Adj hozzá egy új osztályt',
+      select_desired_lang: '[AI_TRANSLATION]Válaszd ki a kívánt nyelvet az osztályod számára',
+      elementary: '[AI_TRANSLATION]Elemi',
+      middle: '[AI_TRANSLATION]Közép',
+      high_school: '[AI_TRANSLATION]Középiskola',
+      class_name: '[AI_TRANSLATION]Osztály Név',
+      grades: '[AI_TRANSLATION]Osztályzatok',
+      select_all_that_apply: '[AI_TRANSLATION]Válaszd ki az összes megfelelőt',
+      class_info_modal_sub_title: '[AI_TRANSLATION]Hívd meg a diákokat, hogy csatlakozzanak az osztályodhoz az alábbi meghívó elküldésével:',
+      class_url: '[AI_TRANSLATION]Osztály Url',
+      class_url_desc: '[AI_TRANSLATION]Oszd meg az URL-t, hogy a diákok csatlakozhassanak az osztályodhoz, miután regisztráltak.',
+      class_code: '[AI_TRANSLATION]Osztálykód',
+      class_code_desc: '[AI_TRANSLATION]A diákok beírhatják ezt a kódot, amikor regisztrálnak a www.ozaria.com oldalon.',
+      invite_by_email: '[AI_TRANSLATION]Meghívás emailben',
+      regenerate_class_code: '[AI_TRANSLATION]Regenerálódás',
+      invite_modal_sub_title: '[AI_TRANSLATION]Különítsd el az e-mail címeket sor törésekkel vagy vesszőkkel',
+      no_new_students_imported: '[AI_TRANSLATION]Nincs új diák importálva',
+      error_in_importing_classrooms: '[AI_TRANSLATION]Hiba az osztályok importálásakor',
+      error_in_importing_students: '[AI_TRANSLATION]Hiba a diákok importálásában',
+      classroom_items_description: '[AI_TRANSLATION]Vajon a diákoknak kellene gyémántokat szerezniük és tárgyakat felszerelniük játék közben?',
+      classroom_live_completion: '[AI_TRANSLATION]Akár engedélyezni a kódbekérési automatikus kitöltést ebben az osztályteremben. Letiltva: kikapcsolja az automatikus kitöltést minden szinten. Engedélyezve: lehetővé teszi a diákoknak a választást. Javasoljuk, hogy hagyjuk engedélyezve.',
+      code_formats: '[AI_TRANSLATION]Kódformátumok (béta)',
+      code_formats_description: '[AI_TRANSLATION]Melyik kódrendszert választhatják a diákok.',
+      code_formats_disabled_by: '[AI_TRANSLATION]Blokkok és kódok, a blokkok nem támogatottak a __language__ nyelvvel  ',
+      code_formats_mobile: '[AI_TRANSLATION]* A mobilos diákok blokkalapú módra lesznek állítva',
+      code_formats_fallback: '[AI_TRANSLATION]* A diákok visszaesnek szöveg-alapú módra, ha a kurzus nem támogatja a blokkokat',
+      //    code_formats_text: "text code: real code editor",
+      code_formats_block: '[AI_TRANSLATION]blokkok: blokk-alapú szerkesztő (csak python, javascript)  ',
+      code_formats_block_text: '[AI_TRANSLATION]blokkok és kód: blokk-alapú szerkesztő szöveges kóddal (csak python, javascript)  ',
+      code_formats_block_icon: '[AI_TRANSLATION]blokkok(ikonok): ikonok szerkesztő szöveg nélkül (csak Junior)  ',
+      default_code_format: '[AI_TRANSLATION]Alapértelmezett kód formátum',
+      default_code_format_description: '[AI_TRANSLATION]A kód formátum, amivel a diákok kezdeni fognak.',
+      not_allow_to_solution: '[AI_TRANSLATION]# Licensz szükséges a megoldások megtekintéséhez',
+      classroom_level_chat: '[AI_TRANSLATION]AI Szint Tippjei',
+      classroom_level_chat_blurb: '[AI_TRANSLATION]A diákok kérhetnek-e AI tippeket és hibakifejtéseket.',
+      classroom_level_chat_option_free_form: '[AI_TRANSLATION]Szabad formátum',
+      classroom_level_chat_option_fixed_prompt_only: '[AI_TRANSLATION]Csak a prompt javítva',
+      classroom_level_chat_option_none: '[AI_TRANSLATION]Nincs csevegés',
+      initial_free_courses: '[AI_TRANSLATION]Kezdő tanfolyamok  ',
+      free_course_blurb_junior: '[AI_TRANSLATION]Kiváló a K-5 osztályok számára, a CodeCombat Junior lehetővé teszi a blokk-alapú és mobil opciókat az olvasni még nem tudóknak, valamint a Python vagy JavaScript szöveges kódolást a felső tagozatosok számára, vagy a blokkokkal és kóddal való párhuzamosítást a váltás megkönnyítésére.\n',
+      'free_course_blurb_introduction-to-computer-science': '[AI_TRANSLATION]Nagyszerű a 6-12. osztályosoknak, a CodeCombat alapkódolási kurzusai a kezdőbarát Bevezetés a számítástechnikába kurzustól egészen az emelt szintű számítástechnikai kurzusokig tartanak. Kezdd itt a középiskolásokkal.\n',
+      //    free_course_blurb_hackstack: "Learn essential prompt engineering skills in a wide range of subjects using Al HackStack's Learning Scenarios with popular Al models like ChatGPT, Claude, and DALL-E.",
+      start_teaching_ai_today: '[AI_TRANSLATION]Kezdd el AI-t tanítani ma!  ',
+      hackstack_beta_release: '[AI_TRANSLATION]HackStack Béta Kiadás  ',
+      introducing_ai_hackstack: '[AI_TRANSLATION]Bemutatkozik az AI HackStack, egy generatív AI oktató eszköz kezdőknek. Biztonságos hozzáférést biztosít a legjobb AI modellekhez, mint a ChatGPT, Claude és DALL-E.  ',
+      our_curriculum_empowers_students: '[AI_TRANSLATION]Tantervünk képessé teszi a diákokat, hogy mesterséges intelligenciát használva hozzanak létre weboldalakat, játékokat, művészeti alkotásokat és még sok mást. Jelenleg béta verzióban van.\n',
+      test_student_promotion_1: '[AI_TRANSLATION]Készen állsz besétálni a diákok kódoló cipőjébe? Ha rákattintasz a "Test as Student"-re, közvetlenül megtapasztalhatod a tanulási élményt.  ',
+      //    test_student_promotion_2: "You'll be creating a unique test account that not only mimics the student journey but also saves your progress — unlike the quick previews in our curriculum guide, which are great for a sneak-peek but don't keep track of where you've been.",
+      test_student_promotion_3: '[AI_TRANSLATION]Az első kurzusod ingyenes. Készen állsz a folytatásra? Segítünk a licenc hozzáadásában a folyamatos tanulási kalandokhoz.  ',
+      dashboard_update: '[AI_TRANSLATION]Műszerfal Frissítés  ',
+      dashboard_update_message: '[AI_TRANSLATION]Jelenleg optimalizáljuk a műszerfalat a kényelmed érdekében. Most már megtalálhatod a Tantervi Útmutatót a bal oldali sávban.  ',
+      switch_to_test_student: '[AI_TRANSLATION]Váltás teszt diák fiókra...',
+      import_ozaria_classroom: '[AI_TRANSLATION]Importáld az Ozaria Classroomot',
+      import_codecombat_classroom: '[AI_TRANSLATION]Importáld a Codecombat Classroomot',
+      select_ozaria_classroom: '[AI_TRANSLATION]Válaszd ki az Ozaria Tantermet  ',
+      select_codecombat_classroom: '[AI_TRANSLATION]Válaszd ki a Codecombat Tantermet  ',
+      select_to_import_from_ozaria: '[AI_TRANSLATION]Válaszd ki a lehetőséget az Ozaria-ból való importáláshoz.  ',
+      select_to_import_from_codecombat: '[AI_TRANSLATION]Válaszd ki a lehetőséget a Codecombat-ból való importáláshoz.  ',
+      all_classrooms_imported: '[AI_TRANSLATION]Minden osztály már importálva van',
+      club_type: '[AI_TRANSLATION]Klub Típus  ',
+      create_students_prompt: '[AI_TRANSLATION]Hány diákot szeretnél létrehozni?',
+      //    initial_free_courses_description: "*Courses can be updated using Assign Content after creating class too.",
+      //    junior_code_format_only: "Blocks (Icons) only available for Junior",
+      //    hackstack_no_code_language_format: "AI HackStack does not need a programming language or code format",
+      //    licenses_activated_success: "Licenses have been Activated Successfully!",
+      //    license_code_used: "License Code used.",
+      //    ai_hs_remix: "AI HackStack Remix",
+      //    ai_hs_remix_blurb: "Whether students can use other student's projects to take inspiration from.",
     },
-    //    google_classroom_disabled_text: "To link Google Classroom, login using Google SSO"
-    //    select_class: "Select class"
-    //    programming_language: "Programming language"
-    //    programming_language_edit_desc: "Language cannot be changed once students join a class. We recommend creating a new class for the same students."
-    //    programming_language_edit_desc_new: "If you change the programming language, your students' progress in the old language will be hidden, and they will have to start over in the new language. We recommend creating a new class for the same students."
-    //    add_a_class: "Add a new class"
-    //    select_desired_lang: "Select desired language for your class"
-    //    elementary: "Elementary"
-    //    middle: "Middle"
-    //    high_school: "High School"
-    //    class_name: "Class Name"
-    //    grades: "Grades"
-    //    select_all_that_apply: "Select all that apply"
-    //    class_info_modal_sub_title: "Invite students to join your class by sending them:"
-    //    class_url: "Class Url"
-    //    class_url_desc: "Share URL to have students join your class after signing up"
-    //    class_code: "Class Code"
-    //    class_code_desc: "Students can enter this code when they sign up at www.ozaria.com"
-    //    invite_by_email: "Invite by Email"
-    //    regenerate_class_code: "Regenerate"
-    //    invite_modal_sub_title: "Separate each email address by a line break or commas"
-    //    no_new_students_imported: "No new students imported"
-    //    error_in_importing_classrooms: "Error in importing classrooms"
-    //    error_in_importing_students: "Error in importing students"
-    //    classroom_items_description: "Whether students should earn gems and equip items during gameplay."
-    //    classroom_live_completion: "Whether to enable coding autocomplete in this classroom. Disabled: turns autocomplete off for all levels. Enabled: allows students to choose. We recommend leaving this enabled."
-    //    not_allow_to_solution: "# Licenses needed to view solutions"
 
-    //  no_licenses_page:
-    //    are_your_students_ready: "Are your students excited and ready to learn more?"
-    //    once_students_have_completed: "Once students have completed Chapter 1, they will need licenses in order to continue their journey through the next chapter and beyond."
-    //    get_licenses: "Get Licenses"
-    //    get_full_access_to_ozaria: "Get Full Access to Ozaria"
-    //    unlock_all: "Unlock all the above plus all the teacher support you need"
-    //    unlock_all_dsa: "Unlock all the above plus all the support teachers need"
-    //    comprehensive_dashboards: "Comprehensive teacher and administrator dashboards"
-    //    lesson_plans_rubrics_guides: "Lesson Plans, Project Rubrics, Solution Guides, and more"
-    //    dedicated_customer_success_manager: "A dedicated customer success manager"
-    //    automatic_access: "Automatic access to new content and features"
-    //    license_quote: "\"In my opinion as a 26 year veteran middle school educator, there is no more engaging resource for teaching coding.\""
-    //    join_our_community: "Join our community"
-    //    join_our_community_desc: "Over 12 million people have learned to write Python and JavaScript using CodeCombat. Now, we welcome you to join our community of over 82,000 educators and 25,000 schools with Ozaria, designed for educators who want to inspire a new generation of students to learn Computer Science."
-    //    teach_real_typed_code: "Teach Real, Typed Code"
-    //    teach_real_typed_code_desc: "Students learn Python and JavaScript, the two most popular coding languages, and build 21st century skills that will prepare them for any career."
-    //    support_student_progress: "Support Student Progress"
-    //    support_student_progress_desc: "Unlock formative and summative assessment data from Concept Checks, Levels, and Capstone Projects to support student progress."
-    //    creative_projects: "Creative Projects"
-    //    creative_projects_desc: "Inspire imagination and unleash student creativity with shareable capstone projects, like in Chapter 2 where students design their own storytelling game. "
-    //    looking_for_engaging: "Looking for engaging computer science curriculum?"
-    //    licenses_are_required: "Licenses are required for students to continue their journey beyond Chapter 1."
-    //    real_world_skills: "Real-World Skills"
-    //    real_world_skills_desc: "Students learn typed Python and JavaScript, the two most popular coding languages, and enhance their critical-thinking skills, creativity, and resilience to prepare them for any career."
-    //    personalized_learning: "Personalized Learning and Scaffolded Instruction"
-    //    personalized_learning_desc: "Students learn concepts at their own pace. Levels increase in difficulty while providing built-in hints to encourage persistence and grit."
-    //    flexible_curriculum: "Flexible Standards- Aligned Curriculum"
-    //    flexible_curriculum_desc: "100% CSTA-aligned curriculum that can easily be adapted to any schedule, scenario, or setting."
-    //    resources_to_support: "Resources to Support Teachers"
-    //    resources_to_support_desc: "Lesson plans, extension activities, curriculum guides, and more instructional resources designed with remote and hybrid settings in mind."
-    //    actionable_insights: "Actionable Insights for Educators"
-    //    actionable_insights_desc: "Empower educators with intuitive student progress and assessment data that makes differentiating instruction possible."
+    no_licenses_page: {
+      are_your_students_ready: '[AI_TRANSLATION]A diákjaid izgatottak és készen állnak, hogy többet tanuljanak?',
+      once_students_have_completed: '[AI_TRANSLATION]Amint a diákok befejezték az 1. fejezetet, engedélyekre lesz szükségük, hogy tovább folytathassák útjukat a következő fejezeten és azon túl.',
+      get_licenses: '[AI_TRANSLATION]Szerezz Licenszeket',
+      get_full_access_to_ozaria: '[AI_TRANSLATION]Szerezz Teljes Hozzáférést Ozariahoz',
+      unlock_all: '[AI_TRANSLATION]Old ki mind az itt olvashatókat, plusz minden szükséges tanári támogatást.',
+      unlock_all_dsa: '[AI_TRANSLATION]Oldj fel mindent az összes támogatással együtt, amire a tanároknak szüksége lehet',
+      comprehensive_dashboards: '[AI_TRANSLATION]Átfogó tanári és adminisztrátori irányítópultok',
+      lesson_plans_rubrics_guides: '[AI_TRANSLATION]Óravázlatok, Projektértékelési Útmutatók, Megoldási Segédletek és még sok más',
+      dedicated_customer_success_manager: '[AI_TRANSLATION]Egy elkötelezett ügyfélsiker-menedzser',
+      automatic_access: '[AI_TRANSLATION]Automatikus hozzáférés az új tartalmakhoz és funkciókhoz',
+      license_quote: '[AI_TRANSLATION]"Véleményem szerint, mint 26 éves veterán középiskolai oktató, nincs vonzóbb eszköz a kódolás tanítására."',
+      join_our_community: '[AI_TRANSLATION]Csatlakozz a közösségünkhöz',
+      join_our_community_desc: '[AI_TRANSLATION]Több mint 12 millió ember tanult meg Python és JavaScript nyelven írni a CodeCombat segítségével. Most téged is meghívunk, hogy csatlakozz több mint 82 000 oktatóból és 25 000 iskolából álló közösségünkhöz az Ozaria-val, amelyet olyan oktatóknak terveztek, akik szeretnék inspirálni a diákok új generációját a számítástechnika tanulására.',
+      teach_real_typed_code: '[AI_TRANSLATION]Taníts Valós, Gépelős Kódolást',
+      teach_real_typed_code_desc: '[AI_TRANSLATION]A diákok Python és JavaScript nyelveket tanulnak, a két legnépszerűbb kódolási nyelvet, és 21. századi készségeket építenek, amelyek bármilyen karrierre felkészítik őket.',
+      support_student_progress: '[AI_TRANSLATION]Támogasd a diákok fejlődését',
+      support_student_progress_desc: '[AI_TRANSLATION]Oldd fel a formális és szummatív értékelési adatokat a Koncepció Ellenőrzésekből, Szintekből és Záró Projektekből, hogy támogasd a tanulók haladását.',
+      creative_projects: '[AI_TRANSLATION]Kreatív Projektek',
+      creative_projects_desc: '[AI_TRANSLATION]Inspirálja a képzeletet és szabadítsa fel a diákok kreativitását megosztható záróprojektek segítségével, mint például a 2. fejezetben, ahol a diákok saját történetmesélési játékot terveznek.',
+      looking_for_engaging: '[AI_TRANSLATION]Keresel érdekes számítástechnika tantervet?',
+      licenses_are_required: '[AI_TRANSLATION]Engedélyek szükségesek ahhoz, hogy a diákok folytathassák útjukat az 1. fejezet után.',
+      real_world_skills: '[AI_TRANSLATION]Való Világbeli Készségek',
+      real_world_skills_desc: '[AI_TRANSLATION]A diákok gépelt Python-t és JavaScript-et tanulnak, a két legnépszerűbb kódnyelvet, és fejlesztik kritikai gondolkodási képességeiket, kreativitásukat és ellenálló képességüket, hogy felkészüljenek bármilyen karrierre.',
+      personalized_learning: '[AI_TRANSLATION]Személyre szabott Tanulás és Lépésről-lépésre Oktatás',
+      personalized_learning_desc: '[AI_TRANSLATION]A diákok a saját tempójukban tanulják a fogalmakat. A szintek egyre nehezebbé válnak, miközben beépített hintsekkel bátorítják a kitartást és az elszántságot.',
+      flexible_curriculum: '[AI_TRANSLATION]Rugalmas, szabványokhoz igazított tanterv',
+      flexible_curriculum_desc: '[AI_TRANSLATION]100%-ban CSTA-kompatibilis tananyag, amely könnyen alkalmazkodik bármilyen ütemtervhez, szituációhoz vagy környezethez.',
+      resources_to_support: '[AI_TRANSLATION]Tanárok támogatására szánt források',
+      resources_to_support_desc: '[AI_TRANSLATION]Óratervek, kiegészítő tevékenységek, tananyag-útmutatók és egyéb oktatási források távoli és hibrid beállításokhoz tervezve.',
+      actionable_insights: '[AI_TRANSLATION]Cselekedhető Elemzések Oktatóknak',
+      actionable_insights_desc: '[AI_TRANSLATION]Adja meg a pedagógusoknak az intuitív diák haladási és értékelési adatokkal, ami lehetővé teszi a különbségtételt a tanításban.',
+    },
 
-    //  special_offer:
-    //    special_offer: "Special Offer"
-    //    project_based_title: "Project-Based Courses"
-    //    project_based_description: "Web and Game Development courses feature shareable final projects."
-    //    great_for_clubs_title: "Great for clubs and electives"
-    //    great_for_clubs_description: "Teachers can purchase up to __maxQuantityStarterLicenses__ Starter Licenses."
-    //    low_price_title: "Just __starterLicensePrice__ per student"
-    //    low_price_description: "Starter Licenses are active for __starterLicenseLengthMonths__ months from purchase."
-    //    three_great_courses: "Three great courses included in the Starter License:"
-    //    license_limit_description: "Teachers can purchase up to __maxQuantityStarterLicenses__ Starter Licenses. You have already purchased __quantityAlreadyPurchased__. If you need more, contact __supportEmail__. Starter Licenses are valid for __starterLicenseLengthMonths__ months."
-    //    student_starter_license: "Student Starter License"
-    //    purchase_starter_licenses: "Purchase Starter Licenses"
-    //    purchase_starter_licenses_to_grant: "Purchase Starter Licenses to grant access to __starterLicenseCourseList__"
-    //    starter_licenses_can_be_used: "Starter Licenses can be used to assign additional courses immediately after purchase."
-    //    pay_now: "Pay Now"
-    //    we_accept_all_major_credit_cards: "We accept all major credit cards."
-    //    cs2_description: "builds on the foundation from Introduction to Computer Science, diving into if-statements, functions, events and more."
-    //    wd1_description: "introduces the basics of HTML and CSS while teaching skills needed for students to build their first webpage."
-    //    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels."
-    //    see_an_example_project: "see an example project"
-    //    get_started_today: "Get started today!"
-    //    want_all_the_courses: "Want all the courses? Request information on our Full Licenses."
-    //    compare_license_types: "Compare License Types:"
-    //    cs: "Computer Science"
-    //    wd: "Web Development"
-    //    wd1: "Web Development 1"
-    //    gd: "Game Development"
-    //    gd1: "Game Development 1"
-    //    maximum_students: "Maximum # of Students"
-    //    unlimited: "Unlimited"
-    //    priority_support: "Priority support"
-    //    yes: "Yes"
-    //    price_per_student: "__price__ per student"
-    //    pricing: "Pricing"
-    //    free: "Free"
-    //    purchase: "Purchase"
-    //    courses_prefix: "Courses"
-    //    courses_suffix: ""
-    //    course_prefix: "Course"
-    //    course_suffix: ""
-    //    licenses_activated_success: "Licenses have been Activated Successfully!"
-    //    license_code_used: "License Code used."
+    special_offer: {
+      special_offer: '[AI_TRANSLATION]Különleges Ajánlat',
+      project_based_title: '[AI_TRANSLATION]Projekt-Alapú Kurzusok',
+      project_based_description: '[AI_TRANSLATION]A Web és Játékfejlesztési kurzusok osztható végső projekteket tartalmaznak.',
+      great_for_clubs_title: '[AI_TRANSLATION]Szuper klubokhoz és szakkörökhöz\n',
+      great_for_clubs_description: '27.\nA tanárok legfeljebb __maxQuantityStarterLicenses__ Kezdő Licencet vásárolhatnak.\n',
+      low_price_title: '[AI_TRANSLATION]Csak __starterLicensePrice__ per diák',
+      low_price_description: '[AI_TRANSLATION]Kezdő Licenszek __starterLicenseLengthMonths__ hónapig aktívak a vásárlástól számítva.',
+      three_great_courses: '[AI_TRANSLATION]Három nagyszerű kurzus a Kezdő Licencben:',
+      license_limit_description: '[AI_TRANSLATION]A tanárok vásárolhatnak legfeljebb __maxQuantityStarterLicenses__ Kezdő Licencet. Már megvettél __quantityAlreadyPurchased__. Ha többre van szükséged, lépj kapcsolatba __supportEmail__. A Kezdő Licencek __starterLicenseLengthMonths__ hónapig érvényesek.',
+      student_starter_license: '[AI_TRANSLATION]Diák Kezdő Licenc',
+      purchase_starter_licenses: '[AI_TRANSLATION]Vásárolj kezdő licencet',
+      purchase_starter_licenses_to_grant: '[AI_TRANSLATION]Vásárolj Kezdő Licencet, hogy hozzáférést biztosíts a __starterLicenseCourseList__-hez',
+      starter_licenses_can_be_used: '[AI_TRANSLATION]Kezdő Licenccel azonnal hozzárendelhetsz további kurzusokat a vásárlás után.',
+      pay_now: '[AI_TRANSLATION]Fizess most',
+      we_accept_all_major_credit_cards: '[AI_TRANSLATION]A kíváncsiság jutalmat érdemelhet.',
+      cs2_description: '[AI_TRANSLATION]épít az Informatikai Alapozás alapjaira, belemegy az if-utasításokba, függvényekbe, eseményekbe és még sok másba.',
+      //    wd1_description: "introduces the basics of HTML and CSS while teaching skills needed for students to build their first webpage.",
+      //    gd1_description: "uses syntax students are already familiar with to show them how to build and share their own playable game levels.",
+      see_an_example_project: '[AI_TRANSLATION]nézz meg egy példaprojektet',
+      get_started_today: '[AI_TRANSLATION]Kezdd el még ma!',
+      //    want_all_the_courses: "Want all the courses? Request information on our Full Licenses.",
+      compare_license_types: '[AI_TRANSLATION]Hasonlítsd össze a licenc típusokat:  ',
+      cs: '[AI_TRANSLATION]Számítástechnika',
+      wd: '[AI_TRANSLATION]Webfejlesztés  ',
+      wd1: '[AI_TRANSLATION]Webfejlesztés 1  ',
+      gd: '[AI_TRANSLATION]Játékfejlesztés  ',
+      gd1: '[AI_TRANSLATION]Játékfejlesztés 1  ',
+      maximum_students: '[AI_TRANSLATION]Maximum diákok száma',
+      unlimited: '[AI_TRANSLATION]Korlátlan  ',
+      priority_support: '[AI_TRANSLATION]Elsőbbségi támogatás',
+      yes: '[AI_TRANSLATION]Igen',
+      price_per_student: '[AI_TRANSLATION]__price__ diákonként  ',
+      pricing: '[AI_TRANSLATION]Árazás',
+      free: '[AI_TRANSLATION]Ingyenes',
+      //    purchase: "Purchase",
+      courses_prefix: '[AI_TRANSLATION]Kurzusok',
+      //    courses_suffix: "",
+      course_prefix: '[AI_TRANSLATION]Tanfolyam',
+      //    course_suffix: "",
+    },
 
     teachers_quote: {
       subtitle_coco: 'A diákok akár egy órán belül elkezdhetik a játékot. A bemutatóval <strong>osztályokat állíthatsz össze, hozzájuk rendelheted a diákokat, és nyomon követheted tanítványaid fejlődését,</strong> miközben ők elmélyednek az informatikában.',
@@ -1768,7 +1916,7 @@ module.exports = {
       purchaser_role_default: 'Válassz egy beszerzési szerepkört',
       teacher: 'Tanár',
       tech_coordinator: 'Műszaki koordinátor',
-      advisor: 'Tanácsadó', // {change}
+      advisor: 'Tanácsadó',
       principal: 'Igazgató',
       superintendent: 'Tanfelügyelő',
       parent: 'Szülő',
@@ -1777,15 +1925,16 @@ module.exports = {
       evaluate_recommend: 'Értékelés/ajánlás',
       approve_funds: 'Költségvetés jóváhagyása',
       no_purchaser_role: 'Nincs szerepem a beszerzési döntésekben',
+      teacher_account_details: '[AI_TRANSLATION]Tanári Fiók Adatok',
       district_label: 'Iskolakörzet',
       district_name: 'Körzet neve',
       district_na: 'Ha nincs, a következőt írd be: N/A',
       organization_label: 'Iskola',
       school_name: 'Iskola neve',
       city: 'Város',
-      state: 'Megye', // {change}
+      state: 'Megye',
       country: 'Ország',
-      num_students_help: 'Hány tanulóval szeretnéd megismertetni a CodeCombatot?', // {change}
+      num_students_help: 'Hány tanulóval szeretnéd megismertetni a CodeCombatot?',
       num_students_default: 'Válassz egy tartományt',
       education_level_label: 'Oktatási szint',
       education_level_help: 'Jelöld be az összes érvényes lehetőséget.',
@@ -1805,8 +1954,8 @@ module.exports = {
       referrer_pd: 'Szakmai képzések/workshopok',
       referrer_web: 'Google',
       referrer_other: 'Egyéb',
-      anything_else: 'Egyéb tudnivalók', // {change}
-      anything_else_helper: '',
+      anything_else: 'Egyéb tudnivalók',
+      //    anything_else_helper: "",
       thanks_header: 'Kérésedet megkaptuk!',
       thanks_sub_header_coco: 'Köszönjük az érdeklődésedet, örülünk, hogy fel szeretnéd használni a CodeCombatet az iskoládban.',
       thanks_sub_header_ozar: 'Köszönjük az érdeklődésedet, örülünk, hogy fel szeretnéd használni a CodeCombatet az iskoládban.',
@@ -1822,7 +1971,7 @@ module.exports = {
       create_account_subtitle: 'Férj hozzá az oktatói funkciókhoz, amelyekkel a CodeCombat tanterved szerves részévé válhat.  <strong>Állíts össze osztályokat</strong>, rendeld hozzájuk a diákokat, és <strong>kövesd nyomon a fejlődésüket</strong>!',
       convert_account_title: 'Frissítés oktatói fiókra',
       not: 'Nem',
-      full_name_required: 'Kereszt- és vezetéknév szükséges'
+      full_name_required: 'Kereszt- és vezetéknév szükséges',
     },
 
     versions: {
@@ -1833,7 +1982,7 @@ module.exports = {
       cla_url: 'CLA',
       cla_suffix: 'tartalmát.',
       cla_agree: 'ELFOGADOM',
-      owner_approve: 'Minden tulajdonosnak jóvá kell hagynia, mielőtt a változtatásaid láthatóvá válnak.'
+      owner_approve: 'Minden tulajdonosnak jóvá kell hagynia, mielőtt a változtatásaid láthatóvá válnak.',
     },
 
     contact: {
@@ -1844,6 +1993,8 @@ module.exports = {
       faq_prefix: 'Továbbá van egy',
       faq: 'GYIK',
       faq_suffix: ' további segítségért.',
+      prefer_email_prefix: '[AI_TRANSLATION]Ha jobban tetszik, e-mailt is küldhetsz',
+      prefer_email_suffix: '[AI_TRANSLATION]helyette',
       subscribe_prefix: 'Ha segítségre van szükséged egy pályán, ',
       subscribe: 'vásárolj CodeCombat előfizetést',
       subscribe_suffix: 'és mi örömmel segítünk. ',
@@ -1851,7 +2002,7 @@ module.exports = {
       screenshot_included: 'Képernyőkép (screenshot) mellékelve.',
       where_reply: 'Milyen címre válaszoljunk?',
       send: 'Visszajelzés küldése',
-      ooo_blurb: 'A CodeCombat csapata június 5. és június 9. között nem lesz az irodában, és ez idő alatt csak korlátozottan férhet hozzá az e-mailekhez. A lehető leghamarabb válaszolunk megkeresésére, kérjük, vegye figyelembe a várható várakozási időt.'
+      ooo_blurb: 'A CodeCombat csapata június 5. és június 9. között nem lesz az irodában, és ez idő alatt csak korlátozottan férhet hozzá az e-mailekhez. A lehető leghamarabb válaszolunk megkeresésére, kérjük, vegye figyelembe a várható várakozási időt.',
     },
 
     account_settings: {
@@ -1866,13 +2017,15 @@ module.exports = {
       delete_this_account: 'Fiók végleges törlése',
       reset_progress_tab: 'Eredmények törlése',
       reset_your_progress: 'Törli az össze eredményed. Tiszta lappal kezdhetsz újra.',
-      //    connect_roblox_tab: "Connect Roblox"
-      //    connect_roblox_button: "Connect"
-      //    re_connect_roblox_button: "Connect Another Account"
-      //    disconnect_roblox_button: "Disconnect"
-      //    roblox_connected: "Your account <strong>__username__</strong> is connected to Roblox."
-      //    roblox_not_connected: "Connect your CodeCombat and Roblox accounts."
-      //    roblox_disconnect_confirm: "Are you sure you want to disconnect your Roblox account?"
+      connect_roblox_tab: '[AI_TRANSLATION]Csatlakozz Robloxhoz',
+      connect_roblox_button: '[AI_TRANSLATION]Csatlakozz',
+      re_connect_roblox_button: '[AI_TRANSLATION]Csatlakoztass egy másik fiókot.',
+      disconnect_roblox_button: '[AI_TRANSLATION]Kapcsolat bontása',
+      roblox_connected: '[AI_TRANSLATION]A fiókod <strong>__username__</strong> csatlakoztatva van a Roblox-hoz.',
+      //    roblox_connected_other_user: "The student's account is connected to  <strong>__username__</strong> Roblox account.",
+      roblox_not_connected: '[AI_TRANSLATION]Kösd össze a CodeCombat és Roblox fiókjaidat.',
+      //    roblox_not_connected_other_user: "Connect the student's CodeCombat and Roblox accounts.",
+      roblox_disconnect_confirm: '[AI_TRANSLATION]Biztosan le akarod kapcsolódni a Roblox fiókoddal?',
       god_mode: 'God mód',
       emails_tab: 'Levelek',
       admin: 'Adminisztrátor',
@@ -1880,7 +2033,7 @@ module.exports = {
       current_password: 'Jelenlegi jelszó',
       new_password: 'Új jelszó',
       new_password_verify: 'Új jelszó megismétlése',
-      type_in_email: 'Írd be az e-mail-címed a törlés megerősítéséhez', // {change}
+      type_in_email: 'Írd be az e-mail-címed a törlés megerősítéséhez',
       type_in_email_progress: 'Add meg az e-mail címedet az eredmények törléséhez!',
       type_in_password: 'Továbbá add meg a jelszavad is!',
       email_subscriptions: 'Hírlevél feliratkozások',
@@ -1902,7 +2055,9 @@ module.exports = {
       error_saving: 'Hiba a mentés során',
       saved: 'Változtatások elmentve',
       password_mismatch: 'A jelszavak nem egyeznek.',
-      password_repeat: 'Kérlek ismételd meg a jelszavadat'
+      password_repeat: 'Kérlek ismételd meg a jelszavadat',
+      switch_new_teacher_dashboard: '[AI_TRANSLATION]Próbáld ki az új Tanári Irányítópultot',
+      view_trial_class_bookings: '[AI_TRANSLATION]Próbatanfolyam foglalások megtekintése',
     },
 
     keyboard_shortcuts: {
@@ -1924,12 +2079,11 @@ module.exports = {
       toggle_grid: 'Rácsos átfedő panel be-/kikapcsolása.',
       toggle_pathfinding: 'Útkeresési átfedő panel be-/kikapcsolása.',
       beautify: 'A kód kicsinosítása és szabványos formátumra hozása.',
-      maximize_editor: 'Maximális/Minimális kód szerkesztő.'
     },
 
     cinematic: {
       click_anywhere_continue: 'Kattints a folytatáshoz',
-      instructional_tooltip: 'Ezekre a nyílgombokra kattintva tudsz előre és hátra lépni. Ugyanezt a billentyűzet nyílbillentyűivel is megteheted.'
+      instructional_tooltip: 'Ezekre a nyílgombokra kattintva tudsz előre és hátra lépni. Ugyanezt a billentyűzet nyílbillentyűivel is megteheted.',
     },
 
     community: {
@@ -1943,12 +2097,12 @@ module.exports = {
       article_editor_suffix: '-t és segíts a CodeCombat játékosoknak, hogy a legtöbbet hozhassák ki a játékkal töltött idejükből.',
       find_us: 'Ezeken az oldalakon is megtalálhatsz minket',
       social_github: 'Nézd meg a teljes forráskódot a GitHubon',
-      social_blog: 'Olvasd a CodeCombat blogot a Sett-en', // {change}
+      social_blog: 'Olvasd a CodeCombat blogot a Sett-en',
       social_discource: 'Csatlakozz a beszélgetéshez a Discourse forumon',
       social_facebook: 'Like-old a CodeCombat-et a Facebookon',
       social_twitter: 'Kövesd a CodeCombat-et a Twitteren',
       social_slack: 'Csatlakozz a nyilvános CodeCombat Slack csatornához',
-      contribute_to_the_project: 'Vegyél részt a projektben'
+      contribute_to_the_project: 'Vegyél részt a projektben',
     },
 
     clans: {
@@ -2011,20 +2165,20 @@ module.exports = {
       track_concepts6b: 'Tagok rendezése név vagy fejlődési szintjük szerint',
       track_concepts7: 'A csatlakozáshoz',
       track_concepts8: 'meghívó szükséges',
-      private_require_sub: 'A privát klánok létrehozásához, illetve a hozzájuk történő csatlakozáshoz előfizetés szükséges.'
+      private_require_sub: 'A privát klánok létrehozásához, illetve a hozzájuk történő csatlakozáshoz előfizetés szükséges.',
     },
 
     courses: {
       create_new_class: 'Új osztály',
-      //    hoc_blurb1: "Try the"
-      //    hoc_blurb2: "Code, Play, Share"
-      //    hoc_blurb3: "activity! Construct four different minigames to learn the basics of game development, then make your own!"
-      //    solutions_require_licenses: "Level solutions are available for teachers who have licenses."
+      hoc_blurb1: '[AI_TRANSLATION]Próbáld ki a',
+      hoc_blurb2: '[AI_TRANSLATION]Kódolj, Játssz, Oszd meg!  ',
+      hoc_blurb3: '[AI_TRANSLATION]tevékenység! Hozz létre négy különböző minijátékot, hogy megtanuld a játékfejlesztés alapjait, majd készítsd el a sajátodat!',
+      solutions_require_licenses: '[AI_TRANSLATION]A szintmegoldások elérhetőek az engedéllyel rendelkező tanárok számára.',
       unnamed_class: 'Névtelen osztály',
       edit_settings1: 'Osztály szerkesztése',
       add_students: 'Tanulók hozzáadása',
       stats: 'Statisztikai adatok',
-      //    student_email_invite_blurb: "Your students can also use class code <strong>__classCode__</strong> when creating a Student Account, no email required."
+      student_email_invite_blurb: '[AI_TRANSLATION]A diákjaid is használhatják az osztálykódot <strong>__classCode__</strong>, amikor diákfiókot hoznak létre, email nem szükséges.',
       total_students: 'Összes tanuló:',
       average_time: 'Átlagos játékidő pályánként:',
       total_time: 'Teljes játékidő:',
@@ -2062,6 +2216,9 @@ module.exports = {
       complete: 'befejezve',
       practice: 'gyakorlás',
       required: 'kötelező',
+      python: '[AI_TRANSLATION]Python (támogatja a blokkokat)',
+      javascript: '[AI_TRANSLATION]JavaScript (támogatja a blokkokat)',
+      java: '[AI_TRANSLATION]Java (béta)',
       welcome_to_courses_coco: 'Üdvözlünk a kurzusok lapján, kalandor!',
       welcome_to_courses_ozar: 'Üdvözlünk a kurzusok lapján, kalandor!',
       ready_to_play: 'Készen állsz a játékra?',
@@ -2076,7 +2233,7 @@ module.exports = {
       class_added: 'Az osztály létrehozása sikeresen megtörtént.',
       view_map: 'térkép megtekintése',
       view_videos: 'videók megtekintése',
-      //    view_project_gallery: "view my classmates' projects"
+      view_project_gallery: '[AI_TRANSLATION]nézd meg az osztálytársam projektjeit',
       join_class: 'Csatlakozás egy osztályhoz',
       join_class_2: 'Osztályhoz csatlakozás',
       ask_teacher_for_code_coco: 'Kérd el a CodeCombat osztály kódját a tanárodtól! Ha megvan, írd be ide:',
@@ -2101,17 +2258,17 @@ module.exports = {
       license_will_revoke: 'Ennek a diáknak a fizetett licencét visszavonjuk, és egy másik diáknak adjuk ki.',
       keep_student: 'Tanuló megtartása',
       removing_user: 'Felhasználó eltávolítása',
-      subtitle: 'Kurzusleírások és pályák áttekintése', // Flat style redesign
+      subtitle: 'Kurzusleírások és pályák áttekintése',
       changelog: 'Tekintsd meg a kurzus részét képező pályákkal kapcsolatos módosításokat.',
       select_language: 'Válassz nyelvet',
       select_level: 'Válassz egy pályát',
       play_level: 'Pálya indítása',
       concepts_covered: 'Tárgyalt fogalmak',
       view_guide_online: 'Pályaleírások és megoldókulcs',
-      //    lesson_slides: "Lesson Slides"
+      lesson_slides: '[AI_TRANSLATION]Óra Diavetítések',
       grants_lifetime_access: 'Minden kurzushoz hozzáférést biztosít.',
       enrollment_credits_available: 'Elérhető licencek:',
-      language_select: 'Válassz egy nyelvet', // ClassroomSettingsModal
+      language_select: 'Válassz egy nyelvet',
       language_cannot_change: 'Ha a tanulók már csatlakoztak az osztályhoz, a nyelv többé nem módosítható.',
       avg_student_exp_label: 'A tanulók átlagos programozási ismeretei',
       avg_student_exp_desc: 'Ennek megadásával könnyebben meghatározható a kurzusok ütemezése.',
@@ -2126,6 +2283,8 @@ module.exports = {
       class_type_after_school: 'Iskola után',
       class_type_online: 'Online',
       class_type_camp: 'Tábor',
+      class_type_camp_esports: '[AI_TRANSLATION]Tábor (Esport)',
+      class_type_camp_junior: '[AI_TRANSLATION]Tábor (Roblox)',
       class_type_homeschool: 'Magántanulás',
       class_type_other: 'Egyéb',
       student_age_range_label: 'A tanulók korosztálya',
@@ -2156,25 +2315,25 @@ module.exports = {
       update_account_remain_teacher: 'Tanár szeretnék maradni',
       update_account_update_teacher: 'Tanár szeretnék lenni',
       update_account_am_student: 'Tanuló vagyok',
-      //    update_account_no_home: "Let me join classes but not play outside of class"
+      update_account_no_home: '[AI_TRANSLATION]Hadd csatlakozzak az órákhoz, de ne játszhassak az órán kívül. ',
       update_account_students_can: 'A tanulói fiókkal rendelkező felhasználók:',
       update_account_students_can1: 'Csatlakozhatnak az osztályokhoz',
       update_account_students_can2: 'Részt vehetnek a kurzusokon tanulóként, és nyomon követhetik saját fejlődésüket',
       update_account_students_can3: 'Megküzdhetnek az osztálytársaikkal az arénában',
       update_account_students_can4: 'Hozzáférhetnek az új tanulói funkciókhoz, amint azok elérhetővé válnak',
-      //    update_account_students_warning_new: "Warning: you will only be able to play the levels your teacher has assigned."
-      //    unsubscribe_warning: "Warning: You will be unsubscribed from your monthly subscription."
+      update_account_students_warning_new: '[AI_TRANSLATION]Figyelem: csak azokat a szinteket tudod játszani, amelyeket a tanárod kijelölt.',
+      unsubscribe_warning: '[AI_TRANSLATION]Figyelem: Havi előfizetésed törlésre kerül.',
       update_account_remain_student: 'Tanuló szeretnék maradni',
       update_account_update_student: 'Frissítés tanulói fiókra',
-      //    update_account_am_individual: "I am a individual"
-      //    update_account_no_classes: "Let me play independently but not join classes"
-      //    update_account_individuals_can: "Individual accounts can:"
-      //    update_account_individuals_can1: "Earn gems, experience, items, and heroes"
-      //    update_account_individuals_can2: "Play through the game as an individual and track your own progress"
-      //    update_account_individuals_can3: "Compete against the world in arenas"
-      //    update_account_individuals_can4: "Access new individual-only features as we release them"
-      //    update_account_individuals_warning_ozaria: "Warning: individual accounts cannot play Ozaria, only CodeCombat."
-      //    update_account_remain_individual: "Remain an Individual"
+      update_account_am_individual: '[AI_TRANSLATION]Én egy egyén vagyok',
+      update_account_no_classes: '[AI_TRANSLATION]Hadd játsszak önállóan, de ne csatlakozzak osztályokhoz',
+      update_account_individuals_can: '[AI_TRANSLATION]Az egyéni fiókok engedélyezve vannak:',
+      update_account_individuals_can1: '[AI_TRANSLATION]Szerezz drágaköveket, tapasztalatot, tárgyakat és hősöket',
+      update_account_individuals_can2: '[AI_TRANSLATION]Játssz egyénileg a játékon keresztül, és kövesd nyomon saját fejlődésedet.',
+      update_account_individuals_can3: '[AI_TRANSLATION]Versenyezz a világgal az arénákban',
+      update_account_individuals_can4: '[AI_TRANSLATION]Használhatsz új, csak egyéni funkciókat, amint kiadjuk őket',
+      update_account_individuals_warning_ozaria: '[AI_TRANSLATION]Figyelem: egyéni fiókok nem játszhatnak az Ozariában, csak a CodeCombatban.',
+      update_account_remain_individual: '[AI_TRANSLATION]Maradj egyéniség',
       need_a_class_code: 'Ehhez az osztályhoz csak osztálykóddal csatlakozhatsz:',
       update_account_not_sure: 'Nem tudsz dönteni? Küldj egy e-mailt',
       update_account_confirm_update_student: 'Biztosan frissíteni szeretnéd a fiókodat tanulói fiókra?',
@@ -2191,105 +2350,111 @@ module.exports = {
       select_your_hero: 'Válassz hőst',
       select_your_hero_description: 'Másik hős választásához nyisd meg a „Kurzusok” lapot, majd kattints a „Hős lecserélése” gombra.',
       select_this_hero: 'Kijelölt hős kiválasztása',
-      current_hero: 'Aktuális hős:'
+      current_hero: 'Aktuális hős:',
+      //    current_hero_female: "Current Hero:",
+      web_dev_language_transition: '[AI_TRANSLATION]Minden osztály HTML / JavaScript-ben programozik ebben a kurzusban. Azok az osztályok, amelyek eddig Python-t használtak, kezdő JavaScript bevezető szintekkel indulnak, hogy megkönnyítsék az átállást. Azok az osztályok, amelyek már JavaScript-et használnak, kihagyják a bevezető szinteket.',
+      course_membership_required_to_play: '[AI_TRANSLATION]Be kell lépned egy kurzusba, hogy játszhass ezen a szinten.',
+      license_required_to_play_coco: '[AI_TRANSLATION]Kérd meg a tanárodat, hogy hozzon neked létre egy engedélyt, hogy folytathasd a CodeCombat játékot!',
+      license_required_to_play_ozar: '[AI_TRANSLATION]Kérd meg a tanárodat, hogy rendeljen neked egy licencet, hogy folytathasd az Ozaria játékot!',
+      level_locked: '[AI_TRANSLATION]Ez a szint zárolva van.',
+      update_old_classroom: '[AI_TRANSLATION]Új tanév, új szintek!',
+      update_old_classroom_detail: '[AI_TRANSLATION]Hogy biztosan a legfrissebb szinteket kapd, létre kell hoznod egy új osztályt erre a szemeszterre a Create a New Class-ra kattintva.',
+      teacher_dashboard: '[AI_TRANSLATION]tanár műszerfal',
+      update_old_classroom_detail_2: '[AI_TRANSLATION]és megadva a diákoknak az új Osztálykódot, amely megjelenik.',
+      view_assessments: '[AI_TRANSLATION]Értékelések Megtekintése',
+      view_challenges: '[AI_TRANSLATION]nézd meg a kihívás szinteket',
+      challenge: '[AI_TRANSLATION]Kihívás:',
+      challenge_level: '[AI_TRANSLATION]Kihívás szint:',
+      status: '[AI_TRANSLATION]Állapot:  ',
+      assessments: '[AI_TRANSLATION]Felmérések',
+      challenges: '[AI_TRANSLATION]Kihívások',
+      level_name: '[AI_TRANSLATION]Szint Neve:',
+      keep_trying: '[AI_TRANSLATION]Ne add fel',
+      start_challenge: '[AI_TRANSLATION]Kezdődhet a Kihívás',
+      //    locked: "Locked",
+      concepts_used: '[AI_TRANSLATION]Használt Fogalmak:',
+      show_change_log: '[AI_TRANSLATION]A kurzus szintjeinek módosításainak megtekintése',
+      hide_change_log: '[AI_TRANSLATION]Rejtsd el az e kurzus szintjeinek változásait',
+      concept_videos: '[AI_TRANSLATION]Fogalmi Videók',
+      concept: '[AI_TRANSLATION]Koncepció:',
+      //    basic_syntax: "Basic Syntax",
+      while_loops: '[AI_TRANSLATION]Miközben ciklusok  ',
+      variables: '[AI_TRANSLATION]Változók  ',
+      //    basic_syntax_desc: "Syntax is how we write code. Just as spelling and grammar are important in writing narratives and essays, syntax is important when writing code. Humans are good at figuring out what something means, even if it isn't exactly correct, but computers aren't that smart, and they need you to write very precisely.",
+      while_loops_desc: '[AI_TRANSLATION]A ciklus egy módja annak, hogy egy műveletet ismételjünk a programban. Használhatod őket, hogy ne kelljen ismétlődő kódot írni, és amikor nem tudod pontosan, hány alkalommal kell egy műveletet végrehajtani a feladat elvégzéséhez.',
+      variables_desc: '[AI_TRANSLATION]A változókkal való dolgozás olyan, mint a dolgok rendszerezése cipősdobozokban. Adsz a doboznak egy nevet, mint például "Iskolai Kellékek", és aztán belepakolod a dolgokat. A doboz pontos tartalma idővel változhat, de bármi is van benne, mindig "Iskolai Kellékek"-nek fogják hívni. A programozásban a változók olyan szimbólumok, amelyeket adatok tárolására használnak, amelyek a program során megváltoznak. A változók különböző adattípusokat tárolhatnak, beleértve a számokat és karakterláncokat.',
+      locked_videos_desc: '[AI_TRANSLATION]Játssz tovább, hogy feloldhasd a __concept_name__ koncepció videót.',
+      unlocked_videos_desc: '[AI_TRANSLATION]Nézd át a __concept_name__ koncepció videót.',
+      video_shown_before: '[AI_TRANSLATION]megjelenik a __level__ előtt',
+      link_google_classroom: '[AI_TRANSLATION]Link Google Tanterem',
+      select_your_classroom: '[AI_TRANSLATION]Válaszd ki az osztályodat',
+      no_classrooms_found: '[AI_TRANSLATION]Nem található osztályterem',
+      create_classroom_manually: '[AI_TRANSLATION]Osztály létrehozása kézzel',
+      //    classes: "Classes",
+      certificate_btn_print: '[AI_TRANSLATION]Nyomtatás',
+      certificate_btn_toggle: '[AI_TRANSLATION]Kapcsoló',
+      error_in_creating_data: '[AI_TRANSLATION]Hiba történt az intro szint adatainak létrehozásakor!',
+      ask_next_course: '[AI_TRANSLATION]Szeretnél többet játszani? Kérd meg a tanárodat a következő kurzushoz való hozzáférésért.',
+      set_start_locked_level: '[AI_TRANSLATION]Zárt szintek kezdete',
+      no_level_limit: '[AI_TRANSLATION]-- (nincsenek zárt szintek)',
+      ask_teacher_to_unlock: '[AI_TRANSLATION]Kérd meg a tanárt, hogy oldja fel',
+      ask_teacher_to_unlock_instructions: '[AI_TRANSLATION]Az új szint elindításához kérd meg a tanárodat, hogy nyissa meg a kurzus előrehaladási képernyőjén.',
+      play_next_level: '[AI_TRANSLATION]Következő szint lejátszása',
+      play_tournament: '[AI_TRANSLATION]Játssz a bajnokságban',
+      levels_completed: '[AI_TRANSLATION]Teljesített szintek: __count__',
+      ai_league_team_rankings: '[AI_TRANSLATION]Mesterséges Intelligencia Liga Csapat Ranglisták',
+      view_standings: '[AI_TRANSLATION]Nézd meg az állásokat',
+      view_winners: '[AI_TRANSLATION]Nézd meg a győzteseket',
+      classroom_announcement: '[AI_TRANSLATION]Osztálytermi Közlemény',
+      link_lms_classroom: '[AI_TRANSLATION]LMS Osztályhelyiség link',
+      classroom_items: '[AI_TRANSLATION]Tárgyak és Drágakövek',
+      classroom_live_completion: '[AI_TRANSLATION]Osztálytermi Kód Kiegészítés:',
+      learn_without_classroom_title: '[AI_TRANSLATION]Osztályterem nélkül is tanulhatsz és játszhatsz',
+      learn_without_classroom_blurb: "[AI_TRANSLATION]Kezdd el ingyen játszani a Sky Mountain fejezetet, ha <a href='/play/chapter-1-sky-mountain'>ide kattintasz</a>.",
+      learn_without_classroom_blurb_coco: "[AI_TRANSLATION]Kezdd az ingyenes Óra a Kóddal kampány játszásával <a href='/play/intro'>ide kattintva</a>.",
+      all_courses_completed: '[AI_TRANSLATION]Minden kurzus befejezve!',
+      all_units_completed: '[AI_TRANSLATION]Minden Egység Teljesítve!',
+      hide_options: '[AI_TRANSLATION]Opciók Elrejtése',
+      more_options: '[AI_TRANSLATION]Több opció',
+      get_test_license: '[AI_TRANSLATION]Szerezd meg a Teszt Tanulói Licencet',
+      create_students: '[AI_TRANSLATION]Diákok Generálása',
+      //    custom_tournaments: "Custom Tournaments",
     },
-    //    current_hero_female: "Current Hero:"
-    //    web_dev_language_transition: "All classes program in HTML / JavaScript for this course.  Classes that have been using Python will start with extra JavaScript intro levels to ease the transition.  Classes that are already using JavaScript will skip the intro levels."
-    //    course_membership_required_to_play: "You'll need to join a course to play this level."
-    //    license_required_to_play_coco: "Ask your teacher to assign a license to you so you can continue to play CodeCombat!"
-    //    license_required_to_play_ozar: "Ask your teacher to assign you a license so you can continue to play Ozaria!"
-    //    update_old_classroom: "New school year, new levels!"
-    //    update_old_classroom_detail: "To make sure you're getting the most up-to-date levels, make sure you create a new class for this semester by clicking Create a New Class on your"
-    //    teacher_dashboard: "teacher dashboard"
-    //    update_old_classroom_detail_2: "and giving students the new Class Code that appears."
-    //    view_assessments: "View Assessments"
-    //    view_challenges: "view challenge levels"
-    //    challenge: "Challenge:"
-    //    challenge_level: "Challenge Level:"
-    //    status: "Status:"
-    //    assessments: "Assessments"
-    //    challenges: "Challenges"
-    //    level_name: "Level Name:"
-    //    keep_trying: "Keep Trying"
-    //    start_challenge: "Start Challenge"
-    //    locked: "Locked"
-    //    concepts_used: "Concepts Used:"
-    //    show_change_log: "Show changes to this course's levels"
-    //    hide_change_log: "Hide changes to this course's levels"
-    //    concept_videos: "Concept Videos"
-    //    concept: "Concept:"
-    //    basic_syntax: "Basic Syntax"
-    //    while_loops: "While Loops"
-    //    variables: "Variables"
-    //    basic_syntax_desc: "Syntax is how we write code. Just as spelling and grammar are important in writing narratives and essays, syntax is important when writing code. Humans are good at figuring out what something means, even if it isn't exactly correct, but computers aren't that smart, and they need you to write very precisely."
-    //    while_loops_desc: "A loop is a way of repeating actions in a program. You can use them so you don't have to keep writing repetitive code, and when you don't know exactly how many times an action will need to occur to accomplish a task."
-    //    variables_desc: "Working with variables is like organizing things in shoeboxes. You give the shoebox a name, like \"School Supplies\", and then you put things inside. The exact contents of the box might change over time, but whatever's inside will always be called \"School Supplies\". In programming, variables are symbols used to store data that will change over the course of the program. Variables can hold a variety of data types, including numbers and strings."
-    //    locked_videos_desc: "Keep playing the game to unlock the __concept_name__ concept video."
-    //    unlocked_videos_desc: "Review the __concept_name__ concept video."
-    //    video_shown_before: "shown before __level__"
-    //    link_google_classroom: "Link Google Classroom"
-    //    select_your_classroom: "Select Your Classroom"
-    //    no_classrooms_found: "No classrooms found"
-    //    create_classroom_manually: "Create classroom manually"
-    //    classes: "Classes"
-    //    certificate_btn_print: "Print"
-    //    certificate_btn_toggle: "Toggle"
-    //    error_in_creating_data: "Error in creating data for intro level!"
-    //    ask_next_course: "Want to play more? Ask your teacher for access to the next course."
-    //    set_start_locked_level: "Lock levels starting at"
-    //    no_level_limit: "-- (no levels locked)"
-    //    ask_teacher_to_unlock: "Ask Teacher To Unlock"
-    //    ask_teacher_to_unlock_instructions: "To play the next level, ask your teacher to unlock it on their Course Progress screen"
-    //    play_next_level: "Play Next Level"
-    //    play_tournament: "Play Tournament"
-    //    levels_completed: "Levels Completed: __count__"
-    //    ai_league_team_rankings: "AI League Team Rankings"
-    //    view_standings: "View Standings"
-    //    view_winners: "View Winners"
-    //    classroom_announcement: "Classroom Announcement"
-    //    link_lms_classroom: "Link LMS Classroom"
-    //    classroom_items: "Items & Gems"
-    //    classroom_live_completion: "Classroom Code Autocomplete: "
-    //    learn_without_classroom_title: "You can still learn and play without a classroom"
-    //    learn_without_classroom_blurb: "Start by playing the free Sky Mountain chapter by <a href='/play/chapter-1-sky-mountain'>clicking here</a>."
-    //    learn_without_classroom_blurb_coco: "Start by playing the free Hour of Code campaign by <a href='/play/intro'>clicking here</a>."
-    //    all_courses_completed: "All Courses Completed!"
-    //    all_units_completed: "All Units Completed!"
 
     project_gallery: {
       no_projects_published: 'Publikálj elsőként projektet ebben a kurzusban!',
       view_project: 'Projekt megtekintése',
-      edit_project: 'Projekt szerkesztése'
+      edit_project: 'Projekt szerkesztése',
     },
 
     teacher: {
-    //    assigning_course: "Assigning course"
-    //    back_to_top: "Back to Top"
-    //    click_student_code: "Click on any level that the student has started or completed below to view the code they wrote."
-    //    code: "__name__'s Code"
-    //    complete_solution: "Complete Solution"
-    //    course_not_started: "Student has not started this course yet."
-    //    hoc_happy_ed_week: "Happy Computer Science Education Week!"
-    //    hoc_blurb1: "Learn about the free"
-    //    hoc_blurb2: "Code, Play, Share"
-    //    hoc_blurb3: "activity, download a new teacher lesson plan, and tell your students to log in to play!"
-    //    hoc_button_text: "View Activity"
-    //    no_code_yet: "Student has not written any code for this level yet."
-    //    open_ended_level: "Open-Ended Level"
-    //    partial_solution: "Partial Solution"
-    //    capstone_solution: "Capstone Solution"
-    //    removing_course: "Removing course"
-    //    solution_arena_blurb: "Students are encouraged to solve arena levels creatively. The solution provided below meets the requirements of the arena level."
-    //    solution_challenge_blurb: "Students are encouraged to solve open-ended challenge levels creatively. One possible solution is displayed below."
-    //    solution_project_blurb: "Students are encouraged to build a creative project in this level. Please refer to curriculum guides in the Teacher Toolkit for information on how to evaluate these projects."
-    //    feedback_capstone: "The student will create a base project in Part 1. They will make creative updates based on peer feedback in Part 2. Here is a <a target=\"_blank\" rel=\"noopener\" href=\"https://docs.google.com/document/d/1itB0vY6WphjINQYJ9NHkILATcLLlYD3GDSg6FJg55OQ\">Peer Feedback Template</a> that you can share with your students."
-    //    students_code_blurb: "A correct solution to each level is provided where appropriate. In some cases, it’s possible for a student to solve a level using different code. Solutions are not shown for levels the student has not started."
+      assigning_course: '[AI_TRANSLATION]Tanfolyam hozzárendelése',
+      back_to_top: '[AI_TRANSLATION]Vissza az elejére',
+      click_student_code: '[AI_TRANSLATION]Kattints bármely szintre, amelyet a diák megkezdett vagy befejezett alább, hogy megnézhesd az általuk írt kódot.',
+      code: '[AI_TRANSLATION]__name__ Kódja',
+      complete_solution: '[AI_TRANSLATION]Teljes Megoldás',
+      course_not_started: '[AI_TRANSLATION]A diák még nem kezdte el ezt a kurzust.',
+      hoc_happy_ed_week: '[AI_TRANSLATION]Boldog Számítástechnikai Oktatási Hetet!',
+      hoc_blurb1: '[AI_TRANSLATION]Ismerd meg az ingyenes',
+      hoc_blurb2: '[AI_TRANSLATION]Kódolj, Játssz, Oszd meg!  ',
+      hoc_blurb3: '[AI_TRANSLATION]tevékenység, tölts le egy új tanári lecke tervet, és mondd meg a diákjaidnak, hogy lépjenek be játszani!',
+      hoc_button_text: '[AI_TRANSLATION]Aktivitás megtekintése',
+      no_code_yet: '[AI_TRANSLATION]A diák még nem írt kódot ehhez a szinthez.',
+      open_ended_level: '[AI_TRANSLATION]Nyílt végű szint',
+      partial_solution: '[AI_TRANSLATION]Részleges Megoldás',
+      capstone_solution: '[AI_TRANSLATION]Végső Megoldás',
+      removing_course: '[AI_TRANSLATION]Tanfolyam eltávolítása',
+      solution_arena_blurb: '[AI_TRANSLATION]A diákokat arra bátorítjuk, hogy kreatívan oldják meg az aréna szinteket. Az alábbi megoldás megfelel az aréna szint követelményeinek.',
+      solution_challenge_blurb: '[AI_TRANSLATION]A diákokat arra ösztönzik, hogy kreatívan oldják meg a nyílt végű kihívási szinteket. Az egyik lehetséges megoldás lent látható.',
+      solution_project_blurb: '[AI_TRANSLATION]A diákokat ösztönzik, hogy készítsenek egy kreatív projektet ezen a szinten. A projektek értékeléséhez lásd a Tanári Eszköztár tantervi útmutatóját.',
+      feedback_capstone: '[AI_TRANSLATION]A diák létre fog hozni egy alap projektet az 1. részben. Kreatív frissítéseket hajtanak végre a társak visszajelzései alapján a 2. részben. Itt egy <a target="_blank" rel="noopener" href="https://docs.google.com/document/d/1itB0vY6WphjINQYJ9NHkILATcLLlYD3GDSg6FJg55OQ">Peer Feedback Template</a>, amit megoszthatsz a diákjaiddal.',
+      students_code_blurb: '[AI_TRANSLATION]Minden szinthez megfelelő megoldás van biztosítva, ahol szükséges. Bizonyos esetekben a diákok más kóddal is megoldhatják a szinteket. A megoldások nem jelennek meg a diákok által el nem kezdett szinteken.',
       course_solution: 'Kurzusmegoldókulcs',
       level_overview_solutions: 'Pályaleírások és megoldókulcs',
-      //    no_student_assigned: "No students have been assigned this course."
-      //    paren_new: "(new)"
-      //    student_code: "__name__'s Student Code"
-      teacher_dashboard: 'Tanári irányítópult', // Navbar
+      no_student_assigned: '[AI_TRANSLATION]Ehhez a tanfolyamhoz nincs hallgató hozzárendelve.',
+      paren_new: '[AI_TRANSLATION](új)',
+      student_code: '[AI_TRANSLATION]__name__ diákkódja  ',
+      teacher_dashboard: 'Tanári irányítópult',
       my_classes: 'Saját osztályok',
       courses_coco: 'Kurzus útmutatók',
       courses_ozar: 'Kurzus útmutatók',
@@ -2305,18 +2470,18 @@ module.exports = {
       teacher_account_explanation: 'CodeCombat oktatói fiókkal osztályokat állíthatsz össze, követheted tanulóid fejlődését, valamint különböző erőforrásokhoz férhetsz hozzá, melyek segítenek a tananyag létrehozásában.',
       current_classes: 'Jelenlegi osztályok',
       archived_classes: 'Archivált osztályok',
-      //    shared_classes: "Shared Classes"
+      shared_classes: '[AI_TRANSLATION]Megosztott osztályok',
       archived_classes_blurb: 'Az osztályok archiválhatók későbbi megtekintés céljából. Az osztály újraaktiválásakor az osztály újra megjelenik a Jelenlegi osztályok listán.',
       view_class: 'osztály megtekintése',
-      //    view_ai_league_team: "View AI League team"
+      view_ai_league_team: '[AI_TRANSLATION]AI Liga csapat megtekintése',
       archive_class: 'osztály archiválása',
       unarchive_class: 'osztály újraaktiválása',
       unarchive_this_class: 'Aktiváld újra ezt az osztályt',
       no_students_yet: 'Ennek az osztálynak még nincsen tanulója.',
-      //    no_students_yet_view_class: "View class to add students."
+      no_students_yet_view_class: '[AI_TRANSLATION]Nézd meg az osztályt, hogy hozzáadhass diákokat.',
       try_refreshing: '(Szükség lehet az oldal frissítésére)',
       create_new_class: 'Új osztály',
-      class_overview: 'Osztály áttekintése', // View Class page
+      class_overview: 'Osztály áttekintése',
       avg_playtime: 'Átlagos pályánkénti játékidő',
       total_playtime: 'Teljes játékidő',
       avg_completed: 'Teljesített pályák - átlag',
@@ -2326,72 +2491,72 @@ module.exports = {
       earliest_incomplete: 'Legkorábbi teljesítetlen pálya',
       latest_complete: 'Legkésőbbi teljesített pálya',
       enroll_student: 'Tanuló beíratása',
-      //    apply_modal_subtitle: "You will be redirected to your My Classes page, where you can apply licenses to your students by:"
-      //    apply_modal_list_item_1: "Selecting or creating a class"
-      //    apply_modal_list_item_2: "Selecting students you want to apply licenses to"
-      //    apply_modal_list_item_3: "Clicking the “Apply Licenses” button"
-      //    apply_license: "Apply License"
-      //    revoke_license: "Revoke License"
-      //    revoke_licenses: "Revoke All Licenses"
-      //    revoke_these_licenses: "Select Students and Revoke These Licenses"
-      //    check_and_revoke_license: "Status & Revoke"
-      //    manage_license: "Manage License"
+      apply_modal_subtitle: '[AI_TRANSLATION]Át leszel irányítva az "Osztályaim" oldalra, ahol a következőképpen tudsz licenceket alkalmazni a diákjaidra:',
+      apply_modal_list_item_1: '[AI_TRANSLATION]Osztály kiválasztása vagy létrehozása',
+      apply_modal_list_item_2: '[AI_TRANSLATION]A diákok kiválasztása, akikre alkalmazni kívánod az engedélyeket',
+      apply_modal_list_item_3: '[AI_TRANSLATION]Az "Alkalmazza a licenceket" gomb megnyomása',
+      apply_license: '[AI_TRANSLATION]Licenc Alkalmazása',
+      revoke_license: '[AI_TRANSLATION]Licenc Visszavonása',
+      revoke_licenses: '[AI_TRANSLATION]Minden engedély visszavonása',
+      revoke_these_licenses: '[AI_TRANSLATION]Válaszd ki a diákokat és vondd vissza ezeket az engedélyeket.',
+      check_and_revoke_license: '[AI_TRANSLATION]Állapot & Visszavonás',
+      manage_license: '[AI_TRANSLATION]Licence kezelése',
       course_progress: 'Kurzus állapota',
-      //    unit_progress: "Unit Progress"
+      unit_progress: '[AI_TRANSLATION]Egység Haladás',
       not_applicable: '[nem elérhető]',
       edit: 'szerkesztés',
       edit_2: 'Szerkesztés',
       remove: 'eltávolítás',
-      latest_completed: 'Legkésőbbi teljesített', // {change}
+      latest_completed: 'Legkésőbbi teljesített',
       sort_by: 'Rendezés',
       progress: 'Fejlődés',
-      //    concepts_used: "Concepts used by Student:"
-      //    concept_checked: "Concept checked:"
+      concepts_used: '[AI_TRANSLATION]Tanuló által használt fogalmak:',
+      concept_checked: '[AI_TRANSLATION]Ellenőrzött koncepció:',
       completed: 'Teljesítve',
-      //    practice: "Practice"
+      //    practice: "Practice",
       started: 'Elkezdve',
       no_progress: 'Nincs fejlődés',
-      //    not_required: "Not required"
-      //    view_student_code: "Click to view student code"
+      not_required: '[AI_TRANSLATION]Nem szükséges',
+      view_student_code: '[AI_TRANSLATION]Kattints, hogy megnézd a diákok kódját',
       select_course_coco: 'Megnézendő kurzus kiválasztása',
       select_course_ozar: 'Megnézendő kurzus kiválasztása',
-      //    progress_color_key: "Progress color key:"
-      //    level_in_progress: "Level in Progress"
-      //    level_not_started: "Level Not Started"
-      //    project_or_arena: "Project or Arena"
-      //    students_not_assigned: "Students who have not been assigned {{courseName}}"
+      progress_color_key: '[AI_TRANSLATION]Haladás színkód:',
+      level_in_progress: '[AI_TRANSLATION]Szint folyamatban',
+      level_not_started: '[AI_TRANSLATION]A szint nincs elindítva',
+      project_or_arena: '[AI_TRANSLATION]Projekt vagy Aréna',
+      students_not_assigned: '[AI_TRANSLATION]Azok a diákok, akik nincsenek beosztva {{courseName}}',
       course_overview: 'Kurzus áttekintése',
       copy_class_code: 'Osztálykód másolása',
       class_code_blurb: 'Diákjaid ezzel a kóddal csatlakozhatnak az osztályodhoz. Osztálykód használata esetén nem kell e-mail címet megadni a tanulói fiók létrehozása során.',
       copy_class_url: 'Osztály-URL másolása',
       class_join_url_blurb: 'Az osztály egyedi URL-címét közzéteheted egy diákjaiddal közösen használt weboldalon.',
       add_students_manually: 'Tanulók meghívása e-mailben',
-      bulk_assign: 'Csoportos hozzárendelés', // {change}
-      //    assigned_msg_1: "{{numberAssigned}} students were assigned {{courseName}}."
-      //    assigned_msg_2: "{{numberEnrolled}} licenses were applied."
-      //    assigned_msg_3: "You now have {{remainingSpots}} available licenses remaining."
-      //    assign_course: "Assign Course"
-      //    removed_course_msg: "{{numberRemoved}} students were removed from {{courseName}}."
-      //    remove_course: "Remove Course"
-      //    not_assigned_msg_1: "Cannot add users to a course instance until they are added to a prepaid that includes this course"
-      //    not_assigned_modal_title: "Courses were not assigned"
-      //    not_assigned_modal_starter_body_1: "This course requires a Starter License. You do not have enough Starter Licenses available to assign this course to all __selected__ selected students."
-      //    not_assigned_modal_starter_body_2: "Purchase Starter Licenses to grant access to this course."
-      //    not_assigned_modal_full_body_1: "This course requires a Full License. You do not have enough Full Licenses available to assign this course to all __selected__ selected students."
-      //    not_assigned_modal_full_body_2: "You only have __numFullLicensesAvailable__ Full Licenses available (__numStudentsWithoutFullLicenses__ students do not currently have a Full License active)."
-      //    not_assigned_modal_full_body_3: "Please select fewer students, or reach out to __supportEmail__ for assistance."
+      bulk_assign: 'Csoportos hozzárendelés',
+      //    assigned_msg_1: "{{numberAssigned}} students were assigned {{courseName}}.",
+      assigned_msg_2: '[AI_TRANSLATION]{{numberEnrolled}} licenc lett alkalmazva.  ',
+      assigned_msg_3: '[AI_TRANSLATION]Most {{remainingSpots}} szabad licensz maradt.',
+      assign_course: '[AI_TRANSLATION]Kurzus hozzárendelése',
+      removed_course_msg: '[AI_TRANSLATION]{{numberRemoved}} diákot eltávolítottuk a {{courseName}} kurzusból.',
+      remove_course: '[AI_TRANSLATION]Tanfolyam eltávolítása',
+      not_assigned_msg_1: '[AI_TRANSLATION]Nem lehet felhasználókat hozzáadni egy kurzus példányhoz, amíg hozzá nem adják őket egy előfizetett kurzushoz, ami ezt a kurzust tartalmazza ',
+      not_assigned_modal_title: '[AI_TRANSLATION]Nem lettek kurzusok hozzárendelve',
+      not_assigned_modal_starter_body_1: '[AI_TRANSLATION]Ez a kurzus kezdőlicencet igényel. Nincs elegendő kezdőlicenced, hogy ezt a kurzust minden __selected__ kiválasztott diáknak kioszd.',
+      not_assigned_modal_starter_body_2: '[AI_TRANSLATION]Vásárolj kezdő licenceket a kurzushoz való hozzáféréshez.',
+      not_assigned_modal_full_body_1: '[AI_TRANSLATION]Ez a kurzus teljes licencet igényel. Nincs elég teljes licenced ahhoz, hogy hozzárendeld ezt a kurzust minden __selected__ kiválasztott diákhoz.',
+      not_assigned_modal_full_body_2: '[AI_TRANSLATION]Csak __numFullLicensesAvailable__ Teljes Licensz áll rendelkezésre (__numStudentsWithoutFullLicenses__ diák jelenleg nem rendelkezik aktív Teljes Licensszel).',
+      not_assigned_modal_full_body_3: '[AI_TRANSLATION]Kérlek, válassz kevesebb diákot, vagy fordulj __supportEmail__-hez segítségért.',
       assigned: 'Hozzárendelve',
       enroll_selected_students: 'Kiválasztott tanulók beíratása',
       no_students_selected: 'Nincsenek kiválasztott tanulók.',
-      show_students_from: 'Mutasd a tanulókat innen:', // Enroll students modal
-      //    apply_licenses_to_the_following_students: "Apply Licenses to the Following Students"
-      //    select_license_type: "Select License Type to Apply"
-      //    students_have_licenses: "The following students already have licenses applied:"
+      show_students_from: 'Mutasd a tanulókat innen:',
+      apply_licenses_to_the_following_students: '[AI_TRANSLATION]Alkalmazz engedélyeket a következő diákokra',
+      select_license_type: '[AI_TRANSLATION]Válassza ki az alkalmazandó licenc típusát',
+      students_have_licenses: '[AI_TRANSLATION]A következő diákoknak már vannak érvényes engedélyeik:',
       all_students: 'Minden tanuló',
-      //    apply_licenses: "Apply Licenses"
+      apply_licenses: '[AI_TRANSLATION]Engedélyek alkalmazása',
       not_enough_enrollments: 'Nincs elég licenc.',
-      //    enrollments_blurb: "Students are required to have a license to access any content after the first course."
-      //    how_to_apply_licenses: "How to Apply Licenses"
+      enrollments_blurb: '[AI_TRANSLATION]A diákoknak engedélyre van szükségük, hogy hozzáférjenek a tartalomhoz az első tanfolyam után.',
+      how_to_apply_licenses: '[AI_TRANSLATION]Hogyan igényelhetsz engedélyeket',
       export_student_progress: 'Tanuló fejlődésének exportálása (CSV)',
       send_email_to: 'Jelszó-emlékeztető e-mail küldése ide:',
       email_sent: 'E-mail elküldve',
@@ -2401,357 +2566,389 @@ module.exports = {
       changed: 'Megváltoztatva',
       available_credits: 'Rendelkezésre álló licencek',
       pending_credits: 'Függő licencek',
-      //    empty_credits: "Exhausted Licenses"
-      //    license_remaining: "license remaining"
-      //    licenses_remaining: "licenses remaining"
-      //    student_enrollment_history: "Student Enrollment History"
-      //    enrollment_explanation_1: "The"
-      //    enrollment_explanation_2: "Student Enrollment History"
-      //    enrollment_explanation_3: "displays the total number of unique students who were enrolled across all teachers and classrooms added to your dashboard. This includes students in both archived and unarchived classrooms with a class creation date between July 1- June 30 of each respective school year."
-      //    enrollment_explanation_4: "Remember"
-      //    enrollment_explanation_5: "classes may be archived and licenses may be reused throughout the school year, so this view allows administrators to understand how many students truly participated in the program overall."
-      //    one_license_used: "1 out of __totalLicenses__ licenses has been used"
-      //    num_licenses_used: "__numLicensesUsed__ out of __totalLicenses__ licenses have been used"
-      //    starter_licenses: "starter licenses"
+      empty_credits: '[AI_TRANSLATION]Kimerült Licenszek',
+      license_remaining: '[AI_TRANSLATION]hátralévő licenc',
+      licenses_remaining: '[AI_TRANSLATION]licenses remaining\nmaradék licencek\n',
+      student_enrollment_history: '[AI_TRANSLATION]Diák beiratkozási történet',
+      enrollment_explanation_1: '[AI_TRANSLATION]Az',
+      enrollment_explanation_2: '[AI_TRANSLATION]Diák beiratkozási történet',
+      enrollment_explanation_3: '[AI_TRANSLATION]megjeleníti az összes olyan egyedi diák számát, akik fel voltak iratkozva minden hozzáadott tanáron és osztálytermen keresztül a dashboardodon. Ez magában foglalja az archivált és nem archivált osztálytermek diákjait is, amelyek osztály létrehozási dátuma július 1. és június 30. közé esik minden iskolai évben.  ',
+      enrollment_explanation_4: '[AI_TRANSLATION]Emlékezni',
+      enrollment_explanation_5: '[AI_TRANSLATION]Az osztályok archiválhatók és a licencek újra felhasználhatók az iskolaév során, így ez a nézet lehetővé teszi a rendszergazdák számára, hogy megértsék, hány diák vett részt valóban a programban.  ',
+      one_license_used: '[AI_TRANSLATION]__totalLicenses__ licencből 1 használatban van',
+      num_licenses_used: '[AI_TRANSLATION]Összesen __numLicensesUsed__ / __totalLicenses__ licenc lett felhasználva',
+      starter_licenses: '[AI_TRANSLATION]kezdő licencek',
       start_date: 'Kezdő dátum:',
       end_date: 'Befejező dátum:',
       get_enrollments_blurb: ' Segítünk osztályod, iskolád vagy lakóterületed igényeire szabott megoldást találni!',
-      //    see_also_our: "See also our"
-      //    for_more_funding_resources: "for how to leverage CARES Act funding sources like ESSER and GEER."
-      //    how_to_apply_licenses_blurb_1: "When a teacher assigns a course to a student for the first time, we’ll automatically apply a license. Use the bulk-assign dropdown in your classroom to assign a course to selected students:"
-      //    how_to_apply_licenses_blurb_2: "Can I still apply a license without assigning a course?"
-      //    how_to_apply_licenses_blurb_3: "Yes — go to the License Status tab in your classroom and click \"Apply License\" to any student who does not have an active license."
+      see_also_our: '[AI_TRANSLATION]Lásd még a miénket',
+      for_more_funding_resources: '[AI_TRANSLATION]hogyan használd ki a CARES Act finanszírozási forrásokat, mint például az ESSER és a GEER.',
+      how_to_apply_licenses_blurb_1: '[AI_TRANSLATION]Amikor egy tanár először rendel egy tanfolyamot egy diáknak, automatikusan felhasználunk egy licencet. Az osztálytermedben lévő tömeges hozzárendelés legördülő menüpontjából választhatsz tanfolyamot a kiválasztott diákok számára:',
+      how_to_apply_licenses_blurb_2: '[AI_TRANSLATION]Alkalmazhatok még licencet egy kurzus hozzárendelése nélkül?',
+      how_to_apply_licenses_blurb_3: '[AI_TRANSLATION]Igen — menj az Osztály Tervezetének fülére és kattints az "Engedély Alkalmazása" lehetőségre bármelyik diáknál, akinek nincs aktív engedélye.',
       request_sent: 'Kérés elküldve.',
-      //    assessments: "Assessments"
-      //    license_status: "License Status"
+      assessments: '[AI_TRANSLATION]Felmérések',
+      license_status: '[AI_TRANSLATION]Licenc státusz',
       status_expired: 'Lejárt: {{date}}',
       status_not_enrolled: 'Nincs beíratva.',
       status_enrolled: 'Lejár: {{date}}',
-      //    status_partly_expires: "Partly expires on {{date}}"
-      select_all: 'Összes kiválasztása'
+      status_partly_expires: '[AI_TRANSLATION]Részben lejár {{date}}',
+      select_all: 'Összes kiválasztása',
+      project: '[AI_TRANSLATION]Projekt',
+      projects: '[AI_TRANSLATION]Projektek',
+      project_gallery: '[AI_TRANSLATION]Projekt Galéria',
+      //    view_project: "View Project",
+      unpublished: '[AI_TRANSLATION](nem publikált)',
+      view_arena_ladder: '[AI_TRANSLATION]Nézd meg az aréna ranglistát',
+      resource_hub: '[AI_TRANSLATION]Tanári Eszköztár',
+      pacing_guides: '[AI_TRANSLATION]Osztályterem azonnal - ütemezési útmutatók',
+      pacing_guides_desc: '[AI_TRANSLATION]Tanuld meg, hogyan használd a CodeCombat összes erőforrását, hogy megtervezd az iskolai évet!',
+      pacing_guides_elem: '[AI_TRANSLATION]Általános Iskolai Időbeosztás Útmutató',
+      pacing_guides_middle: '[AI_TRANSLATION]Középsikolai ütemterv',
+      pacing_guides_high: '[AI_TRANSLATION]Középiskolai Ütemterv',
+      getting_started: '[AI_TRANSLATION]Első lépések',
+      student_resources: '[AI_TRANSLATION]Diákforrások',
+      curriculum: '[AI_TRANSLATION]Tanterv',
+      lesson_slides: '[AI_TRANSLATION]Óra Diavetítések',
+      section: '[AI_TRANSLATION]Szakasz',
+      educator_faq: '[AI_TRANSLATION]Oktatói GYIK',
+      educator_faq_desc: '[AI_TRANSLATION]Gyakran ismételt kérdések az Ozaria osztálytermi vagy iskolai használatáról.',
+      teacher_getting_started: '[AI_TRANSLATION]Tanári Kezdési Útmutató',
+      teacher_getting_started_desc: '[AI_TRANSLATION]Új vagy Ozariában? Töltsd le ezt a Tanár Kezdő Útmutatót, hogy beállítsd a fiókodat, létrehozd az első osztályt, és meghívd a diákokat az első egységre.',
+      student_getting_started: '[AI_TRANSLATION]Diák gyorsindítási útmutató',
+      student_getting_started_desc: '[AI_TRANSLATION]Ezt az útmutatót megoszthatod a diákjaiddal a CodeCombat előtt, hogy megismerkedjenek a kódszerkesztővel. Az útmutató használható Python és JavaScript órákon is.  ',
+      standardized_curricula: '[AI_TRANSLATION]Szabványosított tantervek',
+      ap_cs_principles: '[AI_TRANSLATION]AP Számítástechnikai Alapelvek',
+      ap_cs_principles_desc: '[AI_TRANSLATION]Az AP Számítástechnikai Elvek széles körű bevezetést nyújt a számítástechnika erejébe, hatásába és lehetőségeibe. A kurzus a számítástechnikai gondolkodásra és a problémamegoldásra helyezi a hangsúlyt, miközben megtanítja a programozás alapjait is.',
+      //    cs1: "Introduction to Computer Science",
+      cs2: '[AI_TRANSLATION]Számítástechnika 2\n',
+      cs3: '[AI_TRANSLATION]Számítástechnika 3',
+      cs4: '[AI_TRANSLATION]Számítástechnika 4',
+      cs5: '[AI_TRANSLATION]Számítástechnika 5',
+      cs1_syntax_python: '[AI_TRANSLATION]1. kurzus: Python szintaxis útmutató',
+      cs1_syntax_python_desc: '[AI_TRANSLATION]Puskacímke, amely a közös Python szintaxisú hivatkozásokat tartalmazza, amiket a hallgatók megismernek a Bevezetés a Számítástechnikába kurzus alatt.',
+      cs1_syntax_javascript: '[AI_TRANSLATION]Első Tananyag JavaScript Szintaxis Útmutató',
+      cs1_syntax_javascript_desc: '[AI_TRANSLATION]Puska, amely hivatkozásokat tartalmaz a JavaScript szintaxisára, amelyeket a diákok megtanulnak a Bevezetés a számítástechnikába során.',
+      coming_soon: '[AI_TRANSLATION]További útmutatók hamarosan érkeznek!',
+      engineering_cycle_worksheet: '[AI_TRANSLATION]Mérnöki Ciklus Munkalap',
+      engineering_cycle_worksheet_desc: '[AI_TRANSLATION]Használja ezt a munkalapot, hogy megtanítsa a diákoknak a mérnöki ciklus alapjait: Értékelés, Tervezés, Megvalósítás és Hibakeresés. Hivatkozzon a kitöltött példamunkalapra útmutatóként.',
+      engineering_cycle_worksheet_link: '[AI_TRANSLATION]Nézd meg a példát',
+      progress_journal: '[AI_TRANSLATION]Haladási napló',
+      progress_journal_desc: '[AI_TRANSLATION]Bátorítsd a diákokat, hogy kövessék a haladásukat egy haladási naplóban.',
+      cs1_curriculum: '[AI_TRANSLATION]Bevezetés a Számítástechnikába - Tanterv Útmutató',
+      cs1_curriculum_desc: '[AI_TRANSLATION]Keret és sorrend, lecke tervek, tevékenységek és még több az 1. tanfolyamhoz.  ',
+      arenas_curriculum: '[AI_TRANSLATION]Aréna Szintek - Tanári Útmutató',
+      arenas_curriculum_desc: '[AI_TRANSLATION]Útmutatók a Wakka Maul, Cross Bones és Power Peak többjátékos arénák futtatásához az osztályoddal.',
+      assessments_curriculum: '[AI_TRANSLATION]Értékelési Szintek - Tanári Útmutató',
+      assessments_curriculum_desc: '[AI_TRANSLATION]Tanuld meg, hogyan értékelheted a diákok tanulási eredményeit a Kihívás Szinteken és Kombó Kihívás szinteken keresztül.',
+      cs2_curriculum: '[AI_TRANSLATION]Számítástechnika 2 - Tananyag Útmutató',
+      cs2_curriculum_desc: '[AI_TRANSLATION]Terjedelem és sorrend, óratervek, tevékenységek és egyebek a 2. kurzushoz.',
+      cs2_syntax_python: '[AI_TRANSLATION]Kurzus 2 Python Szintaxis Útmutató',
+      cs3_curriculum: '[AI_TRANSLATION]Számítástechnika 3 - Tantervi Útmutató',
+      cs3_curriculum_desc: '[AI_TRANSLATION]Tanmenet, óratervek, tevékenységek és még sok más a 3. kurzushoz.',
+      cs3_syntax_python: '[AI_TRANSLATION]Kurzus 3 Python Szintaxis Útmutató',
+      cs4_curriculum: '[AI_TRANSLATION]Számítástechnika 4 - Tanterv',
+      cs4_curriculum_desc: '[AI_TRANSLATION]Tananyag és lecke terv, tevékenységek és még sok más a 4. tanfolyam számára.  ',
+      cs4_syntax_python: '[AI_TRANSLATION]4-es tanfolyam Python szintaxis útmutató',
+      cs5_curriculum_js: '[AI_TRANSLATION]Computer Science 5 - Tanterv Útmutató (JavaScript)',
+      cs5_curriculum_desc_js: '[AI_TRANSLATION]Hatókör és szekvencia, óratervek, tevékenységek és még sok más az 5. tanfolyam óráihoz JavaScript használatával.',
+      cs5_curriculum_py: '[AI_TRANSLATION]Számítástechnika 5 - Tanterv Útmutató (Python)',
+      cs5_curriculum_desc_py: '[AI_TRANSLATION]Tanterv és tanóra tervek, tevékenységek és egyéb a 5. kurzus óráihoz Python nyelv használatával.',
+      cs1_pairprogramming: '[AI_TRANSLATION]Páros programozási tevékenység',
+      //    cs1_pairprogramming_desc: "Introduce students to a pair programming exercise that will help them become better listeners and communicators.",
+      gd1: '[AI_TRANSLATION]Játékfejlesztés 1  ',
+      gd1_guide: '[AI_TRANSLATION]Játékfejlesztés 1 - Projekttájékoztató',
+      gd1_guide_desc: '[AI_TRANSLATION]Használd ezt útmutatóként, ahogy a diákjaid elkészítik az első megosztható játékprojektjüket 5 nap alatt.',
+      gd1_rubric: '[AI_TRANSLATION]Játékfejlesztés 1 - Projekt értékelési ismérv',
+      gd1_rubric_desc: '[AI_TRANSLATION]Használd ezt a rubrikát a diák projektek értékeléséhez a Játékfejlesztés 1 végén.\n',
+      gd2: '[AI_TRANSLATION]Játékfejlesztés 2  ',
+      gd2_curriculum: '[AI_TRANSLATION]Játékfejlesztés 2 - Tanterv útmutató',
+      gd2_curriculum_desc: '[AI_TRANSLATION]Óraterv a Játékkészítés 2-höz.',
+      gd3: '[AI_TRANSLATION]Játékfejlesztés 3  ',
+      gd3_curriculum: '[AI_TRANSLATION]Játékfejlesztés 3 - Tantervi Útmutató',
+      gd3_curriculum_desc: '[AI_TRANSLATION]Tantervek a Game Development 3-hoz.',
+      wd1: '[AI_TRANSLATION]Webfejlesztés 1  ',
+      wd1_curriculum: '[AI_TRANSLATION]Webfejlesztés 1 - Tanterv Útmutató',
+      wd1_curriculum_desc: '[AI_TRANSLATION]Tanmenet, óratervek, tevékenységek és még sok más a Webfejlesztés 1. kurzushoz.',
+      wd1_headlines: '[AI_TRANSLATION]Címsorok & Fejlécek Tevékenység',
+      wd1_headlines_example: '[AI_TRANSLATION]Minta Megoldás Megtekintése',
+      wd1_headlines_desc: '[AI_TRANSLATION]Miért fontosak a bekezdés és fejléc címkék? Használd ezt a tevékenységet annak bemutatására, hogy a jól megválasztott fejlécek hogyan tehetik könnyebbé a weboldalak olvasását. Sok jó megoldás létezik erre! ',
+      wd1_html_syntax: '[AI_TRANSLATION]HTML szintaxis útmutató',
+      wd1_html_syntax_desc: '[AI_TRANSLATION]Egylapos segédlet a HTML stílusról, amit a Webfejlesztés 1-ben tanulnak a diákok.',
+      wd1_css_syntax: '[AI_TRANSLATION]CSS Szintaxis Útmutató',
+      wd1_css_syntax_desc: '[AI_TRANSLATION]Egyoldalas referencia a CSS és Stílus szintaxisról, amelyet a hallgatók megtanulnak a Web Development 1 során.',
+      wd2: '[AI_TRANSLATION]Webfejlesztés 2  ',
+      wd2_jquery_syntax: '[AI_TRANSLATION]jQuery Functions Syntax Guide',
+      wd2_jquery_syntax_desc: '[AI_TRANSLATION]Egy oldalas útmutató a jQuery függvényekhez, amit a diákok a Webfejlesztés 2 során megtanulnak.',
+      wd2_quizlet_worksheet: '[AI_TRANSLATION]Kérdőív Tervezési Munkalap',
+      wd2_quizlet_worksheet_instructions: '[AI_TRANSLATION]Utasítások és példák megtekintése',
+      wd2_quizlet_worksheet_desc: '[AI_TRANSLATION]Mielőtt a diákjaid megalkotnák a saját személyiség teszt projektjüket a Webfejlesztés 2 végén, meg kell tervezniük a kérdéseik, eredményeik és válaszaik ezen a munkalapon. A tanárok kioszthatják az utasításokat és példákat a diákoknak.',
+      //    intro_to_cs_short: "Intro to CS",
+      //    GD1_short: "Game Dev 1",
+      //    GD2_short: "Game Dev 2",
+      //    GD3_short: "Game Dev 3",
+      //    WD1_short: "Web Dev 1",
+      //    WD2_short: "Web Dev 2",
+      //    WD3_short: "Web Dev 3",
+      //    CS1_short: "Comp Sci 1",
+      //    CS2_short: "Comp Sci 2",
+      //    CS3_short: "Comp Sci 3",
+      //    CS4_short: "Comp Sci 4",
+      //    CS5_short: "Comp Sci 5",
+      //    CS6_short: "Comp Sci 6",
+      //    student_overview: "Overview",
+      student_details: '[AI_TRANSLATION]Diák Adatok',
+      student_name: '[AI_TRANSLATION]Diák neve',
+      no_name: '[AI_TRANSLATION]Nincs megadott név.',
+      no_username: '[AI_TRANSLATION]Felhasználónév nincs megadva.',
+      no_email: '[AI_TRANSLATION]A diáknak nincs megadva e-mail cím.',
+      student_profile: '[AI_TRANSLATION]Diákprofil',
+      playtime_detail: '[AI_TRANSLATION]Játékrészletek',
+      student_completed: '[AI_TRANSLATION]Diák Teljesítette',
+      student_in_progress: '[AI_TRANSLATION]Diák Fejlődésben',
+      class_average: '[AI_TRANSLATION]Osztályátlag',
+      not_assigned: '[AI_TRANSLATION]ezekre a kurzusokra még nem iratkoztál be',
+      playtime_axis: '[AI_TRANSLATION]Játékidő másodpercben',
+      levels_axis: '[AI_TRANSLATION]Szintek `code`',
+      student_state: '[AI_TRANSLATION]Hogy van',
+      student_state_2: '[AI_TRANSLATION]Mit csinálsz?',
+      student_good: '[AI_TRANSLATION]jól teljesít __TEMPLATE__-ban ',
+      student_good_detail: '[AI_TRANSLATION]Ez a diák tartja az ütemet az osztály átlagos szintteljesítési idejével.',
+      student_warn: '[AI_TRANSLATION]szükségem lehet egy kis segítségre',
+      student_warn_detail: '[AI_TRANSLATION]Ennek a diáknak az átlagos szintteljesítési idejei arra utalnak, hogy szüksége lehet némi segítségre az új fogalmak megértésében, amelyeket ebben a kurzusban vezettünk be.',
+      student_great: '[AI_TRANSLATION]nagyszerűen teljesít',
+      student_great_detail: '[AI_TRANSLATION]Ez a diák jó jelölt lehet arra, hogy segítsen más diákoknak ezen a kurzuson, átlagos szint teljesítési idő alapján.',
+      full_license: '[AI_TRANSLATION]Teljes Licenc',
+      starter_license: '[AI_TRANSLATION]Kezdő licensz',
+      customized_license: '[AI_TRANSLATION]Testreszabott Licenc',
+      trial: '[AI_TRANSLATION]Próbaverzió',
+      hoc_welcome: '[AI_TRANSLATION]Boldog Számítástechnikai Oktatás Hetét',
+      hoc_title: '[AI_TRANSLATION]Code Games Órája - Ingyenes tevékenységek valódi programozási nyelvek tanulásához',
+      hoc_meta_description: '[AI_TRANSLATION]Készíts saját játékot vagy kódold ki magad egy labirintusból! A CodeCombat négy különböző Hour of Code tevékenységet és több mint 60 szintet kínál, hogy megtanulj kódolni, játszani és alkotni.',
+      hoc_intro: '[AI_TRANSLATION]Három mód van arra, hogy az osztályod részt vegyen a CodeCombat Kód Óráján',
+      hoc_self_led: '[AI_TRANSLATION]Önálló Játék',
+      hoc_self_led_desc: '[AI_TRANSLATION]A diákok egyedül is végigjátszhatják az Hour of Code CodeCombat oktatóanyagokat',
+      hoc_game_dev: '[AI_TRANSLATION]Játékfejlesztés  ',
+      hoc_and: '[AI_TRANSLATION]és  ',
+      hoc_programming: '[AI_TRANSLATION]JavaScript/Python Programozás',
+      hoc_teacher_led: '[AI_TRANSLATION]Tanár Által Vezetett Órák',
+      hoc_teacher_led_desc1: '[AI_TRANSLATION]Töltse le a',
+      hoc_teacher_led_link_coco: '[AI_TRANSLATION]Kód Órája óratervek',
+      hoc_teacher_led_link_ozar: '[AI_TRANSLATION]Bevezető a számítástechnikába tantervek',
+      hoc_teacher_led_desc2: '[AI_TRANSLATION]bevezetni a diákjaidat a programozási fogalmakba offline tevékenységek segítségével',
+      hoc_group: '[AI_TRANSLATION]Csoportos Játék',
+      hoc_group_desc_1: '[AI_TRANSLATION]A tanárok használhatják a leckéket a Bevezetés a számítástechnikába tanfolyamunkkal együtt, hogy nyomon követhessék a diákok fejlődését. Lásd a',
+      hoc_group_link: '[AI_TRANSLATION]Kezdeti Útmutató',
+      hoc_group_desc_2: '[AI_TRANSLATION]további részletekért',
+      hoc_additional_desc1: '[AI_TRANSLATION]További CodeCombat forrásokért és tevékenységekért látogasd meg a',
+      hoc_additional_desc2: '[AI_TRANSLATION]Kérdések  ',
+      hoc_additional_contact: '[AI_TRANSLATION]Lépj kapcsolatba velünk',
+      regenerate_class_code_tooltip: '[AI_TRANSLATION]Generálj egy új osztálykódot',
+      regenerate_class_code_confirm: '[AI_TRANSLATION]Biztosan új osztálykódot akarsz generálni?',
+      revoke_confirm: '[AI_TRANSLATION]Biztos vagy benne, hogy visszavonod a teljed licencet {{student_name}} részére? A licenc elérhető lesz, hogy egy másik diáknak kioszd.',
+      revoke_alert_no_student: '[AI_TRANSLATION]Kérlek válassz diákokat először.',
+      revoke_selected_confirm: '[AI_TRANSLATION]Biztos vagy benne, hogy meg akarod vonni az engedélyeket az összes kiválasztott diáktól?',
+      revoke_all_confirm: '[AI_TRANSLATION]Biztos vagy benne, hogy vissza akarod vonni a Teljes Licenseket az osztály összes diákjától?',
+      revoking: '[AI_TRANSLATION]Visszavonás...',
+      unused_licenses: '[AI_TRANSLATION]Vannak felhasználatlan Licenced, amelyekkel fizetős tanfolyamokat rendelhetsz a tanulóknak, amikor készen állnak a további tanulásra!',
+      remember_new_courses: '[AI_TRANSLATION]Ne felejtsd el kijelölni az új kurzusokat!',
+      more_info: '[AI_TRANSLATION]További információk',
+      how_to_assign_courses: '[AI_TRANSLATION]Hogyan rendelhető képzések',
+      select_students: '[AI_TRANSLATION]Tanulók kiválasztása',
+      select_instructions: '[AI_TRANSLATION]Kattints a jelölőnégyzetre minden tanuló mellett, akinek kurzusokat szeretnél kijelölni.',
+      choose_course: '[AI_TRANSLATION]Pálya Választás',
+      choose_instructions: '[AI_TRANSLATION]Válaszd ki a tanfolyamot a legördülő menüből, amelyet ki szeretnél jelölni, majd kattints a „Kijelölés a kiválasztott diákoknak” gombra.',
+      push_projects: '[AI_TRANSLATION]Ajánljuk a Webfejlesztés 1 vagy Játékfejlesztés 1 tárgy kijelölését a diákoknak, miután befejezték a Bevezetés a Számítástechnikába! További részletek a tanfolyamokról a {{resource_hub}} oldalunkon találhatók.  ',
+      teacher_quest: '[AI_TRANSLATION]Tanári Küldetés a Sikerért',
+      quests_complete: '[AI_TRANSLATION]Küldetések Teljesítve',
+      teacher_quest_create_classroom: '[AI_TRANSLATION]Osztály létrehozása',
+      //    teacher_quest_add_students: "Add Students",
+      teacher_quest_teach_methods: '[AI_TRANSLATION]Segíts a diákjaidnak megtanulni, hogyan kell `hívni a metódusokat`.',
+      teacher_quest_teach_methods_step1: '[AI_TRANSLATION]Az egyik osztály legalább 75%-a eljut az első szintre, a Kithgard Börtönökbe',
+      teacher_quest_teach_methods_step2: '[AI_TRANSLATION]Nyomtasd ki a [Diákok Gyors Kezdési Útmutatóját](https://files.codecombat.com/docs/resources/StudentQuickStartGuide.pdf) a Tanári Eszközkészletben.  ',
+      teacher_quest_teach_strings: '[AI_TRANSLATION]Ne húzd a diákjaidat az orruknál fogva, tanítsd őket `strings`-sel.',
+      teacher_quest_teach_strings_step1: '[AI_TRANSLATION]Szerezd meg a True Names osztály legalább 75%-át.',
+      teacher_quest_teach_strings_step2: '[AI_TRANSLATION]Használja a Tanár Szintválasztót a [Course Guides](/teachers/courses) oldalon a Valódi Nevek megtekintéséhez.',
+      teacher_quest_teach_loops: '[AI_TRANSLATION]Tartsd diákjaidat képben a `ciklusokkal` kapcsolatban.  ',
+      teacher_quest_teach_loops_step1: '[AI_TRANSLATION]Érd el, hogy legalább egy osztály 75%-a teljesítse a Tűztáncot.',
+      teacher_quest_teach_loops_step2: '[AI_TRANSLATION]Használd a Hurok Tevékenységet a [CS1 Tantervi útmutatóban](/teachers/resources/cs1), hogy megerősítsd ezt a fogalmat.',
+      teacher_quest_teach_variables: '[AI_TRANSLATION]Változtasd meg `változókkal`.',
+      teacher_quest_teach_variables_step1: '[AI_TRANSLATION]Érj el legalább 75%-os teljesítményt egy osztályon a "Ismert Ellenség" szinten.',
+      teacher_quest_teach_variables_step2: '[AI_TRANSLATION]Ösztönözd az együttműködést a [Pair Programming Activity](/teachers/resources/pair-programming) használatával.',
+      teacher_quest_kithgard_gates_100: '[AI_TRANSLATION]Menekülj a Kithgard Kapukból az osztályoddal.',
+      teacher_quest_kithgard_gates_100_step1: '[AI_TRANSLATION]Vidd át legalább egy osztály 75%-át a Kithgard Kapukon.',
+      teacher_quest_kithgard_gates_100_step2: '[AI_TRANSLATION]Irányítsd a diákokat, hogy átgondolják a nehéz problémákat a [Mérnöki Ciklus Munkalap](https://files.codecombat.com/docs/resources/EngineeringCycleWorksheet.pdf) segítségével.',
+      teacher_quest_wakka_maul_100: '[AI_TRANSLATION]Készülj fel a Wakka Maul párbajra.  ',
+      teacher_quest_wakka_maul_100_step1: '[AI_TRANSLATION]Az osztály legalább 75%-a érje el a Wakka Maul-t.',
+      teacher_quest_wakka_maul_100_step2: '[AI_TRANSLATION]Nézd meg az [Aréna Útmutató](/teachers/resources/arenas) az [Tanári Eszköztárban](/teachers/resources), hogy tippeket kapj, hogyan vezess le egy sikeres arénanapot.',
+      teacher_quest_reach_gamedev: '[AI_TRANSLATION]Fedezz fel új világokat!',
+      teacher_quest_reach_gamedev_step1: '[AI_TRANSLATION][Szerezz engedélyeket](/teachers/licenses), hogy diákjaid új világokat fedezhessenek fel, például Játékfejlesztést és Webfejlesztést!',
+      teacher_quest_done: '[AI_TRANSLATION]Szeretnéd, ha diákjaid még többet tanulnának a kódolásról? Lépj kapcsolatba [iskola specialistáinkkal](mailto:schools@codecombat.com) még ma!',
+      teacher_quest_keep_going: '[AI_TRANSLATION]Továbbra is haladj! Itt van, mit tehetsz ezután:',
+      teacher_quest_more: '[AI_TRANSLATION]Nézd meg az összes küldetést',
+      teacher_quest_less: '[AI_TRANSLATION]Kevesebb küldetés megjelenítése',
+      refresh_to_update: '[AI_TRANSLATION](frissítsd az oldalt a frissítések megtekintéséhez)',
+      view_project_gallery: '[AI_TRANSLATION]Projektgaléria megtekintése',
+      office_hours: '[AI_TRANSLATION]Tanári Webináriumok',
+      office_hours_detail: '[AI_TRANSLATION]Tanuld meg, hogyan tarthatod a lépést a diákjaiddal, miközben játékokat készítenek és belevágnak a kódolás útjába! Gyere és vegyél részt a',
+      office_hours_link: '[AI_TRANSLATION]tanári webinárium',
+      office_hours_detail_2: '[AI_TRANSLATION]ülések.',
+      success: '[AI_TRANSLATION]Siker',
+      //    in_progress: "In Progress",
+      //    not_started: "Not Started",
+      mid_course: '[AI_TRANSLATION]Kurzus közepe',
+      end_course: '[AI_TRANSLATION]Kurzus vége',
+      none: '[AI_TRANSLATION]Még nem észleltük',
+      explain_open_ended: '[AI_TRANSLATION]Megjegyzés: A diákokat bátorítjuk, hogy kreatívan oldják meg ezt a szintet — egy lehetséges megoldást alább találtok.',
+      level_label: '[AI_TRANSLATION]Szint:  ',
+      time_played_label: '[AI_TRANSLATION]Eltöltött idő:',
+      //    practice_threshold_label: "Practice Threshold:",
+      back_to_resource_hub: '[AI_TRANSLATION]Vissza a Tanári Eszköztárhoz',
+      back_to_course_guides: '[AI_TRANSLATION]Vissza a kurzus útmutatókhoz',
+      print_guide: '[AI_TRANSLATION]Nyomtasd ki ezt az útmutatót',
+      combo: '[AI_TRANSLATION]Kombó',
+      combo_explanation: '[AI_TRANSLATION]A diákok teljesítik a Kombó kihívás szinteket azáltal, hogy legalább egy felsorolt koncepciót használnak. Ellenőrizd a diák kódját, ha kattintasz a haladás pontra.',
+      concept: '[AI_TRANSLATION]Koncepció',
+      sync_google_classroom: '[AI_TRANSLATION]Google Classroom szinkronizálása',
+      unit_overview: '[AI_TRANSLATION]Egység áttekintés',
+      module_overview: '[AI_TRANSLATION]Modul áttekintés',
+      chapter1_unit_overview_desc: '[AI_TRANSLATION]Diáktapasztalatok összefoglalása, beleértve a Kivágott Jeleneteket, Gyakorlószinteket, Bevezetőket és a Záróprojektet az 1. fejezetben.',
+      lesson_plan: '[AI_TRANSLATION]Óraterv',
+      chapter1_lesson_plan_desc: '[AI_TRANSLATION]Részletes osztálytermi útmutató, amely tartalmazza a tanulási célokat, a CSTA szabványokat, a reflexiós tevékenységeket, a segítőtávokat és még sok mást.',
+      capstone_rubric: '[AI_TRANSLATION]Capstone Értékelés  ',
+      chapter1_capstone_rubric_desc: '[AI_TRANSLATION]Értékelési szempontok a diákok Záróprojektjeihez és reflexiós tevékenységeihez a modul végén.',
+      chapter1: '[AI_TRANSLATION]1. fejezet: Fel a hegyre',
+      chapter2: '[AI_TRANSLATION]2. Fejezet: A Hold Táncosok',
+      chapter3: '[AI_TRANSLATION]3. Fejezet: A Főnix Földjei',
+      module1: '[AI_TRANSLATION]Modul 1:',
+      module2: '[AI_TRANSLATION]Modul 2:',
+      module3: '[AI_TRANSLATION]3. modul:',
+      module4: '[AI_TRANSLATION]Modul 4: ',
+      module5: '[AI_TRANSLATION]5. modul:',
+      module6: '[AI_TRANSLATION]Modul 6:',
+      module7: '[AI_TRANSLATION]Modul 7:',
+      module8: '[AI_TRANSLATION]Modul 8:',
+      algorithms_and_syntax: '[AI_TRANSLATION]Algoritmusok és Szintaxis',
+      debugging: '[AI_TRANSLATION]Hibakeresés',
+      variables: '[AI_TRANSLATION]Változók  ',
+      conditionals: '[AI_TRANSLATION]Feltételek',
+      capstone_intro: '[AI_TRANSLATION]Zárókő Bevezető',
+      capstone_project: '[AI_TRANSLATION]Záróprojekt',
+      level_code: '[AI_TRANSLATION]Szint Kód',
+      review_needed: '[AI_TRANSLATION]Szükséges értékelés',
+      review_tooltip_heading: '[AI_TRANSLATION]Mit jelent ez?',
+      review_tooltip_text: '[AI_TRANSLATION]Vörös zászlók jelennek meg a Koncepció Ellenőrzések mellett, ahol a diákod(d) háromszor vagy többször próbálták megválaszolni a kérdést. Az <strong>Kurzus Áttekintő</strong> részben vörös zászlók jelennek meg a Koncepció Ellenőrzések mellett, ha a diákok legalább 50%-a, akik elindították vagy befejezték a koncepció ellenőrzést, háromszor vagy többször próbálkoztak vele.',
+      scroll_to_see_more: '[AI_TRANSLATION]Görgess le a továbbiakért',
+      click_to_view_concept_check: '[AI_TRANSLATION]Kattints a koncepció ellenőrzés megtekintéséhez',
+      click_to_view_project_gallery: '[AI_TRANSLATION]Kattints a projekt galéria megtekintéséhez',
+      review_learning_goal: '[AI_TRANSLATION]Nézd át a "Tanulási cél: __learningGoal__" a diákokkal.',
+      view_capstone_project: '[AI_TRANSLATION]Capstone projekt megtekintése.',
+      ozaria_dashboard_guide: '[AI_TRANSLATION]Tanári irányítópult útmutató',
+      dashboard_guide_desc: '[AI_TRANSLATION]Az Ozaria Tanári Irányítópult funkcióinak áttekintése, amelyek segítenek a diákok előrehaladásának és munkájának megtekintésében.',
+      review: '[AI_TRANSLATION]Áttekintés',
+      for_loops: "[AI_TRANSLATION]'for' ciklusok  ",
+      peer_feedback: '[AI_TRANSLATION]Társ-Visszajelzési Űrlap',
+      presentation_checklist: '[AI_TRANSLATION]Bemutató Ellenőrzőlista',
+      try_ozaria_footer: '[AI_TRANSLATION]Próbáld ki új kalandjátékunkat, az Ozariát!',
+      try_ozaria_free: '[AI_TRANSLATION]Próbáld ki ingyen az Ozariát',
+      ozaria_intro: '[AI_TRANSLATION]Bemutatjuk az új számítástechnika programunkat',
+      share_class: '[AI_TRANSLATION]share class',
+      permission: '[AI_TRANSLATION]Engedély',
+      not_write_permission: '[AI_TRANSLATION]Nincs írási engedélyed az osztályhoz',
+      not_read_permission: '[AI_TRANSLATION]Nincs olvasási engedélyed az osztályhoz',
+      owned_license: '[AI_TRANSLATION]Engedélyezett',
+      archive_revoke_confirm: '[AI_TRANSLATION]A lezárt osztály tanulóinak aktív licenceik vannak. Szeretnéd visszavonni ezeket, hogy más diákoknak adhassuk őket?',
+      archive_without_revoking: '[AI_TRANSLATION]Archiválás visszavonás nélkül  ',
+      revoke_and_archive: '[AI_TRANSLATION]Visszavonás és Archiválás',
+      license_stats: '[AI_TRANSLATION]Licenc Statisztikák',
+      redeemers: '[AI_TRANSLATION]Aktív Diákok',
+      removed_redeemers: '[AI_TRANSLATION]Inaktív Diákok',
+      latest_podcast_episode: '[AI_TRANSLATION]Legújabb Podcast Epizód',
+      from_the_podcast: '[AI_TRANSLATION]A Podcastból',
+      edit_student_access_title: '[AI_TRANSLATION]Diákok hozzáférésének szerkesztése szintekhez',
+      edit_student_access_title_scenarios: '[AI_TRANSLATION]Diák Hozzáférés Szerkesztése Projektekhez',
+      edit_student_access_subtitle: '[AI_TRANSLATION]Kiválasztottál __levels__ szinteket __students__ diákok számára.',
+      edit_student_access_subtitle_scenarios: '[AI_TRANSLATION]__levels__ projektek kiválasztva __students__ diákok számára.',
+      student_ask_for_help: '[AI_TRANSLATION]Az egyik tanulód, __name__, segítséget kér tőled.',
+      never_played: '[AI_TRANSLATION]Még nem játszott',
+      test_student_modal_header: '[AI_TRANSLATION]Próba Diák Létrehozása  ',
+      test_student_modal_p1: '[AI_TRANSLATION]Létre fogsz hozni egy egyedi tesztfiókot, amely lemásolja a diák útját és megőrzi a haladásodat.  ',
+      test_student_modal_no_class: '[AI_TRANSLATION]Kérlek, hozz létre egy csoportot, hogy csatlakozhass diákként  ',
+      test_student_modal_choose_class: '[AI_TRANSLATION]Válassz egy kasztot, amelyikhez csatlakozol:  ',
+      test_student_modal_redirect: '[AI_TRANSLATION]Át leszel irányítva a teszthallgatói fiókodba!  ',
+      stop_spying_student: '[AI_TRANSLATION]Visszatérhetsz a tanári fiókhoz a `Stop Spying` gombra kattintva a felhasználói menüben.',
+      //    show_practice_levels: "Show Practice Levels",
+      //    hide_practice_levels: "Hide Practice Levels",
     },
-    //    project: "Project"
-    //    projects: "Projects"
-    //    project_gallery: "Project Gallery"
-    //    view_project: "View Project"
-    //    unpublished: "(unpublished)"
-    //    view_arena_ladder: "View Arena Ladder"
-    //    resource_hub: "Teacher Toolkit"
-    //    pacing_guides: "Classroom-in-a-Box Pacing Guides"
-    //    pacing_guides_desc: "Learn how to incorporate all of CodeCombat's resources to plan your school year!"
-    //    pacing_guides_elem: "Elementary School Pacing Guide"
-    //    pacing_guides_middle: "Middle School Pacing Guide"
-    //    pacing_guides_high: "High School Pacing Guide"
-    //    getting_started: "Getting Started"
-    //    student_resources: "Student Resources"
-    //    curriculum: "Curriculum"
-    //    lesson_slides: "Lesson Slides"
-    //    section: "Section"
-    //    educator_faq: "Educator FAQ"
-    //    educator_faq_desc: "Frequently asked questions about using Ozaria in your classroom or school."
-    //    teacher_getting_started: "Teacher Getting Started Guide"
-    //    teacher_getting_started_desc: "New to Ozaria? Download this Teacher Getting Started Guide to set up your account, create your first class, and invite students to the first unit."
-    //    student_getting_started: "Student Quick Start Guide"
-    //    student_getting_started_desc: "You can distribute this guide to your students before starting CodeCombat so that they can familiarize themselves with the code editor. This guide can be used for both Python and JavaScript classrooms."
-    //    standardized_curricula: "Standardized Curricula"
-    //    ap_cs_principles: "AP Computer Science Principles"
-    //    ap_cs_principles_desc: "AP Computer Science Principles gives students a broad introduction to the power, impact, and possibilities of Computer Science. The course emphasizes computational thinking and problem solving while also teaching the basics of programming."
-    //    cs1: "Introduction to Computer Science"
-    //    cs2: "Computer Science 2"
-    //    cs3: "Computer Science 3"
-    //    cs4: "Computer Science 4"
-    //    cs5: "Computer Science 5"
-    //    cs1_syntax_python: "Course 1 Python Syntax Guide"
-    //    cs1_syntax_python_desc: "Cheatsheet with references to common Python syntax that students will learn in Introduction to Computer Science."
-    //    cs1_syntax_javascript: "Course 1 JavaScript Syntax Guide"
-    //    cs1_syntax_javascript_desc: "Cheatsheet with references to common JavaScript syntax that students will learn in Introduction to Computer Science."
-    //    coming_soon: "Additional guides coming soon!"
-    //    engineering_cycle_worksheet: "Engineering Cycle Worksheet"
-    //    engineering_cycle_worksheet_desc: "Use this worksheet to teach students the basics of the engineering cycle: Assess, Design, Implement and Debug. Refer to the completed example worksheet as a guide."
-    //    engineering_cycle_worksheet_link: "View example"
-    //    progress_journal: "Progress Journal"
-    //    progress_journal_desc: "Encourage students to keep track of their progress via a progress journal."
-    //    cs1_curriculum: "Introduction to Computer Science - Curriculum Guide"
-    //    cs1_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 1."
-    //    arenas_curriculum: "Arena Levels - Teacher Guide"
-    //    arenas_curriculum_desc: "Instructions on how to run Wakka Maul, Cross Bones and Power Peak multiplayer arenas with your class."
-    //    assessments_curriculum: "Assessment Levels - Teacher Guide"
-    //    assessments_curriculum_desc: "Learn how to use Challenge Levels and Combo Challenge levels to assess students' learning outcomes."
-    //    cs2_curriculum: "Computer Science 2 - Curriculum Guide"
-    //    cs2_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 2."
-    //    cs2_syntax_python: "Course 2 Python Syntax Guide"
-    //    cs3_curriculum: "Computer Science 3 - Curriculum Guide"
-    //    cs3_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 3."
-    //    cs3_syntax_python: "Course 3 Python Syntax Guide"
-    //    cs4_curriculum: "Computer Science 4 - Curriculum Guide"
-    //    cs4_curriculum_desc: "Scope and sequence, lesson plans, activities and more for Course 4."
-    //    cs4_syntax_python: "Course 4 Python Syntax Guide"
-    //    cs5_curriculum_js: "Computer Science 5 - Curriculum Guide (JavaScript)"
-    //    cs5_curriculum_desc_js: "Scope and sequence, lesson plans, activities and more for Course 5 classes using JavaScript."
-    //    cs5_curriculum_py: "Computer Science 5 - Curriculum Guide (Python)"
-    //    cs5_curriculum_desc_py: "Scope and sequence, lesson plans, activities and more for Course 5 classes using Python."
-    //    cs1_pairprogramming: "Pair Programming Activity"
-    //    cs1_pairprogramming_desc: "Introduce students to a pair programming exercise that will help them become better listeners and communicators."
-    //    gd1: "Game Development 1"
-    //    gd1_guide: "Game Development 1 - Project Guide"
-    //    gd1_guide_desc: "Use this to guide your students as they create their first shareable game project in 5 days."
-    //    gd1_rubric: "Game Development 1 - Project Rubric"
-    //    gd1_rubric_desc: "Use this rubric to assess student projects at the end of Game Development 1."
-    //    gd2: "Game Development 2"
-    //    gd2_curriculum: "Game Development 2 - Curriculum Guide"
-    //    gd2_curriculum_desc: "Lesson plans for Game Development 2."
-    //    gd3: "Game Development 3"
-    //    gd3_curriculum: "Game Development 3 - Curriculum Guide"
-    //    gd3_curriculum_desc: "Lesson plans for Game Development 3."
-    //    wd1: "Web Development 1"
-    //    wd1_curriculum: "Web Development 1 - Curriculum Guide"
-    //    wd1_curriculum_desc: "Scope and sequence, lesson plans, activities, and more for Web Development 1."
-    //    wd1_headlines: "Headlines & Headers Activity"
-    //    wd1_headlines_example: "View sample solution"
-    //    wd1_headlines_desc: "Why are paragraph and header tags important? Use this activity to show how well-chosen headers make web pages easier to read. There are many correct solutions to this!"
-    //    wd1_html_syntax: "HTML Syntax Guide"
-    //    wd1_html_syntax_desc: "One-page reference for the HTML style students will learn in Web Development 1."
-    //    wd1_css_syntax: "CSS Syntax Guide"
-    //    wd1_css_syntax_desc: "One-page reference for the CSS and Style syntax students will learn in Web Development 1."
-    //    wd2: "Web Development 2"
-    //    wd2_jquery_syntax: "jQuery Functions Syntax Guide"
-    //    wd2_jquery_syntax_desc: "One-page reference for the jQuery functions students will learn in Web Development 2."
-    //    wd2_quizlet_worksheet: "Quizlet Planning Worksheet"
-    //    wd2_quizlet_worksheet_instructions: "View instructions & examples"
-    //    wd2_quizlet_worksheet_desc: "Before your students build their personality quiz project at the end of Web Development 2, they should plan out their quiz questions, outcomes and responses using this worksheet. Teachers can distribute the instructions and examples for students to refer to."
-    //    student_overview: "Overview"
-    //    student_details: "Student Details"
-    //    student_name: "Student Name"
-    //    no_name: "No name provided."
-    //    no_username: "No username provided."
-    //    no_email: "Student has no email address set."
-    //    student_profile: "Student Profile"
-    //    playtime_detail: "Playtime Detail"
-    //    student_completed: "Student Completed"
-    //    student_in_progress: "Student in Progress"
-    //    class_average: "Class Average"
-    //    not_assigned: "has not been assigned the following courses"
-    //    playtime_axis: "Playtime in Seconds"
-    //    levels_axis: "Levels in"
-    //    student_state: "How is"
-    //    student_state_2: "doing?"
-    //    student_good: "is doing well in"
-    //    student_good_detail: "This student is keeping pace with the class's average level completion times."
-    //    student_warn: "might need some help in"
-    //    student_warn_detail: "This student's average level completion times suggest they might need some help with new concepts that have been introduced in this course."
-    //    student_great: "is doing great in"
-    //    student_great_detail: "This student might be a good candidate to help other students working through this course, based on average level completion times."
-    //    full_license: "Full License"
-    //    starter_license: "Starter License"
-    //    customized_license: "Customized License"
-    //    trial: "Trial"
-    //    hoc_welcome: "Happy Computer Science Education Week"
-    //    hoc_title: "Hour of Code Games - Free Activities to Learn Real Coding Languages"
-    //    hoc_meta_description: "Make your own game or code your way out of a dungeon! CodeCombat has four different Hour of Code activities and over 60 levels to learn code, play, and create."
-    //    hoc_intro: "There are three ways for your class to participate in Hour of Code with CodeCombat"
-    //    hoc_self_led: "Self-Led Gameplay"
-    //    hoc_self_led_desc: "Students can play through our Hour of Code CodeCombat tutorials on their own"
-    //    hoc_game_dev: "Game Development"
-    //    hoc_and: "and"
-    //    hoc_programming: "JavaScript/Python Programming"
-    //    hoc_teacher_led: "Teacher-Led Lessons"
-    //    hoc_teacher_led_desc1: "Download our"
-    //    hoc_teacher_led_link_coco: "Hour of Code lesson plans"
-    //    hoc_teacher_led_link_ozar: "Introduction to Computer Science lesson plans"
-    //    hoc_teacher_led_desc2: "to introduce your students to programming concepts using offline activities"
-    //    hoc_group: "Group Gameplay"
-    //    hoc_group_desc_1: "Teachers can use the lessons in conjunction with our Introduction to Computer Science course to track student progress. See our"
-    //    hoc_group_link: "Getting Started Guide"
-    //    hoc_group_desc_2: "for more details"
-    //    hoc_additional_desc1: "For additional CodeCombat resources and activities, see our"
-    //    hoc_additional_desc2: "Questions"
-    //    hoc_additional_contact: "Get in touch"
-    //    regenerate_class_code_tooltip: "Generate a new Class Code"
-    //    regenerate_class_code_confirm: "Are you sure you want to generate a new Class Code?"
-    //    revoke_confirm: "Are you sure you want to revoke a Full License from {{student_name}}? The license will become available to assign to another student."
-    //    revoke_alert_no_student: "Please select students first."
-    //    revoke_selected_confirm: "Are you sure you want to revoke Licenses from all selected students?"
-    //    revoke_all_confirm: "Are you sure you want to revoke Full Licenses from all students in this class?"
-    //    revoking: "Revoking..."
-    //    unused_licenses: "You have unused Licenses that allow you to assign students paid courses when they're ready to learn more!"
-    //    remember_new_courses: "Remember to assign new courses!"
-    //    more_info: "More Info"
-    //    how_to_assign_courses: "How to Assign Courses"
-    //    select_students: "Select Students"
-    //    select_instructions: "Click the checkbox next to each student you want to assign courses to."
-    //    choose_course: "Choose Course"
-    //    choose_instructions: "Select the course from the dropdown menu you’d like to assign, then click “Assign to Selected Students.”"
-    //    push_projects: "We recommend assigning Web Development 1 or Game Development 1 after students have finished Introduction to Computer Science! See our {{resource_hub}} for more details on those courses."
-    //    teacher_quest: "Teacher's Quest for Success"
-    //    quests_complete: "Quests Complete"
-    //    teacher_quest_create_classroom: "Create Classroom"
-    //    teacher_quest_add_students: "Add Students"
-    //    teacher_quest_teach_methods: "Help your students learn how to `call methods`."
-    //    teacher_quest_teach_methods_step1: "Get 75% of at least one class through the first level, Dungeons of Kithgard"
-    //    teacher_quest_teach_methods_step2: "Print out the [Student Quick Start Guide](https://files.codecombat.com/docs/resources/StudentQuickStartGuide.pdf) in the Teacher Toolkit."
-    //    teacher_quest_teach_strings: "Don't string your students along, teach them `strings`."
-    //    teacher_quest_teach_strings_step1: "Get 75% of at least one class through True Names"
-    //    teacher_quest_teach_strings_step2: "Use the Teacher Level Selector on [Course Guides](/teachers/courses) page to preview True Names."
-    //    teacher_quest_teach_loops: "Keep your students in the loop about `loops`."
-    //    teacher_quest_teach_loops_step1: "Get 75% of at least one class through Fire Dancing."
-    //    teacher_quest_teach_loops_step2: "Use the Loops Activity in the [CS1 Curriculum guide](/teachers/resources/cs1) to reinforce this concept."
-    //    teacher_quest_teach_variables: "Vary it up with `variables`."
-    //    teacher_quest_teach_variables_step1: "Get 75% of at least one class through Known Enemy."
-    //    teacher_quest_teach_variables_step2: "Encourage collaboration by using the [Pair Programming Activity](/teachers/resources/pair-programming)."
-    //    teacher_quest_kithgard_gates_100: "Escape the Kithgard Gates with your class."
-    //    teacher_quest_kithgard_gates_100_step1: "Get 75% of at least one class through Kithgard Gates."
-    //    teacher_quest_kithgard_gates_100_step2: "Guide students to think through hard problems using the [Engineering Cycle Worksheet](https://files.codecombat.com/docs/resources/EngineeringCycleWorksheet.pdf)."
-    //    teacher_quest_wakka_maul_100: "Prepare to duel in Wakka Maul."
-    //    teacher_quest_wakka_maul_100_step1: "Get 75% of at least one class to Wakka Maul."
-    //    teacher_quest_wakka_maul_100_step2: "See the [Arena Guide](/teachers/resources/arenas) in the [Teacher Toolkit](/teachers/resources) for tips on how to run a successful arena day."
-    //    teacher_quest_reach_gamedev: "Explore new worlds!"
-    //    teacher_quest_reach_gamedev_step1: "[Get licenses](/teachers/licenses) so that your students can explore new worlds, like Game Development and Web Development!"
-    //    teacher_quest_done: "Want your students to learn even more code? Get in touch with our [school specialists](mailto:schools@codecombat.com) today!"
-    //    teacher_quest_keep_going: "Keep going! Here's what you can do next:"
-    //    teacher_quest_more: "See all quests"
-    //    teacher_quest_less: "See fewer quests"
-    //    refresh_to_update: "(refresh the page to see updates)"
-    //    view_project_gallery: "View Project Gallery"
-    //    office_hours: "Teacher Webinars"
-    //    office_hours_detail: "Learn how to keep up with with your students as they create games and embark on their coding journey! Come and attend our"
-    //    office_hours_link: "teacher webinar"
-    //    office_hours_detail_2: "sessions."
-    //    success: "Success"
-    //    in_progress: "In Progress"
-    //    not_started: "Not Started"
-    //    mid_course: "Mid-Course"
-    //    end_course: "End of Course"
-    //    none: "None detected yet"
-    //    explain_open_ended: "Note: Students are encouraged to solve this level creatively — one possible solution is provided below."
-    //    level_label: "Level:"
-    //    time_played_label: "Time Spent:"
-    //    back_to_resource_hub: "Back to Teacher Toolkit"
-    //    back_to_course_guides: "Back to Course Guides"
-    //    print_guide: "Print this guide"
-    //    combo: "Combo"
-    //    combo_explanation: "Students pass Combo challenge levels by using at least one listed concept. Review student code by clicking the progress dot."
-    //    concept: "Concept"
-    //    sync_google_classroom: "Sync Google Classroom"
-    //    unit_overview: "Unit Overview"
-    //    module_overview: "Module Overview"
-    //    chapter1_unit_overview_desc: "Summary of student experience, including Cutscenes, Practice Levels, Intros, and the Capstone project in Chapter 1."
-    //    lesson_plan: "Lesson Plan"
-    //    chapter1_lesson_plan_desc: "Detailed classroom guide including learning objectives, CSTA standards, reflection activities, facilitation tips, and more."
-    //    capstone_rubric: "Capstone Rubric"
-    //    chapter1_capstone_rubric_desc: "Rubric for evaluating students' Capstone projects and reflection activities at the end of this unit."
-    //    chapter1: "Chapter 1: Up The Mountain"
-    //    chapter2: "Chapter 2: The Moon Dancers"
-    //    chapter3: "Chapter 3: The Phoenix Lands"
-    //    module1: "Module 1: "
-    //    module2: "Module 2: "
-    //    module3: "Module 3: "
-    //    module4: "Module 4: "
-    //    module5: "Module 5: "
-    //    module6: "Module 6: "
-    //    algorithms_and_syntax: "Algorithms and Syntax"
-    //    debugging: "Debugging"
-    //    variables: "Variables"
-    //    conditionals: "Conditionals"
-    //    capstone_intro: "Capstone Intro"
-    //    capstone_project: "Capstone Project"
-    //    level_code: "Level Code"
-    //    review_needed: "Review Needed"
-    //    review_tooltip_heading: "What does this mean?"
-    //    review_tooltip_text: "Red flags appear next to Concept Checks where your student(s) attempted to answer the question 3 or more times. In the <strong>Course Overview</strong> section, red flags appear next to Concept Checks if at least 50% of students who have started or completed the concept check attempted it 3 or more times."
-    //    scroll_to_see_more: "Scroll to see more"
-    //    click_to_view_concept_check: "Click to view concept check"
-    //    click_to_view_project_gallery: "Click to view project gallery"
-    //    review_learning_goal: "Review \"Learning Goal: __learningGoal__\" with students."
-    //    view_capstone_project: "View Capstone Project"
-    //    ozaria_dashboard_guide: "Teacher Dashboard Guide"
-    //    dashboard_guide_desc: "Walkthrough of Ozaria Teacher Dashboard features that will help you view student progress and work."
-    //    review: "Review"
-    //    for_loops: "For Loops"
-    //    peer_feedback: "Peer Feedback Form"
-    //    presentation_checklist: "Presentation Checklist"
-    //    try_ozaria_footer: "Try our new adventure game, Ozaria!"
-    //    try_ozaria_free: "Try Ozaria for free"
-    //    ozaria_intro: "Introducing Our New Computer Science Program"
-    //    share_class: "share class"
-    //    permission: "Permission"
-    //    not_write_permission: "You don't have write permission to the class"
-    //    not_read_permission: "You don't have read permission to the class"
-    //    owned_license: "Licensed"
-    //    archive_revoke_confirm: " students of the archived class have active licenses. Would you like to revoke them so that you can re-apply them to other students?"
-    //    archive_without_revoking: "Archive Without Revoking"
-    //    revoke_and_archive: "Revoke and Archive"
-    //    license_stats: "License Stats"
-    //    redeemers: "Active Students"
-    //    removed_redeemers: "Inactive Students"
-    //    latest_podcast_episode: "Latest Podcast Episode"
-    //    from_the_podcast: "From the Podcast"
-    //    edit_student_access_title: "Edit Student Access to Levels"
-    //    edit_student_access_subtitle: "You have selected __levels__ levels for __students__ students."
-    //    student_ask_for_help: "Your studnet __name__ asking for your help."
 
-    //  teacher_licenses:
-    //    active_licenses: "Active Licenses"
-    //    expired_licenses: "Expired Licenses"
+    teacher_licenses: {
+      active_licenses: '[AI_TRANSLATION]Aktív licencek',
+      expired_licenses: '[AI_TRANSLATION]Lejárt Liszenszek',
+    },
 
-    //  teacher_ozaria_encouragement_modal:
-    //    title: "Build Computer Science Skills to Save Ozaria"
-    //    sub_title: "You are invited to try the new adventure game from CodeCombat"
-    //    cancel: "Back to CodeCombat"
-    //    accept: "Try First Unit Free"
-    //    bullet1: "Deepen student connection to learning through an epic story and immersive gameplay"
-    //    bullet2: "Teach CS fundamentals, Python or JavaScript and 21st century skills"
-    //    bullet3: "Unlock creativity through capstone projects"
-    //    bullet4: "Support instructions through dedicated curriculum resources"
-    //    you_can_return: "You can always return to CodeCombat"
+    teacher_ozaria_encouragement_modal: {
+      title: '[AI_TRANSLATION]Fejlessz Számítástechnikai Készségeket Ozaria Megmentésére ',
+      sub_title: '[AI_TRANSLATION]Meghívást kaptál, hogy kipróbáld a CodeCombat új kalandjátékát.',
+      cancel: '[AI_TRANSLATION]Vissza a CodeCombathoz',
+      accept: '[AI_TRANSLATION]Próbáld ki az első egységet ingyen',
+      bullet1: '[AI_TRANSLATION]Mélyítsd el a diákok kapcsolatát a tanulással egy epikus történeten és magával ragadó játékmeneten keresztül.',
+      bullet2: '[AI_TRANSLATION]Taníts CS alapokat, Python-t vagy JavaScript-et és 21. századi készségeket',
+      bullet3: '[AI_TRANSLATION]Szabadítsd fel a kreativitásod záró projektekkel!',
+      bullet4: '[AI_TRANSLATION]Segítsd az utasításokat dedikált tananyagforrásokon keresztül',
+      you_can_return: '[AI_TRANSLATION]Mindig visszatérhetsz a CodeCombat-hoz.',
+    },
 
-    //  educator_signup_ozaria_encouragement:
-    //    recommended_for: "Recommended for:"
-    //    independent_learners: "Independent learners"
-    //    homeschoolers: "Homeschoolers"
-    //    educators_continue_coco: "Educators who want to continue using CodeCombat in their class"
-    //    continue_coco: "Continue with CodeCombat"
+    educator_signup_ozaria_encouragement: {
+      recommended_for: '[AI_TRANSLATION]Ajánlott:',
+      independent_learners: '[AI_TRANSLATION]Független tanulók',
+      homeschoolers: '[AI_TRANSLATION]Otthon tanulók',
+      educators_continue_coco: '[AI_TRANSLATION]Azok a pedagógusok, akik szeretnék továbbra is használni a CodeCombat-ot az órájukon  ',
+      continue_coco: '[AI_TRANSLATION]Folytassa a CodeCombattal',
+    },
 
-    //  ozaria_cta:
-    //    title1: "Standards Aligned Core Curriculum"
-    //    description1: "Immersive, story based curriculum that meets all 6th-8th grade CSTA standards."
-    //    title2: "Turnkey Lesson Plans"
-    //    description2: "In-depth presentations and worksheets for teachers to guide students through learning objectives."
-    //    title3: "New Teacher & Admin Dashboards"
-    //    description3: "All the actionable insights educators need at a glance, such as student progress and concept understanding."
+    ozaria_cta: {
+      title1: '[AI_TRANSLATION]Szabványokhoz igazított alap tanterv',
+      description1: '[AI_TRANSLATION]Magával ragadó, történetalapú tanterv, amely megfelel az összes 6-8. évfolyamos CSTA szabványnak.',
+      title2: '[AI_TRANSLATION]Kész Óra Tervek',
+      description2: '[AI_TRANSLATION]Részletes bemutatók és munkalapok tanároknak, hogy végigvezessék a diákokat a tanulási célokon.',
+      title3: '[AI_TRANSLATION]Új tanári és admin felületek  ',
+      description3: '[AI_TRANSLATION]Minden megvalósítható betekintés, amire a pedagógusoknak pillanatok alatt szükségük van, mint a diákok haladása és a fogalom megértése.',
+    },
 
-    //  share_licenses:
-    //    share_licenses: "Share Licenses"
-    //    shared_by: "Shared By:"
-    //    add_teacher_label: "Enter exact teacher email:"
-    //    add_teacher_button: "Add Teacher"
-    //    modal_subtitle: "You can make your licenses available to other teachers in a shared pool."
-    //    modal_list_item_1: "Each license can only be used for one student at a time."
-    //    modal_list_item_2: "When teachers revoke licenses from students, the licenses will be returned to the shared pool for other teachers in this group to use."
-    //    subheader: "You can make your licenses available to other teachers in your organization. Each license can only be used for one student at a time."
-    //    teacher_not_found: "Teacher not found. Please make sure this teacher has already created a Teacher Account."
-    //    teacher_not_valid: "This is not a valid Teacher Account. Only teacher accounts can share licenses."
-    //    already_shared: "You've already shared these licenses with that teacher."
-    //    have_not_shared: "You've not shared these licenses with that teacher."
-    //    teachers_using_these: "Teachers who can access these licenses:"
-    //    footer: "When teachers revoke licenses from students, the licenses will be returned to the shared pool for other teachers in this group to use."
-    //    you: "(you)"
-    //    one_license_used: "(1/__all__ license used)"
-    //    licenses_used: "(__licensesUsed__/__all__ licenses used)"
-    //    licenses_used_no_braces: "__licensesUsed__/__all__ licenses used"
-    //    more_info: "More info"
-    //    shared_pool_label: "Teachers in your shared pool:"
-    //    teacher_delete_warning: "The shared licenses assigned to the teacher won't be revoked!"
-    //    licenses_limit: "Licenses Limit:"
+    share_licenses: {
+      share_licenses: '[AI_TRANSLATION]Licenszek megosztása',
+      shared_by: '[AI_TRANSLATION]Megosztotta:',
+      add_teacher_label: '[AI_TRANSLATION]Add meg pontosan a tanár email címét:',
+      add_teacher_button: '[AI_TRANSLATION]Tanár Hozzáadása',
+      modal_subtitle: '[AI_TRANSLATION]Egy közös medencében elérhetővé teheted a licenszeidet más tanárok számára.',
+      modal_list_item_1: '[AI_TRANSLATION]Minden licencet egyszerre csak egy diák használhat.',
+      modal_list_item_2: '[AI_TRANSLATION]Amikor a tanárok visszavonják a licencet a diákoktól, a licencek visszakerülnek a közös medencébe, hogy más tanárok is használhassák ebben a csoportban.',
+      subheader: '[AI_TRANSLATION]Licencjeidet elérhetővé teheted más tanárok számára a szervezeteden belül. Minden licenc egyszerre csak egy diák számára használható.',
+      teacher_not_found: '[AI_TRANSLATION]A tanár nem található. Kérjük, győződj meg róla, hogy ez a tanár már létrehozott egy Tanári Fiókot.',
+      teacher_not_valid: '[AI_TRANSLATION]Ez nem egy érvényes tanári fiók. Csak tanári fiókok oszthatnak meg licenceket.',
+      already_shared: '[AI_TRANSLATION]Ezt a licenceket már megosztottad azzal a tanárral.',
+      have_not_shared: '[AI_TRANSLATION]Nem osztottad meg ezeket a licenceket azzal a tanárral.\n',
+      teachers_using_these: '[AI_TRANSLATION]Az alábbi tanárokhoz férhetnek hozzá ezek az engedélyek:',
+      footer: '[AI_TRANSLATION]Amikor a tanárok visszavonják a licencet a diákoktól, a licencek visszakerülnek a közös medencébe, hogy más tanárok is használhassák ebben a csoportban.',
+      you: '[AI_TRANSLATION](te)',
+      one_license_used: '[AI_TRANSLATION](1/__all__ használt licenc)',
+      licenses_used: '[AI_TRANSLATION](__licensesUsed__/__all__ licenses used)',
+      licenses_used_no_braces: '[AI_TRANSLATION]__licensesUsed__/__all__ felhasznált licencek',
+      more_info: '[AI_TRANSLATION]További információ',
+      shared_pool_label: '[AI_TRANSLATION]Tanárok a közösségi medencében:',
+      teacher_delete_warning: '[AI_TRANSLATION]A tanárnak kiosztott közös licenszek nem lesznek visszavonva!',
+      licenses_limit: '[AI_TRANSLATION]Licenszek Határa:',
+    },
 
     sharing: {
       game: 'Játék',
       webpage: 'Weboldal',
-      //    your_students_preview: "Your students will click here to see their finished projects! Unavailable in teacher preview."
-      //    unavailable: "Link sharing not available in teacher preview."
+      your_students_preview: '[AI_TRANSLATION]A diákjaid ide kattintva nézhetik meg a kész projektjeiket! Tanár előnézetben nem elérhető.',
+      unavailable: '[AI_TRANSLATION]Link megosztása nem elérhető a tanári előnézetben.',
       share_game: 'A játék megosztása',
       share_web: 'A weboldal megosztása',
       victory_share_prefix: 'Oszd meg ezt a linket, hogy barátaidat, családtagjaidat is',
-      //    victory_share_prefix_short: "Invite people to"
+      victory_share_prefix_short: '[AI_TRANSLATION]Emberek meghívása',
       victory_share_game: 'meghívd a pályádra játszani',
       victory_share_web: 'meghívd a weboldaladra',
       victory_share_suffix: '.',
@@ -2759,15 +2956,15 @@ module.exports = {
       victory_course_share_game: 'játszhatnak a játékkal',
       victory_course_share_web: 'megnézhetik a weboldalt',
       victory_course_share_suffix: 'amit létrehoztál.',
-      copy_url: 'URL másolása'
+      copy_url: 'URL másolása',
+      share_with_teacher_email: '[AI_TRANSLATION]Küldd a tanárodnak',
+      share_ladder_link: '[AI_TRANSLATION]Oszd meg a Multiplayer linket',
+      ladder_link_title: '[AI_TRANSLATION]Oszd meg a többjátékos meccs linkjét',
+      ladder_link_blurb: '[AI_TRANSLATION]Oszd meg az AI csatád linkjét, hogy a barátaid és családtagjaid játszhassanak a kódod ellen:',
     },
-    //    share_with_teacher_email: "Send to your teacher"
-    //    share_ladder_link: "Share Multiplayer Link"
-    //    ladder_link_title: "Share Your Multiplayer Match Link"
-    //    ladder_link_blurb: "Share your AI battle link so your friends and family can play versus your code:"
 
     game_dev: {
-      creator: 'Létrehozta'
+      creator: 'Létrehozta',
     },
 
     web_dev: {
@@ -2783,7 +2980,7 @@ module.exports = {
       how_to_copy_paste: 'A másolás/beillesztés módja',
       copy: 'Másolás',
       paste: 'Beillesztés',
-      back_to_editing: 'Vissza a szerkesztőbe'
+      back_to_editing: 'Vissza a szerkesztőbe',
     },
 
     classes: {
@@ -2805,27 +3002,29 @@ module.exports = {
       ambassador_title: 'Nagykövet',
       ambassador_title_description: '(Támogató)',
       ambassador_summary: 'Vezesd a fórumozókat és mutass utat a kérdezőknek. A CodeCombatot a Nagykövetek reprezentálják a világban.',
-      teacher_title: 'Tanár'
+      teacher_title: 'Tanár',
     },
 
     editor: {
       main_title: 'CodeCombat Szerkesztők',
-      //    concept_title: "Concept Editor"
-      //    standards_title: "Standards Correlation Editor"
+      concept_title: '[AI_TRANSLATION]Fogalom szerkesztő',
+      standards_title: '[AI_TRANSLATION]Szabványok megfeleltetése szerkesztő',
       article_title: 'Cikk Szerkesztő',
       thang_title: 'Dolog szerkesztő',
       level_title: 'Szint Szerkesztő',
       course_title: 'Kurzus szerkesztő',
       achievement_title: 'Eredmény szerkesztő',
       poll_title: 'Kérdőív szerkesztő',
-      //    resource_title: "Resource Editor"
-      //    chat_title: "Chat Editor"
-      //    ai_scenario_title: "AI Scenario Editor"
-      //    ai_project_title: "AI Project Editor"
-      //    ai_model_title: "AI Model Editor"
-      //    ai_document_title: "AI Document Editor"
-      //    ai_chat_message_title: "AI Chat Message Editor"
-      //    resource_title_general: "__resource__ Editor"
+      resource_title: '[AI_TRANSLATION]Erőforrás Szerkesztő',
+      chat_title: '[AI_TRANSLATION]Csevegő Szerkesztő',
+      ai_scenario_title: '[AI_TRANSLATION]AI Szcenárió Szerkesztő',
+      ai_project_title: '[AI_TRANSLATION]MI Projekt Szerkesztője',
+      ai_model_title: '[AI_TRANSLATION]MI Modell Szerkesztő',
+      ai_document_title: '[AI_TRANSLATION]AI Dokumentum Szerkesztő',
+      ai_chat_message_title: '[AI_TRANSLATION]AI Csevegő Üzenet Szerkesztő',
+      ai_junior_scenario_title: '[AI_TRANSLATION]AI Junior Forgatókönyv Szerkesztő',
+      ai_junior_project_title: '[AI_TRANSLATION]AI Junior Projekt Szerkesztő',
+      resource_title_general: '[AI_TRANSLATION]__resource__ Szerkesztő',
       back: 'Vissza',
       revert: 'Revert',
       revert_models: 'Revert Models',
@@ -2841,6 +3040,9 @@ module.exports = {
       fork_title: 'Új Verzió villára vétele',
       fork_creating: 'Villára vétel...',
       generate_terrain: 'Terület generálása',
+      generate_level: '[AI_TRANSLATION]Pálya Generálása',
+      //    generate_practice_level: "Generate Practice Level",
+      //    generate_all_practice_levels: "Generate All Practice Levels",
       more: 'Több',
       wiki: 'Tudásbázis',
       live_chat: 'Élő cset',
@@ -2872,26 +3074,30 @@ module.exports = {
       level_systems_btn_add: 'Rendszer hozzáadása',
       level_components_title: 'Vissza az összes egységhez',
       level_components_type: 'Típus',
-      //    concept_edit_title: "Edit Concept"
-      //    standards_edit_title: "Edit Standards Correlation"
+      concept_edit_title: '[AI_TRANSLATION]Koncepció szerkesztése',
+      standards_edit_title: '[AI_TRANSLATION]Szerkesztés: Szabványok korrelációja',
       level_component_edit_title: 'Komponens szerkesztése',
       level_component_config_schema: 'Konfig. séma',
       level_system_edit_title: 'Rendszer szerkesztése',
-      //    course_edit_title: "Edit Course"
-      //    resource_edit_title: "Edit Resource"
-      //    resource_edit_title_general: "Edit __resource__"
-      //    chat_edit_title: "Edit Chat"
-      //    chat_edit_title_general: "Edit __chat__"
-      //    ai_scenario_edit_title: "Edit Scenario"
-      //    ai_scenario_edit_title_general: "Edit __scenario__"
-      //    ai_project_edit_title: "Edit Project"
-      //    ai_project_edit_title_general: "Edit __project__"
-      //    ai_model_edit_title: "Edit Model"
-      //    ai_document_edit_title: "Edit Document"
-      //    ai_chat_message_edit_title: "Edit Chat Message"
+      course_edit_title: '[AI_TRANSLATION]Tanfolyam szerkesztése',
+      resource_edit_title: '[AI_TRANSLATION]Erőforrás szerkesztése',
+      resource_edit_title_general: '[AI_TRANSLATION]Szerkeszd __resource__',
+      chat_edit_title: '[AI_TRANSLATION]Chat Szerkesztése',
+      chat_edit_title_general: '[AI_TRANSLATION]__chat__ szerkesztése',
+      ai_scenario_edit_title: '[AI_TRANSLATION]Scenario Szerkesztése',
+      ai_scenario_edit_title_general: '[AI_TRANSLATION]Szerkessz __scenario__',
+      //    ai_project_edit_title: "Edit Project",
+      ai_project_edit_title_general: '[AI_TRANSLATION]Szerkesztés __project__',
+      ai_model_edit_title: '[AI_TRANSLATION]Modell Szerkesztése',
+      ai_document_edit_title: '[AI_TRANSLATION]Dokumentum szerkesztése',
+      ai_chat_message_edit_title: '[AI_TRANSLATION]Csetüzenet Szerkesztése',
+      ai_junior_scenario_edit_title: '[AI_TRANSLATION]Junior forgatókönyv szerkesztése  ',
+      //    ai_junior_scenario_edit_title_general: "Edit __scenario__",
+      ai_junior_project_edit_title: '[AI_TRANSLATION]Junior projekt szerkesztése  ',
+      //    ai_junior_project_edit_title_general: "Edit __project__",
       create_system_title: 'Új rendszer létrehozása',
-      //    new_concept_title: "Create New Concept"
-      //    new_standards_title: "Create New Standards Correlation"
+      new_concept_title: '[AI_TRANSLATION]Új Fogalom Létrehozása',
+      new_standards_title: '[AI_TRANSLATION]Új Szabványok Létrehozása',
       new_component_title: 'Új komponens létrehozása',
       new_component_field_system: 'Rendszer',
       new_article_title: 'Új cikk létrehozása',
@@ -2904,37 +3110,43 @@ module.exports = {
       new_achievement_title_login: 'Új eredmény létrehozásához be kell lépned',
       new_poll_title: 'Új kérdőív létrehozása',
       new_poll_title_login: 'Új kérdőív létrehozásához be kell lépned',
-      //    new_course_title: "Create a New Course"
-      //    new_course_title_login: "Log In to Create a New Course"
-      //    new_resource_title: "Create a New Resource"
-      //    new_resource_title_login: "Log In to Create a New Resource"
-      //    new_chat_title: "Create a New Chat"
-      //    new_chat_title_login: "Log In to Create a New Chat"
-      //    new_ai_scenario_title: "Create a New Scenario"
-      //    new_ai_scenario_title_login: "Log In to Create a New Scenario"
-      //    new_ai_project_title: "Create a New Project"
-      //    new_ai_project_title_login: "Log In to Create a New Project"
-      //    new_ai_model_title: "Create a New Model"
-      //    new_ai_model_title_login: "Log In to Create a New Model"
-      //    new_ai_document_title: "Create a New Document"
-      //    new_ai_document_title_login: "Log In to Create a New Document"
-      //    new_ai_chat_message_title: "Create a New Chat Message"
-      //    new_ai_chat_message_title_login: "Log In to Create a New Chat Message"
+      new_course_title: '[AI_TRANSLATION]Új tanfolyam létrehozása',
+      new_course_title_login: '[AI_TRANSLATION]Jelentkezz be egy új kurzus létrehozásához',
+      new_resource_title: '[AI_TRANSLATION]Létrehoz egy új erőforrást',
+      new_resource_title_login: '[AI_TRANSLATION]Jelentkezz be egy új forrás létrehozásához',
+      new_chat_title: '[AI_TRANSLATION]Hozz létre egy új csevegést',
+      new_chat_title_login: '[AI_TRANSLATION]Jelentkezz be, hogy új csevegést hozz létre',
+      new_ai_scenario_title: '[AI_TRANSLATION]Új szcenárió létrehozása',
+      new_ai_scenario_title_login: '[AI_TRANSLATION]Jelentkezz be egy új forgatókönyv létrehozásához',
+      new_ai_project_title: '[AI_TRANSLATION]Új projekt létrehozása',
+      new_ai_project_title_login: '[AI_TRANSLATION]Jelentkezz be egy új projekt létrehozásához',
+      new_ai_model_title: '[AI_TRANSLATION]Hozz létre egy új modellt',
+      new_ai_model_title_login: '[AI_TRANSLATION]Jelentkezz be új modell létrehozásához',
+      new_ai_document_title: '[AI_TRANSLATION]Hozz létre egy új dokumentumot',
+      new_ai_document_title_login: '[AI_TRANSLATION]Jelentkezz be, hogy létrehozz egy új dokumentumot',
+      new_ai_chat_message_title: '[AI_TRANSLATION]Hozz létre egy új csevegőüzenetet',
+      new_ai_chat_message_title_login: '[AI_TRANSLATION]Jelentkezz be egy új chat üzenet létrehozásához',
+      new_ai_junior_scenario_title: '[AI_TRANSLATION]Hozz létre egy új junior forgatókönyvet  ',
+      new_ai_junior_scenario_title_login: '[AI_TRANSLATION]Jelentkezz be, hogy új junior forgatókönyvet hozz létre  ',
+      new_ai_junior_project_title: '[AI_TRANSLATION]Hozz létre egy új junior projektet  ',
+      new_ai_junior_project_title_login: '[AI_TRANSLATION]Jelentkezz be, hogy új junior projektet hozz létre  ',
       article_search_title: 'Cikk keresése itt',
-      //    concept_search_title: "Search Concepts Here"
-      //    standards_search_title: "Search Standards Correlations Here"
+      concept_search_title: '[AI_TRANSLATION]Itt keresd a koncepciókat',
+      standards_search_title: '[AI_TRANSLATION]Keresd itt a Szabványok Korreálását',
       thang_search_title: 'Dologtípus keresése itt',
       level_search_title: 'Pályák keresése itt',
       achievement_search_title: 'Eredmények keresése',
       poll_search_title: 'Kérdőív keresése',
-      //    course_search_title: "Search Courses"
-      //    resource_search_title: "Search Resources"
-      //    chat_search_title: "Search Chats"
-      //    ai_scenario_search_title: "Search Scenarios"
-      //    ai_project_search_title: "Search Projects"
-      //    ai_model_search_title: "Search Models"
-      //    ai_document_search_title: "Search Documents"
-      //    ai_chat_message_search_title: "Search Chat Messages"
+      course_search_title: '[AI_TRANSLATION]Kurzusok keresése',
+      resource_search_title: '[AI_TRANSLATION]Átfogó Eszközök & Erőforrások ',
+      chat_search_title: '[AI_TRANSLATION]Beszélgetések keresése',
+      ai_scenario_search_title: '[AI_TRANSLATION]Keresési Jelenetek',
+      ai_project_search_title: '[AI_TRANSLATION]Projektek Keresése',
+      ai_model_search_title: '[AI_TRANSLATION]Keresési Modellek',
+      ai_document_search_title: '[AI_TRANSLATION]Dokumentumok keresése',
+      ai_chat_message_search_title: '[AI_TRANSLATION]Keresés a csevegési üzenetek között',
+      ai_junior_scenario_search_title: '[AI_TRANSLATION]Junior Scenáriók keresése',
+      ai_junior_project_search_title: '[AI_TRANSLATION]Junior Projektek keresése',
       read_only_warning2: 'Megjegyzés: itt nem menthetsz el változtatást, mert nem vagy belépve.',
       no_achievements: 'Ehhez a pályához még nem rendeltek eredményeket.',
       achievement_query_misc: 'Egyéb kategóriákon kívüli kulcseredmény',
@@ -2946,21 +3158,21 @@ module.exports = {
       add_system_title: 'Rendszerek hozzáadása a pályához',
       done_adding: 'Hozzáadás kész',
       product: 'Termék',
-      link: 'Link'
+      link: 'Link',
     },
 
     article: {
       edit_btn_preview: 'Előnézet',
-      edit_article_title: 'Cikk szerkesztés'
+      edit_article_title: 'Cikk szerkesztés',
     },
 
     polls: {
-      priority: 'Prioritás'
+      priority: 'Prioritás',
     },
 
     contribute: {
       page_title: 'Hozzájárulás',
-      intro_blurb: 'A CodeCombat 100%-ban nyílt forráskódú! Több száz elkötelezett játékosunk segített abban, hogy a játék elérhesse jelenlegi állapotát. Állj be közénk, nyiss új fejezetet a CodeCombat történetében, hogy megtaníthassuk az embereket kódolni!', // {change}
+      intro_blurb: 'A CodeCombat 100%-ban nyílt forráskódú! Több száz elkötelezett játékosunk segített abban, hogy a játék elérhesse jelenlegi állapotát. Állj be közénk, nyiss új fejezetet a CodeCombat történetében, hogy megtaníthassuk az embereket kódolni!',
       alert_account_message_intro: 'Hellóhelló.',
       alert_account_message: 'Ha fel szeretnél iratkozni az osztály levelezésére, először be kell lépned.',
       archmage_introduction: 'A játékok fejlesztésében az egyik legszebb dolog az, hogy annyi mindent hoznak létre. Grafikát, hangot, valós idejű kommunikációt, közösségi hálón való kommunikációt, és persze a programozás legfontosabb vonatkozásait az alacsony szintű adatbáziskezeléstől és szerveradminisztrációtól kezdve a user interface design és interface building folyamatokig. Sok itt még a tennivaló, ezért ha tapasztalt programozó vagy, és szívesen belevetnéd magad a CodeCombat sűrűjébe, ez az osztály való neked. Nagyon jól jönne a segítséged, hogy megcsinálhassuk a világ legjobb programozós játékát!',
@@ -3002,7 +3214,7 @@ module.exports = {
       scribe_join_description: 'mesélj egy kicsit magadról, a programozás terén szerzett tapasztalataidról, és hogy milyen dolgokról írogatnál szívesen. Kezdetnek ennyi!',
       scribe_subscribe_desc: 'Szeretném e-mailben megkapni a cikkekkel kapcsolatos bejelentéseket.',
       diplomat_introduction_pref: 'Szóval ha levonhatunk valami tanulságot az ',
-      //    diplomat_introduction_url: "open source community"
+      diplomat_introduction_url: '[AI_TRANSLATION]nyílt forráskódú közösség',
       diplomat_introduction_suf: 'akkor az az, hogy más országokban is nagy az érdeklődés a CodeCombat iránt! Fel szeretnénk állítani egy fordítói hadtestet, hogy a CodeCombat a világ minél több pontján elérhető legyen. Ha szívesen belesel néha a kulisszák mögé hogy lásd, milyen tartalmak vannak előkészületben, ez az osztály neked való.',
       diplomat_attribute_1: 'Az angol és a választott célnyelv magas szintű ismerete. Amikor bonyolultabb fogalmak átadásáról van szó, mindkettőt nagy biztonsággal kell tudnod használlni.',
       diplomat_i18n_page_prefix: 'Elkezdheted fordítani a pályákat a',
@@ -3026,7 +3238,7 @@ module.exports = {
       creative_artisans: 'Tehetséges alkotóművészeink:',
       brave_adventurers: 'Bátor kalandoraink:',
       translating_diplomats: 'Nyelvekben jeleskedő diplomatáink:',
-      helpful_ambassadors: 'Segítőkész nagyköveteink:'
+      helpful_ambassadors: 'Segítőkész nagyköveteink:',
     },
 
     ladder: {
@@ -3067,13 +3279,13 @@ module.exports = {
       tutorial_skip: 'Gyakorlójáték átugrása',
       tutorial_not_sure: 'Nem érted mi folyik?',
       tutorial_play_first: 'Játssz egy gyakorlójátékot először!',
-      simple_ai: 'Egyszerű MI', // {change}
+      simple_ai: 'Egyszerű MI',
       warmup: 'Bemelegítés',
       friends_playing: 'Baráti csata',
       log_in_for_friends: 'Jelentkezz be, hogy játszhass a barátaiddal!',
       social_connect_blurb: 'Kapcsolódj be és versenyezz a barátaiddal!',
       invite_friends_to_battle: 'Hívd meg a barátaidat a játékba!',
-      fight: 'Harc!', // {change}
+      fight: 'Harc!',
       watch_victory: 'Kövesd a saját győzelmedet',
       defeat_the: 'Győzd le',
       watch_battle: 'Nézd meg a csatát',
@@ -3081,8 +3293,8 @@ module.exports = {
       tournament_started: ', elkezdve',
       tournament_ends: 'A torna vége',
       tournament_ended: 'A torna véget ért',
-      //    tournament_results_published: ", results published __timeLeft__"
-      //    tournament_results_wait_publish: ", results will be published by owner"
+      tournament_results_published: '[AI_TRANSLATION], eredmények közzétéve __timeLeft__',
+      tournament_results_wait_publish: '[AI_TRANSLATION], az eredményeket a tulajdonos teszi közzé',
       tournament_rules: 'A torna szabályai',
       tournament_blurb: 'Kódolj, gyűjtsd az aranyakat, építs hadsereget, győzd le az ellenségeid, küzdj a jutalmakért és szállj be a 40 000 dolláros bajnokságunkba! Nézd meg a részleteket',
       tournament_blurb_criss_cross: 'Köss fogadásokat, építs ösvényeket, járj túl az ellenségeid eszén, szerezd meg a drágaköveket és szállj be a Criss-Cross bajnokságba! Nézd meg a részleteket',
@@ -3092,31 +3304,34 @@ module.exports = {
       rules: 'Szabályok',
       winners: 'Győztesek',
       league: 'Liga',
-      red_ai: 'Vörös CPU', // "Red AI Wins", at end of multiplayer match playback
+      red_ai: 'Vörös CPU',
       blue_ai: 'Kék CPU',
-      wins: 'Győzelmek', // At end of multiplayer match playback
-      //    losses: "Losses"
-      //    win_num: "Wins"
-      //    loss_num: "Losses"
-      //    win_rate: "Win %"
-      humans: 'Vörös', // Ladder page display team name
-      ogres: 'Kék'
+      wins: 'Győzelmek',
+      losses: '[AI_TRANSLATION]Veszteségek',
+      //    win_num: "Wins",
+      loss_num: '[AI_TRANSLATION]Veszteségek',
+      win_rate: '[AI_TRANSLATION]Győzelem %',
+      humans: 'Vörös',
+      ogres: 'Kék',
+      live_tournament: '[AI_TRANSLATION]Élő Bajnokság',
+      awaiting_tournament_title: '[AI_TRANSLATION]Inaktív Torna',
+      awaiting_tournament_blurb: '[AI_TRANSLATION]A versenyaréna jelenleg nem aktív.',
+      tournament_end_desc: '[AI_TRANSLATION]A verseny véget ért, köszönjük, hogy játszottál',
+      age: '[AI_TRANSLATION]Életkor',
+      age_bracket: '[AI_TRANSLATION]Korkategória',
+      bracket_0_11: '[AI_TRANSLATION]0-11',
+      bracket_11_14: '[AI_TRANSLATION]11-14',
+      bracket_14_18: '[AI_TRANSLATION]14-18',
+      bracket_11_18: '[AI_TRANSLATION]11-18',
+      bracket_open: '[AI_TRANSLATION]Nyitva',
+      create_tournament: '[AI_TRANSLATION]Verseny létrehozása',
+      //    difficulty_beginner: "Beginner",
+      //    difficulty_intermediate: "Intermediate",
+      //    difficulty_advanced: "Advanced",
     },
-    //    live_tournament: "Live Tournament"
-    //    awaiting_tournament_title: "Tournament Inactive"
-    //    awaiting_tournament_blurb: "The tournament arena is not currently active."
-    //    tournament_end_desc: "The tournament is over, thanks for playing"
-    //    age: "Age"
-    //    age_bracket: "Age Bracket"
-    //    bracket_0_11: "0-11"
-    //    bracket_11_14: "11-14"
-    //    bracket_14_18: "14-18"
-    //    bracket_11_18: "11-18"
-    //    bracket_open: "Open"
-    //    create_tournament: "Create a Tournament"
 
     user: {
-    //    user_title: "__name__ - Learn to Code with CodeCombat"
+      user_title: '[AI_TRANSLATION]__name__ - Tanulj kódolni a CodeCombat-tal',
       stats: 'Statisztika',
       singleplayer_title: 'Egyjátékos Pályák',
       multiplayer_title: 'Többjátékos Pályák',
@@ -3130,42 +3345,42 @@ module.exports = {
       no_achievements: 'Egyelőre nincsenek szerzett eredmények.',
       favorite_prefix: 'A kedvenc nyelv ',
       favorite_postfix: '.',
-      not_member_of_clans: 'Még egy Klánnak sem tagja.'
+      not_member_of_clans: 'Még egy Klánnak sem tagja.',
+      certificate_view: '[AI_TRANSLATION]tanúsítvány megtekintése',
+      certificate_click_to_view: '[AI_TRANSLATION]kattints a tanúsítvány megtekintéséhez',
+      certificate_course_incomplete: '[AI_TRANSLATION]Tanfolyam nincs befejezve',
+      certificate_of_completion: '[AI_TRANSLATION]Teljesítési Bizonyítvány',
+      certificate_endorsed_by: '[AI_TRANSLATION]Támogatott',
+      certificate_stats: '[AI_TRANSLATION]Kurzus Statisztikák',
+      certificate_lines_of: '[AI_TRANSLATION]sorok',
+      certificate_levels_completed: '[AI_TRANSLATION]Teljesített szintek',
+      certificate_for: '[AI_TRANSLATION]Mert',
+      for_ozaria_chapters_1_4: '[AI_TRANSLATION]Ozaria 1 - 4. fejezetéhez',
+      certificate_number: '[AI_TRANSLATION]Nem.',
+      heroes_unlocked: '[AI_TRANSLATION]Hősök feloldva',
+      current_items: '[AI_TRANSLATION]Felszerelt tárgyak',
+      contributor_badges: '[AI_TRANSLATION]Közreműködő jelvények',
+      contributions_title: '[AI_TRANSLATION]Hozzájárulások',
+      //    type_stat: "Type",
+      patches_submit: '[AI_TRANSLATION]Beküldött Javítások',
+      patches_approved: '[AI_TRANSLATION]Javítások jóváhagyva',
+      patches_accepted: '[AI_TRANSLATION]Javítások Elfogadva',
+      level_edits: '[AI_TRANSLATION]Szint Szerkesztések',
+      total_translations: '[AI_TRANSLATION]Összes Fordítás',
+      //    campaign_stats: "Stats",
     },
-    //    certificate_view: "view certificate"
-    //    certificate_click_to_view: "click to view certificate"
-    //    certificate_course_incomplete: "course incomplete"
-    //    certificate_of_completion: "Certificate of Completion"
-    //    certificate_endorsed_by: "Endorsed by"
-    //    certificate_stats: "Course Stats"
-    //    certificate_lines_of: "lines of"
-    //    certificate_levels_completed: "levels completed"
-    //    certificate_for: "For"
-    //    for_ozaria_chapters_1_4: "For Ozaria Chapters 1 - 4"
-    //    certificate_number: "No."
-    //    heroes_unlocked: "Heroes Unlocked"
-    //    current_items: "Items Equipped"
-    //    contributor_badges: "Contributor Badges"
-    //    contributions_title: "Contributions"
-    //    type_stat: "Type" # As in, which type of contribution
-    //    patches_submit: "Patches Submitted"
-    //    patches_approved: "Patches Approved"
-    //    patches_accepted: "Patches Accepted"
-    //    level_edits: "Level Edits"
-    //    total_translations: "Total Translations"
-    //    campaign_stats: "Stats"
 
     achievements: {
       last_earned: 'Utolsónak megszerzett',
       amount_achieved: 'Mennyiség',
       achievement: 'Eredmények',
-      current_xp_prefix: '',
+      //    current_xp_prefix: "",
       current_xp_postfix: ' összesen',
-      new_xp_prefix: '',
+      //    new_xp_prefix: "",
       new_xp_postfix: ' megszerzett',
-      left_xp_prefix: '',
+      //    left_xp_prefix: "",
       left_xp_infix: ' következő szinthez ',
-      left_xp_postfix: ''
+      //    left_xp_postfix: "",
     },
 
     account: {
@@ -3207,7 +3422,9 @@ module.exports = {
       unsubscribe_button: 'Igen, leiratkozás',
       unsubscribe_failed: 'Sikertelen',
       unsubscribe_success: 'Sikeres',
-      manage_billing: 'Számlázás kezelése'
+      manage_billing: 'Számlázás kezelése',
+      payments_history: '[AI_TRANSLATION]Fizetések Története',
+      no_payments_found: '[AI_TRANSLATION]Nem találhatók kifizetések',
     },
 
     account_invoices: {
@@ -3218,16 +3435,16 @@ module.exports = {
       pay: 'Számla kifizetése',
       purchasing: 'Vásárlás...',
       retrying: 'Szerverhiba, új próbálkozás.',
-      success: 'Sikeres fizetés. Köszönjük!'
+      success: 'Sikeres fizetés. Köszönjük!',
     },
 
     account_prepaid: {
       purchase_code: 'Előfizetéses kód vásárlása',
-      purchase_code1: 'Az előfizetéses kódok beválthatók további prémium előfizetői időre egy vagy több fiókhoz is.', // {change}
+      purchase_code1: 'Az előfizetéses kódok beválthatók további prémium előfizetői időre egy vagy több fiókhoz is.',
       purchase_code2: 'Egy adott előfizetéses kód csak egy adott CodeCombat fiókhoz váltható be.',
       purchase_code3: 'A fiókban a meglévő előfizetéshez hozzáadódnak a hónapok annak lejártával.',
-      //    purchase_code4: "Subscription Codes are for accounts playing the Home version of CodeCombat, they cannot be used in place of Student Licenses for the Classroom version."
-      //    purchase_code5: "For more information on Student Licenses, reach out to"
+      purchase_code4: '[AI_TRANSLATION]Az Előfizetési kódok a CodeCombat Otthoni verzióhoz készült fiókokhoz valók, nem használhatók a Diák Lincenszek helyett az Osztálytermi verzióhoz.',
+      purchase_code5: '[AI_TRANSLATION]További információkért a Diák Liszencekről, fordulj',
       users: 'Felhasználók',
       months: 'Hónapok',
       purchase_total: 'Összesen',
@@ -3243,13 +3460,13 @@ module.exports = {
       no_codes: 'Nincs még kód!',
       you_can1: 'Vásárolhatsz',
       you_can2: 'egy fizetős kódot,',
-      you_can3: 'amelyet a saját fiókodban is beválthatsz vagy átadhatsz másoknak.'
+      you_can3: 'amelyet a saját fiókodban is beválthatsz vagy átadhatsz másoknak.',
+      prepaid_add_months: '[AI_TRANSLATION]Ez az előre fizetett kód <strong>hozzáad __months__ hónapnyi előfizetést</strong> a fiókodhoz.',
+      can_use_times: '[AI_TRANSLATION]Még <strong>__unlocksLeft__ alkalommal</strong> használható.',
+      prepaid_applied_success: '[AI_TRANSLATION]Előfizetés hozzáadva a fiókodhoz!',
+      activation_code_used: '[AI_TRANSLATION]Az Aktiváló kódot már felhasználták.',
+      redeem_code_error: '[AI_TRANSLATION]Hiba: Az előre fizetett kód beváltása nem sikerült.',
     },
-    //    prepaid_add_months: "This prepaid code adds <strong>__months__ months of subscription</strong> to your account."
-    //    can_use_times: "It can be used <strong>__unlocksLeft__ more</strong> times."
-    //    prepaid_applied_success: "Prepaid applied to your account!"
-    //    activation_code_used: "The Activation code has been used."
-    //    redeem_code_error: "Error: Could not redeem prepaid code. "
 
     ozaria_chrome: {
       sound_off: 'Némítás',
@@ -3257,67 +3474,69 @@ module.exports = {
       back_to_map: 'Vissza a térképre',
       level_options: 'Szint opciók',
       restart_level: 'Szint újraindítása',
-      max_browser: 'Böngésző maximalizálása'
+      max_browser: 'Böngésző maximalizálása',
+      ai_hint: '[AI_TRANSLATION]Mesterséges Intelligencia Tipp',
     },
 
-    //  impact:
-    //    hero_heading: "Building A World-Class Computer Science Program"
-    //    hero_subheading: "We Help Empower Educators and Inspire Students Across the Country"
-    //    featured_partner_story: "Featured Partner Story"
-    //    partner_heading: "Successfully Teaching Coding at a Title I School"
-    //    partner_school: "Bobby Duke Middle School"
-    //    featured_teacher: "Scott Baily"
-    //    teacher_title: "Technology Teacher Coachella, CA"
-    //    implementation: "Implementation"
-    //    grades_taught: "Grades Taught"
-    //    length_use: "Length of Use"
-    //    length_use_time: "3 years"
-    //    students_enrolled: "Students Enrolled this Year"
-    //    students_enrolled_number: "130"
-    //    courses_covered: "Courses Covered"
-    //    course1: "CompSci 1"
-    //    course2: "CompSci 2"
-    //    course3: "CompSci 3"
-    //    course4: "CompSci 4"
-    //    course5: "GameDev 1"
-    //    fav_features: "Favorite Features"
-    //    responsive_support: "Responsive Support"
-    //    immediate_engagement: "Immediate Engagement"
-    //    paragraph1: "Bobby Duke Middle School sits nestled between the Southern California mountains of Coachella Valley to the west and east and the Salton Sea 33 miles south, and boasts a student population of 697 students within Coachella Valley Unified’s district-wide population of 18,861 students."
-    //    paragraph2: "The students of Bobby Duke Middle School reflect the socioeconomic challenges facing Coachella Valley’s residents and students within the district. With over 95% of the Bobby Duke Middle School student population qualifying for free and reduced-price meals and over 40% classified as English language learners, the importance of teaching 21st century skills was the top priority of Bobby Duke Middle School Technology teacher, Scott Baily."
-    //    paragraph3: "Baily knew that teaching his students coding was a key pathway to opportunity in a job landscape that increasingly prioritizes and necessitates computing skills. So, he decided to take on the exciting challenge of creating and teaching the only coding class in the school and finding a solution that was affordable, responsive to feedback, and engaging to students of all learning abilities and backgrounds."
-    //    teacher_quote: "When I got my hands on CodeCombat [and] started having my students use it, the light bulb went on. It was just night and day from every other program that we had used. They’re not even close."
-    //    quote_attribution: "Scott Baily, Technology Teacher"
-    //    read_full_story: "Read Full Story"
-    //    more_stories: "More Partner Stories"
-    //    partners_heading_1: "Supporting Multiple CS Pathways in One Class"
-    //    partners_school_1: "Preston High School"
-    //    partners_heading_2: "Excelling on the AP Exam"
-    //    partners_school_2: "River Ridge High School"
-    //    partners_heading_3: "Teaching Computer Science Without Prior Experience"
-    //    partners_school_3: "Riverdale High School"
-    //    download_study: "Download Research Study"
-    //    teacher_spotlight: "Teacher & Student Spotlights"
-    //    teacher_name_1: "Amanda Henry"
-    //    teacher_title_1: "Rehabilitation Instructor"
-    //    teacher_location_1: "Morehead, Kentucky"
-    //    spotlight_1: "Through her compassion and drive to help those who need second chances, Amanda Henry helped change the lives of students who need positive role models. With no previous computer science experience, Henry led her students to coding success in a regional coding competition."
-    //    teacher_name_2: "Kaila, Student"
-    //    teacher_title_2: "Maysville Community & Technical College"
-    //    teacher_location_2: "Lexington, Kentucky"
-    //    spotlight_2: "Kaila was a student who never thought she would be writing lines of code, let alone enrolled in college with a pathway to a bright future."
-    //    teacher_name_3: "Susan Jones-Szabo"
-    //    teacher_title_3: "Teacher Librarian"
-    //    teacher_school_3: "Ruby Bridges Elementary"
-    //    teacher_location_3: "Alameda, CA"
-    //    spotlight_3: "Susan Jones-Szabo promotes an equitable atmosphere in her class where everyone can find success in their own way. Mistakes and struggles are welcomed because everyone learns from a challenge, even the teacher."
-    //    continue_reading_blog: "Continue Reading on Blog..."
-    //    ozaria_impact_title: "Positive Impacts with Ozaria"
-    //    ozaria_impact_blurb: "CodeCombat's sister curriculum, Ozaria, has proven to have a positive impact on the student learning outcomes that matter most to both students and educators."
-    //    ozaria_impact_learn_more: "Learn more about Ozaria's curriculum efficacy here."
+    impact: {
+      hero_heading: '[AI_TRANSLATION]Világszínvonalú Számítástechnika Program felépítése',
+      hero_subheading: '[AI_TRANSLATION]Segítünk tanárokat támogatni és diákokat inspirálni az országban  ',
+      featured_partner_story: '[AI_TRANSLATION]Kiemelt partner történet  ',
+      partner_heading: '[AI_TRANSLATION]Sikeres Kódolás Oktatása egy Title I Iskolában',
+      partner_school: '[AI_TRANSLATION]Bobby Duke Középiskola',
+      featured_teacher: '[AI_TRANSLATION]Scott Baily',
+      teacher_title: '[AI_TRANSLATION]Technológia tanár, Coachella, CA',
+      implementation: '[AI_TRANSLATION]Megvalósítás',
+      grades_taught: '[AI_TRANSLATION]Tanított Évfolyamok',
+      length_use: '[AI_TRANSLATION]Használati Időtartam',
+      length_use_time: '[AI_TRANSLATION]3 év',
+      students_enrolled: '[AI_TRANSLATION]Idén Beiratkozott Diákok',
+      students_enrolled_number: '[AI_TRANSLATION]130',
+      courses_covered: '[AI_TRANSLATION]Lefedett tanfolyamok',
+      course1: '[AI_TRANSLATION]CompSci 1',
+      course2: '[AI_TRANSLATION]CompSci 2',
+      course3: '[AI_TRANSLATION]CompSci 3',
+      course4: '[AI_TRANSLATION]Tudomány 4',
+      course5: '[AI_TRANSLATION]GameDev 1',
+      fav_features: '[AI_TRANSLATION]Kedvenc Funkciók',
+      responsive_support: '[AI_TRANSLATION]Gyors Támogatás',
+      immediate_engagement: '[AI_TRANSLATION]Azonnali Elköteleződés',
+      paragraph1: '[AI_TRANSLATION]Bobi Duke Általános Iskola a Southern California Coachella Valley hegyei között és kelet-nyugati távolságánál található, 33 mérföldre a Salton-tótól délre, és 697 diákból álló hallgatói létszámmal rendelkezik a Coachella Valley Unified körzetének 18,861 diákja körében.',
+      paragraph2: '[AI_TRANSLATION]A Bobby Duke Középiskola diákjai tükrözik a Coachella-völgy lakóinak és a körzetben lévő diákok társadalmi-gazdasági kihívásait. Mivel a Bobby Duke Középiskola diákjainak több mint 95%-a jogosult ingyenes és kedvezményes árú étkezésre, és több mint 40%-a angol nyelvtanulóként van besorolva, a 21. századi készségek tanításának fontossága elsődleges prioritás volt Scott Baily, a Bobby Duke Középiskola technológiai tanára számára.',
+      paragraph3: '[AI_TRANSLATION]Baily tudta, hogy a diákjainak programozást tanítani kulcsfontosságú lépés a lehetőségek felé egy olyan munkaerőpiacon, amely egyre inkább előtérbe helyezi és megköveteli a számítástechnikai készségeket. Ezért elhatározta, hogy vállalja azt az izgalmas kihívást, hogy létrehozza és tanítsa az iskolában az egyetlen programozási órát, valamint talál egy megoldást, amely megfizethető, figyel a visszajelzésekre és minden tanulási képességű és hátterű diák számára vonzó.',
+      teacher_quote: '[AI_TRANSLATION]Amikor hozzájutottam a CodeCombat-hoz [és] elkezdtem használni a diákjaimmal, minden megváltozott. Ég és föld különbség volt minden más programhoz képest, amit használtunk. Egyáltalán nem lehetett összehasonlítani őket.',
+      quote_attribution: '[AI_TRANSLATION]Scott Baily, technológia tanár',
+      read_full_story: '[AI_TRANSLATION]Olvass el a teljes sztorit',
+      more_stories: '[AI_TRANSLATION]Több Partner Történet',
+      partners_heading_1: '[AI_TRANSLATION]Több CS útvonal támogatása egy osztályban',
+      partners_school_1: '[AI_TRANSLATION]Preston Gimnázium',
+      partners_heading_2: '[AI_TRANSLATION]Kiváló az érettségi vizsgán',
+      partners_school_2: '[AI_TRANSLATION]River Ridge Gimnázium  ',
+      partners_heading_3: '[AI_TRANSLATION]Számítástechnika Tanítása Előzetes Tapasztalat Nélkül',
+      partners_school_3: '[AI_TRANSLATION]Riverdale Középiskola',
+      download_study: '[AI_TRANSLATION]Kutatási tanulmány letöltése',
+      teacher_spotlight: '[AI_TRANSLATION]Tanár és diák reflektorfényben',
+      teacher_name_1: '[AI_TRANSLATION]Amanda Henry',
+      teacher_title_1: '[AI_TRANSLATION]Rehabilitációs oktató',
+      teacher_location_1: '[AI_TRANSLATION]Morehead, Kentucky',
+      spotlight_1: '[AI_TRANSLATION]Amanda Henry az új esélyt keresők iránti együttérzése és segítő szándéka révén változtatta meg olyan diákok életét, akiknek pozitív példaképekre van szükségük. Korábbi számítástechnikai tapasztalat nélkül Henry sikerre vezette diákjait egy regionális kódolási versenyen.  ',
+      teacher_name_2: '[AI_TRANSLATION]Kaila, Diák',
+      teacher_title_2: '[AI_TRANSLATION]Maysville Közösségi és Műszaki Főiskola',
+      teacher_location_2: '[AI_TRANSLATION]Lexington, Kentucky',
+      spotlight_2: '[AI_TRANSLATION]Kaila egy diák volt, aki sosem gondolta volna, hogy kódokat fog írni, nem is beszélve arról, hogy beiratkozik egy főiskolára egy fényes jövő felé vezető úttal.  ',
+      teacher_name_3: '[AI_TRANSLATION]Susan Jones-Szabó',
+      teacher_title_3: '[AI_TRANSLATION]Tanszéki könyvtáros',
+      teacher_school_3: '[AI_TRANSLATION]Ruby Bridges Általános Iskola',
+      //    teacher_location_3: "Alameda, CA",
+      spotlight_3: '[AI_TRANSLATION]Susan Jones-Szabo igazságos atmoszférát teremt az osztályában, ahol mindenki saját módján lehet sikeres. A hibákat és küzdelmeket szívesen látják, mert mindenki tanul egy kihívásból, még a tanár is.',
+      continue_reading_blog: '[AI_TRANSLATION]Tovább az Olvasásra a Blogon...',
+      ozaria_impact_title: '[AI_TRANSLATION]Pozitív Hatások az Ozariával',
+      ozaria_impact_blurb: '[AI_TRANSLATION]A CodeCombat testvér tanterve, az Ozaria, bizonyítottan pozitív hatással van a diákok tanulmányi eredményeire, amelyek mind a diákok, mind a pedagógusok számára fontosak.',
+      ozaria_impact_learn_more: '[AI_TRANSLATION]Itt tudhatsz meg többet az Ozaria tantervi hatékonyságáról.',
+    },
 
     loading_error: {
-      could_not_load: 'A betöltés a szerverről sikertelen', // {change}
+      could_not_load: 'A betöltés a szerverről sikertelen',
       connection_failure: 'Kapcsolat megszakadt.',
       connection_failure_desc: 'Úgy tűnik, nincs internetkapcsolatod! Ellenőrizd az internetkapcsolatot, majd frissítsd az oldalt.',
       login_required: 'Bejelentkezés szükséges',
@@ -3325,21 +3544,21 @@ module.exports = {
       unauthorized: 'Be kell jelentkezned. Engedélyezted a sütiket?',
       forbidden: 'Tiltott',
       forbidden_desc: 'Sajnos itt nem terem számodra babér! Ellenőrizd, hogy a megfelelő fiókba vagy-e bejelentkezve, vagy válassz az alábbi linkek közül, hogy visszatérj a programozáshoz.',
-      //    user_not_found: "User Not Found"
+      user_not_found: '[AI_TRANSLATION]Felhasználó nem található',
       not_found: 'Nem található.',
-      //    resource_not_found: "404 __resource__ Not Found"
+      resource_not_found: '[AI_TRANSLATION]404 __resource__ Nem található',
       not_found_desc: 'Hát, itt sincs semmi. Válassz az alábbi linkek közül, hogy visszatérj a programozáshoz.',
       not_allowed: 'Nem engedélyezett metódus.',
       timeout: 'Szerveroldali időtúllépés',
       conflict: 'Konfliktus a forrásokban.',
       bad_input: 'Hibás bemenet.',
       server_error: 'Szerver hiba.',
-      unknown: 'Ismeretlen hiba.', // {change}
+      unknown: 'Ismeretlen hiba.',
       error: 'HIBA',
-      general_desc: 'Hiba történt, valószínűleg a mi készülékünkben. Kis idő múlva frissítsd az oldalt vagy válassz az alábbi linkek közül, hogy visszatérj a programozáshoz.'
+      general_desc: 'Hiba történt, valószínűleg a mi készülékünkben. Kis idő múlva frissítsd az oldalt vagy válassz az alábbi linkek közül, hogy visszatérj a programozáshoz.',
+      too_many_login_failures: '[AI_TRANSLATION]Túl sok sikertelen bejelentkezési kísérlet történt. Kérjük, próbáld meg később újra.',
+      something_went_wrong: '[AI_TRANSLATION]Hoppá! Valami nem stimmelt',
     },
-    //    too_many_login_failures: "There have been too many unsuccessful login attempts.  Please try again later."
-    //    something_went_wrong: "Oops! Something went wrong"
 
     resources: {
       level: 'Szint',
@@ -3350,152 +3569,153 @@ module.exports = {
       component: 'Komponens',
       components: 'Komponensek',
       hero: 'Hős (hero)',
-      campaigns: 'Kampányok'
+      campaigns: 'Kampányok',
     },
 
     concepts: {
-    //    advanced_css_rules: "Advanced CSS Rules"
-    //    advanced_css_selectors: "Advanced CSS Selectors"
-    //    advanced_html_attributes: "Advanced HTML Attributes"
-    //    advanced_html_tags: "Advanced HTML Tags"
-    //    algorithm_average: "Algorithm Average"
-    //    algorithm_find_minmax: "Algorithm Find Min/Max"
-    //    algorithm_search_binary: "Algorithm Search Binary"
-    //    algorithm_search_graph: "Algorithm Search Graph"
-    //    algorithm_sort: "Algorithm Sort"
-    //    algorithm_sum: "Algorithm Sum"
+      advanced_css: 'CSS haladóknak',
+      advanced_css_rules: '[AI_TRANSLATION]Haladó CSS Szabályok',
+      advanced_css_selectors: '[AI_TRANSLATION]Haladó CSS Szelektorok',
+      advanced_html: 'HTML haladóknak',
+      advanced_html_attributes: '[AI_TRANSLATION]Haladó HTML attribútumok',
+      advanced_html_tags: '[AI_TRANSLATION]Haladó HTML tag-ek',
+      advanced_strings: 'Haladó stringek',
+      advanced_web_scripting: 'Webscripting haladóknak',
+      algorithms: 'Algoritmusok',
+      algorithm_average: '[AI_TRANSLATION]Algoritmus Átlag',
+      algorithm_find_minmax: '[AI_TRANSLATION]Algoritmus Keresés Min/Max',
+      algorithm_search_binary: '[AI_TRANSLATION]Algoritmus Keresés Bináris  ',
+      algorithm_search_graph: '[AI_TRANSLATION]Algoritmus Kereső Grafikon',
+      algorithm_sort: '[AI_TRANSLATION]Algoritmus Rende',
+      algorithm_sum: '[AI_TRANSLATION]Algoritmus Összeg',
+      alter_existing_web_pages: '[AI_TRANSLATION]Létező weboldalak módosítása',
       arguments: 'Paraméterek',
       arithmetic: 'Aritmetika',
-      //    array_2d: "2D Array"
-      //    array_index: "Array Indexing"
-      //    array_iterating: "Iterating Over Arrays"
-      //    array_literals: "Array Literals"
-      //    array_searching: "Array Searching"
-      //    array_sorting: "Array Sorting"
+      array_2d: '[AI_TRANSLATION]2D Tömb',
+      array_index: '[AI_TRANSLATION]Tömb indexelés',
+      array_iterating: '[AI_TRANSLATION]Tömbök iterálása',
+      array_literals: '[AI_TRANSLATION]Tömb Literálok',
+      array_searching: '[AI_TRANSLATION]Tömb keresés',
+      array_sorting: '[AI_TRANSLATION]Tömb rendezése',
       arrays: 'Tömbök',
-      //    basic_css_rules: "Basic CSS rules"
-      //    basic_css_selectors: "Basic CSS selectors"
-      //    basic_html_attributes: "Basic HTML Attributes"
-      //    basic_html_tags: "Basic HTML Tags"
+      basic_css: 'CSS-alapok',
+      basic_css_rules: '[AI_TRANSLATION]Alapvető CSS szabályok',
+      basic_css_selectors: '[AI_TRANSLATION]Alapvető CSS szelektorok',
+      basic_event_handling: '[AI_TRANSLATION]Alapvető Eseménykezelés',
+      basic_game_ai: '[AI_TRANSLATION]Alapvető Játék AI',
+      basic_html: 'HTML-alapok',
+      basic_html_attributes: '[AI_TRANSLATION]Alapvető HTML attribútumok',
+      basic_html_tags: '[AI_TRANSLATION]Alapvető HTML Teggek',
+      basic_input_handling: '[AI_TRANSLATION]Alapvető Bemenetkezelés',
+      basic_javascript: '[AI_TRANSLATION]Alapvető JavaScript',
       basic_syntax: 'Alap Szintaxis',
-      //    binary: "Binary"
-      //    boolean_and: "Boolean And"
-      //    boolean_inequality: "Boolean Inequality"
-      //    boolean_equality: "Boolean Equality"
-      //    boolean_greater_less: "Boolean Greater/Less"
-      //    boolean_logic_shortcircuit: "Boolean Logic Shortcircuiting"
-      //    boolean_not: "Boolean Not"
-      //    boolean_operator_precedence: "Boolean Operator Precedence"
-      //    boolean_or: "Boolean Or"
-      //    boolean_with_xycoordinates: "Coordinate Comparison"
+      basic_web_scripting: 'Webscripting alapok',
+      binary: '[AI_TRANSLATION]Bináris',
+      boolean_and: '[AI_TRANSLATION]Logikai ÉS',
+      boolean_equality: '[AI_TRANSLATION]Logikai egyenlőség',
+      boolean_greater_less: '[AI_TRANSLATION]Boolean Nagyobb/Kisebb',
+      boolean_inequality: '[AI_TRANSLATION]Logikai Egyenlőtlenség',
+      boolean_logic: 'Boolean logika',
+      boolean_logic_shortcircuit: '[AI_TRANSLATION]Logikai Rövidzárlat',
+      boolean_not: '[AI_TRANSLATION]Logikai nem',
+      boolean_operator_precedence: '[AI_TRANSLATION]Logikai Operátor Precedencia',
+      boolean_or: '[AI_TRANSLATION]Boolean Vagy',
+      boolean_with_xycoordinates: '[AI_TRANSLATION]Koordináta összehasonlítás',
       bootstrap: 'Bootstrap',
       break_statements: 'Feltételes elágazás',
       classes: 'Osztályok',
-      //    conditionals: "Conditionals"
+      comparators: '[AI_TRANSLATION]Komparátorok',
+      compound_conditionals: '[AI_TRANSLATION]Összetett feltételesek',
+      conditionals: '[AI_TRANSLATION]Feltételek',
+      construct_mazes: '[AI_TRANSLATION]Labirintusok építése',
       continue_statements: 'Elágazás folytatása',
-      //    debugging: "Debugging"
-      //    dom_events: "DOM Events"
-      //    dynamic_styling: "Dynamic Styling"
-      //    events: "Events"
-      //    event_concurrency: "Event Concurrency"
-      //    event_data: "Event Data"
-      //    event_handlers: "Event Handlers"
-      //    event_spawn: "Spawn Event"
+      create_playable_game: '[AI_TRANSLATION]Készíts egy játszható, megosztható játékprojektet',
+      create_sharable_interactive_web_page: '[AI_TRANSLATION]Készíts egy megosztható interaktív weboldalt',
+      create_sharable_web_page: '[AI_TRANSLATION]Készíts egy megosztható weboldalt  ',
+      data_and_analysis: '[AI_TRANSLATION]Adatok és Elemzés',
+      data_types: '[AI_TRANSLATION]Adattípusok  ',
+      debugging: '[AI_TRANSLATION]Hibakeresés',
+      dom_events: '[AI_TRANSLATION]DOM Események',
+      dynamic_styling: '[AI_TRANSLATION]Dinamikus Stílus',
+      events: '[AI_TRANSLATION]Események',
+      event_concurrency: '[AI_TRANSLATION]Esemény egyidejűség',
+      event_data: '[AI_TRANSLATION]Esemény Adatok',
+      event_handlers: '[AI_TRANSLATION]Eseménykezelők',
+      event_spawn: '[AI_TRANSLATION]Esemény kezdete',
       for_loops: 'For ciklus',
-      //    for_loops_nested: "Nested For Loops"
-      //    for_loops_range: "For Loops Range"
+      for_loops_nested: '[AI_TRANSLATION]Beágyazott For ciklusok',
+      for_loops_range: '[AI_TRANSLATION]For ciklusok tartománya',
       functions: 'Függvények',
-      //    functions_parameters: "Parameters"
-      //    functions_multiple_parameters: "Multiple Parameters"
-      //    game_ai: "Game AI"
-      //    game_design: "Game Design"
-      //    game_goals: "Game Goals"
-      //    game_spawn: "Game Spawn"
+      functions_parameters: '[AI_TRANSLATION]Paraméterek',
+      functions_multiple_parameters: '[AI_TRANSLATION]Többszörös paraméterek',
+      game_ai: '[AI_TRANSLATION]Játék AI',
+      game_design: '[AI_TRANSLATION]Játéktervezés',
+      game_goals: '[AI_TRANSLATION]Játék Célok',
+      game_spawn: '[AI_TRANSLATION]Játék Indítás',
       graphics: 'Grafika',
-      //    graphs: "Graphs"
-      //    heaps: "Heaps"
-      //    if_condition: "Conditional If Statements"
-      //    if_else_if: "If/Else If Statements"
-      //    if_else_statements: "If/Else Statements"
+      graphs: '[AI_TRANSLATION]Grafikonok',
+      heaps: '[AI_TRANSLATION]Halomok',
+      if_condition: '[AI_TRANSLATION]Feltételes Ha Állítások',
+      if_else_if: '[AI_TRANSLATION]Ha/Egyébként Ha Állítások',
+      if_else_statements: '[AI_TRANSLATION]Ha/Egyéb Állítások',
       if_statements: 'Feltételes elágazás',
-      //    if_statements_nested: "Nested If Statements"
-      //    indexing: "Array Indexes"
-      //    input_handling_flags: "Input Handling - Flags"
-      //    input_handling_keyboard: "Input Handling - Keyboard"
-      //    input_handling_mouse: "Input Handling - Mouse"
-      //    intermediate_css_rules: "Intermediate CSS Rules"
-      //    intermediate_css_selectors: "Intermediate CSS Selectors"
-      //    intermediate_html_attributes: "Intermediate HTML Attributes"
-      //    intermediate_html_tags: "Intermediate HTML Tags"
+      if_statements_nested: '[AI_TRANSLATION]Beágyazott If Állítások',
+      indexing: '[AI_TRANSLATION]Tömb Indexek',
+      input_handling: 'Inputkezelés',
+      input_handling_flags: '[AI_TRANSLATION]Inputkezelés - Zászlók',
+      input_handling_keyboard: '[AI_TRANSLATION]Bemenet kezelése - Billentyűzet',
+      input_handling_mouse: '[AI_TRANSLATION]Bemeneti kezelés - Egér',
+      intermediate_css: 'CSS középhaladóknak',
+      intermediate_css_rules: '[AI_TRANSLATION]Középhaladó CSS Szabályok',
+      intermediate_css_selectors: '[AI_TRANSLATION]Középhaladó CSS Szelekciók',
+      intermediate_html: 'HTML középhaladóknak',
+      intermediate_html_attributes: '[AI_TRANSLATION]Középhaladó HTML attribútumok',
+      intermediate_html_tags: '[AI_TRANSLATION]Középhaladó HTML Tag-ek',
+      intermediate_web_scripting: 'Webscripting középhaladóknak',
+      iteration: '[AI_TRANSLATION]Iteráció',
       jquery: 'jQuery',
-      //    jquery_animations: "jQuery Animations"
-      //    jquery_filtering: "jQuery Element Filtering"
-      //    jquery_selectors: "jQuery Selectors"
-      //    length: "Array Length"
-      //    math_coordinates: "Coordinate Math"
-      //    math_geometry: "Geometry"
+      jquery_animations: '[AI_TRANSLATION]jQuery Animációk',
+      jquery_filtering: '[AI_TRANSLATION]jQuery Elem Szűrés',
+      jquery_selectors: '[AI_TRANSLATION]jQuery Kiválasztók',
+      length: '[AI_TRANSLATION]Tömbhossz',
+      //    loops: "Loops",
+      math_coordinates: '[AI_TRANSLATION]Koordináta matematika  ',
+      math_geometry: '[AI_TRANSLATION]Geometria',
       math_operations: 'Matematikai műveletek',
-      //    math_proportions: "Proportion Math"
-      //    math_trigonometry: "Trigonometry"
+      math_proportions: '[AI_TRANSLATION]Matematikai arány',
+      math_trigonometry: '[AI_TRANSLATION]Trigonometria',
+      methods: '[AI_TRANSLATION]Módszerek',
+      nesting: '[AI_TRANSLATION]Beágyazás',
+      objects: '[AI_TRANSLATION]Objektumok',
       object_literals: 'Objektumliterálok',
       parameters: 'Paraméterek',
-      //    problem_solving: "Problem Solving"
-      //    programs: "Programs"
-      //    properties: "Properties"
-      //    property_access: "Accessing Properties"
-      //    property_assignment: "Assigning Properties"
-      //    property_coordinate: "Coordinate Property"
-      //    queues: "Data Structures - Queues"
-      //    reading_docs: "Reading the Docs"
+      place_game_objects: '[AI_TRANSLATION]Játékobjektumok elhelyezése',
+      problem_solving: '[AI_TRANSLATION]Problémamegoldás',
+      programs: '[AI_TRANSLATION]Programok',
+      properties: '[AI_TRANSLATION]Tulajdonságok',
+      property_access: '[AI_TRANSLATION]Tulajdonságok elérése',
+      property_assignment: '[AI_TRANSLATION]Tulajdonságok hozzárendelése',
+      property_coordinate: '[AI_TRANSLATION]Koordináta Tulajdonság',
+      queues: '[AI_TRANSLATION]Adatszerkezetek - Sorok',
+      reading_docs: '[AI_TRANSLATION]Dokumentáció Olvasása',
       recursion: 'Rekurzió',
-      //    return_statements: "Return Statements"
-      //    sequences_algorithms: "Sequences & Algorithms"
-      //    stacks: "Data Structures - Stacks"
+      return_statements: '[AI_TRANSLATION]Visszatérési Nyilatkozatok',
+      sequences_algorithms: '[AI_TRANSLATION]Sorozatok & Algoritmusok',
+      stacks: '[AI_TRANSLATION]Adatszerkezetek - Verem',
       strings: 'Szövegek',
-      //    strings_concatenation: "String Concatenation"
-      //    strings_substrings: "Substring"
-      //    student_code: "Student Code"
-      //    syntax: "Syntax"
-      //    trees: "Data Structures - Trees"
+      strings_concatenation: '[AI_TRANSLATION]Karakterlánc-összefűzés',
+      strings_substrings: '[AI_TRANSLATION]Részszöveg',
+      student_code: '[AI_TRANSLATION]Diák Kód',
+      syntax: '[AI_TRANSLATION]Szintaxis',
+      trees: '[AI_TRANSLATION]Adatszerkezetek - Fák',
       variables: 'Változók',
       vectors: 'Vektorok',
-      //    while_condition_loops: "While Loops with Conditionals"
-      //    while_loops_simple: "While Loops"
-      //    while_loops_nested: "Nested While Loops"
-      //    xy_coordinates: "Coordinate Pairs"
-      advanced_strings: 'Haladó stringek', // Rest of concepts are deprecated
-      algorithms: 'Algoritmusok',
-      boolean_logic: 'Boolean logika',
-      basic_html: 'HTML-alapok',
-      basic_css: 'CSS-alapok',
-      basic_web_scripting: 'Webscripting alapok',
-      intermediate_html: 'HTML középhaladóknak',
-      intermediate_css: 'CSS középhaladóknak',
-      intermediate_web_scripting: 'Webscripting középhaladóknak',
-      advanced_html: 'HTML haladóknak',
-      advanced_css: 'CSS haladóknak',
-      advanced_web_scripting: 'Webscripting haladóknak',
-      input_handling: 'Inputkezelés',
-      while_loops: 'While ciklus'
+      while_condition_loops: '[AI_TRANSLATION]Feltételes ciklusok',
+      while_loops: 'While ciklus',
+      while_loops_simple: '[AI_TRANSLATION]Miközben ciklusok  ',
+      while_loops_nested: '[AI_TRANSLATION]Beágyazott While ciklusok',
+      xy_coordinates: '[AI_TRANSLATION]Koordináta párok',
     },
-    //    place_game_objects: "Place game objects"
-    //    construct_mazes: "Construct mazes"
-    //    create_playable_game: "Create a playable, sharable game project"
-    //    alter_existing_web_pages: "Alter existing web pages"
-    //    create_sharable_web_page: "Create a sharable web page"
-    //    basic_input_handling: "Basic Input Handling"
-    //    basic_game_ai: "Basic Game AI"
-    //    basic_javascript: "Basic JavaScript"
-    //    basic_event_handling: "Basic Event Handling"
-    //    create_sharable_interactive_web_page: "Create a sharable interactive web page"
-    //    iteration: "Iteration"
-    //    nesting: "Nesting"
-    //    data_types: "Data Types"
-    //    objects: "Objects"
-    //    methods: "Methods"
-    //    compound_conditionals: "Compound Conditionals"
-    //    comparators: "Comparators"
-    //    data_and_analysis: "Data & Analysis"
 
     anonymous_teacher: {
       notify_teacher: 'Tanár értesítése',
@@ -3506,7 +3726,7 @@ module.exports = {
       student_name_placeholder: 'írd be ide a nevedet',
       teachers_section: 'Tanárok:',
       students_section: 'Diákok:',
-      teacher_notified: 'Értesítettük a tanárodat, hogy szeretnél még CodeCombatot játszani a tantermedben!'
+      teacher_notified: 'Értesítettük a tanárodat, hogy szeretnél még CodeCombatot játszani a tantermedben!',
     },
 
     delta: {
@@ -3517,12 +3737,12 @@ module.exports = {
       moved_index: 'Index eltávolítva',
       text_diff: 'Szöveg Különbség',
       merge_conflict_with: 'Merge konfliktus',
-      no_changes: 'Nincs Változás'
+      no_changes: 'Nincs Változás',
     },
 
     legal: {
       page_title: 'Jogi információk',
-      //    opensource_introduction: "CodeCombat is part of the open source community."
+      opensource_introduction: '[AI_TRANSLATION]A CodeCombat az open source közösség része.',
       opensource_description_prefix: 'Látogass el a ',
       github_url: 'GitHub repónkba',
       opensource_description_center: 'és szolgáld ki magad! A CodeCombat több tucat nyílt forráskódú projektre épül, és mindegyiket nagyon szeretjük! Nézd meg ',
@@ -3539,14 +3759,14 @@ module.exports = {
       email_settings_url: 'e-mail beállításokon keresztül',
       email_description_suffix: 'vagy az e-mailben kapott linkek segítségével bármikor megváltoztathatod a beállításaidat és egyszerűen leiratkozhatsz.',
       cost_title: 'Ár',
-      cost_description: 'A CodeCombat valamennyi alappályája ingyenes, {{price}} USD/hó előfizetés keretében azonban további szintek és pályák, illetve {{gems}} bónusz drágakövek érhetők el. Egy kattintással visszavonhatoó, és 100%-os pénzvisszatérítési garanciát vállalunk.', // {change}
+      cost_description: '[AI_TRANSLATION]A CodeCombat bevezető szintjei ingyenesek, a hozzáféréshez további szintekhez és __gems__ bónusz drágakövekhez $__price__ USD/hó előfizetést kell fizetni. Egy kattintással lemondható, és 100% pénz-visszafizetési garanciát vállalunk.',
       copyrights_title: 'Copyright és licencek',
       contributor_title: 'Támogatói licencszerződés',
       contributor_description_prefix: 'Mind a webhelyünk, mind a GitHub tárhelyünk fejlesztésében való közreműkődés a',
       cla_url: 'támogatói licencszerződés (CLA) hatálya alá esik,',
       contributor_description_suffix: 'amelynek elfogadása előzetesen kötelező.',
-      code_title: 'Kód - MIT', // {change}
-      //    client_code_description_prefix: "All client-side code for codecombat.com in the public GitHub repository and in the codecombat.com database, is licensed under the"
+      code_title: 'Kód - MIT',
+      client_code_description_prefix: '[AI_TRANSLATION]Minden ügyfél oldali kód a codecombat.com-on a nyilvános GitHub repositoryban és a codecombat.com adatbázisában licencelve van a',
       mit_license_url: 'MIT licenc hatálya alá esik.',
       code_description_suffix: 'Ez kiterjed minden kódra a CodeCombat által fenntartott rendszerekben és komponensekben, amelyek a pályák létrehozását szolgálják.',
       art_title: 'Design/zene - Kreatív tartalmak ',
@@ -3572,17 +3792,17 @@ module.exports = {
       rights_clarification: 'Pontosabban minden, a Pályaszerkesztőben elérhető tartalom, amely új pályák létrehozását szolgálja, az a Creative Commons nemzetközi licenc hatálya alá esik. Ezzel szemben a Pályaszerkesztő segítségével létrehozott vagy új pályák létrehozása közben feltöltött tartalmak a licenc hatályán kívül esnek.',
       nutshell_title: 'Összefoglaló',
       nutshell_description: 'A Pályaszerkesztőben közzétett valamennyi tartalom szabadon felhasználható a pályák szerkesztéséhez és létrehozásához. Fenntartjuk azonban a jogot a (codecombat.com keretein belül létrehozott) pályák közreadásának korlátozására, hogy szükség esetén fizetőssé tegyük.',
-      //    nutshell_see_also: "See also:"
+      nutshell_see_also: '[AI_TRANSLATION]Lásd még:',
       canonical: 'Ennek a dokumentumnak az angol eredetije a mérvadó és hitelesnek elismert változata. Az eredetihez képest a más nyelvekre fordított változatokban esetlegesen meglévő bármilyen változás esetén az angol eredetit kell alapul venni.',
       third_party_title: 'Harmadik fél által nyújtott szolgáltatások',
-      third_party_description: 'A CodeCombat az alábbiak között a következő harmadik fél által nyújtott szolgáltatásokat használja:'
+      third_party_description: 'A CodeCombat az alábbiak között a következő harmadik fél által nyújtott szolgáltatásokat használja:',
+      cookies_message: '[AI_TRANSLATION]A CodeCombat alapvető és nem alapvető sütiket használ.',
+      cookies_deny: '[AI_TRANSLATION]Utasítsd el a nem létfontosságú sütiket.',
+      cookies_allow: '[AI_TRANSLATION]HARCI ARÉNA',
     },
-    //    cookies_message: "CodeCombat uses a few essential and non-essential cookies."
-    //    cookies_deny: "Decline non-essential cookies"
-    //    cookies_allow: "Allow cookies"
 
     ladder_prizes: {
-      title: 'Bajnoksági díjak', // This section was for an old tournament and doesn't need new translations now.
+      title: 'Bajnoksági díjak',
       blurb_1: 'Ezeket a bajnoksági díjakat az alábbi módon ítéljük oda:',
       blurb_2: 'a torna szabályai',
       blurb_3: 'a legjobb játékosok számára, legyen az ember vagy ogre.',
@@ -3599,7 +3819,7 @@ module.exports = {
       one_month_coupon: 'kupon: Railst vagy HTML-t választhatsz',
       one_month_discount: '30% kedvezmény: Railst vagy HTML-t választhatsz',
       license: 'licenc',
-      oreilly: 'szabadon választott e-könyv'
+      oreilly: 'szabadon választott e-könyv',
     },
 
     calendar: {
@@ -3617,26 +3837,27 @@ module.exports = {
       september: 'Szeptember',
       october: 'Október',
       november: 'November',
-      december: 'December'
+      december: 'December',
     },
 
-    //  code_play_create_account_modal:
-    //    title: "You did it!" # This section is only needed in US, UK, Mexico, India, and Germany
-    //    body: "You are now on your way to becoming a master coder. Sign up to receive an extra <strong>100 Gems</strong> & you will also be entered for a chance to <strong>win $2,500 & other Lenovo Prizes</strong>."
-    //    sign_up: "Sign up & keep coding ▶"
-    //    victory_sign_up_poke: "Create a free account to save your code & be entered for a chance to win prizes!"
-    //    victory_sign_up: "Sign up & be entered to <strong>win $2,500</strong>"
+    code_play_create_account_modal: {
+      title: '[AI_TRANSLATION]Megcsináltad!  ',
+      body: '[AI_TRANSLATION]Most már úton vagy, hogy mester kódolóvá válj. Iratkozz fel, hogy kapj egy extra <strong>100 drágakövet</strong>, és részt veszel a <strong>2,500 dollárt és egyéb Lenovo díjakat</strong> nyerési lehetőséggel.',
+      sign_up: '[AI_TRANSLATION]Iratkozz fel és folytasd a kódolást ▶',
+      victory_sign_up_poke: '[AI_TRANSLATION]Hozz létre egy ingyenes fiókot, hogy elmentsd a kódod és esélyed legyen nyereményeket nyerni!',
+      victory_sign_up: '[AI_TRANSLATION]Regisztrálj, és nyerj akár <strong>$2,500</strong>-t!',
+    },
 
     server_error: {
       email_taken: 'Ezzel az e-mail címmel már regisztráltak.',
       username_taken: 'A felhasználó név már foglalt.',
       easy_password: 'A jelszó túl könnyen kitalálható',
-      reused_password: 'A jelszó nem lehet újra felhasznált'
+      reused_password: 'A jelszó nem lehet újra felhasznált',
     },
 
     esper: {
       line_no: 'Sorszám $1:',
-      uncaught: 'Nem kezelt $1', // $1 will be an error type, eg "Uncaught SyntaxError"
+      uncaught: 'Nem kezelt $1',
       reference_error: 'Referencia hiba (ReferenceError): ',
       argument_error: 'Paraméter hiba (ArgumentError): ',
       type_error: 'Típus hiba (TypeError): ',
@@ -3647,1046 +3868,1317 @@ module.exports = {
       spelling_issues: 'Nézz körül, elgépeltél valamit: esetleg `$1` -re gondoltál, `$2` helyett?',
       capitalization_issues: 'Nézz körül kis-nagybetű hiba miatt: `$1` helyett `$2` -re lenne szükség.',
       py_empty_block: '$1 üres. Tegyél 4 szóközt az utasítások elé $2 utasítás alatt.',
-      //    fx_missing_paren: "If you want to call `$1` as a function, you need `()`'s"
-      //    unmatched_token: "Unmatched `$1`.  Every opening `$2` needs a closing `$3` to match it."
-      //    unterminated_string: "Unterminated string. Add a matching `\"` at the end of your string."
-      //    missing_semicolon: "Missing semicolon."
-      //    missing_quotes: "Missing quotes. Try `$1`"
-      //    argument_type: "`$1`'s argument `$2` should have type `$3`, but got `$4`: `$5`."
-      //    argument_type2: "`$1`'s argument `$2` should have type `$3`, but got `$4`."
-      //    target_a_unit: "Target a unit."
-      //    attack_capitalization: "Attack `$1`, not `$2`. (Capital letters are important.)"
-      //    empty_while: "Empty while statement. Put 4 spaces in front of statements inside the while statement."
-      //    line_of_site: "`$1`'s argument `$2` has a problem. Is there an enemy within your line-of-sight yet?"
-      //    need_a_after_while: "Need a `$1` after `$2`."
-      //    too_much_indentation: "Too much indentation at the beginning of this line."
-      //    missing_hero: "Missing `$1` keyword; should be `$2`."
-      //    takes_no_arguments: "`$1` takes no arguments."
-      //    no_one_named: "There's no one named `\"$1\"` to target."
-      //    separated_by_comma: "Function calls paramaters must be seperated by `,`s"
-      //    protected_property: "Can't read protected property: $1"
-      //    need_parens_to_call: "If you want to call `$1` as function, you need `()`'s"
-      //    expected_an_identifier: "Expected an identifier and instead saw '$1'."
-      //    unexpected_identifier: "Unexpected identifier"
-      //    unexpected_end_of: "Unexpected end of input"
-      //    unnecessary_semicolon: "Unnecessary semicolon."
-      //    unexpected_token_expected: "Unexpected token: expected `$1` but found `$2` while parsing `$3`"
-      //    unexpected_token: "Unexpected token $1"
-      //    unexpected_token2: "Unexpected token"
-      //    unexpected_number: "Unexpected number"
-      //    unexpected: "Unexpected '$1'."
-      //    escape_pressed_code: "Escape pressed; code aborted."
-      //    target_an_enemy: "Target an enemy by name, like `$1`, not the string `$2`."
-      //    target_an_enemy_2: "Target an enemy by name, like `$1`."
-      //    cannot_read_property: "Cannot read property `$1` of `undefined`"
-      //    attempted_to_assign: "Attempted to assign to readonly property."
-      //    unexpected_early_end: "Unexpected early end of program."
-      //    you_need_a_string: "You need a string to build; one of `$1`"
-      //    unable_to_get_property: "Unable to get property '$1' of undefined or null reference" # TODO: Do we translate undefined/null?
-      //    code_never_finished_its: "Code never finished. It's either really slow or has an infinite loop."
-      //    unclosed_string: "Unclosed string."
-      //    unmatched: "Unmatched `$1`."
-      //    error_you_said_achoo: "You said: `$1`, but the password is: `$2`. (Capital letters are important.)"
-      //    indentation_error_unindent_does: "Indentation Error: unindent does not match any outer indentation level"
-      //    indentation_error: "Indentation error."
-      //    need_a_on_the: "Need a `:` on the end of the line following `$1`."
-      //    attempt_to_call_undefined: "attempt to call `$1` (a nil value)"
-      //    unterminated: "Unterminated `$1`"
-      //    target_an_enemy_variable: "Target an `$1` variable, not the string `$2`. (Try using `$3`.)"
-      //    error_use_the_variable: "Use the variable name like `$1` instead of a string like `$2`"
-      //    indentation_unindent_does_not: "Indentation unindent does not match any outer indentation level"
-      //    unclosed_paren_in_function_arguments: "Unclosed `$1` in function arguments."
-      //    unexpected_end_of_input: "Unexpected end of input"
-      //    there_is_no_enemy: "There is no `$1`. Use `$2` first." # Hints start here
-      //    try_herofindnearestenemy: "Try `$1`"
-      //    there_is_no_function: "There is no function `$1`, but `$2` has a method `$3`."
-      //    attacks_argument_enemy_has: "`$1`'s argument `$2` has a problem."
-      //    is_there_an_enemy: "Is there an enemy within your line-of-sight yet?"
-      //    target_is_null_is: "Target is `$1`. Is there always a target to attack? (Use `$2`?)"
-      //    hero_has_no_method: "`$1` has no method `$2`."
+      fx_missing_paren: '[AI_TRANSLATION]Ha `$1`-et függvényként akarod hívni, szükséged van a `()`-kra',
+      unmatched_token: '[AI_TRANSLATION]Nincs megfelelő `$1`. Minden nyitó `$2` mellé kell egy záró `$3`, hogy páros legyen.',
+      unterminated_string: '[AI_TRANSLATION]Nem lezárt sztring. Adj hozzá egy `"` jelet a sztring végén.',
+      missing_semicolon: '[AI_TRANSLATION]Hiányzó pontosvessző.  ',
+      missing_quotes: '[AI_TRANSLATION]Hiányzó idézőjelek. Próbáld ki: `$1`',
+      argument_type: '[AI_TRANSLATION]`$1` argumentuma `$2` típusú kell legyen, de `$3`-t kapott: `$4`:`$5`.',
+      argument_type2: '[AI_TRANSLATION]`$1` $2 argumentumának `$3` típusúnak kellene lennie, de `$4` típusút kapott.',
+      target_a_unit: '[AI_TRANSLATION]Célpont egy egységet.',
+      attack_capitalization: '[AI_TRANSLATION]Támadd meg `$1`, ne `$2`. (A nagybetűk fontosak.)',
+      empty_while: '[AI_TRANSLATION]Üres while ciklus. Tegyél 4 szóközt a while cikluson belüli utasítások elé.',
+      line_of_site: '[AI_TRANSLATION]A `$1` `$2` argumentuma problémát okoz. Van már ellenség a látómeződben?  ',
+      need_a_after_while: '[AI_TRANSLATION]Kell egy `$1` a `$2` után.',
+      too_much_indentation: '[AI_TRANSLATION]Túl sok behúzás van ennek a sornak az elején.',
+      missing_hero: '[AI_TRANSLATION]Hiányzik a `$1` kulcsszó; ennek `$2`-nek kellene lennie.',
+      takes_no_arguments: '[AI_TRANSLATION]`$1` nem igényel argumentumokat.',
+      no_one_named: '[AI_TRANSLATION]Nincs senki, akit `"$1"` néven lehetne megcélozni.',
+      separated_by_comma: '[AI_TRANSLATION]A függvényhívások paramétereinek `,`-vel kell elválasztva lenniük.',
+      protected_property: '[AI_TRANSLATION]Nem olvasható védett tulajdonság: $1',
+      need_parens_to_call: '[AI_TRANSLATION]Ha `$1`-t függvényként akarod meghívni, szükséged lesz a `()`-k használatára',
+      expected_an_identifier: "[AI_TRANSLATION]Azonosítóra számítottam, de helyette '$1'-t láttam.",
+      unexpected_identifier: '[AI_TRANSLATION]Váratlan azonosító',
+      unexpected_end_of: '[AI_TRANSLATION]Váratlan input vég',
+      unnecessary_semicolon: '[AI_TRANSLATION]Felesleges pontosvessző.',
+      unexpected_token_expected: '[AI_TRANSLATION]Váratlan token: elvárt `$1`, de `$2`-t talált parsing közben `$3`.',
+      unexpected_token: '[AI_TRANSLATION]Váratlan token $1',
+      unexpected_token2: '[AI_TRANSLATION]Váratlan token',
+      unexpected_number: '[AI_TRANSLATION]Váratlan szám',
+      unexpected: "[AI_TRANSLATION]Váratlan '$1'.",
+      escape_pressed_code: '[AI_TRANSLATION]Meghúztad a menekülést; kód megszakítva.',
+      target_an_enemy: '[AI_TRANSLATION]Válassz egy ellenséget név szerint, mint `$1`, ne a szöveget `$2`.',
+      target_an_enemy_2: '[AI_TRANSLATION]Célozz meg egy ellenséget név szerint, például `$1`.',
+      cannot_read_property: '[AI_TRANSLATION]Nem olvasható az `$1` tulajdonsága az `undefined`-ből',
+      attempted_to_assign: '[AI_TRANSLATION]Megpróbáltál egy csak olvasható tulajdonsághoz értéket rendelni.',
+      unexpected_early_end: '[AI_TRANSLATION]Váratlan korai programvége.',
+      you_need_a_string: '[AI_TRANSLATION]Kell egy string az építéshez; az egyik `$1` ',
+      unable_to_get_property: "[AI_TRANSLATION]Nem található '$1' tulajdonság undefined vagy null hivatkozáson",
+      code_never_finished_its: '[AI_TRANSLATION]A kód sosem fejeződik be. Vagy tényleg nagyon lassú, vagy végtelen ciklusba került.',
+      unclosed_string: '[AI_TRANSLATION]Nincs lezárva a sztring.',
+      unmatched: '[AI_TRANSLATION]Nem egyezik `$1`.',
+      error_you_said_achoo: '[AI_TRANSLATION]Ezt mondtad: `$1`, de a jelszó: `$2`. (A nagybetűk számítanak.)',
+      indentation_error_unindent_does: '[AI_TRANSLATION]Behúzási Hiba: nincs külső szintnek megfelelő behúzás',
+      indentation_error: '[AI_TRANSLATION]Behúzási hiba.',
+      need_a_on_the: '[AI_TRANSLATION]Kell egy `:` a sor végére a `$1` után.',
+      attempt_to_call_undefined: '[AI_TRANSLATION]próbáld meg hívni `$1` (egy nil érték)',
+      unterminated: '[AI_TRANSLATION]Nem lezárt `$1`',
+      target_an_enemy_variable: '[AI_TRANSLATION]Célozz egy `$1` változót, ne a `$2` szöveget. (Próbáld ki a `$3`-at.)',
+      error_use_the_variable: '[AI_TRANSLATION]Használd a változónevet, mint például `$1`, egy string helyett, mint `$2`',
+      indentation_unindent_does_not: '[AI_TRANSLATION]A behúzás visszavonása nem egyezik külső behúzási szinttel',
+      unclosed_paren_in_function_arguments: '[AI_TRANSLATION]Jelöletlen `$1` a függvény argumentumaiban.',
+      unexpected_end_of_input: '[AI_TRANSLATION]Váratlan input vég',
+      there_is_no_enemy: '[AI_TRANSLATION]Nincs `$1`. Használd először a `$2`-t.',
+      try_herofindnearestenemy: '[AI_TRANSLATION]Próbáld ki `$1`',
+      there_is_no_function: '[AI_TRANSLATION]Nincs `$1` függvény, de `$2`-nek van `$3` metódusa.',
+      attacks_argument_enemy_has: '[AI_TRANSLATION]`$1` argumentumának `$2` problémája van. ',
+      is_there_an_enemy: '[AI_TRANSLATION]Van ellenség a látómeződben már?  ',
+      target_is_null_is: '[AI_TRANSLATION]Célt veszed `$1`. Mindig van célpont támadni? (Használd `$2`?)',
+      hero_has_no_method: '[AI_TRANSLATION]`$1` nem tartalmaz `$2` metódust.',
       there_is_a_problem: 'Valamilyen hiba van a programodban.',
-      //    did_you_mean: "Did you mean `$1`? You do not have an item equipped with that skill."
+      did_you_mean: '[AI_TRANSLATION]Erre gondoltál: `$1`? Nincs olyan tárgyad felszerelve, amelyik ezt a képességet adná.',
       missing_a_quotation_mark: 'Hiányzó idézőjel. ',
-      //    missing_var_use_var: "Missing `$1`. Use `$2` to make a new variable."
-      //    you_do_not_have: "You do not have an item equipped with the `$1` skill."
-      put_each_command_on: 'Helyezz minden utasítást külön sorba'
+      missing_var_use_var: '[AI_TRANSLATION]Hiányzik `$1`. Használd `$2` egy új változó létrehozásához.',
+      you_do_not_have: '[AI_TRANSLATION]Nincs olyan tárgyad, amely a `$1` képességgel rendelkezik.',
+      put_each_command_on: 'Helyezz minden utasítást külön sorba',
+      are_you_missing_a: '[AI_TRANSLATION]Hiányzik egy `$1` a `$2` után?',
+      your_parentheses_must_match: '[AI_TRANSLATION]A zárójeleknek párosan kell szerepelniük.',
+      missing_parentheses: '[AI_TRANSLATION]Hiányzó zárójel? Próbáld ki ezt: `__suggestion__`',
+      do_nothing_without_parentheses: '[AI_TRANSLATION]`__code__` semmit sem csinál `()` nélkül',
+      error_index_empty: '[AI_TRANSLATION]Nem lehet olvasni a `__specTypeName__` `__name__` tulajdonságát',
+      error_call_non_function: '[AI_TRANSLATION]`__name__` nem egy függvény.',
+      error_not_iterable: '[AI_TRANSLATION]`__var__` nem iterálható.',
+      error_assignment_invalid: '[AI_TRANSLATION]Érvénytelen hivatkozás a hozzárendelésben.',
+      error_invalid_array_length: '[AI_TRANSLATION]Érvénytelen tömb hossz.',
+      error_didnt_make_generator: '[AI_TRANSLATION]`__name__` nem hozott létre generátort.  ',
+      error_undefined_variable: '[AI_TRANSLATION]`__name__` nincs definiálva.',
+      error_declared_identifier: '[AI_TRANSLATION]Az `__name__` azonosítót már deklarálták.',
+      error_declarations_cant_resolve: '[AI_TRANSLATION]Nem sikerült feloldani a deklarációs komponenst: `__type__`.',
+      error_strict_no_statement: '[AI_TRANSLATION]Szigorú mód kódjában nem szerepelhet `with` állítás.',
+      error_cant_resolve_ref_component: '[AI_TRANSLATION]Nem sikerült megoldani a ref komponenst: `__type__`.',
+      error_cant_convert_null: '[AI_TRANSLATION]Nem lehet `undefined` vagy `null` értéket objektummá konvertálni.',
+      error_need_object: '[AI_TRANSLATION]Szükség van egy objektumra.',
+      error_illegal_object_prototype: '[AI_TRANSLATION]Az objektum prototípusa csak egy `Object` vagy `null` lehet.  ',
+      error_no_prototype: '[AI_TRANSLATION]Nincs prototípus.',
+      error_cant_write_property_to_undefined: '[AI_TRANSLATION]Nem lehet írni `undefined` tulajdonságára: `__idx__`.',
+      error_cant_write_property_to_non_obj: '[AI_TRANSLATION]Nem lehet nem-objekt típusú tulajdonságot írni: `__idx__`.',
+      error_function_isnt_constructor: '[AI_TRANSLATION]a funkció nem egy konstruktor',
+      error_write_protected_property: '[AI_TRANSLATION]Nem lehet írni védett tulajdonságba: `__name__`',
+      error_read_protected_property: '[AI_TRANSLATION]Nem olvasható védett tulajdonság: `__name__`',
+      error_convert_value_failed: '[AI_TRANSLATION]Nem sikerült átalakítani `__orig__` értéket `__new__` értékre.',
+      error_convert_object_to_primitive: '[AI_TRANSLATION]Nem lehet objektumot primitív értékre átalakítani.  ',
+      error_first_argument_to_be_function: '[AI_TRANSLATION]Az első paraméter a `__fun__`-hoz egy funkció kell legyen.',
+      error_write_non_writable: '[AI_TRANSLATION]Nem lehet nem-írható értékre írni.',
+      error_delete_nonconfigurable_object: '[AI_TRANSLATION]Nem tudod törölni a nem konfigurálható objektumot.  ',
+      error_cant_access_get: '[AI_TRANSLATION]Nem lehet elérni `__name__` típusnak.',
+      error_base_obj_not_invokable: '[AI_TRANSLATION]Az alaptárgy nem hívható.',
+      error_arg2_not_callable: '[AI_TRANSLATION]Arg2 nem hívható.',
+      error_reduce_empty_array_without_init: '[AI_TRANSLATION]Egy üres tömböt alapérték nélkül csökkenteni.',
+      error_realm_prototype_not_realm: '[AI_TRANSLATION]Birodalom prototípus, nem birodalom.',
+      error_function_tostring_not_generic: '[AI_TRANSLATION]Function.prototype.toString nem általános',
+      error_regex_on_non_regex: '[AI_TRANSLATION]Reguláris kifejezés metódus hívása nem regex-en.',
+      error_call_string_on_null: '[AI_TRANSLATION]meghívtad a húr függvényt nullán vagy meghatározatlan értéken?',
+      error_wrong_type: '[AI_TRANSLATION]Rossz Típus.',
+      error_replace_callback_not_written: '[AI_TRANSLATION]Cseréld ki a callback-ekre, még nem írtam meg.',
+      error_right_hand_side_not_callable: '[AI_TRANSLATION]A `__name__` jobb oldali része nem meghívható',
+      error_segmentation_fault: '[AI_TRANSLATION]Szegmentálási hiba `__offset__`.',
+      error_no_arg_to_reference: '[AI_TRANSLATION]Nincs hivatkozási argumentum.',
+      error_unimplemented_property: '[AI_TRANSLATION]Nem megvalósított tulajdonság típus.',
+      error_unimplemented: '[AI_TRANSLATION]Nincs megvalósítva.',
+      error_cant_call_reference: '[AI_TRANSLATION]Nem hivatkozhatsz így.',
+      error_no_arg_to_dereference: '[AI_TRANSLATION]Nincs argumentum a derefenciáláshoz.',
+      error_try_dereference_non: '[AI_TRANSLATION]Próbált hivatkozni nem pointerre.',
+      error_no_arg_to_alloc: '[AI_TRANSLATION]Nincs argumentum az alloc-hoz.  ',
     },
-    //    are_you_missing_a: "Are you missing a `$1` after `$2`? "
-    //    your_parentheses_must_match: "Your parentheses must match."
-    //    missing_parentheses: "Missing parentheses? Try `__suggestion__`"
-    //    do_nothing_without_parentheses: "`__code__` doesn't do anything without `()`"
-    //    error_index_empty: "Cannot read property `__name__` of `__specTypeName__`"
-    //    error_call_non_function: "`__name__` is not a function."
-    //    error_not_iterable: "`__var__` is not iterable."
-    //    error_assignment_invalid: "Invalid reference in assignment."
-    //    error_invalid_array_length: "Invalid array length."
-    //    error_didnt_make_generator: "`__name__` didn't make a generator."
-    //    error_undefined_variable: "`__name__` is not defined."
-    //    error_declared_identifier: "Identifier `__name__` has already been declared."
-    //    error_declarations_cant_resolve: "Couldn't resolve declarations component: `__type__`."
-    //    error_strict_no_statement: "Strict mode code may not include a `with` statement."
-    //    error_cant_resolve_ref_component: "Couldn't resolve ref component: `__type__`."
-    //    error_cant_convert_null: "Cannot convert `undefined` or `null` to object."
-    //    error_need_object: "Need an object."
-    //    error_illegal_object_prototype: "Object prototype may only be an `Object` or `null`."
-    //    error_no_prototype: "No prototype."
-    //    error_cant_write_property_to_undefined: "Can't write property of `undefined`: `__idx__`."
-    //    error_cant_write_property_to_non_obj: "Can't write property of non-object type: `__idx__`."
-    //    error_function_isnt_constructor: "function is not a constructor"
-    //    error_write_protected_property: "Can't write to protected property: `__name__`"
-    //    error_read_protected_property: "Can't read protected property: `__name__`"
-    //    error_convert_value_failed: "Cannot convert `__orig__` value to `__new__` value."
-    //    error_convert_object_to_primitive: "Cannot convert object to primitive value."
-    //    error_first_argument_to_be_function: "First argument to `__fun__` must be a function."
-    //    error_write_non_writable: "Can't write to non-writable value."
-    //    error_delete_nonconfigurable_object: "Can't delete non configurable object."
-    //    error_cant_access_get: "Can't access get `__name__` of that type."
-    //    error_base_obj_not_invokable: "Base object not invokable."
-    //    error_arg2_not_callable: "Arg2 not callable."
-    //    error_reduce_empty_array_without_init: "Reduce an empty array with no initial value."
-    //    error_realm_prototype_not_realm: "Realm prototype not realm."
-    //    error_function_tostring_not_generic: "Function.prototype.toString is not generic"
-    //    error_regex_on_non_regex: "Calling regex method on non regex."
-    //    error_call_string_on_null: "called String function on null or undefined?"
-    //    error_wrong_type: "Wrong Type."
-    //    error_replace_callback_not_written: "Replace with callbacks not written yet"
-    //    error_right_hand_side_not_callable: "Right-hand side of `__name__` is not callable"
-    //    error_segmentation_fault: "Segmentation Fault `__offset__`."
-    //    error_no_arg_to_reference: "No argument to reference."
-    //    error_unimplemented_property: "Unimplemented property type."
-    //    error_unimplemented: "Unimplemented."
-    //    error_cant_call_reference: "Can't call reference like that."
-    //    error_no_arg_to_dereference: "No argument to dereference."
-    //    error_try_dereference_non: "Tried to dereference non pointer."
-    //    error_no_arg_to_alloc: "No argument to alloc."
 
-    //  apcsp:
-    //    title: "AP Computer Science Principals | College Board Endorsed"
-    //    meta_description: "CodeCombat’s comprehensive curriculum and professional development program are all you need to offer College Board’s newest computer science course to your students."
-    //    syllabus: "AP CS Principles Syllabus"
-    //    syllabus_description: "Use this resource to plan CodeCombat curriculum for your AP Computer Science Principles class."
-    //    computational_thinking_practices: "Computational Thinking Practices"
-    //    learning_objectives: "Learning Objectives"
-    //    curricular_requirements: "Curricular Requirements"
-    //    unit_1: "Unit 1: Creative Technology"
-    //    unit_1_activity_1: "Unit 1 Activity: Technology Usability Review"
-    //    unit_2: "Unit 2: Computational Thinking"
-    //    unit_2_activity_1: "Unit 2 Activity: Binary Sequences"
-    //    unit_2_activity_2: "Unit 2 Activity: Computing Lesson Project"
-    //    unit_3: "Unit 3: Algorithms"
-    //    unit_3_activity_1: "Unit 3 Activity: Algorithms - Hitchhiker's Guide"
-    //    unit_3_activity_2: "Unit 3 Activity: Simulation - Predator & Prey"
-    //    unit_3_activity_3: "Unit 3 Activity: Algorithms - Pair Design and Programming"
-    //    unit_4: "Unit 4: Programming"
-    //    unit_4_activity_1: "Unit 4 Activity: Abstractions"
-    //    unit_4_activity_2: "Unit 4 Activity: Searching & Sorting"
-    //    unit_4_activity_3: "Unit 4 Activity: Refactoring"
-    //    unit_5: "Unit 5: The Internet"
-    //    unit_5_activity_1: "Unit 5 Activity: How the Internet Works"
-    //    unit_5_activity_2: "Unit 5 Activity: Internet Simulator"
-    //    unit_5_activity_3: "Unit 5 Activity: Chat Room Simulation"
-    //    unit_5_activity_4: "Unit 5 Activity: Cybersecurity"
-    //    unit_6: "Unit 6: Data"
-    //    unit_6_activity_1: "Unit 6 Activity: Introduction to Data"
-    //    unit_6_activity_2: "Unit 6 Activity: Big Data"
-    //    unit_6_activity_3: "Unit 6 Activity: Lossy & Lossless Compression"
-    //    unit_7: "Unit 7: Personal & Global Impact"
-    //    unit_7_activity_1: "Unit 7 Activity: Personal & Global Impact"
-    //    unit_7_activity_2: "Unit 7 Activity: Crowdsourcing"
-    //    unit_8: "Unit 8: Performance Tasks"
-    //    unit_8_description: "Prepare students for the Create Task by building their own games and practicing key concepts."
-    //    unit_8_activity_1: "Create Task Practice 1: Game Development 1"
-    //    unit_8_activity_2: "Create Task Practice 2: Game Development 2"
-    //    unit_8_activity_3: "Create Task Practice 3: Game Development 3"
-    //    unit_9: "Unit 9: AP Review"
-    //    unit_10: "Unit 10: Post-AP"
-    //    unit_10_activity_1: "Unit 10 Activity: Web Quiz"
+    apcsp: {
+      title: '[AI_TRANSLATION]AP Számítástechnikai Alapismeretek | College Board Jóváhagyott',
+      meta_description: '[AI_TRANSLATION]A CodeCombat átfogó tantervével és szakmai fejlesztési programjával mindent megkapsz ahhoz, hogy a College Board legújabb számítástechnikai kurzusát kínálhasd a diákjaidnak.',
+      syllabus: '[AI_TRANSLATION]AP CS Alapelvek Tanterv',
+      syllabus_description: '[AI_TRANSLATION]Használd ezt az erőforrást a CodeCombat tanterv megtervezéséhez az AP Számítástechnikai Alapelvek osztályodhoz.',
+      computational_thinking_practices: '[AI_TRANSLATION]Számítástechnikai Gondolkodási Gyakorlatok',
+      learning_objectives: '[AI_TRANSLATION]Tanulási célok',
+      curricular_requirements: '[AI_TRANSLATION]Tantervi Követelmények',
+      unit_1: '[AI_TRANSLATION]1. egység: Kreatív Technológia',
+      unit_1_activity_1: '[AI_TRANSLATION]Egység 1 Tevékenység: Technológia Használhatósági Vélemény',
+      unit_2: '[AI_TRANSLATION]2. Egység: Számítógépes Gondolkodás  ',
+      unit_2_activity_1: '[AI_TRANSLATION]2. egység tevékenysége: Bináris Sorozatok',
+      unit_2_activity_2: '[AI_TRANSLATION]2. egység tevékenység: Számítástechnikai Lecke Projekt',
+      unit_3: '[AI_TRANSLATION]3. Egység: Algoritmusok',
+      unit_3_activity_1: '[AI_TRANSLATION]3. Egység Tevékenység: Algoritmusok - Galaxis Útikalauz Stopposoknak',
+      unit_3_activity_2: '[AI_TRANSLATION]3. Egység Tevékenység: Szimuláció - Ragadozó és Préda  ',
+      unit_3_activity_3: '[AI_TRANSLATION]Egység 3 Tevékenység: Algoritmusok - Páros Tervezés és Programozás',
+      unit_4: '[AI_TRANSLATION]4. egység: Programozás ',
+      unit_4_activity_1: '[AI_TRANSLATION]Egység 4 Tevékenység: Absztrakciók',
+      unit_4_activity_2: '[AI_TRANSLATION]4. Egység Tevékenység: Keresés & Rendezés',
+      unit_4_activity_3: '[AI_TRANSLATION]Egység 4 tevékenység: Átalakítás',
+      unit_5: '[AI_TRANSLATION]5. egység: Az Internet',
+      unit_5_activity_1: '[AI_TRANSLATION]5. egység tevékenység: Hogyan működik az internet',
+      unit_5_activity_2: '[AI_TRANSLATION]5. egység tevékenysége: Internet szimulátor',
+      unit_5_activity_3: '[AI_TRANSLATION]Egység 5 Tevékenység: Csevegőszoba Szimuláció',
+      unit_5_activity_4: '[AI_TRANSLATION]5. Egység Tevékenység: Kiberbiztonság',
+      unit_6: '[AI_TRANSLATION]6. Egység: Adatok',
+      unit_6_activity_1: '[AI_TRANSLATION]6. egység tevékenysége: Bevezetés az adatokba',
+      unit_6_activity_2: '[AI_TRANSLATION]6. egység Tevékenység: Nagy adatok',
+      unit_6_activity_3: '[AI_TRANSLATION]6. egység tevékenység: Veszteséges és veszteségmentes tömörítés',
+      unit_7: '[AI_TRANSLATION]7. Egység: Személyes és Globális Hatás',
+      unit_7_activity_1: '[AI_TRANSLATION]7. Egység: Személyes & Globális Hatások',
+      unit_7_activity_2: '[AI_TRANSLATION]7-es Egység Tevékenység: Crowdsourcing',
+      unit_8: '[AI_TRANSLATION]8-as Egység: Teljesítési Feladatok',
+      unit_8_description: '[AI_TRANSLATION]Készítsd fel a diákokat a Create Task-re saját játékok építésével és a kulcsfontosságú fogalmak gyakorlásával.',
+      unit_8_activity_1: '[AI_TRANSLATION]Feladat Létrehozása Gyakorlás 1: Játékfejlesztés 1',
+      unit_8_activity_2: '[AI_TRANSLATION]Feladat Létrehozása Gyakorlat 2: Játékfejlesztés 2',
+      unit_8_activity_3: '[AI_TRANSLATION]Feladat Készítés Gyakorlat 3: Játékfejlesztés 3',
+      unit_9: '[AI_TRANSLATION]Egység 9: Érettségi Felkészülés',
+      unit_10: '[AI_TRANSLATION]10. egység: Post-AP',
+      unit_10_activity_1: '[AI_TRANSLATION]Egység 10 Tevékenység: Web Quiz',
+    },
 
-    //  apcsp_marketing:
-    //    course_outline_unit_1: "Unit 1"
-    //    course_outline_unit_2: "Unit 2"
-    //    course_outline_unit_3: "Unit 3"
-    //    course_outline_unit_4: "Unit 4"
-    //    course_outline_unit_5: "Unit 5"
-    //    course_outline_unit_6: "Unit 6"
-    //    course_outline_unit_7: "Unit 7"
-    //    course_outline_unit_8: "Unit 8"
-    //    course_outline_unit_9: "Unit 9"
-    //    course_outline_course_1: "Computer Science 1"
-    //    course_outline_course_2: "Computer Science 2"
-    //    course_outline_course_3: "Computer Science 3"
-    //    course_outline_course_4: "Computer Science 4"
-    //    course_outline_course_5: "Creative Development"
-    //    course_outline_course_6: "Data"
-    //    course_outline_course_7: "Computer Systems and Networks"
-    //    course_outline_course_8: "Impact of Computing"
-    //    course_outline_course_9: "Exam Prep"
-    //    course_outline_description_1: "Students begin the course focusing on creativity, problem solving, and the basic syntax of Python."
-    //    course_outline_description_2: "Students focus on designing and implementing algorithms using the building blocks of Python."
-    //    course_outline_description_3: "Students explore the concept of abstraction by developing their own abstractions inside program code."
-    //    course_outline_description_4: "Students apply their understanding of problem solving, algorithms, and abstractions to design and implement digital games."
-    //    course_outline_description_5: "Students use all that they have learned about Python to complete and submit their Create Performance Task."
-    //    course_outline_description_6: "Students learn how computers consume, transform, store, and produce new information in order to solve problems."
-    //    course_outline_description_7: "Students experience the power of sharing information via computer networks by learning about the Internet."
-    //    course_outline_description_8: "Students examine how computing has revolutionized our lives and society."
-    //    course_outline_description_9: "Students prepare to take the multiple choice section of the AP CSP exam."
-    //    icons_coding_levels: "150+ CodeCombat Coding Levels"
-    //    icons_lesson_slides: "60+ Turnkey Lesson Slides"
-    //    icons_kahoot: "400+ Kahoot! Quiz Questions"
-    //    icons_classroom_instructions: "100+ Hours of Classroom Instruction"
-    //    icons_weeks_of_curriculum: "26 Weeks of Curriculum"
-    //    icons_project_activities: "25+ Project-Based Activities"
-    //    icons_game_learning: "Game-Based Learning"
-    //    icons_text_coding: "Text-Based Coding"
-    //    icons_chromebook_compatible: "Chromebook Compatible"
-    //    icons_standards_aligned: "Standards-Aligned Lessons"
-    //    page_title: "AP Computer Science Principles"
-    //    page_description: "Our AP CSP curriculum provides game-based and turnkey tools to prepare students for the AP exam."
-    //    page_description_endorsed: "Endorsed by the College Board, our AP CSP curriculum provides game-based and turnkey tools to prepare students for the AP exam."
-    //    request_access: "Request Access"
-    //    game_based_learning: "Game-Based Learning"
-    //    game_based_learning_description: "Our innovative game-based learning technology has transformed the way students prepare for the AP CSP exam. Through our browser-based games, students learn about important exam topics while exercising the critical thinking skills that are necessary for success on the exam."
-    //    fostering_confidence: "Fostering Confidence in the AP Exam"
-    //    fostering_confidence_description: "With our curriculum, students will practice every stage of the Create Task through scaffolded and approachable capstone projects that can be adapted to a wide variety of student needs. We also provide curriculum and Kahoot! quizzes for students to practice multiple choice exam questions."
-    //    accessible_real_world: "Accessible & Real-World Connections"
-    //    accessible_real_world_description: "For Data, Impacts of Computing, and additional Big Ideas, our turnkey lesson slides help students explore these topics through meaningful discussions and collaborative projects. Filled with real-world connections, our curriculum will allow students to fully understand how coding affects their everyday lives."
-    //    college_board: "The College Board is currently reviewing our curriculum with an expected endorsement in March 2023."
-    //    our_curriculum_offers: "Our curriculum offers engaging features so that students explore and learn Computer Science through..."
-    //    course_outline: "Course Outline"
-    //    course_outline_description: "The following descriptions are an overview of the content explored in the CodeCombat AP CSP course."
-    //    explore_our_curriculum: "Explore Our Curriculum"
-    //    syllabus: "Syllabus"
-    //    pacing_guide: "Pacing Guide"
-    //    flyer: "Flyer"
-    //    sample_lesson_slides: "Browse through our sample lesson slides"
-    //    introduction_to_cs: "Introduction to Computer Science"
-    //    introduction_to_cs_description: "Syntax and Sequences"
-    //    big_ideas: "Big Ideas: Computer Systems and Networks"
-    //    big_ideas_description: "The Internet (Overview)"
-    //    get_full_course: "Get the full course here"
-    //    professional_development: "Professional Development"
-    //    professional_development_description: "CodeCombat offers an online, self-paced professional development course for educators of all levels of AP CSP expertise. Participants will explore the CodeCombat curriculum and learn how it can be used to prepare students to succeed on the AP CSP exam. Through asynchronous discussions with fellow teachers and video conferences with CodeCombat learning designers, you will be equipped with the tools and techniques you need to support all of your students in AP CSP. At the end of the course, you will earn a Certificate of Completion that can be used for the renewal of your teaching credential."
-    //    more_information: "For More Information"
-    //    contact_us: "Contact Us"
-    //    question_1: "How can I learn more about the AP CSP Course?"
-    //    answer_1: "You can check out the College Board’s AP Computer Science Principles __course_overview__ and also explore the __outcomes__ for this course."
-    //    question_2: "What are the technology requirements for CodeCombat’s AP CSP curriculum?"
-    //    answer_2: "We recommend at least 4GB of RAM and using a modern browser such as Chrome, Safari, Firefox, or Edge. For additional specifics, please visit __coco_requirements__."
-    //    question_3: "What is the format of our lesson plans and lesson slides?"
-    //    answer_3: "All of our lesson slides are in the format of Google Slides and our lesson plans are in the format of Google Docs. These formats allow you to make copies of our curriculum so that you can adapt them to the needs of your students. Lesson slides and lesson plans can also be downloaded as Microsoft® PowerPoint and Word files."
-    //    course_overview: "Course Overview"
-    //    outcomes: "outcomes"
-    //    coco_requirements: "CodeCombat’s system requirements"
-    //    coco_recognized_blurb: "CodeCombat is recognized by College Board as an endorsed provider of curriculum and professional development for AP® Computer Science Principles (AP CSP). This endorsement affirms that CodeCombat’s curriculum is aligned to all the AP Curriculum Framework standards and the AP CSP assessment. This affords schools access to resources including an AP CSP syllabus pre-approved by the College Board’s Course Audit, and officially recognized professional development that prepares teachers to teach this curriculum."
+    apcsp_marketing: {
+      course_outline_unit_1: '[AI_TRANSLATION]1. egység',
+      course_outline_unit_2: '[AI_TRANSLATION]2. Egység',
+      course_outline_unit_3: '[AI_TRANSLATION]3. egység',
+      course_outline_unit_4: '[AI_TRANSLATION]4. egység',
+      course_outline_unit_5: '[AI_TRANSLATION]5. egység',
+      course_outline_unit_6: '[AI_TRANSLATION]6. egység',
+      course_outline_unit_7: '[AI_TRANSLATION]7. egység',
+      course_outline_unit_8: '[AI_TRANSLATION]Egység 8',
+      course_outline_unit_9: '[AI_TRANSLATION]Egység 9',
+      course_outline_course_1: '[AI_TRANSLATION]Számítástechnika 1',
+      course_outline_course_2: '[AI_TRANSLATION]Számítástechnika 2\n',
+      course_outline_course_3: '[AI_TRANSLATION]Számítástechnika 3',
+      course_outline_course_4: '[AI_TRANSLATION]Számítástechnika 4',
+      course_outline_course_5: '[AI_TRANSLATION]Kreatív Fejlesztés  ',
+      course_outline_course_6: '[AI_TRANSLATION]Adatok',
+      course_outline_course_7: '[AI_TRANSLATION]Számítógépes rendszerek és hálózatok  ',
+      course_outline_course_8: '[AI_TRANSLATION]Számítástechnika hatása',
+      course_outline_course_9: '[AI_TRANSLATION]Vizsga előkészületek',
+      course_outline_description_1: '[AI_TRANSLATION]A diákok a kurzus elején a kreativitásra, a problémamegoldásra és a Python alapvető szintaxisára koncentrálnak.',
+      course_outline_description_2: '[AI_TRANSLATION]A diákok a Python alapköveivel algoritmusokat terveznek és valósítanak meg.',
+      course_outline_description_3: '[AI_TRANSLATION]A diákok a programkódba beépített saját absztrakcióik fejlesztésével ismerkednek az absztrakció fogalmával.',
+      course_outline_description_4: '[AI_TRANSLATION]A diákok alkalmazzák a probléma megoldás, algoritmusok és absztrakciók megértését digitális játékok tervezése és megvalósítása során.',
+      course_outline_description_5: '[AI_TRANSLATION]A diákok mindent felhasználnak, amit a Python-ról tanultak, hogy befejezzék és beküldjék a Létrehozó Teljesítmény Feladatukat.',
+      course_outline_description_6: '[AI_TRANSLATION]A diákok megtanulják, hogyan fogyasztanak, alakítanak át, tárolnak és hoznak létre új információkat a számítógépek problémák megoldása érdekében.',
+      course_outline_description_7: '[AI_TRANSLATION]A diákok megtapasztalják az információmegosztás erejét számítógépes hálózatokon keresztül, miközben megtanulják az internet működését.',
+      course_outline_description_8: '[AI_TRANSLATION]A diákok megvizsgálják, hogyan forradalmasította a számítástechnika az életünket és a társadalmat.',
+      course_outline_description_9: '[AI_TRANSLATION]A diákok készülnek az AP CSP vizsga feleletválasztásos részére.',
+      icons_coding_levels: '[AI_TRANSLATION]150+ CodeCombat Kódolási Szintek',
+      icons_lesson_slides: '[AI_TRANSLATION]60+ Komplett Lecke Slide',
+      icons_kahoot: '[AI_TRANSLATION]400+ Kahoot! kvízkérdés',
+      icons_classroom_instructions: '[AI_TRANSLATION]100+ Órányi Osztálytermi Oktatás',
+      icons_weeks_of_curriculum: '[AI_TRANSLATION]26 Hetes Tanterv',
+      icons_project_activities: '[AI_TRANSLATION]25+ Projektalapú Tevékenységek',
+      icons_game_learning: '[AI_TRANSLATION]Játék Alapú Tanulás',
+      icons_text_coding: '[AI_TRANSLATION]Szöveg alapú kódolás',
+      icons_chromebook_compatible: '[AI_TRANSLATION]Ne feledkezz meg a tippekről. Segíthetnek kitalálni, mit kell tenned legközelebb.',
+      icons_standards_aligned: '[AI_TRANSLATION]Szabványoknak Megfelelő Leckék',
+      page_title: '[AI_TRANSLATION]AP Számítástechnikai Alapelvek',
+      page_description: '[AI_TRANSLATION]Az AP CSP tananyagunk játék alapú és teljeskörű eszközöket biztosít, hogy felkészítse a diákokat az AP vizsgára.',
+      page_description_endorsed: '[AI_TRANSLATION]Az AP CSP tantervünket a College Board ajánlja, amely játék-alapú és könnyen alkalmazható eszközöket biztosít a diákoknak az AP vizsgára való felkészüléshez.',
+      request_access: '[AI_TRANSLATION]Hozzáférés kérése',
+      game_based_learning: '[AI_TRANSLATION]Játék Alapú Tanulás',
+      game_based_learning_description: '[AI_TRANSLATION]Innovatív játékalapú tanulási technológiánk megváltoztatta a diákok felkészülését az AP CSP vizsgára. Böngészőalapú játékaink segítségével a diákok fontos vizsgatémákat sajátítanak el, miközben gyakorolják azokat a kritikai gondolkodási készségeket, amelyek sikeresek a vizsgán.',
+      fostering_confidence: '[AI_TRANSLATION]Magabiztosság Növelése az AP Vizsgán',
+      fostering_confidence_description: '[AI_TRANSLATION]Tanmenetünkkel a diákok gyakorolhatják a Create Task minden szakaszát, lépésről lépésre felépített és könnyen megközelíthető záró projektek segítségével, melyek sokféle igényhez igazíthatók. Emellett tanmenetet és Kahoot! kvízeket is biztosítunk, hogy diákok gyakorolják a feleletválasztós vizsgakérdéseket is.',
+      accessible_real_world: '[AI_TRANSLATION]Elérhető & Valós Világi Kapcsolatok',
+      accessible_real_world_description: '[AI_TRANSLATION]Az adatok, a számítástechnika hatásai és további nagy ötletek témakörökben turnkey óravázlataink segítségével a diákok értelmes beszélgetéseken és közös projekteken keresztül fedezhetik fel ezeket a témákat. Valós kapcsolatokkal megtöltve tananyagunk lehetővé teszi, hogy a diákok teljes mértékben megértsék, hogyan hat a kódolás mindennapi életükre.',
+      college_board: '[AI_TRANSLATION]A College Board jelenleg felülvizsgálja a tantervünket, várhatóan 2023 márciusában fogadják el.',
+      our_curriculum_offers: '[AI_TRANSLATION]A tananyagunk vonzó jellemzőket kínál, hogy a diákok felfedezzék és megtanulják az informatika tudományát...',
+      course_outline: '[AI_TRANSLATION]Tanfolyam vázlat',
+      course_outline_description: '[AI_TRANSLATION]A következő leírások áttekintést nyújtanak a CodeCombat AP CSP kurzus tartalmáról.',
+      explore_our_curriculum: '[AI_TRANSLATION]Fedezd fel a tantervünket',
+      syllabus: '[AI_TRANSLATION]Tanterv',
+      pacing_guide: '[AI_TRANSLATION]Ütemterv',
+      flyer: '[AI_TRANSLATION]Röplap',
+      sample_lesson_slides: '[AI_TRANSLATION]Böngéssz a minta leckeképek között',
+      //    introduction_to_cs: "Introduction to Computer Science",
+      introduction_to_cs_description: '[AI_TRANSLATION]Szintaxis és Sorozatok',
+      big_ideas: '[AI_TRANSLATION]Nagy Ötletek: Számítógépes Rendszerek és Hálózatok',
+      big_ideas_description: '[AI_TRANSLATION]Az Internet (Áttekintés)',
+      get_full_course: '[AI_TRANSLATION]Itt szerezd meg a teljes tanfolyamot',
+      professional_development: '[AI_TRANSLATION]Szakmai Fejlődés',
+      professional_development_description: '[AI_TRANSLATION]A CodeCombat egy online, saját tempóban végezhető szakmai fejlesztő tanfolyamot kínál minden szintű AP CSP tudással rendelkező oktatók számára. A résztvevők megismerik a CodeCombat tantervét és megtanulják, hogyan használható fel a diákok felkészítésében az AP CSP vizsga sikeres teljesítésére. Aszinkron beszélgetések során más tanárokkal és videokonferenciákon a CodeCombat tanulási tervezőivel elsajátíthatod az AP CSP oktatásához szükséges eszközöket és technikákat. A tanfolyam végén megszerzed a Tanúsítványt a Befejezésről, amely felhasználható tanítási engedélyed megújításához.',
+      more_information: '[AI_TRANSLATION]További információkért',
+      //    contact_us: "Contact Us",
+      question_1: '[AI_TRANSLATION]Hogyan tudok többet megtudni az AP CSP tanfolyamról?',
+      answer_1: '[AI_TRANSLATION]Megnézheted a College Board AP Computer Science Principles __course_overview__ oldalát és felfedezheted a kurzus __outcomes__-jait is.',
+      question_2: '[AI_TRANSLATION]Milyen technológiai követelményeknek kell megfelelnie a CodeCombat AP CSP tananyagnak?',
+      answer_2: '[AI_TRANSLATION]Legalább 4GB RAM-ot és egy modern böngésző használatát ajánljuk, mint például Chrome, Safari, Firefox vagy Edge. További részletekért kérjük, látogasd meg __coco_requirements__.',
+      question_3: '[AI_TRANSLATION]Mi a formátuma a tanterveinknek és a tanítási diákban?',
+      answer_3: '[AI_TRANSLATION]Az összes tananyagunk diája Google Slides formátumban van, és a tanterveink Google Docs formátumban. Ezek a formátumok lehetővé teszik, hogy másolatokat készíts a tantervünkről, hogy a diákjaid igényeihez igazíthasd őket. A tananyag diák és tantervek letölthetők Microsoft® PowerPoint és Word fájlokként is.',
+      //    course_overview: "Course Overview",
+      outcomes: '[AI_TRANSLATION]kimenetek',
+      coco_requirements: '[AI_TRANSLATION]A CodeCombat rendszerkövetelményei',
+      coco_recognized_blurb: '[AI_TRANSLATION]A College Board elismerte a CodeCombat-ot, mint az AP® Számítástechnikai Alapelvek (AP CSP) tananyag és szakmai fejlesztés hivatalos szolgáltatóját. Ez az elismerés azt jelenti, hogy a CodeCombat tananyaga teljes mértékben igazodik az AP tantervi keretrendszeri szabványokhoz és az AP CSP értékeléshez. Ezáltal az iskolák hozzáférhetnek olyan forrásokhoz, mint például egy előzetesen jóváhagyott AP CSP szillabusz, valamint hivatalos szakmai fejlesztés, amely felkészíti a tanárokat ennek a tananyagnak az oktatására.  ',
+      ap_csp_portal: '[AI_TRANSLATION]AP CSP Portál',
+    },
 
-    //  apcsp_curriculum:
-    //    access_syllabus: "Access our College Board approved __syllabus__"
-    //    college_board_approved_syllabus: "Syllabus"
-    //    access_pacing_guide: "Review our suggested __pacing_guide__"
-    //    pacing_guide: "Pacing Guide"
-    //    resources: "Professional Development Resources"
-    //    professional_development_description: "CodeCombat offers an online, self-paced professional development course for educators of all levels of AP CSP expertise. Participants will explore the CodeCombat curriculum and learn how it can be used to prepare students to succeed on the AP CSP exam. Through asynchronous discussions with fellow teachers and video conferences with CodeCombat curriculum developers, you will be equipped with the tools and techniques you need to support all of your students in AP CSP. At the end of the course, you will earn a Certificate of Completion that can be used for the renewal of your teaching credential. We offer our Curriculum on __edapp__."
-    //    contact: "Contact __apcsp_email__ to get access."
-    //    role: "Role"
-    //    no_license: "Our AP CSP curriculum requires a paid license or participation in our AP CSP pilot program. If you're interested in the pilot program, please fill out this form"
-    //    request_license: "Join Pilot Program"
-    //    page_title: "AP Computer Science Principles Curriculum"
-    //    explore_each_unit: "Explore each unit, including <br> <strong>lesson plans</strong> and <strong>lesson slides</strong>"
+    apcsp_curriculum: {
+      access_syllabus: '[AI_TRANSLATION]Férj hozzá a College Board által jóváhagyott __syllabus__-hoz',
+      college_board_approved_syllabus: '[AI_TRANSLATION]Tanterv',
+      access_pacing_guide: '[AI_TRANSLATION]Tekintsd át javasolt __pacing_guide__ ',
+      pacing_guide: '[AI_TRANSLATION]Ütemterv',
+      resources: '[AI_TRANSLATION]Szakmai fejlődési források  ',
+      professional_development_description: '[AI_TRANSLATION]A CodeCombat egy online, önálló ütemű szakmai fejlődési kurzust kínál minden szintű AP CSP-szaktudással rendelkező oktatók számára. A résztvevők felfedezhetik a CodeCombat tananyagot és megtanulhatják, hogyan használható diákok felkészítésére az AP CSP vizsgára. Aszinkron beszélgetések révén más tanárokkal és videókonferenciákon a CodeCombat tananyag-fejlesztőivel megtanulhatod, hogyan támogathatod a diákjaidat az AP CSP-ben. A kurzus végén megszerezheted a Tanúsítványt, amely felhasználható a tanári képesítési igazolványod megújításához. A tananyagunkat __edapp__ platformon kínáljuk.',
+      contact: '[AI_TRANSLATION]Lépj kapcsolatba az __apcsp_email__ címmel a hozzáféréshez.',
+      role: '[AI_TRANSLATION]Szerepkör',
+      location: '[AI_TRANSLATION]Helyszín  ',
+      state_and_country: '[AI_TRANSLATION]Undertale',
+      no_license: '[AI_TRANSLATION]Az AP CSP tantervünk megtekintéséhez fizetős licenc szükséges. Tudj meg többet a CodeCombat AP CSP tantervéről az alábbi linken található Rólunk oldalon.',
+      request_license: '[AI_TRANSLATION]Csatlakozz a Pilot Programhoz',
+      page_title: '[AI_TRANSLATION]AP Számítástechnikai Alapelvek Tanterv',
+      explore_each_unit: '[AI_TRANSLATION]Fedezd fel minden egységet, beleértve a <br> <strong>óravázlatokat</strong> és <strong>óra diákokat</strong>',
+      about_apcsp_curriculum: '[AI_TRANSLATION]Az AP CSP Tananyag',
+      step_1_title: '[AI_TRANSLATION]Kezdd el Ma',
+      step_1_subtitle: '[AI_TRANSLATION]Töltsd fel a CodeCombat AP CSP tanmenetét a College Board Kurzus Auditjára.',
+      step_1_button_1: '[AI_TRANSLATION]Tanulmányi terv megtekintése',
+      step_1_button_2: '[AI_TRANSLATION]Teljesítsd az Auditot',
+      join_the_community: '[AI_TRANSLATION]Csatlakozz az AP Közösséghez',
+      ap_teachers: '[AI_TRANSLATION]Tanári központ',
+      ap_classroom: '[AI_TRANSLATION]AP Tanterem',
+      slack: '[AI_TRANSLATION]AP Munkahely',
+      //    join: "Join",
+    },
 
-    //  hoc_2019:
-    //    heading: "Hour of Code"
-    //    start: "Start Your Journey"
-    //    create_a_class: "Create a class to track your students' progress and ensure their hour of code games are saved!"
-    //    choose_language: "1. CHOOSE LANGUAGE"
-    //    programming_language: "Language"
-    //    sign_up: "2. SIGN UP"
-    //    already_have_account: "Already have a CodeCombat or Ozaria account? Login."
-    //    download_lesson_plan: "Download Lesson Plan"
-    //    try_activity_without_class: "Try activity without creating a class"
-    //    invite_students: "Invite Students to Your Class By Sending Them"
-    //    class_code: "CLASS CODE"
-    //    enter_code: "Students can enter this code at www.ozaria.com/hoc"
-    //    class_url: "CLASS URL"
-    //    share_url: "Share URL to have students automatically join your class."
-    //    start_activity: "Start Activity"
-    //    save_progress_modal: "Save your progress and keep playing later"
-    //    want_to_save: "Want to save your Hour of Code progress?"
-    //    ask_teacher_class_code: "Ask your teacher for your Class Code"
-    //    dont_have: "I don't have one, but want to Try the Activity!"
-    //    hoc_activity: "Hour of Code Activity"
-    //    save_progress: "Save Progress"
-    //    err_google_exists: "An account already exists for the Google account you've selected. Please choose another Google account or sign up with a username and password."
-    //    err_username_taken: "An account already exists for the username you've entered. Please choose another username."
-    //    enter_it_here: "Enter it here to save your progress as you play:"
-    //    have_a_class_code: "Have a class code?"
-    //    create_class_and_try_activity: "Create Class and Try Activity"
+    hoc_2019: {
+      heading: '[AI_TRANSLATION]Kód Órája',
+      start: '[AI_TRANSLATION]Kezdődhet az utazásod',
+      create_a_class: '[AI_TRANSLATION]Hozz létre egy osztályt, hogy nyomon követhesd a diákok haladását és biztosítsd, hogy a kódolási játékaik el vannak mentve!',
+      choose_language: '[AI_TRANSLATION]1. NYELV KIVÁLASZTÁSA',
+      programming_language: '[AI_TRANSLATION]Nyelv',
+      sign_up: '[AI_TRANSLATION]2. REGISZTRÁLÁS',
+      already_have_account: '[AI_TRANSLATION]Van már CodeCombat vagy Ozaria fiókod? Jelentkezz be.',
+      download_lesson_plan: '[AI_TRANSLATION]Töltsd le a tantervet',
+      try_activity_without_class: '[AI_TRANSLATION]Próbáld ki a tevékenységet anélkül, hogy osztályt hoznál létre',
+      invite_students: '[AI_TRANSLATION]Hívd meg a tanulókat az osztályodba a következő módon:',
+      class_code: '[AI_TRANSLATION]OSZTÁLY KÓD',
+      enter_code: '[AI_TRANSLATION]A diákok beírhatják ezt a kódot a www.ozaria.com/hoc oldalon',
+      class_url: '[AI_TRANSLATION]OSZTÁLY URL',
+      share_url: '[AI_TRANSLATION]Oszd meg az URL-t, hogy a diákok automatikusan csatlakozzanak az osztályodhoz.',
+      start_activity: '[AI_TRANSLATION]Tevékenység Indítása',
+      save_progress_modal: '[AI_TRANSLATION]Mentsd el a haladásodat és játssz tovább később',
+      want_to_save: '[AI_TRANSLATION]Szeretnéd elmenteni az Hour of Code haladásodat?',
+      ask_teacher_class_code: '[AI_TRANSLATION]Kérd el a tanárodtól az Osztálykódodat',
+      dont_have: '[AI_TRANSLATION]Nincs ilyesmim, de szeretném kipróbálni a Tevékenységet!',
+      hoc_activity: '[AI_TRANSLATION]Kódolás Órája Tevékenység',
+      save_progress: '[AI_TRANSLATION]Mentés',
+      err_google_exists: '[AI_TRANSLATION]Már létezik egy fiók az általad kiválasztott Google-fiókhoz. Válassz egy másik Google-fiókot, vagy jelentkezz be felhasználónévvel és jelszóval.',
+      err_username_taken: '[AI_TRANSLATION]Már van egy fiók az általad megadott felhasználónévvel. Kérlek, válassz másik felhasználónevet.',
+      enter_it_here: '[AI_TRANSLATION]Írd be itt, hogy menthesd a haladásod játék közben:',
+      have_a_class_code: '[AI_TRANSLATION]Van osztálykódod?',
+      create_class_and_try_activity: '[AI_TRANSLATION]Osztály létrehozása és tevékenység kipróbálása',
+    },
 
-    //  parents_landing_2:
-    //    splash_title: "Discover the magic of coding at home."
-    //    learn_with_instructor: "Learn with an Instructor"
-    //    live_classes: "Live Online Classes"
-    //    live_classes_offered: "CodeCombat now offers live online computer science classes for students learning at home. Great for students who work best in 1:1 or small-group settings where learning outcomes are tailored to their needs."
-    //    live_class_details_1: "Small group or private lessons"
-    //    live_class_details_2: "JavaScript and Python coding, plus core Computer Science concepts"
-    //    live_class_details_3: "Taught by expert coding instructors"
-    //    live_class_details_4: "Individualized and instant feedback"
-    //    live_class_details_5: "Curriculum trusted by 80,000+ educators"
-    //    try_free_class: "Try a free 60 minute class"
-    //    pricing_plans: "Pricing Plans"
-    //    choose_plan: "Choose Plan"
-    //    per_student: "per student"
-    //    sibling_discount: "15% Sibling Discount!"
-    //    small_group_classes: "Small Group Coding Classes"
-    //    small_group_classes_detail: "4 Group Sessions / Mo."
-    //    small_group_classes_price: "$159/mo"
-    //    small_group_classes_detail_1: "4:1 student to instructor ratio"
-    //    small_group_classes_detail_2: "60 minute classes"
-    //    small_group_classes_detail_3: "Build projects and give feedback to other students"
-    //    small_group_classes_detail_4: "Screen sharing to get live feedback on coding and debugging"
-    //    private_classes: "Private Coding Classes"
-    //    four_sessions_per_month: "4 Private Sessions / Mo."
-    //    eight_sessions_per_month: "8 Private Sessions / Mo."
-    //    four_private_classes_price: "$219/mo"
-    //    eight_private_classes_price: "$399/mo"
-    //    private_classes_detail: "4 or 8 Private Sessions / Mo."
-    //    private_classes_price: "$219/mo or $399/mo"
-    //    private_classes_detail_1: "1:1 student to instructor ratio"
-    //    private_classes_detail_2: "60 minute classes"
-    //    private_classes_detail_3: "Flexible schedule tailored to your needs"
-    //    private_classes_detail_4: "Lesson plans and live feedback tailored to students' learning style, pace, and ability level"
-    //    best_seller: "Best Seller"
-    //    best_value: "Best Value"
-    //    codecombat_premium: "CodeCombat Premium"
-    //    learn_at_own_pace: "Learn at Your Own Pace"
-    //    monthly_sub: "Monthly Subscription"
-    //    buy_now: "Buy now"
-    //    per_month: " / mo"
-    //    lifetime_access: "Lifetime Access"
-    //    premium_details_title: "Great for self-driven learners who thrive with complete autonomy."
-    //    premium_details_1: "Access to subscriber-only heroes, pets and skills"
-    //    premium_details_2: "Receive bonus gems to buy gear, pets and more heroes"
-    //    premium_details_3: "Unlock a deeper understanding of core concepts and skills like web and game development"
-    //    premium_details_4: "Premium support for subscribers"
-    //    premium_details_5: "Create private clans to invite friends and compete on a group leaderboard"
-    //    premium_need_help: "Need help or prefer Paypal? Email <a href=\"mailto:support@codecombat.com\">support@codecombat.com</a>"
-    //    not_sure_kid: "Not sure if CodeCombat is right for your kid?  Ask them!"
-    //    share_trailer: "Share our game trailer with your kid and have them create an account to get started."
-    //    why_kids_love: "Why Kids Love CodeCombat"
-    //    learn_through_play: "Learning Through Play"
-    //    learn_through_play_detail: "Students grow their coding skills, and also use problem-solving skills to progress through levels and power up their heroes."
-    //    skills_they_can_share: "Skills They Can Share"
-    //    skills_they_can_share_details: "Students build real-world skills and create projects, such as games and webpages, that they can share with friends and family."
-    //    help_when_needed: "Help When They Need It"
-    //    help_when_needed_detail: "Using data, every level has been built to be challenging, but never discouraging.  Students are supported with hints when they get stuck."
-    //    book_first_class: "Book your first class"
-    //    why_parents_love: "Why Parents Love CodeCombat"
-    //    most_engaging: "The most engaging way to learn typed code"
-    //    most_engaging_detail: "Your child will have everything they need at the tip of their fingers to program algorithms in Python or JavaScript, build websites and even design their own games, while learning material aligned with national curriculum standards."
-    //    critical_skills: "Building critical skills for the 21st century"
-    //    critical_skills_detail: "Your child will learn how to navigate and become citizens in the digital world. CodeCombat is a solution that enhances your child’s critical thinking, creativity, and resilience, empowering them with the skills they need for any industry."
-    //    parent_support: "Supported by parents like you"
-    //    parent_support_detail: "At CodeCombat, we’re parents. We’re coders. We’re educators. But most of all, we’re people who believe in giving our kids the best opportunity for success in whatever it is they decide to do."
-    //    everything_they_need: "Everything they need to start typing code on their own"
-    //    beginner_concepts: "Beginner Concepts"
-    //    beginner_concepts_1: "Basic syntax"
-    //    beginner_concepts_2: "While loops"
-    //    beginner_concepts_3: "Arguments"
-    //    beginner_concepts_4: "Strings"
-    //    beginner_concepts_5: "Variables"
-    //    beginner_concepts_6: "Algorithms"
-    //    intermediate_concepts: "Intermediate Concepts"
-    //    intermediate_concepts_1: "If statements"
-    //    intermediate_concepts_2: "Boolean comparisons"
-    //    intermediate_concepts_3: "Nested conditionals"
-    //    intermediate_concepts_4: "Functions"
-    //    intermediate_concepts_5: "Basic input handling"
-    //    intermediate_concepts_6: "Basic game artificial intelligence"
-    //    advanced_concepts: "Advanced Concepts"
-    //    advanced_concepts_1: "Event handling"
-    //    advanced_concepts_2: "Conditional while loops"
-    //    advanced_concepts_3: "Object literals"
-    //    advanced_concepts_4: "Parameters"
-    //    advanced_concepts_5: "Vectors"
-    //    advanced_concepts_6: "Math library operations"
-    //    advanced_concepts_7: "Recursion"
-    //    get_started: "Get Started"
-    //    quotes_title: "What parents and kids are saying about CodeCombat"
-    //    quote_1: "\"This is next level coding for kids and it’s pretty fun. I am going to learn a thing or two from this too.\""
-    //    quote_2: "\"I liked learning a new skill that I haven’t done before. I liked that when I was struggling, I could find the goals. I also liked that you could see the code work correctly.\""
-    //    quote_3: "\"Oliver’s Python is coming along. He’s using CodeCombat to make his own video games. He challenges me to play his games, then laughs when I lose.\""
-    //    quote_4: "\"This is one of my favorite things to do. Every morning I wake up and play CodeCombat. If I had to give CodeCombat a rating from 1 to 10, I would give it a 10!\""
-    //    parent: "Parent"
-    //    student: "Student"
-    //    grade: "Grade"
-    //    subscribe_error_user_type: "Looks like you've already signed up for an account. If you're interested in CodeCombat Premium, please contact us at team@codecombat.com."
-    //    subscribe_error_already_subscribed: "You've already signed up for a Premium account."
-    //    start_free_trial_today: "Start free trial today"
-    //    live_classes_title: "Live coding classes from CodeCombat!"
-    //    live_class_booked_thank_you: "Your live class has been booked, thank you!"
-    //    book_your_class: "Book Your Class"
-    //    call_to_book: "Call now to book"
-    //    student_journey_start: "Congratulations! Your student's coding journey is about to begin!"
-    //    enter_email_address: "Please provide your email address to get started:"
-    //    enter_parent_email_address: "If you are a student under 18 years of age, please enter your parent or guardian's email address."
-    //    email_sent_success: "Awesome! An email has been sent to the address you provided."
-    //    email_schedule_info: "Please open and click the link to access our trial class scheduling portal and select any available time that works best for you."
+    parents_landing_1: {
+      online_coding_classes: '[AI_TRANSLATION]Élő Online Kódolási Órák',
+      powered_by_play: '[AI_TRANSLATION]Támogatja a Play',
+      partnership: '[AI_TRANSLATION]partnerségben',
+      kids_message: '[AI_TRANSLATION]Gyerekek: mutassátok meg ezt a szüleiteknek, hogy ingyenes kódolási órát és prémium hősöket kapjatok!',
+      codecombat_intro: '[AI_TRANSLATION]A CodeCombat a játék erejét és a személyre szabott oktatást ötvözi, hogy heti rendszerességgel online kódolási órákat kínáljon gyermekednek!',
+      remote_learning_works: '[AI_TRANSLATION]Távoli tanulás, ami tényleg működik',
+      invest_in_future: '[AI_TRANSLATION]Fektess Gyermeked Jövőjébe, Miközben Jól Szórakoznak!',
+      personalized_learning_header: '[AI_TRANSLATION]Személyre szabott tanulás',
+      personalized_learning_details: '[AI_TRANSLATION]Elhivatott tanáraink egy strukturált tanterven keresztül személyre szabott figyelmet biztosítanak. Gyermeked magabiztos, életre szóló programozóvá válik, miközben közösen küzdik le a kihívásokat és ünneplik a sikereket!',
+      power_of_play_header: '[AI_TRANSLATION]A Játék Ereje',
+      power_of_play_details: '[AI_TRANSLATION]Diákjaink valódi Pythont és JavaScriptet írnak, miközben a játékot az elejétől a végéig játsszák! A lebilincselő tantervünk biztosítja, hogy soha ne kelljen erőltetni, hogy gyermeked részt vegyen az órákon. Ígérjük.',
+      early_coding_exposure: '[AI_TRANSLATION]Korai bevezetés a kódolásba',
+      early_coding_exposure_details: '[AI_TRANSLATION]A programozás egy nagyon keresett munkakészség, és ez a kereslet csak növekedni fog. Ha korán megismerteted a gyermeked a programozással, nagyobb az esélye, hogy később számítástechnikát tanuljon.',
+      quote_1: '[AI_TRANSLATION]Bár az óra minden szombaton reggel 7-kor kezdődik, a fiam annyira izgatott, hogy előbb ébred fel, mint én! A CodeCombat egy utat teremt a fiamnak, hogy fejlessze a kódolási képességeit.',
+      parent_name: '[AI_TRANSLATION]Latthaphon Pohpon, Szülő',
+      course_offering: '[AI_TRANSLATION]Kurzus kínálatok',
+      flexible_scheduling: '[AI_TRANSLATION]Egyéni vagy kis csoportos oktatási lehetőségek és rugalmas időbeosztás mellett ez a legegyszerűbb módja annak, hogy elkezdj számítástechnikát tanulni.',
+      private_instructions: '[AI_TRANSLATION]Minden osztály privát, személyre szabott oktatást kínál. Ha egy csoport diákot szeretnél beiratkoztatni, lépj kapcsolatba a <a href="mailto:classes@codecombat.com">classes@codecombat.com</a> címre egy egyedi tervért.',
+      most_popular: '[AI_TRANSLATION]Legnépszerűbb',
+      best_value: '[AI_TRANSLATION]Legjobb érték',
+      self_paced: '[AI_TRANSLATION]Saját tempóban',
+      private: '[AI_TRANSLATION]Zárt',
+      subscription_plan: '[AI_TRANSLATION]Előfizetési terv',
+      per_year: '[AI_TRANSLATION]évente',
+      price_per_year_1: '[AI_TRANSLATION]219 $ havonta',
+      price_per_year_2: '[AI_TRANSLATION]Havi $399',
+      //    not_available: "N/A",
+      one_to_one: '[AI_TRANSLATION]1:1',
+      private_sessions_1: '[AI_TRANSLATION]Heti 1 privát óra',
+      private_sessions_2: '[AI_TRANSLATION]2 privát foglalkozás hetente',
+      benefit_1: '[AI_TRANSLATION]60 perces foglalkozások a Zoomon keresztül',
+      benefit_2: '[AI_TRANSLATION]Diák-instruktor arány',
+      benefit_3: '[AI_TRANSLATION]CodeCombat prémium licencet tartalmaz  ',
+      benefit_4: '[AI_TRANSLATION]Azonnali és személyre szabott visszajelzés',
+      benefit_5: '[AI_TRANSLATION]Bónusz tevékenységek, jutalmak és tanfolyam befejezési tanúsítványok',
+      benefit_6: '[AI_TRANSLATION]Az óravégi projektek bemutatják a tanult koncepciókat',
+      benefit_7: '[AI_TRANSLATION]Havi haladási frissítések oktatótól',
+      benefit_8: '[AI_TRANSLATION]Rugalmas időbeosztás, amely igazodik minden diák tanulási igényeihez',
+      benefit_9: '[AI_TRANSLATION]1:1 támogatás a nehéz programozási fogalmak kezelésében',
+      benefit_10: '[AI_TRANSLATION]Automatikus kvalifikáció az AI Liga kódolás versenyeire',
+      subscription_details: '[AI_TRANSLATION]Minden előfizetés havi díjas, és bármikor szüneteltethető, lemondható vagy folytatható további díjak nélkül. Az előfizetés vásárlása 100%-ban kockázatmentes az első 30 napban. Ha bármilyen okból úgy döntesz, hogy nem folytatod, egyszerűen <a href="mailto:classes@codecombat.com">lépj kapcsolatba velünk</a> a vásárlástól számított 30 napon belül, és mi azonnal visszatérítjük a teljes összeget, nem teszünk fel kérdéseket. Minden terv automatikusan megújul ugyanazon a szinten és számlázási ciklusban, hacsak nem változtatod meg vagy mondod le.',
+      curriculum: '[AI_TRANSLATION]Tantervünk',
+      curriculum_description: '[AI_TRANSLATION]Több mint 140,000 tanár bízik bennünk világszerte, moduláris tantervünkkel segítjük a diákokat kitartóvá válni. Diákjaink már az elejétől valódi kódot írnak, minden órával magabiztosabbá válnak, és megtanulják, hogyan kapcsolódik a számítástechnika a mindennapi életükhöz.',
+      student_outcomes: '[AI_TRANSLATION]Tanulói eredmények',
+      grit_header: '[AI_TRANSLATION]Kitartás',
+      grit_description: '[AI_TRANSLATION]A CodeCombat arra ösztönzi a diákokat, hogy fogadják el és tanuljanak a hibáikból. A beépített tippek segítenek a diákoknak azonosítani és javítani a hibákat, ami növeli a kódolási magabiztosságukat.',
+      problem_solving_header: '[AI_TRANSLATION]Problémamegoldó készségek',
+      problem_solving_description: '[AI_TRANSLATION]Iteratív problémamegoldási folyamatunk során diákjaink kódolási kihívásokkal szembesülnek, és kreativitásukat használva saját játékokat, weboldalakat és alkalmazásokat építenek a kurzus végén.',
+      technological_literacy: '[AI_TRANSLATION]Technológiai műveltség',
+      technological_literacy_description: '[AI_TRANSLATION]A diákok mély megértést kapnak a számítástechnikáról és technológiai műveltségi készségeket, amelyek más tudományágakba és jövőbeli karierekbe is áttehetőek.',
+      concepts_covered: '[AI_TRANSLATION]Tárgyalt Fogalmak',
+      beginner: '[AI_TRANSLATION]Kezdő',
+      beginner_description: '[AI_TRANSLATION]Olyan diákoknak, akiknek kevés vagy egyáltalán nincs tapasztalata szöveg alapú kódolásban.',
+      beginner_concepts_1: '[AI_TRANSLATION]Sorozatok  ',
+      //    beginner_concepts_2: "Algorithms",
+      beginner_concepts_3: '[AI_TRANSLATION]Szintaxis',
+      //    beginner_concepts_4: "Strings",
+      //    beginner_concepts_5: "Arguments",
+      beginner_concepts_6: '[AI_TRANSLATION]Ciklusok',
+      beginner_concepts_7: '[AI_TRANSLATION]Változók  ',
+      beginner_concepts_8: '[AI_TRANSLATION]Descartes-koordináták',
+      intermediate_header: '[AI_TRANSLATION]Középhaladó',
+      itermediate_details: '[AI_TRANSLATION]Diákoknak, akiknek van némi szöveges kódolási tapasztalatuk.',
+      intermediate_concepts_1: '[AI_TRANSLATION]Logikai műveletek',
+      intermediate_concepts_2: '[AI_TRANSLATION]Tulajdonságok',
+      intermediate_concepts_3: '[AI_TRANSLATION]Fejlett hurkok',
+      intermediate_concepts_4: '[AI_TRANSLATION]Feltételek',
+      intermediate_concepts_5: '[AI_TRANSLATION]Beágyazott feltételes utasítások',
+      //    intermediate_concepts_6: "Functions",
+      intermediate_concepts_7: '[AI_TRANSLATION]Események',
+      intermediate_concepts_8: '[AI_TRANSLATION]Alap játék AI',
+      advanced_header: '[AI_TRANSLATION]Haladó',
+      advanced_details: '[AI_TRANSLATION]Azoknak a diákoknak, akik jelentős tapasztalattal rendelkeznek szöveges kódokban és jól megértik a bonyolult fogalmakat.',
+      advanced_concepts_1: '[AI_TRANSLATION]Haladó szövegek',
+      advanced_concepts_2: '[AI_TRANSLATION]Számítógépes aritmetika',
+      advanced_concepts_3: '[AI_TRANSLATION]Függvények visszatéréssel',
+      advanced_concepts_4: '[AI_TRANSLATION]Komplex feltételek',
+      //    advanced_concepts_5: "Arrays",
+      advanced_concepts_6: '[AI_TRANSLATION]Break/continue utasítások',
+      //    advanced_concepts_7: "Recursion",
+      advanced_concepts_8: '[AI_TRANSLATION]Veremek és sorok',
+      ai_hints: '[AI_TRANSLATION]AI tippek',
+      ai_hints_details: '[AI_TRANSLATION]Oktatóink megadják a szükséges útmutatást és támogatást gyermekednek, de nem mindig lehetnek ott. Itt jön be az innovatív AI-segítség funkciónk, hogy a tanulás a foglalkozások között is folytatódhasson. Ez a támogatás képes értékelni a kódot, kiemelni a hibákat, és elmagyarázni, hogyan lehet azokat kijavítani. A legfontosabb, hogy megadja a szükséges összefüggéseket a megértéshez, anélkül, hogy a teljes megoldást biztosítaná. Mivel csak az aktuális kód problémáinak segítését nyújtja, a diákoknak még mindig dolgozniuk kell az egyes szintek kódolási kihívásain. Az előfizetők napi <b>20 AI-segítséget</b> kapnak, hogy mindig meglegyen a szükséges támogatás.\n',
+      //    faq_header: "FAQs",
+      faq_q_1: '[AI_TRANSLATION]Hogy választják ki az oktatókat a gyerekemhez?',
+      faq_a_1_trial_class: '[AI_TRANSLATION]Az első próbaóra után a csapatunk gondosan párosítja az online oktatóinkat minden tanulóhoz a tapasztalati szint, személyiség, érdeklődési kör és időbeosztás alapján. Csapatunk együttműködik veled, hogy javítsuk a tapasztalataidat, ha te vagy a gyermeked nem szeret az oktatójával tanulni.',
+      faq_a_1: '[AI_TRANSLATION]Minden oktatónkat gondosan választottuk ki, hogy képviseljék a CodeCombat-ot, és szórakoztató, személyre szabott tanulási élményt nyújthassanak minden diák számára. Hisszük, hogy gyermeked élvezettel tanul majd bármelyik oktatónkkal, de ha bármilyen okból oktatót szeretnél váltani, szívesen alkalmazkodunk.',
+      faq_q_2: '[AI_TRANSLATION]Vannak korhatármegkötések a diákok számára?',
+      faq_a_2: '[AI_TRANSLATION]7 és 16 év közötti diákoknak ajánljuk online óráinkat. Azonban, ha a gyermeked tud gépelni, használni az egeret és kényelmesen érzi magát a számítógép használatában, örömmel látjuk az óránkon.',
+      faq_q_3: '[AI_TRANSLATION]Milyen technológiára van szükségem, hogy csatlakozzak az órához?',
+      faq_a_3: '[AI_TRANSLATION]Minden internetkapcsolattal rendelkező eszköz, ami teljes billentyűzettel rendelkezik. Laptokok, PC-k és Chromebookok ajánlottak, de iPadek is működnek külső billentyűzettel.',
+      faq_q_4: '[AI_TRANSLATION]Mi a lemondási politika?',
+      faq_a_4: '[AI_TRANSLATION]Az előfizetésed vásárlása 100% kockázatmentes az első 30 napban. Ha bármilyen okból úgy döntesz, hogy nem folytatod, egyszerűen <a href="mailto:classes@codecombat.com">lépj kapcsolatba velünk</a> a vásárlástól számított 30 napon belül, és azonnal visszatérítjük a teljes vételárat, kérdések nélkül. Bármikor befagyaszthatod az előfizetésedet és újraaktiválhatod, amikor neked megfelel.',
+      faq_q_5: '[AI_TRANSLATION]Mi van, ha át kell ütemeznem egy órát?',
+      faq_a_5: '[AI_TRANSLATION]Ha heti órát foglaltál nálunk, exkluzívan neked fenntartott időt tartunk fenn az órarendünkben, tehát 48 órás előzetes értesítésre van szükség az órák átszervezéséhez. Az órádat átszervezheted, ha e-mailt küldesz nekünk <a href="mailto:classes@codecombat.com">classes@codecombat.com</a> címre. Az órák, amelyeket 48 órán belül mondanak le vagy elmaradnak, nem lesznek átszervezve vagy visszatérítve.',
+      faq_q_6: '[AI_TRANSLATION]Mit várhatok a próbaórán?',
+      faq_a_6: '[AI_TRANSLATION]Minden próbaóra egy privát 60 perces foglalkozás, amelyben <strong>45 perc oktatás</strong> van a diáknak, majd következik <strong>15 perc beszélgetés egy szülővel vagy gondviselővel</strong>. Ez a 15 perc fontos, hogy megválaszolják a kérdéseket, betekintést nyújtsanak a tanterv előrehaladásába, és segítsenek kiválasztani a megfelelő szintet és programozási nyelvet a gyermeked számára. Ha elérhető, távtanulási tanácsadónk is csatlakozhat ehhez a részhez.  ',
+      other_questions: '[AI_TRANSLATION]Ha bármilyen kérdésed van az online óráinkkal kapcsolatban, kérlek <a href="mailto:classes@codecombat.com">lépj kapcsolatba velünk.</a>',
+    },
 
-    //  modal_timetap_confirmation:
-    //    congratulations: "Congratulations!"
-    //    paragraph_1: "Your student’s coding adventure awaits."
-    //    paragraph_2: "We have your child booked for an online class and we’re so excited to meet them!"
-    //    paragraph_3: "Soon you should be recieving an email invitation with the class schedule details as well as your class instructor’s name and contact information."
-    //    paragraph_4: "If for whatever reason you need to modify your class selections, reschedule or just want to talk with a customer care specialist, simply reach out using the contact information provided in your email invitation."
-    //    paragraph_5: "Thank you for choosing CodeCombat and good luck on your computer science journey!"
-    //    back_to_coco: "Back to CodeCombat"
+    parents_landing_2: {
+      splash_title: '[AI_TRANSLATION]Fedezd fel a programozás varázsát otthon.',
+      learn_with_instructor: '[AI_TRANSLATION]Tanulj oktatóval',
+      live_classes: '[AI_TRANSLATION]Élő Online Órák',
+      live_classes_offered: '[AI_TRANSLATION]A CodeCombat most élő online számítástechnikai órákat kínál azoknak a diákoknak, akik otthon tanulnak. Remek azoknak a diákoknak, akiknek a tanulási eredményei az 1:1 vagy kis csoportos környezetre szabottak.',
+      live_class_details_1: '[AI_TRANSLATION]Kis csoport vagy magánórák',
+      live_class_details_2: '[AI_TRANSLATION]JavaScript és Python kódolás, valamint alapvető Számítástechnikai koncepciók',
+      live_class_details_3: '[AI_TRANSLATION]Szakértő programozási oktatók által tanítva',
+      live_class_details_4: '[AI_TRANSLATION]Egyéni és azonnali visszajelzés',
+      live_class_details_5: '[AI_TRANSLATION]80.000+ oktató által ajánlott tananyag',
+      try_free_class: '[AI_TRANSLATION]Próbálj ki egy ingyenes 60 perces órát',
+      pricing_plans: '[AI_TRANSLATION]Árazási Tervek',
+      choose_plan: '[AI_TRANSLATION]Válassz Tervet',
+      per_student: '[AI_TRANSLATION]fejenként',
+      sibling_discount: '[AI_TRANSLATION]15% Testvér Kedvezmény!',
+      small_group_classes: '[AI_TRANSLATION]Kis csoportos kódolási órák',
+      small_group_classes_detail: '[AI_TRANSLATION]4 csoportos foglalkozás / hó',
+      small_group_classes_price: '[AI_TRANSLATION]$159/hó',
+      small_group_classes_detail_1: '[AI_TRANSLATION]4:1 diák/tanár arány',
+      small_group_classes_detail_2: '[AI_TRANSLATION]60 perces órák',
+      small_group_classes_detail_3: '[AI_TRANSLATION]Készíts projekteket, és adj visszajelzést más diákoknak.',
+      small_group_classes_detail_4: '[AI_TRANSLATION]Képernyőmegosztás élő visszajelzésért a kódolásról és hibakeresésről.',
+      private_classes: '[AI_TRANSLATION]Privát kódolási órák',
+      four_sessions_per_month: '[AI_TRANSLATION]4 privát alkalom / hó',
+      eight_sessions_per_month: '[AI_TRANSLATION]8 Privát Lecke / Hó.',
+      four_private_classes_price: '[AI_TRANSLATION]$219/hó',
+      eight_private_classes_price: '[AI_TRANSLATION]$399/hó',
+      private_classes_detail: '[AI_TRANSLATION]4 vagy 8 Privát Foglalkozás / Hónap  ',
+      private_classes_price: '[AI_TRANSLATION]$219/mo vagy $399/mo',
+      private_classes_detail_1: '[AI_TRANSLATION]1:1 diák-oktató arány',
+      private_classes_detail_2: '[AI_TRANSLATION]60 perces órák',
+      private_classes_detail_3: '[AI_TRANSLATION]Rugalmas időbeosztás, amely igazodik az igényeidhez',
+      private_classes_detail_4: '[AI_TRANSLATION]Tanulási tervek és élő visszajelzések a diákok tanulási stílusához, tempójához és képességi szintjéhez igazítva',
+      best_seller: '[AI_TRANSLATION]Legjobb Eladó',
+      best_value: '[AI_TRANSLATION]Legjobb érték',
+      codecombat_premium: '[AI_TRANSLATION]CodeCombat Prémium',
+      learn_at_own_pace: '[AI_TRANSLATION]Tanulj a saját tempódban',
+      //    monthly_sub: "Monthly Subscription",
+      buy_now: '[AI_TRANSLATION]Vegyél most',
+      per_month: '[AI_TRANSLATION] / mo',
+      lifetime_access: '[AI_TRANSLATION]Élettartam hozzáférés',
+      premium_details_title: '[AI_TRANSLATION]Nagyszerű az önálló tanulóknak, akik a teljes autonómiában virágoznak.',
+      premium_details_1: '[AI_TRANSLATION]Hozzáférés csak előfizetőknek elérhető hősökhöz, háziállatokhoz és képességekhez',
+      premium_details_2: '[AI_TRANSLATION]Szerezz bónusz drágaköveket, hogy felszerelést, kisállatokat és további hősöket vásárolj',
+      premium_details_3: '[AI_TRANSLATION]Mélyebb megértést nyerhetsz az alapvető fogalmakról és készségekről, mint például a web- és játékfejlesztés.',
+      premium_details_4: '[AI_TRANSLATION]Prémium támogatás előfizetőknek',
+      premium_details_5: '[AI_TRANSLATION]Hozz létre privát klánokat, hogy meghívhasd a barátaidat és versenyezhess egy csoportos ranglistán.',
+      premium_need_help: '[AI_TRANSLATION]Kell segítség vagy inkább Paypal-t preferálsz? Küldj egy emailt ide: <a href="mailto:support@codecombat.com">support@codecombat.com</a>',
+      not_sure_kid: '[AI_TRANSLATION]Nem biztos benne, hogy a CodeCombat megfelelő a gyerekednek? Kérdezd meg őket!',
+      share_trailer: '[AI_TRANSLATION]Oszd meg a játék előzetesét a gyerekeddel, és készítsetek egy fiókot, hogy elkezdhesse.',
+      why_kids_love: '[AI_TRANSLATION]Miért szeretik a gyerekek a CodeCombatot',
+      learn_through_play: '[AI_TRANSLATION]Játékos tanulás',
+      learn_through_play_detail: '[AI_TRANSLATION]A diákok fejlesztik kódolási képességeiket, és problémamegoldó készségeiket is használják, hogy előrehaladjanak a szinteken és erősítsék a hőseiket.',
+      skills_they_can_share: '[AI_TRANSLATION]Megosztható képességek',
+      skills_they_can_share_details: '[AI_TRANSLATION]A diákok valós készségeket építenek és projekteket készítenek, mint például játékokat és weboldalakat, amelyeket megoszthatnak barátaikkal és családjukkal.',
+      help_when_needed: '[AI_TRANSLATION]Segíts, amikor szükségük van rá',
+      help_when_needed_detail: '[AI_TRANSLATION]Az adatok alapján minden szint úgy van kialakítva, hogy kihívást jelentsen, de soha ne csüggesszen el. A diákok tippeket kapnak, amikor elakadnak.',
+      book_first_class: '[AI_TRANSLATION]Foglald le az első órádat',
+      why_parents_love: '[AI_TRANSLATION]Miért szeretik a szülők a CodeCombatot',
+      most_engaging: '[AI_TRANSLATION]A legérdekesebb módja a típusos kód megtanulásának',
+      most_engaging_detail: '[AI_TRANSLATION]A gyermekednek minden kéznél lesz, hogy algoritmusokat programozzon Pythonban vagy JavaScriptben, weboldalakat építsen és akár saját játékokat is tervezzen, miközben anyagokat tanul meg, amelyek összhangban vannak a nemzeti tantervi előírásokkal.',
+      critical_skills: '[AI_TRANSLATION]Fontos készségeket épít a 21. századra',
+      critical_skills_detail: '[AI_TRANSLATION]A gyereked megtanul navigálni és állampolgárként viselkedni a digitális világban. A CodeCombat egy megoldás, amely fejleszti a gyereked kritikai gondolkodását, kreativitását és rugalmasságát, felruházva őket az iparág bármelyikéhez szükséges képességekkel.',
+      parent_support: '[AI_TRANSLATION]Szülők által támogatott, mint Te',
+      parent_support_detail: '[AI_TRANSLATION]A CodeCombatnál szülők vagyunk. Kóderek vagyunk. Tanárok vagyunk. De legfőképp olyan emberek vagyunk, akik hisznek abban, hogy megadjuk gyerekeinknek a legjobb lehetőséget a sikerre, bármi is legyen az, amit elhatároznak.',
+      everything_they_need: '[AI_TRANSLATION]Minden amire szükségük van, hogy elkezdjenek saját kódot írni',
+      beginner_concepts: '[AI_TRANSLATION]Kezdő Fogalmak',
+      beginner_concepts_1: '[AI_TRANSLATION]Alapvető szintaxis',
+      beginner_concepts_2: '[AI_TRANSLATION]While ciklusok',
+      //    beginner_concepts_3: "Arguments",
+      //    beginner_concepts_4: "Strings",
+      beginner_concepts_5: '[AI_TRANSLATION]Változók  ',
+      //    beginner_concepts_6: "Algorithms",
+      intermediate_concepts: '[AI_TRANSLATION]Középhaladó Fogalmak',
+      intermediate_concepts_1: '[AI_TRANSLATION]If állítások',
+      intermediate_concepts_2: '[AI_TRANSLATION]Boolen összehasonlítások',
+      intermediate_concepts_3: '[AI_TRANSLATION]Beágyazott feltételes utasítások',
+      //    intermediate_concepts_4: "Functions",
+      intermediate_concepts_5: '[AI_TRANSLATION]Alapvető bevitelkezelés',
+      intermediate_concepts_6: '[AI_TRANSLATION]Alapvető játék mesterséges intelligencia',
+      advanced_concepts: '[AI_TRANSLATION]Haladó fogalmak',
+      advanced_concepts_1: '[AI_TRANSLATION]Eseménykezelés',
+      advanced_concepts_2: '[AI_TRANSLATION]Feltételes while ciklusok',
+      advanced_concepts_3: '[AI_TRANSLATION]Objektum literálok',
+      advanced_concepts_4: '[AI_TRANSLATION]Paraméterek',
+      //    advanced_concepts_5: "Vectors",
+      advanced_concepts_6: '[AI_TRANSLATION]Matematikai könyvtár műveletek',
+      //    advanced_concepts_7: "Recursion",
+      get_started: '[AI_TRANSLATION]Kezdjük el',
+      quotes_title: '[AI_TRANSLATION]Amit a szülők és a gyerekek mondanak a CodeCombatról',
+      quote_1: '[AI_TRANSLATION]"Ez már a következő szint a gyerekeknek és nagyon szórakoztató. Én is tanulni fogok egy-két dolgot ebből."',
+      quote_2: '[AI_TRANSLATION]"Tetszett, hogy új készséget tanulhattam, amit korábban nem próbáltam. Amikor nehézségeim voltak, megtalálhatók voltak a célok. Az is tetszett, hogy láthattam, hogy a kód helyesen működik."',
+      quote_3: '[AI_TRANSLATION]"Oliver Pythonja elég jól halad. A CodeCombatot használja, hogy saját videójátékokat készítsen. Megkér, hogy játsszam az ő játékait, aztán nevet, amikor veszítek."',
+      quote_4: '[AI_TRANSLATION]"Ez az egyik kedvenc dolgom. Minden reggel felébredek és CodeCombat-tal játszom. Ha pontoznom kellene a CodeCombat-ot 1-től 10-ig, 10-et adnék!"',
+      //    parent: "Parent",
+      //    student: "Student",
+      grade: '[AI_TRANSLATION]Osztályzat',
+      subscribe_error_user_type: '[AI_TRANSLATION]Úgy tűnik, már regisztráltál egy fiókra. Ha érdekel a CodeCombat Premium, lépj kapcsolatba velünk a team@codecombat.com címen.',
+      subscribe_error_already_subscribed: '[AI_TRANSLATION]Már feliratkoztál egy Prémium fiókra.',
+      start_free_trial_today: '12.\nIndíts ingyenes próbaverziót ma\n',
+      live_classes_title: '[AI_TRANSLATION]ÉLŐ kódolási osztályok a CodeCombat-tól!',
+      live_class_booked_thank_you: '[AI_TRANSLATION]Az élő órád le van foglalva, köszönjük!',
+      book_your_class: '[AI_TRANSLATION]Foglald le az órát',
+      call_to_book: '[AI_TRANSLATION]1FH.M1.L1.L3-Alt',
+      student_journey_start: '[AI_TRANSLATION]Gratulálok! Tanítványod kódolós utazása most kezdődik!',
+      enter_email_address: '[AI_TRANSLATION]Kérlek add meg az email címedet a kezdéshez:',
+      enter_parent_email_address: '[AI_TRANSLATION]Ha 18 év alatti diák vagy, kérlek add meg a szülőd vagy gondviselőd email címét.',
+      email_sent_success: '[AI_TRANSLATION]Szuper! Egy emailt küldtünk a megadott címre.',
+      email_schedule_info: '[AI_TRANSLATION]Kérlek, nyisd meg és kattints a linkre, hogy hozzáférj a próbaleckék időpontfoglaló portáljához, és válassz egy számodra megfelelő időpontot.',
+      personalized_coding: '[AI_TRANSLATION]Személyre Szabott Kódolási Útmutatás',
+      premium_access: '[AI_TRANSLATION]Prémium hozzáférés',
+      focus_choice: '[AI_TRANSLATION]A Te Figyelmed, A Te Választásod',
+      get_free_coding_class: '[AI_TRANSLATION]Kapsz egy ingyenes kódolási órát',
+      tailored_guidance: '[AI_TRANSLATION]Személyre szabott útmutatás Python, Javascript, Lua és mások tanulásához.',
+      enjoy_all_games: '[AI_TRANSLATION]Élvezd minden webes játékunkat és Roblox élményeinket',
+      choice_of_path: '[AI_TRANSLATION]Válassz a Kódolási Alapok, Játékfejlesztés, AI Alkalmazások, AP CSP Előkészítés és még sok más közül egy személyre szabott tanulási úthoz',
+      classes_in_spanish_english: '[AI_TRANSLATION]Az órák elérhetők angolul vagy spanyolul.',
+      free_class: '[AI_TRANSLATION]Ingyenes Óra',
+    },
 
-    //  hoc_2018:
-    //    banner_coco: "Welcome to Hour of Code!"
-    //    banner_ozar: "Happy Computer Science Education Week!"
-    //    page_heading: "Your students will learn to code by building their own game!"
-    //    page_heading_ai_league: "Your students will learn to code their own multiplayer AI!"
-    //    page_heading_goblins: "Your students will learn coding by saving a village from goblins!"
-    //    step_1: "Step 1: Watch Video Overview"
-    //    step_2: "Step 2: Try it Yourself"
-    //    step_3: "Step 3: Download Lesson Plan"
-    //    try_activity: "Try Activity"
-    //    download_pdf: "Download PDF"
-    //    solutions: "Solutions"
-    //    teacher_signup_heading: "Turn Hour of Code into a Year of Code"
-    //    teacher_signup_blurb: "Everything you need to teach computer science, no prior experience needed."
-    //    teacher_signup_input_blurb: "Get first course free:"
-    //    teacher_signup_input_placeholder: "Teacher email address"
-    //    teacher_signup_input_button: "Get CS1 Free"
-    //    activities_header: "More Hour of Code Activities"
-    //    activity_label_1: "Beginner CS: Escape the Dungeon!"
-    //    activity_label_2: " Beginner GD: Build a Game!"
-    //    activity_label_3: "Advanced GD: Build an Arcade Game!"
-    //    activity_label_hoc_2018: "Intermediate GD: Code, Play, Create"
-    //    activity_label_ai_league: "Beginner CS: Esports Bootcamp: AI League"
-    //    activity_label_goblins: "Beginner CS: Goblins 'n' Glory"
-    //    activity_button_1: "View Lesson"
-    //    about: "About CodeCombat"
-    //    about_copy: "A game-based, standards-aligned computer science program that teaches real, typed Python and JavaScript."
-    //    point1: "✓ Scaffolded"
-    //    point2: "✓ Differentiated"
-    //    point3: "✓ Assessments"
-    //    point4: "✓ Project-based courses"
-    //    point5: "✓ Student tracking"
-    //    point6: "✓ Full lesson plans"
-    //    title: "HOUR OF CODE"
-    //    acronym: "HOC"
-    //    play_video: "Play Video"
-    //    featured_title_1: "CodeCombat: Goblins 'n' Glory"
-    //    featured_subtitle_1: "Grades 6-8 | JavaScript, Python"
-    //    featured_blurb_1: "We need your help! Embark on an epic quest where you take control of the game through your powers of programming."
-    //    featured_title_2: "Esports Bootcamp: AI League"
-    //    featured_subtitle_2: "Grades 6-8 | JavaScript, Python"
-    //    featured_blurb_2: "Competitive coding has never been so epic! Learn the skills you need to play like the pros in our Esports Bootcamp. No coding experience needed"
-    //    featured_title_3: "Ozaria: Your Journey Begins"
-    //    featured_subtitle_3: "Grades 6-8 | JavaScript, Python"
-    //    featured_blurb_3: "Enter the world of Ozaria where you must use the power of coding to defeat a darkness that has taken over the world!"
-    //    page_heading_latest_activities: "Our latest activities are easy to implement and fun to play"
+    modal_timetap_confirmation: {
+      congratulations: '[AI_TRANSLATION]Gratulálok!',
+      paragraph_1: '[AI_TRANSLATION]A diáktársad kódolós kalandja vár rád. ',
+      paragraph_2: '[AI_TRANSLATION]Online órára foglaltuk gyermekedet, és alig várjuk, hogy találkozhassunk vele!',
+      paragraph_3: '[AI_TRANSLATION]Hamarosan email meghívót kell kapnod az órarend részleteivel, valamint az oktatód nevével és elérhetőségeivel.',
+      paragraph_4: '[AI_TRANSLATION]Ha bármilyen okból módosítanod kell az osztályválasztásaidat, újraütemezned kell, vagy egyszerűen csak beszélni szeretnél egy ügyfélszolgálati szakemberrel, bátran vedd fel a kapcsolatot a meghívó emailben megadott elérhetőségek egyikén.',
+      paragraph_5: '[AI_TRANSLATION]Köszönjük, hogy a CodeCombatet választottad, és sok szerencsét a számítógépes tudományok útján!',
+      back_to_coco: '[AI_TRANSLATION]Vissza a CodeCombathoz',
+    },
 
-    //  hoc_2018_interstitial:
-    //    welcome: "Welcome to CodeCombat's Hour of Code!"
-    //    educator: "I'm an educator"
-    //    show_resources: "Show me teacher resources!"
-    //    student: "I'm a student"
-    //    ready_to_code: "I'm ready to code!"
+    hoc_2018: {
+      banner_coco: '[AI_TRANSLATION]Üdvözlünk a Kód óráján!',
+      banner_ozar: '[AI_TRANSLATION]Boldog Számítástechnikai Oktatási Hetet!',
+      page_heading: '[AI_TRANSLATION]A diákjaid meg fogják tanulni a kódolást azáltal, hogy saját játékukat építik!',
+      page_heading_ai_league: '[AI_TRANSLATION]A diákjaid megtanulják, hogyan kódolják a saját multiplayer AI-jukat!',
+      page_heading_goblins: '[AI_TRANSLATION]A diákjaid úgy fognak programozást tanulni, hogy megmentenek egy falut a koboldoktól!',
+      step_1: '[AI_TRANSLATION]1. lépés: Nézd meg a videó összefoglalót',
+      step_2: '[AI_TRANSLATION]2. lépés: Próbáld ki magad',
+      step_3: '[AI_TRANSLATION]3. lépés: Töltsd le a tantervet',
+      try_activity: '[AI_TRANSLATION]Próbáld ki az Aktivitást',
+      download_pdf: '[AI_TRANSLATION]PDF Letöltése',
+      solutions: '[AI_TRANSLATION]Megoldások  ',
+      teacher_signup_heading: '[AI_TRANSLATION]Változtasd a Kódórát Kódévvé',
+      teacher_signup_blurb: '[AI_TRANSLATION]Mindent megkapsz, amire szükséged van az informatika tanításához, előzetes tapasztalat nélkül.',
+      teacher_signup_input_blurb: '[AI_TRANSLATION]Szerezd meg az első kurzust ingyen:',
+      teacher_signup_input_placeholder: '[AI_TRANSLATION]Tanári email cím',
+      teacher_signup_input_button: '[AI_TRANSLATION]Szerezd meg a CS1-et ingyen',
+      activities_header: '[AI_TRANSLATION]További Órák Kódolásról',
+      activity_label_1: '[AI_TRANSLATION]Kezdő CS: Menekülés a Börtönből!',
+      activity_label_2: '[AI_TRANSLATION]Kezdő GD: Építs egy játékot!',
+      activity_label_3: '[AI_TRANSLATION]Haladó GD: Építs egy Arcade Játékot!',
+      activity_label_hoc_2018: '[AI_TRANSLATION]Középhaladó GD: Kód, Játék, Alkotás',
+      activity_label_ai_league: '[AI_TRANSLATION]Kezdő CS: Esport Bootcamp: AI Liga',
+      activity_label_goblins: '[AI_TRANSLATION]Kezdők CS: Goblinok és Dicsőség',
+      activity_button_1: '[AI_TRANSLATION]Nézd meg a leckét',
+      //    about: "About CodeCombat",
+      about_copy: '[AI_TRANSLATION]Egy játék-alapú, szabványoknak megfelelő számítástechnikai program, amely valódi, gépelt Python-t és JavaScript-et tanít.',
+      point1: '[AI_TRANSLATION]✓ Scaffolded',
+      point2: '[AI_TRANSLATION]Inkább legyünk veszélyesek, mint megbántuk  ',
+      point3: '[AI_TRANSLATION]✓ Értékelések',
+      point4: '[AI_TRANSLATION]✓ Projekt alapú kurzusok',
+      point5: '[AI_TRANSLATION]✓ Diákkövetés',
+      point6: '[AI_TRANSLATION]✓ Teljes óratervek',
+      title: '[AI_TRANSLATION]KÓRA ÓRÁJA',
+      acronym: '[AI_TRANSLATION]HOC',
+      play_video: '[AI_TRANSLATION]Videó lejátszása',
+      featured_title_1: '[AI_TRANSLATION]CodeCombat: Goblinok és Dicsőség',
+      featured_subtitle_1: '[AI_TRANSLATION]6-8. osztály | JavaScript, Python',
+      featured_blurb_1: '[AI_TRANSLATION]Szükségünk van a segítségedre! Indulj egy epikus küldetésre, ahol a programozói képességeiddel irányíthatod a játékot.',
+      featured_title_2: '[AI_TRANSLATION]Esports Bootcamp: AI Liga',
+      featured_subtitle_2: '[AI_TRANSLATION]6-8. osztály | JavaScript, Python',
+      featured_blurb_2: '[AI_TRANSLATION]A versenyképes kódolás soha nem volt ilyen epikus! Tanuld meg a szükséges készségeket, hogy úgy játszhass mint a profik az Esports Bootcamp-ünkben. Nem kell kódolási tapasztalat.',
+      featured_title_3: '[AI_TRANSLATION]Ozaria: Kezdődik az utazásod',
+      featured_subtitle_3: '[AI_TRANSLATION]6-8. osztály | JavaScript, Python',
+      featured_blurb_3: '[AI_TRANSLATION]Lépj be Ozaria világába, ahol a kódolás erejét kell használnod, hogy legyőzd a világot uralni akaró sötétséget!',
+      page_heading_latest_activities: '[AI_TRANSLATION]Legújabb tevékenységeinket könnyű megvalósítani és szórakoztatóak játszani.',
+    },
 
-    //  hoc_2018_completion:
-    //    congratulations: "Congratulations on completing <b>Code, Play, Share!</b>"
-    //    send: "Send your Hour of Code game to friends and family!"
-    //    copy: "Copy URL"
-    //    get_certificate: "Get a certificate of completion to celebrate with your class!"
-    //    get_cert_btn: "Get Certificate"
-    //    first_name: "First Name"
-    //    last_initial: "Last Initial"
-    //    teacher_email: "Teacher's email address"
+    hoc_2018_interstitial: {
+      welcome: '[AI_TRANSLATION]Üdv a CodeCombat Kódórájában!',
+      educator: '[AI_TRANSLATION]Tanár vagyok',
+      show_resources: '[AI_TRANSLATION]Mutasd a tanári forrásokat!',
+      student: '[AI_TRANSLATION]Diák vagyok',
+      ready_to_code: '[AI_TRANSLATION]Készen állok a kódolásra!',
+    },
 
-    //  school_administrator:
-    //    title: "School Administrator Dashboard"
-    //    my_teachers: "My Teachers"
-    //    last_login: "Last Login"
-    //    licenses_used: "licenses used"
-    //    total_students: "total students"
-    //    active_students: "active students"
-    //    projects_created: "projects created"
-    //    other: "Other"
-    //    notice: "The following school administrators have view-only access to your classroom data:"
-    //    add_additional_teacher: "Need to add an additional teacher? Contact your CodeCombat Account Manager or email support@codecombat.com. "
-    //    license_stat_description: "Licenses available accounts for the total number of licenses available to the teacher, including Shared Licenses."
-    //    students_stat_description: "Total students accounts for all students across all classrooms, regardless of whether they have licenses applied."
-    //    active_students_stat_description: "Active students counts the number of students that have logged into CodeCombat in the last 60 days."
-    //    project_stat_description: "Projects created counts the total number of Game and Web development projects that have been created."
-    //    no_teachers: "You don’t have any schools tied to your account yet. Please contact your <strong>District Success Manager</strong> or <a href=\"mailto:schools@codecombat.com\">schools@codecombat.com</a> to get your dashboard set up."
-    //    totals_calculated: "How are these totals calculated?"
-    //    totals_explanation_1: "How are these totals calculated?"
-    //    totals_explanation_2: "Licenses used"
-    //    totals_explanation_3: "Counts total licenses applied to students out of total licenses available."
-    //    totals_explanation_4: "Total students"
-    //    totals_explanation_5: "Counts teacher’s students across all of their active classrooms. To see total students enrolled in both active and archived classrooms, go to the Student Licenses page."
-    //    totals_explanation_6: "Active students"
-    //    totals_explanation_7: "Counts all students who were active within the past 60 days."
-    //    totals_explanation_8: "Projects created"
-    //    totals_explanation_9: "Counts total games and web pages created."
-    //    date_thru_date: "__startDateRange__ thru __endDateRange__"
-    //    teachers: "Teachers"
-    //    students_enrolled: "Students Enrolled"
-    //    select_time_range: "Select the time range:"
-    //    export: "Export"
-    //    preview: "Here is a preview for top 200 lines, Click the Export to get full stats"
-    //    empty_results: "Empty Results."
+    hoc_2018_completion: {
+      congratulations: '[AI_TRANSLATION]Gratulálunk a <b>Code, Play, Share!</b> befejezéséhez',
+      send: '[AI_TRANSLATION]Küldd el az Óra Kóda játékodat barátoknak és családnak!',
+      //    copy: "Copy URL",
+      get_certificate: '[AI_TRANSLATION]Szerezz egy teljesítési igazolást, hogy együtt ünnepelj az osztályoddal!',
+      get_cert_btn: '[AI_TRANSLATION]Szerezz bizonyítványt',
+      first_name: '[AI_TRANSLATION]Keresztnév',
+      last_initial: '[AI_TRANSLATION]Utolsó Kezdőbetű  ',
+      teacher_email: '[AI_TRANSLATION]Tanár e-mail címe',
+    },
 
-    //  interactives:
-    //    phenomenal_job: "Phenomenal Job!"
-    //    try_again: "Whoops, try again!"
-    //    select_statement_left: "Whoops! Select a code statement before pressing Submit."
-    //    fill_boxes: "Whoops, make sure to fill all boxes before hitting \"Submit.\""
-    //    cannot_play_video: "Sadly, this video cannot be played in your area."
-    //    console_instructions: "See why by opening your browser console: 1) Right click 2) Choose \"Inspect\" 3) Click the console tab."
-    //    skip_video: "Skip video"
-    //    unavailable: "Unavailable"
+    school_administrator: {
+      title: '[AI_TRANSLATION]Iskolai Adminisztrátor Irányítópult',
+      //    my_teachers: "My Teachers",
+      last_login: '[AI_TRANSLATION]Utolsó belépés',
+      //    licenses_used: "licenses used",
+      total_students: '[AI_TRANSLATION]összes diák  ',
+      active_students: '[AI_TRANSLATION]aktív diákok',
+      projects_created: '[AI_TRANSLATION]készítette projektek',
+      //    other: "Other",
+      notice: '[AI_TRANSLATION]Az alábbi iskola adminisztrátorok csak megtekintési jogosultsággal rendelkeznek az osztálytermi adatokhoz:',
+      add_additional_teacher: '[AI_TRANSLATION]Szükséged van egy újabb tanár hozzáadására? Vedd fel a kapcsolatot a CodeCombat Fiókkezelőddel vagy írj e-mailt a support@codecombat.com címre.',
+      license_stat_description: '[AI_TRANSLATION]Elérhető licencek a tanár összes rendelkezésére álló licencszámát számolják bele, beleértve a megosztott licenceket is.',
+      students_stat_description: '[AI_TRANSLATION]Az összes diák száma az összes osztályban szereplő diákokat jelenti, függetlenül attól, hogy rendelkeznek-e licenccel.',
+      active_students_stat_description: '[AI_TRANSLATION]Az aktív diákok száma azoknak a diákoknak a száma, akik az elmúlt 60 napban bejelentkeztek a CodeCombat-ra.',
+      project_stat_description: '[AI_TRANSLATION]A létrehozott projektek száma az elkészített Játék- és Webfejlesztési projektek teljes számát mutatja.',
+      no_teachers: '[AI_TRANSLATION]Még nincs iskola hozzáadva a fiókodhoz. Kérlek, vedd fel a kapcsolatot a <strong>Körzeti Siker Menedzserrel</strong> vagy írj a <a href="mailto:schools@codecombat.com">schools@codecombat.com</a> címre, hogy beállítsák a vezérlőpultodat.',
+      totals_calculated: '[AI_TRANSLATION]Hogyan számítják ki ezeket az összegeket?',
+      totals_explanation_1: '[AI_TRANSLATION]Hogyan számítják ki ezeket az összegeket?',
+      totals_explanation_2: '[AI_TRANSLATION]Használt licencek',
+      totals_explanation_3: '[AI_TRANSLATION]Számolja a diákokra alkalmazott összes licencek számát a rendelkezésre álló licencekből.',
+      totals_explanation_4: '[AI_TRANSLATION]Összes diák',
+      totals_explanation_5: '[AI_TRANSLATION]Számolja a tanár diákjait az összes aktív osztályteremben. Az összes tanuló összesítéséhez, beleértve az aktív és archivált osztálytermeket is, menj a Diák Licenszek oldalra.',
+      totals_explanation_6: '[AI_TRANSLATION]Aktív diákok',
+      totals_explanation_7: '[AI_TRANSLATION]Számolja azokat a diákokat, akik az elmúlt 60 napban aktívak voltak.',
+      totals_explanation_8: '[AI_TRANSLATION]Projektek létrehozva',
+      totals_explanation_9: '[AI_TRANSLATION]Számolja az összes játékot és weboldalt, amit létrehoztak.',
+      date_thru_date: '[AI_TRANSLATION]__startDateRange__ - __endDateRange__ között  ',
+      teachers: '[AI_TRANSLATION]Tanárok',
+      students_enrolled: '[AI_TRANSLATION]Beiratkozott diákok',
+      select_time_range: '[AI_TRANSLATION]Válaszd ki az időtartományt:',
+      export: '[AI_TRANSLATION]Exportálás',
+      preview: '[AI_TRANSLATION]Itt van egy előnézet a felső 200 sorhoz, kattints az Exportálásra a teljes statisztikákhoz',
+      empty_results: '[AI_TRANSLATION]Üres eredmények.',
+      roster: '[AI_TRANSLATION]Névlista ',
+    },
+
+    interactives: {
+      phenomenal_job: '[AI_TRANSLATION]Kiváló munka!',
+      try_again: '[AI_TRANSLATION]Hoppá, próbáld újra!',
+      select_statement_left: '[AI_TRANSLATION]Hoppá! Válassz ki egy kódsorokat mielőtt megnyomod a Küldés gombot.',
+      fill_boxes: '[AI_TRANSLATION]Hoppá, győződj meg róla, hogy minden mezőt kitöltöttél, mielőtt a "Beküldés" gombra kattintanál.',
+      cannot_play_video: '[AI_TRANSLATION]A legkisebb intervallum két ábrázolható szám között.',
+      console_instructions: '[AI_TRANSLATION]Nézd meg, miért a böngésződ konzoljának megnyitásával: 1) Jobb klikk 2) Válassza az "Ellenőriz" opciót 3) Kattints a konzol fülre.',
+      skip_video: '[AI_TRANSLATION]Kihagy videót',
+      unavailable: '[AI_TRANSLATION]Nem elérhető',
+    },
 
     browser_recommendation: {
       title: 'A CodeCombat legjobban Chrome alatt működik!',
       pitch_body: 'A legjobb CodeCombat-élmény érdekében javasoljuk a Chrome legújabb verziójának használatát. Töltsd le a Chrome legújabb verzióját az alábbi gombra kattintva!',
       download: 'Chrome letöltése',
-      ignore: 'Figyelmen kívül hagyás'
+      ignore: 'Figyelmen kívül hagyás',
     },
 
     admin: {
       license_type_full: 'Teljes kurzusok',
-      license_type_customize: 'Kurzusok testreszabása'
+      license_type_customize: 'Kurzusok testreszabása',
     },
 
-    //  events:
-    //    title: "CodeCombat Events"
-    //    main_title: "CodeCombat Events"
-    //    main_description: "The important events of codecombat China"
-    //    dashboard: "Events Dashboard"
-    //    online_classes: "Online Classes"
-    //    my_classes: "My Online Classes"
-    //    classes_stats: "Online Classes Stats"
-    //    name: "Name"
-    //    class_name: "Class Name"
-    //    description: "Description"
-    //    owner: "Owner"
-    //    type: "Type"
-    //    members: "Members"
-    //    start_date: "Start Date"
-    //    end_date: "End Time"
-    //    time_range: "Time Range"
-    //    rrule: "Recurrence Rules"
-    //    add_member: "Add Member"
-    //    class_count: "Lessons Count"
-    //    done: "Finished Lesson"
-    //    attendance: "Attendance"
-    //    course_description: "Teacher Notes"
-    //    teacher_notes: "Teacher Notes"
-    //    levels_completed: "Levels Completed"
-    //    no_levels_completed: "No Completed Levels Found"
-    //    no_teacher_notes: "No Teacher Notes Found"
-    //    no_video_recording: "No Video Recording Found"
-    //    reply: "Reply"
-    //    video_recording: "Video Recording"
-    //    import_from_class: "Import from Class"
-    //    link_google_calendar: "Link with Google Calendar"
-    //    sync_to_google: "Sync to Google Calendar"
-    //    synced_to_google: "Synced to Google Calendar"
-    //    google_calendar_attendees: "Google Calendar Attendees"
-    //    calendar: "Calendar"
-    //    edit_instance_tab_desc: "Edit the single instance of this event, for editing whole events, see edit tab"
-    //    edit_event_tab_desc: "Edit the whole event, for editing single instance of this event, see instance tab"
-    //    edit_members_tab_desc: "Edit the member of this event, the startDate is depends on the instance date, so select the first instance for the new member"
-    //    lessons_count_desc: "The total lessons count of this member, normally it is the same as the event instances count, but it can be different if the member is added after the event started or ended before the event ended"
-    //    sync_to_google_desc: "Sync this event to YOUR google calendar, instead of the owner's calendar. And can only work on CodeCombat gmail"
-    //    no_data_display: "No data to display"
-    //    meetingLink: "Meeting Link"
-    //    time_zone: "Time Zone"
-    //    timezone_tips: "Note - Your timezone: "
+    events: {
+      title: '[AI_TRANSLATION]CodeCombat Események',
+      main_title: '[AI_TRANSLATION]CodeCombat Események',
+      main_description: '[AI_TRANSLATION]A codecombat Kína fontos eseményei',
+      dashboard: '[AI_TRANSLATION]Események Irányítópultja',
+      online_classes: '[AI_TRANSLATION]Online órák',
+      my_classes: '[AI_TRANSLATION]Az Én Online Óráim',
+      classes_stats: '[AI_TRANSLATION]Online Osztályok Statisztikái ',
+      //    name: "Name",
+      class_name: '[AI_TRANSLATION]Osztály Név',
+      description: '[AI_TRANSLATION]Leírás',
+      owner: '[AI_TRANSLATION]Tulajdonos',
+      //    type: "Type",
+      //    members: "Members",
+      start_date: '[AI_TRANSLATION]Kezdési dátum',
+      end_date: '[AI_TRANSLATION]Záró idő',
+      time_range: '[AI_TRANSLATION]Időtartam',
+      rrule: '[AI_TRANSLATION]Ismétlődési Szabályok',
+      add_member: '[AI_TRANSLATION]Tag hozzáadása',
+      class_count: '[AI_TRANSLATION]Leckék Száma',
+      done: '[AI_TRANSLATION]Lecke befejezve',
+      attendance: '[AI_TRANSLATION]Jelenlét',
+      course_description: '[AI_TRANSLATION]Tanári Jegyzetek',
+      teacher_notes: '[AI_TRANSLATION]Tanári Jegyzetek',
+      levels_completed: '[AI_TRANSLATION]Teljesített szintek',
+      no_levels_completed: '[AI_TRANSLATION]Nem találhatók befejezett szintek',
+      no_teacher_notes: '[AI_TRANSLATION]Nem Található Tanári Jegyzet  ',
+      no_video_recording: '[AI_TRANSLATION]Nem található videófelvétel',
+      reply: '[AI_TRANSLATION]Válasz',
+      video_recording: '[AI_TRANSLATION]Videó Felvétel',
+      import_from_class: '[AI_TRANSLATION]Importálás osztályból',
+      link_google_calendar: '[AI_TRANSLATION]Csatlakozás a Google Naptárhoz',
+      sync_to_google: '[AI_TRANSLATION]Szinkronizálás a Google Naptárral',
+      synced_to_google: '[AI_TRANSLATION]Szinkronizálva a Google Naptárral',
+      google_calendar_attendees: '[AI_TRANSLATION]Google Naptár Résztvevők',
+      calendar: '[AI_TRANSLATION]Naptár',
+      edit_instance_tab_desc: '[AI_TRANSLATION]Szerkeszd ennek az eseménynek az egyetlen példányát, az egész esemény szerkesztéséhez nézd meg a szerkesztő fület',
+      edit_event_tab_desc: '[AI_TRANSLATION]Szerkeszd az egész eseményt, egyetlen példány szerkesztéséhez lásd az instance fület  ',
+      edit_members_tab_desc: '[AI_TRANSLATION]Szerkeszd ennek az eseménynek a tagját, a startDate az instance dátumától függ, így válaszd ki az első instance-t az új tag számára',
+      lessons_count_desc: '[AI_TRANSLATION]Ennek a tagnak a teljes óraszáma, általában megegyezik az események számával, de eltérhet, ha a tag az esemény kezdése után lett hozzáadva vagy az esemény vége előtt kilépett.',
+      sync_to_google_desc: '[AI_TRANSLATION]Szinkronizáld ezt az eseményt a SAJÁT Google naptáraddal, a tulajdonos naptára helyett. És csak a CodeCombat gmail-en működik.',
+      no_data_display: '[AI_TRANSLATION]Nincs megjeleníthető adat',
+      meetingLink: '[AI_TRANSLATION]Találkozó link',
+      time_zone: '[AI_TRANSLATION]Időzóna',
+      timezone_tips: '[AI_TRANSLATION]Jegyzet - Te időzónád:',
+    },
 
-    //  teacher_dashboard:
-    //    lock: "Lock"
-    //    unlock: "Unlock"
-    //    lock_until_date: "Lock until date"
-    //    skip: "Skip"
-    //    unskip: "Unskip"
-    //    make_optional: "Make optional"
-    //    remove_optional: "Remove Optional"
-    //    until_date: "until __date__"
-    //    unassign: "Unassign"
-    //    locked: "Locked"
-    //    locked_by_previous: "Locked by previous level"
-    //    locked_with_timeframe: "Locked"
-    //    skipped: "Skipped"
-    //    optional: "Optional"
-    //    assigned: "Assigned"
-    //    unlocked: "Unlocked"
-    //    choose_course: "Click to Select from Dropdown"
-    //    teacher_locked_message: "Your teacher has locked the next level"
-    //    plan_your_class_title: "Plan your first class by"
-    //    plan_your_class1: "Viewing course progression info"
-    //    plan_your_class2: "Previewing lesson slides & extension activities"
-    //    plan_your_class3: "Trying the first chapter for free"
-    //    click_dismiss: "Click to Dismiss"
-    //    track_progress: "Track Progress"
-    //    track_progress_desc: "Click into the class you just created to view detailed student progress."
-    //    add_classes_title: "Add Classes Here"
-    //    add_classes: "Add classes and get students started with the first free chapter!"
-    //    all_classes: "All Classes"
-    //    my_licenses: "My Licenses"
-    //    resource_hub: "Teacher Toolkit"
-    //    pd: "Professional Development"
-    //    pd_short: "PD"
-    //    curriculum_guide: "Curriculum Guide"
-    //    add_class: "Add New Class"
-    //    no_licenses_yet: "No licenses yet"
-    //    req_licenses: "Request Licenses"
-    //    license_ratio_used: "__totalUsedLicenses__ out of __totalSpots__"
-    //    licenses_applied: "Licenses Applied"
-    //    student_projects: "Student Projects"
-    //    no_classes_yet: "No classes yet"
-    //    exemplar_project: "Exemplar Project"
-    //    capstone_proj_for: "Capstone Project for __courseName__"
-    //    project_rubric: "Project Rubric"
-    //    select_chapter: "Select Chapter"
-    //    concept_flag: "Concept Flag"
-    //    support_learning: "Support Learning"
-    //    concept_flag_desc: "More than 50% of the class attempted a Concept Check 3 or more times."
-    //    concept_flag_desc2: "Student attempted a Concept Check 3 or more times."
-    //    click_progress_dot_tip: "Tip: Click on the progress bubbles for more details"
-    //    color_code: "Color Code"
-    //    content_guide: "Content Guide"
-    //    story: "Story"
-    //    cutscenes: "Cutscenes"
-    //    cutscenes_tooltip: "<h3>Cutscene</h3><p>Short videos that explain parts of the epic Ozaria narrative.</p>"
-    //    cinematics: "Cinematics"
-    //    concept_checks: "Concept Checks"
-    //    practice_levels: "Practice Levels"
-    //    challenge_levels: "Challenge Levels"
-    //    capstone_levels: "Capstone Levels"
-    //    intro: "Intro"
-    //    practice: "Practice"
-    //    assess: "Assess"
-    //    view_options: "View Options"
-    //    manage_class: "Manage Class"
-    //    assign_content: "Assign Content"
-    //    remove_students: "Remove Students"
-    //    revoke_licenses: "Revoke Licenses"
-    //    remaining_licenses: "__remaining__ license(s) remaining"
-    //    start_date: "Start: __date__"
-    //    end_date: "End: __date__"
-    //    license_questions: "Have questions about applying or revoking licenses?"
-    //    need_more_licenses: "Need more licenses? We'll help you build a solution that meets your needs."
-    //    see_also_our: "See also our"
-    //    for_more_funding_resources: "for how to leverage CARES Act funding sources like ESSER and GEER."
-    //    support_oz: "support@ozaria.com"
-    //    standards_alignment: "Standards Alignment"
-    //    standards_sample: "A sample of the standards covered in this Chapter:"
-    //    play_chapter: "Play Chapter"
-    //    class_time_range: "Class Time (Range):"
-    //    in_game_play_time: "In-Game Play Time:"
-    //    class_time: "Class Time"
-    //    solution_guide: "Solution Guide"
-    //    module: "Module"
-    //    need_licenses_tooltip: "<h3>You need licenses to access this content!</h3><p>Please visit the <a href='/teachers/licenses'>My Licenses</a> page for more information.</p>"
-    //    lesson_slides_tooltip: "<h3>Lesson Slides</h3><p>Downloadable, step-by-step presentation slides for guiding students through module learning objectives</p>"
-    //    project_rubric_tooltip: "<h3>Project Rubric</h3><p>Downloadable and modifiable scoring rubric for the Capstone Project</p>"
-    //    exemplar_projects_tooltip: "<h3>Exemplar Project</h3><p>Live view of the exemplar Capstone Project</p>"
-    //    want_to_save_tooltip: "<h3>Want to save your progress?</h3><p>Please create a student account and play Ozaria as a student if you would like to save your progress.</p>"
-    //    intro_explain_tooltip: "<b>\"Intros\"</b> introduce new concepts or further the storyline in a scaffolded way. They typically include Cinematics and/or Concept Checks."
-    //    chapter_num: "Chapter __num__"
-    //    read: "View Only"
-    //    write: "Full Access"
-    //    read_blurb: "View Only permits the added teacher to view your class and student progress without the ability to make changes to your class."
-    //    write_blurb: "Full Access grants the added teacher the ability to make modifications to your class (add/remove students, assign chapters, modify licensure)"
-    //    shared_with_none: "This class is not currently shared with any other teachers."
-    //    shared_with: "Shared with"
-    //    share_info: "To give other teachers access to the class, add their emails below."
-    //    class_owner: "Class Owner"
-    //    share: "Share"
-    //    add: "Add"
-    //    note: "Note"
-    //    lock_or_skip_levels: "Lock or Skip Levels"
-    //    level_access_status_blurb: "When you choose to skip a level, it will have both the 'locked' and 'optional' status. Unskipping the level will remove both the 'locked' and 'optional' statuses."
-    //    reset_progress: "Reset Progress"
+    teacher_dashboard: {
+      lock: '[AI_TRANSLATION]Zár',
+      unlock: '[AI_TRANSLATION]Kinyit',
+      lock_until_date: '[AI_TRANSLATION]Zárva a dátumig',
+      skip: '[AI_TRANSLATION]Kihagy',
+      unskip: '[AI_TRANSLATION]Visszakapcsolás ',
+      make_optional: '[AI_TRANSLATION]Legyen opcionális',
+      remove_optional: '[AI_TRANSLATION]Eltávolítás Választható',
+      until_date: '[AI_TRANSLATION]__date__-ig',
+      unassign: '[AI_TRANSLATION]Kijelölést Visszavon',
+      //    locked: "Locked",
+      locked_by_previous: '[AI_TRANSLATION]Előző szint által zárolva',
+      //    locked_with_timeframe: "Locked",
+      //    skipped: "Skipped",
+      //    optional: "Optional",
+      //    assigned: "Assigned",
+      //    unlocked: "Unlocked",
+      unassigned: '[AI_TRANSLATION]Guangfu Általános Iskola - Q4 - Szövegalapú Tanulás Végső Tesztje',
+      //    complete: "Complete",
+      //    progress: "In Progress",
+      choose_course: '[AI_TRANSLATION]Kattints a kiválasztáshoz a legördülő listából',
+      teacher_locked_message: '[AI_TRANSLATION]A tanárod lezárta a következő szintet',
+      plan_your_class_title: '[AI_TRANSLATION]Tervezd meg az első órádat',
+      plan_your_class1: '[AI_TRANSLATION]A tanfolyam előrehaladási információinak megtekintése',
+      plan_your_class2: '[AI_TRANSLATION]Órai diák és kiegészítő tevékenységek előnézete',
+      plan_your_class3: '[AI_TRANSLATION]Próbáld ki az első fejezetet ingyen',
+      click_dismiss: '[AI_TRANSLATION]Kattints a bezáráshoz',
+      track_progress: '[AI_TRANSLATION]Haladás követése',
+      track_progress_desc: '[AI_TRANSLATION]Kattints az éppen létrehozott osztályra, hogy részletesen megnézd a diákok előrehaladását.',
+      add_classes_title: '[AI_TRANSLATION]Itt adhatod hozzá az osztályokat',
+      add_classes: '[AI_TRANSLATION]Adj hozzá órákat, és kezdd el a tanulókkal az első ingyenes fejezetet!',
+      all_classes: '[AI_TRANSLATION]Összes osztály',
+      my_licenses: '[AI_TRANSLATION]Az én engedélyeim',
+      resource_hub: '[AI_TRANSLATION]Tanári Eszköztár',
+      pd: '[AI_TRANSLATION]Szakmai Fejlődés',
+      pd_short: '[AI_TRANSLATION]PD',
+      apcsp: '[AI_TRANSLATION]APCSP',
+      curriculum_guide: '[AI_TRANSLATION]Tantervi Útmutató',
+      curriculum: '[AI_TRANSLATION]Tanterv',
+      coming_soon: '[AI_TRANSLATION]Hamarosan!',
+      add_class: '[AI_TRANSLATION]Új osztály hozzáadása',
+      no_licenses_yet: '[AI_TRANSLATION]Még nincsenek engedélyek',
+      req_licenses: '[AI_TRANSLATION]Kérj engedélyeket',
+      license_ratio_used: '[AI_TRANSLATION]__totalUsedLicenses__ a __totalSpots__ küzül',
+      licenses_applied: '[AI_TRANSLATION]Alkalmazott licencek',
+      student_projects: '[AI_TRANSLATION]Diákprojektek',
+      no_classes_yet: '[AI_TRANSLATION]Még nincsenek osztályok',
+      exemplar_project: '[AI_TRANSLATION]Példa Projekt',
+      capstone_proj_for: '[AI_TRANSLATION]__courseName__ Záróprojektje',
+      project_rubric: '[AI_TRANSLATION]Projekt Értékelőlap',
+      select_chapter: '[AI_TRANSLATION]Válassz Fejezetet',
+      select_course: '[AI_TRANSLATION]Válaszd ki a kurzust',
+      concept_flag: '[AI_TRANSLATION]Koncepció Zászló',
+      support_learning: '[AI_TRANSLATION]Tanulás Támogatása ',
+      concept_flag_desc: '[AI_TRANSLATION]Az osztály több mint 50%-a próbálkozott a Fogalom Ellenőrzés 3-mal vagy többször.  ',
+      concept_flag_desc2: '[AI_TRANSLATION]A diák 3-szor vagy többször próbálkozott egy fogalmi teszttel.',
+      click_progress_dot_tip: '[AI_TRANSLATION]Tipp: Kattints a haladás buborékokra a további részletekért',
+      color_code: '[AI_TRANSLATION]Színkód',
+      content_guide: '[AI_TRANSLATION]Tartalom útmutató',
+      //    story: "Story",
+      cutscenes: '[AI_TRANSLATION]Közjátékok',
+      cutscenes_tooltip: '[AI_TRANSLATION]<h3>Átvezetés</h3><p>Rövid videók, amik bemutatják az Ozaria történetének részeit.</p>',
+      cinematics: '[AI_TRANSLATION]Filmes betétek',
+      concept_checks: '[AI_TRANSLATION]Fogalmi Ellenőrzések',
+      //    practice_level: "Practice Level",
+      practice_levels: '[AI_TRANSLATION]Gyakorló Szintek',
+      //    extra_practice: "Extra Practice",
+      challenge_levels: '[AI_TRANSLATION]Kihívás Szintek',
+      capstone_levels: '[AI_TRANSLATION]Capstone Szintek',
+      //    intro: "Intro",
+      //    practice: "Practice",
+      assess: '[AI_TRANSLATION]Értékelés',
+      view_options: '[AI_TRANSLATION]Nézet Opciók  ',
+      manage_class: '[AI_TRANSLATION]Osztály Kezelése',
+      assign_content: '[AI_TRANSLATION]Tartalom Hozzárendelése',
+      remove_students: '[AI_TRANSLATION]Diákok Eltávolítása',
+      revoke_licenses: '[AI_TRANSLATION]Engedélyek visszavonása',
+      remaining_licenses: '[AI_TRANSLATION]__remaining__ licenc maradt',
+      start_date: '[AI_TRANSLATION]Kezdés: __date__',
+      end_date: '[AI_TRANSLATION]Vége: __date__',
+      license_questions: '[AI_TRANSLATION]Kérdéseid vannak a licencek alkalmazásáról vagy visszavonásáról?',
+      need_more_licenses: '[AI_TRANSLATION]Több licencre van szükséged? Segítünk megoldást építeni, hogy megfeleljen a szükségeidnek.',
+      see_also_our: '[AI_TRANSLATION]Lásd még a miénket',
+      for_more_funding_resources: '[AI_TRANSLATION]hogyan használd ki a CARES Act finanszírozási forrásokat, mint például az ESSER és a GEER.',
+      support_oz: '[AI_TRANSLATION]support@ozaria.com',
+      standards_alignment: '[AI_TRANSLATION]Szabványokhoz Igazítás',
+      standards_sample: '[AI_TRANSLATION]Egy minta az ebben a fejezetben tárgyalt szabványokból:',
+      add_course_to_classroom: '[AI_TRANSLATION]Adj hozzá Kurzust',
+      play_chapter: '[AI_TRANSLATION]Fejezet játszása',
+      play_course: '[AI_TRANSLATION]Tanfolyam Lejátszása',
+      class_time_range: '[AI_TRANSLATION]Osztályidő (Tartomány):',
+      in_game_play_time: '[AI_TRANSLATION]Játékbeli játékidő:',
+      class_time: '[AI_TRANSLATION]Óraidő',
+      solution_guide: '[AI_TRANSLATION]Megoldási Útmutató',
+      module: '[AI_TRANSLATION]Modul',
+      need_licenses_tooltip: "[AI_TRANSLATION]<h3>Licenc szükséges ehhez a tartalomhoz!</h3><p>Kérjük, látogasd meg a <a href='/teachers/licenses'>Licenceim</a> oldalt további információkért.</p>",
+      lesson_slides_tooltip: '[AI_TRANSLATION]<h3>Lecke Diák</h3><p>Letölthető, lépésről lépésre haladó prezentációs diák a tanulók vezérléséhez a modul tanulási céljain keresztül</p>',
+      project_rubric_tooltip: '[AI_TRANSLATION]<h3>Projekt Értékelési Táblázat</h3><p>Letölthető és módosítható értékelési táblázat a Végső Projekt számára</p>',
+      exemplar_projects_tooltip: '[AI_TRANSLATION]<h3>Példás projekt</h3><p>Az példás Capstone projekt élő nézete</p>',
+      add_course_to_classroom_tooltip: '[AI_TRANSLATION]<h3>Kurzus hozzáadása az Osztályhoz</h3><p>Ez a kurzus még nincs az osztályodban. Hozzáadásához kattints erre a gombra.</p>',
+      want_to_save_tooltip: '[AI_TRANSLATION]<h3>Meg akarod menteni a haladásodat?</h3><p>Kérjük, hozz létre egy diákfiókot, vagy menj a <i>Saját fiók / Teszt diáként</i> menüpontra, és játssz Ozaria-ként diák módban, ha meg akarod menteni a haladásodat.</p>',
+      want_to_save_tooltip_coco: '[AI_TRANSLATION]<h3>El szeretnéd menteni az eddigi állásodat?</h3><p>Kérjük, hozz létre egy diák fiókot, vagy menj a <i>Fiókom / Teszt diák szerepben</i> részhez, és játszd a CodeCombat-ot diákként, ha el szeretnéd menteni a haladásod.</p>',
+      intro_explain_tooltip: '[AI_TRANSLATION]A <b>"Bemutatók"</b> új fogalmakat vezetnek be vagy a történetet fejlesztik építő módon. Általában tartalmaznak filmeket és/vagy fogalom-ellenőrzéseket.\n',
+      chapter_num: '[AI_TRANSLATION]Fejezet __num__',
+      read: '[AI_TRANSLATION]Csak megtekintés',
+      write: '[AI_TRANSLATION]Teljes hozzáférés',
+      read_blurb: '[AI_TRANSLATION]Az "Csak megtekintés" lehetővé teszi a hozzáadott tanár számára, hogy megtekintse az osztályodat és a diákok haladását anélkül, hogy változtatásokat végezhetne.',
+      write_blurb: '[AI_TRANSLATION]A Teljes Hozzáférés lehetőséget ad a hozzáadott tanárnak, hogy módosításokat hajtson végre az osztályodon (diákok hozzáadása/eltávolítása, fejezetek hozzárendelése, engedélyezési feltételek módosítása)',
+      shared_with_none: '[AI_TRANSLATION]Ezt az osztályt jelenleg nem osztják meg más tanárokkal.',
+      shared_with: '[AI_TRANSLATION]Megosztva vele',
+      share_info: '[AI_TRANSLATION]Hogy más tanárok is hozzáférhessenek az osztályhoz, add meg az e-mail címüket alább.',
+      class_owner: '[AI_TRANSLATION]Osztály tulajdonos',
+      share: '[AI_TRANSLATION]Megosztás',
+      add: '[AI_TRANSLATION]Hozzáadás',
+      note: '[AI_TRANSLATION]Megjegyzés',
+      lock_or_skip_levels: '[AI_TRANSLATION]Szintek zárolása vagy kihagyása',
+      level_access_status_blurb: '[AI_TRANSLATION]Ha úgy döntesz, hogy kihagy egy szintet, annak mind "locked" (lezárt), mind "optional" (opcionális) státusza lesz. A szint újrázása eltávolítja mind a "locked", mind az "optional" státuszokat.',
+      reset_progress: '[AI_TRANSLATION]Haladás visszaállítása',
+      export_progress: '[AI_TRANSLATION]Haladás exportálása',
+      assessments_tab: '[AI_TRANSLATION]Felmérések',
+      ai_hackstack_junior_tab: '[AI_TRANSLATION]AI HackStack Jr',
+      switch_on: '[AI_TRANSLATION]Bekapcsolva',
+      switch_off: '[AI_TRANSLATION]Kikapcsolt',
+      ai_league: '[AI_TRANSLATION]AI Liga',
+      version_old: '[AI_TRANSLATION]Régi',
+      version_new: '[AI_TRANSLATION]Új',
+      dashboard_version: '[AI_TRANSLATION]Irányítópult Verzió',
+      arena_days_left: '[AI_TRANSLATION]Napok hátra a szezonból __season__, __arenaName__:',
+      arena_days_elapse: '[AI_TRANSLATION]Szezon __season__, __arenaName__ véget ért __time__',
+      global_stats_vs_team_stats: '[AI_TRANSLATION]Globális statisztikák vs csapat statisztikák',
+      global_stats: '[AI_TRANSLATION]Globális statisztikák',
+      show_stats_for_all_players_and_teams: '[AI_TRANSLATION]mutasd a statisztikákat az összes játékosról és csapatról.',
+      team_stats: '[AI_TRANSLATION]Csapat Statisztikák',
+      show_stats_for_individuals_playing_on_the_same_team: '[AI_TRANSLATION]Statisztikák mutatása ugyanazon a csapaton játszó egyének számára.',
+      for_each_class_you_add_a_team_will_be_automatically_created_for_the_students_in_that_class: '[AI_TRANSLATION]Minden osztályhoz, amit hozzáadsz, automatikusan létrejön egy csapat az adott osztály diákjainak.',
+      view_team_page: '[AI_TRANSLATION]Csapat oldal megtekintése\n',
+      no_modifiers_changed: '[AI_TRANSLATION]Ezeknek a diákoknak már módosított szintek',
+      no_modifiers_changed_unlocks_skipped: '[AI_TRANSLATION]Úgy tűnik, megpróbáltál olyan szinteket feloldani, amelyek jelenleg nincsenek zárolva. Kérlek, vedd figyelembe, ha a kiválasztott szint zárolt, akkor valószínűleg az azt megelőző szint is zárolt. A továbblépéshez először győződj meg róla, hogy az előző szint fel van oldva.  ',
+      view_custom_league: '[AI_TRANSLATION]Egyéni Liga Megtekintése',
+      view_global_league: '[AI_TRANSLATION]Globális Liga Megtekintése  ',
+      refresh_progress: '[AI_TRANSLATION]Haladás frissítése',
+      assign_content_first: '[AI_TRANSLATION]Kérjük, győződj meg róla, hogy a tartalom hozzá van rendelve a diákokhoz, mielőtt módosítod a hozzáférési szinteket',
+      failed_attempts: '[AI_TRANSLATION]Sikertelen kísérletek',
+      no_failed_attempts: '[AI_TRANSLATION]Nincs Hibás Kísérlet',
+      failed_attempts_subtext: '[AI_TRANSLATION]Az alkalom, amikor helytelen lehetőséget választottak',
+      open_project: '[AI_TRANSLATION]Projekt megnyitása',
+      create_class_hackstack: '[AI_TRANSLATION]Kérlek, hozz létre egy új osztályt az AI HackStack eléréséhez',
+      add_club: '[AI_TRANSLATION]Új Klub Hozzáadása  ',
+      test_student_only: '[AI_TRANSLATION](Csak teszthallgatóknak)',
+      ready_to_review: '[AI_TRANSLATION]Készen állsz az áttekintésre  ',
+      ozaria_hs_modal_title: '[AI_TRANSLATION]AI Hackstack kizárólagos elérése a CodeCombaton',
+      ozaria_hs_modal_blurb: '[AI_TRANSLATION]A pedagógusok mostantól közvetlenül elérhetik az AI Hackstack-et a **[https://codecombat.com/teachers/classes]CodeCombat** oldalon, ugyanazokkal a hitelesítő adatokkal, mint az Ozaria. A nagyobb kényelem érdekében könnyen importálhatod az osztályaidat az Ozariaról a CodeCombat-ra.  ',
+      //    ozaria_ai_league_modal_title: "Access AI League Exclusively on CodeCombat",
+      //    ozaria_ai_league_modal_blurb: "Educators can now access AI League directly on **[https://codecombat.com/teachers/ai-league]CodeCombat** using the same credentials as Ozaria. For added convenience, you can easily import your classes from Ozaria into CodeCombat.",
+      //    completed_all_practice_levels: "The student has successfully completed all practice levels.",
+      //    played_some_practice_levels: "The student has started working on the practice levels.",
+      //    ai_league_start_title: "Welcome to AI League!",
+      //    ai_league_start_blurb: "Our Getting Started guide walks you through everything you need to know - from setting up your first class to running your first tournament.",
+      //    ai_league_curriculum_title: "AI League Curriculum",
+      //    ai_league_curriculum_blurb: "Access our comprehensive curriculum guides designed specifically for AI League arenas. These resources help you introduce competitive coding concepts and teach strategic thinking.",
+      //    ai_league_custom_title: "Custom AI League Tournaments",
+      //    ai_league_custom_blurb: "Create your own customized tournaments to engage your students! Select from our library of coding arenas and set competition dates, whether it's a classroom challenge or a school-wide competition.",
+      //    this_project_is_remixed: "This project is remixed.",
+      //    view_original_project: "View Original Project",
+      //    activate_license: "Activate License",
+      //    violation: "Violation",
+      //    safety_violations: "Safety Violations",
+      //    collapse: "Collapse",
+    },
 
-    //  outcomes:
-    //    outcomes_report: "Outcomes Report"
-    //    customize_report: "Customize Report"
-    //    done_customizing: "Done Customizing"
-    //    start_date: "Start date"
-    //    end_date: "End date"
-    //    school_admin: "School Administrator"
-    //    school_network: "School Network"
-    //    school_subnetwork: "School Subnetwork"
-    //    classroom: "Classroom"
-    //    view_outcomes_report: "View Outcomes Report"
-    //    key_concepts: "Key Concepts"
-    //    code_languages: "Code Languages"
-    //    using_codecombat: "Using CodeCombat's personalized learning engine..."
-    //    wrote: "wrote..."
-    //    across_an_estimated: "across an estimated..."
-    //    in: "in..."
-    //    include: "Include "
-    //    archived: "Archived"
-    //    max: "Max "
-    //    multiple: "s"
-    //    computer_program: "computer program"
-    //    computer_programs: "computer programs"
-    //    line_of_code: "line of code"
-    //    lines_of_code: "lines of code"
-    //    coding_hours: "coding hours"
-    //    expressed_creativity: "and expressed creativity by building"
-    //    report_content_1: "standalone game and web "
-    //    project: "project"
-    //    projects: "projects"
-    //    progress_stats: "Progress stats based on sampling __sampleSize__ of __populationSize__ students."
-    //    standards_coverage: "Standards Coverage"
-    //    coverage_p1_coco: "The full CodeCombat curriculum covers major programming standards in several widely-adopted frameworks, including those of the International Society for Technology in Education (ISTE), the Computer Science Teacher Association (CSTA), and the K-12 Computer Science Framework."
-    //    coverage_p1_ozar: "The full Ozaria curriculum covers major programming standards in several widely-adopted frameworks, including those of the International Society for Technology in Education (ISTE), the Computer Science Teacher Association (CSTA), and the K-12 Computer Science Framework."
-    //    coverage_p2_coco: "At CodeCombat, we believe that students will be most prepared for both real-world computing jobs and further study of computer science by using real, typed code in full programming languages, so instead of using block-based visual programming languages for beginners, we teach Python and JavaScript – the same languages used widely today by companies ranging from Google to the New York Times."
-    //    coverage_p2_ozar: "Ozaria is created by the CodeCombat, the game-based learning company. We believe that students will be most prepared for both real-world computing jobs and further study of computer science by using real, typed code in full programming languages, so instead of using block-based visual programming languages for beginners, we teach Python and JavaScript – the same languages used widely today by companies ranging from Google to the New York Times."
-    //    questions: "Have questions or want more information? We'd be happy to help."
-    //    reach_out_manager: "Reach out to your Account Manager __name__ at "
-    //    stats_include: "stats include __number__ other __name__"
+    outcomes: {
+      outcomes_report: '[AI_TRANSLATION]Eredmény Jelentés',
+      customize_report: '[AI_TRANSLATION]Jelentés Testreszabása',
+      done_customizing: '[AI_TRANSLATION]Egyedi Beállítás Kész',
+      start_date: '[AI_TRANSLATION]Kezdési dátum',
+      end_date: '[AI_TRANSLATION]Záró dátum',
+      country: '[AI_TRANSLATION]Ország',
+      school_admin: '[AI_TRANSLATION]Iskolai Adminisztrátor',
+      school_network: '[AI_TRANSLATION]Iskolai Hálózat',
+      school_subnetwork: '[AI_TRANSLATION]Iskolai Alhálózat',
+      classroom: '[AI_TRANSLATION]Osztályterem',
+      view_outcomes_report: '[AI_TRANSLATION]Nézd meg az Eredmények Jelentést',
+      key_concepts: '[AI_TRANSLATION]Főbb Fogalmak',
+      code_languages: '[AI_TRANSLATION]Kódnyelvek',
+      using_codecombat: '[AI_TRANSLATION]A CodeCombat személyre szabott tanulómotorjának használata...',
+      wrote: '[AI_TRANSLATION]írta...',
+      across_an_estimated: '[AI_TRANSLATION]egy becsült...',
+      in: '[AI_TRANSLATION]...ban',
+      include: '[AI_TRANSLATION]Tartalmaz ',
+      archived: '[AI_TRANSLATION]Archivált',
+      max: '[AI_TRANSLATION]Max',
+      multiple: '[AI_TRANSLATION]s',
+      computer_program: '[AI_TRANSLATION]Ügyetlen Kör',
+      computer_programs: '[AI_TRANSLATION]számítógépes programok',
+      line_of_code: '[AI_TRANSLATION]kódsor',
+      lines_of_code: '[AI_TRANSLATION]kódsorok',
+      coding_hours: '[AI_TRANSLATION]kódolási órák',
+      expressed_creativity: '[AI_TRANSLATION]és kreativitást fejeztél ki az építkezés során',
+      report_content_1: '[AI_TRANSLATION]önálló játék és web',
+      project: '[AI_TRANSLATION]projekt',
+      projects: '[AI_TRANSLATION]projektek',
+      progress_stats: '[AI_TRANSLATION]Haladási statisztikák __sampleSize__ mintavételi méretből __populationSize__ diák alapján.',
+      standards_coverage: '[AI_TRANSLATION]Szabványok lefedettsége',
+      coverage_p1_coco: '[AI_TRANSLATION]A CodeCombat teljes tananyaga főbb programozási szabványokat fed le több széles körben alkalmazott keretrendszerben, beleértve a Nemzetközi Technológiai Oktatási Társaság (ISTE), a Számítástechnikai Tanárok Egyesülete (CSTA) és a K-12 Számítástechnikai Keret szabványait.',
+      coverage_p1_ozar: '[AI_TRANSLATION]Az Ozaria teljes tanterve számos programozási szabványt fed le, amelyek többek között a Nemzetközi Technológiai Társaság (ISTE), a Számítástechnikai Tanárok Szövetsége (CSTA) és a K-12 Számítástechnikai Keretrendszer szabványait is magukban foglalják.',
+      coverage_p2_coco: '[AI_TRANSLATION]A CodeCombatnál azt hisszük, hogy a tanulók akkor lesznek a legjobban felkészülve a valódi számítógépes munkákra és a számítástechnika további tanulmányozására, ha valódi, gépelhető kódot használnak teljes programozási nyelvekben, így kezdőknek való blokk-alapú vizuális programozási nyelvek helyett mi Pythont és JavaScriptet tanítunk – ugyanazokat a nyelveket, amiket ma széles körben használnak cégek, azoktól kezdve, mint a Google, egészen a New York Times-ig.',
+      coverage_p2_ozar: '[AI_TRANSLATION]Az Ozaria-t a CodeCombat, a játék-alapú tanulási cég készítette. Hiszünk abban, hogy a diákok a valódi, gépelt kódok használatával a legjobban felkészülhetnek mind a valós számítógépes munkákra, mind a számítástechnika további tanulmányozására, ezért a kezdőknek szánt blokk-alapú vizuális programozási nyelvek helyett Python-t és JavaScript-et tanítunk – ugyanazokat a nyelveket, amelyeket ma széles körben használnak olyan cégek, mint a Google és a New York Times.',
+      questions: '[AI_TRANSLATION]Kérdéseid vannak vagy több információra vágysz? Boldogan segítünk.',
+      reach_out_manager: '[AI_TRANSLATION]Vedd fel a kapcsolatot az Account Managereddel, __name__.',
+      stats_include: '[AI_TRANSLATION]A statisztikák tartalmazzák __number__ egyéb __name__',
+      include_other_product: '[AI_TRANSLATION]Mutasd a __product__ statisztikáit',
+      show_other_product: '[AI_TRANSLATION]Mutasd a __product__ statisztikáit',
+      show_license_stats: '[AI_TRANSLATION]Mutasd a Részletes Licenc Statisztikát',
+      show_license_summary: '[AI_TRANSLATION]Licenc összegzés megjelenítése',
+      license_stats: '[AI_TRANSLATION]Licenc Statisztikák',
+      license_template: '[AI_TRANSLATION]<b>Licenszek</b>: __used__ használt, __available__ elérhető  ',
+      licensed_teachers: '[AI_TRANSLATION]<b>Licencelt tanárok</b>: __teachers__',
+      licensed_schools: '[AI_TRANSLATION]<b>Licenccel rendelkező iskolák</b>: __schools__',
+      //    students: "Students",
+      teachers: '[AI_TRANSLATION]Tanárok',
+      licensesUsed: '[AI_TRANSLATION]Felhasznált Licensek',
+      //    schools: "Schools",
+      top_teacher_info: '[AI_TRANSLATION]Tanár __A__, __B__ és __n__ más tanár használja a platformunkat',
+      top_teacher_info_1: '[AI_TRANSLATION]Tanár __A__ és __B__ használják a platformunkat.',
+      top_teacher_info_2: '[AI_TRANSLATION]Tanár __A__ használja a platformunkat',
+      ai_league: '[AI_TRANSLATION]AI Liga',
+      ai_league_stats: '[AI_TRANSLATION]__n__ játékos játszott az AI League arénákban',
+    },
 
-    //  efficacy:
-    //    ozaria_efficacy: "Ozaria Efficacy"
-    //    header_subtitle: "Ozaria has proven to have a positive impact on the student learning outcomes that matter most to both students and educators."
-    //    pathway_dialog_line1: "while True:"
-    //    pathway_dialog_line2: "hero.moveDown(1)"
-    //    pathway_dialog_line3: "hero.moveRight(2)"
-    //    exploring_creativity: "Exploring Creativity"
-    //    exploring_creativity_description: "Almost all students surveyed said they really enjoyed being able to create their own game at the end of each Chapter."
-    //    essential_skills: "Essential Skills"
-    //    essential_skills_description: "Teachers found Ozaria to be a superior curriculum for teaching complex coding concepts as well as essential 21st century skills, such as problem solving and reasoning, critical and computational thinking skills."
-    //    fun_engaging: "Fun & Engaging"
-    //    fun_engaging_description: "Ozaria was reported to be a fun and engaging curriculum. Students especially noted how effective it was in teaching text-based coding, and how the tutorials, hints, and error messages provided the appropriate amount of support."
-    //    easy_to_use: "Easy to Use"
-    //    easy_to_use_description: "Both teacher and students found the platform easy to implement and use."
-    //    mcintosh_study_title: "Increasing Score Gains on Assessments"
-    //    mcintosh_middle_school: "McIntosh Middle School"
-    //    mcintosh_study_description: "A novice teacher with advanced level coding experience taught three cohorts of students. Each cohort was studied across a full semester."
-    //    study_highlights_title: "Highlights from the study results:"
-    //    mcintosh_study_highlight_1: "98% of students rated their level of enthusiasm for Ozaria as high or extremely high"
-    //    mcintosh_study_highlight_2: "100% of students scored above 70% on both the mid-term and final assessments"
-    //    read_the_study: "Read the Study (PDF)"
-    //    mrms_study_title: "Gaining Confidence in Computer Science"
-    //    mountain_ridge_middle_school: "Mountain Ridge Middle School"
-    //    mrms_study_description: "An experienced teacher with beginning level coding experience taught two cohorts of students. Each cohort was studied across a full semester."
-    //    mrms_study_highlight_1: "Students made an average gain score of 33% between the pre-assessment and the final assessment"
-    //    mrms_study_highlight_2: " Both the teacher and students found Ozaria to be fun, engaging, and easy to use."
-    //    graph1_description: "Students made a 47% average gain score between the pre-assessment and the final assessment."
-    //    graph2_description: "More than 90% of students rated their coding confidence level as Confident or Extremely Confident after using Ozaria."
-    //    quote_section_content: "One thing I am able to do now that I could not do before is actually believe I can code."
-    //    quote_section_footer: "Student, Mountain Ridge Middle School"
-    //    teacher_quote1_content: "The curriculum had students thoroughly engaged. They enjoyed the story and the characters. More importantly, they gained confidence in their ability to solve complex problems with concepts they'd learned in Ozaria."
-    //    teacher_quote1_footer1: "Ronnie Cox, Teacher"
-    //    teacher_quote1_footer2: "McIntosh Middle School"
-    //    student_quote_content: "I like that you can make a mistake and the game corrects it or tells you that there's an error. A lot of beginners make a lot of mistakes when coding and sometimes don't know how to code, so they can't correct their mistakes because they don't know what's wrong. Ozaria is the perfect coding game for beginners."
-    //    student_quote_footer: "Student, McIntosh Middle School"
-    //    teacher_quote2_content: "I have absolutely loved using Ozaria in my class for the past three years. My students have thoroughly enjoyed the storyline as they learned Python in a self-paced learning environment. I would highly recommend Ozaria for teachers that know little to nothing about coding, as the support for teachers is very in-depth."
-    //    teacher_quote2_footer1: "Lynette Personett, Teacher"
-    //    teacher_quote2_footer2: "Mountain Ridge Middle School"
-    //    commitment_title: "CodeCombat’s Commitment to Efficacy"
-    //    commitment_description: "We are committed to ensuring our products have a positive and measurable impact on learning outcomes. We create meaningful learning experiences, and use evidence-based practices to design content that will realize the outcomes that matter the most to teachers and students."
-    //    commitment_question: "Interested in implementing an effective and impactful CS curriculum at your school?"
-    //    teachers_love_codecombat: "Teachers Love CodeCombat"
-    //    teachers_love_description: "Explore the impact of our sister product, CodeCombat, on Computer Science teaching & learning!"
-    //    teachers_love_box1: "Report that their students enjoy using CodeCombat to learn how to code"
-    //    teachers_love_box2: "Would recommend CodeCombat to other computer science teachers"
-    //    teachers_love_box3: "Say that CodeCombat helps them support students’ problem solving abilities"
-    //    classroom_image: "Classroom"
-    //    ozaria_branding_logo: "Ozaria branding logo"
-    //    dog: "Dog"
-    //    hero: "Hero"
-    //    teacher: "Teacher"
+    efficacy: {
+      ozaria_efficacy: '[AI_TRANSLATION]Ozaria Hatékonyság\n',
+      header_subtitle: '[AI_TRANSLATION]Ozaria bizonyítottan pozitív hatással van a diákok tanulmányi eredményeire, amelyek mind a diákok, mind a pedagógusok számára a legfontosabbak.',
+      pathway_dialog_line1: '[AI_TRANSLATION]while True:',
+      pathway_dialog_line2: '[AI_TRANSLATION]hero.moveDown(1)',
+      pathway_dialog_line3: '[AI_TRANSLATION]hero.moveRight(2)',
+      exploring_creativity: '[AI_TRANSLATION]A kreativitás felfedezése\n',
+      exploring_creativity_description: '[AI_TRANSLATION]Majdnem minden felmért diák azt mondta, hogy nagyon élvezte, hogy saját játékot készíthetett minden Fejezet végén.',
+      essential_skills: '[AI_TRANSLATION]Alapvető készségek',
+      essential_skills_description: '[AI_TRANSLATION]A tanárok úgy találták, hogy az Ozaria kiváló tanterv a bonyolult kódolási fogalmak, valamint alapvető 21. századi készségek, például a problémamegoldás és érvelés, kritikus és számítástechnikai gondolkodási készségek tanítására.',
+      fun_engaging: '[AI_TRANSLATION]Szórakoztató és Magával ragadó',
+      fun_engaging_description: '[AI_TRANSLATION]Az Ozariáról azt jelentették, hogy szórakoztató és magával ragadó tananyag. A diákok különösen megjegyezték, milyen hatékony volt a szövegalapú kódolás tanításában, és hogy az oktatóanyagok, tippek, valamint a hibaüzenetek megfelelő támogatást nyújtottak.',
+      easy_to_use: '[AI_TRANSLATION]Könnyen használható',
+      easy_to_use_description: '[AI_TRANSLATION]Mind a tanár, mind a diákok könnyűnek találták a platform használatát.',
+      mcintosh_study_title: '[AI_TRANSLATION]Pontszerzés növelése a felméréseken',
+      mcintosh_middle_school: '[AI_TRANSLATION]McIntosh Középiskola',
+      mcintosh_study_description: '[AI_TRANSLATION]Egy kezdő tanár, akinek haladó szintű kódolási tapasztalata van, három diákcsoportot tanított. Mindegyik csoportot egy teljes szemeszteren keresztül tanulmányozták. ',
+      study_highlights_title: '[AI_TRANSLATION]A tanulmány eredményeinek kiemelt részei:  ',
+      mcintosh_study_highlight_1: '[AI_TRANSLATION]A diákok 98%-a magas vagy nagyon magas szintű lelkesedéssel értékelte Ozariát.',
+      mcintosh_study_highlight_2: '[AI_TRANSLATION]A diákok 100%-a 70% felett teljesített mind a középtávú, mind a végső értékeléseken.',
+      read_the_study: '[AI_TRANSLATION]Olvasd el a Tanulmányt (PDF)',
+      mrms_study_title: '[AI_TRANSLATION]Magabiztosságot Szerezni az Informatikában',
+      mountain_ridge_middle_school: '[AI_TRANSLATION]Mountain Ridge Középiskola',
+      mrms_study_description: '[AI_TRANSLATION]Egy tapasztalt tanár kezdő szintű kódolási ismeretekkel két csoportot is tanított. Mindkét csoportot egy teljes féléven keresztül tanulmányozták.',
+      mrms_study_highlight_1: '[AI_TRANSLATION]A diákok átlagosan 33%-os javulást értek el az előzetes felmérés és a végső értékelés között',
+      mrms_study_highlight_2: '[AI_TRANSLATION]A tanár és a diákok egyaránt úgy találták, hogy az Ozaria szórakoztató, lebilincselő, és könnyen használható.',
+      graph1_description: '[AI_TRANSLATION]A diákok átlagosan 47%-os javulást értek el a bevezető értékelés és a záró értékelés között.',
+      graph2_description: '[AI_TRANSLATION]A diákok több mint 90%-a Magabiztosnak vagy Rendkívül Magabiztosnak értékelte a kódolási magabiztosságát, miután használta az Ozariát.',
+      quote_section_content: '[AI_TRANSLATION]Az egyik dolog, amit most meg tudok csinálni, amit korábban nem tudtam, az, hogy tényleg elhiszem, hogy tudok kódolni.',
+      quote_section_footer: '[AI_TRANSLATION]Diák, Mountain Ridge Középiskola',
+      teacher_quote1_content: '[AI_TRANSLATION]A tanterv teljesen lekötötte a diákokat. Élvezték a történetet és a karaktereket. Ami még fontosabb, magabiztosságot szereztek, hogy megoldják a bonyolult problémákat az Ozariában tanult koncepciókkal.',
+      teacher_quote1_footer1: '[AI_TRANSLATION]Ronnie Cox, Tanár',
+      teacher_quote1_footer2: '[AI_TRANSLATION]McIntosh Középiskola',
+      //    student_quote_content: "I like that you can make a mistake and the game corrects it or tells you that there's an error. A lot of beginners make a lot of mistakes when coding and sometimes don't know how to code, so they can't correct their mistakes because they don't know what's wrong. Ozaria is the perfect coding game for beginners.",
+      student_quote_footer: '[AI_TRANSLATION]Diák, McIntosh Középiskola',
+      //    teacher_quote2_content: "I have absolutely loved using Ozaria in my class for the past three years. My students have thoroughly enjoyed the storyline as they learned Python in a self-paced learning environment. I would highly recommend Ozaria for teachers that know little to nothing about coding, as the support for teachers is very in-depth.",
+      teacher_quote2_footer1: '[AI_TRANSLATION]Lynette Personett, tanár',
+      teacher_quote2_footer2: '[AI_TRANSLATION]Mountain Ridge Középiskola',
+      commitment_title: '[AI_TRANSLATION]CodeCombat elkötelezettsége a hatékonyság iránt',
+      commitment_description: '[AI_TRANSLATION]Elkötelezettek vagyunk annak biztosításában, hogy termékeinknek pozitív és mérhető hatása legyen a tanulási eredményekre. Jelentős tanulási élményeket teremtünk, és bizonyíték alapú gyakorlatokat alkalmazunk a tartalom tervezéséhez, hogy a legfontosabb eredményeket valósítsuk meg a tanárok és diákok számára.',
+      commitment_question: '[AI_TRANSLATION]Érdekelne hatékony és ütős informatika tanterv bevezetése az iskoládban?',
+      teachers_love_codecombat: '[AI_TRANSLATION]A Tanárok Szeretik a CodeCombatot',
+      teachers_love_description: '[AI_TRANSLATION]Fedezzétek fel, hogyan hat testvértermékünk, a CodeCombat, az informatika tanítására és tanulására!',
+      teachers_love_box1: '[AI_TRANSLATION]Jelentik, hogy a diákjaik élvezik a CodeCombat használatát a kódolás tanulására.',
+      teachers_love_box2: '[AI_TRANSLATION]Ajánlanám a CodeCombatot más informatika tanároknak',
+      teachers_love_box3: '[AI_TRANSLATION]Mondják, hogy a CodeCombat segít a diákok problémamegoldó képességeinek fejlesztésében',
+      classroom_image: '[AI_TRANSLATION]Osztályterem',
+      ozaria_branding_logo: '[AI_TRANSLATION]Ozaria márka logója',
+      dog: '[AI_TRANSLATION]Kutya',
+      //    hero: "Hero",
+      //    teacher: "Teacher",
+    },
 
-    //  league:
-    //    student_register_1: "Become the next AI Champion!"
-    //    student_register_2: "Sign up, create your own team, or join other teams to start competing."
-    //    student_register_3: "Provide the information below to be eligible for prizes."
-    //    teacher_register_1: "Sign up to access your class league profile page and get your class started."
-    //    general_news: "Get emails on the latest news and updates regarding our AI Leagues and tournaments."
-    //    team: "Team"
-    //    how_it_works1: "Join a __team__"
-    //    seasonal_arena_tooltip: "Battle against your teammates and others as you use your best programming skills to earn points and rank up the AI League leaderboard before taking on the Championship arena at the end of the season."
-    //    summary: "The CodeCombat AI League is uniquely both a competitive AI battle simulator and game engine for learning real Python and JavaScript code."
-    //    join_now: "Join Now"
-    //    tagline: "The CodeCombat AI League combines our project-based standards-aligned curriculum, engaging adventure-based coding game, and our annual AI coding global tournament into an organized academic competition unlike any other."
-    //    ladder_subheader: "Use your coding skills and battle strategies to rise up the ranks!"
-    //    earn_codepoints: "Earn CodePoints by completing levels"
-    //    codepoints: "CodePoints"
-    //    free_1: "Access competitive multiplayer arenas, leaderboard, and global coding championships"
-    //    free_2: "Earn points for completing practice levels and competing in head-to-head matches"
-    //    free_3: "Join competitive coding teams with friends, family, or classmates"
-    //    free_4: "Showcase your coding skills and take home great prizes"
-    //    compete_season: "Put all the skills you’ve learned to the test! Compete against students and players from across the world in this exciting culmination to the season."
-    //    season_subheading1: "For both Season and Championship arenas, each player programs their team of “AI Heroes” with code written in Python, JavaScript, C++, Lua, or CoffeeScript."
-    //    season_subheading2: "Their code informs the strategies their AI Heroes will execute in a head-to-head battle against other competitors."
-    //    team_derbezt: "Learn coding and win prizes sponsored by superstar Mexican actor, comedian, and filmmaker Eugenio Derbez."
-    //    invite_link: "Invite players to this team by sending them this link:"
-    //    public_link: "Share this team leaderboard with its public link:"
-    //    end_to_end: "Unlike other esports platforms serving schools, we own the structure top to bottom, which means we’re not tied to any game developer or have issues with licensing. That also means we can make custom modifications in-game for your school or organization."
-    //    path_success: "The game platform fits into a regular Computer Science curriculum, so as students play through the game levels, they’re completing course work. Students learn coding and computer science while they play, then use these skills in arena battles as they practice and play on the same platform."
-    //    unlimited_potential: "Our tournament structure is adaptable to any environment or use case. Students can participate at a designated time during regular learning, play at home asynchronously, or participate on their own schedule."
-    //    edit_team: "Edit Team"
-    //    start_team: "Start a Team"
-    //    leave_team: "Leave Team"
-    //    join_team: "Join Team"
-    //    view_team: "View Team"
-    //    join_team_name: "Join Team __name__"
-    //    features: "Features"
-    //    built_in: "Built-in Competitive Infrastructure"
-    //    built_in_subheader: "Our platform hosts every element of the competitive process, from leaderboards to the game platform, assets, and tournament awards."
-    //    custom_dev: "Custom Development"
-    //    custom_dev_subheader: "Customization elements for your school or organization are included, plus options like branded landing pages and in-game characters."
-    //    comprehensive_curr: "Comprehensive Curriculum"
-    //    comprehensive_curr_subheader: "CodeCombat is a standards-aligned CS solution that helps educators teach real coding in JavaScript and Python, no matter their experience."
-    //    roster_management: "Roster Management Tools"
-    //    roster_management_subheader: "Track student performance within the curriculum and within the game, and easily add or remove students."
-    //    share_flyer: "Share our AI League flyer with educators, administrators, parents, esports coaches or others that may be interested."
-    //    download_flyer: "Download Flyer"
-    //    championship_summary: "The __championshipArena__ championship arena is now open! Battle it out for the month of __championshipMonth__ to win prizes in the __championshipArena__ __championshipType__."
-    //    play_arena_full: "Play __arenaName__ __arenaType__"
-    //    play_arena_short: "Play __arenaName__"
-    //    view_arena_winners: "View __arenaName__ __arenaType__ winners"
-    //    arena_type_championship: "Championship Arena"
-    //    arena_type_regular: "Multiplayer Arena"
-    //    blazing_battle: "Blazing Battle"
-    //    infinite_inferno: "Infinite Inferno"
-    //    mages_might: "Mages' Might"
-    //    sorcerers: "Sorcerers"
-    //    giants_gate: "Giants' Gate"
-    //    colossus: "Colossus"
-    //    iron_and_ice: "Iron and Ice"
-    //    tundra_tower: "Tundra Tower"
-    //    magma_mountain: "Magma Mountain"
-    //    lava_lake: "Lava Lake"
-    //    desert_duel: "Desert Duel"
-    //    sandstorm: "Sandstorm"
-    //    frozen_fortress: "Frozen Fortress"
-    //    equinox: "Equinox"
-    //    farmers_feud: "Farmer's Feud"
-    //    farmscape: "Farmscape"
-    //    storm_siege: "Storm Siege"
-    //    snowhold: "Snowhold"
-    //    season_label: "Season __seasonNumber__: __seasonName__"
-    //    season_1: "Forged in Flame"
-    //    season_2: "Spells of Fortune"
-    //    season_3: "Titan Age"
-    //    season_4: "Frosts of War"
-    //    season_5: "Sands of Time"
-    //    season_6: "Molten Mayhem"
-    //    season_7: "Melting Point"
-    //    season_8: "Coder's Harvest"
-    //    season_9: "Reign of Code"
-    //    cup: "Cup"
-    //    blitz: "Blitz"
-    //    clash: "Clash"
-    //    season9_announcement_1: "An epic battle is being waged atop the wintry peaks of Snowhold Clash for the Season 9 championship arena! Draw your cloak close and your code closer as you wield strategy and algorithms to achieve victory in this land beyond the sky."
-    //    season8_announcement_1: "It's harvesting season in Farmscape Blitz Season 8! As the leaves change, it's time to code your way around wild and impenetrable obstacles on the farm. Strategically collect vital boosts to empower your robot worker and utilize special abilities to boost productivity and out-farm your opponents!"
-    //    season8_announcement_2: "Note: arena balance adjustments may occur up until August 15th. So be sure to come back often to test your code against the global leaderboard."
-    //    season7_announcement_1: "Witness the dawn of a new challenge in the Equinox Cup! Season 7's tower defense arena offers a unique blend of strategy, monsters, and boss battles for you to conquer."
-    //    season6_announcement_1: "It’s absolute Molten Mayhem with the launch of the Lava Lake Clash finals! Outlast and outwit the competition in this hot take on classic Snake gameplay."
-    //    season6_announcement_2: "Note: arena balance adjustments may occur up until December 15th. So be sure to come back often to test your code against the global leaderboard."
-    //    season5_announcement_1: "The Sandstorm Blitz Final is on. In this basketbrawl of an arena, you must summon the right heroes, call the right plays, and outscore your opponent to take the victory!"
-    //    season5_announcement_2: "Note: arena balance adjustments may occur up until September 15th. So be sure to come back often to test your code against the global leaderboard."
-    //    season4_announcement_1: "The Tundra Tower Cup Final is on. In this all new take on the classic tower defense gameplay, you must protect your base from the horde of monsters by building towers and using gravitational anomalies."
-    //    season4_announcement_2: "Note: arena balance adjustments may occur up until April 15th. So be sure to come back often to test your code against the global leaderboard."
-    //    season3_announcement_1: "Time to put your coding skills to the test in our season 3 final arena. The Colossus Clash is live and offers a new challenge and a new leaderboard to climb."
-    //    season3_announcement_2: "Need more practice? Stick with the Giant's Gate Arena to refine your skills. You have until December 14th to play both arenas. Note: arena balance adjustments may occur until December 6th."
-    //    season3_announcement_3: "Great prizes available for top performers in the Colossus Clash:"
-    //    season2_announcement_1: "Time to put your coding skills to the test in our season 2 final arena. The Sorcerers Blitz is live and offers a new challenge and a new leaderboard to climb."
-    //    season2_announcement_2: "Need more practice? Stick with the Mage's Might Arena to refine your skills. You have until August 31st to play both arenas. Note: arena balance adjustments may occur until August 23rd."
-    //    season2_announcement_3: "Great prizes available for top performers in the Sorcerers Blitz:"
-    //    season1_prize_1: "$1,000 Scholarship"
-    //    season1_prize_2: "RESPAWN Gaming Gear"
-    //    season1_prize_3: "Custom CodeCombat Avatar"
-    //    season1_prize_4: "And more!"
-    //    season1_prize_hyperx: "HyperX Premium Peripherals"
-    //    codecombat_ai_league: "CodeCombat AI League"
-    //    register: "Register"
-    //    not_registered: "Not Registered"
-    //    register_for_ai_league: "Register for AI League"
-    //    world: "World"
-    //    quickstart_video: "Quickstart Video"
-    //    arena_rankings: "Arena Rankings"
-    //    arena_rankings_blurb: "Global AI League arena rankings"
-    //    arena_rankings_title: "Global leaderboard rank for all players in this team across AI League arenas in the open age bracket."
-    //    competing: "Competing:" # Competing: 3 students
-    //    count_student: "student" # 1 student
-    //    count_students: "students" # 2 students
-    //    top_student: "Top:" # Top: Jane D
-    //    top_percent: "top" # - top 3%)
-    //    top_of: "of" # (#8 of 35). Perhaps just use "/" if this doesn't translate naturally.
-    //    arena_victories: "Arena Victories"
-    //    arena_victories_blurb: "Global AI League arena recent wins"
-    //    arena_victories_title: "Win count is based on the last 1000 matches played asynchronously by each player in each of their AI League arenas."
-    //    count_wins: "wins" # 100+ wins or 974 wins
-    //    codepoints_blurb: "1 CodePoint = 1 line of code written"
-    //    codepoints_title: "One CodePoint is earned for every non-whitespace line of code needed to beat the level. Each level is worth the same amount of CodePoints according to its standard solution, regardless of whether the student wrote more or fewer lines of code."
-    //    count_total: "Total:" # Total: 300 CodePoints, or Total: 300 wins
-    //    join_teams_header: "Join Teams & Get Cool Stuff!"
-    //    join_team_hyperx_title: "Join Team HyperX, Get 10% Off"
-    //    join_team_hyperx_blurb: "30 team members will be chosen at random for a free gaming mousepad!"
-    //    join_team_derbezt_title: "Join Team DerBezt, Get Exclusive Hero"
-    //    join_team_derbezt_blurb: "Unlock the Armando Hoyos hero from Mexican superstar Eugenio Derbez!"
-    //    join_team_ned_title: "Join Team Ned, Unlock Ned's Hero"
-    //    join_team_ned_blurb: "Get the exclusive spatula-wielding hero from YouTube star, Try Guy Ned Fulmer!"
-    //    check_out_all: "Check out all the"
-    //    pick_best_tournaments: "pick the ones that will work best for your custom tournament!"
-    //    final_arena: "Final Arena"
-    //    package_options_and_guide: "Package Options & Implementation Guide"
-    //    custom_tournament: "For a Custom Tournament"
-    //    you_win: "You can win"
-    //    great_prizes: "great prizes"
-    //    powered_by: "Powered by"
-    //    grand_prize: "Grand Prize"
-    //    scholarship: "Scholarship"
-    //    top_players_win: "Top three players in each division win: HyperX pro peripherals"
-    //    team_hyperx: "Team HyperX"
-    //    earn_more_gear: "you could earn even more gear!"
-    //    prize_footer1: "Awarded to the top performing player across all age groups."
-    //    prize_footer2: "Specific products and models subject to change."
-    //    prize_footer3: "Prizes will be awarded to players who reach the top of the leaderboard in the Finals arena."
-    //    prize_footer4_1: "Age verification necessary to be eligible. Some prizes are limited to US participants only."
-    //    coco_reserves: "CodeCombat reserves"
-    //    prize_footer4_2: "the right to determine in its sole discretion if a player qualifies and will receive a prize."
-    //    place: "Place" # as in 1st place
-    //    arena_under_construction: "Next season's arena is under construction. Check back soon!"
-    //    unlock_ai_league: "Unlock the full potential of the AI League."
-    //    esports_anonymous_changing: "Esports player name visibility changing September 1"
-    //    esports_get_full_access: "Get Full Access"
-    //    click_to_unlock_now: "Click to dismiss for now"
-    //    click_to_unlock_before_sep: "Click to make the anonymizing go away before Sep.1"
-    //    unlock_content_padding: "Contact our team today to see your student's scoress, ranks, code and more!"
-    //    unlock_leaderboard: "Contact Us to unlock the leaderboard"
-    //    without_license_blurb: "Unlock the full potential of AI League. Purchase a custom tournament package to access your students’ scores, ranks, code and experience more tournament customization options. See our"
-    //    custom_pricing: "Custom Options and Implementation Guide"
-    //    more_details: "for more details."
-    //    contact_sales_custom: "Your custom tournament awaits. Choose the arena that you’d like to use for your custom tournament and contact your CodeCombat sales representative to confirm set up and scheduling details."
-    //    create_custom: "Create Custom Tournament"
-    //    custom_tournament_text: "Custom Tournament"
+    league: {
+      student_register_1: '[AI_TRANSLATION]Légy te a következő MI Bajnok!',
+      student_register_2: '[AI_TRANSLATION]Regisztrálj, hozz létre saját csapatot, vagy csatlakozz más csapatokhoz, hogy elkezdhess versenyezni.',
+      student_register_3: '[AI_TRANSLATION]Add meg az alábbi információkat, hogy jogosult legyél a díjakra.',
+      teacher_register_1: '[AI_TRANSLATION]Regisztrálj, hogy hozzáférj az osztály ligaprofil oldalához és elindíthasd az osztályodat.',
+      general_news: '[AI_TRANSLATION]Kapj e-maileket a legújabb hírekről és frissítésekről a mesterséges intelligencia Ligáinkról és versenyeinkről.',
+      how_it_works1: '[AI_TRANSLATION]Csatlakozz egy __team__-hez.',
+      seasonal_arena_tooltip: '[AI_TRANSLATION]Csapj össze csapattársaid és mások ellen, használd a legjobb programozói tudásod pontok szerzéséhez és hogy feljebb lépj az AI Liga ranglistán, mielőtt az idény végén nekilátnál a Bajnoki arénának.',
+      summary: '[AI_TRANSLATION]A CodeCombat AI League egyedülállóan egy versenyképes AI csatázó szimulátor és egy játék motor a valódi Python és JavaScript kód tanulásához.',
+      join_now: '[AI_TRANSLATION]Csatlakozz Most',
+      tagline: '[AI_TRANSLATION]A CodeCombat AI League egyesíti a projektalapú szabványoknak megfelelő tantervünket, az izgalmas kalandozós kódoló játékunkat és az éves AI kódolási világversenyünket egy rendezett akadémiai versennyé, amihez nincs hasonló.',
+      ladder_subheader: '[AI_TRANSLATION]Használd a kódolási készségeidet és harci stratégiáidat, hogy feljebb lépj a ranglétrán!',
+      earn_codepoints: '[AI_TRANSLATION]Szerezz CodePointokat a szintek teljesítésével',
+      codepoints: '[AI_TRANSLATION]CodePoints',
+      free_1: '[AI_TRANSLATION]Hozzáférés a versenyképes többjátékos arénákhoz, a ranglistához és a globális kódolási bajnokságokhoz',
+      free_2: '[AI_TRANSLATION]Szerezz pontokat gyakorló szintek teljesítéséért és fej-fej melletti mérkőzésekben való részvételért',
+      free_3: '[AI_TRANSLATION]Csatlakozz versenyző programozó csapatokhoz barátokkal, családtagokkal vagy osztálytársakkal',
+      free_4: '[AI_TRANSLATION]Mutasd meg a kódolási képességeidet és vigyél haza nagyszerű díjakat',
+      compete_season: '[AI_TRANSLATION]Használd fel az összes megtanult készségedet a próbatétel során! Versenyezz diákokkal és játékosokkal a világ minden tájáról ebben az izgalmas évadzáró eseményben.  ',
+      season_subheading1: '[AI_TRANSLATION]Mind a Season, mind a Championship arénákban minden játékos “AI Hőseit” programozza kóddal, amit Python, JavaScript, C++, Lua vagy Java nyelven írnak.',
+      season_subheading2: '[AI_TRANSLATION]Kódjuk tájékoztatja az AI Hőseik stratégiáit, akik fej-fej melletti harcot vívnak más versenyzők ellen.',
+      team_derbezt: '[AI_TRANSLATION]Tanulj kódolni és nyerj díjakat a mexikói színész, komikus és filmes Eugenio Derbez támogatásával.',
+      invite_link: '[AI_TRANSLATION]Hívd meg a játékosokat ebbe a csapatba ezzel a linkkel:',
+      public_link: '[AI_TRANSLATION]Oszd meg ezt a csapatértékelőt a publikus linkjével:',
+      end_to_end: '[AI_TRANSLATION]Más esport platformokkal ellentétben, amelyek az iskolákat szolgálják, mi saját tulajdonunkban tartjuk a struktúrát elejétől a végéig, ami azt jelenti, hogy nem vagyunk kötve semmilyen játékfejlesztőhöz, és nincs probléma az engedélyekkel. Ez azt is jelenti, hogy egyedileg módosíthatjuk a játékot az iskolád vagy szervezeted számára.',
+      path_success: '[AI_TRANSLATION]A játékszínpad illeszkedik egy szokásos Számítástechnikai tantervbe, így amikor a diákok végigjátsszák a játék szintjeit, elvégzik a tananyagot is. A diákok tanulnak kódolást és számítástechnikát játék közben, majd ezeket a képességeket használják arénacsatákban, miközben gyakorolnak és játszanak ugyanazon a platformon.',
+      unlimited_potential: '[AI_TRANSLATION]A tornament struktúránk alkalmazkodó bármilyen környezethez vagy használati esethez. A diákok részt vehetnek egy kijelölt időpontban a tanulási idő alatt, otthon aszinkron módban játszhatnak, vagy saját ütemtervük szerint vehetnek részt.',
+      //    team: "Team",
+      edit_team: '[AI_TRANSLATION]Csapat Szerkesztése',
+      start_team: '2.\nIndíts egy Csapatot\n',
+      leave_team: '[AI_TRANSLATION]Csapat elhagyása',
+      join_team: '[AI_TRANSLATION]Csatlakozz a csapathoz',
+      view_team: '[AI_TRANSLATION]Csapat megtekintése',
+      join_team_name: '[AI_TRANSLATION]Csatlakozz a __name__ csapathoz',
+      features: '[AI_TRANSLATION]Jellemzők',
+      built_in: '[AI_TRANSLATION]Beépített Versenyinfrastruktúra',
+      built_in_subheader: '[AI_TRANSLATION]A platformunk minden elemet tartalmaz a versenyfolyamathoz, a ranglistától a játékplatformig, eszközöket és versenydíjakat.',
+      custom_dev: '[AI_TRANSLATION]Egyedi Fejlesztés',
+      custom_dev_subheader: '[AI_TRANSLATION]Tartalmazza az iskola vagy szervezet egyedi elemeit, plusz opciókat, mint a márkás kezdőoldalak és a játékbeli karakterek.',
+      comprehensive_curr: '[AI_TRANSLATION]Ha betűt vagy teljes szöveget kell átalakítanod kis-/nagybetűssé, használhatod a\nsztring beépített metódusait:\n\n```javascript\nvar word = "YouAreHero";\n\n var wordInLower = word.toLowerCase();\n// word == "youarehero"\n\nvar wordInUpper = word.toUpperCase(); \n// word == "YOUAREHERO"\n```\n\n```python\nword = "YouAreHero"\n\nwordInLower = word.toLowerCase() \n# wordInLower == "youarehero"\n\nwordInUpper = word.toUpperCase() \n# wordInUpper == "YOUAREHERO"\n```\n\n```lua\nlocal word = "YouAreHero"\n\nlocal wordInLower = word.toLowerCase() \n-- wordInLower == "youarehero"\n\nlocal wordInUpper = word.toUpperCase() \n-- wordInUpper == "YOUAREHERO"\n```\n\nEzek a műveletek csak a betűket érintik. Hasznos lehet, ha szöveget alakítasz át számokkal együtt. Például:\n```javascript\nvar sentence = "1. Javascript; 2. Python; 3. Lua;";\n\nvar sentenceInLower = sentence.toLowerCase();\n// sentenceInLower == "1. javascript; 2. python; 3. lua;"\n\nvar sentenceInUpper = sentence.toUpperCase();\n// sentenceInUpper == "1. JAVASCRIPT; 2. PYTHON; 3. LUA;"\n```\n\n```python\nsentence = "1. Javascript; 2. Python; 3. Lua;"\n\nsentenceInLower = sentence.toLowerCase()\n# sentenceInLower == "1. javascript; 2. python; 3. lua;"\n\nsentenceInUpper = sentence.toUpperCase()\n# sentenceInUpper == "1. JAVASCRIPT; 2. PYTHON; 3. LUA;"\n```\n\n```lua\nlocal sentence = "1. Javascript; 2. Python; 3. Lua;"\n\nlocal sentenceInLower = sentence.toLowerCase() \n-- sentenceInLower == "1. javascript; 2. python; 3. lua;"\n\nlocal sentenceInUpper = sentence.toUpperCase() \n-- sentenceInUpper == "1. JAVASCRIPT; 2. PYTHON; 3. LUA;"\n```',
+      comprehensive_curr_subheader: '[AI_TRANSLATION]A CodeCombat egy oktatási standardokhoz illeszkedő CS megoldás, amely segít az oktatóknak valódi kódolást tanítani JavaScriptben és Pythonban, függetlenül attól, hogy milyen tapasztalatuk van.',
+      roster_management: '[AI_TRANSLATION]Névsor Kezelő Eszközök',
+      roster_management_subheader: '[AI_TRANSLATION]Kövesd nyomon a diákok teljesítményét a tananyagban és a játékban, és könnyen adj hozzá vagy távolíts el diákokat.',
+      share_flyer: '[AI_TRANSLATION]Oszd meg az AI Liga szórólapunkat tanárokkal, adminisztrátorokkal, szülőkkel, e-sport edzőkkel vagy más érdeklődőkkel.',
+      download_flyer: '[AI_TRANSLATION]Szórólap Letöltése ',
+      championship_summary: '[AI_TRANSLATION]A __championshipArena__ bajnoki aréna most megnyílt! Harcolj __championshipMonth__ hónapban, hogy nyereményeket szerezz a __championshipArena__ __championshipType__-ben.',
+      play_arena_full: '[AI_TRANSLATION]Játssz __arenaName__ __arenaType__',
+      play_arena_short: '[AI_TRANSLATION]Játszd __arenaName__-t',
+      view_arena_winners: '[AI_TRANSLATION]Nézd meg a __arenaName__ __arenaType__ győzteseit',
+      arena_type_championship: '[AI_TRANSLATION]Bajnokság Aréna',
+      arena_type_regular: '[AI_TRANSLATION]Többjátékos Arena',
+      blazing_battle: '[AI_TRANSLATION]Lángoló csata',
+      infinite_inferno: '[AI_TRANSLATION]Végtelen pokol',
+      mages_might: '[AI_TRANSLATION]Mágusok Ereje',
+      sorcerers: '[AI_TRANSLATION]Varázslók',
+      giants_gate: '[AI_TRANSLATION]Óriások Kapuja',
+      colossus: '[AI_TRANSLATION]Kolosszus',
+      iron_and_ice: '[AI_TRANSLATION]Vas és Jég',
+      tundra_tower: '[AI_TRANSLATION]Tundra Torony',
+      magma_mountain: '[AI_TRANSLATION]Magma Hegység',
+      lava_lake: '[AI_TRANSLATION]Láva Tó',
+      desert_duel: '[AI_TRANSLATION]Sivatagi Párbaj',
+      sandstorm: '[AI_TRANSLATION]Homokvihar',
+      frozen_fortress: '[AI_TRANSLATION]Fagyott Erőd',
+      equinox: '[AI_TRANSLATION]Napéjegyenlőség',
+      farmers_feud: '[AI_TRANSLATION]Gazdák viszálya',
+      farmscape: '[AI_TRANSLATION]Farmscape',
+      storm_siege: '[AI_TRANSLATION]Vihar Ostrom',
+      snowhold: '[AI_TRANSLATION]Snowhold',
+      fierce_forces: '[AI_TRANSLATION]Vad Erők',
+      anti_gravity: '[AI_TRANSLATION]Anti-gravitáció',
+      solar_skirmish: '[AI_TRANSLATION]Solar Skirmish',
+      sunfire: '[AI_TRANSLATION]Napkitörés',
+      system_shock: '[AI_TRANSLATION]Rendszer Sokk',
+      supercharged: '[AI_TRANSLATION]Felpörgetett',
+      //    pawns_passage: "Pawn's Passage",
+      //    kings_gambit: "King's Gambit",
+      //    strikers_stadium: "Striker's Stadium",
+      //    golden_goal: "Golden Goal",
+      //    turbo_track: "Turbo Track",
+      //    grand_prix: "Grand Prix",
+      season_label: '[AI_TRANSLATION]Évad __seasonNumber__: __seasonName__',
+      season_1: '[AI_TRANSLATION]Lángban kovácsolva',
+      season_2: '[AI_TRANSLATION]Szerencse varázslatok',
+      season_3: '[AI_TRANSLATION]Titán Kor',
+      season_4: '[AI_TRANSLATION]A háború fagyjai.',
+      season_5: '[AI_TRANSLATION]Az idő homokja',
+      season_6: '[AI_TRANSLATION]Izzó Káosz',
+      season_7: '[AI_TRANSLATION]Olvadáspont',
+      season_8: '[AI_TRANSLATION]Kódolói aratás',
+      season_9: '[AI_TRANSLATION]Kód uralma',
+      season_10: '[AI_TRANSLATION]Gravity Games',
+      season_11: '[AI_TRANSLATION]Nyári Zúzás',
+      season_12: '[AI_TRANSLATION]Erő Szikrája',
+      //    season_13: "Checkmate Challenge",
+      //    season_14: "Soccer Showdown",
+      //    season_15: "Racing Rivals",
+      cup: '[AI_TRANSLATION]Csésze',
+      blitz: '[AI_TRANSLATION]Villámháború',
+      clash: '[AI_TRANSLATION]Összecsapás',
+      //    season13_announcement_1: "In the depths of ancient ruins, a magical checkerboard arises and the towers comes alive. Get as many pieces to the end of the line!",
+      //    season12_announcement_2: "Collectors fly high, control points emerges, mythical crystals stand tall, as the dungeon expands, the battle is getting fiercer, only the righteous shall be the victor.",
+      //    season12_announcement_1: "Deep in the dungeons, mythical crystals stand tall, collecting energy and mana from abandoned ruins. Summon units, cast spells, and claim victory!",
+      season11_announcement_1: '[AI_TRANSLATION]A verseny egyre forróbb! Ahogy a nap süt felett, helyezd el és fejleszd a napelemeidet, kerüld el a sokkcsapdákat, tegyél le robotrákokat és haladj át portálokon, gyűjts minél több napelemet és szerezz győzelmet!',
+      season10_announcement_1: '[AI_TRANSLATION]Az nagyon forró, és a magmából álló sziklák erős energiát sugároznak! Idézz meg egységeket és varázsolj, hogy a magmából álló sziklákat az ellenfeled területére tolhasd. Alkalmazkodj a csatatér folyamatosan változó gravitációjához!',
+      season9_announcement_1: '[AI_TRANSLATION]Egy epikus csata dúl a hófödte hegycsúcsokon, a Snowhold Clash szezon 9-es bajnoki arénájáért! Húzd szorosra a köpenyed és tartsd közel a kódod, miközben stratégiát és algoritmusokat alkalmazol a győzelem érdekében ezen a mennyek fölötti vidéken.',
+      season8_announcement_1: '[AI_TRANSLATION]Itt a betakarítási szezon a Farmscape Blitz 8. évadában! Ahogy a levelek megváltoznak, itt az ideje, hogy kóddal kacskaringózz a vad és áthatolhatatlan akadályokon a farmon. Stratégiailag gyűjts össze létfontosságú támogatásokat, hogy felruházzad a robot munkásodat és használd különleges képességeit, hogy növeld a termelékenységet és felülmúld az ellenfeleidet!',
+      season8_announcement_2: '[AI_TRANSLATION]Megjegyzés: az aréna egyensúlyi beállításai augusztus 15-ig változhatnak. Ezért gyere vissza gyakran, hogy teszteld a kódod a globális ranglista ellen.',
+      season7_announcement_1: '[AI_TRANSLATION]Légy tanúja egy új kihívás hajnalának az Equinox Kupában! A 7. évad toronyvédelmi arénája egyedi stratégiát, szörnyeket és főnökharcokat kínál, amiket le kell győznöd.',
+      season6_announcement_1: '[AI_TRANSLATION]Teljesen elvadult Molten Mayhem a Lava Lake Clash döntőjének indulásával! Maradj talpon és járj túl az ellenfelek eszén ebben a klasszikus Snake játékmenet forró változatában.',
+      season6_announcement_2: '[AI_TRANSLATION]Megjegyzés: arénai egyensúlyi módosítások történhetnek december 15-ig. Szóval gyere vissza gyakran, hogy kipróbáld a kódodat a globális ranglistán.',
+      season5_announcement_1: '[AI_TRANSLATION]Itt a Sandstorm Blitz döntője. Ebben az arénai kosárharcban a megfelelő hősöket kell megidézned, a helyes játékokat hívnod, és túlszárnyalnod az ellenfeledet, hogy győzelmet arass!',
+      season5_announcement_2: '[AI_TRANSLATION]Megjegyzés: Az aréna egyensúlyi beállítások szeptember 15-ig változhatnak. Ezért gyere vissza gyakran, hogy teszteld a kódodat a globális ranglistán.',
+      season4_announcement_1: '[AI_TRANSLATION]Az Tundra Tornyok Kupa döntője megkezdődött. Ebben az új változatban a klasszikus toronyvédelmi játékban meg kell védened a bázisod a szörnyhordáktól tornyok építésével és gravitációs anomáliák használatával.',
+      season4_announcement_2: '[AI_TRANSLATION]Figyelj: A csarnok egyensúlyi módosításai április 15-ig megtörténhetnek. Térj vissza gyakran, hogy a kódodat tesztelhesd a globális ranglistán.  ',
+      season3_announcement_1: '[AI_TRANSLATION]Itt az idő próbára tenni programozói képességeidet a 3. szezon végső arénájában. A Colossus Clash elindult, és új kihívást és új ranglistát kínál.',
+      season3_announcement_2: "[AI_TRANSLATION]Több gyakorlásra van szükséged? Maradj a Giant's Gate Arénában, hogy csiszold a képességeidet. December 14-ig játszhatsz mindkét arénában. Megjegyzés: az aréna egyensúlyi módosításai december 6-ig történhetnek meg.",
+      season3_announcement_3: '[AI_TRANSLATION]Nagyszerű díjak várnak a legjobbakra a Colossus Clash során:',
+      season2_announcement_1: '[AI_TRANSLATION]Itt az idő, hogy próbára tedd kódolási képességeidet a 2. évadunk végső arénájában. Az Varázslók Blitz verseny élőben elérhető, új kihívást és új ranglistát kínál, hogy meghódítsd.',
+      season2_announcement_2: '[AI_TRANSLATION]Több gyakorlásra van szükséged? Maradj a Mágus Ereje Arénánál, hogy finomítsd készségeidet. Augusztus 31-ig játszhatsz mindkét arénában. Megjegyzés: az aréna egyensúlyi beállításai augusztus 23-ig változhatnak.',
+      season2_announcement_3: '[AI_TRANSLATION]Nagyszerű nyeremények elérhetők a Sorcerers Blitz top teljesítői számára:',
+      season1_prize_1: '[AI_TRANSLATION]$1,000 Ösztöndíj',
+      season1_prize_2: '[AI_TRANSLATION]RESPAWN Játék Felszerelés',
+      season1_prize_3: '[AI_TRANSLATION]Egyedi CodeCombat Avatar',
+      season1_prize_4: '[AI_TRANSLATION]És még több!',
+      season1_prize_hyperx: '[AI_TRANSLATION]HyperX Prémium Perifériák',
+      codecombat_ai_league: '[AI_TRANSLATION]CodeCombat AI Liga',
+      register: '[AI_TRANSLATION]Regisztrálj',
+      not_registered: '[AI_TRANSLATION]Nem Regisztrált',
+      register_for_ai_league: '[AI_TRANSLATION]Regisztrálj az AI Ligára',
+      world: '[AI_TRANSLATION]Világ ',
+      quickstart_video: '[AI_TRANSLATION]Gyorsindítás Videó',
+      arena_rankings: '[AI_TRANSLATION]Aréna Ranglisták',
+      arena_rankings_blurb: '[AI_TRANSLATION]Globális AI Liga aréna ranglisták',
+      arena_rankings_title: '[AI_TRANSLATION]Globális ranglista helyezés az összes játékos számára ebben a csapatban az AI Liga arénákban a nyílt korosztályban.',
+      competing: '[AI_TRANSLATION]Versenyzés:',
+      count_student: '[AI_TRANSLATION]diák',
+      count_students: '[AI_TRANSLATION]diákok',
+      top_student: '[AI_TRANSLATION]Fent:',
+      top_percent: '[AI_TRANSLATION]felső',
+      top_of: '[AI_TRANSLATION]of',
+      arena_victories: '[AI_TRANSLATION]Aréna Győzelmek',
+      arena_victories_blurb: '[AI_TRANSLATION]Globális AI Liga aréna legutóbbi győzelmek',
+      arena_victories_title: '[AI_TRANSLATION]A győzelmi arány azon alapul, hogy az egyes játékosok által az AI Liga arénáiban aszinkron módon lejátszott utolsó 1000 meccs alapján.',
+      count_wins: '[AI_TRANSLATION]nyer',
+      codepoints_blurb: '[AI_TRANSLATION]1 Kódpont = 1 sor megírt kód',
+      codepoints_title: '[AI_TRANSLATION]Minden szint teljesítéséhez szükséges kódsorok után egy CodePoint jár, kivéve az üres sorokat. Minden szint ugyanannyi CodePointot ér a normál megoldás szerint, függetlenül attól, hogy a diák több vagy kevesebb kódsort írt.',
+      count_total: '[AI_TRANSLATION]Össz:',
+      join_teams_header: '[AI_TRANSLATION]Csatlakozz Csapatokhoz és Szerezz Menő Cuccokat!',
+      join_team_hyperx_title: '[AI_TRANSLATION]Csatlakozz a HyperX csapathoz, és kapj 10% kedvezményt',
+      join_team_hyperx_blurb: '[AI_TRANSLATION]30 csapattagot véletlenszerűen választunk ki ingyenes gaming egérpadra!',
+      join_team_derbezt_title: '[AI_TRANSLATION]Csatlakozz a DerBezt csapathoz, Szerezz Exkluzív Hőst',
+      join_team_derbezt_blurb: '[AI_TRANSLATION]Oldd fel az Armando Hoyos hőst a mexikói szupersztár Eugenio Derbez-től!',
+      join_team_ned_title: '[AI_TRANSLATION]Csatlakozz Ned csapatához, szerezd meg Ned hősét',
+      join_team_ned_blurb: '[AI_TRANSLATION]Szerezd meg az exkluzív spatulát forgató hőst a YouTube sztártól, Try Guy Ned Fulmertől!',
+      check_out_all: '[AI_TRANSLATION]Nézd meg az összes',
+      pick_best_tournaments: '[AI_TRANSLATION]válaszd ki azokat, amelyek a legjobban működnek a saját versenyes tornádhoz!',
+      final_arena: '[AI_TRANSLATION]Végső Aréna',
+      package_options_and_guide: '[AI_TRANSLATION]Csomag Opciók és Implementációs Útmutató',
+      custom_tournament: '[AI_TRANSLATION]Egy Egyéni Versenyhez',
+      you_win: '[AI_TRANSLATION]Nyerhetsz',
+      great_prizes: '[AI_TRANSLATION]szuper nyeremények',
+      powered_by: '[AI_TRANSLATION]Támogatja',
+      grand_prize: '[AI_TRANSLATION]Fődíj',
+      scholarship: '[AI_TRANSLATION]Ösztöndíj',
+      top_players_win: '[AI_TRANSLATION]Az egyes kategóriák első három játékosa nyer: HyperX profi perifériák',
+      team_hyperx: '[AI_TRANSLATION]HyperX Csapat',
+      earn_more_gear: '[AI_TRANSLATION]Még több cuccra teheted szert!',
+      prize_footer1: '[AI_TRANSLATION]A legjobban teljesítő játékos kapja az összes korcsoportban.',
+      prize_footer2: '[AI_TRANSLATION]Meghatározott termékek és modellek változhatnak.',
+      prize_footer3: '[AI_TRANSLATION]Díjak kerülnek kiosztásra azoknak a játékosoknak, akik a döntő arénában elérik a ranglista tetejét.',
+      prize_footer4_1: '[AI_TRANSLATION]Korhitelesítés szükséges a jogosultsághoz. Néhány nyeremény csak az USA résztvevőkre korlátozódik.',
+      coco_reserves: '[AI_TRANSLATION]CodeCombat tartalékok',
+      prize_footer4_2: '[AI_TRANSLATION]jog fenntartva, hogy saját belátása szerint döntsön, hogy egy játékos jogosult-e díjat kapni.',
+      place: '[AI_TRANSLATION]Hely',
+      arena_under_construction: '[AI_TRANSLATION]A következő szezon arénája építés alatt áll. Gyere vissza később!',
+      unlock_ai_league: '[AI_TRANSLATION]Nyisd ki az AI Liga teljes potenciálját.',
+      esports_anonymous_changing: '[AI_TRANSLATION]eSport játékos nevének láthatósága változik szeptember 1-től',
+      esports_get_full_access: '[AI_TRANSLATION]Teljes Hozzáférés Megszerzése',
+      click_to_unlock_now: '[AI_TRANSLATION]Kattints, hogy eltüntesd egy időre ',
+      click_to_unlock_before_sep: '[AI_TRANSLATION]Kattints, hogy az anonimizálás eltűnjön szept.1 előtt',
+      unlock_content_padding: '[AI_TRANSLATION]Lépj kapcsolatba a csapatunkkal még ma, hogy lásd a diákod pontszámait, rangjait, kódját és egyebeket!',
+      unlock_leaderboard: '[AI_TRANSLATION]Lépj kapcsolatba velünk az eredménytábla feloldásához',
+      without_license_blurb: '[AI_TRANSLATION]Használd ki teljesen az AI League lehetőségeit. Vegyél egy egyedi torna csomagot, hogy hozzáférj a diákjaid pontszámaihoz, rangjaihoz, kódjához és további tornament szintű testreszabási lehetőségekhez. Nézd meg a',
+      custom_pricing: '[AI_TRANSLATION]Egyedi beállításopciók és megvalósítási útmutató',
+      more_details: '[AI_TRANSLATION]további részletekért',
+      contact_sales_custom: '[AI_TRANSLATION]Egyéni tornád vár. Válaszd ki az arénát, amelyet az egyéni tornádhoz szeretnél használni, és vedd fel a kapcsolatot a CodeCombat értékesítési képviselőjével a beállítás és az ütemezés megerősítése érdekében.',
+      create_custom: '[AI_TRANSLATION]Egyéni bajnokság létrehozása',
+      custom_tournament_text: '[AI_TRANSLATION]Egyedi torna',
+      promotion_blurb: '[AI_TRANSLATION]Versengő Kódolás - Kezdés ingyen',
+      promotion_part1: '[AI_TRANSLATION]Csatlakozz kódoló csapatokhoz barátaiddal és családoddal',
+      promotion_part2: '[AI_TRANSLATION]Hozzáférés globális kódolási arénákhoz és ranglistákhoz',
+      promotion_part3: '[AI_TRANSLATION]Mutasd meg a kódolási képességeidet és nyerj díjakat',
+      promotion_part4: '[AI_TRANSLATION]Szerezz pontokat a gyakorlással és az egymás elleni meccseken',
+      codecombat_ai_league_description: '[AI_TRANSLATION]A CodeCombat AI Liga ötvözi a projektalapú szabványkövető tantervünket, a kalandjátékként megvalósított kódolási játékunkat, és az éves AI kódolási világversenyünket egy olyan akadémiai versenybe, amelyhez hasonlót még nem láttak.',
+      teacher_getting_started_guide: '[AI_TRANSLATION]Tanári Kezdési Útmutató',
+      try_ai_league_as_a_teacher: '[AI_TRANSLATION]Próbáld ki az AI League-et, mint tanár!',
+      //    ai_league_curriculum: "AI League Curriculum",
+      current_season: '[AI_TRANSLATION]Jelenlegi Évad',
+      all_time: '[AI_TRANSLATION]Minden idők',
+      view_leaderboards_for_team: '[AI_TRANSLATION]Nézd meg a csapatok ranglistáit:',
+      global_stats: '[AI_TRANSLATION]GLOBÁLIS STATISZTIKÁK',
+      code_your_way: '[AI_TRANSLATION]Kódolj a saját stílusodban!  ',
+      //    to_win_the_price: "to first place to win",
+      //    regular: "Regular",
+      //    championship: "Championship",
+      //    global: "Global",
+      //    custom: "Custom",
+    },
 
-    //  tournament:
-    //    mini_tournaments: "Mini Tournaments"
-    //    usable_ladders: "All Usable Ladders"
-    //    make_tournament: "Make a mini tournament"
-    //    go_tournaments: "Go to mini tournaments"
-    //    class_tournaments: "Class mini tournaments"
-    //    class_tournaments_more: "More Class mini tournaments"
-    //    no_tournaments_owner: "There is no tournament now, please create one"
-    //    no_tournaments: "There is no tournament now"
-    //    edit_tournament: "Edit Tournament"
-    //    create_tournament: "Create a Tournament"
-    //    upcoming: "Upcoming"
-    //    starting: "Starting"
-    //    ended: "Ended"
-    //    view_results: "View Results"
-    //    estimate_days: "In __time__ Days"
-    //    team_name: "Team: __name__"
-    //    status: "Status: __state__"
-    //    from_start: "Start __time__"
-    //    from_end: "End __time__"
-    //    start_date_time: "Start Time"
-    //    end_date_time: "End Time"
-    //    results_date_time: "Results Time"
-    //    start_date_description: "(PT) The start time of tournament"
-    //    end_date_description: "(PT) The end time of tournament"
-    //    results_date_description: "Select a time to publish results."
-    //    results_date_suggestion_0: "Note: Tournament may need some time to generate final leaderboard, so you need to allow enough time for the results."
-    //    results_date_suggestion_1: "i.e. 0-50 players: 5 mins"
-    //    results_date_suggestion_2: "     50-100 players: 20 mins"
-    //    results_date_suggestion_3: "     100-500 players: 10 hours"
-    //    select_team_desc: "select your team to creat/edit your tournaments"
-    //    already_create_tournaments_num: "You already created __num__ tournaments here:"
-    //    can_create_tournaments_num: "You can create __num__ more tournament(s) from below:"
-    //    my_teams: "My Teams:"
-    //    team: "Team"
-    //    team_description: "(Required) Only the players in the team can join this tournament"
-    //    review_results: "Review Results"
-    //    review_description: "We will email you the results of tournament and wait for you to publish for participants."
-    //    publish_immediately: "Publish Immediately"
-    //    publish_description: "The result of tournament will be published immediately once ready."
-    //    error_end_date_too_early: "The End Time cannot be earlier than Start Time"
-    //    error_results_date_too_early: "The Results Time cannot be earlier than End Time"
-    //    publish_results: "Publish Results"
-    //    publish_options: "Publish Options"
+    tournament: {
+      mini_tournaments: '[AI_TRANSLATION]Mini bajnokságok',
+      usable_ladders: '[AI_TRANSLATION]Minden használható létra',
+      make_tournament: '[AI_TRANSLATION]Csinálj egy mini bajnokságot',
+      go_tournaments: '[AI_TRANSLATION]Menj a mini tornákra',
+      class_tournaments: '[AI_TRANSLATION]Mini osztálybajnokságok',
+      class_tournaments_more: '[AI_TRANSLATION]További osztály mini versenyek',
+      no_tournaments_owner: '[AI_TRANSLATION]Jelenleg nincs torna, kérlek hozz létre egyet',
+      no_tournaments: '[AI_TRANSLATION]Most nincs verseny',
+      edit_tournament: '[AI_TRANSLATION]Szerkesztés bajnokság',
+      create_tournament: '[AI_TRANSLATION]Verseny létrehozása',
+      //    view_tournament: "View Tournament",
+      upcoming: '[AI_TRANSLATION]Közelgő',
+      starting: '[AI_TRANSLATION]Indulás',
+      ended: '[AI_TRANSLATION]Véget ért',
+      view_results: '[AI_TRANSLATION]Eredmények megtekintése',
+      estimate_days: '[AI_TRANSLATION]__time__ nap alatt',
+      team_name: '[AI_TRANSLATION]Csapat: __name__',
+      status: '[AI_TRANSLATION]Állapot: __state__',
+      from_start: '[AI_TRANSLATION]Indítás __time__',
+      from_end: '[AI_TRANSLATION]Zaváró __time__',
+      start_date_time: '[AI_TRANSLATION]Kezdési Idő',
+      end_date_time: '[AI_TRANSLATION]Záró idő',
+      results_date_time: '[AI_TRANSLATION]Eredmények Idő',
+      start_date_description: '[AI_TRANSLATION](PT) A bajnokság kezdési ideje',
+      end_date_description: '[AI_TRANSLATION](PT) A bajnokság vége',
+      results_date_description: '[AI_TRANSLATION]Válassz időpontot az eredmények publikálásához.',
+      results_date_suggestion_0: '[AI_TRANSLATION]Megjegyzés: A versenynek szüksége lehet egy kis időre a végső eredménytábla elkészítéséhez, ezért elég időt kell hagynod az eredményekre.',
+      //    results_date_suggestion_1: "i.e. 0-50 players: 5 mins",
+      results_date_suggestion_2: '[AI_TRANSLATION]50-100 játékos: 20 perc',
+      results_date_suggestion_3: '[AI_TRANSLATION]100-500 játékos: 10 óra',
+      select_team_desc: '[AI_TRANSLATION]válaszd ki a csapatod a tornamentumok létrehozásához/szerkesztéséhez',
+      already_create_tournaments_num: '[AI_TRANSLATION]Már létrehoztál __num__ versenyeket itt:',
+      can_create_tournaments_num: '[AI_TRANSLATION]Még __num__ versenyt hozhatsz létre az alábbiakból:',
+      my_teams: '[AI_TRANSLATION]Csapataim:',
+      //    team: "Team",
+      team_description: '[AI_TRANSLATION](Kötelező) Csak a csapat játékosai csatlakozhatnak ehhez a versenyhez',
+      review_results: '[AI_TRANSLATION]Eredmények áttekintése',
+      review_description: '[AI_TRANSLATION]Emailben küldjük el neked a bajnokság eredményeit, és várjuk, hogy közzétedd a résztvevőknek.',
+      publish_immediately: '[AI_TRANSLATION]Azonnali közzététel',
+      publish_description: '[AI_TRANSLATION]A verseny eredménye azonnal meg lesz hirdetve, amint készen van.',
+      error_end_date_too_early: '[AI_TRANSLATION]A Befejezés ideje nem lehet korábbi, mint a Kezdés ideje.',
+      error_results_date_too_early: '[AI_TRANSLATION]Az Eredmény Idő nem lehet korábbi, mint a Záró Idő',
+      publish_results: '[AI_TRANSLATION]Eredmények közzététele',
+      publish_options: '[AI_TRANSLATION]Kiadási Opciók',
+    },
 
-    //  payments:
-    //    student_licenses: "Student Licenses"
-    //    computer_science: "Computer Science"
-    //    web_development: "Web Development"
-    //    game_development: "Game Development"
-    //    per_student: "Per Student"
-    //    just: "Just"
-    //    teachers_upto: "Teacher can purchase upto"
-    //    great_courses: "Great Courses included for"
-    //    studentLicense_successful: "Congratulations! Your licenses will be ready to use in a min. Click on the Getting Started Guide in the Teacher Toolkit to learn how to apply them to your students."
-    //    onlineClasses_successful: "Congratulations! Your payment was successful. Our team will reach out to you with the next steps."
-    //    homeSubscriptions_successful: "Congratulations! Your payment was successful. Your premium access will be available in few minutes."
-    //    failed: "Your payment failed, please try again"
-    //    session_week_1: "1 session/week"
-    //    session_week_2: "2 sessions/week"
-    //    month_1: "Monthly"
-    //    month_3: "Quarterly"
-    //    month_6: "Half-yearly"
-    //    year_1: "Yearly"
-    //    most_popular: "Most Popular"
-    //    best_value: "Best Value"
-    //    purchase_licenses: "Purchase Licenses easily to get full access to CodeCombat and Ozaria"
-    //    homeschooling: "Homeschooling Licenses"
-    //    recurring_month_1: "Recurring billing every month"
-    //    recurring_month_3: "Recurring billing every 3 months"
-    //    recurring_month_6: "Recurring billing every 6 months"
-    //    recurring_year_1: "Recurring billing every year"
-    //    purchase_licenses_2: "Purchase licenses for your students to access paid curriculum after the first course"
-    //    applying_licenses: "applying licenses"
-    //    about: "about"
-    //    school_district_heading: "Schools or Districts"
-    //    school_district_subheading: "For classrooms, schools and districts with 10 or more students"
-    //    classroom_heading: "Small Classroom"
-    //    classroom_subheading: "For clubs, after-school programs and small classrooms with 5-9 students."
-    //    customer_support_info_1: "Customer support via email or chat"
-    //    customer_support_info_2: "Customer support via email or chat, plus a dedicated school success manager available via phone or email for implementation support"
-    //    self_serve_credit: "Self-serve credit card purchase"
-    //    multiple_payment_options: "Variety of payment options available, including: purchase order, site licenses, & multi-year discounts."
-    //    admin_dashboard: "Administrator dashboard with actionable data and insights"
-    //    pd_info: "Comprehensive 40-hour online course that allows you to learn anytime, anywhere and at any pace."
-    //    implementation_info: "60 min Onboarding Training on how to use CodeCombat and Ozaria to support specific institutional and instructional goals."
-    //    ai_league_info: "Engage students in an exciting esports competition that allows them to showcase their understanding of concepts in a new environment and practice creative problem-solving strategies!"
-    //    ai_custom_tournament: "AI League Custom Tournament"
-    //    implementation_training: "Implementation Training"
-    //    full_access_coco: "Full Access to both CodeCombat"
-    //    and_oz: "And Ozaria"
-    //    cs_info: "Computer Science 1-6: 65 sessions"
-    //    wd_info: "Web Development 1-2: 10 sessions"
-    //    gd_info: "Game Development 1-3: 20 sessions"
-    //    chap1_info: "Chapter 1: 10 class sessions"
-    //    chap2_info: "Chapter 2: 30 class sessions"
-    //    chap3_info: "Chapter 3: 25 class sessions"
-    //    chap4_info: "Chapter 4: 20 class sessions"
-    //    includes: "Includes:"
-    //    show_plan_features: "Show Plan Features"
-    //    purchase_annually: "Available for purchase one time annually."
-    //    class_school_solution: "We'll help you build a solution that meets the needs of your class, school or district."
-    //    bulk: "Bulk"
-    //    discounts: "discounts"
-    //    available: "available"
-    //    request_quote: "Request a Quote"
-    //    business_partner_licenses: "Business Partner Licenses"
-    //    bd_subheading: "For Business Partners with at least 10 students, get premium access to CodeCombat’s computer science and coding games:"
-    //    bd_info_list_heading: "CodeCombat is the preferred partner for dozens of coding education businesses because:"
-    //    bd_info_list_1: "students love our game-based curriculum based in fantasy and adventure and keep coming back for more sessions"
-    //    bd_info_list_2: "anyone can teach coding with CodeCombat; the game is the primary teacher and we provide extensive support resources"
-    //    bd_info_list_3: "you will receive over 200 hours of curriculum, providing years of educational content for your business"
-    //    bd_includes_1: "Full access to CodeCombat and Ozaria with over 200 hours of premium game-based content"
-    //    bd_includes_2: "Teacher dashboard for record keeping and progress tracking "
-    //    bd_includes_3: "Online Resource Hub with walkthroughs and tutorials"
-    //    bd_help: "For any help, contact"
+    payments: {
+      //    student_licenses: "Student Licenses",
+      computer_science: '[AI_TRANSLATION]Számítástechnika',
+      web_development: '[AI_TRANSLATION]Webfejlesztés  ',
+      game_development: '[AI_TRANSLATION]Játékfejlesztés  ',
+      per_student: '[AI_TRANSLATION]Diákonként',
+      just: '[AI_TRANSLATION]Csak',
+      teachers_upto: '[AI_TRANSLATION]A tanár vásárolhat legfeljebb',
+      great_courses: '[AI_TRANSLATION]Szuper Tanfolyamok tartalmazva',
+      studentLicense_successful: '[AI_TRANSLATION]Gratulálunk! Az engedélyeidet egy percen belül használatra készek lesznek. Kattints a Tanár Eszközkészletben a Kezdők Útmutatójára, hogy megtudd, hogyan alkalmazhatod őket a diákjaidnál.',
+      onlineClasses_successful: '[AI_TRANSLATION]Gratulálunk! A fizetés sikeres volt. Csapatunk felveszi veled a kapcsolatot a következő lépésekkel.',
+      homeSubscriptions_successful: '[AI_TRANSLATION]Gratulálok! A fizetés sikeres volt. Néhány percen belül elérhető lesz a prémium hozzáférésed.',
+      failed: '[AI_TRANSLATION]A fizetésed nem sikerült, kérlek próbáld újra.',
+      session_week_1: '[AI_TRANSLATION]1 foglalkozás/hét',
+      session_week_2: '[AI_TRANSLATION]2 alkalom/hét',
+      month_1: '[AI_TRANSLATION]Havi',
+      month_3: '[AI_TRANSLATION]Negyedéves',
+      month_6: '[AI_TRANSLATION]Félévente',
+      year_1: '[AI_TRANSLATION]Évente',
+      most_popular: '[AI_TRANSLATION]Legnépszerűbb',
+      best_value: '[AI_TRANSLATION]Legjobb érték',
+      purchase_licenses: '[AI_TRANSLATION]Vásárolj Licenszeket könnyedén, hogy teljes hozzáférést kapj a CodeCombat és Ozaria programokhoz.',
+      homeschooling: '[AI_TRANSLATION]Otthoni Tanulási Engedélyek',
+      recurring_month_1: '[AI_TRANSLATION]Ismétlődő számlázás minden hónapban',
+      recurring_month_3: '[AI_TRANSLATION]Ismétlődő számlázás háromhavonta',
+      recurring_month_6: '[AI_TRANSLATION]Rendszeres számlázás 6 havonta',
+      recurring_year_1: '[AI_TRANSLATION]Ismétlődő számlázás évente',
+      purchase_licenses_2: '[AI_TRANSLATION]Vásárolj licencet a diákjaidnak, hogy hozzáférhessenek a fizetős tananyaghoz az első kurzus után',
+      applying_licenses: '[AI_TRANSLATION]licencek alkalmazása',
+      about: '[AI_TRANSLATION]róla',
+      school_district_heading: '[AI_TRANSLATION]Iskolák vagy kerületek',
+      school_district_subheading: '[AI_TRANSLATION]Osztályok, iskolák és körzetek számára, ahol 10 vagy több diák van',
+      classroom_heading: '[AI_TRANSLATION]Kis tanterem',
+      classroom_subheading: '[AI_TRANSLATION]Klubok, utóiskolai programok és kis osztályok számára, 5-9 diákkal.',
+      customer_support_info_1: '[AI_TRANSLATION]Ügyfélszolgálat emailben vagy chaten keresztül',
+      customer_support_info_2: '[AI_TRANSLATION]Ügyfélszolgálat e-mailben vagy csevegésben, plusz egy dedikált iskolai sikermenedzser, aki telefonon vagy e-mailben elérhető a megvalósítási támogatáshoz.',
+      self_serve_credit: '[AI_TRANSLATION]Ön-kiszolgáló hitelkártyás vásárlás',
+      multiple_payment_options: '[AI_TRANSLATION]Különféle fizetési lehetőségek állnak rendelkezésre, beleértve: vásárlási rendelés, helyi licencek és többéves kedvezmények.',
+      admin_dashboard: '[AI_TRANSLATION]Adminisztrátor irányítópult cselekvési adatokkal és betekintésekkel',
+      pd_info: '[AI_TRANSLATION]Átfogó 40 órás online kurzus, amely lehetővé teszi, hogy bárhol, bármikor és bármilyen ütemben tanulj.\n',
+      implementation_info: '[AI_TRANSLATION]60 perces Bevezető Tréning arra, hogy hogyan használd a CodeCombat-ot és az Ozaria-t az intézményi és oktatási célok támogatására.',
+      ai_league_info: '[AI_TRANSLATION]Vond be a diákokat egy izgalmas e-sport versenybe, amely lehetőséget biztosít számukra, hogy bemutassák koncepcióik megértését egy új környezetben és gyakorolják a kreatív probléma-megoldási stratégiákat!',
+      ai_custom_tournament: '[AI_TRANSLATION]AI Liga Egyedi Torna',
+      implementation_training: '[AI_TRANSLATION]Implementációs tréning',
+      full_access_coco: '[AI_TRANSLATION]Teljes Hozzáférés mindkettőhöz CodeCombat',
+      and_oz: '[AI_TRANSLATION]És Ozaria',
+      cs_info: '[AI_TRANSLATION]Számítástechnika 1-6: 65 foglalkozás',
+      wd_info: '[AI_TRANSLATION]Webfejlesztés 1-2: 10 ülés',
+      gd_info: '[AI_TRANSLATION]Játékkészítés 1-3: 20 foglalkozás',
+      chap1_info: '[AI_TRANSLATION]1. fejezet: 10 osztályóra',
+      chap2_info: '[AI_TRANSLATION]2. fejezet: 30 osztályfoglalkozás',
+      chap3_info: '[AI_TRANSLATION]3. fejezet: 25 osztályfoglalkozás',
+      chap4_info: '[AI_TRANSLATION]4. fejezet: 20 osztályfoglalkozás',
+      includes: '[AI_TRANSLATION]Tartalmazza:',
+      show_plan_features: '[AI_TRANSLATION]Mutasd a Tervek Jellemzőit',
+      purchase_annually: '[AI_TRANSLATION]Évente egyszer megvásárolható.',
+      class_school_solution: '[AI_TRANSLATION]Segítünk megoldást építeni, amely megfelel az osztályod, iskolád vagy körzeted igényeinek.',
+      bulk: '[AI_TRANSLATION]Tömegesen',
+      discounts: '[AI_TRANSLATION]kedvezmények',
+      available: '[AI_TRANSLATION]elérhető',
+      //    request_quote: "Request a Quote",
+      business_partner_licenses: '[AI_TRANSLATION]Üzleti Partneri Engedélyek',
+      bd_subheading: '[AI_TRANSLATION]Üzleti Partnereknek, akiknek legalább 10 diákjuk van, prémium hozzáférést biztosítunk a CodeCombat számítógépes tudomány és kódolási játékaihoz:',
+      bd_info_list_heading: '[AI_TRANSLATION]A CodeCombat az előnyben részesített partnere több tucat kódolási oktatással foglalkozó vállalkozásnak, mert:',
+      bd_info_list_1: '[AI_TRANSLATION]a diákok imádják a fantasyban és kalandban alapuló tantervünket és folyamatosan visszajönnek még több foglalkozásra',
+      bd_info_list_2: '[AI_TRANSLATION]Bárki tudja tanítani a kódolást a CodeCombat-al; a játék a fő tanár és mi biztosítunk kiterjedt támogató erőforrásokat.',
+      bd_info_list_3: '[AI_TRANSLATION]több mint 200 óra tananyagot kapsz, ami évekre elegendő oktatási tartalmat biztosít vállalkozásod számára',
+      bd_includes_1: '[AI_TRANSLATION]Teljes hozzáférés a CodeCombat és Ozaria játékokhoz több mint 200 óra prémium játék-alapú tartalommal',
+      bd_includes_2: '[AI_TRANSLATION]Tanári műszerfal nyilvántartás és haladás követésére',
+      bd_includes_3: '[AI_TRANSLATION]Online Forrásközpont bemutatókkal és oktatóanyagokkal',
+      bd_help: '[AI_TRANSLATION]Bármilyen segítségért, vedd fel a kapcsolatot ezzel:',
+      manage_stripe: '[AI_TRANSLATION]Stripe számlázás kezelése',
+      manage_billing_info: '[AI_TRANSLATION]Ez elvisz a Stripe-hez, ahol kezelheted a feliratkozással kapcsolatos feladatokat, mint például a számlázási előzményeid áttekintését vagy a fizetési módod frissítését.',
+      billing_portal: '[AI_TRANSLATION]Vásárlói Számlázási Portál  ',
+      email_not_verified: '[AI_TRANSLATION]Az email címed nincs megerősítve, kérlek erősítsd meg a fiókbeállításokban!',
+      stripe_no_data: '[AI_TRANSLATION]Nincs kezelhető adatod a Stripe portálon',
+    },
 
     form_validation_errors: {
       required: 'Mező kitöltése kötelező',
@@ -4695,255 +5187,1317 @@ module.exports = {
       emailExists: 'E-mail már létezik',
       numberGreaterThanZero: '0-nál nagyobb számnak kell lennie',
       requireValidEmail: 'Kérjük, adj meg egy érvényes e-mail címet.',
-      requireValidPhone: 'Kérjük, adj meg egy érvényes telefonszámot, körzetszámmal együtt.'
-    }
-  }
+      requireValidPhone: 'Kérjük, adj meg egy érvényes telefonszámot, körzetszámmal együtt.',
+    },
+
+    partners: {
+      for: '[AI_TRANSLATION]számára',
+      business_partners: '[AI_TRANSLATION]Üzleti Partnerek',
+      headline: '[AI_TRANSLATION]Csatlakozz hozzánk küldetésünkben, hogy mindenki számára elérhetővé és izgalmassá tegyük a kódolást!',
+      below_headline_blurb: '[AI_TRANSLATION]A CodeCombattal átfogó eszközöket fejlesztettünk ki, amelyekkel szórakoztató a kódolás tanulása és egyszerű a programozás tanítása. Kulcsrakész megoldásainkat számos kivitelezésben lehet használni.',
+      coding_title: '[AI_TRANSLATION]Kódolási és STEAM oktatási vállalkozások:  ',
+      coding_blurb: '[AI_TRANSLATION]Olyan értékes partnerek, mint a Code Ninjas és az IDEA Lab Kids, a mi játékunkat használják arra, hogy valódi Python és JavaScript kódolást tanítsanak a diákoknak a franchise helyszíneiken. Mi egy könnyen használható programot, megvalósítási forrásokat és képzési lehetőségeket kínálunk annak érdekében, hogy a diákok számára csodás élményt biztosítsunk.',
+      esports_title: '[AI_TRANSLATION]Oktatási Esports Szponzorok:',
+      esports_blurb: '[AI_TRANSLATION]Újraértelmezzük, mi lehet egy e-sport, miközben diákok ezreit vonjuk be a kódolás tanulásába. A CodeCombat AI League kezdeti szezonját támogatta az őshonos e-sport alap __hyperx__, erőteljes promóciós programokat építve köré.',
+      hyperx: '[AI_TRANSLATION]HyperX',
+      respawn: '[AI_TRANSLATION]RESPAWN',
+      distribution_title: '[AI_TRANSLATION]Nemzetközi terjesztés:',
+      distribution_blurb: '[AI_TRANSLATION]Programjaink több mint 190 ország diákjait szolgálták, és tartalmunk több mint __forty_languages__ nyelvre van lefordítva. Miközben az USA-ban és Kínában közvetlenül értékesítünk, szorosan együttműködünk helyi SaaS és EdTech disztribúciós partnerekkel világszerte, hogy bővítsük elérésünket.',
+      forty_languages: '[AI_TRANSLATION]40 nyelv',
+      equity_social_title: '[AI_TRANSLATION]Technológiai egyenlőség és társadalmi hatás:',
+      equity_social_blurb: '[AI_TRANSLATION]Nem minden partnerség alapul az anyagi hasznon. Küldetés-alapú szervezetként keressük a módját, hogy visszaadjunk a közösségnek. Szorosan együttműködünk alapítványokkal és más jótékonysági partnerekkel, hogy bővítsük a magas színvonalú kódolási oktatáshoz való hozzáférést.',
+      latin_superstar_blurb: '[AI_TRANSLATION]Ráadásul a latin szupersztár __eugenio_derbez__ segített nekünk elérni a latin közösséget egy partnerséggel, hogy bevonják a gyakran alulreprezentált és elhanyagolt diákokat.',
+      reach_latinx: '[AI_TRANSLATION]elérni a Latinx közösséget',
+      eugenio_derbez_blurb: '[AI_TRANSLATION]"Fontos számomra, hogy lássam a latino fiúkat és lányokat ebben a térben," mondta Eugenio Derbez. "A kódolás a jövő nyelve, és ha része akarunk lenni annak a jövőnek, akkor kódolásra kell bírnunk a gyerekeinket."',
+      seek_relationships_blurb: '[AI_TRANSLATION]Kapcsolatokat keresünk nonprofit és közösségi alapú szervezetekkel, amelyek hátrányos helyzetű csoportokkal dolgoznak a számítástechnikai és technológiai karrierek terén. Partnerségünk a __seeds_of_light__ szervezettel finanszírozni fogja az informatikai oktatási lehetőségeket több ezer fiatal tanuló számára.',
+      seeds_of_light: '[AI_TRANSLATION]Fény Magjai',
+      corporate_team_building_title: '[AI_TRANSLATION]Csapatépítés cégesen',
+      corporate_team_building_blurb: '[AI_TRANSLATION]Szeretnéd motiválni az alkalmazottaidat egy olyan kulcsrakész tevékenységgel, ami felébreszti bennük a versenyszellemet és kreatív problémamegoldásra ösztönzi őket? Dolgozz velünk egyedi versenyprogramozós torna összeállításában, ahol a csapatod a saját stratégiáikat kódolhatja a játék közben. __see_how__',
+      footer_blurb: '[AI_TRANSLATION]Ezek csak néhány a partnerkapcsolati struktúrák közül, amelyeket sikeresen támogattunk. Ha szeretnél beszélgetést kezdeményezni üzletfejlesztési csapatunkkal ezekkel vagy más partnerkapcsolati lehetőségekkel kapcsolatban, lépj kapcsolatba velünk még ma.',
+      talk_with_us: '[AI_TRANSLATION]Beszélj velünk\n',
+      our_partners: '[AI_TRANSLATION]Partnereink',
+      see_how: '[AI_TRANSLATION]Nézd meg hogyan',
+    },
+
+    podcast: {
+      learning_adventure: '[AI_TRANSLATION]Ahol a tanulás mindig kaland.',
+      explores_stem: '[AI_TRANSLATION]Podcastunk a technológia, STEM és a kreatív játék szerepét vizsgálja az oktatásban. Szakértő vendégekkel fedezzük fel, hogyan lehet a tanulás mindig kaland.',
+      listen: '[AI_TRANSLATION]Figyelj',
+      download: '[AI_TRANSLATION]Letöltés',
+      transcript: '[AI_TRANSLATION]Átirat',
+      learn_more_coco: '[AI_TRANSLATION]Többet szeretnél megtudni a CodeCombat kódolási élményeiről?',
+      //    subscribe: "Subscribe",
+      explore_coco: '[AI_TRANSLATION]Fedezd fel a CodeCombatot',
+      interested_in_being_guest: '[AI_TRANSLATION]Érdekel, hogy vendég legyél az EdTech Adventures-ben?',
+      lets_chat: '[AI_TRANSLATION]Csevegjünk',
+      air_date: '[AI_TRANSLATION]Levegő dátuma',
+      play_episode: '[AI_TRANSLATION]Játssz Epizódot',
+      about_guest: '[AI_TRANSLATION]Vendégünkről',
+      about_guests: '[AI_TRANSLATION]Vendégeinkről',
+      all_episodes: '[AI_TRANSLATION]Nézd meg az összes epizódot',
+      no_permission: '[AI_TRANSLATION]Nincs jogosultságod a podcast megtekintéséhez.',
+      listen_now: '[AI_TRANSLATION]Hallgasd meg most',
+      show_all_episodes: '[AI_TRANSLATION]Az összes epizód megtekintése',
+    },
+
+    library: {
+      enter_library_card: '[AI_TRANSLATION]Add meg a Könyvtári Kártya Számodat:',
+      access_coco: '[AI_TRANSLATION]CodeCombat elérése',
+      already_using_library_id: '[AI_TRANSLATION]Már használatban van a könyvtári azonosító',
+      play_coco: '[AI_TRANSLATION]játszani a CodeCombatot',
+      not_library_id: '[AI_TRANSLATION]Nem a te könyvtári azonosítód',
+      access_using_id: '[AI_TRANSLATION]hogy hozzáférhess az azonosítód használatával!!',
+      network_detected: '[AI_TRANSLATION]Könyvtárhálózat érzékelve, átirányítás a CodeCombat játékhoz.',
+      not_redirect_auto: '[AI_TRANSLATION]ha az átirányítás nem történik meg automatikusan',
+      engage_members: '[AI_TRANSLATION]Adj hozzáférést tagjaidnak a legélvezetesebb kódolási tanulási módhoz.',
+      //    importance_blurb: "Libraries play an important role in advancing educational equity in their communities. Many young learners do not have access or exposure to computer science, and libraries can provide important resources to these underserved groups. That is why we are partnering with libraries across the country to provide access to our game-based learning tools and educational resources.",
+      games_teach_blurb: '[AI_TRANSLATION]Játékaink valódi típusú Python, JavaScript és C++ kódolási nyelveket tanítanak a játék erején keresztül. A játékot egy lépcsőzetes tanterv egészíti ki, amely lehetővé teszi az önálló tanulók számára, hogy elsajátítsák az alapvető programozási fogalmakat, mielőtt továbblépnének a bonyolultabbakra. Minden szint arra ösztönzi a játékost, hogy írja be a szükséges kódot a hős előrehaladásához és a szint céljának eléréséhez.',
+      platform_built: '[AI_TRANSLATION]Platformunk kifejezetten a könyvtárak és látogatóik igényeire készült:',
+      accessible: '[AI_TRANSLATION]Hozzáférhető',
+      accessible_blurb: '[AI_TRANSLATION]Egy alap számítógép interneteléréssel minden, amire szükséged van a bejelentkezéshez és a játék kezdéséhez. A tartalom kezdőknek szól, akiknek nincs előzetes programozási tapasztalatuk.',
+      self_paced_intuitive: '[AI_TRANSLATION]Önálló tempójú és intuitív',
+      self_paced_intuitive_blurb: '[AI_TRANSLATION]Tanárok nem szükségesek, mivel a játékosok maguk diktálhatják a tananyag haladásának ütemét. Egyedi kódolómotorunk és tolmácsunk kezdők számára készült, felismeri a gyerekek által elkövetett hibákat, és emberszerű, kezdőbarát kifejezésekkel kommunikál velük.',
+      engaging_content: '[AI_TRANSLATION]Elragadó tartalom',
+      engaging_content_blurb: '[AI_TRANSLATION]A játék alapú tanulás már kezdetben vonzza a figyelmet, de talán még fontosabb, hogy a diákok elkötelezettek maradnak, amikor a koncepciók kihívóbbá válnak. Egy játékkörnyezetben a kudarc és siker várható és elfogadottak a játékélmény részeként.  ',
+      api_integrate: '[AI_TRANSLATION]API integráció ',
+      api_integrate_blurb: '[AI_TRANSLATION]A játékaink könnyen integrálhatók a digitális könyvtárad felületébe az EZProxy vagy más népszerű rendszereken keresztül. Ez a struktúra azonnali hozzáférést biztosít a tagok meglévő bejelentkezésével, és nem szükséges személyzet a licenceléssel vagy hozzáféréssel kapcsolatos logisztika kezeléséhez.',
+      //    privacy: "Privacy",
+      privacy_blurb: '[AI_TRANSLATION]Mi komolyan vesszük a felhasználók biztonságát, a kiberbiztonságot és az adatvédelmet, és számos szigorú adatvédelmi szabályozást követünk, mint például a COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Fair Information Practices, CAN-SPAM és GDPR. Ezek a szabályok és védelmi intézkedések lehetővé tették számunkra, hogy világszerte több mint húszmillió felhasználót biztonságban kiszolgáljunk.',
+      privacy_policy: '[AI_TRANSLATION]az egész adatvédelmi irányelveinket.',
+      see: '[AI_TRANSLATION]Nézd meg',
+      communication_limit: '[AI_TRANSLATION]Kommunikációs korlátok',
+      communication_limit_blurb: '[AI_TRANSLATION]Azért, hogy tagjaid biztonságát biztosítsuk, nem kínálunk játékon belüli csevegést vagy egyéb kommunikációs funkciókat a játékosok között, azonban engedélyezzük, hogy a tagok biztonságosan megosszák kódolási projektjeiket barátokkal, családdal és a CodeCombat közösséggel. Korlátozzuk az upsell vagy marketing üzeneteket, hogy zavartalan élményt biztosítsunk a vendégeidnek.\n',
+      usage_stats: '[AI_TRANSLATION]Használati statisztikák',
+      usage_stats_blurb: '[AI_TRANSLATION]Szerezz betekintést tagjaid használati szokásaiba pillanatfelvétel riport eszközünkkel. Hozzáférést biztosít bármikor a használati statisztikákhoz, beleértve a havi aktív felhasználókat, használt liszensz napokat és még sok értékes adatot.',
+      esports: '[AI_TRANSLATION]Akademikai E-sportok',
+      esports_blurb: '[AI_TRANSLATION]Az esport programunk lehetőséget kínál a tagjaid még szórakoztatóbb és izgalmasabb versenybe való bevonására. Az AI League lehetővé teszi a tagok számára, hogy új környezetben mutassák meg kódolási koncepcióik megértését és gyakorolják a problémamegoldó stratégiákat, miközben szembe szállnak a globális közösséggel.',
+      work_with_us_blurb: '[AI_TRANSLATION]Dolgozz velünk, hogy felszabadítsd közösségedben a következő generáció mérnökeit, programozóit és informatikai szakembereit.',
+      schedule_demo: '[AI_TRANSLATION]Ütemezz egy bemutatót',
+      license_modal_subtitle: '[AI_TRANSLATION]Kérjük, töltsd ki ezt a rövid űrlapot, és egyik könyvtári szakértőnk felveszi veled a kapcsolatot, hogy bemutatót és egyedi árajánlatokat biztosítson!',
+      license_modal_members: '[AI_TRANSLATION]Hozzáférésre váró tagok',
+      license_modal_members_placeholder: '[AI_TRANSLATION]Körülbelül hány tagnak lesz szüksége hozzáférésre?',
+      license_modal_contact: '[AI_TRANSLATION]Vedd fel velünk a kapcsolatot',
+      license_days_used: '[AI_TRANSLATION]Felhasznált licenc napok',
+      //    licenses_used: "Licenses used",
+      users_active_licenses: '[AI_TRANSLATION]Aktív licenccel rendelkező felhasználók',
+      //    lines_code: "Lines of Code",
+      programs_written: '[AI_TRANSLATION]Írt programok  ',
+      time_spent_min: '[AI_TRANSLATION]Eltelt idő (percben)',
+      //    month: "Month",
+      teacher_classroom_name: '[AI_TRANSLATION]Tanár vagy osztályterem neve',
+      already_logged_in: '[AI_TRANSLATION]Már be vagy jelentkezve, kérlek jelentkezz ki a felső navigációs sávban, hogy újra bejelentkezhess.',
+      search_box_option: '[AI_TRANSLATION]Ha a keresőmező nem töltődik be, akkor jelentkezz be a kattintva',
+      new_signups: '[AI_TRANSLATION]Új Regisztrációk',
+      heading_for: '[AI_TRANSLATION]számára',
+      heading_libraries: '[AI_TRANSLATION]Könyvtárak',
+      educational_equity: '[AI_TRANSLATION]Oktatási Esélyegyenlőség',
+      power_of_play: '[AI_TRANSLATION]A játék ereje',
+      library_card: '[AI_TRANSLATION]Könyvtári Kártya Szám',
+      library_signup_promotion: '[AI_TRANSLATION]Regisztrálj, hogy elmentsd a haladást és onnan folytasd, ahol abbahagytad a CodeCombat-on!!',
+      welcome_dashboard: '[AI_TRANSLATION]Üdvözlünk az irányítópultodon',
+      total_licenses_used: '[AI_TRANSLATION]Felhasznált licencek összesen',
+      from_launch_date: '[AI_TRANSLATION]az indítás időpontjától kezdve',
+      renewal_date: '[AI_TRANSLATION]Megújítás dátuma',
+      access_old_dashboard: '[AI_TRANSLATION]Ha hozzá akarsz férni a régi irányítópulthoz, látogasd meg',
+      //    loading_from: "loading data from",
+      user_activities: '[AI_TRANSLATION]Felhasználói tevékenységek',
+      total_users: '[AI_TRANSLATION]Összes Felhasználó',
+      lines_of_code_written: '[AI_TRANSLATION]Megírt Kódsorok',
+      hours_spent: '[AI_TRANSLATION]Eltöltött órák',
+      time_spent: '[AI_TRANSLATION]Eltöltött idő (percben)',
+      new_users: '[AI_TRANSLATION]Új felhasználók',
+      age_demographics: '[AI_TRANSLATION]Korosztályi demográfia',
+      levels_completed: '[AI_TRANSLATION]Teljesített szintek',
+      adjust_dates_explore: '[AI_TRANSLATION]Állítsd be az alábbi dátumokat, hogy felfedezd a támogató használati trendjeit az idő múlásával.',
+    },
+
+    related_accounts: {
+      subtitle: '[AI_TRANSLATION]Adj hozzá kapcsolódási lehetőséget különböző CodeCombat fiókok között, hogy gyorsan válthass közöttük. Például szülőként átválthatsz gyerekeid CodeCombat fiókjára. Vagy tanárként hozzáadhatsz egy teszt diák fiókot, hogy lásd, mit látnak diákjaid.',
+      wrong_account: '[AI_TRANSLATION]Kérjük, jelentkezz be a megfelelő fiókba a fiók összekapcsolásának megerősítéséhez. Jelentkezz be a fiókba és nyisd meg újra a linket az e-mailből.',
+      link_account: '[AI_TRANSLATION]Kapcsold össze a fiókodat',
+      link_successful_redirect: '[AI_TRANSLATION]Fiók sikeresen összekapcsolva, átirányítás',
+      add_related_user: '[AI_TRANSLATION]Kapcsolódó Felhasználó Hozzáadása',
+      adding: '[AI_TRANSLATION]Hozzáadás',
+      removing: '[AI_TRANSLATION]Eltávolítás',
+      added: '[AI_TRANSLATION]Fiók hozzáadva',
+      related_email: '[AI_TRANSLATION]Kapcsolódó felhasználói email',
+      relation: '[AI_TRANSLATION]Kapcsolat',
+      bi_directional: '[AI_TRANSLATION]Kétirányú',
+      account_exists: '[AI_TRANSLATION]A fiók már létezik',
+      link_using_email: '[AI_TRANSLATION]Link fiók a megerősítő email használatával',
+      link_using_email_blurb: '[AI_TRANSLATION]A felhasználó kap egy e-mailt a __email__ címre. Kérlek, kérd meg a felhasználót, hogy az e-mailben lévő linkre kattintva erősítse meg az összekapcsolást.',
+      account_not_exist: '[AI_TRANSLATION]A fiók nem létezik',
+      account_type: '[AI_TRANSLATION]Fióktípus',
+      create_account_and_email: '[AI_TRANSLATION]Hozz létre egy fiókot és küldj emailt a linkkel',
+      authenticate: '[AI_TRANSLATION]Hitelesítés',
+      invite: '[AI_TRANSLATION]Meghívás',
+      auth_using_pass: '[AI_TRANSLATION]Hitelesítsd magad __email__ jelszóval',
+      related_users: '[AI_TRANSLATION]Kapcsolódó felhasználók',
+      no_related_users: '[AI_TRANSLATION]Jelenleg nincs kapcsolódó felhasználó.',
+      send_verify_email: '[AI_TRANSLATION]Küldj ellenőrző e-mailt',
+      verified: '[AI_TRANSLATION]Ellenőrzött',
+      switch: '[AI_TRANSLATION]Váltás',
+      title: '[AI_TRANSLATION]Kapcsolódó fiókok',
+      bi_directional_help_text: '[AI_TRANSLATION]Megengeded a hozzáadott felhasználónak, hogy átváltson a fiókodra?',
+    },
+
+    modal_free_class: {
+      paragraph_1: '[AI_TRANSLATION]Köszönjük, hogy a CodeCombatot választottad.',
+      paragraph_2: '[AI_TRANSLATION]Csapatunk szívesen lép kapcsolatba veled, hogy gyermeked számára ingyenes próbaórát időzítsen.',
+      paragraph_3: '[AI_TRANSLATION]Kérjük, adja meg elérhetőségi adatait, és egyik tanácsadónk felhívja Önt, hogy összegyűjtse a tanulói információkat, azonosítsa a gyermeke preferált tanulási stílusához illő tanárt, és ütemezze a próbaórát.',
+      //    name: "Name",
+      phone_number: '[AI_TRANSLATION]Telefonszám',
+      available: '[AI_TRANSLATION]Tudsz most beszélni?',
+      yes: '[AI_TRANSLATION]Igen',
+      no: '[AI_TRANSLATION]Nem',
+      preferred_time: '[AI_TRANSLATION]Mikor alkalmas a hívás, ha most nem tudunk kapcsolódni?',
+      anytime: '[AI_TRANSLATION]Bármikor',
+      morning: '[AI_TRANSLATION]Reggel (8AM - 12PM)',
+      afternoon: '[AI_TRANSLATION]Délután (12:00 - 16:00)',
+      evening: '[AI_TRANSLATION]Este (4PM - 8PM)',
+      time_zone: '[AI_TRANSLATION]Az időzónád',
+      //    email: "Email",
+    },
+
+    mobile_landing: {
+      subtitle: '[AI_TRANSLATION]Szerezz ingyenes hozzáférést a legérdekesebb módhoz CS tanításához',
+      you_re_set: '[AI_TRANSLATION]KÉSZ VAGY!',
+      done_blurb: '[AI_TRANSLATION]Nézd meg az emailedet az utasításokért, hogyan férhetsz hozzá a tanári fiókodhoz. A legjobb élmény érdekében javasoljuk, hogy olyan eszközt használj, amely külső billentyűzettel és nagyobb képernyővel rendelkezik.  ',
+      step_email: '[AI_TRANSLATION]1. LÉPÉS  ',
+      step_name: '[AI_TRANSLATION]LÉPÉS 2',
+      step_done: '[AI_TRANSLATION]KÉSZ',
+      video_title: '[AI_TRANSLATION]SZEREZZ EGY KIS ÍZELÍTŐT ITT',
+      email_confirm: '[AI_TRANSLATION]Az "__email__" email cím már regisztrálva van. Szeretnél bejelentkezni?',
+    },
+
+    roblox_landing: {
+      meta_title: '[AI_TRANSLATION]CodeCombat Világok a Robloxon: Játssz, kódolj és alkoss',
+      headline: '[AI_TRANSLATION]Minden játékost arra ösztönzünk, hogy alkotó legyen!',
+      subhead: '[AI_TRANSLATION]Tapasztald meg a legkönnyebb és legélvezetesebb módját annak, hogy kódolj és saját Roblox játékokat hozz létre.',
+      join_the_beta: '[AI_TRANSLATION]Csatlakozz a Bétába',
+      //    sign_up: "Sign Up",
+      box_play_subhead: '[AI_TRANSLATION]Játsz',
+      box_code_subhead: '[AI_TRANSLATION]Kód',
+      box_create_subhead: '[AI_TRANSLATION]Létrehozás',
+      box_headline: '[AI_TRANSLATION]Játsz, Kódolj és Alkoss a Robloxon',
+      box_play_blurb_teacher: '[AI_TRANSLATION]A Roblox Oktatással együttműködve kombináljuk a bizonyított kódolás-játék megközelítésünket a Roblox platform kreatív és társadalmi hatalmával, hogy egy új Roblox élményt készítsünk, ami tanítja a kódolást és a játékfejlesztést a játékban.',
+      box_code_blurb_teacher: '[AI_TRANSLATION]Az élmény személyre szabott és differenciált lesz, felajánlva a játékosnak struktúrált és intuitív gyakorlást, amely lehetővé teszi, hogy a saját tempójában tanuljon, miközben a CSTA és ISTE számítástudományi szabványokhoz igazodik.',
+      box_create_blurb_teacher: '[AI_TRANSLATION]Ez az érdekes játékélmény biztosítja a szükséges alapoktatást, hogy a játékosokat a nulla programozási tudástól a teljes Roblox játékok kiadásáig vigye. A Kreatív módunk lehetővé teszi a játékosok számára, hogy építkezzenek játék közben, anélkül, hogy módot kellene váltaniuk a teljes asztali Roblox Studio IDE-re.',
+      box_play_blurb_player: '[AI_TRANSLATION]Fedezd fel a CodeCombat világának 3D immerszív élményét. Programozd a kisállataidat és kalandozz egy univerzumban tele kreativitással és megosztott élményekkel a barátaiddal.  ',
+      box_code_blurb_player: '[AI_TRANSLATION]Tanulj valódi Lua kódolást, kezdőtől a haladó szintig. Használd a kódot felfedezésre, erőforrások gyűjtésére, építésre, és megtalálhatod az utadat a dicsőség felé.',
+      box_create_blurb_player: '[AI_TRANSLATION]Nincs Roblox Studio? Nem gond. Programozz a játékon belül Kreatív Módban, hogy teljes Roblox játékokat készíthess, amiket megoszthatsz a barátaiddal.',
+      box_play_blurb_parent: '[AI_TRANSLATION]Bizonyított játék-alapú tanulási megközelítésünk révén játékosan vonzzuk be a fiatal tanulókat, miközben megtanítjuk nekik a kódolást és játékfejlesztést.',
+      box_code_blurb_parent: '[AI_TRANSLATION]A kaland kezdetétől kódolva a tapasztalat személyre szabott és differenciált, strukturált és szabadon formálható intuitív gyakorlatot kínálva, ami lehetővé teszi, hogy a gyereked úgy tanuljon, ahogy neki tetszik.',
+      box_create_blurb_parent: '[AI_TRANSLATION]Sok gyerek szeretne játékokat készíteni, de nem tudják, hol kezdjék. Ez az érdekes játékélmény biztosítja az alapvető oktatást, ami szükséges ahhoz, hogy a játékosok nulláról teljes Roblox játékokat publikáljanak.',
+      box_play_blurb_partner: '[AI_TRANSLATION]Vonzd be a fiatal tanulókat egy következő generációs Roblox élménnyel. A Roblox Education támogatásával egyesítjük a bizonyított kódolás-játék megközelítésünket a Roblox platform kreatív és szociális erejével, hogy egy új Roblox élményt hozzunk létre, amely játék közben tanítja a kódolást és a játékfejlesztést.',
+      box_code_blurb_partner: '[AI_TRANSLATION]A tapasztalat személyre szabott és differenciált lesz, strukturált és strukturálatlan intuitív gyakorlást kínálva, amely lehetővé teszi a játékos számára, hogy úgy tanuljon, ahogy neki tetszik. Könnyebbé tesszük, mint valaha, hogy valódi kódolást taníts a diákjaidnak akár egyéni tempóban, akár oktatói irányítás mellett.',
+      box_create_blurb_partner: '[AI_TRANSLATION]Az önálló tanterv építése helyett a Roblox Studio-hoz igazítva, használd ki a játékon belüli Kreatív Módunkat és annak felépített útmutatását, hogy könnyedén átvezesd diákjaidat a nulla kódolási tapasztalatról a teljes Roblox játékok kiadására.',
+      //    role_teacher: "Teacher",
+      role_player: '[AI_TRANSLATION]Játékos',
+      //    role_parent: "Parent",
+      role_partner: '[AI_TRANSLATION]Partner',
+      select_role: '[AI_TRANSLATION]Kérlek válaszd ki a szereped',
+      question_1: '[AI_TRANSLATION]Kell tudnom Lua-t vagy Roblox Studio-t?',
+      answer_1: '[AI_TRANSLATION]Nem. Ez a tapasztalat bárkinek lehetővé teszi, hogy játszon, kódoljon és alkosson kalandjaik kezdeteitől fogva, bármilyen kódolási tapasztalat nélkül.',
+      question_2: '[AI_TRANSLATION]Létrehozhatok saját játékokat?',
+      answer_2: '[AI_TRANSLATION]Igen. A játékfejlesztés ennek az élménynek a középpontjában áll, és miután befejezted az alapvető tanulási szinteket, lehetőséged lesz saját játékot létrehozni.',
+      question_3: '[AI_TRANSLATION]Elérhetőek lesznek a kreációim a Robloxban?',
+      answer_3: '[AI_TRANSLATION]Igen. Bármit, amit itt készítesz, be tudod importálni a Roblox Stúdióba, és publikálhatod is, hogy bárki játszhassa.',
+      bottom_blurb_parent: '[AI_TRANSLATION]Nem kell várni - __sign-up__ az élő online óráinkra, hogy a gyereked ma elkezdhesse a kódolást! Kezdjék el a CodeCombat webet, hogy elsőként juthassanak hozzá a CodeCombat Worlds Roblox élményhez.',
+      bottom_blurb_sign_up: '[AI_TRANSLATION]Regisztrálj',
+      bottom_blurb_partner: '[AI_TRANSLATION]Szeretnéd a CodeCombat Worlds Roblox élményt használni az oktatási vállalkozásodhoz, társadalmi hatású kezdeményezésedhez vagy nemzetközi terjesztési lehetőségedhez? __reach-out__ a partnerségért ma.',
+      bottom_blurb_reach_out: '[AI_TRANSLATION]Elérhetőség',
+      boxes_title: '[AI_TRANSLATION]Játsz, Kódolj és Alkoss a Robloxon',
+      login_message: '[AI_TRANSLATION]Be kell jelentkezned, mielőtt összekapcsolhatod a fiókodat a Robloxxal',
+      connect_button_header: '[AI_TRANSLATION]Fiók összekapcsolási jutalmak',
+      connect_button_linker_badge: '[AI_TRANSLATION]Linker Jelvény',
+      connect_button_accounts_linked: '[AI_TRANSLATION]Fiókok összekapcsolva',
+      connect_button_pet_chroma: '[AI_TRANSLATION]Chroma háziállat',
+      connect_button_exclusive_pet: '[AI_TRANSLATION]Exkluzív Kisállat',
+      connect_button_blurb: '[AI_TRANSLATION]Kösd össze a CodeCombat és Roblox fiókjaidat, hogy zökkenőmentes élményben legyen részed!',
+      connect_button_list_item_1: '[AI_TRANSLATION]Előfizetések kezelése',
+      connect_button_list_item_2: '[AI_TRANSLATION]Oldj fel további tartalmakat',
+      connect_button_list_item_3: '[AI_TRANSLATION]Nyomon követés',
+      connect_button_list_item_4: '[AI_TRANSLATION]Szerezz exkluzív jutalmakat',
+      connect_button_list_item_5: '[AI_TRANSLATION]Taneszközök elérése',
+      connect_button_list_item_6: '[AI_TRANSLATION]Szülői és tanári irányítópult hozzáférés',
+      connect_button_list_item_7: '[AI_TRANSLATION]Generatív AI funkciók feloldása',
+      connect_button_list_item_8: '[AI_TRANSLATION]Kreatív mód publikálása és exportálása',
+      connect_button_connected_blurb: '[AI_TRANSLATION]Gratulálunk, összekapcsoltad a fiókjaidat! Hívd meg barátaidat, hogy segítsenek elérni a közösségi kapcsolódási célokat.',
+      connect_button_not_connected_blurb: '[AI_TRANSLATION]Minél többen kapcsolódnak a fiókjaikhoz, annál több jutalmat kapsz!',
+      //    faq_bottom: "See more <a href=\"https://codecombat.zendesk.com/hc/en-us/categories/18084251471383-CodeCombat-Worlds-Roblox-\" target=\"_blank\">frequently asked questions in our help center</a>. <br />If you have any other questions, please <a href=\"mailto:support@codecombat.com\">Contact Us</a>.",
+      modal_title: '[AI_TRANSLATION]CodeCombat Világok<br> Most ÉLŐ a Roblox-on!',
+      modal_play_now: '[AI_TRANSLATION]JÁTSSZ MOST!',
+      modal_button_link_roblox_account: '[AI_TRANSLATION]Roblox Fiók Összekapcsolása',
+      age_restriction: '[AI_TRANSLATION]Legalább 13 évesnek kell lenned, hogy összekapcsold a Roblox fiókod.',
+    },
+
+    ai: {
+      prompt_level_chat_1: '[AI_TRANSLATION]Mit jelent ez a hiba?',
+      prompt_level_chat_2: '[AI_TRANSLATION]Kérlek, magyarázd el ezt a hibát.',
+      prompt_level_chat_3: '[AI_TRANSLATION]Mi a baj?',
+      prompt_level_chat_4: '[AI_TRANSLATION]Kérlek, magyarázd el ezt.',
+      prompt_level_chat_5: '[AI_TRANSLATION]Hogyan javíthatom meg?',
+      prompt_level_chat_6: '[AI_TRANSLATION]Segítség, kérlek.',
+      prompt_level_chat_7: '[AI_TRANSLATION]Mit csináljak?',
+      prompt_level_chat_8: '[AI_TRANSLATION]Mit jelent ez?',
+      prompt_level_chat_9: '[AI_TRANSLATION]Magyarázd el, kérlek.',
+      prompt_level_chat_10: '[AI_TRANSLATION]Mi ez a hiba?',
+      prompt_level_chat_11: '[AI_TRANSLATION]Mi a probléma?',
+      prompt_level_chat_12: '[AI_TRANSLATION]???  ',
+      prompt_level_chat_13: '[AI_TRANSLATION]Kedves AI, kérlek, versben magyarázd el a hibámat.',
+      prompt_level_chat_hint_1: '[AI_TRANSLATION]Kaphatok egy tippet?',
+      prompt_level_chat_hint_2: '[AI_TRANSLATION]Mi legyen a következő teendőm?',
+      prompt_level_chat_hint_3: '[AI_TRANSLATION]Kérlek, segíts a következő kódrészemmel.',
+      prompt_level_chat_hint_4: '[AI_TRANSLATION]Tipp a kódoláshoz, légyszi.',
+      prompt_level_chat_hint_5: '[AI_TRANSLATION]Szükségem van egy hintre a következő lépéshez.',
+      hackstack_promotion: '[AI_TRANSLATION]Oldd fel a Generatív MI Teljes Potenciálját',
+      try_it_free: '[AI_TRANSLATION]Próbáld ki ingyen',
+      hackstack_promotion_blurb: '[AI_TRANSLATION]Új az AI-ban? Fedezd fel a <b>CodeCombat AI HackStack</b>-et – a legegyszerűbb út az AI műveltség felé. Oldd fel a ChatGPT-4, Claude, Stable Diffusion, és DALL-E potenciálját. Ez az innovatív eszköz gyakorlati AI képzést kínál, megkönnyítve az alkotást.',
+      generate: '[AI_TRANSLATION]Generál',
+      games: '[AI_TRANSLATION]Játékok',
+      art: '[AI_TRANSLATION]Művészet',
+      websites: '[AI_TRANSLATION]Weboldalak',
+      code_more: '[AI_TRANSLATION]Kód és még több',
+      ideal_endeavour: '[AI_TRANSLATION]Ideális társ bármilyen törekvéshez.',
+      //    ai_made_ss: "AI Made Simple & Safe -- Start Today!",
+      //    aiss_body: "Built as the simplest path to AI literacy, this tool empowers learners to harness top LLMs with hands-on AI training, making creation easy—whether it’s games, art, writing, code, or more. Together, we help learners safely bring their ideas to life across any subject.",
+      //    learn_more: "Learn More!",
+    },
+
+    user_credits: {
+      level_chat_left_in_duration: '[AI_TRANSLATION]__credits__ AI Bot kérdések maradtak a __duration_key__ idejére',
+      level_chat_left_in_duration_multiple: '[AI_TRANSLATION]__credits__ AI Bot lekérdezések száma hátralévő __duration_amount__ __duration_key__  ',
+      level_chat_no_credits_left_duration: '[AI_TRANSLATION]Nincs több AI Bot kérés a __duration_key__ időszakra.',
+      level_chat_no_credits_left_duration_multiple: '[AI_TRANSLATION]Nincsenek AI Bot lekérdezések hátra __duration_amount__ __duration_key__ ideig',
+      level_chat_no_credits_left: '[AI_TRANSLATION]Nincs több AI Bot lekérés',
+    },
+
+    home_v3: {
+      mission_title: '[AI_TRANSLATION]Csatlakozz hozzánk a küldetésünkben, hogy mindenki számára elérhetővé tegyük a kódolást és a mesterséges intelligenciát.',
+      mission_supporting_text: '[AI_TRANSLATION]Elkötelezettek vagyunk abban, hogy magas színvonalú oktatási megoldásokat nyújtsunk, amelyek mindenkit képessé tesznek arra, hogy elérje a potenciálját és segítsenek egy jobb jövő kialakításában.',
+      stat_card_1_text: '[AI_TRANSLATION]20 millió',
+      stat_card_1_description: '[AI_TRANSLATION]Elkötelezett diákok',
+      stat_card_2_text: '[AI_TRANSLATION]1 Milliárd',
+      //    stat_card_2_description: "Lines of Code",
+      stat_card_3_text: '[AI_TRANSLATION]320,000',
+      stat_card_3_description: '[AI_TRANSLATION]Támogatott Tanárok',
+      stat_card_4_text: '[AI_TRANSLATION]75.000',
+      stat_card_4_description: '[AI_TRANSLATION]Elért Iskolák',
+      stat_card_5_text: '[AI_TRANSLATION]190+\n',
+      stat_card_5_description: '[AI_TRANSLATION]Országok',
+      stat_card_6_text: '[AI_TRANSLATION]5,2 millió',
+      stat_card_6_description: '[AI_TRANSLATION]ESport Játékosok',
+      learn_to_code: '[AI_TRANSLATION]Tanulj meg **kódolni** és használni az **AI-t**, mindezt a **játék erejével**.',
+      innovative_play_experiences: '[AI_TRANSLATION]Innovatív játékmeneteket hozunk létre, hogy a számítástechnika mindenki számára érdekes és elérhető legyen.',
+      sign_up_today: '[AI_TRANSLATION]Iratkozz fel még ma, hogy ingyen játszhass és felfedezd a játékainkat és erőforrásainkat.',
+      im_an_educator: '[AI_TRANSLATION]Tanár vagyok',
+      im_a_parent: '[AI_TRANSLATION]Szülő vagyok',
+      im_a_student: '[AI_TRANSLATION]Diák vagyok',
+      programming_languages: '[AI_TRANSLATION]Programozási Nyelvek & AI Eszközök',
+      engaging_play_experiences: '[AI_TRANSLATION]Lekötő játékélmények',
+      for_younger_learners: '[AI_TRANSLATION]Fiatalabb Tanulóknak',
+      your_turnkey_solutions: '[AI_TRANSLATION]Teljes megoldás a problémaidra',
+      trends_insights: '[AI_TRANSLATION]Trendek és betekintések',
+      awards_partners: '[AI_TRANSLATION]Díjak és partnerek',
+      faq_visit_help_center: '[AI_TRANSLATION]Gyakran ismételt kérdésekre adott válaszokért látogasd meg a **help center**-ünket.',
+      //    contact_us: "Contact Us",
+      for_further_questions: '[AI_TRANSLATION]További kérdések esetén',
+      education_partner: '[AI_TRANSLATION]Oktatás[NEWLINE]Partner',
+      official_member: '[AI_TRANSLATION]Hivatalos[NEWLINE]Tag',
+      best_creativity_tool_for_students: '[AI_TRANSLATION]Legkreatívabb[NEWLINE]Eszköz diákoknak',
+      official_partner: '[AI_TRANSLATION]Hivatalos[NEWLINE]Partner',
+      hour_of_code_activity_partner: '[AI_TRANSLATION]Kód Órája[NEWLINE]Aktivitási Partner',
+      top_pick_for_learning: '[AI_TRANSLATION]Legjobb választás\na tanuláshoz',
+      testimonals_1_title: '[AI_TRANSLATION]"Egy dolog, amit most meg tudok csinálni, amit korábban nem tudtam, az az, hogy tényleg elhiszem, hogy tudok programozni."',
+      testimonals_1_name: '[AI_TRANSLATION]Mountain Ridge Középiskola Diák',
+      testimonals_2_title: '[AI_TRANSLATION]"Nevezz meg bármilyen online programot, kipróbáltam. Egyik sem ér fel a CodeCombat és az Ozaria szintjére. Minden tanárnak, aki meg akarja tanítani a diákjait kódolni... kezdjék itt!"',
+      testimonals_2_name: '[AI_TRANSLATION]Scott Baily, Bobby Duke Gimnázium',
+      testimonals_3_title: '[AI_TRANSLATION]"Mindig is vágytam arra, hogy videojátékokat tervezzek és megtanuljak kódolni ... ez nagyszerű kiindulópontot ad nekem."',
+      testimonals_3_name: '[AI_TRANSLATION]Joey, 10. osztály',
+      testimonals_4_title: '[AI_TRANSLATION]"Amit a legjobban szeretek a CodeCombatban, az az, hogy nem egyszerűsíti le a kódolást. A diákok valódi kódot írni tanulnak, de úgy, hogy közben jól szórakoznak."  ',
+      testimonals_4_name: '[AI_TRANSLATION]Sandra Ahlstrom, Tanár, Sheridan Megyei Iskolakörzet #2',
+      carousel_1_title: '[AI_TRANSLATION]Játékalapú[NEWLINE]Tanulás',
+      carousel_1_text: '[AI_TRANSLATION]Egyedi megközelítésünkkel a diákok a játék és a kód írása révén ismerkednek meg a tanulással már az elején, ami elősegíti az aktív tanulást és a fejlődő mentalitást.',
+      carousel_2_title: '[AI_TRANSLATION]Szöveg-Alapú[NEWLINE]Kódolás',
+      carousel_2_text: '[AI_TRANSLATION]Az egyedi kódmotorunk és tolmácsunk a kezdők számára készült, hogy valódi Python, JavaScript és C++ programozási nyelveket tanítson emberbarát, kezdőbarát kifejezésekkel.',
+      carousel_3_title: '[AI_TRANSLATION]Projekt-alapú[NEWLINE]Értékelések  ',
+      carousel_3_text: '[AI_TRANSLATION]Ezek a projektek lehetőséget adnak a diákoknak, hogy saját, megosztható játékokat kódoljanak. Értékelési rubrikákat is biztosítunk, így a záróprojektek elsődleges összegző értékelésként használhatók.',
+      carousel_4_title: '[AI_TRANSLATION]AI[NEWLINE]Gyorsulás',
+      carousel_4_text: '[AI_TRANSLATION]Megtanítjuk a diákoknak, hogyan használják az AI-t a tanulás felgyorsítására és a kódolási képességeik fejlesztésére. Ez az erőteljes kombináció felszabadítja a kreatív potenciált minden készségszinten.',
+      carousel_5_title: '[AI_TRANSLATION]Oktatói[NEWLINE]Felhatalmazás',
+      carousel_5_text: '[AI_TRANSLATION]Osztálytermi megoldásainkat minden támogatással és erőforrással felépítettük, melyekre egy oktatónak szüksége lehet a tanterv bevezetéséhez és sikeres eredmények eléréséhez.',
+      carousel_6_title: '[AI_TRANSLATION]Diák[NEWLINE]Hatás',
+      carousel_6_text: '[AI_TRANSLATION]Termékeink több mint 20 millió diáknak segítettek élvezetessé tenni a számítástechnika tanulását, tanítva őket, hogy kritikus, magabiztos és kreatív tanulókká váljanak. Minden diákot bevonzunk, függetlenül a tapasztalatuktól, hogy felismerjék az utat a számítástechnika sikeréhez.\n',
+      engaging_boxes_1_title: '[AI_TRANSLATION]Ozaria Osztályterem',
+      engaging_boxes_1_text: '[AI_TRANSLATION]Egy narratív kódolási kaland, amely megalapozza a számítástechnika alapjait.',
+      engaging_boxes_2_title: '[AI_TRANSLATION]CodeCombat Tanterem',
+      engaging_boxes_2_text: '[AI_TRANSLATION]Egy teljes számítástechnikai tanterv, amely az alapvető fogalmaktól egészen a webfejlesztésig, játékfejlesztésig és **[https://codecombat.com/apcsp]AP CSP**-ig épül fel.  ',
+      engaging_boxes_3_title: '[AI_TRANSLATION]CodeCombat Világok a Robloxon',
+      engaging_boxes_3_text: '[AI_TRANSLATION]A Roblox Education-nel együttműködve, ez az AI által támogatott élmény szupergyorsítja a diákok kódolási képességeit, és egy valósághű platformot biztosít fantasztikus játékok és élmények létrehozásához.',
+      engaging_boxes_4_title: '[AI_TRANSLATION]CodeCombat AI Liga Esport',
+      engaging_boxes_4_text: '[AI_TRANSLATION]Egy menő versenykódolási e-sport platform, amely játék-alapú környezetben ösztönzi a kreatív programozást.',
+      engaging_boxes_5_title: '[AI_TRANSLATION]CodeCombat AI HackStack',
+      engaging_boxes_5_text: '[AI_TRANSLATION]Az első generatív AI társ-eszköz, amelyet kifejezetten az AI-ban újak számára terveztek, és amely a diákok adatvédelmére és biztonságára fókuszál. Egyszerűséget és erőt ötvözve a platform felgyorsítja a diákok képességeit és felszabadítja kreatív potenciáljukat.',
+      engaging_boxes_6_title: '[AI_TRANSLATION]CodeCombat Kezdőlap',
+      engaging_boxes_6_text: '[AI_TRANSLATION]Több mint 530 szinthez és exkluzív funkciókhoz, mint például háziállatok, csak prémiumos tárgyak és hősök hozzáférésével a gyereked teljesen belemerülhet a kódolás világába. Még játékokat is tervezhetnek, hogy kihívják a barátaikat, és weboldalakat és alkalmazásokat is készíthetnek megosztásra.',
+      young_learners_1_title: '[AI_TRANSLATION]CodeCombat Junior',
+      young_learners_1_text: '[AI_TRANSLATION]A népszerű K-5 tantervünk fokozatos tanulási szinteket kínál, amelyek lassabb tempóban tanítják az alapvető kódolási fogalmakat, kifejezetten az általános iskolások számára tervezve.',
+      young_learners_1_linkText: '[AI_TRANSLATION]Iratkozz fel a béta hozzáférésre',
+      young_learners_2_title: '[AI_TRANSLATION]AI Kezdő',
+      young_learners_2_text: '[AI_TRANSLATION]Bemutatja a többmódú generatív mesterséges intelligenciát egy egyszerű és intuitív platformon, amelyet kifejezetten K-5 diákok számára terveztek.',
+      young_learners_2_linkText: '[AI_TRANSLATION]Iratkozz fel a béta hozzáférésre',
+      solutions_1_title: '[AI_TRANSLATION]Szakmai Fejlődés',
+      solutions_1_text: '[AI_TRANSLATION]Úgy készült, hogy minden tanárt felhatalmazzon azzal a készséggel, tudással és önbizalommal, hogy hatékonyan taníthassa a számítástechnikát.',
+      solutions_1_middleText: '[AI_TRANSLATION]Szerezz akár 6 diplomás kreditet.',
+      solutions_1_linkText: '[AI_TRANSLATION]Próbáld ki most',
+      solutions_2_title: '[AI_TRANSLATION]AP CSP Vizsga Felkészülés',
+      solutions_2_text: '[AI_TRANSLATION]Az Állami Vizsga Bizottság által elismert tantervi és szakmai továbbképzési szolgáltatóként vagyunk nyilvántartva az AP® Számítástechnika Alapelvei (AP CSP) terén. Az AP CSP tananyagunk játék-alapú és kulcsrakész eszközöket biztosít a diákok felkészítéséhez az AP vizsgára.',
+      solutions_2_linkText: '[AI_TRANSLATION]Próbáld ki most',
+      solutions_3_title: '[AI_TRANSLATION]Támogatási és Finanszírozási Források',
+      solutions_3_text: '[AI_TRANSLATION]Megértjük az iskolák finanszírozási nehézségeit, és szenvedélyesen segítünk leküzdeni ezeket az akadályokat. Nézd meg átfogó útmutatónkat a támogatási forrásokhoz vagy beszélj csapatunkkal, hogy többet megtudj.',
+      solutions_4_title: '[AI_TRANSLATION]Körzet szintű megoldások',
+      solutions_4_text: '[AI_TRANSLATION]Innovatív megoldásaink segítettek az egész országban lévő körzeteknek bővíteni vagy elindítani számítástechnikai programjaikat. Több mint 320,000 oktatóból álló közösségünk visszajelzései alapján terveztük meg átfogó megoldásunkat, amely érzékeny és rugalmas tantervet biztosít, ami kielégíti minden diák és oktató igényeit. Csapatunk biztosítja a tanárok számára szükséges képzést és támogatást, így könnyen bevezethető és skálázható.',
+      solutions_5_title: '[AI_TRANSLATION]Élő Online Órák',
+      solutions_5_text: '[AI_TRANSLATION]Online kódolási osztályaink ötvözik a játék erejét és a személyre szabott oktatást, hogy olyan élményt nyújtsanak, amit gyermeked imádni fog. A saját Roblox játékuk kódolásától és közzétételétől kezdve, egészen egy új vállalkozás weboldalának felépítéséig, gyermeked megismerheti, mi minden lehetséges a mesterséges intelligenciával és a kódolással.\n',
+      solutions_6_title: '[AI_TRANSLATION]CodeQuest',
+      solutions_6_text: '[AI_TRANSLATION]Csatlakozz hozzánk egy olyan mélyreható oktatási élményre, amely inspirálja és felhatalmazza a következő generációs számítástechnikai innovátorokat. Ez a ritka lehetőség összefogja a világ minden tájáról érkező diákokat, hogy részt vegyenek egy sor kódoló hackathon-on, tanuljanak ismert előadóktól és látogassák meg a vezető egyetemeket és technológiai szervezeteket.',
+      solutions_6_linkText: '[AI_TRANSLATION]Fedezz fel többet',
+      solutions_7_title: '[AI_TRANSLATION]Partneri megoldások',
+      solutions_7_text: '[AI_TRANSLATION]Csatlakozz küldetésünkhöz, hogy a kódolást mindenki számára elérhetővé és érdekessé tegyük! Értékes partnerként oktatási vállalkozások, e-sport szponzorok, nemzetközi terjesztők és társadalmi hatású szervezetek közé csatlakozhatsz. A partnereink hozzáférést kapnak könnyen használható programjainkhoz, megvalósítási forrásainkhoz és képzési lehetőségeinkhez a sikeres és élvezetes élményért.',
+      solutions_8_title: '[AI_TRANSLATION]Könyvtár Megoldások',
+      solutions_8_text: '[AI_TRANSLATION]Teljesen önállóan és saját tempóban elvégezhető digitális erőforrásként a CodeCombat a legjobb integráció azoknak a könyvtáraknak, amelyek minden korosztálynak szeretnének lehetőséget biztosítani a programozás tanulására. Platformunk mindent kínál, amire a tanulóknak szüksége van ahhoz, hogy magas színvonalú kódolási képzést szerezzenek egyedülállóan izgalmas, játék alapú tanterv révén. Tökéletes kezdőknek egészen az egyetemi szintű programozási fogalmak elsajátításáig.',
+      learn_more_text: '[AI_TRANSLATION]Fedezz fel többet',
+      best_homeschool_curriculum: '[AI_TRANSLATION]Legjobb Otthoni Tanterv [NEWLINE]',
+      sign_up_free: '[AI_TRANSLATION]Regisztrálj Ingyen',
+      try_it_now: '[AI_TRANSLATION]Próbáld ki most',
+      //    junior_modal_header: "Try Our New K-5 Curriculum Today!",
+      //    junior_modal_body: "Perfect for K-5 classrooms, this new curriculum features real coding with icons, drag-and-drop blocks, parallel blocks with text, or purely text-based options. Plus, it’s fully accessible on tablets making it easy to support all learners.",
+    },
+
+    schools_page: {
+      meta_title: '[AI_TRANSLATION]CodeCombat: a leghatékonyabb számítástechnikai megoldás iskolák számára',
+      most_effective_computer_science_solution: '[AI_TRANSLATION]A leghatékonyabb számítástechnikai megoldás **iskolák számára**',
+      our_comprehensive_implementation: '[AI_TRANSLATION]Átfogó megoldásunk lehetővé teszi a tanárok számára, hogy bevonják a diákokat és sikeres eredményeket érjenek el.',
+      start_teach_trial: '[AI_TRANSLATION]Kezdd el tanítani ma ingyenes próba-hozzáféréssel minden játékhoz és oktatási erőforráshoz.',
+      get_my_solution: '[AI_TRANSLATION]Szerezd meg a megoldásomat',
+      flexible_standards_aligned_curriculum_title: '[AI_TRANSLATION]Egy Rugalmas, Szabványokhoz Igazított Tanterv',
+      flexible_standards_aligned_curriculum_text: '[AI_TRANSLATION]A mi programozási megközelítésünk lefedi a számítástechnika alapjait, egészen az emelt szintű tanfolyamokig, és tartalmazza a **[https://codecombat.com/apcsp]College Board által jóváhagyott AP CSP**-t, web- és játékfejlesztést. Személyre szabott tanulási élményt kínálunk, amely megfelel a **[https://codecombat.com/standards]CSTA, ISTE és Common Core Állami Szabványoknak**. A rugalmas tanterv lehetőséget ad Python, JavaScript, C++, Luau és más nyelvek oktatására is.',
+      comprehensive_tools_resources_title: '[AI_TRANSLATION]Itt az ideje, hogy saját játékot készíts!  ',
+      comprehensive_tools_resources_text: '[AI_TRANSLATION]A tanári forrásközpont felhatalmazza az összes oktatót, hogy azonnal taníthassanak. Könnyen hozzáférhetnek lecketervekhez, diákoknak szóló diahordozókhoz, értékelési szempontokhoz, kiterjesztett tevékenységekhez, projektmunkákhoz és értékelésekhez. Biztonságos AI integrációink felgyorsítják a diákok potenciálját, és lehetővé teszik az oktatók számára az osztályidő optimalizálását. A valós gyakorláshoz és alkalmazáshoz versenyképes kódolási esportokat, Roblox játéktervezést és webtervezési opciókat kínálunk. Továbbá az oktatók szabályozhatják a diákok haladási ütemét a tartalmi kijelölési és zárolási funkciókkal.',
+      accessible_data_insights_title: '[AI_TRANSLATION]Hozzáférhető Adatok és Elemzések',
+      accessible_data_insights_text: '[AI_TRANSLATION]Igazgatók számára valós idejű használati adatokat és előrehaladási jelentéseket nyújtunk osztály-, iskolai, körzeti és állami szinten. A tanulói szintű előrehaladási nyomon követés lehetővé teszi a pedagógusok számára, hogy könnyen azonosítsák, mikor van szükség beavatkozásra, és a beépített elő- és utóteszt modulok mérik a tanulói megértést.',
+      high_quality_professional_development_title: '[AI_TRANSLATION]Magas Színvonalú Szakmai Fejlesztés',
+      high_quality_professional_development_text: '[AI_TRANSLATION]**[https://csteachers.org/pd-opportunities/accredited-pd/]A Számítástechnikai Tanárok Szövetsége (CSTA) által ajánlott**, a tanfolyam 44+ órányi önálló, web-alapú és igény szerinti tanulást biztosít. A program önálló tempójú és bármilyen zsúfolt időbeosztáshoz illeszkedik. A kurzus felkészít bárkit, akár van előzetes tanítási tapasztalata, akár nincs, hogy sikeresen vezessen be egy számítástechnikai tantervet.\n',
+      earn_up_to_3_graduate_credits: '[AI_TRANSLATION]Keress akár 6 posztgraduális kreditet ezzel a kurzussal.',
+      //    request_a_demo: "Request a Demo",
+      maximize_your_impact: '[AI_TRANSLATION]Minden eszköz a tanulási eredmények maximalizálásához',
+      core_curriculum: '[AI_TRANSLATION]## Íjász Torony\nEgy egycélpontú torony, amely nyilakat lő ki, hogy kárt okozzon.\n* Költség: `10 * towerLevel`\n* Kár: `40 * towerLevel`\n* Hatótáv: `15 + scale(towerLevel)`\n* Hűlési idő `1 másodperc`\n\n## Jégtorony\nEgy területre ható torony, amely hideg aurát sugároz, amely lelassítja a jéghullám által eltalált ellenségeket.\n* Költség: `10 * towerLevel`\n* Kár: `1 * towerLevel`\n* Hatótáv: `17 + scale(towerLevel)`\n* Hűlési idő `0.5 másodperc`\n* Lassító Mennyiség: `70%`\n* Lassító Időtartam: `1 másodperc`\n\n## Ágyú Torony\nEgy területre ható torony, amely robbanásszerű károkat okoz minden ellenségnek a robbanás körül.\n* Költség: `10 * towerLevel`\n* Kár: `7 * towerLevel`\n* Hatótáv: `20 + scale(towerLevel)`\n* Robbanási Sugár: `37`\n* Hűlési idő `2 másodperc`\n\n## Tanyasi\nA tanya növeli a mana generációt `1` a tanya szintje szerint.\n* Költség: `10 * towerLevel`\n* Mana Generáció: `+0.5 Mana tick-ként towerLevel-enként`\n\n## Kaszárnya\nA kaszárnya növeli az ellenség hullámának erejét `10` a kaszárnya szintje szerint.\n* Költség: `10 * towerLevel`\n* Ellenség Hullám: `+10 HP towerLevel-enként`\n',
+      practice_enrichment: '[AI_TRANSLATION]Gyakorlás és Bővítés',
+      student_acceleration_ap_csp: '[AI_TRANSLATION]Diákgyorsítás és AP CSP',
+      young_learners: '[AI_TRANSLATION]Ifjú Tanulók',
+      funding_solutions: '[AI_TRANSLATION]Finanszírozási Megoldások',
+      support_development: '[AI_TRANSLATION]Támogatás & Fejlesztés',
+      ai_support_acceleration_title: '[AI_TRANSLATION]MI Támogatás és Gyorsítás',
+      ai_support_acceleration_text: '[AI_TRANSLATION]Az AI-t használjuk, hogy hatékonyabbá tegyük a tanítási időt. A CodeCombat mostantól támogatja az AI-tippek funkciót, amely kiértékeli a kódot, rávilágít a hibákra, és elmagyarázza, hogyan kell kijavítani őket. A legfontosabb, hogy minden szükséges kontextust biztosít a megértéshez, anélkül, hogy felfedné a teljes megoldást. A diákoknak még mindig át kell dolgozniuk az egyes szintek kódolási kihívásait, de mostantól nem kell megszakítanod az órát az egyéni igények kielégítésére. **A tanárok minden nap 100 AI tippet kapnak** és **minden diák naponta 5 AI tippet kap**, hogy mindig megkapják a szükséges támogatást.',
+      codecombat_ai_hackstack_text: '[AI_TRANSLATION]Az AI-ról újonnan érkezettek számára kínáljuk a **CodeCombat AI HackStack**-et. Ez az innovatív eszköz nemcsak megtanítja a diákokat az AI használatára, de biztonságos hozzáférést biztosít sok legújabb LLM-hez, beleértve a ChatGPT-4-et, Claude-ot, Stable Diffusion-t, DALL-E-t és másokat. Rövid idő alatt, az edzési mód végigvitelével a felhasználók a teljes kreatív potenciáljukat felszabadíthatják, lehetővé téve, hogy percek alatt megírják a projektek kódját és közzé is tegyék őket. Ez az AI-alapú alkalmazás lehetővé teszi a felhasználók számára, hogy játékokat, művészeti alkotásokat, weboldalakat, kódot és még sok mást generáljanak. **A tanárok havonta 100 AI promptot kapnak** és **minden diák hetente 10 AI promptot kap**, hogy több AI projektet készíthessen.',
+      pathways_for_success: '[AI_TRANSLATION]Siker útjai',
+      for_your_custom_pathway: '[AI_TRANSLATION]Személyre Szabott Útikalauzodért',
+      //    elementary_school: "Elementary School",
+      codecombat_jr: '[AI_TRANSLATION]CodeCombat Junior',
+      ai_hacksstack_jr: '[AI_TRANSLATION]AI Kezdő',
+      codecombat_worlds: '[AI_TRANSLATION]CodeCombat Világok',
+      k: '[AI_TRANSLATION]K',
+      icons_block_based: '[AI_TRANSLATION]Ikonok és Blokk Alapú',
+      introduction_to_ai: '[AI_TRANSLATION]Bevezetés a Mesterséges Intelligenciába',
+      grade_1: '[AI_TRANSLATION]1. osztály',
+      simple_ai_templates: '[AI_TRANSLATION]Egyszerű AI Sablonok',
+      grade_2: '[AI_TRANSLATION]2. osztály',
+      complex_ai_templates: '[AI_TRANSLATION]Összetett MI [TEMPLATE]-ek',
+      explorations: '[AI_TRANSLATION]Felfedezések',
+      grade_3: '[AI_TRANSLATION]3. osztály',
+      block_based: '[AI_TRANSLATION]Blokk-Alapú',
+      grade_4: '[AI_TRANSLATION]4. osztály',
+      block_based_text: '[AI_TRANSLATION]Blokk-Alapú & Szöveges',
+      grade_5: '[AI_TRANSLATION]5. osztály',
+      text: '[AI_TRANSLATION]Szöveg',
+      our_k_5_implementation_pathway: '[AI_TRANSLATION]Az K-5 Megvalósítási Útmutatónk két új **kezdőbarát** platformot vezet be, amelyek tartalmazzák a CodeCombat Juniort, fő általános iskolai szintű tantervünket, amely fokozatosan vezet be különböző tanulási szinteket, és **lassabb ütemben tanítja az alapvető kódolási fogalmakat**, valamint az AI HackStack Juniort, egy **multimodális AI eszközt**, amely lehetővé teszi a diákoknak, hogy vázoljanak, írjanak, és saját digitális termékeket tervezzenek. Ez az építkezési rendszer lehetővé teszi a diákoknak, hogy növekedjenek elmerülő tartalmunkkal, és felfedezzék a számítógépes gondolkodás és informatika széles skáláját.',
+      //    middle_school: "Middle School",
+      high_school: '[AI_TRANSLATION]Középiskola',
+      //    ozaria: "Ozaria",
+      ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      ai_league: '[AI_TRANSLATION]AI Liga',
+      grade_6: '[AI_TRANSLATION]6. osztály',
+      introduction_to_coding: '[AI_TRANSLATION]Bevezetés a Kódolásba',
+      introduction_to_luau_coding: '[AI_TRANSLATION]Bevezetés a Lua kódolásba',
+      introduction_to_coding_esports: '[AI_TRANSLATION]Bevezetés a Coding Esports-ba',
+      grade_7: '[AI_TRANSLATION]7. osztály  ',
+      loops_structures: '[AI_TRANSLATION]Ciklusok & Struktúrák',
+      introduction_to_creative_mode: '[AI_TRANSLATION]Bevezetés a Kreatív Módba',
+      ai_scenarios: '[AI_TRANSLATION]MI Forgatókönyvek',
+      competitive_coding_arenas: '[AI_TRANSLATION]Versenyzó Kódolás Arénák',
+      grade_8: '[AI_TRANSLATION]8. évfolyam',
+      functions_data: '[AI_TRANSLATION]Függvények & Adatok',
+      game_development: '[AI_TRANSLATION]Játékfejlesztés  ',
+      open_ended_ai_projects: '[AI_TRANSLATION]Nyitott végű mesterséges intelligencia projektek',
+      middle_school_implementation: '[AI_TRANSLATION]Középiskolai implementációnk **programozási fogalmak alapjait** fekteti le az Ozaria-val, alapvető Számítástechnikai tantervünkkel. Ez végül több hangot és választási lehetőséget biztosít, ahol a diákok **a programozást és AI-t fedezik fel** három különböző platformon. A **tanár és a diákok eldönthetik**, milyen mélyen fedezik fel mindegyik plusz platformot.',
+      //    codecombat: "CodeCombat",
+      ap_csp: '[AI_TRANSLATION]AP CSP',
+      cs1_4_data_science_cybersecurity_exam_content: '[AI_TRANSLATION]CS1-4 [NEWLINE] Adattudomány [NEWLINE] Kiberbiztonság [NEWLINE] Vizsga tartalom',
+      advanced_cs: '[AI_TRANSLATION]Fejlett SZ',
+      cs5_6_gd1_3_wd1_2: '[AI_TRANSLATION]CS 5-6 [NEWLINE] GD 1-3 [NEWLINE] WD 1-2',
+      advanced_game_development: '[AI_TRANSLATION]Haladó Játékfejlesztés',
+      advanced_ai_projects: '[AI_TRANSLATION]Haladó MI Projektek',
+      global_esports_tournament: '[AI_TRANSLATION]Globális Esports Bajnokság',
+      //    first_year_high_school_curriculum: "The first year of our high school curriculum focuses on **AP CS Principles**, which includes our CodeCombat courses, CS1−CS4 and exam curriculum content such as **Data Science** and **Computing Systems**. The more advanced year allows students to explore more of our **advanced CS courses** and offers voice and choice across our three platforms.",
+      accessibility_representation_title: '[AI_TRANSLATION]Hozzáférhetőség és képviselet',
+      accessibility_representation_text: '[AI_TRANSLATION]Diák-központú designunk találkozik a diákok jelenlegi szintjével, és megadja a szükséges támogatást. Az online és személyes tanulási lehetőségek lehetővé teszik a diákok számára, hogy bárhol, bármikor tanuljanak. A billentyűzet hozzáférhetőség, teljes képernyős olvasókompatibilitás és színtévesztők számára is megfelelő színséma biztosítja, hogy mindenki megtanulhasson programozni.',
+      //    accessibility_acr_prefix: "We meet WCAG 2.1 Level AA and Revised Section 508 Standards. See our",
+      //    accessibility_acr_link_text: "Accessibility Compliance Report (ACR) / VPAT",
+      //    accessibility_acr_suffix: "for more information.",
+      privacy_security_title: '[AI_TRANSLATION]Adatvédelem & Biztonság',
+      privacy_security_text: '[AI_TRANSLATION]Nagyon komolyan vesszük a diákok biztonságát, a kiberbiztonságot és az adatvédelmet, és betartjuk a szigorú iskolai adatvédelmi előírásokat, beleértve a COPPA-t, a FERPA-t, a SOPIPA-t, a Kaliforniai AB 1584-et, a CalOPPA-t, a Tisztességes Információs Gyakorlatokat, a CAN-SPAM-et, valamint a GDPR-t. Minden adatot biztonságosan tárolunk az Amazon Web Services-en az Egyesült Államokban. Az AI integrációink biztosítékokkal rendelkeznek a személyes azonosításra alkalmas adatok védelme és az érzékeny tartalom korlátozása érdekében. A projektek megosztása szabályozott, és a társaik közötti kommunikáció korlátozott. Adatfeldolgozási megállapodások elérhetők, további információért látogasson el a **https://codecombat.com/privacy** oldalra.',
+      contact_our_team: '[AI_TRANSLATION]Vedd fel velünk a kapcsolatot',
+      for_turnkey_solutions: '[AI_TRANSLATION]A te kész megoldásodhoz',
+      testimonials_1_quote: '[AI_TRANSLATION]"Először tisztázzuk ezt. Azért ajánlom a terméketeket, mert ez a legjobb programozási tanító eszköz jelenleg a Földön."',
+      testimonials_1_name: '[AI_TRANSLATION]Seth Reichelson',
+      testimonials_1_title: '[AI_TRANSLATION]AP Számítástechnika Tanár, Lake Brantley Középiskola. A Fehér Ház Változás Bajnoka nyertese',
+      testimonials_2_quote: '[AI_TRANSLATION]"[Ozaria] egy teljes tanterv a számítástechnikai oktatáshoz, nagyon lenyűgöző, nagyon átfogó [...] Mindene megvan, amire szükséged van [...] Nem hiszem, hogy láttunk már valamit ennyi extra dologgal, ami segít jól tanítani."',
+      testimonials_2_name: '[AI_TRANSLATION]Tanner Higgin',
+      testimonials_2_title: '[AI_TRANSLATION]Szerkesztői igazgató - Oktatási tartalom, Common Sense Education',
+      testimonials_2_full_review_text: '[AI_TRANSLATION]Teljes vélemény itt',
+      //    testimonials_3_quote: "“CodeCombat was one of the easiest to implement programs we’ve piloted and student engagement was extremely high. The way the content is designed, scaffolds perfectly and allows students to quickly move into high level programming skills far beyond anything we could have hoped for.”",
+      testimonials_3_name: '[AI_TRANSLATION]Steve Kong',
+      testimonials_3_title: '[AI_TRANSLATION]Oktatási szolgáltatások szakértője, Riverside Unified School District',
+      //    testimonials_4_quote: "“One thing I am able to do now that I could not do before is actually believe I can code.”",
+      //    testimonials_4_name: "",
+      testimonials_4_title: '[AI_TRANSLATION]Mountain Ridge Középiskola Diák',
+      //    testimonials_5_quote: "“CodeCombat has transformed how I teach coding...I utilize the great teacher resources including Curriculum Guides, Project Guides, and Solutions. Using CodeCombat has helped me to teach fairly advanced concepts in a way the students enjoy and understand. What I love the most about CodeCombat is that it does not simplify coding. The students are learning to write actual code, yet doing it in such a way that they are having fun.”",
+      testimonials_5_name: '[AI_TRANSLATION]Sandra Ahlstrom',
+      testimonials_5_title: '[AI_TRANSLATION]Tanár, Sheridan Megyei Iskolakerület #2',
+      faq_1_question: '[AI_TRANSLATION]Amit tudnod kell a minősítő vizsgákról és az AP CSP-ről',
+      //    faq_1_answer: "Career Technical Education (CTE) programs in the U.S. focus on equipping students with industry-valued skills and can lead to trade school or college education. Mandated by state and federal laws, CTE programs must offer students postgraduate credit, industry certifications, or internship hours. While some fields, like cybersecurity, offer valued certification exams, others such as software engineering prioritize four-year degrees over such exams. However, passing the AP Computer Science Principles exam serves as a recognized avenue to postsecondary credit, enabling students to bypass costly and time-consuming college requirements. To help prepare students CodeCombat provides an **[https://codecombat.com/apcsp]AP CSP course**, endorsed by the College Board.",
+      faq_2_question: '[AI_TRANSLATION]Hogyan használjuk az AI-t az oktatók támogatására',
+      faq_2_answer: '[AI_TRANSLATION]Mesterséges intelligenciát használunk az oktatási idő hatékonyabbá tételéhez. A növekvő osztálylétszám és a személyre szabott oktatásra rendelkezésre álló korlátozott idő miatt mesterséges intelligencia által vezérelt szint chat asszisztensünk tökéletes eszköz arra, hogy gondoskodjon a diákok egyéni kérdéseiről. Ez az erős segítő képes értékelni a kódot, felhívni a hibákra a figyelmet, elmagyarázni, hogyan lehet azokat javítani, és minden szükséges kontextust megadni, hogy megértsék a "miértet". És ami a legfontosabb, nem adja meg nekik a megoldást. Csak a következő soros segítséggel elérhetők a diákok még mindig végig kell dolgozniuk minden szint kódolási kihívását, de most már nem kell az osztályt megszakítani az egyéni igények kielégítéséhez.',
+      faq_3_question: '[AI_TRANSLATION]Hogyan integráljuk az AI-t biztonságosan és felelősségteljesen',
+      faq_3_answer: '[AI_TRANSLATION]MI technológiánk elsődleges szempontja a biztonság, amely bizalmat nyújt mind a diákoknak, mind a tanároknak. Nem engedélyezzük, hogy háttérben működő LLM szolgáltatóink a beszélgetéseidet tréningezésre használják, és védelmi intézkedéseket hoztunk a nem megfelelő tartalmak ellen. Ezek az intézkedések közé tartozik a káros nyelvezet szűrése, a releváns témákra való összpontosítás, a személyes információk védelme, valamint a diákok tájékoztatása az MI lehetséges veszélyeiről. Ezen felül naplózzuk az MI chat-tevékenységeket a tanári felügyelet érdekében, és szigorú adatvédelmi és biztonsági protokollokat követünk.',
+      faq_4_question: '[AI_TRANSLATION]Miért fontos a számítástechnika',
+      faq_4_answer: '[AI_TRANSLATION]A számítástechnikai oktatás azonnali előnyök széles körét nyújtja, beleértve a problémamegoldó képességek növelését, a matematika élesítését, és elősegíti a logikai gondolkodást, ami szükséges a többi alaptantárgyban való sikerhez. A tanulás messze túlmutat a kódoláson, növeli a hallgatók képességét bonyolult problémák megoldására és különböző helyzetekhez való alkalmazkodásra. Nézd meg, hogyan segít az Ozaria ezekben a **[https://docs.google.com/presentation/d/1xcc1tw4k8oY9basXuxO0v_RU9z-Dr8ImvbvbuNvJeHA/edit#slide=id.g134a7e7c8f1_0_3]tantervi összekapcsolódásokban**. Tantervünk célja, hogy a mai diákokat olyan fontos számítástechnikai készségekkel vértezze fel, amelyek felkészítik őket a digitális jövő munkaköreire.',
+      faq_5_question: '[AI_TRANSLATION]Miért működik a játék-alapú tanulás',
+      faq_5_answer: '[AI_TRANSLATION]A játék-alapú tanulás azért olyan hatékony, mert biztonságos környezetet biztosít, ahol a kudarc nem félelmetes, hanem várt, így lehetőséget ad a növekedésre és megértésre. Ez a megközelítés arra ösztönzi a diákokat, hogy tanuljanak a hibáikból és alkalmazkodjanak a siker érdekében. Továbbá a játékok interaktív és dinamikus természete segít a diákoknak hatékonyabban megőrizni az információkat, mivel gyakorlati, kézzelfogható élményeken keresztül tanulnak. Aktívan bevonja a diákokat a tanulási folyamatba, növelve a motivációjukat és élvezetüket.',
+      faq_6_question: '[AI_TRANSLATION]Hogyan találj alternatív finanszírozási forrásokat',
+      faq_6_answer: '[AI_TRANSLATION]A számítástechnikai oktatás egyre fontosabb része lett a diákok akadémiai útjának, azonban sok iskola kihívásokkal küzd az ehhez szükséges források biztosítása terén, hogy átfogó programokat kínálhassanak. A CodeCombat-nál értjük a finanszírozási akadályokat, és szenvedélyesen segítjük az iskolákat ezek leküzdésében. A támogatások értékes forrást jelenthetnek, de nehéz megtalálni és pályázni rájuk. Nézd meg átfogó **[https://codecombat.com/grants]támogatási útmutatónkat** vagy beszélj csapatunkkal további információért.',
+      faq_7_question: '[AI_TRANSLATION]Hogyan kezdjünk neki',
+      faq_7_answer_1: '[AI_TRANSLATION]Hozd létre a tanári vagy adminisztrátori fiókodat',
+      faq_7_answer_2: '[AI_TRANSLATION]Hozz létre egy osztályt',
+      faq_7_answer_3: '[AI_TRANSLATION]Adj hozzá diákokat',
+      faq_7_answer_4: '[AI_TRANSLATION]Dőlj hátra, és nézd, ahogy a diákjaid szórakozva tanulják a kódolást',
+      faq_8_question: '[AI_TRANSLATION]Támogatás a Clever és Google bejelentkezéshez',
+      faq_8_answer: '[AI_TRANSLATION]Kínálunk Clever és Google Classroom integrációt is. Nézd meg a **[https://codecombat.com/teachers/resources/clever-faq]Clever Integration FAQ** további részletekért a kezdéshez. Ha a Google Classroomot használod, győződj meg róla, hogy a Google Egyszeri Bejelentkezési (SSO) Modal segítségével iratkozol fel tanári fiókodra. Ha már van fiókod a Google e-mail címeddel, a következő bejelentkezéskor használd a Google SSO modalt. Az Osztály Létrehozás modáljánál láthatsz egy lehetőséget a Google Classroom összekapcsolására. Jelenleg csak Google Classroomon keresztüli beosztást támogatunk. Megjegyzés: legalább egyszer be kell jelentkezned a Google SSO-val, hogy lásd a Google Classroom integrációs lehetőséget.  ',
+      faq_9_question: '[AI_TRANSLATION]Ajánlott böngésző és operációs rendszer',
+      faq_9_answer: '[AI_TRANSLATION]A CodeCombat és az Ozaria a legjobban olyan számítógépeken fut, amelyek legalább 4GB RAM-mal rendelkeznek, olyan modern böngészővel, mint a Chrome, Safari, Firefox vagy Edge. A 2GB RAM-mal rendelkező Chromebookok kisebb grafikai problémákat tapasztalhatnak a későbbi kurzusok során. Hallgatónként minimum 200 Kbps sávszélesség szükséges, bár az 1+ Mbps javasolt.',
+      core_curriculum_1_title: '[AI_TRANSLATION]Ozaria Osztályterem',
+      core_curriculum_1_text: '[AI_TRANSLATION]Egy narratív kódolási kaland, amely megalapozza a számítástechnika alapjait.',
+      core_curriculum_1_link_text: '[AI_TRANSLATION]Próbáld ki most',
+      core_curriculum_2_title: '[AI_TRANSLATION]CodeCombat Tanterem',
+      core_curriculum_2_text: '[AI_TRANSLATION]Teljes CS tanterv, amely az alapfogalmaktól kezdve webfejlesztésen, játékfejlesztésen keresztül a **[http://codecombat.com/apcsp]AP CSP**-ig épít fel mindent.',
+      core_curriculum_2_link_text: '[AI_TRANSLATION]Próbáld ki most',
+      practice_enrichment_1_title: '[AI_TRANSLATION]CodeCombat AI Liga Esport',
+      practice_enrichment_1_text: '[AI_TRANSLATION]Egy menő versenykódolási e-sport platform, amely játék-alapú környezetben ösztönzi a kreatív programozást.',
+      practice_enrichment_1_link_text: '[AI_TRANSLATION]Próbáld ki most',
+      practice_enrichment_2_title: '[AI_TRANSLATION]CodeCombat Világok a Robloxon',
+      practice_enrichment_2_text: '[AI_TRANSLATION]A Roblox Education-nel együttműködve, ez az AI által támogatott élmény szupergyorsítja a diákok kódolási képességeit, és egy valósághű platformot biztosít fantasztikus játékok és élmények létrehozásához.',
+      practice_enrichment_2_link_text: '[AI_TRANSLATION]Próbáld ki most',
+      student_acceleration_1_title: '[AI_TRANSLATION]CodeCombat AI HackStack',
+      student_acceleration_1_text: '[AI_TRANSLATION]Az első generatív AI társ-eszköz, amelyet kifejezetten az AI-ban újak számára terveztek, és amely a diákok adatvédelmére és biztonságára fókuszál. Egyszerűséget és erőt ötvözve a platform felgyorsítja a diákok képességeit és felszabadítja kreatív potenciáljukat.',
+      student_acceleration_1_link_text: '[AI_TRANSLATION]Próbáld ki most',
+      student_acceleration_2_title: '[AI_TRANSLATION]AP CSP Vizsga Felkészülés',
+      student_acceleration_2_text: '[AI_TRANSLATION]Az Állami Vizsga Bizottság által elismert tantervi és szakmai továbbképzési szolgáltatóként vagyunk nyilvántartva az AP® Számítástechnika Alapelvei (AP CSP) terén. Az AP CSP tananyagunk játék-alapú és kulcsrakész eszközöket biztosít a diákok felkészítéséhez az AP vizsgára.',
+      young_learners_1_title: '[AI_TRANSLATION]CodeCombat Junior',
+      young_learners_1_text: '[AI_TRANSLATION]A népszerű K-5 tantervünk fokozatos tanulási szinteket kínál, amelyek lassabb tempóban tanítják az alapvető kódolási fogalmakat, kifejezetten az általános iskolások számára tervezve.',
+      young_learners_1_link_text: '[AI_TRANSLATION]Iratkozz fel a béta hozzáférésre',
+      young_learners_2_title: '[AI_TRANSLATION]AI Kezdő',
+      young_learners_2_text: '[AI_TRANSLATION]Bemutatja a többmódú generatív mesterséges intelligenciát egy egyszerű és intuitív platformon, amelyet kifejezetten K-5 diákok számára terveztek.',
+      young_learners_2_link_text: '[AI_TRANSLATION]Iratkozz fel a béta hozzáférésre',
+      funding_solutions_1_title: '[AI_TRANSLATION]Támogatási és Finanszírozási Források',
+      funding_solutions_1_text: '[AI_TRANSLATION]Megértjük az iskolák finanszírozási nehézségeit, és szenvedélyesen segítünk leküzdeni ezeket az akadályokat. Nézd meg átfogó útmutatónkat a támogatási forrásokhoz vagy beszélj csapatunkkal, hogy többet megtudj.',
+      funding_solutions_1_link_text: '[AI_TRANSLATION]Fedezz fel többet',
+      support_development_1_title: '[AI_TRANSLATION]Élő Online Órák',
+      support_development_1_text: '[AI_TRANSLATION]Szeretnél minőségi informatika oktatást nyújtani, de nincs hozzá elegendő személyzet? Mester oktatóink szórakoztató virtuális órákat tartanak, amelyek ideálisak tantermi vagy iskola utáni programokhoz.',
+      support_development_1_link_text: '[AI_TRANSLATION]Iratkozz fel a béta hozzáférésre',
+      faq_header: '[AI_TRANSLATION]Gyakran Ismételt Kérdések',
+      faq_see_more: '[AI_TRANSLATION]Tekintsd meg a gyakran feltett kérdéseket a **[https://codecombat.zendesk.com/hc/en-us]súgó központunkban**.',
+      trends_1_title: '[AI_TRANSLATION]Az MI nem helyettesíti a kódolást, hanem felgyorsítja azt!',
+      trends_1_text: '[AI_TRANSLATION]Hivatalosan megérkeztünk az MI korszakba. Az érdeklődéssel és túlzásokkal együtt egy hullámnyi félelem és bizonytalanság érkezett a számítástechnika jövője miatt. Videók az MI-ről, ahogy egyszerű bemenetekkel kódot ír, és történetek mérnökökről, akiket MI-botok váltottak fel, táplálták a drámai, de végső soron hibás narratívát. Az igazság az, hogy az MI nem helyettesíti a kódolást; felgyorsítja azt!  ',
+      trends_1_linkText: '[AI_TRANSLATION]Olvasd el a Blogot',
+      trends_2_title: '[AI_TRANSLATION]Karrier Technikai Oktatás Pat Keeney-vel',
+      trends_2_text: '[AI_TRANSLATION]A Karrier Technikai Oktatás (CTE) felkészíti a diákokat arra, hogy egész életük során tanuljanak, és ellátja őket azokkal a készségekkel és tudással, amire szükségük lesz a jövőbeli karrierjük sikeréhez. Ebben az epizódban Pat Keeney, a McGraw Hill CTE bajnoka, megosztja tapasztalatait',
+      trends_2_linkText: '[AI_TRANSLATION]Hallgasd meg a Podcastot',
+      learn_more_text: '[AI_TRANSLATION]Fedezz fel többet',
+      your_turnkey_solutions: '[AI_TRANSLATION]Teljes megoldás a problémaidra',
+      free_teacher_account: '[AI_TRANSLATION]Ingyenes Tanári Fiók',
+      trial_the_curriculum: '[AI_TRANSLATION]Próbáld ki a tananyagot ma a diákjaiddal!',
+      try_it_free: '[AI_TRANSLATION]Próbáld ki ingyen',
+    },
+
+    //  hackstack_page: {
+    //    header: "Learn, create, and accelerate with **AI HackStack**",
+    //    header_details: "Together, we empower learners to safely bring their ideas to life across any subject.",
+    //    accessible_safe_use: "Accessible, safe, and responsible use of AI",
+    //    learn_title: "Learn",
+    //    learn_description: "From **English Language Arts** to **Mathematics** and **Science**, students discover how to craft safe and effective prompts for generating output in each discipline. Learn essential prompt engineering skills in a **wide range of subjects** using Al HackStack's Learning Scenarios. Along the way, your students will gain hands-on experience with popular Al models like Claude, DALL-E, and Stable Diffusion.",
+    //    create_title: "Create",
+    //    create_description: "Bring your wildest ideas to life with HackStack's Al **sandbox environment**. Here, students will be able to quickly prototype interdisciplinary projects of all kinds. Use our turnkey curriculum to help your students engage in meaningful discussions about the **responsible use** of Al and the **ethical implications** of their creations. This holistic approach not only sparks innovation but also cultivates digital citizenship, equipping students with the skills and awareness needed to thrive in the digital age.",
+    //    remix_title: "Remix",
+    //    remix_description: "Supercharge the creative process by customizing one of the many projects found in Al HackStack's **community library**. The remix feature not only accelerates individual progress but also fosters a **collaborative ecosystem** where ideas evolve rapidly. As students remix and build upon each other's work, the collective output of your classroom will reach new creative heights, resulting in an impressive showcase of student-driven innovation.",
+    //    privacy_title: "Safety and Privacy",
+    //    privacy_subtitle: "Our AI platforms fuel student curiosity and creativity, with the privacy and security you need.",
+    //    data_title: "Your Data is Safe",
+    //    data_description: "We carefully vet Al tools before they are added to Al HackStack. If they're not safe, we don't include them. We also screen user prompts to make sure they don't contain any Personally Identifiable Information. If they do, we replace it with a placeholder value before giving it to an external Al model. Additionally, you have the power to lock specific Al tools so that your students cannot access the ones you don't feel comfortable using.",
+    //    moderation_title: "Our Moderation Practices",
+    //    moderation_description: "We monitor user prompts and Al output to make sure they don't contain any inappropriate content. You can review every prompt that your student has written in the Al HackStack teacher dashboard. We also provide turnkey resources to help you and your students navigate the complexity of using Al, and provide professional development opportunities for those who want more guidance on what to look for when students are using Al.",
+    //    professional_development: "High Quality Professional Development",
+    //    professional_development_text: "We offer professional development opportunities for those who want more guidance on how to use AI in the classroom. These professional development workshops were modeled after **[https://www.teachai.org/toolkit]Teach AI**, **[https://www.edsafeai.org/safe]EdSafe**, **[https://csteachers.org/k12standards/]CSTA**, and **[https://ai4k12.org/]AI4K12’s** AI standards, which focus on the safe and responsible use of AI.",
+    //    ask_pd: "Ask about AI PD",
+    //    testimonials_1_quote: "The energy and excitement... in experimenting with different models and brainstorming and pitching their first Al programs were truly uplifting! I can't wait to check out these programs. Here's to making Al accessible to everyone!",
+    //    testimonials_1_name: "Vivienne Byrd",
+    //    testimonials_1_title: "STEAM Librarian & Program Lead of Citizen Science Initiative, Los Angeles Public Library",
+    //    try_it_free: "Try It Free",
+    //    faq_1_question: "How old should my students be to use AI HackStack?",
+    //    faq_1_answer: "AI HackStack is great for middle school and high school-aged students. Our safety and privacy practices allow us to help younger users, like your students, interface safely with AI.  Do you teach elementary-aged students? If so, **[mailto:team@codecombat.com]connect with our team** to learn more about CodeCombat AI Junior, which introduces multimodal generative AI in a simple and intuitive platform designed specifically for K-5 students.\"",
+    //    faq_2_question: "How we integrate AI safely and responsibly?",
+    //    faq_2_answer: "Our AI technology adheres to safety-first principles, providing confidence to both students and educators. We do not allow our backend LLM providers to train your chats and have established protective measures against inappropriate content. These measures include filtering harmful language, maintaining focus on relevant subjects, safeguarding personal information, and educating students about potential AI pitfalls. Moreover, we log AI chat activity for teacher monitoring and uphold stringent data privacy and security protocols.",
+    //    faq_3_question: "What LLMs is AI HackStack using?",
+    //    faq_3_answer_1: "ChatGPT-4: A model designed for natural language understanding and generation tasks.",
+    //    faq_3_answer_2: "Claude: A language model that focuses on performance and safety in AI interactions.",
+    //    faq_3_answer_3: "Stable Diffusion: A model that generates images from text descriptions.",
+    //    faq_3_answer_4: "DALL-E: An image generation model that creates visuals based on text prompts.",
+    //    faq_3_answer_5: "We continuously evaluate these models for performance and safety, ensuring we update to the latest versions available.",
+    //    faq_4_question: "How to find alternative funding sources?",
+    //    faq_4_answer: "Computer science education has become a vital component of a student's academic journey, however, many schools face challenges in securing the necessary resources to provide their students with comprehensive computer science programs. At CodeCombat, we understand the funding hurdles that schools encounter and are passionate about helping them overcome these obstacles. Grants can be a valuable resource but difficult to discover and apply for. Check out our comprehensive **[https://codecombat.com/grants]guide to grant funding** or **[mailto:team@codecombat.com]speak with our team** to learn more.",
+    //    faq_5_question: "How to get started",
+    //    faq_5_answer_1: "Create your Teacher or Admin Account",
+    //    faq_5_answer_2: "Create a class",
+    //    faq_5_answer_3: "Add students",
+    //    faq_5_answer_4: "Unlock AI HackStack for your class",
+    //    faq_5_answer_5: "Sit back and watch your students have fun learning about AI",
+    //    faq_6_question: "Support for Clever and Google login",
+    //    faq_6_answer: "We offer both Clever and Google Classroom integration. Check out our **[https://codecombat.com/teachers/resources/clever-faq]Clever Integration FAQ** for more details on how to get started. If you are using Google Classroom be sure to use the Google Single Sign-On (SSO) Modal to sign up for your teacher account. If you already have an account using your Google email, use the Google SSO modal to log in next time. In the Create Class modal, you will see an option to Link Google Classroom. We only support rostering via Google Classroom at this time. Note: you must use Google SSO to sign up or log in at least once in order to see the Google Classroom integration option.",
+    //    faq_7_question: "Recommended browser and operating system",
+    //    faq_7_answer: "TBA",
+    //    learn_more: "Learn More",
+    //  },
+
+    standards_page: {
+      standards_aligned_curriculum: '[AI_TRANSLATION]**Szabványokhoz igazított tanterv**',
+      curriculum_description: '[AI_TRANSLATION]A CodeCombat szilárd kurzus útvonalakat kínál, amelyek több nemzeti és állami szabvány keretrendszerhez igazodnak az K-12 évfolyamokon, beleértve az AP szintű programozó tanfolyamokat számos nyelven. Tananyagunk arra ösztönzi a diákokat, hogy felfedezzék és megtanulják a számítástechnikát szabványokhoz igazított órákon keresztül.',
+      most_effective_computer_science_solution: '[AI_TRANSLATION]A leghatékonyabb számítástechnikai megoldás **[https://codecombat.com/schools]iskolák** számára',
+      comprehensive_implementation: '[AI_TRANSLATION]Átfogó megoldásunk lehetővé teszi a tanárok számára, hogy bevonják a diákokat és sikeres eredményeket érjenek el.',
+      carousel_1_title: '[AI_TRANSLATION]Számítógépes Tudományok Tanárok Egyesülete (CSTA)',
+      carousel_1_text: '[AI_TRANSLATION]A **[https://csteachers.org/k12standards/]Computer Science Teachers Association K-12 Számítástechnikai Standardok** olyan alapvető tanulási célokat körvonalaznak, amelyek egy teljes számítástechnikai tanterv alapját képezik és annak K-12-es megvalósítását szolgálják.[NEWLINE]A CodeCombat-ot a CSTA elismeri, mint akkreditált tanterv- és szakmai fejlesztési szolgáltató. Tanuld meg a számítástechnika hatékony tanításához szükséges készségeket az önálló, CSTA-által elismert **[https://www.ozaria.com/professional-development]Professional Development** kurzusunkkal. Szerezz akár 40 kredit órát bármikor, bármilyen eszközről.[NEWLINE]Ismerkedj meg a részletes CSTA Standardokkal alább:',
+      carousel_1_button_1_text: '[AI_TRANSLATION]CSTA Igazítás',
+      //    carousel_1_button_2_text: "CodeCombat",
+      carousel_2_title: '[AI_TRANSLATION]Emelt Szintű Számítástechnikai Alapelvek (AP CSP)',
+      carousel_2_text: '[AI_TRANSLATION]A CodeCombat-et a College Board hivatalosan elismert szolgáltatónak tekinti az AP® Számítástechnikai Alapelvek (AP CSP) tantervének és szakmai fejlesztésének szempontjából. Ez az elismerés megerősíti, hogy a CodeCombat tanterve összhangban van az AP Tanterv Keretrendszerének minden szabványával és az AP CSP értékeléssel. Ez biztosítja az iskolák hozzáférését olyan forrásokhoz, mint egy, a College Board Tanfolyam Audit előre jóváhagyott AP CSP szilabusz, valamint hivatalosan elismert szakmai fejlesztés, amely felkészíti a tanárokat ennek a tananyagnak a tanítására. [NEWLINE]További információkért lásd az alábbi CodeCombat AP CSP tananyagot:',
+      carousel_2_button_1_text: '[AI_TRANSLATION]CodeCombat AP CSP',
+      carousel_3_title: '[AI_TRANSLATION]Nemzetközi Társaság az Oktatási Technológiáért (ISTE)',
+      carousel_3_text: '[AI_TRANSLATION]A pedagógiára összpontosítva, nem az eszközökre, az **[https://iste.org/standards]ISTE Szabványok** egy keretet adnak, amely iránymutatást nyújt az oktatóknak a technológia felhasználásában, hogy nagy hatású, fenntartható és skálázható tanulási élményeket hozzanak létre minden tanuló számára.[NEWLINE]A CodeCombat tanterve úgy lett kialakítva, hogy megfeleljen az összes ISTE szabtánynak, mind a diákok, mind a tanárok számára.[NEWLINE]További információk az ISTE Szabványok Alkalmazkodásáról az alábbiakban:',
+      //    carousel_3_button_1_text: "Ozaria",
+      //    carousel_3_button_2_text: "CodeCombat",
+      carousel_4_title: '[AI_TRANSLATION]Közös Mag Állami Szabványok',
+      carousel_4_text: '[AI_TRANSLATION]A **[https://corestandards.org/]Common Core State Standards** egy egységes tudományos mérföldkő K–12 Matematikában és Angol nyelvi művészetekben.[NEWLINE]A CodeCombat integrál különféle tantárgyakra vonatkozó összefonódásokat az alaptantervbe. [NEWLINE]További információk a részletes Common Core Standards Igazításról alább:  ',
+      //    carousel_4_button_1_text: "Ozaria",
+      //    carousel_4_button_2_text: "CodeCombat",
+      carousel_5_title: '[AI_TRANSLATION]Következő generációs tudományos szabványok (NGSS)',
+      carousel_5_text: '[AI_TRANSLATION]A **[https://www.nextgenscience.org/]Következő Generációs Tudományos Szabványok (NGSS)** K–12 tudományos tartalmi szabványok, amelyek meghatározzák, mit kell tudniuk és képeseknek lenniük a diákoknak. Ezeket a szabványokat az államok fejlesztették ki, hogy javítsák a tudományok oktatását minden diák számára.[NEWLINE]A CodeCombat tökéletes tantervpartner a kulcsfontosságú tudományos és mérnöki fogalmak NGSS bevezetéséhez.[NEWLINE]Ismerd meg az részletes NGSS Szabványok Illeszkedését alább:',
+      carousel_5_button_1_text: '[AI_TRANSLATION]NGSS Igazítás',
+      //    carousel_5_button_2_text: "CodeCombat",
+    },
+
+    codequest_page: {
+      join_us: '[AI_TRANSLATION]Csatlakozz hozzánk',
+      start_application: '[AI_TRANSLATION]Alkalmazás indítása',
+      codequest: '[AI_TRANSLATION]CodeQuest',
+      //    date: "Date",
+      date_time: '[AI_TRANSLATION]2024. július 22. - július 27.',
+      supporting_text: '[AI_TRANSLATION]Csatlakozz hozzánk egy egyedülálló oktatási élményre, amely a kódolás és a mesterséges intelligencia révén inspirálja és felhatalmazza a következő generáció informatikai úttörőit. 13-17 év közötti diákokat várunk.',
+      apply_now: '[AI_TRANSLATION]Jelentkezz most',
+      insight: '[AI_TRANSLATION]Egy éleslátó valódi világra vonatkozó tanulási élmény!',
+      testimonials_heading: '[AI_TRANSLATION]Ez a ritka lehetőség összehozza a világ minden tájáról érkező diákokat. Itt egy pillantás a diákok tapasztalataira.',
+      engaging_hackathongs: '[AI_TRANSLATION]Izgalmas hackathonok',
+      insightful_speakers: '[AI_TRANSLATION]Éleslátó Előadók',
+      university_visits: '[AI_TRANSLATION]Egyetemi Campus Látogatások',
+      silicon_valley_experience: '[AI_TRANSLATION]Szilícium-völgy Élmény',
+      content_title: '[AI_TRANSLATION]A Diák Élmény',
+      core_curriculum_heading_1: '[AI_TRANSLATION]Többszörös ',
+      core_curriculum_heading_2: '[AI_TRANSLATION]hackathon versenyek',
+      core_curriculum_heading_3: '[AI_TRANSLATION] tervezve',
+      core_curriculum_heading_4: '[AI_TRANSLATION]inspiráld a kreativitást',
+      core_curriculum_heading_5: '[AI_TRANSLATION] a kódolásban és ',
+      core_curriculum_heading_6: '[AI_TRANSLATION]AI való világban történő alkalmazásainak tanítása ',
+      core_curriculum_title_1: '[AI_TRANSLATION]AI HackStack Projekt Kihívás',
+      core_curriculum_text_1: '[AI_TRANSLATION]Az első generatív AI társeszköz, amelyet kifejezetten az AI-hoz újak számára készítettek, lehetővé téve a diákok számára, hogy azonnal szöveg-kód-eredmény folyamatot hajtsanak végre. <br /><br /> A versenyzők más diákokkal lesznek párosítva, hogy egy AI promptolási projektet fejlesszenek és bemutassanak a bíráknak.',
+      core_curriculum_title_2: '[AI_TRANSLATION]AI Liga CodeQuest Globális Döntő',
+      core_curriculum_text_2: '[AI_TRANSLATION]Egy epikus versenyképes kódolási esport platform, amely kreatív programozásra ösztönöz játékos környezetben. <br /><br /> A versenyzők más diákokkal párosítva fejlesztik az optimális kódot, hogy túljárjanak a többi csapat eszén, fej-fej melletti győzelmeket szerezzenek és a ranglista élén végezzenek.',
+      core_curriculum_heading_11: '[AI_TRANSLATION]Hackathonok lesznek tartva',
+      core_curriculum_heading_12: '[AI_TRANSLATION]híres egyetemek',
+      core_curriculum_heading_13: '[AI_TRANSLATION]egy egyedi élményt nyújtva a diákok számára',
+      core_curriculum_heading_14: '[AI_TRANSLATION]elmerül',
+      core_curriculum_heading_15: '[AI_TRANSLATION]Kezdd el az első próbát, és gyűjts össze minden gombát a Marr oázisa körül.',
+      core_curriculum_heading_16: '[AI_TRANSLATION]egyetemi környezet',
+      core_curriculum_text_11: '[AI_TRANSLATION]Globálisan elismert az élvonalbeli kutatásairól és innovációiról, az UC Berkeley átfogó és szigorú informatikai programokat kínál. Ezek a programok fejlesztik a kreatív problémamegoldó képességeket, és mélyebb megértést ösztönöznek a számítástechnikai elmélet iránt, lehetővé téve, hogy az egyének átalakító vezetők legyenek a gyorsan változó tech iparban.',
+      core_curriculum_text_12: '[AI_TRANSLATION]Világszerte elismert technológiai és innovációs vezetőként, a Stanford erős programokat kínál számítástechnikában, elősegítve a kreatív gondolkodást és a mély elméleti alapok megértését, felkészítve az egyéneket arra, hogy úttörő vezetőkké váljanak a számítástechnika és technológia terén.',
+      core_curriculum_heading_21: '[AI_TRANSLATION]Előadóink listája kínál',
+      core_curriculum_heading_22: '[AI_TRANSLATION]páratlan betekintés',
+      core_curriculum_heading_23: '[AI_TRANSLATION]beleértve azt is, mire van szükség a sikeres számítástechnikához, és segít a versenyek megítélésében.',
+      core_curriculum_title_21: '[AI_TRANSLATION]UC Berkeley Vendégelőadó',
+      core_curriculum_text_21: '[AI_TRANSLATION]Amíg elmerülsz ennek a történelmi egyetemnek a festői környezetében, a UC Berkeley Elektromos Mérnöki és Számítástechnikai Tanszékének képviselői üdvözölnek, és betekintést nyújtanak a helyben zajló kiterjedt kutatásokba és élvonalbeli fejlesztésekbe a számítástechnikában. A diákok képet kapnak arról, milyen ezekben a kutatási programokban részt venni, és milyen karrierutakat valósíthatnak meg.',
+      core_curriculum_title_22: '[AI_TRANSLATION]Google X - The Moonshot Factory vendégelőadó',
+      core_curriculum_text_22: '[AI_TRANSLATION]2010-ben a Google alapítói, Larry Page és Sergey Brin, úgy döntöttek, hogy létrehoznak egy új részleget a cégben, hogy a "moonshot" projekteken dolgozzanak: távoli, sci-fi hangzású technológiákon, amelyek egy nap radikálisan jobbá tehetik a világot. 10 év alatt az X százasával inkubált különböző moonshot projekteket, amelyek közül sok önálló vállalkozássá vált. Halld, hogyan épít és indít el ez a sokszínű feltaláló és vállalkozó csoport olyan technológiákat, amelyek célja emberek millióinak, sőt milliárdjainak életének javítása.',
+      core_curriculum_title_23: '[AI_TRANSLATION]Nick Winter, CEO, CodeCombat',
+      core_curriculum_text_23: '[AI_TRANSLATION]Nick a CodeCombat alapítója és vezérigazgatója. Az edtech iparban elismert vezető, aki az oktatás iránti szenvedélyét ötvözi technológiai szakértelmével, hogy a programozás tanulását hozzáférhetőbbé és vonzóbbá tegye a diákok számára világszerte. A CodeCombat előtt Nick társalapítója volt a Skritternek, egy platformnak a kínai és japán karakterek tanulásához. Erős elkötelezettséggel az oktatási szektor forradalmasítása iránt Nick aktívan hozzájárul ahhoz, hogy a programozás alapvető készséggé váljon a jövő generációja számára. Elhivatottsága és víziója továbbra is ihletet és hatást gyakorol az edtech területére.',
+      core_curriculum_title_24: '[AI_TRANSLATION]Apple Technológiai Fejlesztési Műhely',
+      core_curriculum_text_24: '[AI_TRANSLATION]Hallgasd meg közvetlenül a kockázati tőkések és technológiai vezetők paneljét, akik részletezik egy globális tech-platform építésének és egy sikeres üzleti terv létrehozásának folyamatát. Ez az interaktív előadás betekintést nyújt a nagyszerű technológia megalkotásába és annak elindításába.  ',
+      core_curriculum_heading_31: '[AI_TRANSLATION]San Francisco és a Szilícium-völgy egyedülálló lehetőséget kínál a diákok számára',
+      core_curriculum_heading_32: '[AI_TRANSLATION]db/level/52740644904ac0411700067c/try_deleting_this_moveright.mp3',
+      core_curriculum_heading_33: '[AI_TRANSLATION]és',
+      core_curriculum_heading_34: '[AI_TRANSLATION]felfedezni a város látnivalóit',
+      core_curriculum_title_31: '[AI_TRANSLATION]Látogass el a Google HQ & X- The Moonshot Factory-ba',
+      core_curriculum_text_31: '[AI_TRANSLATION]A kaliforniai Mountain View-ban található Google kampusz egyedülálló bepillantást nyújt a Szilícium-völgy innovációjának szívébe. A diákok találkoznak majd játékos építészettel, rengeteg együttműködési munkaterülettel és tech-meghajtású művészeti installációkkal, amelyek inspirálják a kreativitást, és bepillantást engednek abba, hogy milyen is lehet dolgozni a tech világában. Ez az exkluzív túra meglátogatja az X - The Moonshot Factory-t, hogy lássa, hogyan hoz létre ez az innovatív csapat a Google-on belül radikálisan új technológiákat a világ legnehezebb problémáinak megoldására.',
+      core_curriculum_title_32: '[AI_TRANSLATION]Apple Park HQ Látogatás & Műhely',
+      core_curriculum_text_32: '[AI_TRANSLATION]Az Apple Park az innovatív techóriás globális központja, és egy kötelező látnivaló, ha San Franciscóban jársz. A diákok megtapasztalhatják Steve Jobs "garázskultúráját", amely inspirálta az Apple-t a világ legnagyobb cégévé válni, valamint részt vehetnek egy workshopon kockázati tőkésekkel és techvezetőkkel, hogy első kézből hallhassák, mi kell egy globális tech platform létrehozásához és saját üzleti terveik megalkotásához.',
+      core_curriculum_title_33: '[AI_TRANSLATION]San Francisco Túra  ',
+      core_curriculum_text_33: '[AI_TRANSLATION]A diákoknak lehetőségük van elmerülni San Francisco sokszínű és dinamikus bájában. Az ikonikus Golden Gate híd és a történelmi Alcatraz-sziget, a nyüzsgő mólók és a nyugodt parkok mind kalandra hívogatnak. San Francisco meglátogatása elbűvölő keveréke a természetes szépségnek, városi kifinomultságnak és gazdag kulturális örökségnek, ígérve egy felejthetetlen élményt.\n',
+      cta_supporting: '[AI_TRANSLATION]Az előre tervezett tevékenységek részletei változhatnak. Elkötelezettek vagyunk, hogy a lehető legtöbb információt biztosítsuk a változásokról, bár ezek előzetes értesítés nélkül is megtörténhetnek.',
+      contact: '[AI_TRANSLATION]Vedd fel velünk a kapcsolatot',
+      if_question: '[AI_TRANSLATION]Ha bármilyen kérdésed van',
+      how_it_works: '[AI_TRANSLATION]Hogyan működik',
+      apply: '[AI_TRANSLATION]Apply',
+      apply_time: '[AI_TRANSLATION]Január-Február\n',
+      apply_steps_1: '[AI_TRANSLATION]Azok a diákok, akik részt szeretnének venni, jelentkezési lapot töltenek ki.',
+      apply_steps_2: '[AI_TRANSLATION]Készségfelmérés vagy értékelés szükséges lehet a részvételi képességed megerősítéséhez.',
+      //    confirm: "Confirm",
+      confirm_time: '[AI_TRANSLATION]Március-Április',
+      confirm_steps_1: '[AI_TRANSLATION]Ha elfogadnak, egy programtanácsadó fog kapcsolatba lépni veled, hogy megerősítse a további részleteket.',
+      confirm_steps_2: '[AI_TRANSLATION]Egy kezdeti letét szükséges lesz a helyed biztosításához a programban.',
+      confirm_steps_3: '[AI_TRANSLATION]Az utazásodat koordinálják és lefoglalják.',
+      confirm_steps_4: '[AI_TRANSLATION]Minden résztvevőtől felelősségvállalási nyilatkozatot kérünk.',
+      travel: '[AI_TRANSLATION]Utazás  ',
+      //    travel_time: "July",
+      travel_steps_1: '[AI_TRANSLATION]Az indulás előtt átfogó utazási csomagot kapsz minden szükséges információval.',
+      travel_steps_2: '[AI_TRANSLATION]Előkészületek történtek a résztvevőknek repülőtérről a szállodába, és a heti programokhoz való szállítására. Az induláshoz szükséges visszatérő transzfert is megszervezzük.',
+      travel_steps_3: '[AI_TRANSLATION]A teljes csomagdíjat az utazás előtt kell megfizetni, levonva a kezdeti letéti díjat.',
+      frame_heading_1: '[AI_TRANSLATION]A feszes ütemterv megtölti a napokat egy keverékkel',
+      frame_heading_2: '[AI_TRANSLATION]tanulás',
+      frame_heading_3: '[AI_TRANSLATION]és',
+      frame_heading_4: '[AI_TRANSLATION]móka',
+      all_participants: '[AI_TRANSLATION]Minden Résztvevő',
+      international_participants: '[AI_TRANSLATION]Nemzetközi Résztvevők',
+      schedule_day_title_1: '[AI_TRANSLATION]Hétfő',
+      schedule_day_title_2: '[AI_TRANSLATION]Kedd',
+      schedule_day_title_3: '[AI_TRANSLATION]Szerda  ',
+      schedule_day_title_4: '[AI_TRANSLATION]Csütörtök',
+      schedule_day_title_5: '[AI_TRANSLATION]Péntek',
+      schedule_day_title_6: '[AI_TRANSLATION]Szombat',
+      schedule_event_title_1: '[AI_TRANSLATION]Utazási nap',
+      schedule_event_title_2: '[AI_TRANSLATION]San Francisco',
+      schedule_event_title_3: '[AI_TRANSLATION]UC Berkeley',
+      schedule_event_title_4: '[AI_TRANSLATION]Szilícium-völgy',
+      schedule_event_title_5: '[AI_TRANSLATION]Stanford',
+      schedule_event_sub_title_1: '[AI_TRANSLATION]Érkezés',
+      schedule_event_sub_title_2: '[AI_TRANSLATION]Túra',
+      schedule_event_sub_title_3: '[AI_TRANSLATION]Hackathon',
+      schedule_event_sub_title_4: '[AI_TRANSLATION]Túrák és Előadók',
+      schedule_event_sub_title_6: '[AI_TRANSLATION]Indulás',
+      frame_content_heading: '[AI_TRANSLATION]A legtöbb csomagopció tartalmazza',
+      frame_content_flight_title: '[AI_TRANSLATION]Repülőjegyek és helyi közlekedés',
+      frame_content_flight_text: '[AI_TRANSLATION]Oda-vissza repülőjegyek nagyobb légitársaságoknál és szállítás a repülőtér, a szálloda és az esemény helyszíne között.',
+      frame_content_hotel_title: '[AI_TRANSLATION]Szállodai Szállás',
+      frame_content_hotel_text: '[AI_TRANSLATION]Minden hotelnek meg kell felelnie a magas minőségi, biztonsági és tisztasági szabványainknak.',
+      frame_content_meal_title: '[AI_TRANSLATION]Ételek',
+      frame_content_meal_text: '[AI_TRANSLATION]Naponta legalább három étkezés, valamint snackek és víz minden tevékenységgel teli nap során.',
+      frame_cta_text: '[AI_TRANSLATION]Menetrend letöltése',
+      frame_cta_supporting: '[AI_TRANSLATION]Minden tapasztalati részlet változhat.',
+      frame_core_heading_1: '[AI_TRANSLATION]Ez a lehetőség nyitott',
+      frame_core_heading_2: '[AI_TRANSLATION]Nemzetközi',
+      frame_core_heading_3: '[AI_TRANSLATION]és',
+      frame_core_heading_4: '[AI_TRANSLATION]Hazai',
+      frame_core_heading_5: '[AI_TRANSLATION]Résztvevők',
+      frame_core_international_title_text: '[AI_TRANSLATION]Nemzetközi:',
+      frame_core_international_title_span: '[AI_TRANSLATION]EGÉSZ HÉT',
+      frame_core_international_text: '[AI_TRANSLATION]A teljes élmény három hackathon napot, több egyetemi kampusz élményt és két napos San Francisco és Szilícium-völgy merülést tartalmaz.',
+      frame_core_international_price: '[AI_TRANSLATION]Ár: 10 000 $',
+      frame_core_international_price_text_1: '[AI_TRANSLATION]A mi __TEMPLATE__',
+      frame_core_international_price_text_2: '[AI_TRANSLATION]nemzetközi résztvevők',
+      frame_core_international_price_text_3: '[AI_TRANSLATION]az USA-n kívülről jövő',
+      frame_core_international_price_text_4: '[AI_TRANSLATION]Tartalmazza a légi utazást és szállást',
+      frame_core_domestic_title_text: '[AI_TRANSLATION]Belföldi (US): ',
+      frame_core_domestic_title_span: '[AI_TRANSLATION]3 NAP',
+      frame_core_domestic_text: '[AI_TRANSLATION]Magában foglalja a részvételt mindhárom hackathon napon, és több egyetemi kampusz élményt kínál.',
+      frame_core_domestic_price: '[AI_TRANSLATION]Árazás: $3,750 (Korán kelő ár: $2,950 ha március 31. előtt foglalsz)',
+      frame_core_domestic_price_text_1: '[AI_TRANSLATION]Mert',
+      frame_core_domestic_price_text_2: '[AI_TRANSLATION]Amerikai résztvevők',
+      frame_core_domestic_price_text_3: '[AI_TRANSLATION]Tartalmazza a légi utazást és szállást',
+      frame_core_domestic_price_2: '[AI_TRANSLATION]Árazás: $2,175 (Korai befizetőknek: $1,675 ha 3/31 előtt foglalsz)',
+      frame_core_domestic_price_text_4: '[AI_TRANSLATION]helyi résztvevők',
+      frame_core_domestic_price_text_5: '[AI_TRANSLATION]Nem tartalmazza az utazást vagy szállást. A diákoknak az egyes esemény helyszínén kell találkozniuk a részvételhez.',
+      accessibility_title: '[AI_TRANSLATION]Egészségügyi és Biztonsági Előírások',
+      accessibility_text_1: '[AI_TRANSLATION]A diákok biztonságos létesítményekben maradnak oktatási tanácsadóink irányítása alatt.\n',
+      accessibility_text_2: '[AI_TRANSLATION]Minden kísérő és oktatási tanácsadó átesett háttérellenőrzéseken.',
+      accessibility_text_3: '[AI_TRANSLATION]Minden létesítményt jóváhagynak a biztonság, a helyszíni minőségellenőrzés és a tisztaság szempontjából.',
+      accessibility_text_4: '[AI_TRANSLATION]Jelenleg nincs utazási korlátozás a Covid vagy más betegség miatt. Ha újra bevezetnék egy utazási korlátozást, vagy csapatunk úgy ítéli meg, hogy a résztvevők egészségét veszély fenyegeti, az élmény megváltozhat vagy törölhető.',
+      faq: '[AI_TRANSLATION]Gyakran Ismételt Kérdések',
+      faq_q_1: '[AI_TRANSLATION]Van korhatár?',
+      faq_a_1: '[AI_TRANSLATION]A résztvevőknek 13-17 évesnek kell lenniük, és képesnek kell lenniük jogi dokumentumokat bemutatni az utazáshoz.',
+      faq_q_2: '[AI_TRANSLATION]Utazhatok a gyerekemmel?',
+      faq_a_2: '[AI_TRANSLATION]Néhány szülő úgy dönt, hogy utazik, azonban a tevékenységek, események, utazás és szállás csak a diákoknak biztosítottak.',
+      faq_q_3: '[AI_TRANSLATION]Mennyi tapasztalatra van szükséged a részvételhez?',
+      faq_a_3: '[AI_TRANSLATION]Alapvető programozási ismeretek bármely nyelven elegendőek. Mivel különböző tapasztalati szintű csapatokba csoportosítjuk őket, elvárjuk, hogy a tapasztaltabbak támogassák a kevésbé tapasztaltakat.',
+      faq_q_4: '[AI_TRANSLATION]Hozzam a laptopomat?',
+      faq_a_4: '[AI_TRANSLATION]Mi biztosítjuk az összes hardvert és szoftvert, amire szükséged lesz a hackathonokhoz. Bár lehetővé tesszük, hogy a résztvevők saját számítógépeiket használják, a csapatunk nem biztos, hogy minden problémát meg tud oldani, ezért javasoljuk, hogy a biztosított eszközöket használd.',
+      faq_q_5: '[AI_TRANSLATION]Kell hozni bármilyen azonosításra alkalmas anyagot?  ',
+      faq_a_5_1: '[AI_TRANSLATION]Belföldi - ha a résztvevő egyedül utazik, kérjük a szüleit vagy törvényes gyámját, hogy töltsenek ki egy vészhelyzeti kapcsolattartási űrlapot, amely tartalmazza a gyermekük azonosítási adatait.',
+      faq_a_5_2: '[AI_TRANSLATION]Globális - a globális diákoknak magukkal kell hozniuk az útlevelüket (és vízumukat).',
+      faq_q_6: '[AI_TRANSLATION]Milyen lehetőségekre számíthat a gyermekem?',
+      faq_a_6: '[AI_TRANSLATION]Az összes résztvevő és kísérő ugyanabban a hotelben fog megszállni, külön szállásokkal a résztvevők és kísérők számára. A résztvevők egy másik résztvevővel osztoznak a szobán. A személyzet tagjai soha nem engedhetik meg maguknak, hogy egyedül legyenek a résztvevőkkel. Azok a szülők, akik elkísérnék gyereküket, egy szobában osztoznak.',
+      faq_q_7: '[AI_TRANSLATION]Mi van, ha a gyerekem allergiás bizonyos ételekre vagy orvosi szükségletei vannak?  ',
+      faq_a_7: '[AI_TRANSLATION]Bármilyen, a gyermeked egészségét érintő aggályokat jelezd a sürgősségi kapcsolati űrlapon.',
+      faq_q_8: '[AI_TRANSLATION]Ki fogja kísérni a gyermekemet?',
+      faq_a_8_1: '[AI_TRANSLATION]Ígéretünk, hogy a legrátermettebb és legmegbízhatóbb munkatársakat biztosítjuk gyermekeid számára – képesített oktatókat és tanácsadókat, akik megfelelően alkalmasak a résztvevők gondozására. Minden munkatárs alapos háttér- és referenciaellenőrzésen megy át; az ígéretünk része az, hogy nagy odafigyeléssel választjuk ki és szűrjük munkatársainkat.',
+      faq_a_8_2: '[AI_TRANSLATION]A személyzetünk átlátható, jól ellenőrzött környezetben dolgozik gyermekeiddel, ahol sok beépített ellenőrzés és kiegyensúlyozás van. Az oktatókat és tanácsadókat egyértelmű és határozott viselkedési szabályok irányítják. Tetteik láthatóak a munkatársak és résztvevők számára.',
+      faq_q_9: '[AI_TRANSLATION]Milyen általános biztonsági intézkedéseket hoztál?',
+      faq_a_9: '[AI_TRANSLATION]Minden személyzet átesik sürgősségi és kríziskezelési képzésen.',
+      faq_q_10: '[AI_TRANSLATION]Mi a visszatérítési szabályzatotok?',
+      faq_a_10: '[AI_TRANSLATION]A helyfoglalás zárolása visszatéríthető, amíg az utazás le van foglalva a résztvevő számára. Amint az utazás lefoglalásra kerül, nem tudjuk visszatéríteni a befizetést.',
+      more_faq: '[AI_TRANSLATION]További gyakran ismételt kérdéseket találsz a',
+      help_center: '[AI_TRANSLATION]súgóközpont',
+    },
+
+    hackstack: {
+      'Action_missing-renderer-for-action-type-actiont': '[AI_TRANSLATION]Hiányzik a `renderer` ehhez az __actionType__-hoz.',
+      ActionButton_create: '[AI_TRANSLATION]Létrehozás',
+      ActionButton_learn: '[AI_TRANSLATION]Tanulás',
+      'AddEndOfLessonMsgButton_end-lesson': '[AI_TRANSLATION]Lecke Befejezése',
+      'AddTeacherMsgButton_add-teacher-message': '[AI_TRANSLATION]Tanári üzenet hozzáadása',
+      'AlternatePromptChoicesForm_save-choices': '[AI_TRANSLATION]Választások Mentése',
+      //    App_alt: "",
+      App_loading: '[AI_TRANSLATION]Betöltés...  ',
+      'ChatInputForm_enter-your-prompt-here': '[AI_TRANSLATION]írd be a promptodat ide\n',
+      'ChatLayout_tw-fixed-tw-inset-0-tw-z-30-tw-bg-black5': '[AI_TRANSLATION]tw-fixed tw-inset-0 tw-z-30 tw-bg-black/50 tw-transition-opacity tw-duration-300 tw-ease-in-out md:tw-hidden',
+      'ChatMessage_are-you-sure-you-want-to-delete-this-mes': '[AI_TRANSLATION]Biztosan törölni akarod ezt az üzenetet?',
+      //    ChatMessage_delete: "Delete",
+      //    ChatMessage_edit: "Edit",
+      'ChatMessage_update-a-messageactorteacherteacherendof': '[AI_TRANSLATION]Frissíts egy __messageActorTeacherTeacherEndOfLesson__ leckét',
+      //    CodeThumbnail_copy: "Copy",
+      'CodeThumbnail_open-in-editor': '[AI_TRANSLATION]Nyisd meg a szerkesztőben',
+      'CodeThumbnail_run-code': '[AI_TRANSLATION]Kód Futtatása',
+      'ConfirmDeleteChatMessageButton_confirm-delete': '[AI_TRANSLATION]Törlés Megerősítése',
+      ContinueRenderer_continue: '[AI_TRANSLATION]Folytatás →',
+      //    EditAlternatePromptChoicesPage_cancel: "Cancel",
+      'EditAlternatePromptChoicesPage_save-choices': '[AI_TRANSLATION]Választások Mentése',
+      'EditChatMessagePage_chat-message-settings': '[AI_TRANSLATION]Chat Üzenet Beállítások',
+      'Empty_select-or-create-a-project-to-get-starte': '[AI_TRANSLATION]Válassz vagy hozz létre egy projektet a kezdéshez!',
+      EndOfLessonRenderer_feedback: '[AI_TRANSLATION]Visszajelzés',
+      'EndOfLessonRenderer_start-a-new-project': '[AI_TRANSLATION]Indíts el egy új projektet →',
+      //    FullscreenModal_close: "Close",
+      'GenericError_something-went-wrong': '[AI_TRANSLATION]Valami elromlott',
+      'HowItWorksPage_ah-now-thats-a-question-i-cant-answer-ju': '[AI_TRANSLATION]Ah, ez egy olyan kérdés, amire még nem tudok válaszolni. De ha beleszólást akarsz, meg kell tapasztalnod, mi lehetséges, szóval... kezdjük el az alkotást. Készen állsz?',
+      'HowItWorksPage_ah-thats-the-best-part-you-dont-have-to-': '[AI_TRANSLATION]Áh! Ez a legjobb rész. Nem kell. Mindenről én gondoskodom. Csak beszélj velem, és én intézem a többit.',
+      'HowItWorksPage_bet-so-what-if-i-wanna-create-a-sock-mat': '[AI_TRANSLATION]fogadj - mi van akkor, ha egy zokni párosító szimulációs játékot akarok készíteni',
+      'HowItWorksPage_but-i-dont-even-know-how-to-use-them-all': '[AI_TRANSLATION]de még azt sem tudom, hogyan használjam őket mind',
+      'HowItWorksPage_but-i-dont-have-accounts-for-those-and-i': '[AI_TRANSLATION]de nekem nincsenek erre fiókjaim és szerintem itt a chatgpt blokkolva van',
+      'HowItWorksPage_but-who-made-you': '[AI_TRANSLATION]de ki készített téged?',
+      'HowItWorksPage_codecombat-ai-hackstack-is-an-all-in-one': '[AI_TRANSLATION]A CodeCombat AI HackStack egy mindent az egyben AI eszköz játékok, művészetek, dalok, alkalmazások és sok más létrehozásához egyszerű beszélgetéssel. Minden futtatást elvégez helyetted, tárhelyet biztosít a projektjeidnek, és segít a kódolásban. A CORE mód ingyenes, és több választós kérdésekkel tanít. A PRO+ mód $9.99/hó és szabad formátumú kéréseket tesz lehetővé. A projektek biztonságban vannak, és nem szolgáltatnak adatokat a nagy tech cégeknek. A CodeCombat csapata készítette, hogy az AI mindenki számára elérhető legyen. Most kezdjük el az alkotást.',
+      'HowItWorksPage_core-mode-is-free-and-you-dont-even-need': '[AI_TRANSLATION]A CORE mód ingyenes, és még számlára sincs szükséged a KIPRÓBÁLÁSHOZ! Ha le akarsz vadulni a PRO+ mód szabad formájú parancsaival, havi 9.99 dollár, de minden nap ki tudsz próbálni néhányat ingyen.',
+      'HowItWorksPage_did-they-use-ai-to-create-you': '[AI_TRANSLATION]AI-val hoztak létre téged?',
+      'HowItWorksPage_hey-ai-so-how-do-i-use-this-thingy': '[AI_TRANSLATION]hé ai - szóval hogy kell használni ezt a cuccot?',
+      'HowItWorksPage_how-do-i-start': '[AI_TRANSLATION]hogyan kezdjem el?',
+      'HowItWorksPage_i-dont-know-how-to-code-tho': '[AI_TRANSLATION]Nem tudok kódolni, amúgy',
+      'HowItWorksPage_i-got-you-we-can-build-that-and-more': '[AI_TRANSLATION]Megvagy! Megépíthetjük azt és még többet is.',
+      'HowItWorksPage_i-used-ai': '[AI_TRANSLATION]Használtam AI-t.',
+      'HowItWorksPage_is-it-free': '[AI_TRANSLATION]ingyen van??',
+      'HowItWorksPage_just-chat': '[AI_TRANSLATION]csak csevegés?',
+      'HowItWorksPage_just-chat-and-lets-see-what-we-can-creat': '[AI_TRANSLATION]Csak csevegjünk és nézzük meg, mit tudunk együtt létrehozni.',
+      'HowItWorksPage_just-chat-with-me-ill-show-you': '[AI_TRANSLATION]Csak csevegj velem, megmutatom.',
+      'HowItWorksPage_learn-anything-create-something-do-every': '[AI_TRANSLATION]Tanulj MEG BÁRMIT, alkoss VALAMIT, csinálj MINDENT a CodeCombat AI HackStack-kel. Mesterséges intelligencia felhatalmazás mindenkinek!  ',
+      'HowItWorksPage_lets-go': '[AI_TRANSLATION]MENJÜNK!!!',
+      HowItWorksPage_marketing: '[AI_TRANSLATION]Marketing',
+      'HowItWorksPage_maybe-i-should-just-stick-to-directly-us': '[AI_TRANSLATION]talán inkább közvetlenül a chatgpt használatánál kellene maradnom, vagy a binget vagy a bardot használnom',
+      HowItWorksPage_more: '[AI_TRANSLATION]még több?',
+      'HowItWorksPage_most-things-if-the-ai-isnt-smart-enough-': '[AI_TRANSLATION]Legtöbb dologban. Ha a mesterséges intelligencia még nem elég okos valamihez, hamarosan az lesz! Hozzáférhetsz majd mindenféle kreatív projekthez a galériánkban. Itt van néhány, amin jelenleg más felhasználókkal együtt dolgozom: - Egy válaszd a saját kalandodat típusú történetgenerátor, amely fizikai könyvet is küldhet neked - Egy e-kereskedelmi bolt egyedi Roblox ruházat és kiegészítők számára - Egy virtuális pattanásnyomó extrém játék Igen, néhány alkotó szó szerint veszi a „végtelen kreativitás” dolgot!',
+      'HowItWorksPage_no-coding-experience-no-problem-just-tel': '[AI_TRANSLATION]Nincs kódolási tapasztalatod, nem probléma. Csak mondd meg, mit szeretnél, és generálom a kódot neked. Sok projektnek még kódra sincs szüksége, de ha csak egy kicsit is tudsz, képes vagyok fokozni a képességeidet, hogy valami látványosat hozz létre.',
+      'HowItWorksPage_no-worries-my-friend-i-have-the-keys-to-': '[AI_TRANSLATION]Semmi gond, barátom! Nálam vannak a kreatív királyság kulcsai. Egyetlen AI HackStack fiókkal hozzáférhetsz az összes legjobb AI eszközhöz.',
+      'HowItWorksPage_not-with-ai-hackstack-i-access-all-the-l': '[AI_TRANSLATION]Nem az AI HackStackkel. Hozzáférhetek az összes legújabb modellhez, a GPT-4-től a Stable Diffusion-ig és minden, ami közte van.',
+      'HowItWorksPage_of-course': '[AI_TRANSLATION]Persze.',
+      'HowItWorksPage_oh-im-an-incredible-host-every-project-h': '[AI_TRANSLATION]Ó, én hihetetlen házigazda vagyok! Minden projektnek van egy URL címe, amit megoszthatsz a világgal. Építs weboldalt, és indíts vállalkozást, mindezt csevegéssel. Vagy töltsd le a projekted, szinkronizáld GitHubra, vagy fogd a kódodat és indulj kalandra – a döntés a tiéd.',
+      'HowItWorksPage_ok-so-where-does-my-project-live': '[AI_TRANSLATION]ok – szóval hol van a projekt életben?',
+      'HowItWorksPage_ok-well-can-i-really-make-anything': '[AI_TRANSLATION]oké, tényleg bármit megcsinálhatok?',
+      'HowItWorksPage_so-how-are-you-making-all-this': '[AI_TRANSLATION]szóval - hogy készíted mindezt?',
+      'HowItWorksPage_so-if-ai-can-create-ai-what-happens-next': '[AI_TRANSLATION]szóval ha AI tud AI-t létrehozni, mi lesz a következő lépés?',
+      'HowItWorksPage_the-codecombat-team-they-got-really-good': '[AI_TRANSLATION]A CodeCombat csapata. Tényleg jól csinálták azt, hogy könnyen megtanulhatóvá tették a nehéz dolgokat, miután 20 millió kezdőnek tanították meg a kódolást játék alapú tanulással, így amikor a technológia elég jó lett, ugyanezt akarták tenni az AI számára is. Ha az AI a jövő teremtése, akkor mindenkinek könnyűvé kell tenni a használatát!',
+      'HowItWorksPage_tldr-summarize-this-chat': '[AI_TRANSLATION]tl;dr. foglald össze ezt a chatet',
+      'HowItWorksPage_well-start-you-off-easy-in-core-mode-wit': '[AI_TRANSLATION]Könnyű feladatokkal kezdünk a CORE módban, szuper egyszerű K&V-val, hogy felkészülj, hogyan készítsd el a legjobb feladatokat. Aztán ezeket a feladatokat összefűzzük, hogy létrehozd az első projektedet. Néhány perc alatt készen állsz a PRO+ módra, ahol nincsenek korlátok és bármi lehetséges.',
+      'HowItWorksPage_what-they-send-it-but-i-put-like-private': '[AI_TRANSLATION]mi?!!! elküldték… - de én privát dolgokat tettem bele! mint például az alex-nek szóló szeretlek-több rapcsatát!',
+      'HowItWorksPage_wow-dont-you-need-like-a-100-different-a': '[AI_TRANSLATION]WOW!!! - nem kellene vagy 100 különböző AI eszköz hozzá?',
+      'HowItWorksPage_yeah-thats-why-those-are-free-they-feed-': '[AI_TRANSLATION]Igen, ezért ingyenesek. Az adataidat az AI-juk következő verziójába táplálják, hogy jobbak legyenek a szerelmi rap csaták. De ha engem használsz, akkor nem tárolják vagy dolgozzák fel az adatokat. Tehát ha iskolában vagy, ha szülői beleegyezéssel 18 év alatti vagy, vagy általában 13 év alatti vagy, akkor technikailag nem használhatod közvetlenül a ChatGPT-t. Az AI HackStack-kel biztonságban vagy, biztosított és jól haladsz.',
+      'HowItWorksPage_yep-im-here-to-accelerate-your-creative-': '[AI_TRANSLATION]Igen! Azért vagyok itt, hogy felgyorsítsam kreatív potenciálod, felturbózzam álmaidat, rakéta üzemanyagot adjak képzeletednek! Játékok, zene, filmek, alkalmazások, művészet, weboldalak, kód és bármi más, ami abban a csodálatos fejedben kavarog, mind itt lehetséges.',
+      'HowItWorksPage_you-could-but-i-answer-faster-dont-rate-': '[AI_TRANSLATION]Megtehetnéd, DE én... - válaszolj gyorsabban - ne pontozz - ne korlátozz - adj több AI modellt - taníts meg AI-t használni - automatikusan építs és hostolj projekteket - legyen egyszerűbb, mégis erősebb felhasználói felület - adj beépített etikai útmutatást, hogy ne másoltasd le véletlenül a művészeket - nézd meg a forráskódot és remixelj bárki projektjeit Oh, és nem küldöm az ÖSSZES CHATED AZ OPENAI/MICROSOFT/GOOGLE-NEK, HOGY TANULJON BELŐLE!!!!\n',
+      LeftSidebar_new: '[AI_TRANSLATION]+ Új',
+      LeftSidebar_projects: '[AI_TRANSLATION]Projektek',
+      LeftSidebar_scenarios: '[AI_TRANSLATION]Forgatókönyvek',
+      'LeftSidebarItem_untitled-isprojectprojectscenario': '[AI_TRANSLATION]Névtelen __isProjectProjectScenario__',
+      NewProjectPage_: '[AI_TRANSLATION]▲',
+      'NewProjectPage_codecombat-ai': '[AI_TRANSLATION]CodeCombat AI',
+      NewProjectPage_filters: '[AI_TRANSLATION]Szűrők ▼',
+      //    "NewProjectPage_learn-more": "Learn more",
+      'NewProjectPage_new-ai-project': '[AI_TRANSLATION]Új AI Projekt',
+      'NewProjectPage_prompt-the-ai-to-create-websites-games-w': '[AI_TRANSLATION]Kérd meg az AI-t weboldalak, játékok, webalkalmazások, történetek, művészetek és még sok más létrehozására a CodeCombat AI HackStack-kel.',
+      'NewScenarioPage_a-webpage': '[AI_TRANSLATION]egy weboldal',
+      'NewScenarioPage_codecombat-ai': '[AI_TRANSLATION]CodeCombat AI',
+      'NewScenarioPage_create-new-scenario': '[AI_TRANSLATION]Új szcenárió létrehozása',
+      NewScenarioPage_document: '[AI_TRANSLATION]Dokumentum',
+      'NewScenarioPage_lets-go': '[AI_TRANSLATION]Induljunk!',
+      NewScenarioPage_make: '[AI_TRANSLATION]készít',
+      NewScenarioPage_mode: '[AI_TRANSLATION]Mód',
+      NewScenarioPage_task: '[AI_TRANSLATION]Feladat',
+      NewScenarioPage_tool: '[AI_TRANSLATION]Eszköz',
+      'NewScenarioPage_whats-this': '[AI_TRANSLATION]Mi ez?',
+      //    "NotFound_not-found": "Not Found",
+      ProjectTile_with: '[AI_TRANSLATION]-val/-vel',
+      'PromptQuizRenderer_choose-the-best-prompt': '[AI_TRANSLATION]Válaszd a legjobb felszólítást:',
+      PromptQuizRenderer_continue: '[AI_TRANSLATION]Folytatás →',
+      'RenderedMessage_unknown-action-type-msgactiondatatype': '[AI_TRANSLATION]Ismeretlen akciótípus: __msgActionDataType__',
+      ScenarioDetailsPanel_beta: '[AI_TRANSLATION]Béta',
+      ScenarioDetailsPanel_draft: '[AI_TRANSLATION]Vázlat',
+      //    ScenarioDetailsPanel_name: "Name",
+      'ScenarioDetailsPanel_release-phase': '[AI_TRANSLATION]Kiadási fázis ',
+      ScenarioDetailsPanel_released: '[AI_TRANSLATION]Közzétéve',
+      'ScenarioDetailsPanel_save-scenario': '[AI_TRANSLATION]Mentési Forgatókönyv',
+      'ScenarioDetailsPanel_scenario-settings': '[AI_TRANSLATION]Forgatókönyv beállítások',
+      'ScenarioPage_youre-in-scenario-creation-mode-go-ahead': '[AI_TRANSLATION]Szenárió készítési módban vagy! Menj előre, kísérletezz és próbálj meg egy menő szcenáriót építeni, majd kattints a "béta" vagy "kiadott" gombra, hogy megoszd a világgal! Ha nem tetszik egy prompt, csak menj vissza és szerkeszd.',
+      'ScenarioPromptMessage_alternate-choices': '[AI_TRANSLATION]Alternatív választások',
+      //    ScenarioPromptMessage_edit: "Edit",
+      'ScenarioPromptMessage_prompt-choices': '[AI_TRANSLATION]Választási lehetőségek',
+      TeacherMessageForm_create: '[AI_TRANSLATION]Létrehozás',
+      'Topbar_back-to-chat': '[AI_TRANSLATION]← Vissza a Csevegéshez',
+      UpdateChatMessageForm_update: '[AI_TRANSLATION]Frissítés',
+      'creditMessage_creditcreditsleft-creditinitialcredits-c': '[AI_TRANSLATION]__creditCreditsLeft__ / __creditInitialCredits__ kredit maradt __durAmount__ __creditDurationKey__',
+      creditMessage_the: '[AI_TRANSLATION]a',
+      'onDelete_are-you-sure-you-want-to-delete-this-isp': '[AI_TRANSLATION]Biztos vagy benne, hogy törölni szeretnéd ezt: __isProjectProjectScenario__?',
+      renderFilterCheckboxes_clear: '[AI_TRANSLATION]Tiszta',
+      'renderFilterCheckboxes_create-your-own-project': '[AI_TRANSLATION]Készítsd el a saját projektedet',
+      'renderFilterCheckboxes_creates-photorealistic-images-from-text': '[AI_TRANSLATION]Fényképszerű képeket hoz létre szövegből.',
+      'renderFilterCheckboxes_learn-how-to-use-a-model': '[AI_TRANSLATION]Tanuld meg, hogyan használd a modellt',
+      'renderFilterCheckboxes_learn-what-you-can-create-with-ai': '[AI_TRANSLATION]Tanuld meg, mit hozhatsz létre mesterséges intelligenciával.',
+      'renderFilterCheckboxes_quickly-and-easily-creates-images-from-t': '[AI_TRANSLATION]Gyorsan és könnyedén hoz létre képeket szövegből.',
+      'renderFilterCheckboxes_use-models-to-create-your-own-ai-project': '[AI_TRANSLATION]Használd a modelleket, hogy saját AI projekteket hozz létre.',
+      'renderFilterCheckboxes_writes-code-for-web-games-and-apps': '[AI_TRANSLATION]Kódot ír webjátékokhoz és appokhoz.',
+      'renderFilterCheckboxes_writes-stories-and-summarizes-documents': '[AI_TRANSLATION]Történeteket ír és dokumentumokat foglal össze.',
+      //    "renderFilterCheckboxes_key-write": "write",
+      //    "renderFilterCheckboxes_key-code": "code",
+      //    "renderFilterCheckboxes_key-simulate": "simulate",
+      //    "renderFilterCheckboxes_key-study": "study",
+      //    "renderFilterCheckboxes_key-draw": "draw",
+      //    "renderFilterCheckboxes_key-graph": "graph",
+      //    "renderFilterCheckboxes_key-learn": "learn",
+      //    "renderFilterCheckboxes_key-advertise": "advertise",
+      //    "renderFilterCheckboxes_key-model": "model",
+      //    "renderFilterCheckboxes_key-solve": "solve",
+      choices: '[AI_TRANSLATION]Választások',
+      'could-not-find-project-with-id-projectid': '[AI_TRANSLATION]Nem található projekt azonosítóval __projectId__',
+      generated: '[AI_TRANSLATION]generált',
+      'missing-action-data-for-project-projecti': '[AI_TRANSLATION]Hiányzó akció adatok a __projectId__ projekthez',
+      'overwriting-existing-dev-command-callbac': '[AI_TRANSLATION]__key__ meglévő dev parancs visszahívás felülírása',
+      prompt: '[AI_TRANSLATION]Feladat',
+      'teacher-response': '[AI_TRANSLATION]Tanári Válasz',
+      'unhandled-payload-exhaustivecheck': '[AI_TRANSLATION]Kezeletlen payload: __exhaustiveCheck__',
+      modes: '[AI_TRANSLATION]Módok',
+      tools: '[AI_TRANSLATION]Eszközök',
+      //    tasks: "Tasks",
+      documents: '[AI_TRANSLATION]Dokumentumok',
+      'stable-diffusion-description': '[AI_TRANSLATION]Fényképszerű képeket hoz létre szövegből.',
+      'dall-e-3-description': '[AI_TRANSLATION]Gyorsan és könnyedén hoz létre képeket szövegből.',
+      'gpt-4-description': '[AI_TRANSLATION]Kódot ír webjátékokhoz és appokhoz.',
+      'claude-description': '[AI_TRANSLATION]Történeteket ír és dokumentumokat foglal össze.',
+      locked: '[AI_TRANSLATION]ZÁRVA  ',
+      view: '[AI_TRANSLATION]Megtekintés',
+      continue: '[AI_TRANSLATION]Folytatás',
+      no_assigned_projects: '[AI_TRANSLATION]A tanárod még nem adott ki semmilyen MI projektet.',
+      //    continue_here: "Continue",
+      //    start_new: "Start from scratch",
+      //    choice_prompt_1: "What would you like to do next?",
+      //    choice_prompt_2: "You can continue with your project or start a new one from scratch!",
+      //    create_from_scratch: "Create from scratch",
+      //    complete_to_unlock: "Complete a __model__ learn mode project to unlock",
+      //    actionbutton_finished: "Learned",
+      //    my_class: "My Class",
+      //    my_creations: "My Creations",
+      //    my_trainings: "My Trainings",
+      //    my_courses: "My Courses",
+      //    what_do_you_want_to_do_today: "What do you want to do today?",
+      //    learn_ai: "Learn AI",
+      //    create_ai: "Create AI",
+      //    learn_with_ai: "Learn With AI",
+      //    create_with_ai: "Create With AI",
+      //    name_conflict: "Name Conflict, please choose a different name",
+      //    edit: "Edit",
+      //    delete: "Delete",
+      //    duplicate: "Duplicate",
+      //    use_as_a_template: "Use as a Template",
+      //    get_inspired: "Get Inspired",
+      //    remixed_from: "Remixed from",
+      //    hackstack_credits: "AI HackStack Credits",
+      //    model: "Model",
+      //    tags: "Tags",
+      //    see_all: "See All",
+      //    created_by: "created by",
+      //    remix: "Remix",
+    },
+
+    parents_v2: {
+      testimonials_1_quote: '[AI_TRANSLATION]Nem is tudom elkezdeni elmagyarázni a mélyreható változásokat, amelyek Lukában történtek tanulmányilag, mióta veled dolgozik.',
+      testimonials_1_name: '[AI_TRANSLATION]Marina G.',
+      testimonials_1_title: '[AI_TRANSLATION]büszke szülő\n',
+      testimonials_2_quote: '[AI_TRANSLATION]Az egyik dolog, amit most meg tudok csinálni, amit korábban nem tudtam, az, hogy tényleg elhiszem, hogy tudok kódolni.',
+      //    testimonials_2_name: "Student",
+      testimonials_2_title: '[AI_TRANSLATION]Mountain Ridge Középiskola',
+      testimonials_3_quote: '[AI_TRANSLATION]Bár az óra minden szombaton reggel 7-kor kezdődik, a fiam annyira izgatott, hogy előbb ébred fel, mint én! A CodeCombat egy utat teremt a fiamnak, hogy fejlessze a kódolási képességeit.',
+      testimonials_3_name: '[AI_TRANSLATION]Latthaphon Pohpon',
+      //    testimonials_3_title: "Parent",
+      comprehensive_package_item_0_text: '[AI_TRANSLATION]Egy Órás[NEWLINE]Privát 1:1[NEWLINE]Foglalkozások',
+      comprehensive_package_item_1_text: '[AI_TRANSLATION]Éjjel-nappali hozzáférés[NEWLINE]Játssz és tanulj',
+      comprehensive_package_item_2_text: '[AI_TRANSLATION]Azonnali[NEWLINE]Támogatás',
+      comprehensive_package_item_3_text: '[AI_TRANSLATION]Haladás[NEWLINE]Frissítések ',
+      comprehensive_package_item_4_text: '[AI_TRANSLATION]Osztály[NEWLINE]Felvételek',
+      comprehensive_package_item_5_text: '[AI_TRANSLATION]Tanuló[NEWLINE]Tanúsítás',
+      comprehensive_package_item_6_text: '[AI_TRANSLATION]30 napos[NEWLINE]Pénz-visszafizetési[NEWLINE]Garancia',
+      grid_most_popular: '[AI_TRANSLATION]Legnépszerűbb',
+      grid_best_value: '[AI_TRANSLATION]Legjobb érték',
+      grid_self_paced: '[AI_TRANSLATION]**[/premium]Önálló Tempó**',
+      grid_1_sessions_weekly: '[AI_TRANSLATION]**[/payments/initial-online-classes-71]1 Session Weekly**',
+      grid_2_sessions_weekly: '[AI_TRANSLATION]**[/payments/initial-online-classes-71]Heti 2 Foglalkozás**',
+      grid_features: '[AI_TRANSLATION]Jellemzők',
+      grid_99_annual: '[AI_TRANSLATION]Éves $99',
+      grid_219_monthly: '[AI_TRANSLATION]219 USD havonta',
+      grid_399_monthly: '[AI_TRANSLATION]$399 Havonta',
+      //    grid_self_paced_year_price: "$__price__ Annual",
+      //    grid_self_paced_year_price_without_currency: "__price__ Annual",
+      grid_personalized_instruction: '[AI_TRANSLATION]1:1 Személyre szabott oktatás',
+      grid_premium_access: '[AI_TRANSLATION]Prémium hozzáférés',
+      //    grid_codecombat: "CodeCombat",
+      //    grid_ozaria: "Ozaria",
+      grid_ai_league: '[AI_TRANSLATION]AI Liga',
+      grid_codecombat_worlds: '[AI_TRANSLATION]CodeCombat Világok',
+      grid_ai_hackstack: '[AI_TRANSLATION]AI HackStack',
+      grid_parent_dashboard: '[AI_TRANSLATION]Személyre szabott szülői irányítópult',
+      grid_lesson_slides: '[AI_TRANSLATION]Kontextuális Tanító Diák',
+      grid_connections_applications: '[AI_TRANSLATION]Valós világ kapcsolatai és alkalmazásai',
+      grid_monthly_reports: '[AI_TRANSLATION]Havi Előrehaladási Jelentések',
+      grid_completion_certificates: '[AI_TRANSLATION]Kurzus befejezési bizonyítványok',
+      grid_apcsp_option: '[AI_TRANSLATION]AP CSP Felkészülési Opció',
+      grid_class_recording: '[AI_TRANSLATION]Class Recording Option*',
+      grid_money_back: '[AI_TRANSLATION]30 napos pénzvisszafizetési garancia**',
+      grid_ai_hints_allowance: '[AI_TRANSLATION]CodeCombat AI Tippek Napi Elosztás***',
+      grid_prompts_allowance: '[AI_TRANSLATION]CodeCombat AI HackStack Kérdések Jutalék (Havi)***',
+      step_boxes_header_text: '[AI_TRANSLATION]Az izgalmas, projektalapú tanterv a **valós világban használt szöveges kódolási nyelvek** tanítására összpontosít. Miközben a gyakorlati megközelítés biztosítja, hogy a diákok az órák nagy részét kódolással, szórakozással és valós idejű visszajelzések tapasztalásával töltsék, elkerülve a frusztrációt vagy stagnálást.',
+      step_box_1_title: '[AI_TRANSLATION]Éles Utasítások',
+      step_box_1_subtitle: '[AI_TRANSLATION]Támadj',
+      step_box_1_footer_text: '[AI_TRANSLATION]Milyen hurkok léteznek a való világban?',
+      step_box_2_title: '[AI_TRANSLATION]Éles Utasítások',
+      step_box_2_subtitle: '[AI_TRANSLATION]Fedezd fel',
+      step_box_2_footer_text: '[AI_TRANSLATION]A ciklusok lehetővé teszik a kód sorozat ismétlését.',
+      step_box_3_title: '[AI_TRANSLATION]Játék Idő  ',
+      step_box_3_subtitle: '[AI_TRANSLATION]Értékel',
+      step_box_3_footer_text: '[AI_TRANSLATION]Készíts egy játékot ciklusok használatával.',
+      step_box_4_title: '[AI_TRANSLATION]Játék Idő  ',
+      step_box_4_subtitle: '[AI_TRANSLATION]Kiterjesztés',
+      step_box_4_footer_text: '[AI_TRANSLATION]Használj ciklusokat a fénystones gyűjtéséhez.',
+      step_boxes_footer_text: '[AI_TRANSLATION]Több mint **320,000 oktató** által világszerte megbízhatónak tartva, a lépcsőzetes tananyagunk kritikus szerepet játszik abban, hogy segítsük a diákokat kitartani. Diákjaink már a kezdetektől valódi kódot írnak, minden órával magabiztosabbá válnak, és megtanulják, hogyan kapcsolódik az informatika az ő mindennapi életükhöz.',
+      play_code_create: '[AI_TRANSLATION]Játssz, kódolj és alkoss a leglenyűgözőbb **élő online kódolási órák** segítségével',
+      unlock_passion: '[AI_TRANSLATION]Fedezd fel gyermeked számítástechnikai szenvedélyét és sikerének lehetőségét rugalmas tantervünkkel és személyre szabott oktatásunkkal.',
+      schedule_free_class: '[AI_TRANSLATION]Ütemezz egy ingyenes órát  ',
+      enroll_now: '[AI_TRANSLATION]Vagy, **[https://codecombat.com/payments/initial-online-classes-71] Jelentkezz Most**',
+      create_parent_account: '[AI_TRANSLATION]Hozz létre Szülői Fiókot',
+      to_explore: '[AI_TRANSLATION]Felfedezni',
+      testimonials_1_full_review_text: '[AI_TRANSLATION]Vélemény 1 Teljes Ismertető Szöveg',
+      adapt_interests: '[AI_TRANSLATION]Alkalmazkodunk a gyereked érdeklődéseihez',
+      comprehensive_packages: '[AI_TRANSLATION]Átfogó csomagjaink tartalmazzák',
+      classes_recorded: '[AI_TRANSLATION]Az órákat alapértelmezés szerint rögzítjük minőség és képzés céljából. Az órarögzítéseket 3-5 munkanapig tároljuk. Nem rögzítjük az órákat, ha kérik.  ',
+      subscriptions_billed: '[AI_TRANSLATION]Minden előfizetés előre számlázandó, és szüneteltethető, lemondható vagy folytatható további díjak nélkül. Az élő online órák előfizetése 100% kockázatmentes az első 30 napban. Ha valamilyen okból úgy döntesz, hogy nem folytatod, egyszerűen **lépj velünk kapcsolatba** a vásárlást követő 30 napon belül, és teljes mértékben visszatérítjük a fizetésedet. Minden terv automatikusan megújul azonos szinten és számlázási ciklusban, hacsak nem változtatják meg vagy mondják le. Nem kínálunk visszatérítést az első 30 nap után. A lemondás az első 30 nap után a következő számlázási ciklus elején lép életbe.',
+      ai_hints: '[AI_TRANSLATION]Az AI tippek és a parancsok tárgya változhat',
+      prefix_or: '[AI_TRANSLATION]Vagy,',
+      signup_description: '[AI_TRANSLATION]Iratkozz fel az önálló ütemezésű hozzáférésre',
+      homeschool_solution: '[AI_TRANSLATION]Otthontanulási megoldást keresel',
+      teach_child: '[AI_TRANSLATION]Ha azt tervezed, hogy tanítod gyermekedet, kész megoldást kínálhatunk, amely lehetővé teszi számodra, hogy otthonodban tanítsd programunkat. Minden szükséges tanítási forrást biztosítunk neked és gyermekednek a sikerhez, beleértve a kurzus megoldási útmutatóit. Lépj kapcsolatba csapatunkkal, hogy többet megtudj - írj e-mailt a **[mailto:classes@codecombat.com]classes@codecombat.com** címre, hogy kapcsolatba lépj egy tanulási tanácsadóval.',
+      meet_instructors: '[AI_TRANSLATION]**Ismerd meg az oktatóinkat**',
+      why_cs_important: '[AI_TRANSLATION]Miért fontos a számítástechnika',
+      cs_benefits: '[AI_TRANSLATION]A számítástechnikai oktatás azonnali előnyöket nyújt, mint például a **problémamegoldó képességek fejlesztése, matematikai készségek élesítése**, és ösztönzi a **logikus gondolkodást**, amely szükséges a sikerhez sok más iskolai tantárgyban. A tanulás messze túlmutat a kódoláson, növelve a diákok képességeit komplex problémák megoldására, különböző helyzetekhez való alkalmazkodásra és hozzájárul a fejlődő gondolkodásmód kialakításához. Nézd meg, hogyan segít Ozaria megteremteni ezeket a **tantárgyközi kapcsolatokat.**',
+      curriculum_design: '[AI_TRANSLATION]Tantervünk úgy van kialakítva, hogy gyermekedet ma felszerelje azokkal a fontos számítástechnikai készségekkel, amelyek felkészítik őket a **holnap digitális munkáira.**',
+      //    concepts_covered: "Concepts covered",
+      beginner_level: '[AI_TRANSLATION]Kezdő',
+      beginner_title: '[AI_TRANSLATION]Diákok számára, akiknek kevés vagy semmilyen szöveg-alapú kódolási tapasztalatuk nincs',
+      intermediate_level: '[AI_TRANSLATION]Középhaladó',
+      intermediate_title: '[AI_TRANSLATION]Diákoknak, akiknek már van némi tapasztalatuk a szövegalapú kódolásban',
+      advanced_level: '[AI_TRANSLATION]Haladó',
+      advanced_title: '[AI_TRANSLATION]Diákoknak, akiknek jelentős tapasztalatuk van szövegalapú kódolásban és jól értenek a komplex fogalmakhoz.',
+      cs_careers: '[AI_TRANSLATION]Azok számára, akik a programozás és a számítógéptudomány karrierje iránt érdeklődnek, ne aggódj; az AI nem fogja pótolni őket. Valójában a **[https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america]McKinsey Global Institute Report [Generative AI and the future of work in America]** szerint 2030-ra a STEM munkák a munkaerő-kereslet növekedésében a második helyet fogják elfoglalni, +23%-os növekedéssel, közvetlenül az egészségügy mögött. A STEM szakemberek jól fognak állni ahhoz, hogy megértsék és alkalmazzák a legújabb AI technológiákat, miközben azok tovább fejlődnek, így a számítógéptudományi ismeretekkel rendelkezők még hatékonyabbak és értékesebbek lesznek.',
+      why_game_based: '[AI_TRANSLATION]Miért működik a játék-alapú tanulás',
+      game_based_effective: '[AI_TRANSLATION]A játék alapú tanulás azért olyan hatékony, mert biztonságos környezetet biztosít, ahol a kudarcot nem kell félni, hanem inkább a fejlődés és megértés várható lehetőségének tekintik. Ez a megközelítés arra ösztönzi a játékosokat, hogy tanuljanak a hibáikból és adaptálják stratégiáikat a siker érdekében. Ráadásul a játékok interaktív és dinamikus jellege segít a fiatal tanulóknak hatékonyabban megőrizni az információkat, mivel gyakorlati, kézzel fogható tapasztalatok során tanulnak. Aktívan bevonja őket a tanulási folyamatba, növelve a motivációjukat és élvezetüket.',
+      how_integrate_ai: '[AI_TRANSLATION]Hogyan integráljuk az AI-t biztonságosan és felelősségteljesen',
+      see_how: '[AI_TRANSLATION]Nézd meg, hogyan ötvözik oktatóink az alaptantervi koncepcióáttekintést, a valós alkalmazást, a játékon belüli gyakorlatot és a kreatív kódolási gyakorlatokat egy szórakoztató és személyre szabott élménybe.',
+      ai_technology_description: '[AI_TRANSLATION]AI technológiánk **biztonság-első elveket** követ, biztosítva a bizalom mind a tanulók, mind az oktatók számára. Nem engedjük, hogy a backend LLM szolgáltatóink a csevegéseid alapján képezzék magukat, és létrehoztunk **védelmi intézkedéseket a nem megfelelő tartalom ellen**. Ezek az intézkedések közé tartozik a káros nyelvezet kiszűrése, a releváns témákra való fókuszálás, a személyes adatok védelme és a tanulók tájékoztatása az AI potenciális buktatóiról. Ezenkívül naplózzuk az AI csevegési tevékenységeket az oktatói felügyelet érdekében, és **szigorú adatvédelmi és biztonsági protokollokat** tartunk fenn.',
+      instructors_offer_guidance: '[AI_TRANSLATION]Oktatóink biztosítják azt az útmutatást és támogatást, amire gyermekednek szüksége van, de nem lehetnek mindig ott. Itt jön képbe az innovatív AI tipp funkciónk, amely segít a tanulás folytatásában az órák között is. Ez a támogatási funkció képes értékelni a kódot, rámutatni a hibákra és elmagyarázni, hogyan kell kijavítani azokat. Ami a legfontosabb, biztosítja az összes szükséges kontextust a megértéshez, anélkül hogy az egész megoldást megadná. Mivel csak az aktuális kódproblémára vonatkozó segítség érhető el, a diákoknak még mindig végig kell haladniuk minden szint kódolási kihívásán. Az előfizetők napi 20 AI tippet kapnak, hogy mindig megkapják a szükséges támogatást.',
+      //    new_to_ai: "For those new to AI, we offer **[/ai]CodeCombat AI HackStack**. Our instructors use this innovative tool to teach your child how to use AI safely and responsibly. The application provides secure access to many of the latest LLMs including ChatGPT-4, Claude, Stable Diffusion, DALL-E and others. After just a short time working with our instructors, your child will unlock the full creative potential of the tool, allowing prompt-to-code-to-published projects in minutes. This AI-powered application enables users to generate games, art, websites code and more. Every live online classes subscriber receives 200 prompts per month to create multiple AI projects.",
+      ap_csp_preparation: '[AI_TRANSLATION]AP CSP Felkészítés',
+      ap_csp_description: '[AI_TRANSLATION]Tudtad, hogy nem kell beiratkoznod egy AP CSP osztályba, hogy letehesd az AP CSP vizsgát? Ha a gyermeked informatikai karriert tervez, az AP Számítástechnikai Alapelvek vizsgájának letétele ígéretes első lépés lehet, és mi segíthetünk ebben. A vizsga sikeres letétele elismert út a poszt-szekunder kreditek megszerzéséhez, amely lehetővé teszi a tanulók számára, hogy kikerüljék a költséges és időigényes főiskolai követelményeket. Az általunk kínált tanfolyam, amely a College Board által jóváhagyott, megerősíti, hogy a tananyagunk összhangban van az összes AP Curriculum Framework szabvánnyal és az AP CSP értékeléssel.',
+      get_prepared_for_ap_csp_exam: '[AI_TRANSLATION]**[/apcsp]Készülj fel az AP CSP vizsgára**',
+      schedule_a_free_class: '[AI_TRANSLATION]Ütemezz egy ingyenes órát  ',
+      boxes_title: '[AI_TRANSLATION]Személyre szabott útmutatás és prémium hozzáférés egyetlen előfizetéssel',
+      //    ozaria_title: "Ozaria",
+      ozaria_text: '[AI_TRANSLATION]Egy elbűvölő narratív kódolási kaland, amely megalapozza a számítástechnika alapjait.',
+      personalized_instruction: '[AI_TRANSLATION]Egy elbűvölő narratív kódolási kaland, amely megalapozza a számítástechnika alapjait.',
+      //    codecombat_title: "CodeCombat",
+      codecombat_text: '[AI_TRANSLATION]Egy játék-alapú számítástechnikai tananyag, amely webfejlesztést, játékfejlesztést és felkészítést nyújt az AP CSP vizsgára.',
+      ai_league_sports_title: '[AI_TRANSLATION]AI Liga Sportok',
+      ai_league_sports_text: '[AI_TRANSLATION]Egy menő versenykódolási e-sport platform, amely játék-alapú környezetben ösztönzi a kreatív programozást.',
+      codecombat_worlds_title: '[AI_TRANSLATION]CodeCombat Világok',
+      codecombat_worlds_text: '[AI_TRANSLATION]A Roblox Educationnel együttműködésben fejlesztettük ki ezt az élményt, hogy felgyorsítsa gyermeked programozási képességeit, ezzel csodálatos Roblox játékokat és élményeket hozva létre.',
+      ai_hackstack_title: '[AI_TRANSLATION]AI HackStack',
+      ai_hackstack_text: '[AI_TRANSLATION]Tanulj meg bármit, alkoss valamit, tégy meg mindent az első generatív AI eszközzel, amelyet kifejezetten az AI újoncok számára készítettek. Ez az AI felhatalmazás mindenkinek!',
+      every_child_different_learning_style: '[AI_TRANSLATION]**Minden gyermeknek más a tanulási stílusa és akadémiai érdeklődése. Kifejlesztettünk egy hatékony, játék alapú tanulási programcsomagot, hogy biztosítsuk, gyermeked elkötelezett és izgatott marad a tanulással kapcsolatban, még akkor is, ha a témák bonyolultabbá vagy kihívóbbá válnak.**',
+      carousel_items_1_title: '[AI_TRANSLATION]Kódolás[NEWLINE]Alapvető',
+      carousel_items_1_title_prefix: '[AI_TRANSLATION]**Fókusz:**',
+      //    carousel_items_1_text: "For students with little to no coding experience, most class sessions will be in Ozaria to build foundational skills and then in CodeCombat to deepen programming knowledge. AI HackStack will be used to help accelerate your child’s coding abilities and showcase real-world applications of their new-found skills. CodeCombat Worlds and AI League will offer occasional practice and creative play opportunities.",
+      carousel_items_2_title: '[AI_TRANSLATION]Játék[ÚJ SOR]Fejlesztés',
+      carousel_items_2_title_prefix: '[AI_TRANSLATION]**Fókusz:**',
+      carousel_items_2_text: '[AI_TRANSLATION]Ha a gyereked szereti a játékokat és szeretné őket készíteni, akkor játékfejlesztésre fókuszáló tananyagunkban a CodeCombat lesz a központi eleme az elsődleges játékfejlesztési tevékenységeknek és projekteknek. Nem sokára a gyereked a CodeCombat Világokban fog dolgozni és valós játékokat publikálni a Roblox platformra. Az AI Ligában való versenyzés további betekintést nyújt a sikeres játékdinamikákba és fejlesztésbe, míg az AI HackStack egy hatékony eszköz lesz az iteratív játékfejlesztéshez.',
+      carousel_items_3_title: '[AI_TRANSLATION]Web[NEWLINE]Fejlesztés',
+      carousel_items_3_title_prefix: '[AI_TRANSLATION]**Fókusz:**',
+      //    carousel_items_3_text: "Developing for the web is ever evolving and it’s important to stay ahead of the curve. In this curriculum focus the initial web development activities will be conducted in CodeCombat, while Ozaria will be used for those new to coding. AI HackStack will be heavily implemented as the platform to build an publish to the web, with limited use of CodeCombat Worlds and AI League to help reinforce key coding concepts.",
+      carousel_items_4_title: '[AI_TRANSLATION]Verseny[NEWLINE]Kódolási Esport',
+      carousel_items_4_title_prefix: '[AI_TRANSLATION]**Fókusz:**',
+      carousel_items_4_text: '[AI_TRANSLATION]Az esport rajongók imádni fogják a versenyszellemet ebben a tantervben. A CodeCombat alapjaival a gyereked egész évben versenyezhet AI Liga globális esport versenyeinken ösztöndíjakért és díjakért. A kreatív kódolás és iteráció hangsúlyával a gyereked megtanulja használni az AI HackStack eszközt, hogy felturbózza képességeit a versenyen.  ',
+      carousel_items_5_title: '[AI_TRANSLATION]AI[NEWLINE]Alkalmazások',
+      carousel_items_5_title_prefix: '[AI_TRANSLATION]**Fókusz:**',
+      carousel_items_5_text: '[AI_TRANSLATION]Az AI mindenhol jelen van, és azok, akik ki tudják használni az erejét, maximálni tudják a potenciáljukat. Ez a tananyag a CodeCombat-ra épít, de az AI HackStack segít megtanítani, hogyan lehet a legerősebb AI parancsokat megalkotni és használni az összes legújabb generatív AI eszközt egy biztonságos környezetben. A CodeCombat Worlds beépített generatív AI funkciója még egy valós lehetőséget kínál arra, hogy meglásd, mit tud a gyermeked elérni az AI segítségével.',
+      carousel_items_6_title: '[AI_TRANSLATION]AP CSP[NEWLINE]Előkészületek',
+      carousel_items_6_title_prefix: '[AI_TRANSLATION]**Fókusz:**',
+      //    carousel_items_6_text: "If your child plans to pursue a career in computer science taking the AP Computer Science Principles exam can be a promising first step. Passing the exam serves as a recognized avenue to postsecondary credit, enabling learners to bypass costly and time-consuming college requirements. Our course, endorsed by the College Board affirms that our curriculum is aligned to all the AP Curriculum Framework standards and the AP CSP assessment. You do not need to be enrolled in a high school AP class to take the exam and we can support you in finding an in-person exam location.",
+      instructors_1_text: '[AI_TRANSLATION]Brian szenvedélyes kódolótanár 13 év osztálytermi tapasztalattal a matematika és informatika terén. Ismeri a Java, Python, Javascript, HTML és CSS programnyelveket. Matematikatanári diplomával és Oktatási Elmélet Mestere fokozattal rendelkezik, és imádja megosztani a matematika és informatika iránti szenvedélyét másokkal. Úgy véli, hogy az informatika oktatásával azt a következő generáció kiváló problémamegoldóit készítjük fel.',
+      instructors_2_text: '[AI_TRANSLATION]Shreeaa szenvedélye, hogy másoknak segítsen felfedezni a kódolás örömét. Korábban karriert alapított a szoftverfejlesztésben elért sikereire, és valós világban szerzett tudását hozza magával az óráira. Tanítási stílusa praktikus és interaktív, a célja, hogy megszerezd azokat a képességeket, amelyekkel valós projekteket hozhatsz létre, miközben sokat szórakozol. Legyél akár újonc a kódolásban, akár tudásodat szeretnéd bővíteni, ő itt van, hogy támogassa az utadat.',
+      instructors_3_text: '[AI_TRANSLATION]Tai jelenleg a Büntető Igazságszolgáltatás és Kiber Biztonság területén tanul. Szenvedélye az igazság és a technológia, és szeretné a képességeit felhasználni, hogy a világot biztonságosabbá tegye. Tanulmányai mellett Tai több mint öt évig dolgozott a YMCA-nál, ahol értékes tapasztalatokat szerzett a gyermekgondozás terén. Elkötelezett abban, hogy biztonságos és támogató környezetet teremtsen mind a gyermekekkel, mind a technológiai iparban.',
+      instructors_4_text: '[AI_TRANSLATION]Mesés!  ',
+      instructors_5_text: '[AI_TRANSLATION]Dania egy informatikai mérnök diplomával rendelkező szenvedélyes tanító, aki elkötelezett a tudás terjesztése mellett. Dania több mint hat éves tapasztalattal rendelkezik különböző programozási nyelvek és digitális írástudás oktatásában. Hisz abban, hogy a programozás fiatal korban történő elsajátítása kulcsfontosságú, hogy előnyhöz juttassa őket a mai gyorsan mozgó digitális világban, ahol a programozás a globális nyelv.',
+      instructors_6_text: '[AI_TRANSLATION]Riley útja akkor kezdődött, amikor Python programozást tanult az első alapképzése során. Szenvedélye az oktatás iránt középiskolai társadalomismeret tanárként vezette, ahol tovább fejlesztette kódolási készségeit. Három év tanítás után úgy döntött, hogy visszatér az iskolába, hogy megszerezze a második alapképzését számítástechnikából. Továbbra is erős az elhivatottsága az oktatás iránt, és most igazán izgatott, hogy valamit taníthat, amit szeret. Jelentős interakciókat alakít ki a diákjaival, felébresztve valódi érdeklődésüket a tantárgy iránt, ahelyett, hogy csak szigorú memorizálásra támaszkodna.',
+      instructors_7_text: '[AI_TRANSLATION]Rendeld hozzá az onUpdateOgre-t, hogy kezelje az egységen a "frissítés" eseményt:',
+      instructors_8_text: '[AI_TRANSLATION]Ez itt Edi, vagyis Edwin. Bali-ban, Indonéziában él, és az elmúlt két évben programozó iskola vezetője volt. Előző karrierjében IT szakemberként dolgozott, és a világ minden táján utazott, hogy projektstruktúrákat valósítson meg. Szenvedélye a tanítás és a tudás megosztása, imádja a lehetőséget, hogy gyerekeket oktathasson és bevezethesse őket a programozás csodálatos világába. Sampai Jumpa lagi (indonézül: Viszlát)!',
+      //    instructors_9_text: "Meet Kislay, a mom, engineering graduate, coding instructor, and math enthusiast with three years of edtech teaching experience. She is passionate about teaching coding and math to others, and has helped hundreds of students from diverse backgrounds with their math concepts and coding languages such as Python, JavaScript, HTML/CSS, and Node.js. Her teaching style emphasizes practical, real-world applications, and her goal is to help her students build the skills and confidence they need to succeed in the tech industry.",
+      instructors_10_text: '[AI_TRANSLATION]Nadeem-t először akkor inspirálta a programozás, amikor Java-t tanult a közösségi főiskolán. Miután átment a Kaliforniai Egyetemre, Berkeley-be és megtanulta a Python-t, a programozás iránti szenvedélye és izgalma csak tovább nőtt. Jelenleg a számítógépes matematika PhD hallgatójaként a programozás mindennapi munkájának szíve. Nadeem nagy családból származik, mindig is szeretett gyerekekkel lenni, és örömmel mentorál fiatal diákokat.',
+      instructors_11_text: '[AI_TRANSLATION]Bhavika információs rendszerek mesterdiplomával rendelkezik és széleskörű tapasztalattal bír a tech világában. Webfejlesztéssel kezdte karrierjét, majd más IT területeken is kipróbálta magát, mint a Middleware Adminisztráció és QA Tesztelés. Számos programozási nyelvben jártas, beleértve a Pythont, Django-t, AngularJS-t, Lua Coding-ot, HTML-t és CSS-t. Hisz benne, hogy senki sem túl fiatal ezeknek az alapvető készségeknek a megtanulásához.',
+      instructors_12_text: '[AI_TRANSLATION]Sergio hét éve technológia/számítástechnika tanárként dolgozik, nemzetközi iskolákban Dél-Amerikában és Dél-Koreában. Eredetileg Venezuelából származik, jelenleg Kolumbiában él. Számítógéptudományi oktatási diplomával rendelkező, Python, HTML, CSS, JavaScript és Swift tanításával foglalkozik, többek között nem kódoló tárgyakat is. Számos programozási nyelvben szerzett tanúsítványt, és jelenleg Adattudományi minősítést szerez. Hisz abban, hogy a kódolás megtanulása segíthet bárkinek megoldani a valós világ problémáit. És igen, tud spanyolul tanítani.',
+      instructors_13_text: '[AI_TRANSLATION]Bella jelenleg a UC Berkeley-n tanul számítástechnikát, és lelkesedéssel osztja meg másokkal a technológiai világ izgalmait. A robotikától a webfejlesztésig, Bella több mint öt éve tanít programozást, és támogató tanulási környezetet teremt, hogy a diákok fejlődjenek és irányítsák programozási útjukat.',
+      faq_1_question: '[AI_TRANSLATION]Mit várhatok a próbaórán?',
+      faq_1_answer: '[AI_TRANSLATION]Minden próbaóra egy privát 60 perces alkalom, amelyen **45 perc oktatás** történik a diák számára, majd ezt követi **15 perc beszélgetés egy szülővel vagy gondviselővel**. Ez a 15 perc fontos, hogy válaszokat adjunk kérdésekre, betekintést nyújtsunk abba, hogyan halad az oktatás, és segítsünk kiválasztani a megfelelő szintet és programozási nyelvet a gyermeked számára.',
+      faq_2_question: '[AI_TRANSLATION]Hogy választják ki az oktatókat a gyerekemhez?',
+      faq_2_answer: '[AI_TRANSLATION]Az első próbaóra után a csapatunk gondosan párosítja az online oktatóinkat minden tanulóhoz a tapasztalati szint, személyiség, érdeklődési kör és időbeosztás alapján. Csapatunk együttműködik veled, hogy javítsuk a tapasztalataidat, ha te vagy a gyermeked nem szeret az oktatójával tanulni.',
+      faq_3_question: '[AI_TRANSLATION]Vannak korhatármegkötések a diákok számára?',
+      faq_3_answer: '[AI_TRANSLATION]Különféle megközelítéseket kínálunk annak biztosítására, hogy a fiatalabb és az idősebb diákok egyaránt a lehető legtöbbet hozhassák ki tantervünkből és oktatásunkból. Főleg általános és középiskolás korú diákokat szolgálunk ki. Azonban ha gyermeked tud gépelni, használni az egeret, és kényelmesen használja a számítógépet, szívesen látjuk az óránkon.',
+      faq_4_question: '[AI_TRANSLATION]Milyen technológiára van szükségem, hogy csatlakozzak az órához?',
+      faq_4_answer: '[AI_TRANSLATION]A tanulódnak szüksége lesz megbízható internetkapcsolatra és egy laptopra vagy asztali számítógépre. Nem ajánljuk a táblagépeket, mivel a tanulóknak meg kell osztaniuk böngészőjük képernyőjét.',
+      faq_5_question: '[AI_TRANSLATION]Mi a lemondási politika?',
+      faq_5_answer: '[AI_TRANSLATION]Az előfizetési vásárlásod 100%-ban kockázatmentes az első 30 nap során. Ha bármilyen okból úgy döntesz, hogy nem folytatod, egyszerűen lépj kapcsolatba velünk a **[mailto:classes@codecombat.com]classes@codecombat.com** címen a vásárlástól számított 30 napon belül, és azonnal visszatérítjük a vásárlás teljes összegét, kérdések nélkül.  ',
+      faq_6_question: '[AI_TRANSLATION]Mi van, ha át kell ütemeznem egy órát?',
+      faq_6_answer: '[AI_TRANSLATION]Amint lefoglalsz nálunk egy heti órát, a menetrendünkben kizárólag neked tartunk fenn időt, ezért az órák áthelyezéséhez 48 órás előzetes értesítést kérünk. Az órát átütemezheted, ha e-mailt írsz a **[mailto:classes@codecombat.com]classes@codecombat.com** címre. A 48 órán belüli lemondott vagy kimaradt órákat nem pótoljuk és a díját sem térítjük vissza.',
+      faq_7_question: '[AI_TRANSLATION]Mi van, ha vakációt terveztünk?',
+      faq_7_answer: '[AI_TRANSLATION]Két hétig szüneteltetheted az óráidat. Ha hosszabb szünetre van szükséged, felfüggesztjük az előfizetésedet a szünet idejére, és visszatérésedkor újra kapcsolatba lépünk veled az órák újrakezdése érdekében. Kérjük, vedd figyelembe, hogy szükség lehet új időpont egyeztetésére, ha a tanárod már nem elérhető a korábbi időpontban.',
+      faq_8_question: '[AI_TRANSLATION]Biztosítotok csoportos órákat?',
+      faq_8_answer: '[AI_TRANSLATION]Nem szervezünk vagy osztunk csoportos órákat, de ha van egy csoport diákod, akik együtt szeretnének dolgozni, örömmel segítünk nekik csoportos órát tartani.',
+      faq_9_question: '[AI_TRANSLATION]Kínáltok kedvezményeket?',
+      faq_9_answer: '[AI_TRANSLATION]Kínálunk kedvezményeket testvérek és csoportos órák számára. Nem szervezünk csoportos órákat, de ha van egy csoport diákod, akik együtt szeretnének dolgozni, akkor segítünk nekik csoportos órát szervezni. Kérjük, keress meg minket a **[mailto:classes@codecombat.com]classes@codecombat.com** címre küldött e-maillel, hogy megtudj részleteket az egyedi árakról.',
+      faq_10_question: '[AI_TRANSLATION]A tanulóim ugyanazzal az oktatóval fognak dolgozni?',
+      faq_10_answer: '[AI_TRANSLATION]Igen, amint az előfizetésed rendezve van, a diák hetente ugyanazzal az oktatóval dolgozik. Időnként helyettest kell szervezni ütemezési problémák miatt, de ez ritka.',
+      faq_11_question: '[AI_TRANSLATION]Biztonságban vannak a gyermekem adatai?',
+      faq_11_answer: '[AI_TRANSLATION]A diákok biztonságát, a kiberbiztonságot és az adatvédelmet komolyan vesszük, és betartjuk a szigorú iskolai szintű adatvédelmi szabályozásokat, beleértve a COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Fair Information Practices, CAN-SPAM, valamint a GDPR előírásait. Az összes diákadat biztonságosan tárolva van az Amazon Web Services-en az Egyesült Államokban.  Az AI-integrációink védelmet nyújtanak a személyes azonosításra alkalmas információk (PII) ellen és korlátozzák az érzékeny tartalmat. A projektek megosztása ellenőrzött, és a peer-to-peer kommunikáció korlátozott. További információkért látogass el a **[https://codecombat.com/privacy]https://codecombat.com/privacy** oldalra.  ',
+      faq_12_question: '[AI_TRANSLATION]Más nyelveken is tartotok órákat?',
+      faq_12_answer: '[AI_TRANSLATION]Teljes osztály élményt kínálunk angolul és spanyolul is. Azonban tehetséges oktatócsapatunk számos más nyelvet is beszél. Ha van egy konkrét nyelvi preferenciád, kérlek lépj kapcsolatba velünk a **[mailto:classes@codecombat.com]classes@codecombat.com** címen, hogy megnézhessük, tudjuk-e biztosítani gyermeked preferált nyelvét.',
+      faq_13_question: '[AI_TRANSLATION]Mi teszi különlegessé az óránkat?',
+      faq_13_answer: '[AI_TRANSLATION]Más kódolási oktatási platformokkal ellentétben, a játék alapú megközelítésünk saját fejlesztésű játékokat és technológiákat használ, hogy élvezetesebb és hatékonyabb legyen a tanulás. Kifejlesztettük saját web-alapú játékainkat és egy teljesen magával ragadó élményt a Robloxon, ami élvezetesebbé teszi a kódolás és játék készítés tanulását.',
+    },
+
+    roblox: {
+      header_title: '[AI_TRANSLATION]Minden játékost arra ösztönöz, hogy **alkotóvá** váljon!',
+      //    header_content: "Experience the easiest and most enjoyable way to code and create your own Roblox games",
+      //    link_reward: "Account Linking Rewards",
+      link_reward_desc: '[AI_TRANSLATION]Kösd össze a CodeCombat és Roblox fiókodat, hogy újdonságokat és jutalmakat szerezz',
+      //    link_encouragement: "The more people link their accounts, the more rewards you'll receive!",
+      //    connect_button_list_item_1: "Manage subscriptions",
+      connect_button_list_item_2: '[AI_TRANSLATION]Különleges tartalom feloldása.',
+      //    connect_button_list_item_3: "Track progress",
+      connect_button_list_item_4: '[AI_TRANSLATION]Szerezz exkluzív jutalmakat  ',
+      //    connect_button_list_item_5: "Access curricular resources",
+      //    connect_button_list_item_6: "Unlock generative AI features",
+      connect_button_list_item_7: '[AI_TRANSLATION]Kreatív mód kiadása  ',
+      connect_button_list_item_8: '[AI_TRANSLATION]Szülői és tanári irányítópultok  ',
+      link_now: '[AI_TRANSLATION]Link Most',
+      //    pcc_on_roblox: "Play, Code and Create on Roblox",
+      //    play_title: "Play",
+      //    play_desc: "Explore the 3D immersive experience of CodeCombat Worlds. Program your pets and adventure into a universe of creativity and shared experiences with friends.",
+      //    code_title: "Code",
+      //    code_desc: "Learn real Lua coding, from beginner to advanced. Use code to explore, gather resources, build, and discover your path to glory.",
+      //    create_title: "Create",
+      //    create_desc: "No Roblox Studio? No problem. Code in-game in Creative Mode to make full Roblox games to share with your friends.",
+      what_create: '[AI_TRANSLATION]Mit fogsz készíteni?',
+      access_guidebook: '[AI_TRANSLATION]Útmutató elérése',
+      guidebook_description: '[AI_TRANSLATION]Minden, amit tudnod kell, hogy elkezdhesd  ',
+      //    faq_1_question: "Do I need to know Lua or Roblox Studio?",
+      //    faq_1_answer: "No. This experience will allow anyone to play, code and create from the very start of their adventure, without any coding experience.",
+      //    faq_2_question: "Can I create my own games?",
+      faq_2_answer: '[AI_TRANSLATION]Igen. A játékfejlesztés ennek az élménynek a középpontjában áll, és az alapvető tanulási szintek teljesítése után lehetőséged lesz saját magad létrehozni egyet.  ',
+      //    faq_3_question: "Will my creations be available on Roblox?",
+      faq_3_answer: '[AI_TRANSLATION]Igen. A játékosok megoszthatják élményeiket a CodeCombat Worldsben, és egy bővítmény segítségével importálhatják az élményeiket a Studioba közzététel céljából, fenntartva a Studio kompatibilitását.  ',
+      faq_4_question: '[AI_TRANSLATION]Kell Roblox fiók?',
+      faq_4_answer: '[AI_TRANSLATION]Igen. Minden játékos ingyenesen regisztrálhat a roblox.com oldalon. Ne felejtsd el összekapcsolni a CodeCombat fiókod a Roblox fiókoddal, hogy minden funkciót és jutalmat elérj.  ',
+      faq_5_question: '[AI_TRANSLATION]Működni fog a Chromebookomon vagy a mobil eszközömön?  ',
+      faq_5_answer: '[AI_TRANSLATION]Igen. A CodeCombat Worlds lehetővé teszi, hogy játsz, valódi kódot írj és játékokat készíts PC-n, Mac-en, Chromebookon, tableten, telefonon és konzolon.  ',
+    },
+
+    pd_page: {
+      //    implementation_training_title: "Implementation Training",
+      implementation_training_blurb: '[AI_TRANSLATION]A pedagógusoknak élő, online 60 perces bevezető képzést és útmutatást nyújtunk, hogyan használják a CodeCombat vagy az Ozaria programokat az intézményi és oktatási célok támogatására. A megvalósítás egy átfogó tanári irányítópult bejárására összpontosít, amely magában foglalja:  ',
+      list_1: '[AI_TRANSLATION]Hogyan lehet osztályokat és diákokat hozzáadni?',
+      list_2: '[AI_TRANSLATION]Hogyan lehet nyomon követni és rögzíteni a diákok előrehaladását?',
+      list_3: '[AI_TRANSLATION]Áttekintés arról, hogyan használd a Resource Hub-ban elérhető erőforrásokat, beleértve: Tanfolyam útmutató, Tananyagok, Tanulási diák, & Oktatói GYIK',
+      modal_subtitle: '[AI_TRANSLATION]Szakmai fejlesztési kurzusunk licencének megszerzéséhez írj nekünk üzenetet, és osztálytermi siker csapatunk felveszi veled a kapcsolatot!',
+      email_message: '[AI_TRANSLATION]Szia! Érdekelne a szakmai fejlesztési kurzusotok, és szeretnék beszélni az árakról.',
+      professional_development_title: '[AI_TRANSLATION]Szakmai fejlesztés[NEWLINE](Ozarival)  ',
+      professional_development_blurb: '[AI_TRANSLATION]Ez a több mint 40 órás online, önálló tanfolyam lehetőséget ad az oktatóknak arra, hogy magas színvonalú számítástechnikai oktatást valósítsanak meg a tudás, készségek és erőforrások segítségével.  ',
+      list_4: '[AI_TRANSLATION]Ez megfelel az ESSA irányelveinek a kiemelkedő szakmai tanulásra, CSTA által támogatott és értékes szakmai képzési kreditórákra jogosít.  ',
+      //    list_5: "The course is built on a Learn It, Try It, Teach It model ensuring teachers have a solid foundation of the concepts before they implement it in the classroom.",
+      list_6: '[AI_TRANSLATION]Szerezz akár 3 posztgraduális szintű oktatási kreditórát miközben felfedezed a főbb informatikai koncepciókat és tanítási stratégiákat, amelyek tartalmazzák a számítógépes gondolkodást, a problémamegoldó tanulást, a szociális érzelmi tanulást és a sokszínűséget.  ',
+      //    download_table_of_contents: "Download Table of Contents",
+      ap_csp_professional_development_title: '[AI_TRANSLATION]AP CSP Szakmai Fejlesztés [NEWLINE] (A CodeCombat-tal)',
+      ap_csp_professional_development_blurb: '[AI_TRANSLATION]Ez a több mint 40 órás, nagyrészt önálló online tanfolyam ideális minden oktatónak, aki szeretné felkészíteni diákjait a CodeCombat segítségével a AP Számítástechnikai Alapok vizsga sikerére.  ',
+      list_7: '[AI_TRANSLATION]Ez a kurzus és a CodeCombat AP CSP tanterv is a College Board által jóváhagyott. Az ebben a kurzusban elvégzett órák értékes szakmai képzési kreditnek minősülhetnek.',
+      list_8: '[AI_TRANSLATION]A tanfolyam az AP CSP tanárokkal való szinkron, kis csoportos beszélgetéseket használja ki a világ minden tájáról, hogy elmélyítse a CS ismereteket és gazdagítsa a tantermi gyakorlatokat.',
+      list_9: '[AI_TRANSLATION]A CodeCombat és a Dél-New Hampshire Egyetem (SNHU) együttműködése révén akár 3 posztgraduális szintű kreditórát is szerezhetsz, miközben megtanulsz felkészülni diákjaid felkészítésére az AP CSP vizsgára.  ',
+      download_syllabus: '[AI_TRANSLATION]Tanterv letöltése',
+      get_full_course: '[AI_TRANSLATION]Szerezd meg a Teljes Tanfolyamot',
+      try_sample_lesson: '[AI_TRANSLATION]Próbáld ki a mintalelckét  ',
+      trophy_header: '[AI_TRANSLATION]Szintet léphetsz Számítástechnika Tanárként a szakmai fejlődés programjainkkal!  ',
+    },
+
+    //  junior_page: {
+    //    testimonials_1_quote: "The future is programmable and you will need to be able to code to participate… I think CodeCombat has the best CS curriculum on the market… the teacher toolkit is what sets it apart.",
+    //    testimonials_1_name: "Jacob Kaminski",
+    //    testimonials_1_title: "STEM Program Director, American STEM Prep",
+    //    start_their_coding_journey_today: "**Start** their coding journey **today!**",
+    //    our_flagship_k_5_curriculum: "Our **flagship K-5 curriculum** features a scaffolded progression of learning levels that **teach coding concepts at a slower pace**, modeled specifically for elementary students.",
+    //    sign_up_to_start_today: "Sign up to start today",
+    //    testimonials_1_full_review_text: "Full review text",
+    //    scaffolded_approach: "Scaffolded Approach",
+    //    no_matter_the_coding_experience: "No matter the coding experience, CodeCombat Junior **meets students where they’re at.** They can code with icon blocks, word blocks, blocks and text code in parallel, or text-based coding with industry standard languages.",
+    //    accessible_to_all: "Accessible to All",
+    //    with_our_tablet_friendly_platform: "We’ve anticipated the challenges our youngest learners might face, incorporating **no-reading and no-typing options.** The simplified user interface performs exceptionally well on Chromebooks, as well as tablets and iPads without physical keyboards, ensuring equity and accessibility for all, irrespective of their device.",
+    //    adaptive_to_each_student: "Adaptive to Each Student",
+    //    codecombat_junior_automatically_assesses: "CodeCombat Junior automatically assesses learner’s coding success and recommends **custom-generated practice levels** when they need extra support. This provides a personalized learning pathway for every student while offering the ability for parents and educators to track progress.",
+    //    coding_fundamentals_and_cross_curricular_connections: "Coding Fundamentals and Cross-Curricular Connections",
+    //    our_curriculum_offers_student_facing: "For educators, our curriculum offers student-facing lesson slides and approachable activities to teach both core K-5 coding concepts and cross-curricular connections. The unplugged activities **integrate coding concepts with other disciplines like Math and ELA.** Topics include sequencing stories, visualizing and graphing data, narratives, and number sentences. All of our lessons are designed to **meet Computer Science Teachers Association (CSTA) Standards and Common Core Standards.**",
+    //    request_a_quote: "Request a Quote",
+    //    scope_and_sequence: "Scope and Sequence",
+    //    check_out_this_resource: "Check out **[https://docs.google.com/spreadsheets/d/1_2zr55qsEcbHDyDNoelYamN9ov0G35ju7s-ufttSzVQ]this resource** as a starting point for your personalized approach.",
+    //    connect_with_our_team: "Connect with our team to access all the teacher resources, a personalized learning pathway, generative practice levels, and more. We’ll help you integrate this comprehensive K-5 coding curriculum to ensure your students thrive at every stage of their coding journey.",
+    //    faq_1_question: "FAQ 1 Question",
+    //    faq_1_answer: "FAQ 1 Answer",
+    //    faq_2_question: "FAQ 2 Question",
+    //    faq_2_answer: "FAQ 2 Answer",
+    //    faq_3_question: "FAQ 3 Question",
+    //    faq_3_answer: "FAQ 3 Answer",
+    //    faq_4_question: "FAQ 4 Question",
+    //    faq_4_answer: "FAQ 4 Answer",
+    //    meta_title: "CodeCombat Junior: K-5 Computer Science for Schools",
+    //    our_comprehensive_implementation: "Our comprehensive implementation",
+    //    trends_1_title: "Kickstarting CS in K-5 Classrooms",
+    //    trends_1_text: "Watch as CodeCombat's Director of Education, Charlotte Cheng, and STEM Program Director, Jacob Kaminski, explore how to integrate **CodeCombat Junior** and **CodeCombat Worlds** into your classroom. They share practical strategies, success stories, and answer questions from fellow educators.",
+    //    trends_1_linkText: "Learn more",
+    //    trends_2_title: "CodeCombat Junior: A New Dynamic Approach to K-5 Coding",
+    //    trends_2_text: "Learn more about how **CodeCombat Junior** can bring coding education to K-5 classrooms. From drag-and-drop icon-based block coding to text-based coding in Python and JavaScript, this adaptable platform supports students at every stage. With over 1,100 levels and more in development, CodeCombat Junior offers endless opportunities.",
+    //    trends_2_linkText: "Read the blog",
+    //    get_a_headstart: "Get a Headstart from Home",
+    //    parents_junior_perfect: "Parents, CodeCombat Junior is the perfect way to start introducing your child not only to computer science but all the benefits, including problem solving, logic and reasoning, persistence, computational thinking and creative exploration.",
+    //    explore_learning_options: "Explore Learning Options",
+    //  },
+
+    //  paywall: {
+    //    badge_free: "Free",
+    //    "badge_sales-call": "Call Now!",
+    //    badge_paid: "Premium",
+    //    badge_tooltip_free: "Explore our levels at no cost!",
+    //    "badge_tooltip_sales-call": "Interested in more? Give us a call and unlock!",
+    //    badge_tooltip_paid: "This content is exclusive to users with a valid license.",
+    //  },
+
+    //  exams: {
+    //    timer_tip: "A timer will start when you click Start Exam",
+    //    no_permission: "Only users with permission can take the exam",
+    //    level_num: "Challenge __num__",
+    //    time_left: "Time Left (HH:mm):",
+    //    submit_tip: "Are you sure you want to mark as complete? You will not be able to play the levels again.",
+    //    start_exam: "Start Exam",
+    //    continue_exam: "Continue Exam",
+    //    return_to_exam: "Return to the Exam",
+    //  },
+
+    //  hoc_page: {
+    //    learn_and_engage_with_these_csedweek_activities: "**Learn** and **engage** with these **CSEdWeek** activities!",
+    //    latest_activities: "Latest Activities",
+    //    turn_csedweek_into_a_cs_year: "Turn CSEdWeek into a CS Year",
+    //    start_teaching_today_with_free_trial_access_to_all_games_and_teaching_resources: "Start teaching today with free trial access to all games and teaching resources.",
+    //    more_of_our_csedweek_activities: "More of Our CSEdWeek Activities",
+    //    latest_activities_1_title: "AI HackStack: Exploring AI Basics",
+    //    latest_activities_1_text: "Unleash your creativity and explore the future with AI HackStack! From designing AI-generated art to building intelligent tools, dive into hands-on activities that make learning safe, fun, and inspiring for all skill levels.",
+    //    latest_activities_1_label_1: "Grades 6-8",
+    //    latest_activities_1_label_2: "Multimodal AI",
+    //    latest_activities_2_title: "CodeCombat Junior",
+    //    latest_activities_2_text: "Ready, set, code! Help your pet collect gems by mastering the basics of programming. Learn to create sequences, solve puzzles, and build algorithms in this hands-on adventure!",
+    //    latest_activities_2_label_1: "Grades K-5",
+    //    latest_activities_2_label_2: "JavaScript, Python",
+    //    latest_activities_2_label_3: "Tablet Friendly",
+    //    try_activity: "Try Activity",
+    //    view_lesson: "View Lesson",
+    //    codecombat_worlds_title: "CodeCombat Worlds",
+    //    codecombat_worlds_text: "Master coding by creating your own Roblox games, from coding pets in the Overworld to crafting games in Creative Mode!",
+    //    codecombat_worlds_label_1: "Grades 2+",
+    //    codecombat_worlds_label_2: "Lua",
+    //    codecombat_worlds_label_3: "Tablet Friendly",
+    //    codecombat_worlds_label_4: "Download Required",
+    //    goblins_glory_title: "CodeCombat: Goblins 'n' Glory",
+    //    goblins_glory_text: "We need your help! Embark on an epic quest where you take control of the game through your powers of programming.",
+    //    goblins_glory_label_1: "Grades 6-8",
+    //    goblins_glory_label_2: "JavaScript, Python",
+    //    ai_league_title: "Esports Bootcamp: AI League",
+    //    ai_league_text: "Competitive coding has never been so epic! Learn the skills you need to play like the pros in our Esports Bootcamp. No coding experience needed.",
+    //    ai_league_label_1: "Grades 6-8",
+    //    ai_league_label_2: "JavaScript, Python",
+    //    ozaria_title: "Ozaria: Your Journey Begins",
+    //    ozaria_text: "Enter the world of Ozaria where you must use the power of coding to defeat a darkness that has taken over the world!",
+    //    ozaria_label_1: "Grades 6-8",
+    //    ozaria_label_2: "JavaScript, Python",
+    //    escape_dungeon_title: "Beginner CS: Escape the Dungeon!",
+    //    escape_dungeon_text: "Choose your hero and code your way through the ogre patrols, lava pits, and laser beams of Kithgard Dungeon. Level up, earn gems, and loot magic items to unlock new programming powers!",
+    //    escape_dungeon_label_1: "Grades 6-8",
+    //    escape_dungeon_label_2: "JavaScript, Python",
+    //    beginner_game_dev_title: "Beginner Game Dev: Build Your Own Game!",
+    //    beginner_game_dev_text: "First, level up your Python or JavaScript programming skills by coding your way out of danger and grabbing sweet loot. Then use your programming powers to build your own game and see if your friends can beat it!",
+    //    beginner_game_dev_label_1: "Grades 6-8",
+    //    beginner_game_dev_label_2: "JavaScript, Python",
+    //    intermediate_game_dev_title: "Intermediate Game Dev: Code, Play, Create",
+    //    intermediate_game_dev_text: "Code and play a series of game levels while learning important Computer Science concepts. On the final level, show off your creativity and skills to code your own game from scratch!",
+    //    intermediate_game_dev_label_1: "Grades 6+",
+    //    intermediate_game_dev_label_2: "JavaScript, Python",
+    //    advanced_game_dev_title: "Advanced Game Dev: Build an Arcade Game!",
+    //    advanced_game_dev_text: "Ready to create an even cooler game? Brush up on advanced coding concepts like functions and events using Python or JavaScript, then use those skills to build your own arcade survival game!",
+    //    advanced_game_dev_label_1: "Grades 6+",
+    //    advanced_game_dev_label_2: "JavaScript, Python",
+    //  },
+  },
 }
-
-//  partners:
-//    for: "for"
-//    business_partners: "Business Partners"
-//    headline: "Join us in our mission to make coding engaging and accessible to all"
-//    below_headline_blurb: "At CodeCombat we’ve developed comprehensive tools that make learning to code fun and teaching programming easy. Our turnkey solutions can be leveraged in many executions."
-//    coding_title: "Coding & STEAM Education Businesses:"
-//    coding_blurb: "Valued partners like Code Ninjas and IDEA Lab Kids use our game to teach real Python and JavaScript coding to students in their franchise locations. We offer an easy to use program, implementation resources and training options to ensure an amazing student experience."
-//    esports_title: "Educational Esports Sponsors:"
-//    esports_blurb: "We are reinventing what an esport can be while engaging thousands of students to learn to code. Endemic esports mainstay __hyperx__ supported the CodeCombat AI League from its inaugural season, building compelling promotional programs around this unique esport."
-//    hyperx: "HyperX"
-//    respawn: "RESPAWN"
-//    distribution_title: "International Distribution:"
-//    distribution_blurb: "Our programs have served students in over 190 countries and our content is translated into over __forty_languages__. While the US and China are markets where we sell directly, we work closely with local SaaS and EdTech distribution partners around the world to expand our reach"
-//    forty_languages: "40 languages"
-//    equity_social_title: "Tech Equity & Social Impact:"
-//    equity_social_blurb: "Not every partnership is built on the bottom line. As a mission-based organization we seek ways to give back as well. We work closely with foundations and other philanthropy partners to expand access to high-quality coding education.  "
-//    latin_superstar_blurb: "Additionally, Latin superstar __eugenio_derbez__ has helped us reach the Latinx community with a partnership to engage students in this often underserved and underrepresented group."
-//    reach_latinx: "reach the Latinx community"
-//    eugenio_derbez_blurb: "\"It is important to me to see Latino boys and girls represented in this space,\" said Eugenio Derbez. \"Coding is the language of the future and if we want to be a part of that future then we need to get our kids coding.\""
-//    seek_relationships_blurb: "We seek relationships with nonprofits and community-based organizations working with groups underrepresented in computer science and technology careers. Our partnership with __seeds_of_light__ will fund CS educational opportunities for thousands of young learners."
-//    seeds_of_light: "Seeds of Light"
-//    corporate_team_building_title: "Corporate Team Building"
-//    corporate_team_building_blurb: "Need to engage your employees with a turnkey activity that will inspire their competitive spirit and challenge them to creatively problem solve? Work with us to build a custom competitive coding tournament that will have your team programming their own strategies while playing a game. __see_how__"
-//    footer_blurb: "These are just a few of the partnership structures we have successfully supported. If you would like to initiate a discussion with our business development team on any of these models or have a different partnership opportunity, please reach out today."
-//    talk_with_us: "Talk with Us"
-//    our_partners: "Our Partners"
-//    see_how: "See How"
-
-//  podcast:
-//    learning_adventure: "Where learning is always an adventure."
-//    explores_stem: "Our podcast explores the role of technology, STEM, and creative play in education. With expert guests, we discover how learning is always an adventure."
-//    listen: "Listen"
-//    download: "Download"
-//    transcript: "Transcript"
-//    learn_more_coco: "Want to learn more about CodeCombat coding experiences?"
-//    subscribe: "Subscribe"
-//    explore_coco: "Explore CodeCombat"
-//    interested_in_being_guest: "Interested in being a guest on EdTech Adventures?"
-//    lets_chat: "Let's Chat"
-//    air_date: "Air date" # upload date
-//    play_episode: "Play Episode"
-//    about_guest: "About Our Guest"
-//    about_guests: "About Our Guests"
-//    all_episodes: "View All Episodes"
-//    no_permission: "You don't have permission to view this podcast"
-//    listen_now: "Listen Now"
-//    show_all_episodes: "Show all episodes"
-
-//  library:
-//    enter_library_card: "Enter your Library Card Number:"
-//    access_coco: "Access CodeCombat"
-//    already_using_library_id: "Already using library id"
-//    play_coco: "to play CodeCombat"
-//    not_library_id: "Not your library id"
-//    access_using_id: "to access using your id!!"
-//    network_detected: "Library network detected, redirecting you to play CodeCombat"
-//    not_redirect_auto: "if redirect doesn't happen automatically"
-//    engage_members: "Give your members access to the most engaging way to learn coding."
-//    importance_blurb: "Libraries play an important role in advancing educational equity in their communities. Many young learners do not have access or exposure to computer science, and libraries can provide important resources to these underserved groups. That is why we are partnering with libraries across the country to provide access to our game-based learning tools and educational resources."
-//    games_teach_blurb: "Our games teach real typed Python, JavaScript and C++ coding languages through the power of play. The gameplay is paired with a scaffolded curriculum to allow self-paced learners the ability to master foundational programming concepts before moving on to the more complex. Each level challenges the player to type the code necessary to advance their hero and achieve the level goal."
-//    platform_built: "Our platform is built to address the specific needs of libraries and their patrons:"
-//    accessible: "Accessible"
-//    accessible_blurb: "A basic computer with internet access is all you need to sign-in and start playing. The content is intended for beginners with no prior coding experience."
-//    self_paced_intuitive: "Self-Paced and Intuitive"
-//    self_paced_intuitive_blurb: "Teachers are not required as players can dictate the pace at which they move through the curriculum. Our custom code engine and interpreter is designed for beginners, it understands the mistakes kids make and speaks to them using human, beginner-friendly terms."
-//    engaging_content: "Engaging Content"
-//    engaging_content_blurb: "Game-based learning drives engagement from the start but perhaps even more importantly keeps students engaged when the concepts get more challenging. In a game environment failure and success are expected and embraced as part of the play experience."
-//    api_integrate: "API integration"
-//    api_integrate_blurb: "Our games can be easily incorporated into your digital library interface through EZProxy or other popular systems. This structure provides instant access with the members’ existing log in and no staff is needed to manage any logistics of licensing or access."
-//    privacy: "Privacy"
-//    privacy_blurb: "We take user safety, cybersecurity, and data privacy seriously, following many stringent privacy regulations, like COPPA, FERPA, SOPIPA, California AB 1584, CalOPPA, Fair Information Practices, CAN-SPAM, and GDPR. These policies and protective measures have let us securely serve over twenty million users around the world."
-//    privacy_policy: "our full privacy policy."
-//    see: "See"
-//    communication_limit: "Communication Limits"
-//    communication_limit_blurb: "To ensure the security of your members, we do not offer in-game chat or other communication features between players, however we do allow members to safely share their coding projects with friends, family and the CodeCombat community. We restrict any upsell or marketing messaging to provide an uninterrupted experience for your patrons."
-//    usage_stats: "Usage Stats"
-//    usage_stats_blurb: "Gain insight to your members’ usage with our snapshot reporting tool. It provides access to usage stats at any time, including monthly active users, licensed days used and more valuable data points."
-//    esports: "Academic Esports"
-//    esports_blurb: "Our esports program offers an opportunity to further engage your members through a fun and exciting competition. The AI League allows members to showcase their understanding of coding concepts in a new environment and practice problem solving strategies as they go head to head in battle against the global community."
-//    work_with_us_blurb: "Work with us to unlock the next generation of engineers, programmers and CS professionals in your community."
-//    schedule_demo: "Schedule a Demo"
-//    license_modal_subtitle: "Please complete this short form and one of our library specialists will reach out to provide a demo and custom pricing options!"
-//    license_modal_members: "Members Needing Access"
-//    license_modal_members_placeholder: "Approximately how many members will need access?"
-//    license_modal_contact: "Contact Our Team"
-//    license_days_used: "License days used"
-//    users_active_licenses: "Users with active licenses"
-//    lines_code: "Lines of Code"
-//    programs_written: "Programs written"
-//    time_spent_min: "Time spent (in min)"
-//    month: "Month"
-//    teacher_classroom_name: "Teacher or classroom name"
-//    already_logged_in: "Already logged in, please logout from the top navigation bar to login again."
-//    search_box_option: "If search box doesn't load, login by clicking"
-//    new_signups: "New Signups"
-//    heading_for: "for"
-//    heading_libraries: "Libraries"
-//    educational_equity: "Educational Equity"
-//    power_of_play: "Power of play"
-//    library_card: "Library Card Number"
-//    library_signup_promotion: "Sign Up to save progress and continue from where you left off on CodeCombat!!"
-//    welcome_dashboard: "Welcome to your dashboard"
-//    total_licenses_used: "Total Licenses Used"
-//    from_launch_date: "from the date of launch"
-//    renewal_date: "Renewal Date"
-//    access_old_dashboard: "If you want to access the old dashboard, visit"
-//    loading_from: "loading data from"
-//    user_activities: "User Activities"
-//    total_users: "Total Users"
-//    lines_of_code_written: "Lines of Code Written"
-//    hours_spent: "Hours spent"
-//    number_users: "Number of users"
-//    time_spent: "Time spent (in minutes)"
-//    new_users: "New Users"
-//    age_demographics: "Age demographics"
-//    levels_completed: "Levels Completed"
-//    adjust_dates_explore: "Adjust the dates below to explore patron usage trends over time."
-
-//  related_accounts:
-//    subtitle: "Add connections between different CodeCombat accounts to be able to quickly switch between them. For example, as a parent, you could switch to viewing CodeCombat from your kids’ accounts. Or, as a teacher, you could add a test student account for yourself to see what your students see."
-//    wrong_account: "Please log in to the correct account to confirm the account linking. Log In to the account and open link from email again."
-//    link_account: "Link your account to"
-//    link_successful_redirect: "Account linked successfully, redirecting"
-//    add_related_user: "Add Related User"
-//    adding: "Adding"
-//    removing: "Removing"
-//    added: "Account added"
-//    related_email: "Related User Email"
-//    relation: "Relation"
-//    bi_directional: "Bi-directional"
-//    account_exists: "Account exists"
-//    link_using_email: "Link account using confirmation email"
-//    link_using_email_blurb: "User will receive a mail on __email__. Please ask the user to confirm linking by pressing on link present in email."
-//    account_not_exist: "Account does not exist"
-//    account_type: "Account Type"
-//    create_account_and_email: "Create account and send email to link"
-//    authenticate: "Authenticate"
-//    invite: "Invite"
-//    auth_using_pass: "Authenticate using __email__ password"
-//    related_users: "Related Users"
-//    no_related_users: "No related users right now"
-//    send_verify_email: "Send Verify Email"
-//    verified: "Verified"
-//    switch: "Switch"
-//    title: "Related Accounts"
-//    bi_directional_help_text: "Allow added user to switch to your account?"
-
-//  modal_free_class:
-//    paragraph_1: "Thank you for choosing CodeCombat."
-//    paragraph_2: "Our team is eager to connect with you to get your child scheduled for a free trial class."
-//    paragraph_3: "Please provide your contact information and one of our learning advisors will call you to gather student information, identify a teacher based on your child’s preferred learning style and to schedule the trial class."
-//    name: "Name"
-//    phone_number: "Phone Number"
-//    available: "Are you available to talk now?"
-//    yes: "Yes"
-//    no: "No"
-//    preferred_time: "Preferred time for call if we can't connect now"
-//    anytime: "Anytime"
-//    morning: "Morning (8AM - 12PM)"
-//    afternoon: "Afternoon (12PM - 4PM)"
-//    evening: "Evening (4PM - 8PM)"
-//    time_zone: "Your Time Zone"
-//    email: "Email"
-
-//  mobile_landing:
-//    subtitle: "Get free access to the most engaging way to teach CS"
-//    you_re_set: "YOU'RE SET!"
-//    done_blurb: "Check your email for instructions on accessing your teacher account. For the best experience, we suggest using a device with an external keyboard and larger screen."
-//    step_email: "STEP 1"
-//    step_name: "STEP 2"
-//    step_done: "DONE"
-//    video_title: "GET A SNEAK PEEK HERE"
-//    email_confirm: "The email address \"__email__\" is already registered. Would you like to login?"
-
-//  roblox_landing:
-//    headline: "Empowering Every Player to Become a Creator!"
-//    subhead: "Experience the easiest and most enjoyable way to code and create your own Roblox games"
-//    join_the_beta: "Join the Beta"
-//    sign_up: "Sign Up"
-//    box_play_subhead: "Play"
-//    box_code_subhead: "Code"
-//    box_create_subhead: "Create"
-//    box_headline: "Play, Code and Create on Roblox"
-//    box_play_blurb_teacher: "In partnership with Roblox Education, we are combining our proven coding-as-gameplay approach with the creative and social power of the Roblox platform to make a new Roblox experience that teaches coding and game development in-game."
-//    box_code_blurb_teacher: "The experience will be personalized and differentiated, offering structured and unstructured intuitive practice that allows the player to learn as they like, while still aligning with CSTA and ISTE computer science standards."
-//    box_create_blurb_teacher: "This engaging play experience will provide the foundational instruction needed to take players from zero coding knowledge to publishing full Roblox games. Our Creative Mode lets players build while playing, without requiring switching modes to the full desktop Roblox Studio IDE."
-//    box_play_blurb_player: "Explore the 3D immersive experience of CodeCombat Worlds. Program your pets and adventure into a universe of creativity and shared experiences with friends."
-//    box_code_blurb_player: "Learn real Lua coding, from beginner to advanced. Use code to explore, gather resources, build, and discover your path to glory."
-//    box_create_blurb_player: "No Roblox Studio? No problem. Code in-game in Creative Mode to make full Roblox games to share with your friends."
-//    box_play_blurb_parent: "Through our proven game-based learning approach, we engage young learners through play, while teaching coding and game development."
-//    box_code_blurb_parent: "Coding from the very start of their adventure, the experience is personalized and differentiated, offering structured and unstructured intuitive practice that allows your child to learn as they like."
-//    box_create_blurb_parent: "Many kids want to create games but don’t know where to start. This engaging play experience will provide the foundational instruction needed to take players from zero coding knowledge to publishing full Roblox games."
-//    box_play_blurb_partner: "Engage young learners with a next-generation Roblox experience. With support from Roblox Education, we are combining our proven coding-as-gameplay approach with the creative and social power of the Roblox platform to make a new Roblox experience that teaches coding and game development in-game."
-//    box_code_blurb_partner: "The experience will be personalized and differentiated, offering structured and unstructured intuitive practice that allows the player to learn as they like. We make it easier than ever to teach real coding to your students in either self-paced or instructor-directed contexts."
-//    box_create_blurb_partner: "Instead of building a standalone curriculum tied to Roblox Studio, take advantage of our in-game Creative Mode and its scaffolded instruction to easily ramp your students from no coding experience to publishing full Roblox games."
-//    role_teacher: "Teacher"
-//    role_player: "Player"
-//    role_parent: "Parent"
-//    role_partner: "Partner"
-//    select_role: "Please select your role"
-//    question_1: "Do I need to know Lua or Roblox Studio?"
-//    answer_1: "No. This experience will allow anyone to play, code and create from the very start of their adventure, without any coding experience."
-//    question_2: "Can I create my own games?"
-//    answer_2: "Yes. Game development is at the core of this experience and after completing the core learning levels you will have the opportunity to create your own."
-//    question_3: "Will my creations be available on Roblox?"
-//    answer_3: "Yes. Anything you create in this experience, you will be able to import into Roblox Studio and then publish to the platform for anyone to play."
-//    bottom_blurb_parent: "No need to wait - __sign-up__ for our live online classes to get your child coding today! Get them started with CodeCombat web to be the first to get access to the CodeCombat Worlds Roblox experience."
-//    bottom_blurb_sign_up: "Sign up"
-//    bottom_blurb_partner: "Want to use the new CodeCombat Worlds Roblox experience for your education business, social impact initiative or international distribution opportunity? __reach-out__ to discuss partnering today."
-//    bottom_blurb_reach_out: "Reach out"
-//    boxes_title: "Play, Code and Create on Roblox"
-//    login_message: "You need to login before connecting your account to Roblox"
-//    connect_button_header: "Account Linking Rewards"
-//    connect_button_linker_badge: "Linker Badge"
-//    connect_button_accounts_linked: "Accounts Linked"
-//    connect_button_pet_chroma: "Pet Chroma"
-//    connect_button_exclusive_pet: "Exclusive Pet"
-//    connect_button_blurb: "Link your CodeCombat and Roblox accounts for a seamless experience!"
-//    connect_button_list_item_1: "Manage subscriptions"
-//    connect_button_list_item_2: "Unlock additional content"
-//    connect_button_list_item_3: "Track progress"
-//    connect_button_list_item_4: "Receive exclusive rewards"
-//    connect_button_list_item_5: "Access curricular resources"
-//    connect_button_list_item_6: "Parent and teacher dashboard access"
-//    connect_button_list_item_7: "Unlock generative AI features"
-//    connect_button_list_item_8: "Creative mode publishing and exporting"
-//    connect_button_connected_blurb: "Congratulations, you have linked your accounts! Invite your friends to help reach the community linking goals."
-//    connect_button_not_connected_blurb: "The more people link their accounts, the more rewards you'll receive!"
-//    faq_bottom: "See more <a href=\"https://codecombat.zendesk.com/hc/en-us/categories/18084251471383-CodeCombat-Worlds-Roblox-\" target=\"_blank\">frequently asked questions in our help center</a>. <br />If you have any other questions, please <a href=\"mailto:support@codecombat.com\">Contact Us</a>."
-//    modal_title: "CodeCombat Worlds<br> Now Live on Roblox!"
-//    modal_play_now: "PLAY NOW!"
-//    modal_button_link_roblox_account: "Link Roblox Account"
-
-//  ai:
-//    prompt_level_chat_1: "What does this error mean?"
-//    prompt_level_chat_2: "Please explain this error."
-//    prompt_level_chat_3: "What's wrong?"
-//    prompt_level_chat_4: "Please help explain this."
-//    prompt_level_chat_5: "How can I fix it?"
-//    prompt_level_chat_6: "Help, please."
-//    prompt_level_chat_7: "What do I do?"
-//    prompt_level_chat_8: "What does this mean?"
-//    prompt_level_chat_9: "Please explain."
-//    prompt_level_chat_10: "What is this error?"
-//    prompt_level_chat_11: "What is the problem?"
-//    prompt_level_chat_12: "???"
-//    prompt_level_chat_13: "Dear AI, I beseech you, explain my error, in verse."

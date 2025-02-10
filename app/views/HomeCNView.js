@@ -21,6 +21,7 @@ const storage = require('core/storage')
 const { logoutUser, me } = require('core/auth')
 const CreateAccountModal = require('views/core/CreateAccountModal/CreateAccountModal')
 const fetchJson = require('core/api/fetch-json')
+const Mandate = require('models/Mandate')
 const DOMPurify = require('dompurify')
 
 module.exports = (HomeCNView = (function () {
@@ -53,6 +54,12 @@ module.exports = (HomeCNView = (function () {
       this.courses = new Courses()
       this.supermodel.trackRequest(this.courses.fetchReleased())
 
+      window.localStorage.setItem('lastUpdatedCocoStarPage', +new Date('2021-3-30 18:00:00'))
+      window?.localStorage?.setItem('lastUpdatedEventPage', +new Date('2021-3-30 18:00:00'))
+
+      this.homeCN = {}
+      this.mandate = this.supermodel.loadModel(new Mandate()).model
+      this.listenTo(this.mandate, 'sync', this.getMandate)
       // @getBanner()
       if (me.isTeacher()) {
         this.trialRequests = new TrialRequests()
@@ -74,11 +81,17 @@ module.exports = (HomeCNView = (function () {
       }
     }
 
+    getMandate () {
+      this.homeCN = this.mandate.get('0').homeCN
+      this.renderSelectors('.aiyouth')
+    }
+
     getBanner () {
-      return fetchJson('/db/banner').then(data => {
+      return fetchJson('/db/banner', { data: { cacheEdge: true } }).then(data => {
         this.banner = data
         const content = utils.i18n(data, 'content')
-        return this.banner.display = DOMPurify.sanitize(marked(content != null ? content : ''))
+        this.banner.display = DOMPurify.sanitize(marked(content != null ? content : ''))
+        return this.banner.display
       })
     }
 

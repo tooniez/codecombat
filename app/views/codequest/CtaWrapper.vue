@@ -1,11 +1,16 @@
 <template>
   <div class="cta-wrapper">
+    <div class="jumbotron">
+      <p class="supporting-text supporting-text-normal">
+        {{ $t('codequest_page.cta_supporting') }}
+      </p>
+    </div>
     <ButtonA
       class="contact-modal button-a-instance"
-      text="Contact Our Team"
+      :text="$t('codequest_page.contact')"
     />
     <p class="supporting-text">
-      If you have any questions
+      {{ $t('codequest_page.if_question') }}
     </p>
   </div>
 </template>
@@ -36,6 +41,12 @@ export default {
     width: 258px !important;
   }
 
+  .jumbotron {
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.1490196078);
+    background: linear-gradient(90deg, rgb(245, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 24px;
+  }
+
   .supporting-text {
     color: #4799A9;
     font-family: "Plus Jakarta Sans-Bold", Helvetica;
@@ -45,7 +56,11 @@ export default {
     line-height: 32px;
     position: relative;
     white-space: nowrap;
-    width: fit-content;
+    &.supporting-text-normal {
+      font-weight: 400;
+      line-height: 30px;
+      white-space: normal;
+    }
   }
 }
 </style>

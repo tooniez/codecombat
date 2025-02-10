@@ -6,6 +6,8 @@ import IconInteractive from './IconInteractive'
 import IconPracticeLevel from './IconPracticeLevel'
 import IconChallengeLevel from './IconChallengeLevel'
 import IconIntro from './IconIntro'
+import IconAIUse from './IconAIUse'
+import IconAILearn from './IconAILearn'
 
 export default {
   components: {
@@ -15,14 +17,16 @@ export default {
     IconPracticeLevel,
     IconChallengeLevel,
     IconInteractive,
-    IconIntro
+    IconIntro,
+    IconAILearn,
+    IconAIUse,
   },
 
   props: {
     icon: {
       type: String,
       required: true,
-      validator: value => { return ['cutscene', 'cinematic', 'capstone', 'interactive', 'practicelvl', 'challengelvl', 'intro', 'hero', 'course-ladder', 'game-dev', 'web-dev'].indexOf(value) !== -1 }
+      validator: value => { return ['ai-use', 'ai-learn', 'cutscene', 'cinematic', 'capstone', 'interactive', 'practicelvl', 'challengelvl', 'intro', 'hero', 'course-ladder', 'game-dev', 'web-dev', 'ladder', 'challenge'].indexOf(value) !== -1 }
     }
   }
 }
@@ -35,11 +39,13 @@ export default {
   >
     <IconCutscene v-if="icon=='cutscene'" />
     <IconCinematic v-else-if="icon=='cinematic'" />
-    <IconCapstone v-else-if="icon=='capstone'" />
+    <IconCapstone v-else-if="['capstone'].includes(icon)" />
     <IconInteractive v-else-if="icon=='interactive'" />
     <IconPracticeLevel v-else-if="icon=='practicelvl'" />
-    <IconChallengeLevel v-else-if="icon=='challengelvl'" />
+    <IconChallengeLevel v-else-if="['challengelvl', 'hero'].includes(icon)" />
     <IconIntro v-else-if="icon=='intro'" />
+    <IconAIUse v-else-if="icon=='ai-use'" />
+    <IconAILearn v-else-if="icon=='ai-learn'" />
     <IconIntro v-else />
   </div>
 </template>

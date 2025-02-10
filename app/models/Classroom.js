@@ -82,21 +82,25 @@ module.exports = (Classroom = (function () {
       return this.fetch(options)
     }
 
-    getLevelNumber (levelID, defaultNumber) {
+    getLevelNumber (levelID, defaultNumber, courseID) {
+      // deal with duplicated levels in different course
       if (!this.levelNumberMap) {
-        let left
         this.levelNumberMap = {}
-        const language = __guard__(this.get('aceConfig'), x => x.language)
-        for (const course of Array.from((left = this.get('courses')) != null ? left : [])) {
+        const language = this.get('aceConfig')?.language
+        for (const course of (this.get('courses') || [])) {
           const levels = []
-          for (const level of Array.from(course.levels)) {
+          for (const level of course.levels) {
             if (level.original) {
               if ((language != null) && (level.primerLanguage === language)) { continue }
               levels.push({ key: level.original, practice: level.practice != null ? level.practice : false, assessment: level.assessment != null ? level.assessment : false })
             }
           }
-          _.assign(this.levelNumberMap, utils.createLevelNumberMap(levels))
+          _.assign(this.levelNumberMap, utils.createLevelNumberMap(levels, course._id))
         }
+      }
+
+      if (courseID && this.levelNumberMap[`${courseID}:${levelID}`]) {
+        return this.levelNumberMap[`${courseID}:${levelID}`]
       }
       return this.levelNumberMap[levelID] != null ? this.levelNumberMap[levelID] : defaultNumber
     }
@@ -213,7 +217,8 @@ module.exports = (Classroom = (function () {
       const course = _.findWhere(courses, { _id: courseID })
       if (!course) { return }
       const levels = new Levels(course.levels)
-      return levels.find(l => l.isProject())
+      const projects = levels.filter(l => l.isProject())
+      return projects[projects.length - 1]
     }
 
     findNextLevel (sessions, courseLevels) {
@@ -254,7 +259,7 @@ module.exports = (Classroom = (function () {
           playtime += (left1 = session.get('playtime')) != null ? left1 : 0
           linesOfCode += session.countOriginalLinesOfCode(level)
           lastPlayed = level
-          lastPlayedNumber = this.getLevelNumber(level.get('original'), index + 1)
+          lastPlayedNumber = this.getLevelNumber(level.get('original'), index + 1, courseID)
           if (complete) {
             currentIndex = index
           } else {
@@ -267,7 +272,8 @@ module.exports = (Classroom = (function () {
         levels.push({
           assessment: (left2 = level.get('assessment')) != null ? left2 : false,
           practice: (left3 = level.get('practice')) != null ? left3 : false,
-          complete
+          complete,
+          optional: this.isStudentOnOptionalLevel(me.id, courseID, level.get('original'))
         })
         if (!level.get('practice') && !level.get('assessment')) { levelsInCourse.add(level.get('original')) }
         userLevels[level.get('original')] = complete
@@ -282,19 +288,26 @@ module.exports = (Classroom = (function () {
         const currentPlaytime = (left4 = __guard__(levelSessionMap[currentLevel.get('original')], x => x.get('playtime'))) != null ? left4 : 0
         needsPractice = utils.needsPractice(currentPlaytime, currentLevel.get('practiceThresholdMinutes')) && !currentLevel.get('assessment')
         if (utils.isCodeCombat || !utils.orderedCourseIDs.includes(courseID)) {
-          nextIndex = utils.findNextLevel(levels, currentIndex, needsPractice)
+          nextIndex = utils.findNextLevel(levels.map(level => {
+            return { ...level, locked: this.isStudentOnLockedLevel(me.id, courseID, level.original) }
+          }), currentIndex, needsPractice)
         }
       }
       if (utils.isOzaria && utils.orderedCourseIDs.includes(courseID)) {
         const nextLevelOriginal = findNextLevelsBySession(sessions, courseLevels.models, null, this, courseID)
         nextLevel = new Level(getLevelsDataByOriginals(courseLevels.models, [nextLevelOriginal])[0])
       } else {
+        if (currentIndex === -1) {
+          nextIndex = utils.findNextLevel(levels.map(level => {
+            return { ...level, locked: this.isStudentOnLockedLevel(me.id, courseID, level.original) }
+          }), currentIndex, needsPractice)
+        }
         nextLevel = courseLevels.models[nextIndex]
         if (levelsLeft === 0) { nextLevel = arena }
         if (nextLevel == null) { nextLevel = _.find(courseLevels.models, level => !__guard__(__guard__(levelSessionMap[level.get('original')], x2 => x2.get('state')), x1 => x1.complete)) }
       }
       if (nextLevel) {
-        nextLevelNumber = this.getLevelNumber(nextLevel.get('original'), nextIndex + 1)
+        nextLevelNumber = this.getLevelNumber(nextLevel.get('original'), nextIndex + 1, courseID)
       }
       // eslint-disable-next-line no-unused-vars
       const [_userStarted, courseComplete, _totalComplete] = Array.from(coursesHelper.hasUserCompletedCourse(userLevels, levelsInCourse))
@@ -477,6 +490,25 @@ module.exports = (Classroom = (function () {
         })
         return notification.$buttons.addClass('style-flat')
       })
+    }
+
+    static codeNinjaClassroomTypes () {
+      return [
+        { id: 'club-3-month', name: 'Club (3 Month)', disabled: true },
+        { id: 'club-esports', name: 'Club Esports' },
+        { id: 'club-hackstack', name: 'Club Hackstack' },
+        { id: 'club-roblox', name: 'Club Roblox' },
+        { id: 'club-ozaria', name: 'Club Ozaria' },
+        { id: 'camp-week', name: 'Camp (1 Week)', disabled: true },
+        { id: 'camp-esports', name: 'Camp Esports' },
+        { id: 'camp-junior', name: 'Camp Junior' },
+        { id: 'annual-plan', name: 'Annual', disabled: true },
+        { id: 'annual-plan-cn-coco', name: 'Annual CodeCombat & CodeCombat Junior' },
+      ]
+    }
+
+    isCodeNinjaClubCamp () {
+      return Classroom.codeNinjaClassroomTypes().map(type => type.id).includes(this.get('type'))
     }
   }
   Classroom.initClass()

@@ -24,7 +24,7 @@ module.exports = class Spell
     @level = options.level
     @createFromProgrammableMethod options.programmableMethod, options.language
     if @canRead()  # We can avoid creating these views if we'll never use them.
-      @view = new SpellView {spell: @, level: options.level, session: @session, otherSession: @otherSession, worker: @worker, god: options.god, @supermodel, levelID: options.levelID, classroomAceConfig: options.classroomAceConfig, spectateView: @spectateView, courseID: options.courseID, blocks: options.blocks}
+      @view = new SpellView {spell: @, level: options.level, session: @session, otherSession: @otherSession, worker: @worker, god: options.god, @supermodel, levelID: options.levelID, classroomAceConfig: options.classroomAceConfig, spectateView: @spectateView, courseID: options.courseID, blocks: options.blocks, codeFormat: options.codeFormat}
       @view.render()  # Get it ready and code loaded in advance
       @topBarView = new SpellTopBarView
         hintsState: options.hintsState
@@ -37,7 +37,9 @@ module.exports = class Spell
         courseInstanceID: options.courseInstanceID
         blocks: options.blocks
         blocksHidden: options.blocksHidden
+        codeFormat: options.codeFormat
         teacherID: options.teacherID
+        showLevelHelp: options.classroomAceConfig?.levelChat
       @topBarView.render()
     Backbone.Mediator.publish 'tome:spell-created', spell: @
 
@@ -82,6 +84,8 @@ module.exports = class Spell
   setLanguage: (@language) ->
     @language = 'html' if @level.isType('web-dev')
     @displayCodeLanguage = utils.capitalLanguages[@language]
+    if @language is 'python' and @languages[@language] is '# Should fill in some default source\n'
+      @languages[@language] = null
     if @language in ['cpp', 'java', 'lua', 'coffeescript', 'python'] and not @languages[@language]
       @languages[@language] = translateJS @languages.javascript, @language
     @originalSource = @languages[@language] ? @languages.javascript
@@ -112,12 +116,7 @@ module.exports = class Spell
         commentContext[k] = v.replace /\b([a-zA-Z]+)\.([a-zA-Z_]+\()/, '$1:$2'
 
     if commentI18N
-      while spokenLanguage
-        spokenLanguage = spokenLanguage.substr 0, spokenLanguage.lastIndexOf('-') if fallingBack?
-        if spokenLanguageContext = commentI18N[spokenLanguage]?.context
-          commentContext = _.merge commentContext, spokenLanguageContext
-          break
-        fallingBack = true
+      commentContext = utils.i18n({context: commentContext, i18n: commentI18N, spokenLanguage: spokenLanguage}, 'context')
     try
       translatedSource = _.template source, commentContext
     catch e
@@ -185,6 +184,11 @@ module.exports = class Spell
       @source = source
     else
       source = @getSource()
+    if @level.get('product') is 'codecombat-junior'
+      # Rewrite blank `health` calls to `hero.health`, otherwise global value assignment isn't dynamically updated
+      source = source.replace /(^|[^a-zA-Z.])health(?!\w)/g, (match, prefix) ->
+        return match if prefix.endsWith('hero.')
+        return "#{prefix}hero.health"
     unless @language is 'html'
       @thang?.aether.transpile source
       @session.lastAST = @thang?.aether.ast
@@ -228,6 +232,8 @@ module.exports = class Spell
       includeFlow: includeFlow
       problemContext: problemContext
       useInterpreter: true
+    if @level.get('product') is 'codecombat-junior'
+      aetherOptions.executionLimit = 100 * 1000  # Junior levels shouldn't use as many statements, can exceed execution limit earlier (100K) than normal levels (default 3M)
     aether = new Aether aetherOptions
     if @worker
       workerMessage =

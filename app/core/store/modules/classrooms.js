@@ -27,6 +27,10 @@ export default {
       byCourseInstanceId: {}
     },
 
+    loaded: {
+      byTeacher: {}
+    },
+
     classrooms: {
       byClassroom: {},
       // Classrooms by teacher ID
@@ -41,7 +45,7 @@ export default {
 
     // TODO: Handle HoC classrooms and "most recent classroom" better. This is a hack
     // for HoC 2020, so classCode is shown in the LayoutChrome
-    mostRecentClassCode: ''
+    mostRecentClassCode: '',
   },
 
   mutations: {
@@ -51,6 +55,10 @@ export default {
         teacherId,
         !state.loading.byTeacher[teacherId]
       )
+    },
+
+    setLoadedForTeacher(state, { teacherId, loaded }) {
+      Vue.set(state.loaded.byTeacher, teacherId, loaded);
     },
 
     toggleLoadingForClassroom: (state, classroomID) => {
@@ -255,33 +263,48 @@ export default {
   },
 
   actions: {
-    fetchClassroomsForTeacher: ({ commit }, { teacherId, project }) => {
-      commit('toggleLoadingForTeacher', teacherId)
-
-      if (utils.isOzaria) {
-        // ozar limit the projections. so remember to add default array when updating classroom schema
-        project = project || ['_id', 'name', 'slug', 'members', 'deletedMembers', 'ownerID', 'code', 'codeCamel', 'aceConfig', 'archived', 'googleClassroomId', 'classroomItems', 'studentLockMap', 'courses._id', 'courses.levels', 'permissions']
+    async fetchClassroomsForTeacher ({ commit, state }, { teacherId, project }) {
+      if (state.loaded.byTeacher[teacherId]) return;
+      if (state.loading.byTeacher[teacherId]) {
+        await new Promise(resolve => {
+          const unwatch = this.watch(
+            () => {
+              return state.loaded.byTeacher[teacherId]
+            },
+            () => {
+              if (state.loaded.byTeacher[teacherId]) {
+                unwatch();
+                resolve();
+              }
+            }
+          );
+        });
       } else {
-        // fetch all for coco, so keep project as null
-        project = project || null
-      }
+        commit('toggleLoadingForTeacher', teacherId)
 
-      return classroomsApi.fetchByOwner(teacherId, {
-        project,
-        includeShared: true,
-      })
-        .then(res =>  {
-          if (res) {
-            commit('addClassroomsForTeacher', {
-              teacherId,
-              classrooms: res
-            })
-          } else {
-            throw new Error('Unexpected response from fetch classrooms API.')
-          }
+        // We used to limit the default projection in Ozaria but not in CodeCombat, but it was easy to miss new properties, and Ozaria still fetched almost all the data, so now both products fetch all fields by default.
+        project = project || null
+
+        await classroomsApi.fetchByOwner(teacherId, {
+          project,
+          includeShared: true,
         })
-        .catch((e) => noty({ text: 'Fetch classrooms failure' + e, type: 'error', layout: 'topCenter', timeout: 2000 }))
-        .finally(() => commit('toggleLoadingForTeacher', teacherId))
+          .then(async res =>  {
+            if (res) {
+              commit('addClassroomsForTeacher', {
+                teacherId,
+                classrooms: res
+              })
+              commit('setLoadedForTeacher', { teacherId, loaded: true });
+            } else {
+              throw new Error('Unexpected response from fetch classrooms API.')
+            }
+          })
+          .catch((e) => noty({ text: 'Fetch classrooms failure' + e, type: 'error', layout: 'topCenter', timeout: 2000 }))
+          .finally(() => {
+            commit('toggleLoadingForTeacher', teacherId)
+          })
+      }
     },
     fetchClassroomForId: async ({ commit, getters }, classroomID) => {
       if (getters.getClassroomById(classroomID)) {
@@ -293,7 +316,7 @@ export default {
       try {
         res = await classroomsApi.get({ classroomID })
       } catch (err) {
-        noty({ text: 'failed to fetch classroom:' + e, type: 'error', layout: 'topCenter', timeout: 5000 })
+        noty({ text: 'failed to fetch classroom:' + err?.message, type: 'error', layout: 'topCenter', timeout: 5000 })
         return
       }
       if (res) {
@@ -376,7 +399,11 @@ export default {
       const teacherId = getTeacherIdBasedOnSharedWritePermission(classroom)
       commit('addMembersForClassroom', { teacherId, classroomId: classroom._id, memberIds: memberIds })
       // Load classroom data
-      dispatch('baseSingleClass/fetchData', {}, { root: true })
+      const opt = {}
+      if (options?.componentName) {
+        opt.componentName = options.componentName
+      }
+      dispatch('baseSingleClass/fetchData', opt, { root: true })
     },
     // Updates the classroom and its vuex state
     updateClassroom: async ({ commit }, options) => {
@@ -448,12 +475,35 @@ export default {
         commit('setMostRecentClassCode', codeCamel)
       }
     },
+
     fetchCourseLevels: async ({ commit, getters }, { classroomID, courseID }) => {
       if (getters.getCourseLevels(classroomID, courseID)) {
         return
       }
       const levels = await classroomsApi.getCourseLevels({ classroomID, courseID }, { data: { cacheEdge: true } })
       commit('setClassroomCourseLevels', { classroomID, courseID, levels })
-    }
+    },
+
+    addOrUpdateCourse: async ({ commit, getters}, { classroomId, courseId }) => {
+      const updatedClassroom = await classroomsApi.addOrUpdateCourse({ classroomId, courseId }, {})
+      commit('updateClassroomById', {
+        classroomID: classroomId,
+        updates: {
+          courses: updatedClassroom.courses
+        }
+      })
+      // Also update it in the classrooms by teacher, for the teacher dashboard
+      // TODO: this doesn't entirely work, takes a page refresh for the student to show up in the new course when switching to it--why?
+      const classroom = getters.getClassroomById(classroomId)
+      const teacherId = getTeacherIdBasedOnSharedWritePermission(classroom)
+      commit('updateClassroom', {
+        teacherId,
+        classroomId,
+        updates: {
+          courses: updatedClassroom.courses
+        }
+      })
+      return classroom
+    },
   }
 }

@@ -1,5 +1,3 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 const c = require('schemas/schemas')
 
 module.exports = {
@@ -12,5 +10,7 @@ module.exports = {
 
   'auth:linkedin-api-loaded': c.object({}),
 
-  'auth:log-in-with-github': c.object({})
+  'auth:log-in-with-github': c.object({}),
+
+  'auth:user-credits-message-updates': c.object({})
 }

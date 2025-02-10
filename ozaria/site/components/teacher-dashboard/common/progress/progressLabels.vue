@@ -1,18 +1,25 @@
 <script>
 import IconHelp from '../../common/icons/IconHelp'
 import ProgressDot from '../../common/progress/progressDot'
+import utils from 'core/utils'
 
 export default {
   components: {
     IconHelp,
-    ProgressDot
+    ProgressDot,
   },
   props: {
     showReviewLabels: {
       type: Boolean,
-      default: false
+      default: false,
+    },
+  },
+  data () {
+    return {
+      isOzaria: utils.isOzaria,
+      isCodeCombat: utils.isCodeCombat,
     }
-  }
+  },
 }
 </script>
 
@@ -46,8 +53,19 @@ export default {
       />
       <span>{{ $t("common.locked") }}</span>
     </div>
+
     <div
-      v-if="showReviewLabels"
+      v-if="isCodeCombat"
+      class="img-subtext"
+    >
+      <progress-dot
+        status="complete"
+        :border="'red'"
+      />
+      <span>{{ $t('teacher_dashboard.violation') }}</span>
+    </div>
+    <div
+      v-if="isOzaria && showReviewLabels"
       class="img-subtext"
     >
       <div class="dot-border concept-flag-border">
@@ -94,28 +112,70 @@ export default {
             <h3 style="margin-bottom: 15px;">
               {{ $t('teacher_dashboard.support_learning') }}
             </h3>
-            <div class="supportGrid">
-              <div class="top-row">
+            <div
+              v-if="isOzaria"
+              class="supportGrid"
+            >
+              <div class="top-row golden-olive-border">
                 <p>{{ $t('teacher.all_students') }}</p>
               </div>
-              <div class="top-row">
-                <div class="dot-border concept-flag-border">
-                  <div class="dot green-dot" />
-                </div>
+              <div class="top-row golden-olive-border">
+                <progress-dot
+                  :status="'complete'"
+                  :border="'red'"
+                />
               </div>
-              <div class="description top-row">
+              <div class="description top-row golden-olive-border">
                 <p>{{ $t('teacher_dashboard.concept_flag_desc') }}</p>
               </div>
-              <div class="bottom-row">
+              <div class="bottom-row light-gray-border">
                 <p> {{ $t('courses.student') }} </p>
               </div>
-              <div class="bottom-row">
-                <div class="dot-border concept-flag-border">
-                  <div class="dot green-dot" />
-                </div>
+              <div class="bottom-row light-gray-border">
+                <progress-dot
+                  :status="'complete'"
+                  :border="'red'"
+                />
               </div>
-              <div class="description bottom-row">
+              <div class="description bottom-row light-gray-border">
                 <p> {{ $t('teacher_dashboard.concept_flag_desc2') }} </p>
+              </div>
+            </div>
+            <div
+              v-else
+              class="supportGrid"
+            >
+              <div class="top-row light-gray-border">
+                <p> {{ $t('courses.student') }} </p>
+              </div>
+              <div class="top-row light-gray-border">
+                <progress-dot
+                  :status="'complete'"
+                  :extra-practice-levels="[
+                    { name:' Practice Level A', inProgress: true, isCompleted: true },
+                    { name: 'Practice Level B', inProgress: true, isCompleted: true },
+                    { name: 'Practice Level C', inProgress: true, isCompleted: true },
+                  ]"
+                />
+              </div>
+              <div class="description top-row light-gray-border">
+                <p>{{ $t('teacher_dashboard.completed_all_practice_levels') }}</p>
+              </div>
+              <div class="bottom-row light-gray-border">
+                <p> {{ $t('courses.student') }} </p>
+              </div>
+              <div class="bottom-row light-gray-border">
+                <progress-dot
+                  :status="'complete'"
+                  :extra-practice-levels="[
+                    { name:' Practice Level A', inProgress: true, isCompleted: true },
+                    { name: 'Practice Level B', inProgress: true },
+                    { name: 'Practice Level C', inProgress: false },
+                  ]"
+                />
+              </div>
+              <div class="description bottom-row light-gray-border">
+                <p> {{ $t('teacher_dashboard.played_some_practice_levels') }} </p>
               </div>
             </div>
             <p style="margin-top: 20px; font-family: Monaco, Menlo, Ubuntu Mono, Consolas, source-code-pro, monospace; font-size: 12px;">
@@ -242,14 +302,17 @@ export default {
     }
   }
 
-  .top-row {
+  .bottom-row {
+    border-top: unset;
+  }
+
+  .golden-olive-border {
     background: #fff9e3;
     border: 0.5px solid #c2a957;
   }
 
-  .bottom-row {
+  .light-gray-border {
     border: 0.5px solid #d8d8d8;
-    border-top: unset;
   }
 
   .description p {

@@ -51,8 +51,9 @@ block header
 
       .navbar-header
         span.navbar-brand
-          | #{level.attributes.name}
-          span#completion-rate.spl
+          span.level-title= level.attributes.name
+          span#completion-rate.spl.hide
+          span#completion-time.spl.hide
 
       ul.nav.navbar-nav.navbar-right
         li#undo-button
@@ -115,6 +116,22 @@ block header
               a(data-toggle="coco-modal", data-target="modal/RevertModal", data-i18n="editor.revert", disabled=anonymous)#revert-button Revert
             li(class=anonymous ? "disabled": "")
               a(data-toggle="coco-modal", data-target="editor/level/modals/GenerateTerrainModal", data-i18n="editor.generate_terrain", disabled=anonymous).generate-terrain-button Generate Terrain
+            li(class=anonymous ? "disabled": "")
+              a.generate-level-button(disabled=anonymous)
+                span(data-i18n="editor.generate_level")
+                span.spl ⌃G
+            if me.isAdmin() && level.get('product') == 'codecombat-junior'
+              li
+                a.generate-practice-level-button
+                  span(data-i18n="editor.generate_practice_level")
+                  span.spl ⌃⇧G
+              li
+                a.generate-all-practice-levels-button
+                  span(data-i18n="editor.generate_all_practice_levels")
+              li
+                a.save-all-practice-levels-button.hide Save All Practice Levels
+              li
+                a.migrate-junior-button Migrate Junior Level
             li(class=anonymous ? "disabled": "")
               a(data-i18n="editor.pop_i18n")#pop-level-i18n-button Populate i18n
             if view.courseID

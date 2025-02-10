@@ -3,8 +3,11 @@ LevelComponent = require 'models/LevelComponent'
 LevelSystem = require 'models/LevelSystem'
 Article = require 'models/Article'
 LevelSession = require 'models/LevelSession'
+CourseInstance = require 'models/CourseInstance'
+Classroom = require 'models/Classroom'
 {me} = require 'core/auth'
 ThangType = require 'models/ThangType'
+ThangTypeConstants = require 'lib/ThangTypeConstants'
 ThangNamesCollection = require 'collections/ThangNamesCollection'
 LZString = require 'lz-string'
 
@@ -13,6 +16,7 @@ AudioPlayer = require 'lib/AudioPlayer'
 World = require 'lib/world/world'
 utils = require 'core/utils'
 loadAetherLanguage = require 'lib/loadAetherLanguage'
+aetherUtils = require 'lib/aether_utils'
 
 LOG = false
 
@@ -50,6 +54,7 @@ module.exports = class LevelLoader extends CocoClass
     @courseID = options.courseID
     @courseInstanceID = options.courseInstanceID
     @classroomId = options.classroomId
+    @thangsOverride = options.thangsOverride
 
     @worldNecessities = []
     @listenTo @supermodel, 'resource-loaded', @onWorldNecessityLoaded
@@ -57,7 +62,7 @@ module.exports = class LevelLoader extends CocoClass
     @loadLevel()
     @loadAudio()
     @playJingle()
-    if @supermodel.finished()
+    if @supermodel.finished() and @level.loaded
       @onSupermodelLoaded()
     else
       @loadTimeoutID = setTimeout @reportLoadError.bind(@), 30000
@@ -78,10 +83,41 @@ module.exports = class LevelLoader extends CocoClass
   loadLevel: ->
     @level = @supermodel.getModel(Level, @levelID) or new Level _id: @levelID
     if @level.loaded
+      console.debug 'LevelLoader: level already loaded:', @level if LOG
       @onLevelLoaded()
     else
+      console.debug 'LevelLoader: loading level:', @level if LOG
       @level = @supermodel.loadModel(@level, 'level', { data: { cacheEdge: true } }).model
       @listenToOnce @level, 'sync', @onLevelLoaded
+
+
+  loadClassroomIfNecessary: ->
+    if not @classroomId and not @courseInstanceId
+      @onAccessibleLevelLoaded()
+      return
+    if @headless and not @level?.isType('web-dev')
+      @onAccessibleLevelLoaded()
+      return
+    if @courseInstanceID and not @classroomId
+      @courseInstance = new CourseInstance({_id: @courseInstanceID})
+      @courseInstance.fetch().then =>
+        @classroomId = @courseInstance.get('classroomID')
+        @classroomIdLoaded()
+    else
+      @classroomIdLoaded()
+
+  classroomIdLoaded: ->
+    @classroom = new Classroom({_id: @classroomId})
+    @classroom.fetch().then =>
+      return if @destroyed
+      @classroomLoaded()
+
+  classroomLoaded: ->
+    locked = @classroom.isStudentOnLockedLevel(me.get('_id'), @courseID, @level.get('original'))
+    if locked
+      Backbone.Mediator.publish 'level:locked', level: @level
+    else 
+      @onAccessibleLevelLoaded()
 
   reportLoadError: ->
     return if @destroyed
@@ -89,8 +125,13 @@ module.exports = class LevelLoader extends CocoClass
       category: 'Error',
       levelSlug: @work?.level?.slug,
       unloaded: JSON.stringify(@supermodel.report().map (m) -> _.result(m.model, 'url'))
-
+  
   onLevelLoaded: ->
+    @loadClassroomIfNecessary()
+
+  onAccessibleLevelLoaded: ->
+    console.debug 'LevelLoader: loaded level:', @level if LOG
+    @level.set('thangs', @thangsOverride) if @thangsOverride
     if not @sessionless and @level.isType('hero', 'hero-ladder', 'hero-coop', 'course')
       @sessionDependenciesRegistered = {}
     if @level.isType('web-dev')
@@ -247,16 +288,12 @@ module.exports = class LevelLoader extends CocoClass
       uncompressed = LZString.decompressFromUTF16 compressed
       code = session.get 'code'
 
-      headers =  { 'Accept': 'application/json', 'Content-Type': 'application/json' }
-      m = document.cookie.match(/JWT=([a-zA-Z0-9.]+)/)
-      service = window?.localStorage?.kodeKeeperService or "https://asm14w94nk.execute-api.us-east-1.amazonaws.com/service/parse-code-kodekeeper"
-      fetch service, {method: 'POST', mode:'cors', headers:headers, body:JSON.stringify({code: uncompressed, language: language})}
-      .then (x) => x.json()
-      .then (x) =>
-        code[if session.get('team') is 'humans' then 'hero-placeholder' else 'hero-placeholder-1'].plan = x.token
+      aetherUtils.fetchToken(uncompressed, language).then((token) =>
+        code[if session.get('team') is 'humans' then 'hero-placeholder' else 'hero-placeholder-1'].plan = token
         session.set 'code', code
         session.unset 'interpret'
         @loadDependenciesForSession session
+      )
 
   loadDependenciesForSession: (session) ->
     console.debug "Loading dependencies for session: ", session if LOG
@@ -286,42 +323,63 @@ module.exports = class LevelLoader extends CocoClass
       @consolidateFlagHistory() if @opponentSession?.loaded
     else if session is @opponentSession
       @consolidateFlagHistory() if @session.loaded
-    # course-ladder is hard to handle because there's 2 sessions
-    if @level.isType('course') and (not me.showHeroAndInventoryModalsToStudents() or @level.isAssessment())
-      if utils.isOzaria
-        heroThangType = me.get('ozariaUserOptions')?.isometricThangTypeOriginal or ThangType.heroes['hero-b']
+
+    if not @level.usesSessionHeroThangType()
+      @sessionDependenciesRegistered?[session.id] = true
+      if @checkAllWorldNecessitiesRegisteredAndLoaded()
+        # Finish if all world necessities were completed by the time the session loaded.
+        @onWorldNecessitiesLoaded()
+      # Return before loading heroConfig ThangTypes.
+      return
+
+    # Load the hero ThangType
+    heroThangType = switch
+      when utils.isOzaria
+        # Use configured Ozaria hero
+        me.get('ozariaUserOptions')?.isometricThangTypeOriginal or ThangType.heroes['hero-b']
+      when session.get('heroConfig')?.thangType
+        # Use the hero set in the session
+        session.get('heroConfig').thangType
+      when me.get('heroConfig')?.thangType and session is @session and not @headless
+        # Use the hero set for the user, if the user is me and it's my level
+        me.get('heroConfig').thangType
+      when @level.isType('course')
+        # Default to Anya in classroom mode
+        ThangType.heroes.captain
       else
-        heroThangType = me.get('heroConfig')?.thangType or ThangType.heroes.captain
-      # set default hero for assessment levels in class if classroomItems is on
-      if @level.isAssessment() and me.showHeroAndInventoryModalsToStudents()
-        heroThangType = if utils.isOzaria then ThangType.heroes['hero-b'] else ThangType.heroes.captain
-      console.debug "Course mode, loading custom hero: ", heroThangType if LOG
-      url = "/db/thang.type/#{heroThangType}/version"
-      if heroResource = @maybeLoadURL(url, ThangType, 'thang')
-        console.debug "Pushing resource: ", heroResource if LOG
-        @worldNecessities.push heroResource
+        # Default to Tharin in home mode
+        ThangType.heroes.knight
+    if @level.get('product', true) is 'codecombat-junior'
+      # If we got into a codecombat-junior level with a codecombat hero, pick an equivalent codecombat-junior hero to use instead
+      juniorHeroReplacement = ThangTypeConstants.juniorHeroReplacements[_.invert(ThangTypeConstants.heroes)[heroThangType]]
+    else
+      # If we got into a codecombat level with a codecombat-junior hero, pick an equivalent codecombat hero to use instead
+      juniorHeroReplacement = _.invert(ThangTypeConstants.juniorHeroReplacements)[_.invert(ThangTypeConstants.heroes)[heroThangType]]
+    heroThangType = ThangTypeConstants.heroes[juniorHeroReplacement] if juniorHeroReplacement
+
+    url = "/db/thang.type/#{heroThangType}/version"
+    if heroResource = @maybeLoadURL(url, ThangType, 'thang')
+      console.debug "Pushing hero ThangType resource: ", heroResource if LOG
+      @worldNecessities.push heroResource
+
+    if not @level.usesSessionHeroInventory()
       @sessionDependenciesRegistered[session.id] = true
-    unless @level.isType('hero', 'hero-ladder', 'hero-coop')
-      unless @level.isType('course') and me.showHeroAndInventoryModalsToStudents() and not @level.isAssessment()
-        # Return before loading heroConfig ThangTypes. Finish if all world necessities were completed by the time the session loaded.
-        if @checkAllWorldNecessitiesRegisteredAndLoaded()
-          @onWorldNecessitiesLoaded()
-        return
+      if @checkAllWorldNecessitiesRegisteredAndLoaded()
+        # Finish if all world necessities were completed by the time the session loaded.
+        @onWorldNecessitiesLoaded()
+      # Return before loading heroConfig.inventory ThangTypes.
+      return
+
     # Load the ThangTypes needed for the session's heroConfig for these types of levels
     heroConfig = _.cloneDeep(session.get('heroConfig'))
     heroConfig ?= _.cloneDeep(me.get('heroConfig')) if session is @session and not @headless
     heroConfig ?= {}
     heroConfig.inventory ?= feet: '53e237bf53457600003e3f05'  # If all else fails, assign simple boots.
-    if utils.isOzaria
-      # This is where ozaria hero is being loaded from.
-      heroConfig.thangType = me.get('ozariaUserOptions')?.isometricThangTypeOriginal or ThangType.heroes['hero-b']  # If all else fails, assign Hero B as the hero.
-    else
-      heroConfig.thangType ?= '529ffbf1cf1818f2be000001'  # If all else fails, assign Tharin as the hero.
+    heroConfig.thangType ?= heroThangType
     session.set 'heroConfig', heroConfig unless _.isEqual heroConfig, session.get('heroConfig')
     url = "/db/thang.type/#{heroConfig.thangType}/version"
-    if heroResource = @maybeLoadURL(url, ThangType, 'thang')
-      @worldNecessities.push heroResource
-    else
+    if not heroResource
+      # We had already loaded it, so move to the next dependencies step now
       heroThangType = @supermodel.getModel url
       @loadDefaultComponentsForThangType heroThangType
       @loadThangsRequiredByThangType heroThangType
@@ -385,9 +443,10 @@ module.exports = class LevelLoader extends CocoClass
       @loadThangsRequiredByLevelThang(thang)
       for comp in thang.components or []
         componentVersions.push _.pick(comp, ['original', 'majorVersion'])
-
-    for system in @level.get('systems') or []
+    systems = @level.get('systems') or []
+    for system in systems
       systemVersions.push _.pick(system, ['original', 'majorVersion'])
+      @loadThangsRequiredFromSystemObject(system)
       if indieSprites = system?.config?.indieSprites
         for indieSprite in indieSprites
           thangIDs.push indieSprite.thangType
@@ -412,7 +471,7 @@ module.exports = class LevelLoader extends CocoClass
       worldNecessities.push @maybeLoadURL(url, LevelComponent, 'component')
     for obj in objUniq systemVersions
       url = "/db/level.system/#{obj.original}/version/#{obj.majorVersion}"
-      worldNecessities.push @maybeLoadURL(url, LevelSystem, 'system')
+      worldNecessities.push(@maybeLoadURL(url, LevelSystem, 'system'))
     for obj in objUniq articleVersions
       url = "/db/article/#{obj.original}/version/#{obj.majorVersion}"
       @maybeLoadURL url, Article, 'article'
@@ -428,6 +487,10 @@ module.exports = class LevelLoader extends CocoClass
   loadThangsRequiredByThangType: (thangType) ->
     @loadThangsRequiredFromComponentList thangType.get('components')
 
+  loadThangTypeData: (thangType) ->
+    url = "/db/thang.type/#{thangType}/version?project=name,components,original,rasterIcon,kind,prerenderedSpriteSheetData"
+    @worldNecessities.push @maybeLoadURL(url, ThangType, 'thang')
+
   loadThangsRequiredFromComponentList: (components) ->
     return unless components
     requiredThangTypes = []
@@ -441,10 +504,33 @@ module.exports = class LevelLoader extends CocoClass
       console.error "Some Thang had a blank required ThangType in components list:", components
     for thangType in extantRequiredThangTypes
       if thangType + '' is '[object Object]'
-        console.error "Some Thang had an improperly stringified required ThangType in components list:", thangType, components
+        console.error("Some Thang had an improperly stringified required ThangType in components list:", thangType, components) 
       else
-        url = "/db/thang.type/#{thangType}/version?project=name,components,original,rasterIcon,kind,prerenderedSpriteSheetData"
-        @worldNecessities.push @maybeLoadURL(url, ThangType, 'thang')
+        @loadThangTypeData(thangType)
+
+  loadThangsRequiredFromSystemDefaults: (systemModel) ->
+    config = systemModel.get('configSchema')
+    if not config
+      return
+    configDefault = config.default
+    @loadThangsRequiredFromSystemConfig(configDefault)
+  
+  loadThangsRequiredFromSystemObject: (system) ->
+    if system.config
+      @loadThangsRequiredFromSystemConfig(system.config)
+
+
+  loadThangsRequiredFromSystemConfig: (config) ->
+    if not config
+      return
+    requiredThangTypes = config.requiredThangTypes
+    if not requiredThangTypes
+      return
+    for thangType in requiredThangTypes
+      if thangType + '' is '[object Object]'
+        console.error("Some System had an improperly stringified required ThangType:", thangType, system.name)
+      else
+        @loadThangTypeData(thangType)
 
   onThangNamesLoaded: (thangNames) ->
     for thangType in thangNames.models
@@ -462,6 +548,10 @@ module.exports = class LevelLoader extends CocoClass
   onWorldNecessityLoaded: (resource) ->
     # Note: this can also be called when session, opponentSession, or other resources with dedicated load handlers are loaded, before those handlers
     index = @worldNecessities.indexOf(resource)
+    if resource.name is 'system'
+      @loadThangsRequiredFromSystemDefaults(resource.model)
+      
+
     if resource.name is 'thang'
       @loadDefaultComponentsForThangType(resource.model)
       @loadThangsRequiredByThangType(resource.model)
@@ -557,7 +647,7 @@ module.exports = class LevelLoader extends CocoClass
     return if @headless and not @level.isType('web-dev')
     # This is a way (the way?) PUT /db/level.sessions/undefined was happening
     # See commit c242317d9
-    return if not @session.id
+    return if not @session?.id
     patch =
       'levelName': @level.get('name')
       'levelID': @level.get('slug') or @level.id

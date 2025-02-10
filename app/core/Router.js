@@ -66,7 +66,11 @@ module.exports = (CocoRouter = (function () {
               return this.routeDirectly('HomeCNView', [])
             }
           }
-          return this.routeDirectly('HomeView', [])
+          if (utils.isCodeCombat) {
+            return this.routeDirectly('HomeBeta', [], { vueRoute: true, baseTemplate: 'base-flat-vue' })
+          } else {
+            return this.routeDirectly('HomeView', [])
+          }
         },
 
         about: go('AboutView'),
@@ -85,6 +89,11 @@ module.exports = (CocoRouter = (function () {
 
         ai: go('ai/AIView'),
         'ai/*path': go('ai/AIView'),
+
+        'ai-junior': go('core/SingletonAppVueComponentView'),
+        'ai-junior/project/:scenarioId': go('core/SingletonAppVueComponentView'),
+        'ai-junior/project/:scenarioId/:userId': go('core/SingletonAppVueComponentView'),
+        'ai-junior/project/:scenarioId/:userId/:projectId': go('core/SingletonAppVueComponentView'),
 
         licensor: go('LicensorView'),
 
@@ -115,9 +124,13 @@ module.exports = (CocoRouter = (function () {
         'admin/outcomes-report-result': go('admin/OutcomeReportResultView'),
         'admin/outcomes-report': go('admin/OutcomesReportView'),
         'admin/clan(/:clanID)': go('core/SingletonAppVueComponentView'),
+        'admin/low-usage-users': go('core/SingletonAppVueComponentView'),
+        'admin/trial-classes': go('core/SingletonAppVueComponentView'),
 
         announcements: go('core/SingletonAppVueComponentView'),
         'event-calendar(/*subpath)': go('core/SingletonAppVueComponentView'),
+
+        'exams/(*subpath)': go('core/SingletonAppVueComponentView'),
 
         //    'apcsp(/*subpath)': go('teachers/DynamicAPCSPView')
 
@@ -135,6 +148,7 @@ module.exports = (CocoRouter = (function () {
         'artisans/student-solutions': go('artisans/StudentSolutionsView'),
         'artisans/sandbox': go('artisans/SandboxView'),
         'artisans/arena-balancer(/:levelSlug)': go('artisans/ArenaBalancerView'),
+        'artisans/block-testing': go('artisans/BlockTestingView'),
 
         careers: () => { window.location.href = 'https://jobs.lever.co/codecombat' },
 
@@ -213,6 +227,10 @@ module.exports = (CocoRouter = (function () {
         'editor/ai-document/:documentID': go('editor/ai-document/AIDocumentEditView'),
         'editor/ai-chat-message': go('editor/ai-chat-message/AIChatMessageSearchView'),
         'editor/ai-chat-message/:chatMessageID': go('editor/ai-chat-message/AIChatMessageEditView'),
+        'editor/ai-junior-scenario': go('editor/ai-junior-scenario/AIJuniorScenarioSearchView'),
+        'editor/ai-junior-scenario/:chatID': go('editor/ai-junior-scenario/AIJuniorScenarioEditView'),
+        'editor/ai-junior-project': go('editor/ai-junior-project/AIJuniorProjectSearchView'),
+        'editor/ai-junior-project/:chatID': go('editor/ai-junior-project/AIJuniorProjectEditView'),
 
         etc: redirect('/teachers/demo'),
         demo: redirect('/teachers/demo'),
@@ -240,7 +258,17 @@ module.exports = (CocoRouter = (function () {
         },
 
         'play/hoc-2020' () { return this.navigate('/play/hoc-2018', { trigger: true, replace: true }) }, // Added to handle HoC PDF
-        home: utils.isCodeCombat && me.useChinaHomeView() ? go('HomeCNView') : go('HomeView'),
+        home (...args) {
+          if (utils.isCodeCombat && me.useChinaHomeView()) {
+            return go('HomeCNView').call(this, ...args)
+          } else {
+            if (utils.isCodeCombat) {
+              return this.routeDirectly('HomeBeta', [], { vueRoute: true, baseTemplate: 'base-flat-vue' })
+            } else {
+              return this.routeDirectly('HomeView', [])
+            }
+          }
+        },
 
         i18n: go('i18n/I18NHomeView'),
         'i18n/thang/:handle': go('i18n/I18NEditThangTypeView'),
@@ -261,6 +289,7 @@ module.exports = (CocoRouter = (function () {
         'i18n/ai/scenario/:handle': go('i18n/I18NEditAIScenarioView'),
         'i18n/ai/chat_message/:handle': go('i18n/I18NEditAIChatMessageView'),
         'i18n/ai/document/:handle': go('i18n/I18NEditAIDocumentView'),
+        'i18n/ai/junior_scenario/:handle': go('i18n/I18NEditAIJuniorScenarioView'),
 
         identify: go('user/IdentifyView'),
         'il-signup': go('account/IsraelSignupView'),
@@ -288,6 +317,16 @@ module.exports = (CocoRouter = (function () {
         'codequest' () {
           return this.routeDirectly('PageCodequest', [], { vueRoute: true, baseTemplate: 'base-flat-vue' })
         },
+
+        hackstack: go('core/SingletonAppVueComponentView'),
+
+        'home-beta': go('core/SingletonAppVueComponentView'),
+
+        standards: go('core/SingletonAppVueComponentView'),
+
+        schools: go('core/SingletonAppVueComponentView'),
+
+        junior: go('core/SingletonAppVueComponentView'),
 
         'league/academica': redirect('/league/autoclan-school-network-academica'), // Redirect for Academica.
         'league/kipp': redirect('/league/autoclan-school-network-kipp'), // Redirect for KIPP.
@@ -327,14 +366,14 @@ module.exports = (CocoRouter = (function () {
             return this.routeDirectly('play/level/PlayLevelView', arguments, options)
           } else {
             const props = {
-              levelID
+              levelID,
             }
             return this.routeDirectly('ozaria/site/play/PagePlayLevel', [], { vueRoute: true, baseTemplate: 'base-empty', propsData: props })
           }
         },
         'play/intro/:introLevelIdOrSlug' (introLevelIdOrSlug) {
           const props = {
-            introLevelIdOrSlug
+            introLevelIdOrSlug,
           }
           return this.routeDirectly('introLevel', [], { vueRoute: true, baseTemplate: 'base-empty', propsData: props })
         },
@@ -354,7 +393,7 @@ module.exports = (CocoRouter = (function () {
             return this.routeDirectly('play/CampaignView', arguments)
           } else {
             const props = {
-              campaign
+              campaign,
             }
             return this.routeDirectly('ozaria/site/play/PageUnitMap', [], { vueRoute: true, baseTemplate: 'base-empty', propsData: props })
           }
@@ -363,21 +402,21 @@ module.exports = (CocoRouter = (function () {
         'interactive/:interactiveIdOrSlug(?code-language=:codeLanguage)' (interactiveIdOrSlug, codeLanguage) {
           const props = {
             interactiveIdOrSlug,
-            codeLanguage // This will also come from intro level page later
+            codeLanguage, // This will also come from intro level page later
           }
           if (me.isAdmin()) { return this.routeDirectly('interactive', [], { vueRoute: true, baseTemplate: 'base-empty', propsData: props }) }
         },
 
         'cinematic/:cinematicIdOrSlug' (cinematicIdOrSlug) {
           const props = {
-            cinematicIdOrSlug
+            cinematicIdOrSlug,
           }
           if (me.isAdmin()) { return this.routeDirectly('cinematic', [], { vueRoute: true, baseTemplate: 'base-empty', propsData: props }) }
         },
 
         'cutscene/:cutsceneId' (cutsceneId) {
           const props = {
-            cutsceneId
+            cutsceneId,
           }
           if (me.isAdmin()) { return this.routeDirectly('cutscene', [], { vueRoute: true, baseTemplate: 'base-empty', propsData: props }) }
         },
@@ -393,6 +432,7 @@ module.exports = (CocoRouter = (function () {
         privacy: go('PrivacyView'),
 
         'professional-development': go('core/SingletonAppVueComponentView'),
+
         pd: go('core/SingletonAppVueComponentView'),
         efficacy: go('core/SingletonAppVueComponentView'),
 
@@ -402,7 +442,6 @@ module.exports = (CocoRouter = (function () {
         roblox: go('core/SingletonAppVueComponentView'),
         grants: go('core/SingletonAppVueComponentView'),
 
-        schools: me.useChinaHomeView() ? go('HomeCNView') : go('HomeView'),
         seen: me.useChinaHomeView() ? go('HomeCNView') : go('HomeView'),
 
         students: go('courses/CoursesView', { redirectTeachers: true }),
@@ -414,7 +453,7 @@ module.exports = (CocoRouter = (function () {
         'students/:courseID/:courseInstanceID': go('courses/CourseDetailsView', { redirectTeachers: true, studentsOnly: true }),
 
         'teachers' () {
-          if (utils.isCodeCombat && (localStorage.getItem('newDT') !== 'true')) {
+          if (utils.isCodeCombat && !me.isNewDashboardActive()) {
             delete window.alreadyLoadedView
             return this.navigate('/teachers/classes' + document.location.search, { trigger: true, replace: true })
           } else {
@@ -422,23 +461,26 @@ module.exports = (CocoRouter = (function () {
           }
         },
         'teachers/classes' () {
-          if (utils.isCodeCombat && (localStorage.getItem('newDT') !== 'true')) {
+          if (utils.isCodeCombat && !me.isNewDashboardActive()) {
             return this.routeDirectly('courses/TeacherClassesView', [], { redirectStudents: true, teachersOnly: true })
           } else {
             return this.routeDirectly('core/SingletonAppVueComponentView', arguments, { redirectStudents: true, teachersOnly: true })
           }
         },
         'teachers/projects/:classroomId': go('core/SingletonAppVueComponentView'),
+        'teachers/assessments/:classroomId': go('core/SingletonAppVueComponentView'),
+        'teachers/ai-junior/:classroomId': go('core/SingletonAppVueComponentView'),
         'teachers/classes/:classroomID/:studentID': go('teachers/TeacherStudentView', { redirectStudents: true, teachersOnly: true }),
         'teachers/classes/:classroomID' () {
-          if (utils.isCodeCombat && (localStorage.getItem('newDT') !== 'true')) {
+          if (utils.isCodeCombat && !me.isNewDashboardActive()) {
             return this.routeDirectly('courses/TeacherClassView', arguments, { redirectStudents: true, teachersOnly: true })
           } else {
             return this.routeDirectly('core/SingletonAppVueComponentView', arguments, { redirectStudents: true, teachersOnly: true })
           }
         },
+        'teachers/hackstack-classes/:classroomID': go('core/SingletonAppVueComponentView'),
         'teachers/courses' () {
-          if (utils.isCodeCombat && (localStorage.getItem('newDT') !== 'true')) {
+          if (utils.isCodeCombat && !me.isNewDashboardActive()) {
             return this.routeDirectly('courses/TeacherCoursesView', arguments, { redirectStudents: true })
           } else {
             delete window.alreadyLoadedView
@@ -450,26 +492,30 @@ module.exports = (CocoRouter = (function () {
         'teachers/campaign-solution/:courseID/:language': go('teachers/TeacherCourseSolutionView', { redirectStudents: true, campaignMode: true }),
         'teachers/demo': redirect('/teachers/quote'),
         'teachers/enrollments': redirect('/teachers/licenses'),
-        'teachers/hour-of-code' () {
-          if (utils.isCodeCombat) {
-            return this.routeDirectly('special_event/HoC2018View', [], {})
-          } else {
+        'teachers/hour-of-code': utils.isCodeCombat
+          ? go('core/SingletonAppVueComponentView')
+          : function () {
             window.location.href = 'https://docs.google.com/presentation/d/1KgFOg2tqbKEH8qNwIBdmK2QbHvTsxnW_Xo7LvjPsxwE/edit?usp=sharing'
-          }
-        },
+          },
         // Redundant linking in case of external linking to our hoc resources:
         'teachers/resources/hoc2019': () => { window.location.href = 'https://docs.google.com/presentation/d/1KgFOg2tqbKEH8qNwIBdmK2QbHvTsxnW_Xo7LvjPsxwE/edit?usp=sharing' },
         'teachers/resources/hoc2020': () => { window.location.href = 'https://docs.google.com/presentation/d/1KgFOg2tqbKEH8qNwIBdmK2QbHvTsxnW_Xo7LvjPsxwE/edit?usp=sharing' },
         'teachers/licenses/v0': go('courses/EnrollmentsView', { redirectStudents: true, teachersOnly: true }),
 
         'teachers/freetrial': go('teachers/RequestQuoteView', { redirectStudents: true }),
-        'teachers/quote': go('teachers/RequestQuoteView', { redirectStudents: true }),
+        'teachers/quote': redirect('/schools?openContactModal=true'),
         'teachers/resources_old': go('teachers/ResourceHubView', { redirectStudents: true }),
         'teachers/resources': utils.isCodeCombat && me.useChinaHomeView() ? go('teachers/ResourceHubView', { redirectStudents: true }) : go('core/SingletonAppVueComponentView', { redirectStudents: true }),
         'teachers/resources_new': go('core/SingletonAppVueComponentView'),
+        'teachers/curriculum': teacherProxyRoute(go('teachers/curriculum', { redirectStudents: true })),
+        'teachers/curriculum/:campaign': teacherProxyRoute(go('teachers/curriculum', { redirectStudents: true })),
         'teachers/resources/ap-cs-principles': go('teachers/ApCsPrinciplesView', { redirectStudents: true }),
         'teachers/resources/:name': go('teachers/MarkdownResourceView', { redirectStudents: true }),
         'teachers/professional-development': teacherProxyRoute(go('pd/PDView', { redirectStudents: true })),
+        'teachers/apcsp': teacherProxyRoute(go('apcsp/PageMarketing', { redirectStudents: true })),
+        'teachers/ai-league': teacherProxyRoute(go('ai-league/AILeagueView', { redirectStudents: true })),
+        'teachers/ai-league(/*subpath)': go('core/SingletonAppVueComponentView'),
+
         'teachers/signup' () {
           if (me.isAnonymous()) { return this.routeDirectly('teachers/CreateTeacherAccountView', []) }
           if (me.isStudent() && !me.isAdmin()) { return this.navigate('/students', { trigger: true, replace: true }) }
@@ -480,6 +526,9 @@ module.exports = (CocoRouter = (function () {
           if (me.isStudent() && !me.isAdmin()) { return this.navigate('/students', { trigger: true, replace: true }) }
           return this.routeDirectly('teachers/ConvertToTeacherAccountView', [])
         },
+
+        'trial-classes/:eventId/confirm/:token': go('core/SingletonAppVueComponentView'),
+        'trial-classes': go('core/SingletonAppVueComponentView'),
 
         'school-administrator(/*subpath)': go('core/SingletonAppVueComponentView'),
         'cinematicplaceholder/:levelSlug': go('core/SingletonAppVueComponentView'),
@@ -512,8 +561,10 @@ module.exports = (CocoRouter = (function () {
 
         acte: redirect('/home?registering=true&referrerEvent=ACTE#create-account-teacher'),
 
+        acr: go('core/SingletonAppVueComponentView'),
+
         '*name/': 'removeTrailingSlash',
-        '*name': go('NotFoundView')
+        '*name': go('NotFoundView'),
       }
     }
 
@@ -593,7 +644,7 @@ module.exports = (CocoRouter = (function () {
       return Promise.all([
         dynamicRequire[path](), // Load the view file
         // The locale load is already initialized by `application`, just need the promise
-        locale.load(me.get('preferredLanguage', true))
+        locale.load(me.get('preferredLanguage', true)),
       ]).then((...args1) => {
         let view
         const [ViewClass] = Array.from(args1[0])
@@ -602,7 +653,7 @@ module.exports = (CocoRouter = (function () {
         // send url info to teachers
         if (utils.useWebsocket && me.isStudent()) {
           const {
-            wsBus
+            wsBus,
           } = globalVar.application
           Object.entries((wsBus.wsInfos != null ? wsBus.wsInfos.friends : undefined) != null ? (wsBus.wsInfos != null ? wsBus.wsInfos.friends : undefined) : {}).forEach((...args2) => {
             const [to, friend] = Array.from(args2[0])
@@ -610,7 +661,7 @@ module.exports = (CocoRouter = (function () {
             const routeInfo = {
               to,
               type: 'send',
-              infos: { viewName: ViewClass.default.name, url: window.location.href }
+              infos: { viewName: ViewClass.default.name, url: window.location.href },
             }
             return wsBus.ws.sendJSON(routeInfo)
           })
@@ -620,6 +671,9 @@ module.exports = (CocoRouter = (function () {
         if ((ViewClass === SingletonAppVueComponentView) && globalVar.currentView instanceof SingletonAppVueComponentView) {
           // The SingletonAppVueComponentView maintains its own Vue app with its own routing layer.  If it
           // is already routed we do not need to route again
+          // but let's remove backbone modal anyway
+          globalVar.currentView.modalClosed()
+          $('.modal-backdrop').remove()
           console.debug('Skipping route in Backbone - delegating to Vue app')
           return
         } else if (options.vueRoute) { // Routing to a vue component using VueComponentView

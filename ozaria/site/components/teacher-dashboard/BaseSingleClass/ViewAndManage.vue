@@ -4,7 +4,19 @@ import PrimaryButton from '../common/buttons/PrimaryButton'
 import IconButtonWithText from '../common/buttons/IconButtonWithText'
 import LockOrSkip from './table/LockOrSkip'
 
+import studentProgressCalculator from 'lib/studentProgressCalculator'
+
 import { mapActions, mapGetters } from 'vuex'
+import storage from '../../../../../app/core/storage'
+
+const Classroom = require('models/Classroom')
+const Users = require('collections/Users')
+const CourseInstances = require('collections/CourseInstances')
+const Courses = require('collections/Courses')
+const Levels = require('collections/Levels')
+const Classrooms = require('collections/Classrooms')
+const helper = require('lib/coursesHelper')
+const LevelSessions = require('collections/LevelSessions')
 
 export default {
   components: {
@@ -25,14 +37,31 @@ export default {
   },
   data () {
     return {
-      lockOrSkipShown: false
+      lockOrSkipShown: false,
+      exportingProgress: false
     }
   },
   computed: {
     ...mapGetters({
       selectedStudentIds: 'baseSingleClass/selectedStudentIds',
-      selectedOriginals: 'baseSingleClass/selectedOriginals'
-    })
+      selectedOriginals: 'baseSingleClass/selectedOriginals',
+      classroom: 'teacherDashboard/getCurrentClassroom',
+      // sortedCourses: 'courses/sorted',
+      classroomMembers: 'teacherDashboard/getMembersCurrentClassroom',
+      classroomCourses: 'teacherDashboard/getCoursesCurrentClassroom',
+      getCourseInstancesOfClass: 'courseInstances/getCourseInstancesOfClass',
+      getLevelsForClassroom: 'levels/getLevelsForClassroom',
+      getSessionsForClassroom: 'levelSessions/getSessionsForClassroom',
+      getLoading: 'teacherDashboard/getLoadingState'
+    }),
+
+    showLicenses () {
+      return !me.isCodeNinja()
+    },
+
+    sortBy () {
+      return storage.load('sortMethod') || 'Last Name'
+    }
   },
   methods: {
     ...mapActions({
@@ -53,6 +82,34 @@ export default {
       // 'Progress'
       // 'Progress (reversed)'
       this.$emit('change-sort-by', event.target.value)
+    },
+    async exportProgress () {
+      this.exportingProgress = true
+      const classroom = new Classroom(this.classroom)
+      const sortedCourses = classroom.getSortedCourses()
+      const students = new Users(this.classroomMembers)
+      const courses = new Courses()
+      courses.fetch()
+      await courses.wait('sync')
+      const courseInstances = new CourseInstances(this.getCourseInstancesOfClass(classroom.get('_id')))
+      const levels = new Levels()
+      levels.fetchForClassroom(classroom.get('_id'), { data: { project: 'original,name,primaryConcepts,concepts,primerLanguage,practice,shareable,i18n,assessment,assessmentPlacement,slug,goals' } })
+      await levels.wait('sync')
+
+      const classroomsStub = new Classrooms([classroom])
+
+      const levelSessions = new LevelSessions(this.getSessionsForClassroom(classroom.get('_id')))
+      classroom.sessions = levelSessions
+
+      const progressData = helper.calculateAllProgress(classroomsStub, courses, courseInstances, students)
+
+      studentProgressCalculator.exportStudentProgress({
+        classroom, sortedCourses, students, courses, courseInstances, levels, progressData
+      })
+      this.exportingProgress = false
+    },
+    onRefresh () {
+      this.$emit('refresh')
     }
   }
 }
@@ -68,8 +125,17 @@ export default {
         :label-text="$t('teacher.sort_by')"
         class="dropdowns"
         :options="['Last Name', 'First Name', 'Progress (High to Low)', 'Progress (Low to High)']"
+        :value="sortBy"
 
         @change="changeSortBy"
+      />
+      <icon-button-with-text
+        class="icon-with-text larger-icon"
+        :inactive="getLoading"
+        :spinning="getLoading"
+        :icon-name="'IconReload'"
+        :text="$t('teacher_dashboard.refresh_progress')"
+        @click="onRefresh"
       />
       <!-- TODO - enable and use jQuery to scroll. -->
       <!-- TODO - use the store to send the signal. -->
@@ -78,7 +144,7 @@ export default {
     <div class="title-card">
       <span style="width: 59px">{{ $t('teacher_dashboard.manage_class') }}</span>
     </div>
-    <div class="spacer">
+    <div class="spacer align-to-left">
       <div class="manage-container">
         <primary-button
           class="primary-btn"
@@ -88,6 +154,7 @@ export default {
           {{ $t('teacher_dashboard.assign_content') }}
         </primary-button>
         <icon-button-with-text
+          v-if="showLicenses"
           class="icon-with-text larger-icon"
           :icon-name="displayOnly ? 'IconLicenseApply_Gray' : 'IconLicenseApply'"
           :text="$t('teacher.apply_licenses')"
@@ -95,6 +162,7 @@ export default {
           @click="applyLicenses"
         />
         <icon-button-with-text
+          v-if="showLicenses"
           class="icon-with-text larger-icon"
           :icon-name="displayOnly ? 'IconLicenseRevoke_Gray' : 'IconLicenseRevoke'"
           :text="$t('teacher_dashboard.revoke_licenses')"
@@ -114,6 +182,14 @@ export default {
           :text="$t('teacher_dashboard.reset_progress')"
           :inactive="displayOnly"
           @click="resetProgress"
+        />
+
+        <icon-button-with-text
+          class="icon-with-text larger-icon"
+          :icon-name="'IconArchive'"
+          :text="$t('teacher_dashboard.export_progress')"
+          :inactive="exportingProgress"
+          @click="exportProgress"
         />
 
         <v-popover
@@ -185,7 +261,6 @@ export default {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
   }
 
@@ -196,6 +271,10 @@ export default {
     max-width: 700px;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .align-to-left {
+    margin-left: 5px;
   }
 
   .align-section-left {

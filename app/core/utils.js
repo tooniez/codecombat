@@ -12,7 +12,7 @@
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/main/docs/suggestions.md
  */
 
-let campaignIDs, compare, courseIDs, courseModules, CSCourseIDs, freeCampaignIds, hourOfCodeOptions, injectCSS, internalCampaignIds, left, orderedCourseIDs, otherCourseIDs, otherOrderedCourseIDs, replaceText, slugify, WDCourseIDs
+let campaignIDs, compare, courseIDs, coursesWithProjects, CSCourseIDs, freeCampaignIds, hourOfCodeOptions, injectCSS, internalCampaignIds, left, orderedCourseIDs, otherCourseIDs, otherOrderedCourseIDs, replaceText, slugify, WDCourseIDs
 const product = ((left = typeof COCO_PRODUCT !== 'undefined' && COCO_PRODUCT !== null ? COCO_PRODUCT : __guard__(typeof process !== 'undefined' && process !== null ? process.env : undefined, x => x.COCO_PRODUCT))) != null ? left : 'codecombat'
 const shaTag = ((left = typeof SHA_TAG !== 'undefined' && SHA_TAG !== null ? SHA_TAG : __guard__(typeof process !== 'undefined' && process !== null ? process.env : undefined, x => x.SHA_TAG))) != null ? left : 'unknown'
 const isCodeCombat = product === 'codecombat'
@@ -66,7 +66,7 @@ const anonymizingUser = function (user) {
   return $.i18n.t('general.player') + ' ' + (Math.abs(hashString(id)) % 10000)
 }
 
-var clone = function (obj) {
+const clone = function (obj) {
   if ((obj === null) || (typeof (obj) !== 'object')) { return obj }
   const temp = obj.constructor()
   for (const key in obj) {
@@ -222,13 +222,18 @@ var titleize = s => // Turns things like 'dungeons-of-kithgard' into 'Dungeons o
   )
 
 if (isCodeCombat) {
-  campaignIDs =
-    { INTRO: '55b29efd1cd6abe8ce07db0d' }
+  campaignIDs = {
+    JUNIOR: '65c56663d2ca2055e65676af',
+    INTRO: '55b29efd1cd6abe8ce07db0d',
+    HACKSTACK: '663b25881c568468efc7b51c'
+  }
 
-  freeCampaignIds = [campaignIDs.INTRO] // CS1 campaign
+  freeCampaignIds = [campaignIDs.JUNIOR, campaignIDs.INTRO] // Junior, CS1 campaign
   internalCampaignIds = [] // Ozaria has one of these, CoCo doesn't
 
   courseIDs = {
+    JUNIOR: '65f32b6c87c07dbeb5ba1936',
+    HACKSTACK: '663b25f11c568468efc8adde',
     INTRODUCTION_TO_COMPUTER_SCIENCE: '560f1a9f22961295f9427742',
     GAME_DEVELOPMENT_1: '5789587aad86a6efb573701e',
     WEB_DEVELOPMENT_1: '5789587aad86a6efb573701f',
@@ -242,6 +247,14 @@ if (isCodeCombat) {
     COMPUTER_SCIENCE_6: '5817d673e85d1220db624ca4'
   }
 
+  coursesWithProjects = [
+    courseIDs.GAME_DEVELOPMENT_1,
+    courseIDs.WEB_DEVELOPMENT_1,
+    courseIDs.GAME_DEVELOPMENT_2,
+    courseIDs.WEB_DEVELOPMENT_2,
+    courseIDs.GAME_DEVELOPMENT_3
+  ]
+
   otherCourseIDs = {
     CHAPTER_ONE: '5d41d731a8d1836b5aa3cba1',
     CHAPTER_TWO: '5d8a57abe8919b28d5113af1',
@@ -250,6 +263,7 @@ if (isCodeCombat) {
   }
 
   CSCourseIDs = [
+    courseIDs.JUNIOR,
     courseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE,
     courseIDs.COMPUTER_SCIENCE_2,
     courseIDs.COMPUTER_SCIENCE_3,
@@ -262,6 +276,7 @@ if (isCodeCombat) {
     courseIDs.WEB_DEVELOPMENT_2
   ]
   orderedCourseIDs = [
+    courseIDs.JUNIOR,
     courseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE,
     courseIDs.GAME_DEVELOPMENT_1,
     courseIDs.WEB_DEVELOPMENT_1,
@@ -281,11 +296,8 @@ if (isCodeCombat) {
     otherCourseIDs.CHAPTER_FOUR
   ]
 
-  // Ozaria uses this
-  courseModules = {}
-
   hourOfCodeOptions = {
-    campaignId: freeCampaignIds[0],
+    campaignId: freeCampaignIds[1],
     courseId: courseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE,
     name: 'Introduction to Computer Science',
     progressModalAfter: 1500000 // 25 mins
@@ -305,6 +317,7 @@ if (isCodeCombat) {
   }
 
   otherCourseIDs = {
+    JUNIOR: '65f32b6c87c07dbeb5ba1936',
     INTRODUCTION_TO_COMPUTER_SCIENCE: '560f1a9f22961295f9427742',
     GAME_DEVELOPMENT_1: '5789587aad86a6efb573701e',
     WEB_DEVELOPMENT_1: '5789587aad86a6efb573701f',
@@ -332,6 +345,7 @@ if (isCodeCombat) {
     courseIDs.CHAPTER_FOUR
   ]
   otherOrderedCourseIDs = [
+    otherCourseIDs.JUNIOR,
     otherCourseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE,
     otherCourseIDs.GAME_DEVELOPMENT_1,
     otherCourseIDs.WEB_DEVELOPMENT_1,
@@ -345,34 +359,6 @@ if (isCodeCombat) {
     otherCourseIDs.COMPUTER_SCIENCE_6
   ]
 
-  // Harcoding module names for simplicity
-  // Use db to store these later when we add sophisticated module functionality, right now its only used for UI
-  courseModules = {}
-  courseModules[courseIDs.CHAPTER_ONE] = {
-    1: 'Introduction to Coding'
-  }
-  courseModules[courseIDs.CHAPTER_TWO] = {
-    1: 'Algorithms and Syntax',
-    2: 'Debugging',
-    3: 'Variables',
-    4: 'Conditionals',
-    5: 'Capstone Intro',
-    6: 'Capstone Project'
-  }
-  courseModules[courseIDs.CHAPTER_THREE] = {
-    1: 'Review',
-    2: 'For Loops',
-    3: 'Nesting',
-    4: 'While Loops',
-    5: 'Capstone'
-  }
-  courseModules[courseIDs.CHAPTER_FOUR] = {
-    1: 'Compound Conditionals',
-    2: 'Functions and Data Analysis',
-    3: 'Writing Functions',
-    4: 'Capstone'
-  }
-
   hourOfCodeOptions = {
     campaignId: freeCampaignIds[0],
     courseId: courseIDs.CHAPTER_ONE,
@@ -382,6 +368,9 @@ if (isCodeCombat) {
 }
 
 const allCourseIDs = _.assign(courseIDs, otherCourseIDs)
+
+const freeCocoCourseIDs = [allCourseIDs.JUNIOR, allCourseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE, allCourseIDs.HACKSTACK]
+const allFreeCourseIDs = [...freeCocoCourseIDs, allCourseIDs.CHAPTER_ONE]
 
 const courseNumericalStatus = {};
 (function () {
@@ -395,6 +384,7 @@ const courseNumericalStatus = {};
 })()
 
 const courseAcronyms = {}
+courseAcronyms[allCourseIDs.JUNIOR] = 'JR'
 courseAcronyms[allCourseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE] = 'CS1'
 courseAcronyms[allCourseIDs.GAME_DEVELOPMENT_1] = 'GD1'
 courseAcronyms[allCourseIDs.WEB_DEVELOPMENT_1] = 'WD1'
@@ -410,6 +400,26 @@ courseAcronyms[allCourseIDs.CHAPTER_ONE] = 'CH1'
 courseAcronyms[allCourseIDs.CHAPTER_TWO] = 'CH2'
 courseAcronyms[allCourseIDs.CHAPTER_THREE] = 'CH3'
 courseAcronyms[allCourseIDs.CHAPTER_FOUR] = 'CH4'
+courseAcronyms[allCourseIDs.HACKSTACK] = 'AI'
+
+const courseCampaignSlugs = {}
+courseCampaignSlugs[allCourseIDs.JUNIOR] = 'junior'
+courseCampaignSlugs[allCourseIDs.INTRODUCTION_TO_COMPUTER_SCIENCE] = 'intro'
+courseCampaignSlugs[allCourseIDs.GAME_DEVELOPMENT_1] = 'game-dev-1'
+courseCampaignSlugs[allCourseIDs.WEB_DEVELOPMENT_1] = 'web-dev-1'
+courseCampaignSlugs[allCourseIDs.COMPUTER_SCIENCE_2] = 'course-2'
+courseCampaignSlugs[allCourseIDs.GAME_DEVELOPMENT_2] = 'game-dev-2'
+courseCampaignSlugs[allCourseIDs.WEB_DEVELOPMENT_2] = 'web-dev-2'
+courseCampaignSlugs[allCourseIDs.COMPUTER_SCIENCE_3] = 'course-3'
+courseCampaignSlugs[allCourseIDs.GAME_DEVELOPMENT_3] = 'game-dev-3'
+courseCampaignSlugs[allCourseIDs.COMPUTER_SCIENCE_4] = 'course-4'
+courseCampaignSlugs[allCourseIDs.COMPUTER_SCIENCE_5] = 'course-5'
+courseCampaignSlugs[allCourseIDs.COMPUTER_SCIENCE_6] = 'course-6'
+courseCampaignSlugs[allCourseIDs.CHAPTER_ONE] = 'chapter-1-sky-mountain'
+courseCampaignSlugs[allCourseIDs.CHAPTER_TWO] = 'chapter-2-the-moon-dancers'
+courseCampaignSlugs[allCourseIDs.CHAPTER_THREE] = 'chapter-3-the-phoenix-lands'
+courseCampaignSlugs[allCourseIDs.CHAPTER_FOUR] = 'chapter-4-the-final-code'
+courseCampaignSlugs[allCourseIDs.HACKSTACK] = 'hackstack'
 
 const registerHocProgressModalCheck = function () {
   let hocProgressModalCheck
@@ -543,29 +553,48 @@ var i18n = function (say, target, language, fallback) {
   const matches = (/\w+/gi).exec(language)
   if (matches) { generalName = matches[0] }
 
+  const removeAI = function (str) {
+    // we have some objects as return value.
+    // when ai translation finished we can know how to deal with them
+    // now return first
+    if (!str) {
+      return ''
+    }
+    if (typeof str === 'object') {
+      const newObject = {}
+      Object.keys(str).forEach((key) => {
+        newObject[key] = removeAI(str[key])
+      })
+      return newObject
+    }
+    if (typeof str !== 'string') {
+      return str
+    }
+    return str.replace(/^\[AI_TRANSLATION\]/, '')
+  }
   // Lets us safely attempt to translate undefined objects
-  if (!(say != null ? say.i18n : undefined)) { return (say != null ? say[target] : undefined) }
+  if (!(say != null ? say.i18n : undefined)) { return removeAI(say != null ? say[target] : undefined) }
 
   for (const localeName in say.i18n) {
     var result
     const locale = say.i18n[localeName]
     if (localeName === '-') { continue }
-    if (target in locale) {
+    if (target in locale && locale[target]) {
       result = locale[target]
     } else { continue }
-    if (localeName === language) { return result }
+    if (localeName === language) { return removeAI(result) }
     if (localeName === generalName) { generalResult = result }
     if (localeName === fallback) { fallBackResult = result }
     if ((localeName.indexOf(language) === 0) && (fallForwardResult == null)) { fallForwardResult = result }
     if ((localeName.indexOf(generalName) === 0) && (fallSidewaysResult == null)) { fallSidewaysResult = result }
   }
 
-  if (generalResult != null) { return generalResult }
-  if (fallForwardResult != null) { return fallForwardResult }
-  if (fallSidewaysResult != null) { return fallSidewaysResult }
-  if (fallBackResult != null) { return fallBackResult }
-  if (target in say) { return say[target] }
-  return null
+  if (generalResult != null) { return removeAI(generalResult) }
+  if (fallForwardResult != null) { return removeAI(fallForwardResult) }
+  if (fallSidewaysResult != null) { return removeAI(fallSidewaysResult) }
+  if (fallBackResult != null) { return removeAI(fallBackResult) }
+  if (target in say) { return removeAI(say[target]) }
+  return null // if we call i18n for a unexisting key
 }
 
 const getByPath = function (target, path) {
@@ -580,8 +609,6 @@ const getByPath = function (target, path) {
 }
 
 const isID = id => _.isString(id) && (id.length === 24) && (__guard__(id.match(/[a-f0-9]/gi), x1 => x1.length) === 24)
-
-const isIE = () => __guard__(typeof $ !== 'undefined' && $ !== null ? $.browser : undefined, x1 => x1.msie) != null ? __guard__(typeof $ !== 'undefined' && $ !== null ? $.browser : undefined, x1 => x1.msie) : false
 
 const isRegionalSubscription = name => /_basic_subscription/.test(name)
 
@@ -810,29 +837,33 @@ const capitalLanguages = {
   html: 'HTML'
 }
 
-const createLevelNumberMap = function (levels) {
+const createLevelNumberMap = function (levels, courseID) {
   const levelNumberMap = {}
   let practiceLevelTotalCount = 0
   let practiceLevelCurrentCount = 0
   for (let i = 0; i < levels.length; i++) {
     const level = levels[i]
     let levelNumber = (i - practiceLevelTotalCount) + 1
-    if (level.practice) {
+    if (isCodeCombat && level.practice) {
       levelNumber = (i - practiceLevelTotalCount) + String.fromCharCode('a'.charCodeAt(0) + practiceLevelCurrentCount)
       practiceLevelTotalCount++
       practiceLevelCurrentCount++
-    } else if (level.assessment) {
-      practiceLevelTotalCount++
-      practiceLevelCurrentCount++
-      if (isCodeCombat) {
-        levelNumber = level.assessment === 'cumulative' ? $.t('play_level.combo_challenge') : $.t('play_level.concept_challenge')
-      } else {
-        levelNumber = $.i18n.t('play_level.challenge')
-      }
+    } else if (level.assessment && isCodeCombat) {
+      practiceLevelCurrentCount = 0
+      const helpText = level.assessment === 'cumulative' ? $.t('play_level.combo_challenge') : $.t('play_level.concept_challenge')
+      levelNumber = `${levelNumber}. ${helpText}`
     } else {
       practiceLevelCurrentCount = 0
     }
-    levelNumberMap[level.key] = levelNumber
+    if (level.key) {
+      levelNumberMap[level.key] = levelNumber
+    } else {
+      levelNumberMap[level.key] = ''
+    }
+
+    if (courseID) {
+      levelNumberMap[courseID + ':' + level.key] = levelNumberMap[level.key]
+    }
   }
   return levelNumberMap
 }
@@ -954,6 +985,12 @@ const sortCourses = courses => _.sortBy(courses, function (course) {
   return index
 })
 
+const sortOtherCourses = courses => _.sortBy(courses, function (course) {
+  let index = otherOrderedCourseIDs.indexOf(course.id != null ? course.id : course._id)
+  if (index === -1) { index = 9001 }
+  return index
+})
+
 const sortCoursesByAcronyms = function (courses) {
   const orderedCourseAcronyms = _.sortBy(courseAcronyms)
   return _.sortBy(courses, function (course) {
@@ -975,106 +1012,106 @@ const tournamentSortFn = function (ta, tb) {
 }
 
 const usStateCodes =
-  // https://github.com/mdzhang/us-state-codes
-  // generated by js2coffee 2.2.0
-  (function () {
-    const stateNamesByCode = {
-      AL: 'Alabama',
-      AK: 'Alaska',
-      AZ: 'Arizona',
-      AR: 'Arkansas',
-      CA: 'California',
-      CO: 'Colorado',
-      CT: 'Connecticut',
-      DE: 'Delaware',
-      DC: 'District of Columbia',
-      FL: 'Florida',
-      GA: 'Georgia',
-      HI: 'Hawaii',
-      ID: 'Idaho',
-      IL: 'Illinois',
-      IN: 'Indiana',
-      IA: 'Iowa',
-      KS: 'Kansas',
-      KY: 'Kentucky',
-      LA: 'Louisiana',
-      ME: 'Maine',
-      MD: 'Maryland',
-      MA: 'Massachusetts',
-      MI: 'Michigan',
-      MN: 'Minnesota',
-      MS: 'Mississippi',
-      MO: 'Missouri',
-      MT: 'Montana',
-      NE: 'Nebraska',
-      NV: 'Nevada',
-      NH: 'New Hampshire',
-      NJ: 'New Jersey',
-      NM: 'New Mexico',
-      NY: 'New York',
-      NC: 'North Carolina',
-      ND: 'North Dakota',
-      OH: 'Ohio',
-      OK: 'Oklahoma',
-      OR: 'Oregon',
-      PA: 'Pennsylvania',
-      RI: 'Rhode Island',
-      SC: 'South Carolina',
-      SD: 'South Dakota',
-      TN: 'Tennessee',
-      TX: 'Texas',
-      UT: 'Utah',
-      VT: 'Vermont',
-      VA: 'Virginia',
-      WA: 'Washington',
-      WV: 'West Virginia',
-      WI: 'Wisconsin',
-      WY: 'Wyoming'
-    }
-    const stateCodesByName = _.invert(stateNamesByCode)
-    // normalizes case and removes invalid characters
-    // returns null if can't find sanitized code in the state map
+      // https://github.com/mdzhang/us-state-codes
+      // generated by js2coffee 2.2.0
+      (function () {
+        const stateNamesByCode = {
+          AL: 'Alabama',
+          AK: 'Alaska',
+          AZ: 'Arizona',
+          AR: 'Arkansas',
+          CA: 'California',
+          CO: 'Colorado',
+          CT: 'Connecticut',
+          DE: 'Delaware',
+          DC: 'District of Columbia',
+          FL: 'Florida',
+          GA: 'Georgia',
+          HI: 'Hawaii',
+          ID: 'Idaho',
+          IL: 'Illinois',
+          IN: 'Indiana',
+          IA: 'Iowa',
+          KS: 'Kansas',
+          KY: 'Kentucky',
+          LA: 'Louisiana',
+          ME: 'Maine',
+          MD: 'Maryland',
+          MA: 'Massachusetts',
+          MI: 'Michigan',
+          MN: 'Minnesota',
+          MS: 'Mississippi',
+          MO: 'Missouri',
+          MT: 'Montana',
+          NE: 'Nebraska',
+          NV: 'Nevada',
+          NH: 'New Hampshire',
+          NJ: 'New Jersey',
+          NM: 'New Mexico',
+          NY: 'New York',
+          NC: 'North Carolina',
+          ND: 'North Dakota',
+          OH: 'Ohio',
+          OK: 'Oklahoma',
+          OR: 'Oregon',
+          PA: 'Pennsylvania',
+          RI: 'Rhode Island',
+          SC: 'South Carolina',
+          SD: 'South Dakota',
+          TN: 'Tennessee',
+          TX: 'Texas',
+          UT: 'Utah',
+          VT: 'Vermont',
+          VA: 'Virginia',
+          WA: 'Washington',
+          WV: 'West Virginia',
+          WI: 'Wisconsin',
+          WY: 'Wyoming'
+        }
+        const stateCodesByName = _.invert(stateNamesByCode)
+        // normalizes case and removes invalid characters
+        // returns null if can't find sanitized code in the state map
 
-    const sanitizeStateCode = function (code) {
-      code = _.isString(code) ? code.trim().toUpperCase().replace(/[^A-Z]/g, '') : null
-      if (stateNamesByCode[code]) { return code } else { return null }
-    }
+        const sanitizeStateCode = function (code) {
+          code = _.isString(code) ? code.trim().toUpperCase().replace(/[^A-Z]/g, '') : null
+          if (stateNamesByCode[code]) { return code } else { return null }
+        }
 
-    // returns a valid state name else null
+        // returns a valid state name else null
 
-    const getStateNameByStateCode = code => stateNamesByCode[sanitizeStateCode(code)] || null
+        const getStateNameByStateCode = code => stateNamesByCode[sanitizeStateCode(code)] || null
 
-    // normalizes case and removes invalid characters
-    // returns null if can't find sanitized name in the state map
+        // normalizes case and removes invalid characters
+        // returns null if can't find sanitized name in the state map
 
-    const sanitizeStateName = function (name) {
-      if (!_.isString(name)) {
-        return null
-      }
-      // bad whitespace remains bad whitespace e.g. "O  hi o" is not valid
-      name = name.trim().toLowerCase().replace(/[^a-z\s]/g, '').replace(/\s+/g, ' ')
-      let tokens = name.split(/\s+/)
-      tokens = _.map(tokens, token => token.charAt(0).toUpperCase() + token.slice(1))
-      // account for District of Columbia
-      if (tokens.length > 2) {
-        tokens[1] = tokens[1].toLowerCase()
-      }
-      name = tokens.join(' ')
-      if (stateCodesByName[name]) { return name } else { return null }
-    }
+        const sanitizeStateName = function (name) {
+          if (!_.isString(name)) {
+            return null
+          }
+          // bad whitespace remains bad whitespace e.g. "O  hi o" is not valid
+          name = name.trim().toLowerCase().replace(/[^a-z\s]/g, '').replace(/\s+/g, ' ')
+          let tokens = name.split(/\s+/)
+          tokens = _.map(tokens, token => token.charAt(0).toUpperCase() + token.slice(1))
+          // account for District of Columbia
+          if (tokens.length > 2) {
+            tokens[1] = tokens[1].toLowerCase()
+          }
+          name = tokens.join(' ')
+          if (stateCodesByName[name]) { return name } else { return null }
+        }
 
-    // returns a valid state code else null
+        // returns a valid state code else null
 
-    const getStateCodeByStateName = name => stateCodesByName[sanitizeStateName(name)] || null
+        const getStateCodeByStateName = name => stateCodesByName[sanitizeStateName(name)] || null
 
-    return {
-      sanitizeStateCode,
-      getStateNameByStateCode,
-      sanitizeStateName,
-      getStateCodeByStateName,
-      codes: Object.keys(stateNamesByCode)
-    }
-  })()
+        return {
+          sanitizeStateCode,
+          getStateNameByStateCode,
+          sanitizeStateName,
+          getStateCodeByStateName,
+          codes: Object.keys(stateNamesByCode)
+        }
+      })()
 
 const emailRegex = /[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,63}/
 const isValidEmail = email => emailRegex.test(email != null ? email.trim().toLowerCase() : undefined)
@@ -1225,7 +1262,7 @@ var currentSeason = function () {
 }
 
 const ageToBracket = function (age) {
-// Convert years to an age bracket
+  // Convert years to an age bracket
   if (!age) { return 'open' }
   for (const bracket of Array.from(ageBrackets)) {
     if (age <= bracket.max) {
@@ -1300,12 +1337,18 @@ const arenas = [
   { season: 8, slug: 'farmscape', type: 'championship', start: new Date('2023-07-01T00:00:00.000-07:00'), end: new Date('2023-09-01T00:00:00.000-07:00'), results: new Date('2023-09-14T07:00:00.000-07:00'), levelOriginal: '649ab0387be08b00fdf31e8a', tournament: '64c836c5d95277dfd69f9af1', image: '/file/db/level/649ab0387be08b00fdf31e8a/AILeague-Banner-Farmer\'s-Feud-03.jpg' },
   { season: 9, slug: 'storm-siege', type: 'regular', start: new Date('2023-09-01T00:00:00.000-07:00'), end: new Date('2024-01-01T00:00:00.000-08:00'), results: new Date('2024-01-10T07:00:00.000-08:00'), levelOriginal: '64c792d1562b9a008d3e2e1a', tournament: '658cfc449ac7fb700b08d815', image: '/file/db/level/64c792d1562b9a008d3e2e1a/StormSiegeBannerv3.png' },
   { season: 9, slug: 'snowhold', type: 'championship', start: new Date('2023-12-01T00:00:00.000-08:00'), end: new Date('2024-01-01T00:00:00.000-08:00'), results: new Date('2024-01-10T07:00:00.000-08:00'), levelOriginal: '654a306ba0c557007a807ead', tournament: '658cfc869ac7fb700b08d82c', image: '/file/db/level/654a306ba0c557007a807ead/SnowholdClashBannerv2.png' },
-  { season: 10, slug: 'fierce-forces', type: 'regular', start: new Date('2024-01-01T00:00:00.000-08:00'), end: new Date('2024-05-01T00:00:00.000-07:00'), results: new Date('2024-05-10T07:00:00.000-07:00'), levelOriginal: '6576ff2b1457f600193d2cc9', image: '/file/db/level/6576ff2b1457f600193d2cc9/FierceForcesBannerNew.png' },
-  { season: 10, slug: 'anti-gravity', type: 'championship', start: new Date('2024-04-01T00:00:00.000-07:00'), end: new Date('2024-05-01T00:00:00.000-07:00'), results: new Date('2024-05-10T07:00:00.000-07:00'), levelOriginal: '', image: '' },
-  { season: 11, slug: 'solar-skirmish', type: 'regular', start: new Date('2024-05-01T00:00:00.000-07:00'), end: new Date('2024-09-01T00:00:00.000-07:00'), results: new Date('2024-09-14T07:00:00.000-07:00'), levelOriginal: '', image: '' },
-  { season: 11, slug: 'sunfire', type: 'championship', start: new Date('2024-07-01T00:00:00.000-07:00'), end: new Date('2024-09-01T00:00:00.000-07:00'), results: new Date('2024-09-14T07:00:00.000-07:00'), levelOriginal: '', image: '' },
-  { season: 12, slug: 'system-shock', type: 'regular', start: new Date('2024-09-01T00:00:00.000-07:00'), end: new Date('2025-01-01T00:00:00.000-08:00'), results: new Date('2025-01-10T07:00:00.000-08:00'), levelOriginal: '', image: '' },
-  { season: 12, slug: 'supercharged', type: 'championship', start: new Date('2024-12-01T00:00:00.000-08:00'), end: new Date('2025-01-01T00:00:00.000-08:00'), results: new Date('2025-01-10T07:00:00.000-08:00'), levelOriginal: '', image: '' },
+  { season: 10, slug: 'fierce-forces', type: 'regular', start: new Date('2024-01-01T00:00:00.000-08:00'), end: new Date('2024-05-01T00:00:00.000-07:00'), results: new Date('2024-05-13T07:00:00.000-07:00'), levelOriginal: '6576ff2b1457f600193d2cc9', tournament: '6631155d27d051fef8412658', image: '/file/db/level/6576ff2b1457f600193d2cc9/FierceForcesBannerNew.png' },
+  { season: 10, slug: 'anti-gravity', type: 'championship', start: new Date('2024-04-01T00:00:00.000-07:00'), end: new Date('2024-05-01T00:00:00.000-07:00'), results: new Date('2024-05-13T07:00:00.000-07:00'), levelOriginal: '65f2618f757a82bcc90b7c9e', tournament: '66311610236b3e1e9dcfd9f3', image: '/file/db/level/65f2618f757a82bcc90b7c9e/AntiGravityBanner.png' },
+  { season: 11, slug: 'solar-skirmish', type: 'regular', start: new Date('2024-05-01T00:00:00.000-07:00'), end: new Date('2024-09-01T00:00:00.000-07:00'), results: new Date('2024-09-14T07:00:00.000-07:00'), levelOriginal: '661f6cf6525db0fb41870360', tournament: '66311a29856d99556fa14326', image: '/file/db/level/661f6cf6525db0fb41870360/SolarSkirmishBanner.png' },
+  { season: 11, slug: 'sunfire', type: 'championship', start: new Date('2024-08-01T00:00:00.000-07:00'), end: new Date('2024-09-01T00:00:00.000-07:00'), results: new Date('2024-09-14T07:00:00.000-07:00'), levelOriginal: '6682089bb98780c672659043', tournament: '669aa78fcca07ea127d445d6', image: '/file/db/level/6682089bb98780c672659043/SunfireBanner.png' },
+  { season: 12, slug: 'system-shock', type: 'regular', start: new Date('2024-09-01T00:00:00.000-07:00'), end: new Date('2025-01-01T00:00:00.000-08:00'), results: new Date('2025-01-18T07:00:00.000-08:00'), levelOriginal: '66ba09c7c34ab945ba4f52a2', tournament: '66d0b7f11c8954cacec98d47', image: '/file/db/level/66ba09c7c34ab945ba4f52a2/SystemShockBanner2.png' },
+  { season: 12, slug: 'supercharged', type: 'championship', start: new Date('2024-12-01T00:00:00.000-08:00'), end: new Date('2025-01-01T00:00:00.000-08:00'), results: new Date('2025-01-14T07:00:00.000-08:00'), levelOriginal: '66f545e57e91e7168c3e463c', tournament: '6756bac52bfcb2c7059f3cb3', image: '/file/db/level/66f545e57e91e7168c3e463c/superchargedbanner2.jpg' },
+  { season: 13, slug: 'pawns-passage', type: 'regular', start: new Date('2025-01-01T00:00:00.000-08:00'), end: new Date('2025-05-01T00:00:00.000-07:00'), results: new Date('2025-05-14T07:00:00.000-07:00'), levelOriginal: '675a76867ea2b689e0f86e87', image: '/file/db/level/675a76867ea2b689e0f86e87/PawnsPassageBanner.jpg' },
+  { season: 13, slug: 'kings-gambit', type: 'championship', start: new Date('2025-04-01T00:00:00.000-07:00'), end: new Date('2025-05-01T00:00:00.000-07:00'), results: new Date('2025-05-10T07:00:00.000-07:00'), levelOriginal: '', image: '' },
+  { season: 14, slug: 'strikers-stadium', type: 'regular', start: new Date('2025-05-01T00:00:00.000-07:00'), end: new Date('2025-09-01T00:00:00.000-07:00'), results: new Date('2025-09-14T07:00:00.000-07:00'), levelOriginal: '', image: '' },
+  { season: 14, slug: 'golden-goal', type: 'championship', start: new Date('2025-07-01T00:00:00.000-07:00'), end: new Date('2025-09-01T00:00:00.000-07:00'), results: new Date('2025-09-10T07:00:00.000-07:00'), levelOriginal: '', image: '' },
+  { season: 15, slug: 'turbo-track', type: 'regular', start: new Date('2025-09-01T00:00:00.000-07:00'), end: new Date('2026-01-01T00:00:00.000-08:00'), results: new Date('2026-01-14T07:00:00.000-08:00'), levelOriginal: '', image: '' },
+  { season: 15, slug: 'grand-prix', type: 'championship', start: new Date('2025-12-01T00:00:00.000-08:00'), end: new Date('2026-01-01T00:00:00.000-08:00'), results: new Date('2026-01-10T07:00:00.000-08:00'), levelOriginal: '', image: '' },
 ]
 
 // AI League seasons
@@ -1318,10 +1361,14 @@ const AILeagueSeasons = [
   { number: 6, championshipType: 'clash', image: '/images/pages/league/lava-lake-clash.png', video: '6650f5c84f65ecd1709cca1210c4e9ab', videoThumbnailTime: '1762s' },
   { number: 7, championshipType: 'cup', image: '/images/pages/league/equinox-cup.png', video: '4832912db10162e24cb2eb86df6c36d7', videoThumbnailTime: '1021s' },
   { number: 8, championshipType: 'blitz', image: '/images/pages/league/farmscape-blitz.png', video: 'eae72056cd1e54f77ec35612c2d0c4b5', videoThumbnailTime: '2681s' },
-  { number: 9, championshipType: 'clash', image: '/images/pages/league/snowhold-clash.png', video: '', videoThumbnailTime: '' },
-  { number: 10, championshipType: 'cup', image: '/images/pages/league/anti-gravity-cup.png', video: '', videoThumbnailTime: '' },
-  { number: 11, championshipType: 'blitz', image: '/images/pages/league/sunfire-blitz.png', video: '', videoThumbnailTime: '' },
-  { number: 12, championshipType: 'clash', image: '/images/pages/league/supercharged-clash.png', video: '', videoThumbnailTime: '' },
+  { number: 9, championshipType: 'clash', image: '/images/pages/league/snowhold-clash.png', video: '5ee0896f86d690840104adaaa7ec96b6', videoThumbnailTime: '1730s' },
+  { number: 10, championshipType: 'cup', image: '/images/pages/league/anti-gravity-cup.png', video: '72d0ffc93599cf8cb5b0f7fed7861d0f', videoThumbnailTime: '188s' },
+  // for image instead of video, we link the top match image
+  { number: 11, championshipType: 'blitz', image: '/images/pages/league/sunfire-blitz.png', imagePath: '/images/pages/league/sunfire-results.webp', topMatchUrlPath: '/play/spectate/sunfire?session-one=6688815921af79d80736c0e2&session-two=66c64ee0b522c4f39324d832&tournament=669aa78fcca07ea127d445d6' },
+  { number: 12, championshipType: 'clash', image: '/images/pages/league/supercharged-clash.png', imagePath: '/images/pages/league/supercharged-results.webp', topMatchUrlPath: '/play/spectate/supercharged?session-one=670022a88716adfc389b7843&session-two=6774cf6654ce86ae1fa25620&tournament=6756bac52bfcb2c7059f3cb3' },
+  { number: 13, championshipType: 'cup', image: '/images/pages/league/kings-gambit-cup.png', video: '', videoThumbnailTime: '' },
+  { number: 14, championshipType: 'blitz', image: '/images/pages/league/golden-goal-blitz.png', video: '', videoThumbnailTime: '' },
+  { number: 15, championshipType: 'clash', image: '/images/pages/league/grand-prix-clash.png', video: '', videoThumbnailTime: '' },
 ]
 
 const activeArenas = function () {
@@ -1394,12 +1441,14 @@ const freeAccessLevels = [
   { access: 'short', slug: '1fhm1l1l5b' },
   { access: 'short', slug: '1fhm1l1l6b' },
   { access: 'short', slug: '1fhm1l1l7b' },
-  { access: 'short', slug: '1fhm1l1l8b' }
+  { access: 'short', slug: '1fhm1l1l8b' },
+  // CodeCombat Junior level access is managed the old way, with level.requiresSubscription, no hardcoded overrides
 ]
 
 const orgKindString = function (kind, org = null) {
   if ((kind === 'administrative-region') && ((org != null ? org.country : undefined) === 'US') && /^en/.test(me.get('preferredLanguage'))) { return 'State' }
   const key = {
+    country: 'outcomes.country',
     'administrative-region': 'teachers_quote.state',
     'school-district': 'teachers_quote.district_label',
     'school-admin': 'outcomes.school_admin',
@@ -1470,6 +1519,11 @@ const markdownToPlainText = function (text) {
   return plainText
 }
 
+const markedInline = function (text) {
+  // Like marked, but inline (no wrapper <p></p>); this is an option in newer marked versions
+  return marked(text).replace(/^<p>|<\/p>$/g, '')
+}
+
 /*
  * Get the estimated Hz of the primary monitor in the system.
  *
@@ -1483,7 +1537,7 @@ const getScreenRefreshRate = function (callback, runIndefinitely) {
   if (window.requestAnimationFrame == null) { window.requestAnimationFrame = window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame }
   const DOMHighResTimeStampCollection = []
 
-  var triggerAnimation = function (DOMHighResTimeStamp) {
+  const triggerAnimation = function (DOMHighResTimeStamp) {
     DOMHighResTimeStampCollection.unshift(DOMHighResTimeStamp)
     if (DOMHighResTimeStampCollection.length > 10) {
       const t0 = DOMHighResTimeStampCollection.pop()
@@ -1521,7 +1575,153 @@ const getProductUrl = function (product, url) {
   return url
 }
 
+const allowedLanguages = ({
+  [OZARIA]: ['javascript', 'python'],
+  [CODECOMBAT]: ['javascript', 'python', 'java', 'cpp']
+})[product]
+
+module.exports.aiToolToImage = {
+  'gpt-4-turbo-preview': '/images/ai/ChatGPT.svg',
+  'stable-diffusion-xl': '/images/ai/Stable_Diffusion.png',
+  'dall-e-3': '/images/ai/DALL-E.webp',
+  'claude-3': '/images/ai/claude.webp'
+}
+
+const getUserTimeZone = function (user) {
+  const geo = user.get('geo')
+  if (geo?.timeZone) {
+    return geo.timeZone
+  } else {
+    return moment.tz.guess()
+  }
+}
+
+const shouldShowAiBotHelp = function (aceConfig) {
+  if (aceConfig.levelChat !== 'none') {
+    if (me.isAdmin()) {
+      return true
+    } else if (me.isHomeUser() && me.getLevelChatExperimentValue() === 'beta') {
+      return true
+    } else if (!me.isHomeUser()) {
+      return true
+    }
+  }
+  return false
+}
+
+const isMobile = () => {
+  // First try the modern way - navigator.userAgentData
+  if (navigator.userAgentData?.mobile !== undefined) {
+    return navigator.userAgentData.mobile
+  }
+
+  // Fallback to navigator.maxTouchPoints for iOS devices
+  if (navigator.maxTouchPoints && navigator.maxTouchPoints > 1) {
+    return true
+  }
+
+  // Then try matching common mobile screen sizes
+  if (window.matchMedia('(max-width: 1024px) and (orientation: portrait), (max-width: 1024px) and (orientation: landscape)').matches) {
+    return true
+  }
+
+  // Finally fall back to UA string detection for older devices
+  const ua = navigator.userAgent || navigator.vendor || window.opera
+  const modernMobileRE = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Samsung.*Mobile|Mobile.*Firefox|Windows.*Phone|^HTC|LG.*Mobile|BB10|PlayBook|Tablet|Mobile Safari|Chrome.*Mobile/i
+  const isMobileDevice = modernMobileRE.test(ua)
+  return isMobileDevice
+}
+
+const isIPad = () => {
+  const ua = navigator.userAgent
+  return (/iPad/.test(ua) || (navigator?.platform === 'MacIntel' && navigator.maxTouchPoints > 1))
+}
+
+module.exports.getCodeLanguages = () => {
+  const codeLanguages = {
+    python: {
+      id: 'python',
+      name: `Python (${$.i18n.t('choose_hero.default')})`
+    },
+    javascript: {
+      id: 'javascript',
+      name: 'JavaScript'
+    }
+  }
+  if (isCodeCombat) {
+    return {
+      ...codeLanguages,
+      coffeescript: {
+        id: 'coffeescript',
+        name: 'CoffeeScript'
+      },
+      lua: {
+        id: 'lua',
+        name: 'Lua'
+      },
+      cpp: {
+        id: 'cpp',
+        name: 'C++'
+      },
+      java: {
+        id: 'java',
+        name: `Java (${$.i18n.t('choose_hero.experimental')})`
+      }
+    }
+  } else {
+    return codeLanguages
+  }
+}
+
+module.exports.getCodeFormats = () => ({
+  'text-code': {
+    id: 'text-code',
+    name: `${$.i18n.t('choose_hero.text_code')}`
+  },
+  'blocks-and-code': {
+    id: 'blocks-and-code',
+    name: `${$.i18n.t('choose_hero.blocks_and_code')}`
+  },
+  'blocks-text': {
+    id: 'blocks-text',
+    name: `${$.i18n.t('choose_hero.blocks_text')}`
+  },
+  'blocks-icons': {
+    id: 'blocks-icons',
+    name: `${$.i18n.t('choose_hero.blocks_icons')}`
+  }
+})
+
+module.exports.MTOClients = {
+  MTO_STEM_DEV: '66d8d68b7fb24e9567588139',
+  MTO_STEM_PROD: '66d8d72143881e9eebcf0cc9',
+  MTO_NEO_DEV: '66d8d794f81368cbd77f5bca',
+  MTO_NEO_PROD: '66d8d750f81368cbd77f4ab2'
+}
+
+module.exports.secondsToMinutesAndSeconds = function (seconds) {
+  if(!seconds){
+    return ''
+  }
+  const minutes = Math.floor(seconds / 60)
+  const remainingSeconds = seconds % 60
+  return `${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`
+}
+
+module.exports.getJuniorUrl = function() {
+  let juniorPath = '/play/junior'
+  if(me && me.isTeacher() && !me.isAnonymous()) {
+    juniorPath = '/teachers/curriculum/junior'
+  }
+  return `${cocoBaseURL()}${juniorPath}`
+}
+
+module.exports.scenarioMode2Icon = (mode) => {
+  return mode === 'use' ? 'ai-use' : 'ai-learn'
+}
+
 module.exports = {
+  ...module.exports,
   activeAndPastArenas,
   activeArenas,
   addIntroLevelContent,
@@ -1530,6 +1730,7 @@ module.exports = {
   ageBracketsChina,
   ageOfConsent,
   ageToBracket,
+  allowedLanguages,
   anonymizingUser,
   arenas,
   bracketToAge,
@@ -1545,10 +1746,13 @@ module.exports = {
   countryCodeToName,
   countryNameToCode,
   courseAcronyms,
+  courseCampaignSlugs,
   courseIDs,
   allCourseIDs,
-  courseModules,
+  allFreeCourseIDs,
+  freeCocoCourseIDs,
   courseNumericalStatus,
+  coursesWithProjects,
   CSCourseIDs,
   WDCourseIDs,
   createLevelNumberMap,
@@ -1578,6 +1782,7 @@ module.exports = {
   getAnonymizationStatus,
   getCorrectName,
   grayscale,
+  getUserTimeZone,
   hexToHSL,
   hourOfCodeOptions,
   hslToHex,
@@ -1586,13 +1791,13 @@ module.exports = {
   injectCSS,
   internalCampaignIds,
   isID,
-  isIE,
   isRegionalSubscription,
   isSmokeTestEmail,
   isValidEmail,
   keepDoingUntil,
   kindaEqual,
   markdownToPlainText,
+  markedInline,
   needsPractice,
   normalizeFunc,
   objectIdToDate,
@@ -1606,8 +1811,10 @@ module.exports = {
   round,
   AILeagueSeasons,
   sortCourses,
+  sortOtherCourses,
   sortCoursesByAcronyms,
   stripIndentation,
+  shouldShowAiBotHelp,
   teamSpells,
   titleize,
   usStateCodes,
@@ -1623,6 +1830,8 @@ module.exports = {
   isChinaOldBrowser,
   isCodeCombat,
   isOzaria,
+  isMobile,
+  isIPad,
   supportEmail,
   tournamentSortFn,
   cocoBaseURL,

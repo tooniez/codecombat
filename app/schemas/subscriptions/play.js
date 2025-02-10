@@ -1,5 +1,3 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 const c = require('schemas/schemas')
 const ChatMessage = require('schemas/models/chat_message.schema')
 
@@ -23,6 +21,10 @@ module.exports = {
     controls: c.array({},
       c.shortString())
   }
+  ),
+
+  'level:overallStatus-changed': c.object({ required: ['overallStatus'] },
+    { overallStatus: { type: ['string', 'null', 'undefined'] } },
   ),
 
   'level:set-letterbox': c.object({},
@@ -262,5 +264,13 @@ module.exports = {
     { code: { type: 'string' } }),
 
   'level:close-solution': c.object({},
-    { removeButton: { type: 'boolean' } })
+    { removeButton: { type: 'boolean' } }),
+
+  'level:click-ai-hint': c.object({}),
+
+  'level:locked': c.object({}, {
+    level: { type: 'object' },
+  }),
+
+  'ladder:refresh': c.object({})
 }

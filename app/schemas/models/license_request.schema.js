@@ -1,5 +1,3 @@
-// TODO: This file was created by bulk-decaffeinate.
-// Sanity-check the conversion and remove this comment.
 const c = require('./../schemas')
 
 const LicenseRequestSchema = c.object({
@@ -15,7 +13,12 @@ _.extend(LicenseRequestSchema.properties, {
   requester: c.objectId({ links: [{ rel: 'extra', href: '/db/user/{($)}' }] }),
   requesterEmail: c.shortString({ title: 'From email', format: 'email' }),
   receiverEmail: c.shortString({ title: 'To email', format: 'email' }),
-  message: { type: 'string', maxLength: 2000 }
+  message: { type: 'string', maxLength: 2000 },
+  phone: c.shortString({ title: 'Phone number' }),
+  district: c.shortString({ title: 'District' }),
+  role: c.shortString({ title: 'Teacher, principal etc' }),
+  school: c.shortString({ title: 'School' }),
+  status: { type: 'string', enum: ['CREATED', 'SLACK_SENT', 'FAILED', 'PROCESSING'] },
 })
 
 c.extendBasicProperties(LicenseRequestSchema, 'LicenseRequest')

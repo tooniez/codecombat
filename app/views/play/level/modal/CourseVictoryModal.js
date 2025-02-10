@@ -1,10 +1,7 @@
 /*
  * decaffeinate suggestions:
- * DS101: Remove unnecessary use of Array.from
  * DS102: Remove unnecessary code created because of implicit returns
- * DS103: Rewrite code to no longer use __guard__, or convert again using --optional-chaining
  * DS206: Consider reworking classes to avoid initClass
- * DS207: Consider shorter variations of null checks
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/main/docs/suggestions.md
  */
 let CourseVictoryModal
@@ -31,6 +28,12 @@ module.exports = (CourseVictoryModal = (function () {
       this.prototype.id = 'course-victory-modal'
       this.prototype.template = template
       this.prototype.closesOnClickOutside = false
+
+      this.prototype.subscriptions = {
+        'level:course-membership-required': 'onCourseMembershipRequired', // If they need to be added to a course.
+        'level:license-required': 'onLicenseRequired', // If they need a license.
+        'level:locked': 'onLevelLocked',
+      }
     }
 
     constructor (options) {
@@ -59,10 +62,17 @@ module.exports = (CourseVictoryModal = (function () {
         levelOriginalID: this.level.get('original'),
         courseInstanceID: this.courseInstanceID,
         courseID: this.courseID,
-        sessionID: this.session.id
+        sessionID: this.session.id,
       }).then(({ level, assessment }) => {
         this.nextLevel.set(level)
         return this.nextAssessment.set(assessment)
+      }).catch((error) => {
+        if (error.code === 404) {
+          console.info('Next level not found:', error)
+          // Handle the 404 error, e.g., show an error message or take appropriate action
+        } else {
+          console.error('Error fetching next level:', error)
+        }
       })
       this.supermodel.trackPromise(nextLevelPromise)
 
@@ -84,19 +94,17 @@ module.exports = (CourseVictoryModal = (function () {
 
       const properties = {
         category: 'Students',
-        levelSlug: this.level.get('slug')
+        levelSlug: this.level.get('slug'),
       }
       const concepts = this.level.get('goals').filter(g => g.concepts).map(g => g.id)
       if (concepts.length) {
         const {
-          goalStates
+          goalStates,
         } = this.session.get('state')
-        const succeededConcepts = concepts.filter(c => (goalStates[c] != null ? goalStates[c].status : undefined) === 'success')
+        const succeededConcepts = concepts.filter(c => goalStates[c]?.status === 'success')
         _.assign(properties, { concepts, succeededConcepts })
       }
-      if (window.tracker != null) {
-        window.tracker.trackEvent('Play Level Victory Modal Loaded', properties)
-      }
+      window.tracker?.trackEvent('Play Level Victory Modal Loaded', properties)
 
       if (this.level.isType('hero', 'course', 'course-ladder', 'game-dev', 'web-dev', 'ladder')) {
         this.achievements = options.achievements
@@ -121,9 +129,9 @@ module.exports = (CourseVictoryModal = (function () {
       this.views = []
 
       if (me.showGemsAndXpInClassroom() && (this.achievements.length > 0)) {
-        this.achievements.models = _.filter(this.achievements.models, m => !__guard__(m.get('query'), x => x.ladderAchievementDifficulty)) // Don't show higher AI difficulty achievements
+        this.achievements.models = _.filter(this.achievements.models, m => m.get('query')?.ladderAchievementDifficulty) // Don't show higher AI difficulty achievements
         let showAchievements = false // show achievements only if atleast one achievement is completed
-        for (const achievement of Array.from(this.achievements.models)) {
+        for (const achievement of this.achievements.models) {
           achievement.completed = LocalMongo.matchesQuery(this.session.attributes, achievement.get('query'))
           if (achievement.completed) {
             showAchievements = true
@@ -172,7 +180,7 @@ module.exports = (CourseVictoryModal = (function () {
           classroom: this.classroom,
           levelSessions: this.levelSessions,
           session: this.session,
-          courseInstanceID: this.courseInstanceID
+          courseInstanceID: this.courseInstanceID,
         })
 
         progressView.once('done', this.onDone, this)
@@ -210,6 +218,11 @@ module.exports = (CourseVictoryModal = (function () {
       if (this.level.isLadder() || this.level.isProject()) {
         const index = _.indexOf(this.views, this.currentView)
         return this.showView(this.views[index + 1])
+      } else if (this.level.get('product') === 'codecombat-junior') {
+        // Skip the victory component, which has a lot of text and choices, and just keep it simple by going to the next level.
+        // If we want to present the choice between the next level and the practice level here, or allow easy "back to map" button, then we show it.
+        // But if we did, we would probably want to simplify the CourseVictoryComponent in Junior mode, because it's a bit complicated and has too much text.
+        return this.onNextLevel()
       } else {
         return this.showVictoryComponent()
       }
@@ -223,23 +236,21 @@ module.exports = (CourseVictoryModal = (function () {
         session: this.session.toJSON(),
         course: this.course.toJSON(),
         courseInstanceID: this.courseInstanceID,
-        stats: (this.classroom != null ? this.classroom.statsForSessions(this.levelSessions, this.course.id) : undefined),
+        stats: this.classroom?.statsForSessions(this.levelSessions, this.course.id),
         supermodel: this.supermodel,
         parent: this.options.parent,
-        codeLanguage: this.session.get('codeLanguage')
+        codeLanguage: this.session.get('codeLanguage'),
       }
       return new CourseVictoryComponent({
         el: this.$el.find('.modal-content')[0],
         propsData,
-        store
+        store,
       })
     }
 
     onNextLevel () {
       let link
-      if (window.tracker != null) {
-        window.tracker.trackEvent('Play Level Victory Modal Next Level', { category: 'Students', levelSlug: this.level.get('slug'), nextLevelSlug: this.nextLevel.get('slug') })
-      }
+      window.tracker?.trackEvent('Play Level Victory Modal Next Level', { category: 'Students', levelSlug: this.level.get('slug'), nextLevelSlug: this.nextLevel.get('slug') })
       if (me.isSessionless()) {
         link = `/play/level/${this.nextLevel.get('slug')}?course=${this.courseID}&codeLanguage=${utils.getQueryVariable('codeLanguage', 'python')}`
       } else {
@@ -257,17 +268,13 @@ module.exports = (CourseVictoryModal = (function () {
       } else {
         link = `/play/${this.course.get('campaignID')}?course-instance=${this.courseInstanceID}`
       }
-      if (window.tracker != null) {
-        window.tracker.trackEvent('Play Level Victory Modal Back to Map', { category: 'Students', levelSlug: this.level.get('slug') })
-      }
+      window.tracker?.trackEvent('Play Level Victory Modal Back to Map', { category: 'Students', levelSlug: this.level.get('slug') })
       return application.router.navigate(link, { trigger: true })
     }
 
     onDone () {
       let link
-      if (window.tracker != null) {
-        window.tracker.trackEvent('Play Level Victory Modal Done', { category: 'Students', levelSlug: this.level.get('slug') })
-      }
+      window.tracker?.trackEvent('Play Level Victory Modal Done', { category: 'Students', levelSlug: this.level.get('slug') })
       if (me.isSessionless()) {
         link = '/teachers/courses'
       } else {
@@ -278,9 +285,7 @@ module.exports = (CourseVictoryModal = (function () {
     }
 
     onPublish () {
-      if (window.tracker != null) {
-        window.tracker.trackEvent('Play Level Victory Modal Publish', { category: 'Students', levelSlug: this.level.get('slug') })
-      }
+      window.tracker?.trackEvent('Play Level Victory Modal Publish', { category: 'Students', levelSlug: this.level.get('slug') })
       if (this.session.isFake()) {
         return application.router.navigate(this.galleryURL, { trigger: true })
       } else {
@@ -318,11 +323,25 @@ module.exports = (CourseVictoryModal = (function () {
         return api.levelSessions.submitToRank({ session: this.session.id, courseInstanceId: this.courseInstanceID })
       }
     }
+
+    onCourseMembershipRequired (e) {
+      window.tracker?.trackEvent('Course Victory Modal Course Membership Required', { category: 'Students', levelSlug: this.level.get('slug') })
+      console.info('Course Membership Required', e)
+      this.onNextLevel() // We won't otherwise do anything when LevelSetupManager fails to create session, so at least go to the next level and let it show the message
+    }
+
+    onLicenseRequired (e) {
+      window.tracker?.trackEvent('Course Victory Modal License Required', { category: 'Students', levelSlug: this.level.get('slug') })
+      console.info('License Required', e)
+      this.onNextLevel() // We won't otherwise do anything when LevelSetupManager fails to create session, so at least go to the next level and let it show the message
+    }
+
+    onLevelLocked (e) {
+      window.tracker?.trackEvent('Course Victory Modal Level Locked', { category: 'Students', levelSlug: this.level.get('slug') })
+      console.info('Level Locked', e)
+      this.onNextLevel() // We won't otherwise do anything when LevelSetupManager fails to create session, so at least go to the next level and let it show the message
+    }
   }
   CourseVictoryModal.initClass()
   return CourseVictoryModal
 })())
-
-function __guard__ (value, transform) {
-  return (typeof value !== 'undefined' && value !== null) ? transform(value) : undefined
-}

@@ -6,42 +6,49 @@ import ButtonExemplar from './ButtonExemplar'
 import IconHelp from '../../common/icons/IconHelp'
 import { mapGetters } from 'vuex'
 import utils from 'core/utils'
+
+import CodeRenderer from 'app/components/common/labels/CodeRenderer'
+import AccessLevelIndicator from 'app/components/common/elements/AccessLevelIndicator'
+
 export default {
   components: {
     ButtonSlides,
     ButtonProjectReq,
     ButtonExemplar,
-    IconHelp
+    IconHelp,
+    CodeRenderer,
+    AccessLevelIndicator,
   },
   props: {
     moduleNum: {
       required: true,
-      type: String
+      type: String,
     },
     courseName: {
       type: String,
-      default: null
+      default: null,
     },
     isCapstone: {
       type: Boolean,
-      default: false
+      default: false,
     },
     moduleName: {
       type: String,
-      default: ''
+      default: '',
     },
     showLessonSlides: {
       type: Boolean,
-      default: true
-    }
+      default: true,
+    },
   },
   computed: {
     ...mapGetters({
+      getCurrentCourse: 'baseCurriculumGuide/getCurrentCourse',
       getCurrentModuleNames: 'baseCurriculumGuide/getCurrentModuleNames',
       getCurrentModuleHeadingInfo: 'baseCurriculumGuide/getCurrentModuleHeadingInfo',
       getCapstoneInfo: 'baseCurriculumGuide/getCapstoneInfo',
       isOnLockedCampaign: 'baseCurriculumGuide/isOnLockedCampaign',
-      getTrackCategory: 'teacherDashboard/getTrackCategory'
+      getTrackCategory: 'teacherDashboard/getTrackCategory',
     }),
 
     getModuleInfo () {
@@ -50,7 +57,7 @@ export default {
 
     getModuleTotalTimeInfo () {
       return utils.i18n(this.getModuleInfo?.duration, 'total')
-    }
+    },
   },
 
   methods: {
@@ -86,16 +93,25 @@ export default {
       if (!this.isOnLockedCampaign && eventName) {
         window.tracker?.trackEvent(eventName, { category: this.getTrackCategory, label: this.courseName })
       }
-    }
-  }
+    },
+  },
 }
 </script>
 <template>
   <div class="header">
     <div class="module-header">
-      <h3>{{ $t('teacher_dashboard.module') }} {{ moduleNum }} {{ moduleName || getCurrentModuleNames(moduleNum) }}</h3>
+      <h3>
+        <span>{{ $t('teacher_dashboard.module') }} </span>
+        <span
+          v-if="!(['junior', 'ai-hackstack'].includes(getCurrentCourse.slug))"
+        >
+          {{ moduleNum }}:
+        </span>
+        <code-renderer :content="moduleName || getCurrentModuleNames(moduleNum) || 'Introduction'" />
+        <access-level-indicator :level="getModuleInfo.access" />
+      </h3>
       <div
-        v-if="getModuleTotalTimeInfo !== undefined"
+        v-if="getModuleTotalTimeInfo"
         class="time-row"
       >
         <p>{{ $t('teacher_dashboard.class_time') }} {{ getModuleTotalTimeInfo }}</p>

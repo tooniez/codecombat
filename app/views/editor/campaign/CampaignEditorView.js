@@ -56,6 +56,19 @@ module.exports = (CampaignEditorView = (function () {
 
       this.prototype.subscriptions =
         { 'editor:campaign-analytics-modal-closed': 'onAnalyticsModalClosed' }
+
+      this.prototype.shortcuts = {
+        'shift+1': function (e) { this.assignModuleToSelectedLevels(1) },
+        'shift+2': function (e) { this.assignModuleToSelectedLevels(2) },
+        'shift+3': function (e) { this.assignModuleToSelectedLevels(3) },
+        'shift+4': function (e) { this.assignModuleToSelectedLevels(4) },
+        'shift+5': function (e) { this.assignModuleToSelectedLevels(5) },
+        'shift+6': function (e) { this.assignModuleToSelectedLevels(6) },
+        'shift+7': function (e) { this.assignModuleToSelectedLevels(7) },
+        'shift+8': function (e) { this.assignModuleToSelectedLevels(8) },
+        'shift+9': function (e) { this.assignModuleToSelectedLevels(9) },
+        'shift+0': function (e) { this.assignModuleToSelectedLevels(10) },
+      }
     }
 
     constructor (options, campaignHandle, campaignPage) {
@@ -71,7 +84,7 @@ module.exports = (CampaignEditorView = (function () {
       this.supermodel.loadModel(this.campaign)
       this.listenToOnce(this.campaign, 'sync', function (model, response, jqXHR) {
         this.campaign.set('_id', response._id)
-        return this.campaign.url = function () { return '/db/campaign/' + this.id }
+        this.campaign.url = function () { return '/db/campaign/' + this.id }
       })
 
       // Save reference to data used by anlytics modal so it persists across modal open/closes.
@@ -142,8 +155,8 @@ module.exports = (CampaignEditorView = (function () {
     loadMissingLevelsAndRelatedModels () {
       const promises = []
       for (const level of Array.from(_.values(this.campaign.get('levels')))) {
-        var model
-        if (model = this.levels.findWhere({ original: level.original })) { continue }
+        let model = this.levels.findWhere({ original: level.original })
+        if (model) { continue }
         model = new Level({})
         model.setProjection(Campaign.denormalizedLevelProperties)
         model.setURL(`/db/level/${level.original}/version`)
@@ -212,7 +225,7 @@ module.exports = (CampaignEditorView = (function () {
         }
         // do not propagate campaignIndex for non-course campaigns
         let propsToPropagate = Campaign.denormalizedLevelProperties
-        if (this.campaign.get('type') !== 'course') {
+        if (this.campaign.get('type') !== 'course' && this.campaign.get('slug') !== 'junior') {
           propsToPropagate = _.without(propsToPropagate, 'campaignIndex')
         }
         for (const key of Array.from(propsToPropagate)) {
@@ -252,7 +265,7 @@ module.exports = (CampaignEditorView = (function () {
         for (const rewardType in object) {
           const rewardArray = object[rewardType]
           for (const reward of Array.from(rewardArray)) {
-            var thangType
+            let thangType
             const rewardObject = { achievement: achievement.id }
 
             if (rewardType === 'heroes') {
@@ -292,7 +305,7 @@ module.exports = (CampaignEditorView = (function () {
         const result = []
         for (const levelOriginal in campaignLevels) {
           const campaignLevel = campaignLevels[levelOriginal]
-          if (this.campaign.get('type') === 'course') {
+          if (this.campaign.get('type') === 'course' || this.campaign.get('slug') === 'junior') {
             const level = this.levels.findWhere({ original: levelOriginal })
             if (level && (level.get('campaignIndex') !== index)) {
               level.set('campaignIndex', index)
@@ -359,10 +372,10 @@ module.exports = (CampaignEditorView = (function () {
           achievementUpdated: this.onAchievementUpdated
         },
         nodeClasses: {
-          levels: utils.isCodeCombat ? CocoLevelsNode : OzarLevelsNode,
+          levels: LevelsNode,
           level: LevelNode,
           nextLevel: NextLevelNode,
-          campaigns: utils.isCodeCombat ? CocoCampaignsNode : OzarCampaignsNode,
+          campaigns: CampaignsNode,
           campaign: CampaignNode,
           achievement: AchievementNode,
           rewards: RewardsNode
@@ -476,6 +489,14 @@ module.exports = (CampaignEditorView = (function () {
     // This is a override method to RootView, so that only CampaignView is listenting to login button click
 
     onClickSignupButton () {}
+
+    assignModuleToSelectedLevels (moduleNum) {
+      const selectedLevelTreemas = this.treema.childrenTreemas.levels.getSelectedTreemas()
+      for (const selectedLevelTreema of selectedLevelTreemas) {
+        selectedLevelTreema.set('/moduleNum', moduleNum)
+      }
+      noty({ timeout: 2000, text: `Set module ${moduleNum} on ${selectedLevelTreemas.length} levels`, type: 'info', layout: 'top' })
+    }
   }
   CampaignEditorView.initClass()
   return CampaignEditorView
@@ -483,7 +504,8 @@ module.exports = (CampaignEditorView = (function () {
 // Do Nothing
 // This is a override method to RootView, so that only CampaignView is listenting to signup button click
 
-// todo: can we use ozar levels node for coco too?
+// CocoLevelsNode searches each time you update term; OzarLevelsNode searches once at the beginning
+// I think there are too many CodeCombat levels to use the latter approach; won't find them all
 class CocoLevelsNode extends TreemaObjectNode {
   constructor (...args) {
     super(...args)
@@ -525,7 +547,6 @@ class CocoLevelsNode extends TreemaObjectNode {
     })
   }
 }
-CocoLevelsNode.initClass()
 
 class OzarLevelsNode extends TreemaObjectNode {
   static initClass () {
@@ -547,7 +568,7 @@ class OzarLevelsNode extends TreemaObjectNode {
         LevelsNode.levels[level.get('original')] = level
         this.settings.supermodel.registerModel(level)
       }
-      return this.mapped = (Array.from(collection.models).map((r) => ({ label: r.get('name'), value: r.get('original') })))
+      LevelsNode.mapped = (Array.from(collection.models).map((r) => ({ label: r.get('name'), value: r.get('original') })))
     })
   }
 
@@ -560,15 +581,15 @@ class OzarLevelsNode extends TreemaObjectNode {
   childSource (req, res) {
     // Sort the results. Prioritize names that start with the search term, then contain the search term.
     const lowerTerm = req.term.toLowerCase()
-    const sorted = _.filter(this.mapped, item => _.string.contains(item.label.toLowerCase(), lowerTerm))
+    const sorted = _.filter(LevelsNode.mapped, item => _.string.contains(item.label.toLowerCase(), lowerTerm))
     const startsWithTerm = _.filter(sorted, item => _.string.startsWith(item.label.toLowerCase(), lowerTerm))
     _.pull(sorted, ...Array.from(startsWithTerm))
     return res(_.flatten([startsWithTerm, sorted]))
   }
 }
-OzarLevelsNode.initClass()
 
-var LevelsNode = utils.isCodeCombat ? CocoLevelsNode : OzarLevelsNode
+const LevelsNode = utils.isCodeCombat ? CocoLevelsNode : OzarLevelsNode
+LevelsNode.initClass()
 
 class LevelNode extends TreemaObjectNode {
   static initClass () {
@@ -638,37 +659,7 @@ class NextLevelNode extends LevelNode {
   }
 }
 
-class CocoCampaignsNode extends TreemaObjectNode {
-  constructor (...args) {
-    super(...args)
-    this.childSource = this.childSource.bind(this)
-  }
-
-  static initClass () {
-    this.prototype.valueClass = 'treema-campaigns'
-    this.campaigns = {}
-  }
-
-  buildValueForDisplay (valEl, data) {
-    return this.buildValueForDisplaySimply(valEl, '' + _.size(data))
-  }
-
-  childPropertiesAvailable () { return this.childSource }
-
-  childSource (req, res) {
-    const s = new Backbone.Collection([], { model: Campaign })
-    s.url = '/db/campaign'
-    s.fetch({ data: { term: req.term, project: Campaign.denormalizedCampaignProperties } })
-    return s.once('sync', function (collection) {
-      for (const campaign of Array.from(collection.models)) { CampaignsNode.campaigns[campaign.id] = campaign }
-      const mapped = (Array.from(collection.models).map((r) => ({ label: r.get('name'), value: r.id })))
-      return res(mapped)
-    })
-  }
-}
-CocoCampaignsNode.initClass()
-
-class OzarCampaignsNode extends TreemaObjectNode {
+class CampaignsNode extends TreemaObjectNode {
   static initClass () {
     this.prototype.valueClass = 'treema-campaigns'
     this.campaigns = {}
@@ -683,7 +674,7 @@ class OzarCampaignsNode extends TreemaObjectNode {
     s.fetch({ data: { project: Campaign.denormalizedCampaignProperties } })
     s.once('sync', function (collection) {
       for (const campaign of Array.from(collection.models)) { CampaignsNode.campaigns[campaign.id] = campaign }
-      return this.mapped = (Array.from(collection.models).map((r) => ({ label: r.get('name'), value: r.id })))
+      CampaignsNode.mapped = (Array.from(collection.models).map((r) => ({ label: r.get('name'), value: r.id })))
     })
   }
 
@@ -696,13 +687,13 @@ class OzarCampaignsNode extends TreemaObjectNode {
   childSource (req, res) {
     // Sort the results. Prioritize names that start with the search term, then contain the search term.
     const lowerTerm = req.term.toLowerCase()
-    const sorted = _.filter(this.mapped, item => _.string.contains(item.label.toLowerCase(), lowerTerm))
+    const sorted = _.filter(CampaignsNode.mapped, item => _.string.contains(item.label.toLowerCase(), lowerTerm))
     const startsWithTerm = _.filter(sorted, item => _.string.startsWith(item.label.toLowerCase(), lowerTerm))
     _.pull(sorted, ...Array.from(startsWithTerm))
     return res(_.flatten([startsWithTerm, sorted]))
   }
 }
-OzarCampaignsNode.initClass()
+CampaignsNode.initClass()
 
 class CampaignNode extends TreemaObjectNode {
   static initClass () {
@@ -745,7 +736,7 @@ class RewardsNode extends TreemaArrayNode {
   }
 }
 
-var addAchievementEditorLink = function (node, valEl, achievementId) {
+const addAchievementEditorLink = function (node, valEl, achievementId) {
   const anchor = $('<a class="spl">(e)</a>')
   anchor.on('click', function (event) {
     const childWindow = window.open(`/editor/achievement/${achievementId}`, achievementId, 'width=1040,height=900,left=1600,top=0,location=1,menubar=1,scrollbars=1,status=0,titlebar=1,toolbar=1', true)

@@ -37,13 +37,13 @@ export default {
     isTouchingRight: false,
     isTouchingLeft: false,
     selectedLevels: [],
-    hoveredLevel: null
+    hoveredLevels: []
   }),
 
   computed: {
     ...mapGetters({
       selectedStudentIds: 'baseSingleClass/selectedStudentIds',
-      selectedOriginals: 'baseSingleClass/selectedOriginals'
+      selectedOriginals: 'baseSingleClass/selectedOriginals',
     }),
     getStudentSessionsData () {
       return this.modules.map(m => {
@@ -86,8 +86,8 @@ export default {
       this.isTouchingLeft = table.scrollLeft() <= 0.1
     },
 
-    updateHoveredLevel (level) {
-      this.hoveredLevel = level
+    updateHoveredLevels (levels) {
+      this.hoveredLevels = levels
     }
   }
 }
@@ -117,15 +117,18 @@ export default {
 
           <!-- Module Headers -->
           <table-module-header
-            v-for="({ displayName, contentList, classSummaryProgress, moduleNum }) of modules"
+            v-for="({ displayName, moduleNum, contentList, classSummaryProgress, displayLogo, access }) of modules"
 
             :key="`${displayName}`"
+            :module-heading-image="displayLogo"
             :module-heading="displayName"
+            :access="access"
             :list-of-content="contentList"
             :class-summary-progress="classSummaryProgress"
             :display-only="displayOnly"
-
-            @updateHoveredLevel="updateHoveredLevel"
+            :module-number="moduleNum"
+            :collapsible="modules.length>3"
+            @updateHoveredLevels="updateHoveredLevels"
           />
         </div>
       </div>
@@ -138,10 +141,11 @@ export default {
 
           <!-- List of student solutions per module -->
           <table-module-grid
-            v-for="({ studentSessions, displayName }) of modules"
+            v-for="({ studentSessions, displayName, moduleNum }) of modules"
             :key="displayName"
             :student-sessions="studentSessions"
-            :hovered-level="hoveredLevel"
+            :hovered-levels="hoveredLevels"
+            :module-number="moduleNum"
           />
 
           <!-- Fade on the right to signal more -->
@@ -208,9 +212,13 @@ export default {
 */
 .size-container {
   display: inline-block;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  left: 0;
 }
 
 #stickyHeader {
+  min-width: 100%;
   display: inline-block;
   position: sticky;
   position: -webkit-sticky; /* Safari */

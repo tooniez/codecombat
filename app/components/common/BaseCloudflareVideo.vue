@@ -1,4 +1,5 @@
 <script>
+const BASE_CLOUDFLARE_STREAM = 'https://customer-burj9xtby325x4f1.cloudflarestream.com'
 export default {
   props: {
     videoCloudflareId: {
@@ -24,78 +25,91 @@ export default {
     preload: {
       default: 'none',
       validator: value => ['auto', 'metadata', 'none'].includes(value)
+    },
+    loop: {
+      type: Boolean,
+      default: false
+    },
+    autoplay: {
+      type: Boolean,
+      default: false
+    },
+    controls: {
+      type: Boolean,
+      default: true
+    },
+    playWhenVisible: {
+      type: Boolean,
+      default: false
+    },
+    title: {
+      type: String,
+      default: 'Your descriptive text here',
+      required: false
+    },
+    thumbnailUrlTime: {
+      type: Number,
+      default: null,
+      description: 'Time from which the thumbnail should be taken for the video in seconds'
+    },
+    backgroundColor: {
+      type: String,
+      default: null,
+      description: 'Background color for the video'
+    },
+    aspectRatio: {
+      type: String,
+      default: '16 / 9'
     }
   },
-
-  watch: {
-    soundOn () {
-      const video = this.$refs.cloudflareVideo
-      if (!video) {
-        return
+  computed: {
+    videoUrl () {
+      const baseUrl = `${BASE_CLOUDFLARE_STREAM}/${this.videoCloudflareId}/iframe`
+      const params = {}
+      if (this.thumbnailUrl) {
+        params.poster = encodeURIComponent(this.thumbnailUrl)
+      } else if (this.thumbnailUrlTime) {
+        params.poster = `${BASE_CLOUDFLARE_STREAM}/${this.videoCloudflareId}/thumbnails/thumbnail.jpg?time=${this.thumbnailUrlTime}s`
       }
-      video.muted = !this.soundOn
-    }
-  },
-
-  mounted () {
-    /**
-     * Create and attach the script that streams the video.
-     */
-    const cloudflareScript = document.createElement('script')
-    cloudflareScript.setAttribute('src', `https://embed.videodelivery.net/embed/r4xu.fla9.latest.js?video=${this.cloudflareID}`)
-    cloudflareScript.defer = true
-    cloudflareScript.setAttribute('type', 'text/javascript')
-    cloudflareScript.setAttribute('data-cfasync', 'false')
-    cloudflareScript.onload = this.onVideoLoaded
-    document.body.appendChild(cloudflareScript)
-  },
-
-  methods: {
-    onVideoLoaded () {
-      const video = this.$refs.cloudflareVideo
-      if (video) {
-        video.muted = !this.soundOn
-        video.addEventListener('ended', () => this.onCompleted())
+      if (this.autoplay) {
+        params.autoplay = true
       }
-      this.$emit('loaded')
-    },
-
-    onCompleted () {
-      this.$emit('completed')
-    },
-
-    playVideo () {
-      const video = this.$refs.cloudflareVideo
-      if (video && typeof video.pause === 'function') {
-        video.play()
+      if (this.loop) {
+        params.loop = true
       }
-    },
-
-    pauseVideo () {
-      const video = this.$refs.cloudflareVideo
-      if (video && typeof video.pause === 'function') {
-        video.pause()
+      if (!this.soundOn) {
+        params.muted = true
       }
+
+      params.controls = Boolean(this.controls)
+
+      params.preload = this.preload
+
+      if (this.backgroundColor) {
+        params.letterboxColor = encodeURIComponent(this.backgroundColor)
+      }
+
+      const arr = []
+      for (const [key, val] of Object.entries(params)) {
+        arr.push(`${key}=${val}`)
+      }
+      return `${baseUrl}?${arr.join('&')}`
     }
   }
 }
 </script>
 
 <template>
-  <div class="cloudflare-video-div">
-    <stream
-      ref="cloudflareVideo"
-      :preload="preload"
-      :poster="thumbnailUrl"
-      :src="videoCloudflareId"
-      controls
-    >
-      <track
-        v-if="cloudflareCaptionUrl"
-        kind="captions"
-        :src="cloudflareCaptionUrl"
-        default
-      >
-    </stream>
+  <div
+    class="cloudflare-video-div"
+    :style="`aspect-ratio:${aspectRatio}`"
+  >
+    <iframe
+      :src="videoUrl"
+      loading="lazy"
+      :style="`border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;aspect-ratio:${aspectRatio}`"
+      allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+      allowfullscreen="true"
+    />
   </div>
 </template>

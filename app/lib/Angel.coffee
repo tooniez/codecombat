@@ -27,14 +27,6 @@ module.exports = class Angel extends CocoClass
   constructor: (@shared) ->
     super()
     @say 'Got my wings.'
-    isIE = window.navigator and (window.navigator.userAgent.search('MSIE') isnt -1 or window.navigator.appName is 'Microsoft Internet Explorer')
-    slowerSimulations = isIE  #or @shared.headless
-    # Since IE is so slow to serialize without transferable objects, we can't trust it.
-    # We also noticed the headless_client simulator needing more time. (This does both Simulators, though.) If we need to use lots of headless clients, enable this.
-    if slowerSimulations
-      @infiniteLoopIntervalDuration *= 10
-      @infiniteLoopTimeoutDuration *= 10
-      @abortTimeoutDuration *= 10
 
     if utils.getQueryVariable('dev')
       # Set a very long timeout so that debugging can be done without infinite loop detection
@@ -82,7 +74,7 @@ module.exports = class Angel extends CocoClass
       # First step: worker has to load the scripts.
       when 'worker-initialized'
         unless @initialized
-          @log "Worker initialized after #{(new Date()) - @worker.creationTime}ms"
+          #@log "Worker initialized after #{(new Date()) - @worker.creationTime}ms"
           @initialized = true
           @doWork()
 

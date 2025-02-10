@@ -59,6 +59,7 @@ export default {
     },
 
     isPaidTeacher (_state, _getters, _rootState, rootGetters) {
+      // should fetch prepaids before if they haven't been
       const prepaids = rootGetters['prepaids/getPrepaidsByTeacher'](me.get('_id'))
       if (me.isPaidTeacher()) {
         return true
@@ -74,6 +75,18 @@ export default {
       }
 
       return me.isPremium()
+    },
+
+    isContentAccessible (state, getters) {
+      return (accessLevel) => {
+        const userAccessLevel = getters.isPaidTeacher ? 'paid' : 'free'
+        const userAccessMap = {
+          free: ['free'],
+          'sales-call': ['free', 'sales-call'],
+          paid: ['free', 'sales-call', 'paid'],
+        }
+        return userAccessMap[userAccessLevel].includes(accessLevel)
+      }
     },
 
     /**
@@ -113,14 +126,14 @@ export default {
 
     isPremium (state, getters) {
       return getters.isAdmin || getters.hasSubscription || getters.isInGodMode
-    }
+    },
   },
 
   mutations: {
     updateUser (state, updates) {
       // deep copy, since nested data may be changed, and vuex store restricts mutations
       return _.assign(state, $.extend(true, {}, updates))
-    }
+    },
   },
 
   actions: {
@@ -142,12 +155,12 @@ export default {
       const ozariaConfig = state.ozariaUserOptions || {}
       commit('updateUser', {
         ozariaUserOptions:
-        { ...ozariaConfig, avatar: { cinematicThangTypeId, cinematicPetThangId, avatarCodeString } }
+        { ...ozariaConfig, avatar: { cinematicThangTypeId, cinematicPetThangId, avatarCodeString } },
       })
     },
 
     authenticated ({ commit }, user) {
       commit('updateUser', user)
-    }
-  }
+    },
+  },
 }

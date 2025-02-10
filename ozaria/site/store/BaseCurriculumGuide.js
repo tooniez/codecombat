@@ -44,7 +44,7 @@ export default {
       return !(course?.free || isPaidTeacher || state.hasAccessViaSharedClass)
     },
 
-    selectedChapterId (state) {
+    selectedChapterId (state) { // TODO: chapter or campaign or course?
       return state.selectedCampaignId
     },
 
@@ -75,7 +75,12 @@ export default {
     getCurrentModuleNames (_state, getters, _rootState, _rootGetters) {
       return moduleNum => {
         const course = getters.getCurrentCourse
-        return utils.courseModules[course._id]?.[moduleNum]
+        let moduleInfo = Object.values(course.modules || {}).find(({ number }) => number === moduleNum || number === parseInt(moduleNum))
+        if (!moduleInfo && _.size(course.modules || {})) {
+          // Just match indexes in order, since module might not be numbered 1, 2, 3, but rather A1, A2, B1. Zero-indexed vs. one-indexed moduleNum.
+          moduleInfo = Object.values(course.modules)[parseInt(moduleNum) - 1]
+        }
+        return utils.i18n(moduleInfo || {}, 'name')
       }
     },
 
@@ -83,12 +88,19 @@ export default {
     getCurrentModuleHeadingInfo (_state, getters, _rootState, _rootGetters) {
       return moduleNum => {
         const course = getters.getCurrentCourse
-        let moduleNumber = moduleNum
-        if (typeof moduleNumber === 'string') {
-          moduleNumber = parseInt(moduleNum)
+        let moduleInfo = Object.values(course.modules || {}).find(({ number }) => number === moduleNum || number === parseInt(moduleNum))
+        if (!moduleInfo && _.size(course.modules || {})) {
+          // Just match indexes in order, since module might not be numbered 1, 2, 3, but rather A1, A2, B1. Zero-indexed vs. one-indexed moduleNum.
+          moduleInfo = Object.values(course.modules)[parseInt(moduleNum) - 1]
         }
-
-        const moduleInfo = Object.values(course.modules || {}).find(({ number }) => number === moduleNumber)
+        let lessonSlidesUrl = utils.i18n(moduleInfo || {}, 'lessonSlidesUrl')
+        if (lessonSlidesUrl) {
+          if (typeof lessonSlidesUrl === 'object') {
+            lessonSlidesUrl = lessonSlidesUrl[_state?.selectedLanguage || 'javascript'] || lessonSlidesUrl.javascript
+          }
+          moduleInfo = _.cloneDeep(moduleInfo)
+          moduleInfo.lessonSlidesUrl = lessonSlidesUrl
+        }
         return moduleInfo || {}
       }
     },
@@ -138,8 +150,9 @@ export default {
       }
     },
 
-    setSelectedCampaign ({ state, commit }, campaignID) {
+    setSelectedCampaign ({ state, commit, dispatch }, campaignID) {
       commit('setSelectedCampaignId', campaignID)
+      dispatch('gameContent/fetchGameContentForCampaign', { campaignId: campaignID }, { root: true })
     },
     setAccessViaSharedClass ({ commit }, access) {
       commit('setAccessViaSharedClass', access)

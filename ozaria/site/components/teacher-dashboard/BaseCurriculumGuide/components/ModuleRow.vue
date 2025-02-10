@@ -1,7 +1,10 @@
 <script>
 import ContentIcon from '../../common/icons/ContentIcon'
-import { mapGetters } from 'vuex'
 import { getGameContentDisplayType } from 'ozaria/site/common/ozariaUtils.js'
+import { aiToolToImage } from 'app/core/utils.js'
+import marked from 'marked'
+
+const aiProjectTypes = ['ai-use', 'ai-learn']
 
 export default {
   components: {
@@ -12,12 +15,27 @@ export default {
     iconType: {
       type: String,
       required: true,
-      validator: value => ['cutscene', 'cinematic', 'capstone', 'interactive', 'practicelvl', 'challengelvl', 'intro', 'hero', 'course-ladder', 'game-dev', 'web-dev'].indexOf(value) !== -1
+      validator: value => {
+        return ['cutscene', 'cinematic', 'capstone', 'interactive', 'practicelvl', 'challengelvl', 'intro', 'hero', 'course-ladder', 'game-dev', 'web-dev', 'ladder', 'challenge', 'ai-use', 'ai-learn'].indexOf(value) !== -1
+      }
+    },
+
+    nameType: {
+      type: String,
+      required: false,
+      default: null
     },
 
     displayName: {
       type: String,
-      required: true
+      required: true,
+      default: ''
+    },
+
+    levelNumber: {
+      type: [String, Number],
+      required: false,
+      default: ''
     },
 
     description: {
@@ -36,6 +54,7 @@ export default {
       default: false
     },
     showProgressDot: {
+      // uses in parent dashboard. do not remove
       type: Boolean,
       default: false
     },
@@ -45,40 +64,67 @@ export default {
     },
     identifier: {
       type: String
-    }
+    },
+    locked: {
+      type: Boolean,
+      default: false,
+    },
+    tool: {
+      type: String,
+      default: undefined,
+    },
   },
 
   data () {
     return {
-      showCode: false
+      showCode: false,
+      aiProjectTypes,
     }
   },
 
   computed: {
-    ...mapGetters({
-      isOnLockedCampaign: 'baseCurriculumGuide/isOnLockedCampaign'
-    }),
+    clearDescription () {
+      const description = marked(this.description).replace(/<[^>]*>/g, '')
+      const doc = new DOMParser().parseFromString(description, 'text/html')
+      return doc.documentElement.textContent
+    },
 
     moduleRowClass () {
       return {
-        locked: this.isOnLockedCampaign,
+        locked: this.locked,
         'part-of-intro': this.isPartOfIntro,
         'show-progress-dot': this.showProgressDot
       }
     },
 
     getContentTypeHeader () {
-      if (this.iconType) {
-        return getGameContentDisplayType(this.iconType, true, true)
+      if (this.nameType || this.iconType) {
+        const type = this.nameType ? this.nameType : this.iconType
+        if (this.aiProjectTypes.includes(type)) {
+          return ''
+        }
+        const name = getGameContentDisplayType(type, true, true)
+        return `${name}:`
       } else {
         return ''
       }
     }
   },
   methods: {
+    aiImage (tool) {
+      if (tool.includes('claude')) {
+        return aiToolToImage['claude-3']
+      } else if (tool.includes('dall-e')) {
+        return aiToolToImage['dall-e-3']
+      } else if (tool.includes('stable-diffusion')) {
+        return aiToolToImage['stable-diffusion-xl']
+      } else if (tool.includes('gpt-')) {
+        return aiToolToImage['gpt-4-turbo-preview']
+      }
+    },
     onShowCodeClicked () {
       this.showCode = !this.showCode
-      this.$emit('showCodeClicked', { identifier: this.identifier, hideCode: !this.showCode })
+      this.$emit('showCodeClicked', { identifier: this.identifier, hideCode: !this.showCode, levelNumber: this.levelNumber })
     }
   }
 }
@@ -98,11 +144,17 @@ export default {
         class="content-icon"
         :icon="iconType"
       />
+      <img
+        v-if="aiProjectTypes.includes(iconType)"
+        class="tool-image"
+        :src="aiImage(tool)"
+        :title="tool"
+      >
       <p class="content-heading">
-        <b>{{ getContentTypeHeader }}: {{ displayName }}</b>
+        <b>{{ `${levelNumber ? levelNumber : '' }${levelNumber ? (nameType ? '.' : ':') : ''} ${getContentTypeHeader} ${ displayName.replace('Course: ', '')}` }}</b>
       </p>
       <p class="content-desc">
-        {{ description }}
+        {{ clearDescription }}
       </p>
       <div
         v-if="showCodeBtn"
@@ -196,6 +248,8 @@ export default {
   .content-icon {
     width: 18px;
     height: 18px;
+    min-width: 18px;
+    min-height: 18px;
   }
 
   .content-desc {
@@ -242,4 +296,8 @@ export default {
       margin-left: 1rem;
     }
   }
+.tool-image {
+  width: 20px;
+  margin-right: 10px;
+}
 </style>

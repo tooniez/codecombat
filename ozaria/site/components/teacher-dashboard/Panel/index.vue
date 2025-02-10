@@ -1,6 +1,7 @@
 <script>
 import { mapMutations, mapGetters } from 'vuex'
 
+import AiScenario from './components/AiScenario'
 import StudentInfo from './components/StudentInfo'
 import ConceptCheckInfo from './components/ConceptCheckInfo'
 import PracticeLevel from './components/PracticeLevel'
@@ -10,6 +11,7 @@ import InsertCode from './components/InsertCode'
 import DraggableStatementCompletion from './components/DraggableStatementCompletion'
 import ContentIcon from '../common/icons/ContentIcon'
 import { getGameContentDisplayType } from 'ozaria/site/common/ozariaUtils.js'
+import { secondsToMinutesAndSeconds } from 'core/utils'
 
 export default {
   components: {
@@ -20,7 +22,8 @@ export default {
     DraggableOrdering,
     DraggableStatementCompletion,
     InsertCode,
-    ContentIcon
+    ContentIcon,
+    AiScenario
   },
 
   computed: {
@@ -30,8 +33,9 @@ export default {
       panelHeader: 'teacherDashboardPanel/panelHeader',
       studentInfo: 'teacherDashboardPanel/studentInfo',
       conceptCheck: 'teacherDashboardPanel/conceptCheck',
-      panelSessionContent: 'teacherDashboardPanel/panelSessionContent',
-      getTrackCategory: 'teacherDashboard/getTrackCategory'
+      panelSessionContents: 'teacherDashboardPanel/panelSessionContents',
+      getTrackCategory: 'teacherDashboard/getTrackCategory',
+      panelProjectContent: 'teacherDashboardPanel/panelProjectContent'
     }),
 
     footerLinkText () {
@@ -40,6 +44,13 @@ export default {
       } else {
         return ''
       }
+    },
+
+    formattedPracticeThreshold () {
+      if (!this.studentInfo.practiceThresholdMinutes) {
+        return null
+      }
+      return secondsToMinutesAndSeconds(this.studentInfo.practiceThresholdMinutes * 60)
     }
   },
 
@@ -56,6 +67,21 @@ export default {
 
     clickFooterLink () {
       window.tracker?.trackEvent('Track Progress: Progress Modal Footer Link Clicked', { category: this.getTrackCategory, label: this.panelFooter.icon })
+    },
+
+    getComponentName (type) {
+      switch (type) {
+      case 'PRACTICE_LEVEL':
+        return 'PracticeLevel'
+      case 'CAPSTONE_LEVEL':
+        return 'CapstoneLevel'
+      case 'DRAGGABLE_ORDERING':
+        return 'DraggableOrdering'
+      case 'DRAGGABLE_STATEMENT_COMPLETION':
+        return 'DraggableStatementCompletion'
+      default:
+        return null
+      }
     }
   }
 }
@@ -81,27 +107,20 @@ export default {
         :completed="studentInfo.completedContent"
       />
       <concept-check-info
+        v-if="conceptCheck"
         :concept-check="conceptCheck"
+        :practice-threshold="formattedPracticeThreshold"
       />
-      <practice-level
-        v-if="panelSessionContent && panelSessionContent.type === 'PRACTICE_LEVEL'"
+      <component
+        :is="getComponentName(panelSessionContent.type)"
+        v-for="panelSessionContent in panelSessionContents"
+        :key="panelSessionContent.id"
         :panel-session-content="panelSessionContent"
       />
-      <capstone-level
-        v-if="panelSessionContent && panelSessionContent.type === 'CAPSTONE_LEVEL'"
-        :panel-session-content="panelSessionContent"
-      />
-      <draggable-ordering
-        v-if="panelSessionContent && panelSessionContent.type === 'DRAGGABLE_ORDERING'"
-        :panel-session-content="panelSessionContent"
-      />
-      <draggable-statement-completion
-        v-if="panelSessionContent && panelSessionContent.type === 'DRAGGABLE_STATEMENT_COMPLETION'"
-        :panel-session-content="panelSessionContent"
-      />
-      <insert-code
-        v-if="panelSessionContent && panelSessionContent.type === 'INSERT_CODE'"
-        :panel-session-content="panelSessionContent"
+      <ai-scenario
+        v-if="panelProjectContent && panelProjectContent.aiScenario"
+        :ai-scenario="panelProjectContent.aiScenario"
+        :ai-projects="panelProjectContent.aiProjects"
       />
     </div>
     <div class="footer">

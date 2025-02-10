@@ -433,10 +433,6 @@ module.exports = (ThangTypeEditView = (function () {
         noty({ text: "Only accepts files ending with '.js'", type: 'error', timeout: 5000 })
         return
       }
-      if (!confirm('This button may have unknown effects. Are you sure you want to continue?')) {
-        noty({ text: "Cancelled import of '.js' file", type: 'info', timeout: 3000 })
-        return
-      }
       this.reader = new FileReader()
       this.reader.onload = this.onAnimateFileLoad
       return this.reader.readAsText(file)
@@ -747,7 +743,7 @@ module.exports = (ThangTypeEditView = (function () {
         this.lastKind = kind
         Backbone.Mediator.publish('editor:thang-type-kind-changed', { kind })
         if (['Doodad', 'Floor', 'Wall'].includes(kind) && !this.treema.data.terrains) {
-          this.treema.set('/terrains', ['Grass', 'Dungeon', 'Indoor', 'Desert', 'Mountain', 'Glacier', 'Volcano']) // So editors know to set them.
+          this.treema.set('/terrains', ['Grass', 'Dungeon', 'Indoor', 'Desert', 'Mountain', 'Glacier', 'Volcano', 'Junior']) // So editors know to set them.
         }
         if (!this.treema.data.tasks) {
           return this.treema.set('/tasks', (Array.from(defaultTasks[kind]).map((t) => ({ name: t }))))

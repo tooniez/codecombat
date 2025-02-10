@@ -3,7 +3,7 @@ CocoClass = require 'core/CocoClass'
 LevelLoader = require 'lib/LevelLoader'
 GoalManager = require 'lib/world/GoalManager'
 God = require 'lib/God'
-{createAetherOptions, replaceSimpleLoops} = require 'lib/aether_utils'
+{createAetherOptions, replaceSimpleLoops, fetchToken} = require 'lib/aether_utils'
 LZString = require 'lz-string'
 
 SIMULATOR_VERSION = 4
@@ -359,10 +359,17 @@ module.exports = class Simulator extends CocoClass
   cleanupAndSimulateAnotherTask: =>
     return if @destroyed
     @cleanupSimulation()
-    if @options.background or @noTasks
-      @fetchAndSimulateOneGame()
+    if me.get('email')?.includes('codecombat.com')
+      sleep = 2000
     else
-      @fetchAndSimulateTask()
+      sleep = Math.min(15000, (@simulatedByYou + 1) * 2000)
+
+    _.delay (=>
+      if @options.background or @noTasks
+        @fetchAndSimulateOneGame()
+      else
+        @fetchAndSimulateTask()
+    ), sleep
 
   cleanupSimulation: ->
     @stopListening @god
@@ -444,16 +451,7 @@ module.exports = class Simulator extends CocoClass
       .then(() => spells)
 
   fetchToken: (source, language, spell) =>
-    if language not in ['java', 'cpp'] or /^\u56E7[a-zA-Z0-9+/=]+\f$/.test source
-      return Promise.resolve({source: source, spell: spell})
-
-    headers =  { 'Accept': 'application/json', 'Content-Type': 'application/json' }
-    m = document.cookie.match(/JWT=([a-zA-Z0-9.]+)/)
-    service = window?.localStorage?.kodeKeeperService or "https://asm14w94nk.execute-api.us-east-1.amazonaws.com/service/parse-code-kodekeeper"
-    fetch service, {method: 'POST', mode:'cors', headers:headers, body:JSON.stringify({code: source, language: language})}
-    .then (x) => x.json()
-    .then (x) => {source: x.token, spell: spell}
-
+    fetchToken(source, language).then((token) => {source: token, spell: spell})
 
 class SimulationTask
   constructor: (@rawData) ->

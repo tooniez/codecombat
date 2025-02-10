@@ -61,7 +61,6 @@ module.exports = class RootView extends CocoView
     earnedAchievement.set('notified', true)
     earnedAchievement.patch()
     return if achievement.get('collection') is 'level.sessions' and not achievement.get('query')?.team
-    #return if @isIE()  # Some bugs in IE right now, TODO fix soon!  # Maybe working now with not caching achievement fetches in CocoModel?
     return if window.serverConfig.picoCTF
     return if achievement.get('hidden')
 
@@ -103,14 +102,20 @@ module.exports = class RootView extends CocoView
       .catch((err) -> errors.showNotyNetworkError(err))
 
   switchToStudentMode: ->
-    text = 'Switching to test student account..'
-    noty({ text, type: 'success', timeout: 5000, killer: true })
-    me.switchToStudentMode()
-      .then(() -> window.location.reload())
-      .catch((err) -> errors.showNotyNetworkError(err))
+    me.getTestStudentId()
+      .then (student) =>
+        if student.new
+          @openNewTestStudentModal(student.id)
+        else
+          text = $.i18n.t('teachers.switch_to_test_student')
+          noty({ text, type: 'success', timeout: 5000, killer: true })
+          me.spy({ id: student.id }).then(() -> document.location.reload())
+
+  openNewTestStudentModal: (id) ->
+    NewTestStudentModal = require 'views/core/NewTestStudentModal'
+    @openModalView new NewTestStudentModal(id)
 
   onClickSignupButton: (e) ->
-    CreateAccountModal = require 'views/core/CreateAccountModal'
     switch @id
       when 'home-view'
         properties = {
@@ -125,21 +130,33 @@ module.exports = class RootView extends CocoView
       else
         window.tracker?.trackEvent 'Started Signup', label: @id
     options = {}
+
+    if $(e.currentTarget).data('startOnPath')
+      options.startOnPath = $(e.currentTarget).data('startOnPath')
+
     if userUtils.isInLibraryNetwork()
       options.startOnPath = 'individual'
+
+    @openCreateAccountModal(options)
+
+  openCreateAccountModal: (options) ->
+    CreateAccountModal = require 'views/core/CreateAccountModal'
     @openModalView new CreateAccountModal(options)
 
   onClickLoginButton: (e) ->
     loginMessage = e.target.dataset.loginMessage
     nextUrl = e.target.dataset.nextUrl
-    AuthModal = require 'views/core/AuthModal'
     if @id is 'home-view'
       properties = { category: if utils.isCodeCombat then 'Homepage' else 'Home' }
       window.tracker?.trackEvent 'Login', properties
 
       eventAction = $(e.target)?.data('event-action')
       window.tracker?.trackEvent(eventAction, properties) if eventAction
-    @openModalView new AuthModal({loginMessage, nextUrl})
+    @openAuthModal({ loginMessage, nextUrl })
+
+  openAuthModal: (options) ->
+    AuthModal = require 'views/core/AuthModal'
+    @openModalView new AuthModal(options)
 
   onTrackClickEvent: (e) ->
     eventAction = $(e.target)?.closest('a')?.data('event-action')
@@ -189,6 +206,9 @@ module.exports = class RootView extends CocoView
     @addLanguagesToSelect($select, preferred)
     $('body').attr('lang', preferred)
 
+  initializeLanguageDropdown: (newLang) ->
+    @$el.find('.language-dropdown-current')?.text(locale[newLang].nativeDescription)
+
   addLanguagesToSelect: ($select, initialVal) ->
     # For now, we only want to support a few languages for Ozaria that we have people working to translate.
     filteredLocale = locale
@@ -200,7 +220,7 @@ module.exports = class RootView extends CocoView
       initialVal = 'en-US'
 
     if $select.is('ul') # base-flat
-      @$el.find('.language-dropdown-current')?.text(locale[initialVal].nativeDescription)
+      @initializeLanguageDropdown(initialVal)
 
     genericCodes = _.filter codes, (code) ->
       _.find(codes, (code2) ->
@@ -222,7 +242,7 @@ module.exports = class RootView extends CocoView
     targetElem = $(event.currentTarget)
     if targetElem.is('li') # base-flat template
       newLang = targetElem.data('code')
-      @$el.find('.language-dropdown-current')?.text(locale[newLang].nativeDescription)
+      @initializeLanguageDropdown(newLang)
     else # base template
       newLang = $('.language-dropdown').val()
     $.i18n.changeLanguage newLang, =>
@@ -232,9 +252,6 @@ module.exports = class RootView extends CocoView
 
   onLanguageLoaded: ->
     @render()
-    unless utils.isOzaria or me.get('preferredLanguage').split('-')[0] is 'en' or me.hideDiplomatModal()
-      DiplomatModal = require 'views/core/DiplomatSuggestionModal'
-      @openModalView(new DiplomatModal())
 
   saveLanguage: (newLang) ->
     me.set('preferredLanguage', newLang)

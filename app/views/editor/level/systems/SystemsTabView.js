@@ -20,6 +20,7 @@ const LevelSystem = require('models/LevelSystem')
 const LevelSystemEditView = require('./LevelSystemEditView')
 const NewLevelSystemModal = require('./NewLevelSystemModal')
 const AddLevelSystemModal = require('./AddLevelSystemModal')
+const utils = require('core/utils')
 const nodes = require('../treema_nodes')
 require('lib/setupTreema')
 
@@ -174,7 +175,7 @@ module.exports = (SystemsTabView = (function () {
 
     onTerrainChanged (e) {
       let AI, Vision
-      const defaultPathfinding = ['Dungeon', 'Indoor', 'Mountain', 'Glacier', 'Volcano'].includes(e.terrain)
+      const defaultPathfinding = ['Dungeon', 'Indoor', 'Mountain', 'Glacier', 'Volcano', 'Junior'].includes(e.terrain)
       let changed = false
       if (AI = this.systemsTreema.get('original=528110f30268d018e3000001')) {
         if ((AI.config != null ? AI.config.findsPaths : undefined) !== defaultPathfinding) {
@@ -203,7 +204,7 @@ module.exports = (SystemsTabView = (function () {
     }
 
     buildDefaultSystems () {
-      return [
+      const systems = [
         { original: '528112c00268d018e3000008', majorVersion: 0 }, // Event
         { original: '5280f83b8ae1581b66000001', majorVersion: 0 }, // Existence
         { original: '5281146f0268d018e3000014', majorVersion: 0 }, // Programming
@@ -221,8 +222,15 @@ module.exports = (SystemsTabView = (function () {
         { original: '528114040268d018e3000011', majorVersion: 0 }, // Physics
         { original: '52ae4f02a4dcd4415200000b', majorVersion: 0 }, // Display
         { original: '52e953e81b2028d102000004', majorVersion: 0 }, // Effect
-        { original: '52f1354370fb890000000005', majorVersion: 0 } // Magic
+        { original: '52f1354370fb890000000005', majorVersion: 0 }, // Magic
       ]
+      if (me.isAdmin() && utils.isCodeCombat) {
+        // Probably a better way to do this, but non-admins are probably not making Junior levels, and admins are probably usually making Junior levels and can delete this system if not
+        systems.push(
+          { original: '65b26a9e720a3caed74828bc', majorVersion: 0 }, // Junior
+        )
+      }
+      return systems
     }
 
     destroy () {

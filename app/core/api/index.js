@@ -2,8 +2,13 @@
 // Sanity-check the conversion and remove this comment.
 module.exports = {
   admin: require('./admin'),
+  aiJuniorScenarios: require('./ai-junior-scenarios'),
+  aiJuniorProjects: require('./ai-junior-projects'),
   apcsp: require('./apcsp'),
   analyticsLogEvents: require('./analytics-log-events'),
+  aiScenarios: require('./ai_scenarios'),
+  aiModels: require('./ai_models'),
+  aiProjects: require('./ai_projects'),
   campaigns: require('./campaigns'),
   chats: require('./chat_message'),
   clas: require('./clas'),
@@ -16,6 +21,7 @@ module.exports = {
   levels: require('./levels'),
   levelSessions: require('./level-sessions'),
   markdown: require('./markdown'),
+  oauth2identity: require('./oauth2identity'),
   prepaids: require('./prepaids'),
   resourceHubResources: require('./resource_hub_resource'),
   skippedContacts: require('./skipped-contacts'),
@@ -23,9 +29,12 @@ module.exports = {
   thangTypes: require('./thang-types'),
   trialRequests: require('./trial-requests'),
   userCodeProblems: require('./user-code-problems'),
+  userCredits: require('./user-credits'),
   users: require('./users'),
   apiClients: require('./api-clients'),
   oauth: require('./o-auth'),
   outcomesReports: require('./outcomes-reports'),
-  archivedElements: require('./archived-elements')
+  archivedElements: require('./archived-elements'),
+  backgroundJob: require('./background-job'),
+  lowUsageUsers: require('./low-usage-users')
 };

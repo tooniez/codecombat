@@ -4,14 +4,12 @@ import { COMPONENT_NAMES, PAGE_TITLES } from '../common/constants.js'
 import ClassStatCalculator from './components/ClassStatCalculator'
 import ModalEditClass from '../modals/ModalEditClass'
 import ModalAddStudents from '../modals/ModalAddStudents'
-import moment from 'moment'
 import ModalShareWithTeachers from '../modals/ModalShareWithTeachers'
-
 import BannerHoC from 'app/views/courses/BannerHoC'
-
 import ButtonsSchoolAdmin from './ButtonsSchoolAdmin'
-
 import PodcastItemContainer from 'app/views/courses/PodcastItemContainer'
+import sortClassroomMixin from '../mixins/sortClassroomMixin.js'
+import clubCampMixin from '../mixins/clubCampMixin'
 
 export default {
   name: COMPONENT_NAMES.MY_CLASSES_ALL,
@@ -24,6 +22,11 @@ export default {
     ModalShareWithTeachers,
     PodcastItemContainer
   },
+
+  mixins: [
+    sortClassroomMixin,
+    clubCampMixin,
+  ],
 
   props: {
     teacherId: { // sent from DSA
@@ -66,10 +69,15 @@ export default {
       classrooms.sort(this.classroomSortById)
       return classrooms
     },
+
     sortedSharedClassrooms () {
       const classrooms = [...this.sharedClassrooms]
       classrooms.sort(this.classroomSortById)
       return classrooms
+    },
+
+    showPodcast () {
+      return !me.isCodeNinja()
     }
   },
 
@@ -122,10 +130,10 @@ export default {
       this.showShareClassWithTeacherModal = true
       this.editClassroomObject = classroom
     },
-    classroomSortById (a, b) {
-      return moment(parseInt(b._id.substring(0, 8), 16) * 1000).diff(moment(parseInt(a._id.substring(0, 8), 16) * 1000))
-    }
-  }
+    showCreateStudents (_classroom) {
+      return false
+    },
+  },
 }
 </script>
 
@@ -237,11 +245,13 @@ export default {
     <modal-edit-class
       v-if="showEditClassModal"
       :classroom="editClassroomObject"
+      :as-club="isCodeNinjaClubCamp(editClassroomObject)"
       @close="showEditClassModal = false"
     />
     <modal-add-students
       v-if="showAddStudentsModal"
       :classroom="editClassroomObject"
+      :create-students="showCreateStudents(editClassroomObject)"
       @close="showAddStudentsModal = false"
     />
     <modal-share-with-teachers
@@ -250,7 +260,10 @@ export default {
       @close="showShareClassWithTeacherModal = false"
     />
 
-    <div class="container latest-podcast">
+    <div
+      v-if="showPodcast"
+      class="container latest-podcast"
+    >
       <h5 class="text-h5">
         {{ $t('teacher.from_the_podcast') }}
       </h5>

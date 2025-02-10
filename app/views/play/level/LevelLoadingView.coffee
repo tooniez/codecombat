@@ -24,6 +24,7 @@ module.exports = class LevelLoadingView extends CocoView
     'level:subscription-required': 'onSubscriptionRequired'  # If they'd need a subscription.
     'level:course-membership-required': 'onCourseMembershipRequired'  # If they need to be added to a course.
     'level:license-required': 'onLicenseRequired' # If they need a license.
+    'level:locked': 'onLevelLocked'
     'subscribe-modal:subscribed': 'onSubscribed'
 
   shortcuts:
@@ -60,14 +61,22 @@ module.exports = class LevelLoadingView extends CocoView
   onLevelLoaded: (e) ->
     return if @level
     @level = e.level
-    if utils.isCodeCombat
+    @$el.toggleClass 'codecombat-junior', @level.get('product', true) is 'codecombat-junior'
+    @$el.toggleClass 'codecombat', @level.get('product', true) is 'codecombat'
+    if utils.isCodeCombat and @level.get('product', true) is 'codecombat'
       @prepareGoals e
       @prepareTip()
       @prepareIntro()
+    else if @level.get('product', true) is 'codecombat-junior'
+      @prepareLevelName()
 
   onSessionLoaded: (e) ->
     return if @session
     @session = e.session if e.session.get('creator') is me.id
+
+  prepareLevelName: ->
+    name = utils.i18n(@level.attributes, 'displayName') or utils.i18n(@level.attributes, 'name')
+    @$el.find('.level-name').text(name).show()
 
   prepareGoals: ->
     @levelGoalsComponent = new LevelGoals({
@@ -138,7 +147,7 @@ module.exports = class LevelLoadingView extends CocoView
     if showIntro?
       autoUnveil = not showIntro
     else
-      autoUnveil = @options.autoUnveil or @session?.get('state').complete
+      autoUnveil = @options.autoUnveil or @session?.get('state').complete or @level.get('product', true) is 'codecombat-junior'
     if autoUnveil
       @startUnveiling()
       @unveil true
@@ -231,10 +240,17 @@ module.exports = class LevelLoadingView extends CocoView
     @unveilPreviewTime = new Date().getTime()
 
   resize: ->
-    maxHeight = $('#page-container').outerHeight(true)
+    goalsHeight = @$el.find('.level-loading-goals').outerHeight(true) or 0
+    introDocHeight = @$el.find('.intro-doc-content').outerHeight(true) or 100
+    maxHeight = Math.min $('#level-view').outerHeight(true), goalsHeight + introDocHeight + 100 + 0.11 * $(window).innerHeight() + 40
+    maxHeight = Math.max maxHeight, 0.5 * $(window).innerHeight()
     minHeight = $('#code-area').outerHeight(true)
-    minHeight -= 20
-    @$el.css height: maxHeight
+    if $('#code-area').offset().top > 100
+      # Code area is on the bottom; be just as tall as the game area instead
+      minHeight = $('#canvas-wrapper').outerHeight(true) + $('#control-bar-view').outerHeight(true)
+    minHeight -= 10
+    minHeight = Math.min minHeight, maxHeight
+    @$el.css height: '100%'
     @$loadingDetails.css minHeight: minHeight, maxHeight: maxHeight
     if @intro
       $intro = @$el.find('.intro-doc')
@@ -277,16 +293,24 @@ module.exports = class LevelLoadingView extends CocoView
 
   onSubscriptionRequired: (e) ->
     return if utils.isOzaria
-    @$el.find('.level-loading-goals, .tip, .progress-or-start-container').hide()
+    @$el.find('.level-loading-goals, .tip, .progress-or-start-container, .could-not-load').hide()
     @$el.find('.subscription-required').show()
+    @loadingErrorExplained = true
 
   onCourseMembershipRequired: (e) ->
-    @$el.find('.level-loading-goals, .tip, .progress-or-start-container').hide()
+    @$el.find('.level-loading-goals, .tip, .progress-or-start-container, .could-not-load').hide()
     @$el.find('.course-membership-required').show()
+    @loadingErrorExplained = true
 
   onLicenseRequired: (e) ->
-    @$el.find('.level-loading-goals, .tip, .progress-or-start-container').hide()
+    @$el.find('.level-loading-goals, .tip, .progress-or-start-container, .could-not-load').hide()
     @$el.find('.license-required').show()
+    @loadingErrorExplained = true
+
+  onLevelLocked: (e) ->
+    @$el.find('.level-loading-goals, .tip, .progress-or-start-container, .could-not-load').hide()
+    @$el.find('.level-locked').show()
+    @loadingErrorExplained = true
 
   onLoadError: (resource) ->
     startCase = (str) -> str.charAt(0).toUpperCase() + str.slice(1)
@@ -294,7 +318,7 @@ module.exports = class LevelLoadingView extends CocoView
     if resource.resource.jqxhr.status is 404
       @$el.find('.resource-not-found>span').text($.i18n.t('loading_error.resource_not_found', {resource: startCase(resource.resource.name)}))
       @$el.find('.resource-not-found').show()
-    else
+    else unless @loadingErrorExplained
       @$el.find('.could-not-load').show()
 
   onClickStartSubscription: (e) ->
