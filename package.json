@@ -131,7 +131,7 @@
     "jquery-i18next": "^1.2.1",
     "jquery-mousewheel": "~3.1.9",
     "jquery.browser": "~0.0.6",
-    "jshint": "~2.3.0",
+    "jshint": "~2.13.6",
     "json-loader": "^0.5.4",
     "jsondiffpatch": "^0.4.1",
     "jwt-decode": "^3.1.2",
